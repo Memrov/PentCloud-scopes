@@ -2,9 +2,9 @@
   "id": "hackerone:stripe",
   "metadata": {
     "allows_bounty_splitting": true,
-    "average_time_to_bounty_awarded": 319.0,
+    "average_time_to_bounty_awarded": 323.0,
     "average_time_to_first_program_response": 1.0,
-    "average_time_to_report_resolved": 827.0,
+    "average_time_to_report_resolved": 833.0,
     "handle": "stripe",
     "id": 0,
     "managed_program": true,
@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "05fb1362bc2b6d79d4840210608dc0c6034bf2745defc724a8857dc490d3d979",
+    "record_sha256": "45caf5aefbf7e61dce05c9fbbf847cb51ba008ca87a4aa08e889731317e7a724",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "stripe",
@@ -916,6 +916,24 @@
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "files.stripe.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "files.stripe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
         "instructions": "https://stripe.com/docs/js\n\nSample Stripe.js application: https://github.com/stripe-samples/accept-a-card-payment",
         "raw": {
           "asset_identifier": "js.stripe.com",
@@ -948,6 +966,42 @@
         },
         "type": "URL",
         "value": "mcp.stripe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "stripe.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "stripe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "stripe.dev",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "stripe.dev"
       },
       {
         "eligible_for_bounty": false,

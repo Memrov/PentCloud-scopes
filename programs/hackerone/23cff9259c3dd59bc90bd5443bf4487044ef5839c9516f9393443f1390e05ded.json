@@ -2,9 +2,9 @@
   "id": "hackerone:hostinger",
   "metadata": {
     "allows_bounty_splitting": true,
-    "average_time_to_bounty_awarded": 98.0,
+    "average_time_to_bounty_awarded": 97.0,
     "average_time_to_first_program_response": 4.0,
-    "average_time_to_report_resolved": 738.0,
+    "average_time_to_report_resolved": 742.0,
     "handle": "hostinger",
     "id": 0,
     "managed_program": false,
@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "57f7b51a2f35d4cf96c23cf6ac6db71bcef5288ce5e7c3f0bb9a0560095e8af4",
+    "record_sha256": "458df57e987cfdbb7e8c79f66218dc893e5e842c97cfb29b62fd7abd117e5a5f",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "hostinger",
@@ -84,6 +84,24 @@
         },
         "type": "URL",
         "value": "agents.hostinger.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "ai-builder.hostinger.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "ai-builder.hostinger.com"
       },
       {
         "eligible_for_bounty": true,
