@@ -1,0 +1,535 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/epam-mbb-og",
+  "metadata": {
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "max_payout": 1000,
+    "name": "EPAM Systems Managed Bug Bounty Program",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/epam-mbb-og"
+  },
+  "name": "EPAM Systems Managed Bug Bounty Program",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "a0ef20b8c47ca644174fc03e2b36f167dbeddf3b44bc0c6219ec64764b4bf331",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/epam-mbb-og",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.epam.com",
+          "target": "https://www.epam.com/",
+          "type": "website",
+          "uri": "https://www.epam.com/"
+        },
+        "type": "website",
+        "value": "https://www.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Subdomain takeover",
+          "target": "https://*.epam.com",
+          "type": "other",
+          "uri": "https://*.epam.com"
+        },
+        "type": "other",
+        "value": "https://*.epam.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.projects.epam.com",
+          "target": "https://projects.epam.com",
+          "type": "website",
+          "uri": "https://projects.epam.com"
+        },
+        "type": "website",
+        "value": "https://projects.epam.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.lab.epam.com",
+          "target": "https://lab.epam.com",
+          "type": "website",
+          "uri": "https://lab.epam.com"
+        },
+        "type": "website",
+        "value": "https://lab.epam.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.opensource.epam.com",
+          "target": "https://opensource.epam.com",
+          "type": "website",
+          "uri": "https://opensource.epam.com"
+        },
+        "type": "website",
+        "value": "https://opensource.epam.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.emakina.nl ",
+          "target": "*.emakina.nl ",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.emakina.nl "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.emakina.group",
+          "target": "*.emakina.group",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.emakina.group"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.emakina.com",
+          "target": "*.emakina.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.emakina.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.emakina.ch",
+          "target": "*.emakina.ch",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.emakina.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.emakina.fr",
+          "target": "*.emakina.fr",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.emakina.fr"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.emakina.us",
+          "target": "*.emakina.us",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.emakina.us"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.emakina.at",
+          "target": "*.emakina.at",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.emakina.at"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "open redirect at *.epam.com",
+          "target": "open redirect at *.epam.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "open redirect at *.epam.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Open redirect at *.projects.epam.com, *.lab.epam.com, *.opensource.epam.com",
+          "target": "Open redirect at *.projects.epam.com, *.lab.epam.com, *.opensource.epam.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "Open redirect at *.projects.epam.com, *.lab.epam.com, *.opensource.epam.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "In Scope - Points only",
+          "target": "In Scope - Points only",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "In Scope - Points only"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "ethics.epam.com",
+          "target": "https://ethics.epam.com/",
+          "type": "website",
+          "uri": "https://ethics.epam.com/"
+        },
+        "type": "website",
+        "value": "https://ethics.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "profile.epam.com",
+          "target": "https://profile.epam.com",
+          "type": "website",
+          "uri": "https://profile.epam.com"
+        },
+        "type": "website",
+        "value": "https://profile.epam.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "carbon.epam.com",
+          "target": "https://carbon.epam.com/",
+          "type": "website",
+          "uri": "https://carbon.epam.com/"
+        },
+        "type": "website",
+        "value": "https://carbon.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "infongen.com",
+          "target": "https://www.infongen.com/",
+          "type": "website",
+          "uri": "https://www.infongen.com/"
+        },
+        "type": "website",
+        "value": "https://www.infongen.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "ebn.epam.com",
+          "target": "http://ebn.epam.com/",
+          "type": "website",
+          "uri": "http://ebn.epam.com/"
+        },
+        "type": "website",
+        "value": "http://ebn.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "solutionshub.epam.com",
+          "target": "https://solutionshub.epam.com/",
+          "type": "website",
+          "uri": "https://solutionshub.epam.com/"
+        },
+        "type": "website",
+        "value": "https://solutionshub.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "telescopeai.com",
+          "target": "https://www.telescopeai.com/",
+          "type": "website",
+          "uri": "https://www.telescopeai.com/"
+        },
+        "type": "website",
+        "value": "https://www.telescopeai.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "wearecommunity.io",
+          "target": "https://wearecommunity.io/",
+          "type": "website",
+          "uri": "https://wearecommunity.io/"
+        },
+        "type": "website",
+        "value": "https://wearecommunity.io/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "cami.lab.epam.com",
+          "target": "https://cami.lab.epam.com/",
+          "type": "website",
+          "uri": "https://cami.lab.epam.com/"
+        },
+        "type": "website",
+        "value": "https://cami.lab.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "ellie.lab.epam.com",
+          "target": "https://ellie.lab.epam.com/",
+          "type": "website",
+          "uri": "https://ellie.lab.epam.com/"
+        },
+        "type": "website",
+        "value": "https://ellie.lab.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "apex.lab.epam.com",
+          "target": "https://apex.lab.epam.com/",
+          "type": "website",
+          "uri": "https://apex.lab.epam.com/"
+        },
+        "type": "website",
+        "value": "https://apex.lab.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "investors.epam.com",
+          "target": "https://investors.epam.com/",
+          "type": "website",
+          "uri": "https://investors.epam.com/"
+        },
+        "type": "website",
+        "value": "https://investors.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "ecsd00300769.epam.com",
+          "target": "https://ecsd00300769.epam.com/",
+          "type": "website",
+          "uri": "https://ecsd00300769.epam.com/"
+        },
+        "type": "website",
+        "value": "https://ecsd00300769.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "display.epam.com",
+          "target": "https://display.epam.com/",
+          "type": "website",
+          "uri": "https://display.epam.com/"
+        },
+        "type": "website",
+        "value": "https://display.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "info.epam.com",
+          "target": "https://info.epam.com",
+          "type": "website",
+          "uri": "https://info.epam.com"
+        },
+        "type": "website",
+        "value": "https://info.epam.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "admin-ui.preship.gcp.gnrg-osdu.projects.epam.com",
+          "target": "https://admin-ui.preship.gcp.gnrg-osdu.projects.epam.com",
+          "type": "website",
+          "uri": "https://admin-ui.preship.gcp.gnrg-osdu.projects.epam.com"
+        },
+        "type": "website",
+        "value": "https://admin-ui.preship.gcp.gnrg-osdu.projects.epam.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "support.epam.com/",
+          "target": "https://support.epam.com/",
+          "type": "website",
+          "uri": "https://support.epam.com/"
+        },
+        "type": "website",
+        "value": "https://support.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "customersupport.epam.com",
+          "target": "https://customersupport.epam.com/",
+          "type": "website",
+          "uri": "https://customersupport.epam.com/"
+        },
+        "type": "website",
+        "value": "https://customersupport.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "supportnow.epam.com",
+          "target": "https://supportnow.epam.com/",
+          "type": "website",
+          "uri": "https://supportnow.epam.com/"
+        },
+        "type": "website",
+        "value": "https://supportnow.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "anywhere.epam.com",
+          "target": "https://anywhere.epam.com/",
+          "type": "website",
+          "uri": "https://anywhere.epam.com/"
+        },
+        "type": "website",
+        "value": "https://anywhere.epam.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.buddybot.lab.epam.com",
+          "target": "https://*buddybot.lab.epam.com",
+          "type": "website",
+          "uri": "https://*buddybot.lab.epam.com"
+        },
+        "type": "website",
+        "value": "https://*buddybot.lab.epam.com"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/epam-mbb-og"
+}

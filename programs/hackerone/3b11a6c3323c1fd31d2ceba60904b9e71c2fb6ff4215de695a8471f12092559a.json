@@ -1,0 +1,1029 @@
+{
+  "id": "hackerone:stripe",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 319.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 827.0,
+    "handle": "stripe",
+    "id": 0,
+    "managed_program": true,
+    "name": "Stripe",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 76,
+    "submission_state": "open",
+    "url": "https://hackerone.com/stripe",
+    "website": "https://stripe.com"
+  },
+  "name": "Stripe",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "05fb1362bc2b6d79d4840210608dc0c6034bf2745defc724a8857dc490d3d979",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "stripe",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Stripe [acquired](https://stripe.com/ae/newsroom/news/stripe-completes-bridge-acquisition) Bridge in February 2025.\n\nBridge does not currently have a self-service sign-up option. Scope for the bug bounty program is limited to researchers testing api.bridge.xyz ([documentation](https://apidocs.bridge.xyz/docs/api-summary)) or Dashboard ([login](https://dashboard.bridge.xyz/)) without credentials at this time. Because of this, the program is interested in potential authentication bypasses or vulnerabilities that surface without valid credentials. In the future, the program may expand to include credentialed testing.\n\nOther static content domains like Bridge's [marketing](https://www.bridge.xyz/) or [docs](https://apidocs.bridge.xyz/) site are out-of-scope.",
+        "raw": {
+          "asset_identifier": "*.bridge.xyz",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Stripe [acquired](https://stripe.com/ae/newsroom/news/stripe-completes-bridge-acquisition) Bridge in February 2025.\n\nBridge does not currently have a self-service sign-up option. Scope for the bug bounty program is limited to researchers testing api.bridge.xyz ([documentation](https://apidocs.bridge.xyz/docs/api-summary)) or Dashboard ([login](https://dashboard.bridge.xyz/)) without credentials at this time. Because of this, the program is interested in potential authentication bypasses or vulnerabilities that surface without valid credentials. In the future, the program may expand to include credentialed testing.\n\nOther static content domains like Bridge's [marketing](https://www.bridge.xyz/) or [docs](https://apidocs.bridge.xyz/) site are out-of-scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.bridge.xyz"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " Lemon Squeezy is the all-in-one platform for running your SaaS business. Payments, subscriptions, global tax compliance, fraud prevention, multi-currency support, failed payment recovery, PayPal integration and more.\n\nLemon Squeezy was acquired by Stripe in July 2024. As an acquisition, Lemon Squeezy pays out at the rate schedule listed on our [program page](https://hackerone.com/stripe?type=team#:~:text=In%2Dscope%20acquisition%20bounty%20ranges%20(e.g.%2C%20TaxJar%2C%20Recko%2C%20Bouncer%2C%20Lemon%20Squeezy)).",
+        "raw": {
+          "asset_identifier": "*.lemonsqueezy.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " Lemon Squeezy is the all-in-one platform for running your SaaS business. Payments, subscriptions, global tax compliance, fraud prevention, multi-currency support, failed payment recovery, PayPal integration and more.\n\nLemon Squeezy was acquired by Stripe in July 2024. As an acquisition, Lemon Squeezy pays out at the rate schedule listed on our [program page](https://hackerone.com/stripe?type=team#:~:text=In%2Dscope%20acquisition%20bounty%20ranges%20(e.g.%2C%20TaxJar%2C%20Recko%2C%20Bouncer%2C%20Lemon%20Squeezy)).",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.lemonsqueezy.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Link is a simple and secure way to pay in one click on tens of thousands of sites. Save your payment information with Link the first time you check out. Link will autofill your saved card details and shipping addresses for all future purchases on Link-supported sites. Users can manage their saved information on the link.co website.\n\nLanding page: https://link.com\nMain application: https://app.link.com\nSupport page: https://support.link.com",
+        "raw": {
+          "asset_identifier": "*.link.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Link is a simple and secure way to pay in one click on tens of thousands of sites. Save your payment information with Link the first time you check out. Link will autofill your saved card details and shipping addresses for all future purchases on Link-supported sites. Users can manage their saved information on the link.co website.\n\nLanding page: https://link.com\nMain application: https://app.link.com\nSupport page: https://support.link.com",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.link.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Stripe [acquired](https://stripe.com/newsroom/news/stripe-completes-metronome-acquisition) Metronome in January 2026.\n\nTo create an account for testing follow the steps below:\n* Visit metronome.com\n* Click \"Get started\" (not \"Talk to an expert\")\n* Choose 1-10 for \"How many employees are at your company?\"\n* Complete account sign-up using your @wearehackerone.com email\n\nScope for the bug bounty program is limited to researchers testing (app|auth|api).metronone.com as well as [Metronome SDKs](https://docs.metronome.com/api-reference/sdks).\n\nStatic content domains like Metronome's marketing or docs site are out-of-scope unless there is a vulnerability that can be used to impact or exfiltrate user data. `/apollo` endpoints are public information available by that third-party's same public endpoints at https://www.apollo.io/\n\nsignup.metronome.com is hosted by a third-party. Please note, findings that only affect that third-party without Metronome impact will not be awarded.\n---\nPLG sandbox users are intentionally allowed to create API tokens for their sandbox account. When creating a token, the user may select an available role, including a role whose permissions are broader than those held by their interactive session. This supports delegated and programmatic access patterns and is not, by itself, considered a privilege escalation.\n\nThe relevant authorization boundary is the token’s client/tenant and environment scope, not the role label. An Admin-scoped token issued for a PLG sandbox account is expected to administer resources belonging to that same sandbox account, including customers, billing configuration, credit grants, usage events, and embedded-dashboard access for that account.\n\nThe following are generally out of scope / Informational when confined to the researcher’s own PLG sandbox account:\n* Creating an API token with an Admin or otherwise broader role.\n* Bypassing a client-side role-picker restriction to select such a role.\n* Reading, creating, modifying, archiving, or otherwise administering customer and billing objects belonging to the same sandbox client.\n* Creating embedded-dashboard credentials or other derived credentials that remain scoped to that same client and environment.\n\nWe do consider reports valid when they demonstrate that a PLG-issued token crosses an intended authorization boundary. For example:\n* Accessing or modifying data belonging to a different Metronome client/tenant;\n* Accessing or modifying Production resources when the token was issued only for a PLG sandbox context;\n* Obtaining authorization that persists outside the token’s intended client/environment scope.\n\nFor claims of cross-tenant access, please provide the affected resource ID, the token’s issuing client/environment, and evidence that the resource belongs to a separately controlled test tenant. Please use researcher-controlled test tenants only and avoid accessing or modifying real customer data.",
+        "raw": {
+          "asset_identifier": "*.metronome.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Stripe [acquired](https://stripe.com/newsroom/news/stripe-completes-metronome-acquisition) Metronome in January 2026.\n\nTo create an account for testing follow the steps below:\n* Visit metronome.com\n* Click \"Get started\" (not \"Talk to an expert\")\n* Choose 1-10 for \"How many employees are at your company?\"\n* Complete account sign-up using your @wearehackerone.com email\n\nScope for the bug bounty program is limited to researchers testing (app|auth|api).metronone.com as well as [Metronome SDKs](https://docs.metronome.com/api-reference/sdks).\n\nStatic content domains like Metronome's marketing or docs site are out-of-scope unless there is a vulnerability that can be used to impact or exfiltrate user data. `/apollo` endpoints are public information available by that third-party's same public endpoints at https://www.apollo.io/\n\nsignup.metronome.com is hosted by a third-party. Please note, findings that only affect that third-party without Metronome impact will not be awarded.\n---\nPLG sandbox users are intentionally allowed to create API tokens for their sandbox account. When creating a token, the user may select an available role, including a role whose permissions are broader than those held by their interactive session. This supports delegated and programmatic access patterns and is not, by itself, considered a privilege escalation.\n\nThe relevant authorization boundary is the token’s client/tenant and environment scope, not the role label. An Admin-scoped token issued for a PLG sandbox account is expected to administer resources belonging to that same sandbox account, including customers, billing configuration, credit grants, usage events, and embedded-dashboard access for that account.\n\nThe following are generally out of scope / Informational when confined to the researcher’s own PLG sandbox account:\n* Creating an API token with an Admin or otherwise broader role.\n* Bypassing a client-side role-picker restriction to select such a role.\n* Reading, creating, modifying, archiving, or otherwise administering customer and billing objects belonging to the same sandbox client.\n* Creating embedded-dashboard credentials or other derived credentials that remain scoped to that same client and environment.\n\nWe do consider reports valid when they demonstrate that a PLG-issued token crosses an intended authorization boundary. For example:\n* Accessing or modifying data belonging to a different Metronome client/tenant;\n* Accessing or modifying Production resources when the token was issued only for a PLG sandbox context;\n* Obtaining authorization that persists outside the token’s intended client/environment scope.\n\nFor claims of cross-tenant access, please provide the affected resource ID, the token’s issuing client/environment, and evidence that the resource belongs to a separately controlled test tenant. Please use researcher-controlled test tenants only and avoid accessing or modifying real customer data.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.metronome.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.recko.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.recko.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.reckoproduction.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.reckoproduction.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.reckostaging.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.reckostaging.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.stripe.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.stripe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Stripe iOS Dashboard App\nApp Store URL: https://apps.apple.com/us/app/stripe-dashboard/id978516833",
+        "raw": {
+          "asset_identifier": "978516833",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Stripe iOS Dashboard App\nApp Store URL: https://apps.apple.com/us/app/stripe-dashboard/id978516833",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "978516833"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Give your customers the ability to manage their account by setting up a customer portal. Configure the portal in the Dashboard, or use the API to implement advanced features, such as setting up unique configurations for different customers or for connected accounts\n\nDocumentation: https://docs.stripe.com/customer-management",
+        "raw": {
+          "asset_identifier": "Customer Portal",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Give your customers the ability to manage their account by setting up a customer portal. Configure the portal in the Dashboard, or use the API to implement advanced features, such as setting up unique configurations for different customers or for connected accounts\n\nDocumentation: https://docs.stripe.com/customer-management",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Customer Portal"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Global Payouts allows you to send funds directly to any third party in their local currency.\n\nDocumentation: https://docs.stripe.com/global-payouts",
+        "raw": {
+          "asset_identifier": "Global Payouts",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Global Payouts allows you to send funds directly to any third party in their local currency.\n\nDocumentation: https://docs.stripe.com/global-payouts",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Global Payouts"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://github.com/stripe/munkisrv\n\nStripe's munkisrv open source project is in scope but severity is evaluated using Stripe specific threat models based on how it is used internally. Reports would have to demonstrate impact to Stripe's internal usage of munkisrv as a Munki repository server to be considered in scope. Examples would include a signed URL bypass, unauthorized access to CloudFront resources, and other vulnerabilities that would impact Stripe's internal usage.",
+        "raw": {
+          "asset_identifier": "Munkisrv Open Source Project",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://github.com/stripe/munkisrv\n\nStripe's munkisrv open source project is in scope but severity is evaluated using Stripe specific threat models based on how it is used internally. Reports would have to demonstrate impact to Stripe's internal usage of munkisrv as a Munki repository server to be considered in scope. Examples would include a signed URL bypass, unauthorized access to CloudFront resources, and other vulnerabilities that would impact Stripe's internal usage.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Munkisrv Open Source Project"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Description: Sandboxes is the default testing tool offered by Stripe. Sandboxes now has support for all Stripe products (including Stripe Apps, Sigma, and BaaS products). They allow a merchant to now have multiple, isolated ephemeral testing environments rather than the 1:1 model of test mode and its live account.\n\nDocumentation: https://docs.stripe.com/sandboxes\n\nThreat Model:\n* Safely copying data from Sandbox to live mode (and vice versa)\n* Do testing activities impact the livemode account? (Excluding intentional copying of data to livemode)\n* Do sandbox-only roles only give access to Sandboxes?",
+        "raw": {
+          "asset_identifier": "Sandboxes",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Description: Sandboxes is the default testing tool offered by Stripe. Sandboxes now has support for all Stripe products (including Stripe Apps, Sigma, and BaaS products). They allow a merchant to now have multiple, isolated ephemeral testing environments rather than the 1:1 model of test mode and its live account.\n\nDocumentation: https://docs.stripe.com/sandboxes\n\nThreat Model:\n* Safely copying data from Sandbox to live mode (and vice versa)\n* Do testing activities impact the livemode account? (Excluding intentional copying of data to livemode)\n* Do sandbox-only roles only give access to Sandboxes?",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Sandboxes"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://github.com/stripe/smokescreen\n\nStripe's Smokescreen open source project is in scope but severity is evaluated using Stripe specific threat models based on how it is used internally. Reports would have to demonstrate impact to Stripe's internal usage of Smokescreen as an egress proxy to be considered in scope. Examples would include a domain allowlist bypass and SSRF where an external attacker could impact Stripe's internal usage. DoS vulnerabilities are out of scope.",
+        "raw": {
+          "asset_identifier": "Smokescreen Open Source Project",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://github.com/stripe/smokescreen\n\nStripe's Smokescreen open source project is in scope but severity is evaluated using Stripe specific threat models based on how it is used internally. Reports would have to demonstrate impact to Stripe's internal usage of Smokescreen as an egress proxy to be considered in scope. Examples would include a domain allowlist bypass and SSRF where an external attacker could impact Stripe's internal usage. DoS vulnerabilities are out of scope.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Smokescreen Open Source Project"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Vulnerabilities found in third party apps  and their backend infrastructure should be reported to the responsible developer.\nReporters should only report vulnerabilities in Stripe third party apps to Stripe under this program if they do not receive a satisfactory response from the responsible developer. These types of reports are not eligible for a bounty.",
+        "raw": {
+          "asset_identifier": "Stripe Apps",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Vulnerabilities found in third party apps  and their backend infrastructure should be reported to the responsible developer.\nReporters should only report vulnerabilities in Stripe third party apps to Stripe under this program if they do not receive a satisfactory response from the responsible developer. These types of reports are not eligible for a bounty.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Apps"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Startup incorporation\n\nDocs: https://stripe.com/docs/atlas",
+        "raw": {
+          "asset_identifier": "Stripe Atlas",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Startup incorporation\n\nDocs: https://stripe.com/docs/atlas",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Atlas"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Create and manage subscriptions, track usage, and issue invoices.\n\nSee Metronome for Stripe's usage-based billing solution. https://docs.stripe.com/billing/usage-based\n\nDocumentation:\n* https://stripe.com/docs/billing\n* https://docs.stripe.com/subscriptions\n* https://docs.stripe.com/invoicing\n\nSample Billing applications:\n* [stripe-samples/subscription-use-cases](https://github.com/stripe-samples/subscription-use-cases): Create subscriptions with fixed prices or usage based billing.\n* [stripe-samples/checkout-single-subscription](https://github.com/stripe-samples/checkout-single-subscription): Learn how to combine Checkout and Billing for fast subscription pages",
+        "raw": {
+          "asset_identifier": "Stripe Billing",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Create and manage subscriptions, track usage, and issue invoices.\n\nSee Metronome for Stripe's usage-based billing solution. https://docs.stripe.com/billing/usage-based\n\nDocumentation:\n* https://stripe.com/docs/billing\n* https://docs.stripe.com/subscriptions\n* https://docs.stripe.com/invoicing\n\nSample Billing applications:\n* [stripe-samples/subscription-use-cases](https://github.com/stripe-samples/subscription-use-cases): Create subscriptions with fixed prices or usage based billing.\n* [stripe-samples/checkout-single-subscription](https://github.com/stripe-samples/checkout-single-subscription): Learn how to combine Checkout and Billing for fast subscription pages",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Billing"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Use the Stripe CLI to build, test, and manage your integration from the command line. Use the Stripe CLI to perform common tasks such as calling an API, testing a webhooks integration, and creating an application.\n\nDocumentation: https://docs.stripe.com/stripe-cli\n\nSee Stripe Projects for further information about a Stripe-developed CLI plugin.",
+        "raw": {
+          "asset_identifier": "Stripe CLI",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Use the Stripe CLI to build, test, and manage your integration from the command line. Use the Stripe CLI to perform common tasks such as calling an API, testing a webhooks integration, and creating an application.\n\nDocumentation: https://docs.stripe.com/stripe-cli\n\nSee Stripe Projects for further information about a Stripe-developed CLI plugin.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe CLI"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Docs: https://docs.stripe.com/capital/how-stripe-capital-works",
+        "raw": {
+          "asset_identifier": "Stripe Capital",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Docs: https://docs.stripe.com/capital/how-stripe-capital-works",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Capital"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Prebuilt, Stripe hosted checkout page\n\nURL: https://checkout.stripe.com/\nDocs: https://stripe.com/docs/payments/checkout\n\nSample Checkout applications:\n* [stripe-samples/checkout-subscription-and-add-on](https://github.com/stripe-samples/checkout-subscription-and-add-on): Uses Stripe Checkout to create a payment page that starts a subscription for a new customer.\n* [stripe-samples/checkout-one-time-payments](https://github.com/stripe-samples/checkout-one-time-payments): Use Checkout to quickly collect one-time payments.",
+        "raw": {
+          "asset_identifier": "Stripe Checkout",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Prebuilt, Stripe hosted checkout page\n\nURL: https://checkout.stripe.com/\nDocs: https://stripe.com/docs/payments/checkout\n\nSample Checkout applications:\n* [stripe-samples/checkout-subscription-and-add-on](https://github.com/stripe-samples/checkout-subscription-and-add-on): Uses Stripe Checkout to create a payment page that starts a subscription for a new customer.\n* [stripe-samples/checkout-one-time-payments](https://github.com/stripe-samples/checkout-one-time-payments): Use Checkout to quickly collect one-time payments.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Checkout"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Docs: https://docs.stripe.com/climate",
+        "raw": {
+          "asset_identifier": "Stripe Climate",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Docs: https://docs.stripe.com/climate",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Climate"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Payments for platforms and marketplaces\n\nDocs: https://stripe.com/docs/connect\n\nSample Connect applications:\n* [stripe/stripe-demo-connect-kavholm-marketplace](https://github.com/stripe/stripe-demo-connect-kavholm-marketplace): Demo app for Global Marketplace using Stripe Connect\n* [stripe/stripe-connect-rocketrides](https://github.com/stripe/stripe-connect-rocketrides): Sample on-demand platform built on Stripe: Connect onboarding for pilots, iOS app for passengers to request rides.",
+        "raw": {
+          "asset_identifier": "Stripe Connect",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Payments for platforms and marketplaces\n\nDocs: https://stripe.com/docs/connect\n\nSample Connect applications:\n* [stripe/stripe-demo-connect-kavholm-marketplace](https://github.com/stripe/stripe-demo-connect-kavholm-marketplace): Demo app for Global Marketplace using Stripe Connect\n* [stripe/stripe-connect-rocketrides](https://github.com/stripe/stripe-connect-rocketrides): Sample on-demand platform built on Stripe: Connect onboarding for pilots, iOS app for passengers to request rides.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Connect"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "A user interface to operate and configure your Stripe account.\n\nURL: https://dashboard.stripe.com\nDocs: https://stripe.com/docs/dashboard",
+        "raw": {
+          "asset_identifier": "Stripe Dashboard",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "A user interface to operate and configure your Stripe account.\n\nURL: https://dashboard.stripe.com\nDocs: https://stripe.com/docs/dashboard",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Dashboard"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Docs: https://docs.stripe.com/stripe-data/access-data-in-warehouse",
+        "raw": {
+          "asset_identifier": "Stripe Data Pipeline",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Docs: https://docs.stripe.com/stripe-data/access-data-in-warehouse",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Data Pipeline"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Secure frontend UI component\n\nDocs: https://stripe.com/docs/stripe-js\n\nSample Stripe Elements application: [stripe/elements-examples](https://github.com/stripe/elements-examples): Stripe Elements examples",
+        "raw": {
+          "asset_identifier": "Stripe Elements",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Secure frontend UI component\n\nDocs: https://stripe.com/docs/stripe-js\n\nSample Stripe Elements application: [stripe/elements-examples](https://github.com/stripe/elements-examples): Stripe Elements examples",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Elements"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://docs.stripe.com/financial-connections",
+        "raw": {
+          "asset_identifier": "Stripe Financial Connections",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://docs.stripe.com/financial-connections",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Financial Connections"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Docs: https://docs.stripe.com/identity",
+        "raw": {
+          "asset_identifier": "Stripe Identity",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Docs: https://docs.stripe.com/identity",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Identity"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Docs: https://docs.stripe.com/invoicing",
+        "raw": {
+          "asset_identifier": "Stripe Invoicing",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Docs: https://docs.stripe.com/invoicing",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Invoicing"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Card creation\n\nDocs: https://stripe.com/docs/issuing",
+        "raw": {
+          "asset_identifier": "Stripe Issuing",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Card creation\n\nDocs: https://stripe.com/docs/issuing",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Issuing"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Open source projects authored or maintained by Stripe. Only non-archived and non-demo/non-sample projects are in scope. In addition, if a project's README states that the project is not eligible for bug bounty rewards, reports targeting it will be categorized as Informational. Projects forked from upstream sources are not in scope unless the reported functionality is used by Stripe.\n\nBounty eligibility is restricted to supported main branches, active marketplace releases, and the latest published package releases. Missing security controls in starter code such as CSRF middleware, CSP headers, authentication, or rate limiting are out-of-scope. Reports targeting archived, unmaintained, example-only, or experimental repositories are categorized as \nInformational unless direct production impact is demonstrated.\n\nURL: https://github.com/stripe\n\n---\n\nWhen an open source project is used for Stripe internal infrastructure, the threat model and applicability of reports is assessed based on that usage. For example, smokescreen and munkisrv are deployed with assumptions or usage patterns. They are provided as a service to the community but certain compensating security controls may not be expected to be implemented by other infra within Stripe. [Example](https://github.com/stripe/munkisrv/pull/6/changes#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5R105)\n\n---\n\n**Connectors**\nPayment connectors like `stripe-commercetools-connect-app` provide support for Payment Elements and Express Checkout Elements. Order state and cart management are implemented on a per-merchant basis and are outside the scope of connectors.\n\nThe connector's security model assumes the Stripe secret key (sk_) is held server-side and not available to client-side code. Reports that require a secret key as a prerequisite to desynchronize state between a cart/payment and the connector will be closed as Informative, since the secret key grants full API access (creating payments, issuing refunds, managing customer data) and any resulting state inconsistency reflects expected key capabilities, not a connector vulnerability.",
+        "raw": {
+          "asset_identifier": "Stripe Open Source",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Open source projects authored or maintained by Stripe. Only non-archived and non-demo/non-sample projects are in scope. In addition, if a project's README states that the project is not eligible for bug bounty rewards, reports targeting it will be categorized as Informational. Projects forked from upstream sources are not in scope unless the reported functionality is used by Stripe.\n\nBounty eligibility is restricted to supported main branches, active marketplace releases, and the latest published package releases. Missing security controls in starter code such as CSRF middleware, CSP headers, authentication, or rate limiting are out-of-scope. Reports targeting archived, unmaintained, example-only, or experimental repositories are categorized as \nInformational unless direct production impact is demonstrated.\n\nURL: https://github.com/stripe\n\n---\n\nWhen an open source project is used for Stripe internal infrastructure, the threat model and applicability of reports is assessed based on that usage. For example, smokescreen and munkisrv are deployed with assumptions or usage patterns. They are provided as a service to the community but certain compensating security controls may not be expected to be implemented by other infra within Stripe. [Example](https://github.com/stripe/munkisrv/pull/6/changes#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5R105)\n\n---\n\n**Connectors**\nPayment connectors like `stripe-commercetools-connect-app` provide support for Payment Elements and Express Checkout Elements. Order state and cart management are implemented on a per-merchant basis and are outside the scope of connectors.\n\nThe connector's security model assumes the Stripe secret key (sk_) is held server-side and not available to client-side code. Reports that require a secret key as a prerequisite to desynchronize state between a cart/payment and the connector will be closed as Informative, since the secret key grants full API access (creating payments, issuing refunds, managing customer data) and any resulting state inconsistency reflects expected key capabilities, not a connector vulnerability.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Open Source"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Organizations is a new grouping entity where Stripe users can group multiple business accounts. With an Organization, users can:\n- Search for resources across all the business accounts in an Organization\n- Download consolidated reports that aggregates across all business accounts.\n- Manage access for other users across all business accounts including creating a role for users at the Organization and inherit access to all business accounts.\n- Users can also add and remove business accounts where they are the owner or invite accounts where they are an admin.\n- (Coming Soon) Manage Single Sign-On at the Organization and apply to all business accounts.\n\nDocumentation: https://docs.stripe.com/payments/account/orgs",
+        "raw": {
+          "asset_identifier": "Stripe Organizations",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Organizations is a new grouping entity where Stripe users can group multiple business accounts. With an Organization, users can:\n- Search for resources across all the business accounts in an Organization\n- Download consolidated reports that aggregates across all business accounts.\n- Manage access for other users across all business accounts including creating a role for users at the Organization and inherit access to all business accounts.\n- Users can also add and remove business accounts where they are the owner or invite accounts where they are an admin.\n- (Coming Soon) Manage Single Sign-On at the Organization and apply to all business accounts.\n\nDocumentation: https://docs.stripe.com/payments/account/orgs",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Organizations"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Docs: https://docs.stripe.com/payment-links",
+        "raw": {
+          "asset_identifier": "Stripe Payment Links",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Docs: https://docs.stripe.com/payment-links",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Payment Links"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Online payments\n\nDocs: https://stripe.com/docs/payments\n\nSample Payments application: [stripe-samples/accept-a-card-payment](https://github.com/stripe-samples/accept-a-card-payment): Learn how to accept a basic card payment on web, iOS, Android,\n\nStripe Payments also enables Agentic Commerce. Sell through agents, or embed commerce into your AI interface.\n\nDocumentation: https://docs.stripe.com/agentic-commerce\n",
+        "raw": {
+          "asset_identifier": "Stripe Payments",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Online payments\n\nDocs: https://stripe.com/docs/payments\n\nSample Payments application: [stripe-samples/accept-a-card-payment](https://github.com/stripe-samples/accept-a-card-payment): Learn how to accept a basic card payment on web, iOS, Android,\n\nStripe Payments also enables Agentic Commerce. Sell through agents, or embed commerce into your AI interface.\n\nDocumentation: https://docs.stripe.com/agentic-commerce\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Payments"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Stripe Projects lets you or your agents provision multiple services, generate and store credentials, and manage usage and billing from the CLI. Set up hosting, databases, auth, AI, analytics, and more in a few commands.\n\nLanding page: https://projects.dev/\nDocumentation: https://docs.stripe.com/projects",
+        "raw": {
+          "asset_identifier": "Stripe Projects",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Stripe Projects lets you or your agents provision multiple services, generate and store credentials, and manage usage and billing from the CLI. Set up hosting, databases, auth, AI, analytics, and more in a few commands.\n\nLanding page: https://projects.dev/\nDocumentation: https://docs.stripe.com/projects",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Projects"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Fraud and risk management\n\nDocs: https://stripe.com/docs/radar",
+        "raw": {
+          "asset_identifier": "Stripe Radar",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Fraud and risk management\n\nDocs: https://stripe.com/docs/radar",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Radar"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Docs: https://docs.stripe.com/revenue-recognition",
+        "raw": {
+          "asset_identifier": "Stripe Revenue Recognition",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Docs: https://docs.stripe.com/revenue-recognition",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Revenue Recognition"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Libraries and tools for interacting with your Stripe integration. Includes the Stripe Agent Toolkit.\n\nStripe Agent Toolkit Documentation: https://docs.stripe.com/agents/quickstart\nStripe Agent Toolkit Sourcecode: https://github.com/stripe/ai\nSDK Documentation : https://stripe.com/docs/sdks\nTerminal SDKs Documentation: https://stripe.com/docs/terminal/payments/setup-integration\n\nBounty eligibility in this tier is strictly restricted to supported main branches, active marketplace releases, or the latest published package releases. Vulnerabilities must break a library security invariant such as cryptographic signature verification or payload parsing. Missing security controls in starter code such as CSRF middleware, CSP headers, authentication, or rate limiting are out-of-scope.",
+        "raw": {
+          "asset_identifier": "Stripe SDKs",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Libraries and tools for interacting with your Stripe integration. Includes the Stripe Agent Toolkit.\n\nStripe Agent Toolkit Documentation: https://docs.stripe.com/agents/quickstart\nStripe Agent Toolkit Sourcecode: https://github.com/stripe/ai\nSDK Documentation : https://stripe.com/docs/sdks\nTerminal SDKs Documentation: https://stripe.com/docs/terminal/payments/setup-integration\n\nBounty eligibility in this tier is strictly restricted to supported main branches, active marketplace releases, or the latest published package releases. Vulnerabilities must break a library security invariant such as cryptographic signature verification or payload parsing. Missing security controls in starter code such as CSRF middleware, CSP headers, authentication, or rate limiting are out-of-scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe SDKs"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Custom reports\n\nDocs: https://stripe.com/docs/sigma",
+        "raw": {
+          "asset_identifier": "Stripe Sigma",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Custom reports\n\nDocs: https://stripe.com/docs/sigma",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Sigma"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Docs: https://docs.stripe.com/tax",
+        "raw": {
+          "asset_identifier": "Stripe Tax",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Docs: https://docs.stripe.com/tax",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Tax"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "In-person and omnichannel payments\n\nDocs: https://stripe.com/docs/terminal\n\nSample Terminal application: [stripe/stripe-terminal-js-demo](https://github.com/stripe/stripe-terminal-js-demo): Demo app for the Stripe Terminal JS SDK",
+        "raw": {
+          "asset_identifier": "Stripe Terminal",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "In-person and omnichannel payments\n\nDocs: https://stripe.com/docs/terminal\n\nSample Terminal application: [stripe/stripe-terminal-js-demo](https://github.com/stripe/stripe-terminal-js-demo): Demo app for the Stripe Terminal JS SDK",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Terminal"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Docs: https://docs.stripe.com/treasury",
+        "raw": {
+          "asset_identifier": "Stripe Treasury",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Docs: https://docs.stripe.com/treasury",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe Treasury"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The Stripe fiat-to-crypto onramp lets your customers securely purchase and exchange cryptocurrencies directly from your platform or decentralized application (Dapp) at checkout. Onramp can be direct embedded or Stripe-hosted.\n\nHosted onramp: https://crypto.link.com/\nDocumentation: https://docs.stripe.com/crypto/onramp",
+        "raw": {
+          "asset_identifier": "Stripe fiat-to-crypto onramp",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The Stripe fiat-to-crypto onramp lets your customers securely purchase and exchange cryptocurrencies directly from your platform or decentralized application (Dapp) at checkout. Onramp can be direct embedded or Stripe-hosted.\n\nHosted onramp: https://crypto.link.com/\nDocumentation: https://docs.stripe.com/crypto/onramp",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe fiat-to-crypto onramp"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Stripe for Visual Studio Code",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stripe for Visual Studio Code"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "URL: https://stripe.com/terminal/tap-to-pay\nDocs: https://docs.stripe.com/terminal/payments/setup-reader/tap-to-pay?platform=android",
+        "raw": {
+          "asset_identifier": "Tap to Pay (Android)",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "URL: https://stripe.com/terminal/tap-to-pay\nDocs: https://docs.stripe.com/terminal/payments/setup-reader/tap-to-pay?platform=android",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Tap to Pay (Android)"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "URL: https://stripe.com/terminal/tap-to-pay\nDocs: https://docs.stripe.com/terminal/payments/setup-reader/tap-to-pay?platform=ios\n",
+        "raw": {
+          "asset_identifier": "Tap to Pay (iOS)",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "URL: https://stripe.com/terminal/tap-to-pay\nDocs: https://docs.stripe.com/terminal/payments/setup-reader/tap-to-pay?platform=ios\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Tap to Pay (iOS)"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://stripe.com/docs/api",
+        "raw": {
+          "asset_identifier": "api.stripe.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://stripe.com/docs/api",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.stripe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.taxjar.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.taxjar.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "app.taxjar.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.taxjar.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Google Play Store URL: https://play.google.com/store/apps/details?id=com.stripe.android.dashboard&hl=en_US&pli=1",
+        "raw": {
+          "asset_identifier": "com.stripe.android.dashboard",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Google Play Store URL: https://play.google.com/store/apps/details?id=com.stripe.android.dashboard&hl=en_US&pli=1",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.stripe.android.dashboard"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://stripe.com/docs/js\n\nSample Stripe.js application: https://github.com/stripe-samples/accept-a-card-payment",
+        "raw": {
+          "asset_identifier": "js.stripe.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://stripe.com/docs/js\n\nSample Stripe.js application: https://github.com/stripe-samples/accept-a-card-payment",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "js.stripe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://docs.stripe.com/mcp\n\nStripe's MCP server implements Dynamic Client Registration by design. This enables any MCP-compatible client — Cursor, Claude, VS Code, Windsurf, and the broader ecosystem — to connect to Stripe's MCP server without requiring pre-registration. Requiring authentication at the registration endpoint would prevent interoperability with the open MCP ecosystem.\n\nThe security model for OAuth relies on an explicit user consent screen. Before any access is granted, the user must be logged in, review the requesting application and its requested permissions, and actively click \"Authorize.\" This is the same trust model used by OAuth consent flows across the industry (Google, GitHub, Microsoft, etc.), and the user bears responsibility for authorizing applications they do not recognize or trust.\n\nStripe recognizes that OAuth consent phishing is a real and known risk inherent to any open OAuth system, but we do not consider it a vulnerability in Stripe's implementation. Users bear responsibility for reviewing clients requesting authorization.",
+        "raw": {
+          "asset_identifier": "mcp.stripe.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://docs.stripe.com/mcp\n\nStripe's MCP server implements Dynamic Client Registration by design. This enables any MCP-compatible client — Cursor, Claude, VS Code, Windsurf, and the broader ecosystem — to connect to Stripe's MCP server without requiring pre-registration. Requiring authentication at the registration endpoint would prevent interoperability with the open MCP ecosystem.\n\nThe security model for OAuth relies on an explicit user consent screen. Before any access is granted, the user must be logged in, review the requesting application and its requested permissions, and actively click \"Authorize.\" This is the same trust model used by OAuth consent flows across the industry (Google, GitHub, Microsoft, etc.), and the user bears responsibility for authorizing applications they do not recognize or trust.\n\nStripe recognizes that OAuth consent phishing is a real and known risk inherent to any open OAuth system, but we do not consider it a vulnerability in Stripe's implementation. Users bear responsibility for reviewing clients requesting authorization.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mcp.stripe.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.stripe.partners",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.stripe.partners"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.getbouncer.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "*.getbouncer.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Stripe has a project in place to revamp its crawling infrastructure for onboard verification links. Until that work is completed reports related to this feature will be reviewed but closed as informative.",
+        "raw": {
+          "asset_identifier": "Onboarding Verification Link Crawling",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Stripe has a project in place to revamp its crawling infrastructure for onboard verification links. Until that work is completed reports related to this feature will be reviewed but closed as informative.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Onboarding Verification Link Crawling"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Vulnerabilities found in third party apps, integrations, and their infrastructure should be reported to the responsible developer. This includes third parties that insecurely implement Stripe components or API methods.\n\nReporters should only report vulnerabilities in Stripe third party apps and integrations to Stripe under this program if they do not receive a satisfactory response from the responsible developer. These types of reports are not eligible for a bounty. Please include specifics regarding steps taken to communicate with the third party.",
+        "raw": {
+          "asset_identifier": "Stripe Third Party Apps and Integrations",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Vulnerabilities found in third party apps, integrations, and their infrastructure should be reported to the responsible developer. This includes third parties that insecurely implement Stripe components or API methods.\n\nReporters should only report vulnerabilities in Stripe third party apps and integrations to Stripe under this program if they do not receive a satisfactory response from the responsible developer. These types of reports are not eligible for a bounty. Please include specifics regarding steps taken to communicate with the third party.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Stripe Third Party Apps and Integrations"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/stripe"
+}

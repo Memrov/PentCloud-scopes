@@ -1,0 +1,132 @@
+{
+  "id": "intigriti:1cf88d51-7927-4747-af33-204f6f1c161f",
+  "metadata": {
+    "company_handle": "dhlgroup",
+    "confidentiality_level": "public",
+    "handle": "dhlvdp",
+    "id": "1cf88d51-7927-4747-af33-204f6f1c161f",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "DHL Group Vulnerability Disclosure Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/dhlgroup/dhlvdp/detail"
+  },
+  "name": "DHL Group Vulnerability Disclosure Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "4f928fe547fac22013537b4033dbd7d292e99ad60bc49262b10984a814f1117c",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "1cf88d51-7927-4747-af33-204f6f1c161f",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.deutschepost.de",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.deutschepost.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.dhl",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.dhl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.dhl.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.dhl.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.dhl.de",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.dhl.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.dpdhl.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.dpdhl.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Any other domain from DHL Group companies",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Any other domain from DHL Group companies"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Mobile apps owned by DHL Group companies",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Mobile apps owned by DHL Group companies"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/dhlgroup/dhlvdp/detail"
+}

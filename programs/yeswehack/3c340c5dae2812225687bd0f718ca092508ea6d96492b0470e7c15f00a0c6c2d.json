@@ -1,0 +1,76 @@
+{
+  "id": "yeswehack:thuringer-aufbaubank-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "thuringer-aufbaubank-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 3500,
+    "min_bounty": 50,
+    "name": "Thüringer Aufbaubank Bug Bounty Program",
+    "public": true
+  },
+  "name": "Thüringer Aufbaubank Bug Bounty Program",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "425e4fe87c9af67adc37b00d780ffb705b09cd064e263fe343fa5a4fd55fca47",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "thuringer-aufbaubank-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://thueringer-foerderportal.eu",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://thueringer-foerderportal.eu"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://login.aufbaubank.de",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://login.aufbaubank.de"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains not listed In-Scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains not listed In-Scope"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All 3rd parties are out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All 3rd parties are out of scope"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/thuringer-aufbaubank-bug-bounty-program"
+}

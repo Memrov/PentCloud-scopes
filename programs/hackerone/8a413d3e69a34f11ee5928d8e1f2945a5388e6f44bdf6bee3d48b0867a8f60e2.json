@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:ups",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 1536.0,
+    "handle": "ups",
+    "id": 0,
+    "managed_program": true,
+    "name": "UPS VDP",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 59,
+    "submission_state": "open",
+    "url": "https://hackerone.com/ups",
+    "website": "https://www.ups.com"
+  },
+  "name": "UPS VDP",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "f383b96070f9d106a08cd5cd010fbd244577a1ab218d878b5aa5daa1238ef30f",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "ups",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.ups-mi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.ups-mi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.ups-tms.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.ups-tms.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.ups.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.ups.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/ups"
+}

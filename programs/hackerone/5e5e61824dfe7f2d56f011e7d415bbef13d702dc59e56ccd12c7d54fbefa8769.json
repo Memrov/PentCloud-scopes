@@ -1,0 +1,1821 @@
+{
+  "id": "hackerone:marriott",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 392.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 712.0,
+    "handle": "marriott",
+    "id": 0,
+    "managed_program": true,
+    "name": "Marriott Bug Bounty Program",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 98,
+    "submission_state": "open",
+    "url": "https://hackerone.com/marriott",
+    "website": "http://www.marriott.com"
+  },
+  "name": "Marriott Bug Bounty Program",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "788734120644fadab6bf06f3913baa401434a65ab94840fbe0570e38a7b2603a",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "marriott",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.apigatewayc.marriott.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.apigatewayc.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.apigwc.marriott.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.apigwc.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.artifactory.marriott.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.artifactory.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.dcfgateway.marriott.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.dcfgateway.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.gateway.marriott.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.gateway.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.mgs.marriott.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.mgs.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*gateway-apc.marriott.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*gateway-apc.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*uat.marriott.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*uat.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "455004730",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "455004730"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "apcgateway.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "apcgateway.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "app-insiders.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "app-insiders.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "auth-apc.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "auth-apc.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "bilt.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "bilt.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "bpa2.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "bpa2.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "bsp.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "bsp.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "channel-portal.homes-and-villas.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "channel-portal.homes-and-villas.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "ci-propertyconversionportal.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "ci-propertyconversionportal.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "contentportal.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "contentportal.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "contentportalauth.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "contentportalauth.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "cpp.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "cpp.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "dcfgateway*.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dcfgateway*.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "device.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "device.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "editionhotels.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "editionhotels.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "eidhelp.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "eidhelp.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "esupplier.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "esupplier.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "gateway*.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "gateway*.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "help.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "help.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "homes-and-villas.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "homes-and-villas.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "hotshoppeservices.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "hotshoppeservices.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://gatewaydsapprd.marriott.com/v1/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://gatewaydsapprd.marriott.com/v1/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://gatewaydsapprd.marriott.com/v2/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://gatewaydsapprd.marriott.com/v2/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "join.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "join.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "joinmarriottbonvoy.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "joinmarriottbonvoy.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "joinrewards.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "joinrewards.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "lawmanager.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "lawmanager.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "marrtool.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "marrtool.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "mds.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "mds.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "meetmarriottbonvoy.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "meetmarriottbonvoy.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "mgs.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mgs.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "moments.marriottbonvoy.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "moments.marriottbonvoy.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "ocijlbex1prd.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "ocijlbex1prd.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "owa.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "owa.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This app is used for employees all over marriott to reset their passwords, for new employees to set their first password, and set up challenge questions.",
+        "raw": {
+          "asset_identifier": "passwordchallenge.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This app is used for employees all over marriott to reset their passwords, for new employees to set their first password, and set up challenge questions.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "passwordchallenge.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "prod-mipaasiaasservices.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "prod-mipaasiaasservices.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "reservations.all-inclusive.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "reservations.all-inclusive.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "smetrics.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "smetrics.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "splunk-phantom-nlb.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "splunk-phantom-nlb.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "sso.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "sso.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "travelagents.marriott.com/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "travelagents.marriott.com/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "traveler.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "traveler.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "uat.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "uat.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "uber.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "uber.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "university.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "university.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "vacation.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "vacation.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "wechat.api.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "wechat.api.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "www.giving.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "www.giving.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "www.members.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "www.members.marriott.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "www.travel-brilliantly.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "www.travel-brilliantly.marriott.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.phunware.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "*.phunware.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.ritzcarlton.com",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "*.ritzcarlton.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We need to handle some internal ownership details until we can support this asset as part of our scope. Please do not test it. ",
+        "raw": {
+          "asset_identifier": "*.ritzcarltonyachtcollection.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We need to handle some internal ownership details until we can support this asset as part of our scope. Please do not test it. ",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "*.ritzcarltonyachtcollection.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "## Any asset *not* listed in-scope is *ineligible* for bounty and will be marked N/A",
+        "raw": {
+          "asset_identifier": "Not-Listed Assets",
+          "asset_type": "OTHER",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "## Any asset *not* listed in-scope is *ineligible* for bounty and will be marked N/A",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Not-Listed Assets"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "all-inclusive.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "all-inclusive.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "apps.ritzcarlton.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "apps.ritzcarlton.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "clmagtest.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "clmagtest.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "\n",
+        "raw": {
+          "asset_identifier": "element-hotels.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "\n",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "element-hotels.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "fe.emergingtech-btsales.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "fe.emergingtech-btsales.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "gdstest.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "gdstest.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "gifts.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "gifts.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "gis.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "gis.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "globaldesign.marriott.com/*",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "globaldesign.marriott.com/*"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "hotel-deals.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "hotel-deals.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "hotel-development.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "hotel-development.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "hotelexcellence.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "hotelexcellence.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "http://www.shopmarriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://www.shopmarriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "ifast.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "ifast.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "jobs.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "jobs.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "latinoamerica.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "latinoamerica.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "llmgw.codefest2026.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "llmgw.codefest2026.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "luxurybrands.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "luxurybrands.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "marriott.tech",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "marriott.tech"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "marriottfranchisetransactions.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "marriottfranchisetransactions.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "marriottlearnourbrands.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "marriottlearnourbrands.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "meetings-excellence.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "meetings-excellence.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "mi.bookmarriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "mi.bookmarriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "milux.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "milux.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "mipartnerprivileges.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "mipartnerprivileges.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "moments.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "moments.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "oasisprod.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "oasisprod.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "ofhub.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "ofhub.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "psp.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "psp.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "springhillsuites.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "springhillsuites.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "ssm-marriottms.saviyntcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "ssm-marriottms.saviyntcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is a vanity site ",
+        "raw": {
+          "asset_identifier": "towneplacesuites.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is a vanity site ",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "towneplacesuites.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We do not own this site. ",
+        "raw": {
+          "asset_identifier": "vacations.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We do not own this site. ",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "vacations.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We do not own this domain but we wish to receive notice of repositories on here that may contain our data. ",
+        "raw": {
+          "asset_identifier": "www.github.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We do not own this domain but we wish to receive notice of repositories on here that may contain our data. ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.github.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "www.msg-gateway.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.msg-gateway.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.travelagents.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.travelagents.marriott.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/marriott"
+}

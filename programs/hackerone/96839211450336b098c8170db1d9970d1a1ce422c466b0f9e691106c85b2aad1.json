@@ -1,0 +1,110 @@
+{
+  "id": "hackerone:planet-labs",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 653.0,
+    "handle": "planet-labs",
+    "id": 0,
+    "managed_program": true,
+    "name": "Planet Labs",
+    "offers_bounties": false,
+    "offers_swag": true,
+    "response_efficiency_percentage": 33,
+    "submission_state": "open",
+    "url": "https://hackerone.com/planet-labs",
+    "website": "http://planet.com"
+  },
+  "name": "Planet Labs",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "1ce32d129a61a5a3605dfa9dcf0eb49dee2f4540d6cdf37c1fb05be8ea777d45",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "planet-labs",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.planet-labs.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.planet-labs.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "\n**Explicitly excluded are third party services hosted on subdomains of planet.com**, for example:\n\n  * https://support.planet.com\n  * https://learn.planet.com\n  * https://developers.planet.com/devtrial/#devtrial-signup-form \n     * form submission goes to learn.planet.com\n  * https://developers.planet.com/contact-us/\n     * form submission goes to a third party service",
+        "raw": {
+          "asset_identifier": "*.planet.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "\n**Explicitly excluded are third party services hosted on subdomains of planet.com**, for example:\n\n  * https://support.planet.com\n  * https://learn.planet.com\n  * https://developers.planet.com/devtrial/#devtrial-signup-form \n     * form submission goes to learn.planet.com\n  * https://developers.planet.com/contact-us/\n     * form submission goes to a third party service",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.planet.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "A mostly internally used domain related to the Sentinel Hub platform.",
+        "raw": {
+          "asset_identifier": "*.sentinel-hub.cc",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "A mostly internally used domain related to the Sentinel Hub platform.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.sentinel-hub.cc"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Sentinel Hub is a multi-spectral and multi-temporal big data satellite imagery service, capable of fully automated archiving, real-time processing and distribution of remote sensing data and related EO products. Users can use APIs to retrieve satellite data over their AOI and specific time range from full archives in a matter of seconds.\n\n  * Our Sentinel Hub platform. You may sign up with your <H1 username>@wearehackerone.com email address, starting here [https://apps.sentinel-hub.com](https://apps.sentinel-hub.com)\n  * Documentation is available here: [https://docs.sentinel-hub.com/api/latest/](https://docs.sentinel-hub.com/api/latest/)\n  \n ",
+        "raw": {
+          "asset_identifier": "*.sentinel-hub.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Sentinel Hub is a multi-spectral and multi-temporal big data satellite imagery service, capable of fully automated archiving, real-time processing and distribution of remote sensing data and related EO products. Users can use APIs to retrieve satellite data over their AOI and specific time range from full archives in a matter of seconds.\n\n  * Our Sentinel Hub platform. You may sign up with your <H1 username>@wearehackerone.com email address, starting here [https://apps.sentinel-hub.com](https://apps.sentinel-hub.com)\n  * Documentation is available here: [https://docs.sentinel-hub.com/api/latest/](https://docs.sentinel-hub.com/api/latest/)\n  \n ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.sentinel-hub.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/planet-labs"
+}

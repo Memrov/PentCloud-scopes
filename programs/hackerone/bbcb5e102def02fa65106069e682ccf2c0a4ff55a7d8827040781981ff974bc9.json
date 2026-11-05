@@ -1,0 +1,255 @@
+{
+  "id": "hackerone:fetlife",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 64.0,
+    "average_time_to_first_program_response": 48.0,
+    "average_time_to_report_resolved": 416.0,
+    "handle": "fetlife",
+    "id": 0,
+    "managed_program": false,
+    "name": "FetLife",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 90,
+    "submission_state": "open",
+    "url": "https://hackerone.com/fetlife",
+    "website": "https://fetlife.com"
+  },
+  "name": "FetLife",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "06131956032fa14aa7ab4b40febde84491edaf2c3a50c287cd86eaec810135da",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "fetlife",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.fetlife.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.fetlife.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "fetlife.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "fetlife.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "In particular, the notification emails from this domain and the links in them are in scope",
+        "raw": {
+          "asset_identifier": "fetlifemail.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "In particular, the notification emails from this domain and the links in them are in scope",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "fetlifemail.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "For an issue to be classified as 'Low severity', it must be very significant and have risk implications that affects users across our primary domains",
+        "raw": {
+          "asset_identifier": "*.bitlove.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "For an issue to be classified as 'Low severity', it must be very significant and have risk implications that affects users across our primary domains",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.bitlove.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Requests to our ad endpoints (on any server): `/ads/serve`, `/ads/application_serve*`, and `/ads/click/*`",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Requests to our ad endpoints (on any server): `/ads/serve`, `/ads/application_serve*`, and `/ads/click/*`"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "For an issue to be classified as 'Low severity', it must be very significant and have risk implications that affects users across our primary domains",
+        "raw": {
+          "asset_identifier": "bitlove.co",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "For an issue to be classified as 'Low severity', it must be very significant and have risk implications that affects users across our primary domains",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "bitlove.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "co.bitlove.opensource.FetLife",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "co.bitlove.opensource.FetLife"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Open-source FetLife Android App (https://github.com/fetlife/android)",
+        "raw": {
+          "asset_identifier": "com.bitlove.fetlife",
+          "asset_type": "OTHER_APK",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Open-source FetLife Android App (https://github.com/fetlife/android)",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER_APK",
+        "value": "com.bitlove.fetlife"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "fetlifestatus.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "fetlifestatus.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "mail.fetlife.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "mail.fetlife.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "CNAME to 3rd Party email Vendor",
+        "raw": {
+          "asset_identifier": "n2.fetlife.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "CNAME to 3rd Party email Vendor",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "n2.fetlife.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "status.fetlife.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "status.fetlife.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/fetlife"
+}

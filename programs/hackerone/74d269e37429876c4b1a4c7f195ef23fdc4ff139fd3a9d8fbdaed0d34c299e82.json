@@ -1,0 +1,939 @@
+{
+  "id": "hackerone:paypal",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 2191.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 4609.0,
+    "handle": "paypal",
+    "id": 0,
+    "managed_program": true,
+    "name": "PayPal",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 94,
+    "submission_state": "open",
+    "url": "https://hackerone.com/paypal",
+    "website": "http://paypal.com/"
+  },
+  "name": "PayPal",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "2854327313d452764a8445684b3ebe6822dd56854bc70a737e4f3949fcd95110",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "paypal",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "For testing and account creation, please use *.sandbox.braintree-api.com rather than production.",
+        "raw": {
+          "asset_identifier": "*.braintree-api.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "For testing and account creation, please use *.sandbox.braintree-api.com rather than production.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.braintree-api.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Please note, this is a development environment that is constantly in flux. Accordingly, vulnerabilities found on this asset will generally have lower impact and payouts.",
+        "raw": {
+          "asset_identifier": "*.braintree.tools",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Please note, this is a development environment that is constantly in flux. Accordingly, vulnerabilities found on this asset will generally have lower impact and payouts.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.braintree.tools"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.braintreegateway.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.braintreegateway.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "For testing and account creation, please use *.sand.braintreepayments.com rather than production.",
+        "raw": {
+          "asset_identifier": "*.braintreepayments.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "For testing and account creation, please use *.sand.braintreepayments.com rather than production.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.braintreepayments.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.hyperwallet.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.hyperwallet.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.paydiant.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.paydiant.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.paylution.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.paylution.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.paypal.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.paypal.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.paypalcorp.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.paypalcorp.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.venmo.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.venmo.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.xoom.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.xoom.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[iOS Venmo App](https://apps.apple.com/us/app/venmo/id351727428)",
+        "raw": {
+          "asset_identifier": "351727428",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[iOS Venmo App](https://apps.apple.com/us/app/venmo/id351727428)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "351727428"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Account restrictions and control bypasses - campaign",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Account restrictions and control bypasses - campaign"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Braintree SDK",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Braintree SDK"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "PayPal SDK",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "PayPal SDK"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.loanbuilder.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "api.loanbuilder.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.swiftfinancial.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "api.swiftfinancial.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.paypal.android.p2pmobile",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.paypal.android.p2pmobile"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.paypal.merchant",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.paypal.merchant"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.paypal.merchant.client",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.paypal.merchant.client"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.venmo",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.venmo"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.xoom.android.app",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.xoom.android.app"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.xoom.app",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.xoom.app"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.yourcompany.PPClient",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.yourcompany.PPClient"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We are aware that the root URL of this domain returns an error, the API is functioning correctly.",
+        "raw": {
+          "asset_identifier": "decision.swiftfinancial.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We are aware that the root URL of this domain returns an error, the API is functioning correctly.",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "decision.swiftfinancial.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "loanbuilder.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "loanbuilder.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "my.loanbuilder.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "my.loanbuilder.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "my.swiftfinancial.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "my.swiftfinancial.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We are aware that the root URL of this domain returns an error, the API is functioning correctly.",
+        "raw": {
+          "asset_identifier": "partner.swiftfinancial.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We are aware that the root URL of this domain returns an error, the API is functioning correctly.",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "partner.swiftfinancial.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "paypal.me",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "paypal.me"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "paypalobjects.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "paypalobjects.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We are aware that the root URL of this domain returns an error, the API is functioning correctly.",
+        "raw": {
+          "asset_identifier": "pigeon.swiftfinancial.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We are aware that the root URL of this domain returns an error, the API is functioning correctly.",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "pigeon.swiftfinancial.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We are aware that the root URL of this domain returns an error, the API is functioning correctly.",
+        "raw": {
+          "asset_identifier": "prequal.swiftfinancial.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We are aware that the root URL of this domain returns an error, the API is functioning correctly.",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "prequal.swiftfinancial.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "py.pl",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "py.pl"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "sandbox.braintreegateway.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "sandbox.braintreegateway.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We are aware that the root URL of this domain returns an error, the API is functioning correctly.",
+        "raw": {
+          "asset_identifier": "scrutiny.swiftfinancial.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We are aware that the root URL of this domain returns an error, the API is functioning correctly.",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "scrutiny.swiftfinancial.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "swiftcapital.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "swiftcapital.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "swiftfinancial.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "swiftfinancial.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.loanbuilder.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "www.loanbuilder.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "PayPal's Partner Sites (www.paypal-__.com) are mainly marketing based sites that are not part of the core PayPal customer domains (.paypal.com) and are managed by hosting vendor companies. They have variable timelines and are often decommissioned. A listing of these sites designated for deprecation will not be publically maintained due to frequent changes. When researching bugs on these sites, please keep this in mind as bug Submissions for sites on schedule for deprecation will not be honored.\nSubmissions of bugs relating to services or domains not referenced above or for sites on schedule for deprecation are ineligible for the Bug Bounty Program and will not be eligible for a Bounty Payment.\n",
+        "raw": {
+          "asset_identifier": "www.paypal-*.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "PayPal's Partner Sites (www.paypal-__.com) are mainly marketing based sites that are not part of the core PayPal customer domains (.paypal.com) and are managed by hosting vendor companies. They have variable timelines and are often decommissioned. A listing of these sites designated for deprecation will not be publically maintained due to frequent changes. When researching bugs on these sites, please keep this in mind as bug Submissions for sites on schedule for deprecation will not be honored.\nSubmissions of bugs relating to services or domains not referenced above or for sites on schedule for deprecation are ineligible for the Bug Bounty Program and will not be eligible for a Bounty Payment.\n",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "www.paypal-*.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.swiftcapital.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "www.swiftcapital.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.swiftfinancial.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "www.swiftfinancial.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.atlassian.net",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "*.atlassian.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**Please submit all `https://www.paypal.cn/` reports to the associated bounty program:**\n- Paypal.vulbox.com",
+        "raw": {
+          "asset_identifier": "*.paypal.cn",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**Please submit all `https://www.paypal.cn/` reports to the associated bounty program:**\n- Paypal.vulbox.com",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "*.paypal.cn"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Please note braintree.com does not belong to PayPal, and as such is out of scope. ",
+        "raw": {
+          "asset_identifier": "braintree.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Please note braintree.com does not belong to PayPal, and as such is out of scope. ",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "braintree.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.paypal.here",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.paypal.here"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.paypal.here",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.paypal.here"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.paypal.herehd",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.paypal.herehd"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**Please submit all `Gopay` reports to:**\n- Paypal.vulbox.com\n",
+        "raw": {
+          "asset_identifier": "www.gopay.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**Please submit all `Gopay` reports to:**\n- Paypal.vulbox.com\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.gopay.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "www.paypal-support.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.paypal-support.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/paypal"
+}

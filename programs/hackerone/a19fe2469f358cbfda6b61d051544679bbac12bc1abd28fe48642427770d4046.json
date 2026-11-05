@@ -1,0 +1,543 @@
+{
+  "id": "hackerone:scopely",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 1488.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 1968.0,
+    "handle": "scopely",
+    "id": 0,
+    "managed_program": true,
+    "name": "Scopely",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 98,
+    "submission_state": "open",
+    "url": "https://hackerone.com/scopely",
+    "website": "https://scopely.com"
+  },
+  "name": "Scopely",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "47cf291383335d8bba9b58c739c3779cf012e9fa7e8e10b5986f8a9f912b1fba",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "scopely",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Vulnerabilities reported on Scopely services additional to the games in scope are now eligible for monetary rewards. ",
+        "raw": {
+          "asset_identifier": "*.scopely.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Vulnerabilities reported on Scopely services additional to the games in scope are now eligible for monetary rewards. ",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.scopely.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Vulnerabilities reported on Scopely services additional to the games in scope are now eligible for monetary rewards. \n",
+        "raw": {
+          "asset_identifier": "*.scopely.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Vulnerabilities reported on Scopely services additional to the games in scope are now eligible for monetary rewards. \n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.scopely.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Backend API servers included in scope.\nPlease take into account that any kind of DOS is totally forbidden.",
+        "raw": {
+          "asset_identifier": "*.withbuddies.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Backend API servers included in scope.\nPlease take into account that any kind of DOS is totally forbidden.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.withbuddies.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This asset was added for bounty table purposes.",
+        "raw": {
+          "asset_identifier": "Games Tier 1",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This asset was added for bounty table purposes.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Games Tier 1"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This asset was added for bounty table purposes.",
+        "raw": {
+          "asset_identifier": "Games Tier 2",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This asset was added for bounty table purposes.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Games Tier 2"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This asset was added for bounty table purposes.",
+        "raw": {
+          "asset_identifier": "Games Tier 3",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This asset was added for bounty table purposes.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Games Tier 3"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Bingo Bash: Live Bingo Games](https://play.google.com/store/apps/details?id=air.com.bitrhymes.bingo)\nOver a decade of daubing & over 70 million online players: Bingo Bash featuring Monopoly is the best online bingo game on mobile. Now with MONOPOLY Bash room, better than ever! Ready to play and call a Bingo?",
+        "raw": {
+          "asset_identifier": "air.com.bitrhymes.bingo",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Bingo Bash: Live Bingo Games](https://play.google.com/store/apps/details?id=air.com.bitrhymes.bingo)\nOver a decade of daubing & over 70 million online players: Bingo Bash featuring Monopoly is the best online bingo game on mobile. Now with MONOPOLY Bash room, better than ever! Ready to play and call a Bingo?",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "air.com.bitrhymes.bingo"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.foxnextgames.m3",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.foxnextgames.m3"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.foxnextgames.m3",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.foxnextgames.m3"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[GSN Casino: Slot Machine Games](https://play.google.com/store/apps/details?id=com.gsn.android.casino)\nYou're in the best place to play free online slots! Enjoy fun casino games online where you can find the best Vegas casinos",
+        "raw": {
+          "asset_identifier": "com.gsn.android.casino",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[GSN Casino: Slot Machine Games](https://play.google.com/store/apps/details?id=com.gsn.android.casino)\nYou're in the best place to play free online slots! Enjoy fun casino games online where you can find the best Vegas casinos",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.gsn.android.casino"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Tiki Solitaire TriPeaks](https://play.google.com/store/apps/details?id=com.gsn.android.tripeaks)\nTiki Solitaire TriPeaks: the classic Solitaire TriPeaks card game! With over 3000 levels to wander and win free coins! Train your brain playing alongside Tiki in this free solitaire game!",
+        "raw": {
+          "asset_identifier": "com.gsn.android.tripeaks",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Tiki Solitaire TriPeaks](https://play.google.com/store/apps/details?id=com.gsn.android.tripeaks)\nTiki Solitaire TriPeaks: the classic Solitaire TriPeaks card game! With over 3000 levels to wander and win free coins! Train your brain playing alongside Tiki in this free solitaire game!",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.gsn.android.tripeaks"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Grand Casino: Slots & Bingo](https://play.google.com/store/apps/details?id=com.gsn.grandcasino)\nHey Spinner - what’s your favourite casino game of 2022? Slots, Video Poker, Video bingo? HERE & NOW more than 100 casino games to choose from!",
+        "raw": {
+          "asset_identifier": "com.gsn.grandcasino",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Grand Casino: Slots & Bingo](https://play.google.com/store/apps/details?id=com.gsn.grandcasino)\nHey Spinner - what’s your favourite casino game of 2022? Slots, Video Poker, Video bingo? HERE & NOW more than 100 casino games to choose from!",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.gsn.grandcasino"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Stumbleguys](https://play.google.com/store/apps/details?id=com.kitkagames.fallbuddies)\nStumble Guys is a massive multiplayer party knockout game with up to 32 players online. Join millions of players and stumble to victory in this fun multiplayer knockout battle royale! Are you ready to enter the running chaos? Running, stumbling, falling, jumping, and winning has never been so fun!",
+        "raw": {
+          "asset_identifier": "com.kitkagames.fallbuddies",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Stumbleguys](https://play.google.com/store/apps/details?id=com.kitkagames.fallbuddies)\nStumble Guys is a massive multiplayer party knockout game with up to 32 players online. Join millions of players and stumble to victory in this fun multiplayer knockout battle royale! Are you ready to enter the running chaos? Running, stumbling, falling, jumping, and winning has never been so fun!",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.kitkagames.fallbuddies"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Scrabble GO](https://apps.apple.com/nz/app/scrabble-go-new-word-game/id1215933788)\nThe world’s greatest word game, is all new and reimagined as a free to play mobile game!\n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+        "raw": {
+          "asset_identifier": "com.pieyel.scrabble",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Scrabble GO](https://apps.apple.com/nz/app/scrabble-go-new-word-game/id1215933788)\nThe world’s greatest word game, is all new and reimagined as a free to play mobile game!\n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.pieyel.scrabble"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Scrabble GO](https://play.google.com/store/apps/details?id=com.pieyel.scrabble)\nThe world’s greatest word game, is all new and reimagined as a free to play mobile game!\n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+        "raw": {
+          "asset_identifier": "com.pieyel.scrabble",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Scrabble GO](https://play.google.com/store/apps/details?id=com.pieyel.scrabble)\nThe world’s greatest word game, is all new and reimagined as a free to play mobile game!\n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.pieyel.scrabble"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Monopoly GO! ](https://play.google.com/store/apps/details?id=com.scopely.monopolygo)\nHit GO! Roll the dice! Earn MONOPOLY money, interact with your friends, family members and fellow Tycoons from around the world as you explore the expanding universe of MONOPOLY GO! It’s the new way to play - board flipping cleanup not required!",
+        "raw": {
+          "asset_identifier": "com.scopely.monopolygo",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Monopoly GO! ](https://play.google.com/store/apps/details?id=com.scopely.monopolygo)\nHit GO! Roll the dice! Earn MONOPOLY money, interact with your friends, family members and fellow Tycoons from around the world as you explore the expanding universe of MONOPOLY GO! It’s the new way to play - board flipping cleanup not required!",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.scopely.monopolygo"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Star Trek Fleet Command ](https://play.google.com/store/apps/details?id=com.scopely.startrek)\nYou have the conn! Summon your skills in strategy, combat, diplomacy, and leadership to master the dangerous universe of Star Trek Fleet Command.",
+        "raw": {
+          "asset_identifier": "com.scopely.startrek",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Star Trek Fleet Command ](https://play.google.com/store/apps/details?id=com.scopely.startrek)\nYou have the conn! Summon your skills in strategy, combat, diplomacy, and leadership to master the dangerous universe of Star Trek Fleet Command.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.scopely.startrek"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Yahtzee with Buddies Dice Game](https://apps.apple.com/us/app/yahtzee-with-buddies-dice/id1206967173)\nRoll dice to play YAHTZEE® With Buddies! It is the fun, classic board game with a new look. Play dice with friends in this multiplayer game.\n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+        "raw": {
+          "asset_identifier": "com.scopely.yux",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Yahtzee with Buddies Dice Game](https://apps.apple.com/us/app/yahtzee-with-buddies-dice/id1206967173)\nRoll dice to play YAHTZEE® With Buddies! It is the fun, classic board game with a new look. Play dice with friends in this multiplayer game.\n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.scopely.yux"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Yahtzee with Buddies Dice Game](https://play.google.com/store/apps/details?id=com.scopely.yux)\nRoll dice to play YAHTZEE® With Buddies! It is the fun, classic board game with a new look. Play dice with friends in this multiplayer game.\n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+        "raw": {
+          "asset_identifier": "com.scopely.yux",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Yahtzee with Buddies Dice Game](https://play.google.com/store/apps/details?id=com.scopely.yux)\nRoll dice to play YAHTZEE® With Buddies! It is the fun, classic board game with a new look. Play dice with friends in this multiplayer game.\n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.scopely.yux"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Dice With Buddies: Social Game](https://apps.apple.com/us/app/dice-with-buddies-social-game/id432750508)\nDice With Buddies is a fun, new spin on your favorite classic dice game! Enjoyed by millions of players, you can play free multiplayer board games with family, friends, or new buddies! \n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+        "raw": {
+          "asset_identifier": "com.withbuddies.dice.free",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Dice With Buddies: Social Game](https://apps.apple.com/us/app/dice-with-buddies-social-game/id432750508)\nDice With Buddies is a fun, new spin on your favorite classic dice game! Enjoyed by millions of players, you can play free multiplayer board games with family, friends, or new buddies! \n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.withbuddies.dice.free"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Dice With Buddies: Social Game](https://play.google.com/store/apps/details?id=com.withbuddies.dice.free)\nDice With Buddies is a fun, new spin on your favorite classic dice game! Enjoyed by millions of players, you can play free multiplayer board games with family, friends, or new buddies! \n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+        "raw": {
+          "asset_identifier": "com.withbuddies.dice.free",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Dice With Buddies: Social Game](https://play.google.com/store/apps/details?id=com.withbuddies.dice.free)\nDice With Buddies is a fun, new spin on your favorite classic dice game! Enjoyed by millions of players, you can play free multiplayer board games with family, friends, or new buddies! \n\n**Status:** Available worldwide.\n\nShared Framework: Yes",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.withbuddies.dice.free"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Star Trek Fleet Command](https://apps.apple.com/us/app/star-trek-fleet-command/id1427744264)\nYou have the conn! Summon your skills in strategy, combat, diplomacy, and leadership to master the dangerous universe of Star Trek Fleet Command.\n",
+        "raw": {
+          "asset_identifier": "id1427744264",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Star Trek Fleet Command](https://apps.apple.com/us/app/star-trek-fleet-command/id1427744264)\nYou have the conn! Summon your skills in strategy, combat, diplomacy, and leadership to master the dangerous universe of Star Trek Fleet Command.\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "id1427744264"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[StumbleGuys](https://apps.apple.com/es/app/stumble-guys/id1541153375)\nStumble Guys is a massive multiplayer party knockout game with up to 32 players online. Join millions of players and stumble to victory in this fun multiplayer knockout battle royale! Are you ready to enter the running chaos? Running, stumbling, falling, jumping, and winning has never been so fun!",
+        "raw": {
+          "asset_identifier": "id1541153375",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[StumbleGuys](https://apps.apple.com/es/app/stumble-guys/id1541153375)\nStumble Guys is a massive multiplayer party knockout game with up to 32 players online. Join millions of players and stumble to victory in this fun multiplayer knockout battle royale! Are you ready to enter the running chaos? Running, stumbling, falling, jumping, and winning has never been so fun!",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "id1541153375"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Monopoly GO!](https://apps.apple.com/us/app/monopoly-go/id1621328561)\nHit GO! Roll the dice! Earn MONOPOLY money, interact with your friends, family members and fellow Tycoons from around the world as you explore the expanding universe of MONOPOLY GO! It’s the new way to play - board flipping cleanup not required!",
+        "raw": {
+          "asset_identifier": "id1621328561",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Monopoly GO!](https://apps.apple.com/us/app/monopoly-go/id1621328561)\nHit GO! Roll the dice! Earn MONOPOLY money, interact with your friends, family members and fellow Tycoons from around the world as you explore the expanding universe of MONOPOLY GO! It’s the new way to play - board flipping cleanup not required!",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "id1621328561"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "bamboo.scopely.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "bamboo.scopely.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "confluence.scopely.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "confluence.scopely.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "jira.scopely.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "jira.scopely.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "scopely.okta.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "scopely.okta.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/scopely"
+}

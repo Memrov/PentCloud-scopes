@@ -1,0 +1,93 @@
+{
+  "id": "hackerone:msci",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 1012.0,
+    "handle": "msci",
+    "id": 0,
+    "managed_program": true,
+    "name": "MSCI",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 60,
+    "submission_state": "open",
+    "url": "https://hackerone.com/msci",
+    "website": "https://msci.com"
+  },
+  "name": "MSCI",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "ea94b34c902c7567473f4c16b2500e4176754c15efd84edc1035e9e6499e05a0",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "msci",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Any public-facing system owned, operated, or controlled by MSCI, including web applications hosted on those sites. ",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Any public-facing system owned, operated, or controlled by MSCI, including web applications hosted on those sites. "
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.msci.com.ar",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.msci.com.ar"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://careers.msci.com/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://careers.msci.com/"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/msci"
+}

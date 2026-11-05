@@ -1,0 +1,129 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/thousandeyes-og",
+  "metadata": {
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "max_payout": 4500,
+    "name": "Cisco ThousandEyes Vulnerability Hunting aka Bug Bounty ",
+    "safe_harbor": "partial",
+    "url": "https://bugcrowd.com/engagements/thousandeyes-og"
+  },
+  "name": "Cisco ThousandEyes Vulnerability Hunting aka Bug Bounty ",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "56c5689113d054f218add0c584b24039b225a45d9459af1dc2e7c0bcf3815199",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/thousandeyes-og",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://api.thousandeyes.com/",
+          "target": "https://api.thousandeyes.com/",
+          "type": "api",
+          "uri": null
+        },
+        "type": "api",
+        "value": "https://api.thousandeyes.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://app.thousandeyes.com/",
+          "target": "https://app.thousandeyes.com/",
+          "type": "website",
+          "uri": "https://app.thousandeyes.com/"
+        },
+        "type": "website",
+        "value": "https://app.thousandeyes.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://www.thousandeyes.com/",
+          "target": "https://www.thousandeyes.com/",
+          "type": "website",
+          "uri": "https://www.thousandeyes.com/"
+        },
+        "type": "website",
+        "value": "https://www.thousandeyes.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "ThousandEyes Enterprise Agent",
+          "target": "ThousandEyes Enterprise Agent",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "ThousandEyes Enterprise Agent"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "ThousandEyes Endpoint Agent ",
+          "target": "ThousandEyes Endpoint Agent ",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "ThousandEyes Endpoint Agent "
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://blog.thousandeyes.com/",
+          "target": "https://blog.thousandeyes.com/",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "https://blog.thousandeyes.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://app.thousandeyes.com/sfdc/community",
+          "target": "https://app.thousandeyes.com/sfdc/community",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "https://app.thousandeyes.com/sfdc/community"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/thousandeyes-og"
+}

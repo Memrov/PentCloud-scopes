@@ -1,0 +1,110 @@
+{
+  "id": "hackerone:tomtom",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 6.0,
+    "average_time_to_report_resolved": 2143.0,
+    "handle": "tomtom",
+    "id": 0,
+    "managed_program": true,
+    "name": "TomTom",
+    "offers_bounties": false,
+    "offers_swag": true,
+    "response_efficiency_percentage": 72,
+    "submission_state": "open",
+    "url": "https://hackerone.com/tomtom",
+    "website": "https://www.tomtom.com/"
+  },
+  "name": "TomTom",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "c23866c33afee790b712e643a6c2ef4a8928f5a28cf6f3cc29f63db4b60f2198",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "tomtom",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.tomtom-global.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.tomtom-global.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.tomtom.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.tomtom.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.tomtomgroup.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.tomtomgroup.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "All public repositories in tomtom-international github org are in scope excluding the archived repositories",
+        "raw": {
+          "asset_identifier": "https://github.com/tomtom-international/*",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "All public repositories in tomtom-international github org are in scope excluding the archived repositories",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/tomtom-international/*"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/tomtom"
+}

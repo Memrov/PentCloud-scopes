@@ -1,0 +1,110 @@
+{
+  "id": "hackerone:duckduckgo",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 2.0,
+    "average_time_to_report_resolved": 2767.0,
+    "handle": "duckduckgo",
+    "id": 0,
+    "managed_program": true,
+    "name": "DuckDuckGo",
+    "offers_bounties": false,
+    "offers_swag": true,
+    "response_efficiency_percentage": 58,
+    "submission_state": "open",
+    "url": "https://hackerone.com/duckduckgo",
+    "website": "https://duckduckgo.com"
+  },
+  "name": "DuckDuckGo",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "98401f20c5ad6ebc03b61736f8592794d2923c353b8fba0c27644cc21ef85d47",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "duckduckgo",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.duckduckgo.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.duckduckgo.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.duckduckgo.mobile.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.duckduckgo.mobile.android"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.duckduckgo.mobile.ios",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.duckduckgo.mobile.ios"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/duckduckgo/duckduckgo-privacy-extension",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/duckduckgo/duckduckgo-privacy-extension"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/duckduckgo"
+}

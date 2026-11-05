@@ -1,0 +1,199 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/zendesk",
+  "metadata": {
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "max_payout": 50000,
+    "name": "Zendesk Managed Bug Bounty Engagement",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/zendesk"
+  },
+  "name": "Zendesk Managed Bug Bounty Engagement",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "1f2d81972b46bb849e7da2f87d3228e79e4608d69a56cf1df771ee5e060b0eed",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/zendesk",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "https://{subdomain}.zendesk.com/",
+          "name": "Zendesk AI",
+          "target": "Zendesk AI",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "Zendesk AI"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "https://{subdomain}.zendesk.com/",
+          "name": "Zendesk Front End",
+          "target": "Zendesk Front End",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "Zendesk Front End"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "https://{subdomain}.zendesk.com/",
+          "name": "Zendesk Suite",
+          "target": "Zendesk Suite",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "Zendesk Suite"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "https://{subdomain}.zendesk.com/",
+          "name": "Zendesk Mobile Applications",
+          "target": "Zendesk Mobile Applications",
+          "type": "other",
+          "uri": null
+        },
+        "type": "other",
+        "value": "Zendesk Mobile Applications"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "https://github.com/zendesk https://github.com/Tymeshift https://github.com/klausapp https://github.com/ultimateai",
+          "name": "Zendesk Public Repositories",
+          "target": "Zendesk Public Repositories",
+          "type": "other",
+          "uri": null
+        },
+        "type": "other",
+        "value": "Zendesk Public Repositories"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "https://{subdomain}.zendesk.com/",
+          "name": "Zendesk Marketplace Apps created by Zendesk",
+          "target": "Zendesk Marketplace Apps created by Zendesk",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "Zendesk Marketplace Apps created by Zendesk"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "support.zendesk.com ",
+          "target": "support.zendesk.com ",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "support.zendesk.com "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "www.zendesk.com",
+          "target": "www.zendesk.com",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "www.zendesk.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "\\*.zdassets.com  ",
+          "target": "\\*.zdassets.com  ",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "\\*.zdassets.com  "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Zendesk for Sales or Zendesk Sell ",
+          "target": "Zendesk for Sales or Zendesk Sell ",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "Zendesk for Sales or Zendesk Sell "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Zendesk supply chain, vendors and contractors ",
+          "target": "Zendesk supply chain, vendors and contractors ",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "Zendesk supply chain, vendors and contractors "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Already public vulnerabilities (i.e. CVE’s) in infrastructure, frameworks or libraries we use",
+          "target": "Already public vulnerabilities (i.e. CVE’s) in infrastructure, frameworks or libraries we use",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "Already public vulnerabilities (i.e. CVE’s) in infrastructure, frameworks or libraries we use"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/zendesk"
+}

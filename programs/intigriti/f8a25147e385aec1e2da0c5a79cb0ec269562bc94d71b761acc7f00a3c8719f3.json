@@ -1,0 +1,133 @@
+{
+  "id": "intigriti:43c4b274-ccbd-4ea2-8047-d40b0b4205ac",
+  "metadata": {
+    "company_handle": "dpgm",
+    "confidentiality_level": "public",
+    "handle": "libelle",
+    "id": "43c4b274-ccbd-4ea2-8047-d40b0b4205ac",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 2200
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 25
+    },
+    "name": "Libelle",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/dpgm/libelle/detail"
+  },
+  "name": "Libelle",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "356598c7420e329b9cb2b36cc52260297cc05cc4c7e2b99234bef1f4ac36dfd9",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "43c4b274-ccbd-4ea2-8047-d40b0b4205ac",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding\n* libelle.nl/service\n* libelle.nl/inloggen\n* libelle.nl/login\n* libelle.nl/registreren",
+        "raw": {
+          "description": "excluding\n* libelle.nl/service\n* libelle.nl/inloggen\n* libelle.nl/login\n* libelle.nl/registreren",
+          "endpoint": "www.libelle.nl",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.libelle.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.libelle.nl",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.libelle.nl"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "libelle.nl/inloggen",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "libelle.nl/inloggen"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "libelle.nl/login",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "libelle.nl/login"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "libelle.nl/registreren",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "libelle.nl/registreren"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "libelle.nl/service",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "libelle.nl/service"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+        "raw": {
+          "description": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+          "endpoint": "actie.libelle.nl",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "actie.libelle.nl"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/dpgm/libelle/detail"
+}

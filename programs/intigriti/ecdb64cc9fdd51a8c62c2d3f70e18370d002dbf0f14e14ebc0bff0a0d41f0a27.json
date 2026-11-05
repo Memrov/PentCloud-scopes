@@ -1,0 +1,80 @@
+{
+  "id": "intigriti:8148a041-c41d-4128-8c73-f4727002515e",
+  "metadata": {
+    "company_handle": "spacelift",
+    "confidentiality_level": "public",
+    "handle": "spaceliftvdp",
+    "id": "8148a041-c41d-4128-8c73-f4727002515e",
+    "max_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "name": "Spacelift VDP",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/spacelift/spaceliftvdp/detail"
+  },
+  "name": "Spacelift VDP",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "f71efeb3854cdf8d19fc40d95f73eb41245c21b8253e5fa6d8dd28b754e410c5",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "8148a041-c41d-4128-8c73-f4727002515e",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Wildcard covering all per-account subdomains of the Spacelift app (e.g. `<account>.app.spacelift.dev`). This is where the core product lives: authentication and SSO, role-based access control (RBAC), stacks and runs, VCS integrations (GitHub, GitLab, Bitbucket, Azure DevOps), cloud provider integrations (AWS, GCP, Azure), and the REST/GraphQL API. Highest-value areas: tenant isolation, authorization/RBAC bypass, IDOR across accounts, and the cloud-integration confused-deputy scenario.",
+        "raw": {
+          "description": "Wildcard covering all per-account subdomains of the Spacelift app (e.g. `<account>.app.spacelift.dev`). This is where the core product lives: authentication and SSO, role-based access control (RBAC), stacks and runs, VCS integrations (GitHub, GitLab, Bitbucket, Azure DevOps), cloud provider integrations (AWS, GCP, Azure), and the REST/GraphQL API. Highest-value areas: tenant isolation, authorization/RBAC bypass, IDOR across accounts, and the cloud-integration confused-deputy scenario.",
+          "endpoint": "*.app.spacelift.dev",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.app.spacelift.dev"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The application's root entry point: login, signup, and the account-agnostic parts of the dashboard. Same environment and rules as the wildcard above; the wildcard does not cover this apex host, which is why it's listed separately.",
+        "raw": {
+          "description": "The application's root entry point: login, signup, and the account-agnostic parts of the dashboard. Same environment and rules as the wildcard above; the wildcard does not cover this apex host, which is why it's listed separately.",
+          "endpoint": "app.spacelift.dev",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "app.spacelift.dev"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "It's a landing page serving mostly static content, and it's also where users can sign up for an account.",
+        "raw": {
+          "description": "It's a landing page serving mostly static content, and it's also where users can sign up for an account.",
+          "endpoint": "spacelift.dev",
+          "impact": null,
+          "type": "url"
+        },
+        "type": "url",
+        "value": "spacelift.dev"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/spacelift/spaceliftvdp/detail"
+}

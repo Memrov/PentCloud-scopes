@@ -1,0 +1,74 @@
+{
+  "id": "hackerone:flexport_vdp",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 9460.0,
+    "handle": "flexport_vdp",
+    "id": 0,
+    "managed_program": true,
+    "name": "Flexport VDP",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 90,
+    "submission_state": "open",
+    "url": "https://hackerone.com/flexport_vdp",
+    "website": "https://flexport.com"
+  },
+  "name": "Flexport VDP",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "6cddffb88d80117605a97ad68a9c83553a9231576f39b7ea977cb646d78af87f",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "flexport_vdp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.flexport.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.flexport.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.transmissionapp.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.transmissionapp.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/flexport_vdp"
+}

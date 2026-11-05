@@ -1,0 +1,255 @@
+{
+  "id": "hackerone:whoop_bug_bounty",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 309.0,
+    "average_time_to_first_program_response": 19.0,
+    "average_time_to_report_resolved": 2210.0,
+    "handle": "whoop_bug_bounty",
+    "id": 0,
+    "managed_program": true,
+    "name": "Whoop Bug Bounty",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 75,
+    "submission_state": "open",
+    "url": "https://hackerone.com/whoop_bug_bounty",
+    "website": "https://www.whoop.com"
+  },
+  "name": "Whoop Bug Bounty",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "47f7ce0a0f4bbf53127afadbb1fb401ab2a7f4746791e84f117d80ecc2b1c263",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "whoop_bug_bounty",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "WHOOP 4.0 STRAP",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "WHOOP 4.0 STRAP"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "WHOOP 5.0/MG STRAP",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "WHOOP 5.0/MG STRAP"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Destructive actions are prohibited. We will verify if a destructive action is possible. If you delete data or impact a user’s experience we will consider this as a destructive action. \n\nThis is the API that supports the WHOOP App. Successful submissions must demonstrate unauthorized access to data beyond the credential’s expected access. For instance, finding API keys of users on GitHub will not be accepted.",
+        "raw": {
+          "asset_identifier": "api.prod.whoop.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Destructive actions are prohibited. We will verify if a destructive action is possible. If you delete data or impact a user’s experience we will consider this as a destructive action. \n\nThis is the API that supports the WHOOP App. Successful submissions must demonstrate unauthorized access to data beyond the credential’s expected access. For instance, finding API keys of users on GitHub will not be accepted.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.prod.whoop.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "app.whoop.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.whoop.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "com.whoop.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.whoop.android"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "com.whoop.iphone",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.whoop.iphone"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "join.whoop.com",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "join.whoop.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "shop.whoop.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "shop.whoop.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This program does not accept issues related to internal tools or systems at this time. ",
+        "raw": {
+          "asset_identifier": "Azure AD, Google Drive, Link Sharing Websites",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This program does not accept issues related to internal tools or systems at this time. ",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Azure AD, Google Drive, Link Sharing Websites"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Card testing, enumeration, and any related fraud simulation attempts are strictly prohibited. These activities pose real financial risks.\nhttps://docs.stripe.com/disputes/prevention/card-testing",
+        "raw": {
+          "asset_identifier": "Credit/Debit Card Testing",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Card testing, enumeration, and any related fraud simulation attempts are strictly prohibited. These activities pose real financial risks.\nhttps://docs.stripe.com/disputes/prevention/card-testing",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Credit/Debit Card Testing"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Any submission to a support system such as Live Chat, Intercom, Iterable, Salesforce, etc., will not be accepted. If you flood a support queue we will consider this to be a destructive action and we may ban you from the program.",
+        "raw": {
+          "asset_identifier": "Support System",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Any submission to a support system such as Live Chat, Intercom, Iterable, Salesforce, etc., will not be accepted. If you flood a support queue we will consider this to be a destructive action and we may ban you from the program.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Support System"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope to test Okta IdP. Any issues should be submitted to Okta’s BPB.",
+        "raw": {
+          "asset_identifier": "okta.whoop.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope to test Okta IdP. Any issues should be submitted to Okta’s BPB.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "okta.whoop.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/whoop_bug_bounty"
+}

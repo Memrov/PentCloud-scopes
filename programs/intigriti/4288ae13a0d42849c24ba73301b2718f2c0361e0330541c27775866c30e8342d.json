@@ -1,0 +1,67 @@
+{
+  "id": "intigriti:618a4498-8882-406f-bfe1-b44b9acd0146",
+  "metadata": {
+    "company_handle": "universityofbasel",
+    "confidentiality_level": "public",
+    "handle": "universityofbaselvdp",
+    "id": "618a4498-8882-406f-bfe1-b44b9acd0146",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "University of Basel VDP",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/universityofbasel/universityofbaselvdp/detail"
+  },
+  "name": "University of Basel VDP",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "108f5f2611d8668f6729e52ec060dd270c28f65ce4fc3e8bdc97af914d42559d",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "618a4498-8882-406f-bfe1-b44b9acd0146",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Exclusion (**out of scope**):\n* 131.152.122.128/25\n* 131.152.122.192/26\n* 131.152.225.0/26",
+        "raw": {
+          "description": "Exclusion (**out of scope**):\n* 131.152.122.128/25\n* 131.152.122.192/26\n* 131.152.225.0/26",
+          "endpoint": "131.152.0.0/16",
+          "impact": "No Bounty",
+          "type": "iprange"
+        },
+        "type": "iprange",
+        "value": "131.152.0.0/16"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "**ONLY** within 131.152.0.0/16",
+        "raw": {
+          "description": "**ONLY** within 131.152.0.0/16",
+          "endpoint": "*.unibas.ch",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.unibas.ch"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/universityofbasel/universityofbaselvdp/detail"
+}

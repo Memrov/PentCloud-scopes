@@ -1,0 +1,106 @@
+{
+  "id": "intigriti:8f6c92dc-1300-4f11-8284-29b6ed743378",
+  "metadata": {
+    "company_handle": "speakap",
+    "confidentiality_level": "public",
+    "handle": "speakapresponsibledisclosure",
+    "id": "8f6c92dc-1300-4f11-8284-29b6ed743378",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Speakap Responsible Disclosure",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/speakap/speakapresponsibledisclosure/detail"
+  },
+  "name": "Speakap Responsible Disclosure",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "912bf35e92c48e9b25694e1a0ab8a1680789a323e321c3e8d57a99a8764b2e02",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "8f6c92dc-1300-4f11-8284-29b6ed743378",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.speakap.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.speakap.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.speakap.io",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.speakap.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Any related Speakap domain",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "Any related Speakap domain"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://apps.apple.com/nl/app/speakap/id713925262",
+          "impact": "No Bounty",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "https://apps.apple.com/nl/app/speakap/id713925262"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "nl.speakap.speakap",
+          "impact": "No Bounty",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "nl.speakap.speakap"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/speakap/speakapresponsibledisclosure/detail"
+}

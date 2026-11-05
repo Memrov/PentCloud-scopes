@@ -1,0 +1,198 @@
+{
+  "id": "intigriti:f64faa66-b7e6-4ad7-bf56-b64a885d682a",
+  "metadata": {
+    "company_handle": "vlerickbusinessschool",
+    "confidentiality_level": "public",
+    "handle": "vlerickbusinessschool",
+    "id": "f64faa66-b7e6-4ad7-bf56-b64a885d682a",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Vlerick Business School",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/vlerickbusinessschool/vlerickbusinessschool/detail"
+  },
+  "name": "Vlerick Business School",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "7ae19b15595d3d2fed05501a458ab476095d1792348ae61945cb1dbefb0123fa",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "f64faa66-b7e6-4ad7-bf56-b64a885d682a",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "When you start testing www.vlerick.com, **visit www.vlerick.com/en?internal first**. In this way, your testing is not taken into account in our web stats.\n\nNEW!  Feel free to test & scan our new submdomain https://my.vlerick.com/ as well.",
+        "raw": {
+          "description": "When you start testing www.vlerick.com, **visit www.vlerick.com/en?internal first**. In this way, your testing is not taken into account in our web stats.\n\nNEW!  Feel free to test & scan our new submdomain https://my.vlerick.com/ as well.",
+          "endpoint": "*.vlerick.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.vlerick.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "193.190.150.0/24",
+          "impact": "No Bounty",
+          "type": "iprange"
+        },
+        "type": "iprange",
+        "value": "193.190.150.0/24"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://my.vlerick.com/ ",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://my.vlerick.com/ "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://viper.uat.vlerick.com/",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://viper.uat.vlerick.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://www-tst.vlerick.com/en/",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://www-tst.vlerick.com/en/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://enterprise.vlerick.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://enterprise.vlerick.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://enterprise2.vlerick.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://enterprise2.vlerick.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://mastersblog.vlerick.com/",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://mastersblog.vlerick.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://repository.vlerick.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://repository.vlerick.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://spoc.myshopify.com/",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://spoc.myshopify.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://vlerick.myshopify.com/",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://vlerick.myshopify.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://webform.vlerick.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://webform.vlerick.com"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/vlerickbusinessschool/vlerickbusinessschool/detail"
+}

@@ -1,0 +1,146 @@
+{
+  "id": "intigriti:badcb3b0-34be-4bd1-9186-7678aa5b5d17",
+  "metadata": {
+    "company_handle": "allegro",
+    "confidentiality_level": "public",
+    "handle": "allegrobugbounty",
+    "id": "badcb3b0-34be-4bd1-9186-7678aa5b5d17",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 4000
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 100
+    },
+    "name": "Allegro",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/allegro/allegrobugbounty/detail"
+  },
+  "name": "Allegro",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "50e6a29f5d45b3e80a72a5e67b2528f9d2572f94791d4fecfdd27e6776fca340",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "badcb3b0-34be-4bd1-9186-7678aa5b5d17",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Allegro sandbox environment for the Czech Republic.",
+        "raw": {
+          "description": "Allegro sandbox environment for the Czech Republic.",
+          "endpoint": "*.allegro.cz.allegrosandbox.pl",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.allegro.cz.allegrosandbox.pl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The main sandbox environment that replicates Allegro production. For more information please visit [developer website](https://developer.allegro.pl/tutorials/basic-information-VL6YelvVKTn#test-environment).",
+        "raw": {
+          "description": "The main sandbox environment that replicates Allegro production. For more information please visit [developer website](https://developer.allegro.pl/tutorials/basic-information-VL6YelvVKTn#test-environment).",
+          "endpoint": "*.allegro.pl.allegrosandbox.pl",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.allegro.pl.allegrosandbox.pl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Allegro sandbox environment for Slovakia.",
+        "raw": {
+          "description": "Allegro sandbox environment for Slovakia.",
+          "endpoint": "*.allegro.sk.allegrosandbox.pl",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.allegro.sk.allegrosandbox.pl"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.allegro.cz",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.allegro.cz"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.allegro.pl",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.allegro.pl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.allegro.sk",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.allegro.sk"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.allegrogroup.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.allegrogroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Any production website owned by Allegro not listed in Domains",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Any production website owned by Allegro not listed in Domains"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/allegro/allegrobugbounty/detail"
+}

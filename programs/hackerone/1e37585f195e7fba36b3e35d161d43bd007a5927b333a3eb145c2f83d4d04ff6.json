@@ -1,0 +1,362 @@
+{
+  "id": "hackerone:23andme_bbp",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 457.0,
+    "average_time_to_first_program_response": 8.0,
+    "average_time_to_report_resolved": 1292.0,
+    "handle": "23andme_bbp",
+    "id": 0,
+    "managed_program": true,
+    "name": "23andMe Bug Bounty",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 90,
+    "submission_state": "open",
+    "url": "https://hackerone.com/23andme_bbp",
+    "website": "http://23andme.org"
+  },
+  "name": "23andMe Bug Bounty",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "e80afa78df75602ab0f8c18f13bf7f30953b7adbeff30aa5c695e9c9ae2d4350",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "23andme_bbp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Surname discovery domain that allows customers to browse different surname information.",
+        "raw": {
+          "asset_identifier": "23andme.org/ancestry/last-names",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Surname discovery domain that allows customers to browse different surname information.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "23andme.org/ancestry/last-names"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Official blog of 23andMe, sharing insightful articles, updates, and stories on genetics, health, and personal genomics.",
+        "raw": {
+          "asset_identifier": "23andme.org/blog",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Official blog of 23andMe, sharing insightful articles, updates, and stories on genetics, health, and personal genomics.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "23andme.org/blog"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Medical and therapeutics site containing information about 23andMe's medical research.",
+        "raw": {
+          "asset_identifier": "23andme.org/clinicians",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Medical and therapeutics site containing information about 23andMe's medical research.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "23andme.org/clinicians"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "23andMe's dedicated education site, offering resources and insights to enhance genetic literacy through informative content and educational materials",
+        "raw": {
+          "asset_identifier": "23andme.org/education",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "23andMe's dedicated education site, offering resources and insights to enhance genetic literacy through informative content and educational materials",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "23andme.org/education"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Media center for 23andMe, providing press releases, media assets, and comprehensive information for journalists and media professionals",
+        "raw": {
+          "asset_identifier": "23andme.org/media-center",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Media center for 23andMe, providing press releases, media assets, and comprehensive information for journalists and media professionals",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "23andme.org/media-center"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "research.23andMe.com is the official research domain of 23andMe",
+        "raw": {
+          "asset_identifier": "23andme.org/research",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "research.23andMe.com is the official research domain of 23andMe",
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "23andme.org/research"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Public-facing website for the 23andMe Research Institute. Provides information about ongoing genetic research initiatives, published studies, member contribution programs, and partnership opportunities for researchers and collaborators.",
+        "raw": {
+          "asset_identifier": "23andmeresearchinstitute.org",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Public-facing website for the 23andMe Research Institute. Provides information about ongoing genetic research initiatives, published studies, member contribution programs, and partnership opportunities for researchers and collaborators.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "23andmeresearchinstitute.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "First API from original codebase, responsible for less services at the moment but still integrated into the product.",
+        "raw": {
+          "asset_identifier": "api.23andme.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "First API from original codebase, responsible for less services at the moment but still integrated into the product.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.23andme.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Responsible for all authenticated services throughout the product.",
+        "raw": {
+          "asset_identifier": "auth.23andme.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Responsible for all authenticated services throughout the product.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "auth.23andme.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "23andMe Fulfillment API",
+        "raw": {
+          "asset_identifier": "fulfillment.23andme.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "23andMe Fulfillment API",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "fulfillment.23andme.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "E-commerce storefront for 23andMe merchandise.",
+        "raw": {
+          "asset_identifier": "merch.23andme.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "E-commerce storefront for 23andMe merchandise.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "merch.23andme.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Clinical trials site portal for 23andMe collaborator-sponsored studies.",
+        "raw": {
+          "asset_identifier": "portal.23andme.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Clinical trials site portal for 23andMe collaborator-sponsored studies.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "portal.23andme.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Customer referral program portal for 23andMe. Handles referral link generation, tracking, and reward redemption for existing customers referring new kit purchases.",
+        "raw": {
+          "asset_identifier": "refer.23andme.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Customer referral program portal for 23andMe. Handles referral link generation, tracking, and reward redemption for existing customers referring new kit purchases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "refer.23andme.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Online store for 23andMe products, offering DNA testing kits, genetic insights, and personalized merchandise.",
+        "raw": {
+          "asset_identifier": "store.23andme.org",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Online store for 23andMe products, offering DNA testing kits, genetic insights, and personalized merchandise.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "store.23andme.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is a documentation site for the 23andMe design system. Its purpose is to organize, streamline, and document the usage of re-usable components within the 23andMe eco-system.",
+        "raw": {
+          "asset_identifier": "style.23andme.org",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is a documentation site for the 23andMe design system. Its purpose is to organize, streamline, and document the usage of re-usable components within the 23andMe eco-system.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "style.23andme.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Smart Trust Center to learn about our security posture and request access to our security documentation.",
+        "raw": {
+          "asset_identifier": "trust.23andme.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Smart Trust Center to learn about our security posture and request access to our security documentation.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "trust.23andme.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The primary public-facing gateway and core application entry point.",
+        "raw": {
+          "asset_identifier": "www.23andme.org",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The primary public-facing gateway and core application entry point.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.23andme.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "you.23andme.com is our main consumer site which contains users DNA kit results, dna relatives, and more. Users can interact with relatives and perform profile related features such as downloading data.",
+        "raw": {
+          "asset_identifier": "you.23andme.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "you.23andme.com is our main consumer site which contains users DNA kit results, dna relatives, and more. Users can interact with relatives and perform profile related features such as downloading data.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "you.23andme.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/23andme_bbp"
+}

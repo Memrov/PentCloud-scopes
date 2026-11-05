@@ -1,0 +1,1155 @@
+{
+  "id": "hackerone:exodus",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 328.0,
+    "average_time_to_first_program_response": 17.0,
+    "average_time_to_report_resolved": 1290.0,
+    "handle": "exodus",
+    "id": 0,
+    "managed_program": false,
+    "name": "Exodus",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 97,
+    "submission_state": "open",
+    "url": "https://hackerone.com/exodus",
+    "website": "https://www.exodus.com"
+  },
+  "name": "Exodus",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "56ce57c25bbd62df893e4fbc0a8fc3b32b3870e31b7bbf201d5ebb9c40ba5db8",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "exodus",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Everything underneath the `*-s.a.exodus.io` is generally considered our staging environment and is okay/safe for performing simple/basic attack vectors against our wallet and our backends.  Add `-s` to any asset/service name to hit our staging environment, for example bitcoin-s.a.exodus.io.\n\n**KNOWN ISSUES**\n1. Please do not re-submit reports disclosing XSS attacks on outdated openapi/swaggerhub version embedded in the various open source blockchain APIs that we host.  This is a known issue, posting here for clarity to prevent wasted cycles on your end and ours.\n1. API keys that are hardcoded in our wallet involving 3rd party blockchain APIs (ex. bitcoin, tezos, waves etc) are similarly a known/non issue.  These are effectively public APIs and no changes will be made to these endpoints.\n\n\n",
+        "raw": {
+          "asset_identifier": "*.a.exodus.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Everything underneath the `*-s.a.exodus.io` is generally considered our staging environment and is okay/safe for performing simple/basic attack vectors against our wallet and our backends.  Add `-s` to any asset/service name to hit our staging environment, for example bitcoin-s.a.exodus.io.\n\n**KNOWN ISSUES**\n1. Please do not re-submit reports disclosing XSS attacks on outdated openapi/swaggerhub version embedded in the various open source blockchain APIs that we host.  This is a known issue, posting here for clarity to prevent wasted cycles on your end and ours.\n1. API keys that are hardcoded in our wallet involving 3rd party blockchain APIs (ex. bitcoin, tezos, waves etc) are similarly a known/non issue.  These are effectively public APIs and no changes will be made to these endpoints.\n\n\n",
+          "integrity_requirement": "medium",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.a.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is basically a marketing site while our product API is still pointing to `*.exodus.io`, Some of `exodus.io` subdomains should be redirected to `exodus.com` such as `www.exodus.io`  --> `www.exodus.com` ",
+        "raw": {
+          "asset_identifier": "*.exodus.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is basically a marketing site while our product API is still pointing to `*.exodus.io`, Some of `exodus.io` subdomains should be redirected to `exodus.com` such as `www.exodus.io`  --> `www.exodus.com` ",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.exodus.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Any domains or subdomains underneath exodus.io are considered our public \"face\" of our company, including our website, subdomains, download links, etc.  Please review our policy for things that are considered in-scope and will result in bounties.",
+        "raw": {
+          "asset_identifier": "*.exodus.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Any domains or subdomains underneath exodus.io are considered our public \"face\" of our company, including our website, subdomains, download links, etc.  Please review our policy for things that are considered in-scope and will result in bounties.",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Desktop Download Link: [Exodus Crypto Wallet](https://exodus.io/download)\n\nThis is the official Exodus Crypto Wallet for the Desktop (Mac/Win/Linux) which itself stores and manages a user's cryptocurrency.  This has much higher Environmental Score and potential attack vectors especially due to its desktop-computer nature.\n\n**NOTE:** Please make sure to read our Program Policy, as certain attack vectors are considered out of scope (eg: OS-related attacks).\n\n",
+        "raw": {
+          "asset_identifier": "Exodus Desktop Wallet",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Desktop Download Link: [Exodus Crypto Wallet](https://exodus.io/download)\n\nThis is the official Exodus Crypto Wallet for the Desktop (Mac/Win/Linux) which itself stores and manages a user's cryptocurrency.  This has much higher Environmental Score and potential attack vectors especially due to its desktop-computer nature.\n\n**NOTE:** Please make sure to read our Program Policy, as certain attack vectors are considered out of scope (eg: OS-related attacks).\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Exodus Desktop Wallet"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Smart Contract: Solana - EQYRmLmkE7G7a2WQyojwrXg4SeguypCdnbm3ecncizsd",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Smart Contract: Solana - EQYRmLmkE7G7a2WQyojwrXg4SeguypCdnbm3ecncizsd"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Smart Contract: Solana mainnet - xoUSDq85Rjsb6SbUwJyreFgeWQvxdkT7R3c3g7s6p5Y",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Smart Contract: Solana mainnet - xoUSDq85Rjsb6SbUwJyreFgeWQvxdkT7R3c3g7s6p5Y"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "agents.exodus.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "agents.exodus.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "ctr.a.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "ctr.a.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "App Store: [Exodus Crypto Wallet](https://apps.apple.com/us/app/exodus-crypto-wallet/id1414384820)\n\nThis is the official Exodus Crypto Wallet, which itself stores and manages a user's cryptocurrency.  This has much higher Environmental Score and potential attack vectors.\n\nThe most critical thing we want to help ensure is that our users are never vulnerable to getting their money/wallet stolen, and that users can always use their wallet to view/manage/exchange crypto.\n\n**NOTE:** Please make sure to read our Program Policy, as certain attack vectors are considered out of scope (eg: OS-related attacks).\n\n",
+        "raw": {
+          "asset_identifier": "exodus-movement.exodus",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "App Store: [Exodus Crypto Wallet](https://apps.apple.com/us/app/exodus-crypto-wallet/id1414384820)\n\nThis is the official Exodus Crypto Wallet, which itself stores and manages a user's cryptocurrency.  This has much higher Environmental Score and potential attack vectors.\n\nThe most critical thing we want to help ensure is that our users are never vulnerable to getting their money/wallet stolen, and that users can always use their wallet to view/manage/exchange crypto.\n\n**NOTE:** Please make sure to read our Program Policy, as certain attack vectors are considered out of scope (eg: OS-related attacks).\n\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "exodus-movement.exodus"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "fiat-p.a.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "fiat-p.a.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "fiat-prod-fallback.a.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "fiat-prod-fallback.a.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "fiat.a.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "fiat.a.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://apps.apple.com/us/app/exodus-crypto-bitcoin-wallet/id1414384820",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "https://apps.apple.com/us/app/exodus-crypto-bitcoin-wallet/id1414384820"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/ExodusOSS/bytes",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/ExodusOSS/bytes"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/ExodusOSS/crypto",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/ExodusOSS/crypto"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/ExodusOSS/hydra",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/ExodusOSS/hydra"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://play.google.com/store/apps/details?id=exodusmovement.exodus&hl=en_IN",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "https://play.google.com/store/apps/details?id=exodusmovement.exodus&hl=en_IN"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://www.npmjs.com/package/@exodus/errors",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://www.npmjs.com/package/@exodus/errors"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://www.npmjs.com/package/@exodus/keychain",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://www.npmjs.com/package/@exodus/keychain"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://www.npmjs.com/package/@exodus/safe-string",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://www.npmjs.com/package/@exodus/safe-string"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://www.npmjs.com/package/@exodus/sentry-client",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://www.npmjs.com/package/@exodus/sentry-client"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "kyc.a.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "kyc.a.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "login.exodus.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "login.exodus.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "nexotrack-p.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "nexotrack-p.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "nexotrack.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "nexotrack.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "pay-admin.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "pay-admin.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "pay.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "pay.exodus.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "turing.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "turing.exodus.io"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We do not own atp-exodus.com assets hence it should be considered out of scope.",
+        "raw": {
+          "asset_identifier": "*.atp-exodus.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We do not own atp-exodus.com assets hence it should be considered out of scope.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.atp-exodus.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.grateful.me",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.grateful.me"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Exodus Browser Extension",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Exodus Browser Extension"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Exodus Mobile App Browser and Wallet Connect",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Exodus Mobile App Browser and Wallet Connect"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Passkey Wallet",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Passkey Wallet"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "api-p.xoswap.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "api-p.xoswap.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "api.passkeys.network",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "api.passkeys.network"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "api.xoswap.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "api.xoswap.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "dashboard-p.xoswap.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "dashboard-p.xoswap.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "dashboard.xoswap.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "dashboard.xoswap.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "embedded.passkeys.foundation",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "embedded.passkeys.foundation"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "exchange-p.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "exchange-p.exodus.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "exchange-server-p.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "exchange-server-p.exodus.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "exchange-server.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "exchange-server.exodus.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We do not own Atlassian instance at  https://exodus.atlassian.net . Any reports containing this out-of-scope asset will be marked as N/A\n\n",
+        "raw": {
+          "asset_identifier": "exodus.atlassian.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We do not own Atlassian instance at  https://exodus.atlassian.net . Any reports containing this out-of-scope asset will be marked as N/A\n\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "exodus.atlassian.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This azure bucket does not belong to us please refrain from submitting.",
+        "raw": {
+          "asset_identifier": "exodusstore.blob.core.windows.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This azure bucket does not belong to us please refrain from submitting.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "exodusstore.blob.core.windows.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This subdomain is hosted on a 3rd party dataset",
+        "raw": {
+          "asset_identifier": "get.exodus.*",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This subdomain is hosted on a 3rd party dataset",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "get.exodus.*"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "http://exchange-server.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://exchange-server.exodus.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "intentionally public. Any report related to this will be marked Not-Applicable",
+        "raw": {
+          "asset_identifier": "http://exodus.com/keybase.txt",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "intentionally public. Any report related to this will be marked Not-Applicable",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://exodus.com/keybase.txt"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "http://www.exodus.com/contact-support",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://www.exodus.com/contact-support"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://apps.apple.com/us/app/grateful-by-exodus/id6754093889",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "https://apps.apple.com/us/app/grateful-by-exodus/id6754093889"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We do not own this instance, Any report related to this will be marked as `Not-Applicable` ",
+        "raw": {
+          "asset_identifier": "https://exodus.atlassian.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We do not own this instance, Any report related to this will be marked as `Not-Applicable` ",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://exodus.atlassian.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://play.google.com/store/apps/details?id=com.exodus.grateful",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "https://play.google.com/store/apps/details?id=com.exodus.grateful"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "my.passkeys.network",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "my.passkeys.network"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "passkeys.foundation",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "passkeys.foundation"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "relay.passkeys.foundation",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "relay.passkeys.foundation"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "safeguard.a.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "safeguard.a.exodus.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Invite link to our public Slack, there are no vulnerabilities.",
+        "raw": {
+          "asset_identifier": "slack-invite.exodus.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Invite link to our public Slack, there are no vulnerabilities.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "slack-invite.exodus.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This subdomain points to our support and hiring services which are hosted on 3rd party dataset",
+        "raw": {
+          "asset_identifier": "support-helpers.a.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This subdomain points to our support and hiring services which are hosted on 3rd party dataset",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support-helpers.a.exodus.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Domain is not in scope for testing",
+        "raw": {
+          "asset_identifier": "support.exodus.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Domain is not in scope for testing",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support.exodus.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "wallet.passkeys.foundation",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "wallet.passkeys.foundation"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "3rd party service installed on the endpoint",
+        "raw": {
+          "asset_identifier": "www.exodus.com/job-application/*",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "3rd party service installed on the endpoint",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "www.exodus.com/job-application/*"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "xoswap-graphql-p.a.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "xoswap-graphql-p.a.exodus.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "xoswap-graphql.a.exodus.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "xoswap-graphql.a.exodus.io"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/exodus"
+}

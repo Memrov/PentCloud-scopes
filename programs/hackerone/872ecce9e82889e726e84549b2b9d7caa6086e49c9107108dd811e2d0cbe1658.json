@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:hex",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 26.0,
+    "average_time_to_report_resolved": null,
+    "handle": "hex",
+    "id": 0,
+    "managed_program": true,
+    "name": "Hex",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 81,
+    "submission_state": "open",
+    "url": "https://hackerone.com/hex",
+    "website": "https://hex.tech"
+  },
+  "name": "Hex",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "b4034f24d6ffaf9aeec8ed45b65ccb2345164614cde55228097402527e3fa4db",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "hex",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://*.hex.tech",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "WILDCARD",
+        "value": "https://*.hex.tech"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Core production application",
+        "raw": {
+          "asset_identifier": "https://app.hex.tech",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Core production application",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://app.hex.tech"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Marketing site",
+        "raw": {
+          "asset_identifier": "https://hex.tech",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Marketing site",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "https://hex.tech"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/hex"
+}

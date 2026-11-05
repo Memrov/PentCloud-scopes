@@ -1,0 +1,275 @@
+{
+  "id": "intigriti:b1a1cbbb-f927-49d5-a9c8-2ea03a626270",
+  "metadata": {
+    "company_handle": "nexo",
+    "confidentiality_level": "public",
+    "handle": "nexo",
+    "id": "b1a1cbbb-f927-49d5-a9c8-2ea03a626270",
+    "max_bounty": {
+      "currency": "USD",
+      "value": 4800
+    },
+    "min_bounty": {
+      "currency": "USD",
+      "value": 125
+    },
+    "name": "Nexo",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/nexo/nexo/detail"
+  },
+  "name": "Nexo",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "c24ed8a0c9226004251e0e0694c5c0805582949e4a66c442baf28e4db5529e91",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "b1a1cbbb-f927-49d5-a9c8-2ea03a626270",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API sets and creates new recurring payment which will occurs every X days.",
+        "raw": {
+          "description": "API sets and creates new recurring payment which will occurs every X days.",
+          "endpoint": "https://platform.nexo.com/api/1/create_recurring_payment",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/1/create_recurring_payment"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Endpoint’s functionality is to trigger and convert an exchange between two currencies.",
+        "raw": {
+          "description": "Endpoint’s functionality is to trigger and convert an exchange between two currencies.",
+          "endpoint": "https://platform.nexo.com/api/1/exchange_order",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/1/exchange_order"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API endpoint requests a quote which is used for calculating the amount that will be received.",
+        "raw": {
+          "description": "API endpoint requests a quote which is used for calculating the amount that will be received.",
+          "endpoint": "https://platform.nexo.com/api/1/exchange_request_quote",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/1/exchange_request_quote"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "An API endpoint that generates the fees for the user.",
+        "raw": {
+          "description": "An API endpoint that generates the fees for the user.",
+          "endpoint": "https://platform.nexo.com/api/1/get_pay_to_card_fee",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/1/get_pay_to_card_fee"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API Endpoint fetches and returns buy with card quote.",
+        "raw": {
+          "description": "API Endpoint fetches and returns buy with card quote.",
+          "endpoint": "https://platform.nexo.com/api/1/request_bwc_quote",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/1/request_bwc_quote"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API Endpoint that allows users to buy crypto with a card.",
+        "raw": {
+          "description": "API Endpoint that allows users to buy crypto with a card.",
+          "endpoint": "https://platform.nexo.com/api/1/request_capture_payment",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/1/request_capture_payment"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API Endpoint that allows users to withdraw their crypto.",
+        "raw": {
+          "description": "API Endpoint that allows users to withdraw their crypto.",
+          "endpoint": "https://platform.nexo.com/api/1/request_crypto_withdrawal",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/1/request_crypto_withdrawal"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The Endpoint’s functionality is to perform Withdraw Transaction to a Card.",
+        "raw": {
+          "description": "The Endpoint’s functionality is to perform Withdraw Transaction to a Card.",
+          "endpoint": "https://platform.nexo.com/api/1/request_pay_to_card",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/1/request_pay_to_card"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API Endpoint that creates a fixed-term deposit.",
+        "raw": {
+          "description": "API Endpoint that creates a fixed-term deposit.",
+          "endpoint": "https://platform.nexo.com/api/1/term/deposits/user/create",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/1/term/deposits/user/create"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API Endpoint requests a quote for our [booster product](https://support.nexo.com/article/nexo-booster-explained). The transactions are made based on this quote.",
+        "raw": {
+          "description": "API Endpoint requests a quote for our [booster product](https://support.nexo.com/article/nexo-booster-explained). The transactions are made based on this quote.",
+          "endpoint": "https://platform.nexo.com/api/platform/exchange/v1/booster/quotes",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/platform/exchange/v1/booster/quotes"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The Endpoint’s functionality is to return the orders that have been made by the user.",
+        "raw": {
+          "description": "The Endpoint’s functionality is to return the orders that have been made by the user.",
+          "endpoint": "https://platform.nexo.com/api/platform/exchange/v2/booster/orders",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/platform/exchange/v2/booster/orders"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API Endpoint used to convert one crypto to another.",
+        "raw": {
+          "description": "API Endpoint used to convert one crypto to another.",
+          "endpoint": "https://platform.nexo.com/api/platform/exchange/v2/exchange/orders",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/platform/exchange/v2/exchange/orders"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API Endpoint used to add assets to the user's trading wallet.",
+        "raw": {
+          "description": "API Endpoint used to add assets to the user's trading wallet.",
+          "endpoint": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/deposit",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/deposit"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Endpoint to fetch deposit fees.",
+        "raw": {
+          "description": "Endpoint to fetch deposit fees.",
+          "endpoint": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/fees",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/fees"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API Endpoint used to open a future position.",
+        "raw": {
+          "description": "API Endpoint used to open a future position.",
+          "endpoint": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/order/futures",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/order/futures"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API Endpoint used to withdraw assets from your trading wallet to your savings wallet.",
+        "raw": {
+          "description": "API Endpoint used to withdraw assets from your trading wallet to your savings wallet.",
+          "endpoint": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/withdraw",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/withdraw"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "On this website you can get familiar with our products.",
+        "raw": {
+          "description": "On this website you can get familiar with our products.",
+          "endpoint": "https://nexo.com/",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://nexo.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "On this website you can use our products.",
+        "raw": {
+          "description": "On this website you can use our products.",
+          "endpoint": "https://platform.nexo.com/",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://platform.nexo.com/"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/nexo/nexo/detail"
+}

@@ -1,0 +1,489 @@
+{
+  "id": "hackerone:grindr",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 703.0,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 1024.0,
+    "handle": "grindr",
+    "id": 0,
+    "managed_program": false,
+    "name": "Grindr",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 86,
+    "submission_state": "open",
+    "url": "https://hackerone.com/grindr",
+    "website": "https://www.grindr.com"
+  },
+  "name": "Grindr",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "1d85347a59ee7107cf43d0ada5c9972e78e7909f66a6ff60c2ce4a76be1d98d8",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "grindr",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Assets under *.dev.grindr.io are development and test systems; feel free to evaluate them, but severity levels will be reduced because we do not host customer data in these environments.",
+        "raw": {
+          "asset_identifier": "*.dev.grindr.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Assets under *.dev.grindr.io are development and test systems; feel free to evaluate them, but severity levels will be reduced because we do not host customer data in these environments.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.dev.grindr.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Assets under *.dev2.grindr.io are development and test systems; feel free to evaluate them, but severity levels will be reduced because we do not host customer data in these environments.",
+        "raw": {
+          "asset_identifier": "*.dev2.grindr.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Assets under *.dev2.grindr.io are development and test systems; feel free to evaluate them, but severity levels will be reduced because we do not host customer data in these environments.",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.dev2.grindr.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This domain includes the following subdomains:\n* Website (grindr.com).  Note the Grindr website does not provide services found in the mobile application or any sort of user login.\n* Chat server (chat.grindr.com, chat-internal.grindr.com).  \n* ‘Presence’ server (presence.grindr.com).  This service manages the availability notification of clients.  \n* CDN/media files (cdns.grindr.com).  \n* Gaymoji image index (gaymoji.grindr.com)\n* Captcha snippets  (captcha-prod.grindr.com)\n* Admin webapp (admin.grindr.com)\n* Law Enforcement reporting webapp (reporting-portal.grindr.com)\n",
+        "raw": {
+          "asset_identifier": "*.grindr.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This domain includes the following subdomains:\n* Website (grindr.com).  Note the Grindr website does not provide services found in the mobile application or any sort of user login.\n* Chat server (chat.grindr.com, chat-internal.grindr.com).  \n* ‘Presence’ server (presence.grindr.com).  This service manages the availability notification of clients.  \n* CDN/media files (cdns.grindr.com).  \n* Gaymoji image index (gaymoji.grindr.com)\n* Captcha snippets  (captcha-prod.grindr.com)\n* Admin webapp (admin.grindr.com)\n* Law Enforcement reporting webapp (reporting-portal.grindr.com)\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.grindr.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This domain is used for development purposes.  ",
+        "raw": {
+          "asset_identifier": "*.grindr.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This domain is used for development purposes.  ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.grindr.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This domain is used for backend API's.  \n\n\n",
+        "raw": {
+          "asset_identifier": "*.grindr.mobi",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This domain is used for backend API's.  \n\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.grindr.mobi"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Vulnerabilities that require physical, jailbroken, or device root OS access of another user's device will typically be considered out-of-scope.",
+        "raw": {
+          "asset_identifier": "319881193",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Vulnerabilities that require physical, jailbroken, or device root OS access of another user's device will typically be considered out-of-scope.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "319881193"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Vulnerabilities that require physical, jailbroken, or device root OS access of another user's device will typically be considered out-of-scope.",
+        "raw": {
+          "asset_identifier": "com.grindrapp.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Vulnerabilities that require physical, jailbroken, or device root OS access of another user's device will typically be considered out-of-scope.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.grindrapp.android"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Assets under *.preprod1.grindr.com are development and test systems; feel free to evaluate them, but severity levels will be reduced because we do not host customer data in these environments.",
+        "raw": {
+          "asset_identifier": "preprod1.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Assets under *.preprod1.grindr.com are development and test systems; feel free to evaluate them, but severity levels will be reduced because we do not host customer data in these environments.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "preprod1.grindr.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is the Web version of the Grindr app. Only paid subscriptions have access to Grindr Web.",
+        "raw": {
+          "asset_identifier": "web.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is the Web version of the Grindr app. Only paid subscriptions have access to Grindr Web.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "web.grindr.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This site is hosted by a third-party, Bucksense. Please contact security@bucksense.com to report security vulnerabilities.",
+        "raw": {
+          "asset_identifier": "*.grindrads.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This site is hosted by a third-party, Bucksense. Please contact security@bucksense.com to report security vulnerabilities.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.grindrads.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Any databases, Wordpress instances, web infrastructure related to INTO is out of scope",
+        "raw": {
+          "asset_identifier": "*.intomore.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Any databases, Wordpress instances, web infrastructure related to INTO is out of scope",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.intomore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The site is hosted by a third-party, webflow.  Please report security issues on their HackerOne account.  Instructions here:\nhttps://bugcrowd.com/engagements/webflow-vdp-pro",
+        "raw": {
+          "asset_identifier": "blog.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The site is hosted by a third-party, webflow.  Please report security issues on their HackerOne account.  Instructions here:\nhttps://bugcrowd.com/engagements/webflow-vdp-pro",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "blog.grindr.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Known issue; this repo describes staging systems that are no longer in use.  Please do not submit reports unless you are able to demonstrate a connection between this code and live infrastructure.",
+        "raw": {
+          "asset_identifier": "github.com/thesokrin/vfd",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Known issue; this repo describes staging systems that are no longer in use.  Please do not submit reports unless you are able to demonstrate a connection between this code and live infrastructure.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "github.com/thesokrin/vfd"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This site is hosted by a third-party, GoLinks.  Please contact them at https://www.golinks.io/contact.php",
+        "raw": {
+          "asset_identifier": "go.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This site is hosted by a third-party, GoLinks.  Please contact them at https://www.golinks.io/contact.php",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "go.grindr.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This site is hosted by a third-party; please direct security vulnerabilities to Atlassian at https://bugcrowd.com/atlassian",
+        "raw": {
+          "asset_identifier": "grindr.atlassian.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This site is hosted by a third-party; please direct security vulnerabilities to Atlassian at https://bugcrowd.com/atlassian",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "grindr.atlassian.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is hosted by a third-party, Squarespace.  Please report security issues on their HackerOne account.  Instructions here:\nhttps://www.squarespace.com/vulnerability-reporting",
+        "raw": {
+          "asset_identifier": "grindrbloop.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is hosted by a third-party, Squarespace.  Please report security issues on their HackerOne account.  Instructions here:\nhttps://www.squarespace.com/vulnerability-reporting",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "grindrbloop.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This site is hosted by a third-party, Shopify.  Please report security issues on their HackerOne account:\nhttps://hackerone.com/shopify",
+        "raw": {
+          "asset_identifier": "grindrtogo.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This site is hosted by a third-party, Shopify.  Please report security issues on their HackerOne account:\nhttps://hackerone.com/shopify",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "grindrtogo.grindr.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Zendesk-hosted. Do not test (ticket creation impacts support). Report ZenDesk issues: https://bugcrowd.com/engagements/zendesk",
+        "raw": {
+          "asset_identifier": "help.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Zendesk-hosted. Do not test (ticket creation impacts support). Report ZenDesk issues: https://bugcrowd.com/engagements/zendesk",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "help.grindr.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/grindrlabs",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://github.com/grindrlabs"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is Grindr's Investor Relations site. The site is hosted by a third-party, Q4 inc.\n\nAs recommended on https://www.q4inc.com/contact-us/default.aspx, submit security related issues or concerns to support@q4inc.com",
+        "raw": {
+          "asset_identifier": "investors.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is Grindr's Investor Relations site. The site is hosted by a third-party, Q4 inc.\n\nAs recommended on https://www.q4inc.com/contact-us/default.aspx, submit security related issues or concerns to support@q4inc.com",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "investors.grindr.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This site is hosted by a third-party, Wix.  Please report security issues on their HackerOne account:\nhttps://support.wix.com/en/article/reporting-a-security-issue",
+        "raw": {
+          "asset_identifier": "kindr.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This site is hosted by a third-party, Wix.  Please report security issues on their HackerOne account:\nhttps://support.wix.com/en/article/reporting-a-security-issue",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "kindr.grindr.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This site is hosted by a third-party, Bucksense. Please contact security@bucksense.com to report security vulnerabilities.",
+        "raw": {
+          "asset_identifier": "selfservice.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This site is hosted by a third-party, Bucksense. Please contact security@bucksense.com to report security vulnerabilities.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "selfservice.grindr.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This site is hosted by a third-party, Shopify.  Please report security issues on their HackerOne account:\nhttps://hackerone.com/shopify",
+        "raw": {
+          "asset_identifier": "shop.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This site is hosted by a third-party, Shopify.  Please report security issues on their HackerOne account:\nhttps://hackerone.com/shopify",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "shop.grindr.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This site is hosted by a third-party, Shopify.  Please report security issues on their HackerOne account:\nhttps://hackerone.com/shopify",
+        "raw": {
+          "asset_identifier": "shop.grindrbloop.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This site is hosted by a third-party, Shopify.  Please report security issues on their HackerOne account:\nhttps://hackerone.com/shopify",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "shop.grindrbloop.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The site is hosted by a third-party, Atlassian. Please report security issues on their HackerOne account: https://hackerone.com/atlassian?type=team",
+        "raw": {
+          "asset_identifier": "status.grindr.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The site is hosted by a third-party, Atlassian. Please report security issues on their HackerOne account: https://hackerone.com/atlassian?type=team",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "status.grindr.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/grindr"
+}

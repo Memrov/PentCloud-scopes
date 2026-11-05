@@ -1,0 +1,159 @@
+{
+  "id": "intigriti:61e0e37c-19cc-4abe-af51-108a78bee995",
+  "metadata": {
+    "company_handle": "bmw",
+    "confidentiality_level": "public",
+    "handle": "bmwgroup",
+    "id": "61e0e37c-19cc-4abe-af51-108a78bee995",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 6000
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 150
+    },
+    "name": "BMW Group",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/bmw/bmwgroup/detail"
+  },
+  "name": "BMW Group",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "54942bb4a30866db61f74319d592e65abb80080365600058270efa484c0965d5",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "61e0e37c-19cc-4abe-af51-108a78bee995",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.bmw-motorrad.de",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.bmw-motorrad.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.bmw.de",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.bmw.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.mini.de",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.mini.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "configure.bmw.de",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "configure.bmw.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "configure.mini.de",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "configure.mini.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "konfigurator.bmw-motorrad.de",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "konfigurator.bmw-motorrad.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Please select this asset to report vulnerabilities affecting BMW assets but not matching any of the assets stated above.\n\n**Important:** Note our policy regarding \"No Bounty Domains\" and a potentially deviating application of the **safe harbor clause**.\nWe may award a small bonus for these assets, but only valid high, critical and exceptional severity findings - this is however, at the discretion of the BMW Group team.",
+        "raw": {
+          "description": "Please select this asset to report vulnerabilities affecting BMW assets but not matching any of the assets stated above.\n\n**Important:** Note our policy regarding \"No Bounty Domains\" and a potentially deviating application of the **safe harbor clause**.\nWe may award a small bonus for these assets, but only valid high, critical and exceptional severity findings - this is however, at the discretion of the BMW Group team.",
+          "endpoint": "Other BMW Domains",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Other BMW Domains"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Please submit valid findings regarding Automotive assets in our public [BMW Group - Automotive program](https://app.intigriti.com/programs/bmw/bmwgroup-automotive).",
+        "raw": {
+          "description": "Please submit valid findings regarding Automotive assets in our public [BMW Group - Automotive program](https://app.intigriti.com/programs/bmw/bmwgroup-automotive).",
+          "endpoint": "Automotive Security",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Automotive Security"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "These domains belong to legally independent entities. We can only inform these entities. However, we have no influence on the mitigation process of the vulnerabilities in these assets.",
+        "raw": {
+          "description": "These domains belong to legally independent entities. We can only inform these entities. However, we have no influence on the mitigation process of the vulnerabilities in these assets.",
+          "endpoint": "Domains from independent BMW Dealers, Resellers or Fanclubs",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Domains from independent BMW Dealers, Resellers or Fanclubs"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/bmw/bmwgroup/detail"
+}

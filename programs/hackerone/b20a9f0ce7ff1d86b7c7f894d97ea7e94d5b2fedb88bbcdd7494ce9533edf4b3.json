@@ -1,0 +1,741 @@
+{
+  "id": "hackerone:github",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 1793.0,
+    "average_time_to_first_program_response": 202.0,
+    "average_time_to_report_resolved": 2404.0,
+    "handle": "github",
+    "id": 0,
+    "managed_program": false,
+    "name": "GitHub",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 32,
+    "submission_state": "open",
+    "url": "https://hackerone.com/github",
+    "website": "https://bounty.github.com"
+  },
+  "name": "GitHub",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "f47f69fbade71e88c0247880ea47bcd9aab3523da798e9d228c6542e76131186",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "github",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Subdomains under `*.github.net` run services for our internal production network. Many of these services are not accessible from outside our internal network. Not all subdomains are [in-scope](https://bounty.github.com/#scope)",
+        "raw": {
+          "asset_identifier": "*.github.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Subdomains under `*.github.net` run services for our internal production network. Many of these services are not accessible from outside our internal network. Not all subdomains are [in-scope](https://bounty.github.com/#scope)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.github.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Subdomains under `*.githubapp.com` provide a number of internal services to GitHub employees. Not all subdomains are [in-scope](https://bounty.github.com/#scope)\n",
+        "raw": {
+          "asset_identifier": "*.githubapp.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Subdomains under `*.githubapp.com` provide a number of internal services to GitHub employees. Not all subdomains are [in-scope](https://bounty.github.com/#scope)\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.githubapp.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.githubusercontent.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.githubusercontent.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Copilot",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Copilot"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Copilot Chat on dotcom",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "OTHER",
+        "value": "Copilot Chat on dotcom"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Copilot Coding Agent",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Copilot Coding Agent"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Copilot Spaces",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Copilot Spaces"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Copilot for Business",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Copilot for Business"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Dependabot powers GitHub's [automated security fixes](https://help.github.com/en/articles/configuring-automated-security-fixes). This feature allows GitHub users to automatically update vulnerable dependencies. The core logic of Dependabot is [open-source](https://github.com/dependabot/dependabot-core) and an [overview of the architecture](https://github.com/dependabot/dependabot-core#architecture) is available.\n\n  * Execution environment breakout attacks, providing access to private networked resources or other users' data\n  * Security issues in [`dependabot-core`](https://github.com/dependabot/dependabot-core)",
+        "raw": {
+          "asset_identifier": "Dependabot",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Dependabot powers GitHub's [automated security fixes](https://help.github.com/en/articles/configuring-automated-security-fixes). This feature allows GitHub users to automatically update vulnerable dependencies. The core logic of Dependabot is [open-source](https://github.com/dependabot/dependabot-core) and an [overview of the architecture](https://github.com/dependabot/dependabot-core#architecture) is available.\n\n  * Execution environment breakout attacks, providing access to private networked resources or other users' data\n  * Security issues in [`dependabot-core`](https://github.com/dependabot/dependabot-core)",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Dependabot"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[GitHub CLI](https://cli.github.com) is an open source command line tool for working with your GitHub.com account. It is built with Golang, and performs several GitHub.com commands from your terminal, such as viewing, commenting and performing other actions on issues and PRs.",
+        "raw": {
+          "asset_identifier": "GitHub CLI",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[GitHub CLI](https://cli.github.com) is an open source command line tool for working with your GitHub.com account. It is built with Golang, and performs several GitHub.com commands from your terminal, such as viewing, commenting and performing other actions on issues and PRs.",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "GitHub CLI"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "While content-injection vulnerabilities are already in-scope for our [GitHub.com bounty](https://bounty.github.com/targets/github.html), we also accept bounty reports for novel [CSP](https://developers.google.com/web/fundamentals/security/csp/) bypasses affecting GitHub.com, even if they do not include a content-injection vulnerability. Using an intercepting proxy or your browser's developer tools, experiment with injecting content into the DOM. See if you can execute arbitrary JavaScript or exfiltrate sensitive page contents such as CSRF tokens. Reports of other previously-unknown impacts from content-injection will also be considered.\n\nPreviously identified attacks are not eligible for reward (we've put a lot of thought into CSP bypasses already). You can find a discussion of known attacks and our attempts to mitigate them [here](http://githubengineering.com/githubs-csp-journey/). Attacks against CSP features not used on GitHub.com, such as script nonces, are not eligible for reward. Vulnerabilities resulting from injection in implausible locations, such as within an element that doesn't contain user-content, are not eligible for reward. Rewards are determined at our discretion: if you think you've found something cool and novel, report it!\n\n",
+        "raw": {
+          "asset_identifier": "GitHub CSP",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "While content-injection vulnerabilities are already in-scope for our [GitHub.com bounty](https://bounty.github.com/targets/github.html), we also accept bounty reports for novel [CSP](https://developers.google.com/web/fundamentals/security/csp/) bypasses affecting GitHub.com, even if they do not include a content-injection vulnerability. Using an intercepting proxy or your browser's developer tools, experiment with injecting content into the DOM. See if you can execute arbitrary JavaScript or exfiltrate sensitive page contents such as CSRF tokens. Reports of other previously-unknown impacts from content-injection will also be considered.\n\nPreviously identified attacks are not eligible for reward (we've put a lot of thought into CSP bypasses already). You can find a discussion of known attacks and our attempts to mitigate them [here](http://githubengineering.com/githubs-csp-journey/). Attacks against CSP features not used on GitHub.com, such as script nonces, are not eligible for reward. Vulnerabilities resulting from injection in implausible locations, such as within an element that doesn't contain user-content, are not eligible for reward. Rewards are determined at our discretion: if you think you've found something cool and novel, report it!\n\n",
+          "integrity_requirement": "none",
+          "max_severity": "high"
+        },
+        "type": "OTHER",
+        "value": "GitHub CSP"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[GitHub Desktop](https://desktop.github.com) is an open-source [Electron](https://electronjs.org)-based app for working with your GitHub.com or GitHub Enterprise account. Only the following vulnerabilities are eligible for reward:\n  * Remote code execution via protocol handlers such as `x-github-client://`\n  * Code execution without user interaction when cloning or fetching malicious repositories\n\n",
+        "raw": {
+          "asset_identifier": "GitHub Desktop",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[GitHub Desktop](https://desktop.github.com) is an open-source [Electron](https://electronjs.org)-based app for working with your GitHub.com or GitHub Enterprise account. Only the following vulnerabilities are eligible for reward:\n  * Remote code execution via protocol handlers such as `x-github-client://`\n  * Code execution without user interaction when cloning or fetching malicious repositories\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "GitHub Desktop"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "GitHub Enterprise Cloud is the cloud-hosted version of GitHub Enterprise. It is designed for teams who want advanced authentication and permissions without managing infrastructure. More information about GitHub Enterprise Cloud is available at https://github.com/enterprise\n\n",
+        "raw": {
+          "asset_identifier": "GitHub Enterprise Cloud",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "GitHub Enterprise Cloud is the cloud-hosted version of GitHub Enterprise. It is designed for teams who want advanced authentication and permissions without managing infrastructure. More information about GitHub Enterprise Cloud is available at https://github.com/enterprise\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "GitHub Enterprise Cloud"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "GitHub Enterprise Cloud with Data Residency (GHEC-DR)",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "GitHub Enterprise Cloud with Data Residency (GHEC-DR)"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "GitHub Enterprise Server is the on-premise version of GitHub Enterprise. GitHub Enterprise Server shares a code-base with GitHub.com, is built on Ruby on Rails and leverages a number of open source technologies. GitHub Enterprise Server adds a number of features for enterprise infrastructures, including additional authentication backends and clustering options.\n\n Below is a subset of features unique to GitHub Enterprise that might be interesting to investigate.\n\n  * Bypassing instance-wide authentication, also known as [*private mode*](https://help.github.com/enterprise/admin/guides/installation/enabling-private-mode/)\n  * External authentication backends including [CAS, LDAP, and SAML](https://help.github.com/enterprise/admin/guides/user-management/)\n  * In-app administration of the instance using a site administrator control panel\n  * [User, organization, and repository migration](https://help.github.com/enterprise/admin/guides/migrations/)\n  * [Web-based management console](https://help.github.com/enterprise/admin/guides/installation/web-based-management-console/) and [SSH access](https://help.github.com/enterprise/admin/guides/installation/administrative-shell-ssh-access/) to configure and update the instance\n  * [Pre-receive hook scripts](https://help.github.com/enterprise/admin/guides/developer-workflow/creating-a-pre-receive-hook-script/)\n  * [GitHub Connect](https://help.github.com/enterprise/admin/guides/developer-workflow/connecting-github-enterprise-server-to-github-com/) allows users to share specific features and workflows between your GitHub Enterprise Server instance and a GitHub.com organization on GitHub Enterprise Cloud.\n  * See [our documentation](https://help.github.com/enterprise/admin/guides/installation/network-ports-to-open/) for a list of services typically open on an instance.\n\nYou can request a trial of GitHub Enterprise Server for security testing at [https://enterprise.github.com/bounty](https://enterprise.github.com/bounty).",
+        "raw": {
+          "asset_identifier": "GitHub Enterprise Server",
+          "asset_type": "HARDWARE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "GitHub Enterprise Server is the on-premise version of GitHub Enterprise. GitHub Enterprise Server shares a code-base with GitHub.com, is built on Ruby on Rails and leverages a number of open source technologies. GitHub Enterprise Server adds a number of features for enterprise infrastructures, including additional authentication backends and clustering options.\n\n Below is a subset of features unique to GitHub Enterprise that might be interesting to investigate.\n\n  * Bypassing instance-wide authentication, also known as [*private mode*](https://help.github.com/enterprise/admin/guides/installation/enabling-private-mode/)\n  * External authentication backends including [CAS, LDAP, and SAML](https://help.github.com/enterprise/admin/guides/user-management/)\n  * In-app administration of the instance using a site administrator control panel\n  * [User, organization, and repository migration](https://help.github.com/enterprise/admin/guides/migrations/)\n  * [Web-based management console](https://help.github.com/enterprise/admin/guides/installation/web-based-management-console/) and [SSH access](https://help.github.com/enterprise/admin/guides/installation/administrative-shell-ssh-access/) to configure and update the instance\n  * [Pre-receive hook scripts](https://help.github.com/enterprise/admin/guides/developer-workflow/creating-a-pre-receive-hook-script/)\n  * [GitHub Connect](https://help.github.com/enterprise/admin/guides/developer-workflow/connecting-github-enterprise-server-to-github-com/) allows users to share specific features and workflows between your GitHub Enterprise Server instance and a GitHub.com organization on GitHub Enterprise Cloud.\n  * See [our documentation](https://help.github.com/enterprise/admin/guides/installation/network-ports-to-open/) for a list of services typically open on an instance.\n\nYou can request a trial of GitHub Enterprise Server for security testing at [https://enterprise.github.com/bounty](https://enterprise.github.com/bounty).",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "HARDWARE",
+        "value": "GitHub Enterprise Server"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "GitHub Pages is our static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository. It uses the Jekyll static site generator and officially supported themes are are developed in the pages-themes organization. GitHub Pages support custom domains and can be secured with HTTPS. Eligible submissions include:\n- Executing arbitrary code during the build process, either via a custom Jekyll theme or vulnerabilities in the command-line Git tools when cloning or checking-out repositories from user accounts that do not have actions workflow permissions.\n- Reading arbitrary files during the build process which discloses sensitive information, for example by misusing path traversal or symbolic links in a custom Jekyll theme from user accounts that do not have permissions to view those resources.\n\nIndividual GitHub Pages sites hosted under *.github.io are out-of-scope.",
+        "raw": {
+          "asset_identifier": "GitHub Pages",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "GitHub Pages is our static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository. It uses the Jekyll static site generator and officially supported themes are are developed in the pages-themes organization. GitHub Pages support custom domains and can be secured with HTTPS. Eligible submissions include:\n- Executing arbitrary code during the build process, either via a custom Jekyll theme or vulnerabilities in the command-line Git tools when cloning or checking-out repositories from user accounts that do not have actions workflow permissions.\n- Reading arbitrary files during the build process which discloses sensitive information, for example by misusing path traversal or symbolic links in a custom Jekyll theme from user accounts that do not have permissions to view those resources.\n\nIndividual GitHub Pages sites hosted under *.github.io are out-of-scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "GitHub Pages"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "GitHub, Inc. uses a mix of our own physical infrastructure, cloud platforms and third-party services to keep everything running smoothly. Keeping credentials and access tokens secure for these resources is paramount to the security of our employees and users.\n\n* Credentials allowing access to cloud services, package managers and other resources used by GitHub, Inc employees\n* Credentials accidentally made public in repositories which allow access to GitHub, Inc resources. This does *not* include credentials exposed by our users and credentials which do not allow access to GitHub, Inc resources.\n* Credentials exposed by third-party services which allow access to GitHub, Inc resources\n\nPlease review our [guidance for handling PII](https://bounty.github.com/#handling_personally_identifiable_information_pii) before investigating credentials allowing access to GitHub, Inc resources. The reward amount is based on the impact of the leaked credential which will be determined by the GitHub Security team.",
+        "raw": {
+          "asset_identifier": "GitHub Production Credentials",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "GitHub, Inc. uses a mix of our own physical infrastructure, cloud platforms and third-party services to keep everything running smoothly. Keeping credentials and access tokens secure for these resources is paramount to the security of our employees and users.\n\n* Credentials allowing access to cloud services, package managers and other resources used by GitHub, Inc employees\n* Credentials accidentally made public in repositories which allow access to GitHub, Inc resources. This does *not* include credentials exposed by our users and credentials which do not allow access to GitHub, Inc resources.\n* Credentials exposed by third-party services which allow access to GitHub, Inc resources\n\nPlease review our [guidance for handling PII](https://bounty.github.com/#handling_personally_identifiable_information_pii) before investigating credentials allowing access to GitHub, Inc resources. The reward amount is based on the impact of the leaked credential which will be determined by the GitHub Security team.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "GitHub Production Credentials"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "GitHub Spark",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "GitHub Spark"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Bring GitHub collaboration tools to your small screens with [GitHub for mobile](https://github.com/mobile).",
+        "raw": {
+          "asset_identifier": "GitHub for mobile",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Bring GitHub collaboration tools to your small screens with [GitHub for mobile](https://github.com/mobile).",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "GitHub for mobile"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The GitHub API is used by thousands of developers and applications to programatically interact with GitHub data and services. Because so much of the GitHub.com functionality is exposed in the API, security has always been a high priority.\n\nRewards range from $555 up to $20,000 and are determined at our discretion based on a number of factors.\n\nYou can find the app at [https://api.github.com](https://api.github.com \"https://api.github.com\") and can find the API documentation at [https://developer.github.com](https://developer.github.com \"https://developer.github.com\").\n\n",
+        "raw": {
+          "asset_identifier": "api.github.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The GitHub API is used by thousands of developers and applications to programatically interact with GitHub data and services. Because so much of the GitHub.com functionality is exposed in the API, security has always been a high priority.\n\nRewards range from $555 up to $20,000 and are determined at our discretion based on a number of factors.\n\nYou can find the app at [https://api.github.com](https://api.github.com \"https://api.github.com\") and can find the API documentation at [https://developer.github.com](https://developer.github.com \"https://developer.github.com\").\n\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.github.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "\n\n",
+        "raw": {
+          "asset_identifier": "classroom.github.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "classroom.github.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "GitHub Education offers a variety of tools to help educators and researchers work more effectively inside and outside of the classroom. More details are available at https://education.github.com/. GitHub Classroom is [open-source](https://github.com/education/classroom)",
+        "raw": {
+          "asset_identifier": "education.github.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "GitHub Education offers a variety of tools to help educators and researchers work more effectively inside and outside of the classroom. More details are available at https://education.github.com/. GitHub Classroom is [open-source](https://github.com/education/classroom)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "education.github.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Gist is one of the first products launched by GitHub after GitHub.com. It is a service for sharing snippets of code or other text content. Gist is built on Ruby on Rails and leverages a number of Open Source technologies.\n\nRewards range from $555 up to $20,000 and are determined at our discretion based on a number of factors. For example, if you find a reflected XSS that is only possible in Opera, and Opera is \\<2% of our traffic, then the severity and reward will be lower. But a persistent XSS that works in Chrome, at \\>60% of our traffic, will earn a much larger reward.\n\nYou can find the app at [https://gist.github.com](https://gist.github.com \"https://gist.github.com\").\n\n",
+        "raw": {
+          "asset_identifier": "gist.github.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Gist is one of the first products launched by GitHub after GitHub.com. It is a service for sharing snippets of code or other text content. Gist is built on Ruby on Rails and leverages a number of Open Source technologies.\n\nRewards range from $555 up to $20,000 and are determined at our discretion based on a number of factors. For example, if you find a reflected XSS that is only possible in Opera, and Opera is \\<2% of our traffic, then the severity and reward will be lower. But a persistent XSS that works in Chrome, at \\>60% of our traffic, will earn a much larger reward.\n\nYou can find the app at [https://gist.github.com](https://gist.github.com \"https://gist.github.com\").\n\n",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "gist.github.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "GitHub.com is our main web site. It is our most intricate application with a number of user inputs and access methods. GitHub.com is built on Ruby on Rails and leverages a number of Open Source technologies.\n\nRewards range from $555 up to $20,000 and are determined at our discretion based on a number of factors. For example, if you find a reflected XSS that is only possible in Opera, and Opera is \\<2% of our traffic, then the severity and reward will be lower. But a persistent XSS that works in Chrome, at \\>60% of our traffic, will earn a much larger reward.\n\nYou can find the app at [https://github.com](https://github.com \"https://github.com\").\n\n",
+        "raw": {
+          "asset_identifier": "github.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "GitHub.com is our main web site. It is our most intricate application with a number of user inputs and access methods. GitHub.com is built on Ruby on Rails and leverages a number of Open Source technologies.\n\nRewards range from $555 up to $20,000 and are determined at our discretion based on a number of factors. For example, if you find a reflected XSS that is only possible in Opera, and Opera is \\<2% of our traffic, then the severity and reward will be lower. But a persistent XSS that works in Chrome, at \\>60% of our traffic, will earn a much larger reward.\n\nYou can find the app at [https://github.com](https://github.com \"https://github.com\").\n\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "github.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "npm CLI",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "npm CLI"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is the domain for npm’s public-facing websites. All subdomains under npmjs.com are in scope.",
+        "raw": {
+          "asset_identifier": "npmjs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is the domain for npm’s public-facing websites. All subdomains under npmjs.com are in scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "npmjs.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is the domain for npm’s registry, public-facing databases, and APIs. All subdomains under npmjs.org are in scope.",
+        "raw": {
+          "asset_identifier": "npmjs.org",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is the domain for npm’s registry, public-facing databases, and APIs. All subdomains under npmjs.org are in scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "npmjs.org"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Individual sites which are hosted on GitHub Pages are out-of-scope.\n",
+        "raw": {
+          "asset_identifier": "*.github.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Individual sites which are hosted on GitHub Pages are out-of-scope.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "*.github.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "[https://atom.io](https://atom.io \"https://atom.io\")\n",
+        "raw": {
+          "asset_identifier": "Atom",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "[https://atom.io](https://atom.io \"https://atom.io\")\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Atom"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Electron vulnerabilities which do not directly affect GitHub Desktop are out-of-scope and should be [reported](https://electronjs.org/community) to the Electron developers.\n\n",
+        "raw": {
+          "asset_identifier": "Electron",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Electron vulnerabilities which do not directly affect GitHub Desktop are out-of-scope and should be [reported](https://electronjs.org/community) to the Electron developers.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Electron"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The [GitHub Classroom Assistant application](https://classroom.github.com/assistant) is currently out-of-scope.",
+        "raw": {
+          "asset_identifier": "GitHub Classroom Assistant ",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The [GitHub Classroom Assistant application](https://classroom.github.com/assistant) is currently out-of-scope.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "GitHub Classroom Assistant "
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The GitHub Blog is not in-scope and ineligible for rewards.\n\n",
+        "raw": {
+          "asset_identifier": "blog.github.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The GitHub Blog is not in-scope and ineligible for rewards.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "blog.github.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The GitHub Community forum is not in-scope and ineligible for rewards.",
+        "raw": {
+          "asset_identifier": "community.github.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The GitHub Community forum is not in-scope and ineligible for rewards.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "community.github.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "`enterprise.github.com` is commonly confused with the [GitHub Enterprise Server product](https://github.com/enterprise) which is an on-premise instance of GitHub.\n",
+        "raw": {
+          "asset_identifier": "enterprise.github.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "`enterprise.github.com` is commonly confused with the [GitHub Enterprise Server product](https://github.com/enterprise) which is an on-premise instance of GitHub.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "enterprise.github.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The [git.io](https://git.io) URL shortener is out-of-scope.",
+        "raw": {
+          "asset_identifier": "git.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The [git.io](https://git.io) URL shortener is out-of-scope.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "git.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "[github.blog](https://github.blog) is out-of-scope.",
+        "raw": {
+          "asset_identifier": "github.blog",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "[github.blog](https://github.blog) is out-of-scope.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "github.blog"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The [GitHub Education Community forum](https://education.github.com/forum) is not in-scope and ineligible for rewards.",
+        "raw": {
+          "asset_identifier": "http://education.github.com/forum",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The [GitHub Education Community forum](https://education.github.com/forum) is not in-scope and ineligible for rewards.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://education.github.com/forum"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The GitHub Shop is not in-scope and ineligible for rewards.",
+        "raw": {
+          "asset_identifier": "shop.github.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The GitHub Shop is not in-scope and ineligible for rewards.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "shop.github.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "[Spectrum](https://spectrum.chat) is currently out-of-scope.",
+        "raw": {
+          "asset_identifier": "spectrum.chat",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "[Spectrum](https://spectrum.chat) is currently out-of-scope.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "spectrum.chat"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/github"
+}

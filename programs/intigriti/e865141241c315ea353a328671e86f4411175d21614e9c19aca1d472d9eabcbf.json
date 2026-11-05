@@ -1,0 +1,93 @@
+{
+  "id": "intigriti:7ecdd3d1-a794-4ceb-9518-f9a016dc26a6",
+  "metadata": {
+    "company_handle": "bmw",
+    "confidentiality_level": "public",
+    "handle": "bmwgroup-automotive",
+    "id": "7ecdd3d1-a794-4ceb-9518-f9a016dc26a6",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 15000
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 100
+    },
+    "name": "BMW Group Automotive",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/bmw/bmwgroup-automotive/detail"
+  },
+  "name": "BMW Group Automotive",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "cd53f59490a344a372612619bfee2dbb5501d988de4d2cea49b59f0c3a695907",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "7ecdd3d1-a794-4ceb-9518-f9a016dc26a6",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Functions dealing with vehicle access and immobilizer",
+          "impact": "Tier 1",
+          "type": "device"
+        },
+        "type": "device",
+        "value": "Functions dealing with vehicle access and immobilizer"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "1519034860",
+          "impact": "Tier 2",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "1519034860"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "de.bmw.connected.mobile20.row",
+          "impact": "Tier 2",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "de.bmw.connected.mobile20.row"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Remaining functions",
+          "impact": "Tier 2",
+          "type": "device"
+        },
+        "type": "device",
+        "value": "Remaining functions"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/bmw/bmwgroup-automotive/detail"
+}

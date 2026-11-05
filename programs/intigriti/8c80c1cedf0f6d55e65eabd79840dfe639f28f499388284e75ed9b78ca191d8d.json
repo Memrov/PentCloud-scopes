@@ -1,0 +1,132 @@
+{
+  "id": "intigriti:1dcf052a-9cd7-4278-99d1-3c037efbf781",
+  "metadata": {
+    "company_handle": "donorbox",
+    "confidentiality_level": "public",
+    "handle": "donorboxvdp",
+    "id": "1dcf052a-9cd7-4278-99d1-3c037efbf781",
+    "max_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "name": "Donorbox Vulnerability Disclosure Project",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/donorbox/donorboxvdp/detail"
+  },
+  "name": "Donorbox Vulnerability Disclosure Project",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "a46a378d52877649931ffda50da677368a8dec6c33f7b6a2d879af3615237741",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "1dcf052a-9cd7-4278-99d1-3c037efbf781",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Donorbox Live is a mobile app that allows orgs to connect Stripe-sanctioned card readers and accept in person payments. See the infrastructure section below for details.",
+        "raw": {
+          "description": "Donorbox Live is a mobile app that allows orgs to connect Stripe-sanctioned card readers and accept in person payments. See the infrastructure section below for details.",
+          "endpoint": "https://apps.apple.com/us/app/donorbox-live/id1668808097",
+          "impact": "No Bounty",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "https://apps.apple.com/us/app/donorbox-live/id1668808097"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is the customer support admin console used by Donorbox employees. A donorbox.org account (signed in via Google SSO and with MFA enabled) is required to access this. Additionally, you must be invited to the Rebel Idealist organization in order to gain initial admin access. Please report any unauthorized access to this page.",
+        "raw": {
+          "description": "This is the customer support admin console used by Donorbox employees. A donorbox.org account (signed in via Google SSO and with MFA enabled) is required to access this. Additionally, you must be invited to the Rebel Idealist organization in order to gain initial admin access. Please report any unauthorized access to this page.",
+          "endpoint": "https://donorbox.org/admin",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://donorbox.org/admin"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Donorbox Live is a mobile app that allows orgs to connect Stripe-sanctioned card readers and accept in person payments. See the infrastructure section below for details.",
+        "raw": {
+          "description": "Donorbox Live is a mobile app that allows orgs to connect Stripe-sanctioned card readers and accept in person payments. See the infrastructure section below for details.",
+          "endpoint": "https://play.google.com/store/apps/details?id=org.donorbox.cardreader&hl=en&gl=US",
+          "impact": "No Bounty",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "https://play.google.com/store/apps/details?id=org.donorbox.cardreader&hl=en&gl=US"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is the website which includes any page you can navigate to from www.donorbox.org, e.g., www.donorbox.org/pricing.",
+        "raw": {
+          "description": "This is the website which includes any page you can navigate to from www.donorbox.org, e.g., www.donorbox.org/pricing.",
+          "endpoint": "https://donorbox.org",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://donorbox.org"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is an example of an embed form. Embed forms can be added to a separate website used by the organization. Changing the organization who receives the donation (aka hijacking) or providing fraudulent donations (like a double refund) should not be possible.",
+        "raw": {
+          "description": "This is an example of an embed form. Embed forms can be added to a separate website used by the organization. Changing the organization who receives the donation (aka hijacking) or providing fraudulent donations (like a double refund) should not be possible.",
+          "endpoint": "https://donorbox.org/embed/potato",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://donorbox.org/embed/potato"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is the admin console for organizations. When customers create an org account, they will be directed here to make changes such as creating a campaign, connecting Stripe or PayPal, and changing the donation form. Donor information and donations can be viewed.",
+        "raw": {
+          "description": "This is the admin console for organizations. When customers create an org account, they will be directed here to make changes such as creating a campaign, connecting Stripe or PayPal, and changing the donation form. Donor information and donations can be viewed.",
+          "endpoint": "https://donorbox.org/org_admin",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://donorbox.org/org_admin"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is an example of a hosted page, which lives under the host domain. Hosted pages are provided for organizations to use as their main website if they don't already have one. When a new donation form is created, a hosted page gets created by default.",
+        "raw": {
+          "description": "This is an example of a hosted page, which lives under the host domain. Hosted pages are provided for organizations to use as their main website if they don't already have one. When a new donation form is created, a hosted page gets created by default.",
+          "endpoint": "https://donorbox.org/potato",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://donorbox.org/potato"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/donorbox/donorboxvdp/detail"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "hackerone:sheer_bbp",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 242.0,
+    "average_time_to_first_program_response": 9.0,
+    "average_time_to_report_resolved": 242.0,
+    "handle": "sheer_bbp",
+    "id": 0,
+    "managed_program": true,
+    "name": "Sheer",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 86,
+    "submission_state": "open",
+    "url": "https://hackerone.com/sheer_bbp",
+    "website": "https://www.sheer.com/"
+  },
+  "name": "Sheer",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "b5b460661daff9de0df8847528cd1f19a3d442636f0f6a258f533ba0e830fcef",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "sheer_bbp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "my.sheer.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "my.sheer.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.sheer.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.sheer.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/sheer_bbp"
+}

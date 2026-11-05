@@ -1,0 +1,68 @@
+{
+  "id": "intigriti:554fc6c5-4ffa-4682-a3ba-7e86696e9b17",
+  "metadata": {
+    "company_handle": "aikido",
+    "confidentiality_level": "public",
+    "handle": "aikido",
+    "id": "554fc6c5-4ffa-4682-a3ba-7e86696e9b17",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 2500
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Aikido Security: Bug Bounty Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/aikido/aikido/detail"
+  },
+  "name": "Aikido Security: Bug Bounty Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "124b58969a6b47ca6c5891ea489c165a6bc5cfc66a83beeb562b28a00b3334b2",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "554fc6c5-4ffa-4682-a3ba-7e86696e9b17",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is our main application, which hosts the API as well as the front-end application.\n\nOur public API is also accessible via this host. Documentation is available here: https://apidocs.aikido.dev/.",
+        "raw": {
+          "description": "This is our main application, which hosts the API as well as the front-end application.\n\nOur public API is also accessible via this host. Documentation is available here: https://apidocs.aikido.dev/.",
+          "endpoint": "app.aikido.dev",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "app.aikido.dev"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.aikido.dev",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.aikido.dev"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/aikido/aikido/detail"
+}

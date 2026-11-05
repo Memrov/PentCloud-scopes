@@ -1,0 +1,363 @@
+{
+  "id": "hackerone:palantir_public",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 419.0,
+    "average_time_to_first_program_response": 193.0,
+    "average_time_to_report_resolved": 927.0,
+    "handle": "palantir_public",
+    "id": 0,
+    "managed_program": false,
+    "name": "Palantir Public",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 59,
+    "submission_state": "open",
+    "url": "https://hackerone.com/palantir_public",
+    "website": "https://palantir.com"
+  },
+  "name": "Palantir Public",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "927a084711d43de46d3414f7452e00641558e75da6b1841f1c958e48cca1ff55",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "palantir_public",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is an expansive scope to help you identify security issues in any Internet-facing infrastructure we run. \n\nAll domains and subdomains owned and operated by Palantir are included within the scope. These may include, but are not limited to: \n* palantir.com\n* palantir.tech\n* palantir.build\n* palantircloud.com\n* palantircloud.co.uk\n* palantirfoundry.com\n* palantirfoundry.co.uk\n* palantirfoundry.de\n* palantirfoundry.fr\n* palantirfoundry.com.au \n* palantirgov.com\n* foundrygov.com\n\nAll assets and services on these, and other Palantir-owned domains (unless otherwise noted as out-of-scope) may be eligible for awards. This may include cloud resources, firewalls, network devices, servers, and other assets or applications.",
+        "raw": {
+          "asset_identifier": "Any public (Internet-facing) infrastructure owned and operated by Palantir.",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is an expansive scope to help you identify security issues in any Internet-facing infrastructure we run. \n\nAll domains and subdomains owned and operated by Palantir are included within the scope. These may include, but are not limited to: \n* palantir.com\n* palantir.tech\n* palantir.build\n* palantircloud.com\n* palantircloud.co.uk\n* palantirfoundry.com\n* palantirfoundry.co.uk\n* palantirfoundry.de\n* palantirfoundry.fr\n* palantirfoundry.com.au \n* palantirgov.com\n* foundrygov.com\n\nAll assets and services on these, and other Palantir-owned domains (unless otherwise noted as out-of-scope) may be eligible for awards. This may include cloud resources, firewalls, network devices, servers, and other assets or applications.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Any public (Internet-facing) infrastructure owned and operated by Palantir."
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "- Public cloud storage accounts. (e.g. AWS S3 buckets, Azure data blobs)\n- Public cloud compute servers. (e.g. AWS EC2 instances, Azure Virtual Machines)",
+        "raw": {
+          "asset_identifier": "Any public cloud (e.g. Amazon AWS, Microsoft Azure) resource or infrastructure operated and managed by Palantir.",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "- Public cloud storage accounts. (e.g. AWS S3 buckets, Azure data blobs)\n- Public cloud compute servers. (e.g. AWS EC2 instances, Azure Virtual Machines)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Any public cloud (e.g. Amazon AWS, Microsoft Azure) resource or infrastructure operated and managed by Palantir."
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Any infrastructure or assets related to Silk, FancyThat, or other Palantir acquisitions.",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Any infrastructure or assets related to Silk, FancyThat, or other Palantir acquisitions."
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "blog.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "blog.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "certification.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "certification.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "community.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "community.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "explore.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "explore.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "gear.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "gear.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "go.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "go.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Any public code repository is out of scope under the program. Reports in most cases will not be eligible for bounties.",
+        "raw": {
+          "asset_identifier": "https://github.com/palantir/*",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Any public code repository is out of scope under the program. Reports in most cases will not be eligible for bounties.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/palantir/*"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "info.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "info.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "investors.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "investors.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "3rd-party certification website/service.\n",
+        "raw": {
+          "asset_identifier": "learn.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "3rd-party certification website/service.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "learn.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Any domain related to FedStart or Palantir FedStart. ",
+        "raw": {
+          "asset_identifier": "palantirfedstart.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Any domain related to FedStart or Palantir FedStart. ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "palantirfedstart.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Any domain related to the Palantir PAC. ",
+        "raw": {
+          "asset_identifier": "palantirpacusa.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Any domain related to the Palantir PAC. ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "palantirpacusa.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "sandbox.training.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "sandbox.training.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "store.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "store.palantir.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "training.palantir.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "training.palantir.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/palantir_public"
+}

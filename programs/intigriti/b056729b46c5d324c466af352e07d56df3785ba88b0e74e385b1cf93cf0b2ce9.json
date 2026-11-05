@@ -1,0 +1,822 @@
+{
+  "id": "intigriti:dd9dba85-e047-42f3-b59e-9328c7d49672",
+  "metadata": {
+    "company_handle": "digitalocean",
+    "confidentiality_level": "public",
+    "handle": "digitalocean",
+    "id": "dd9dba85-e047-42f3-b59e-9328c7d49672",
+    "max_bounty": {
+      "currency": "USD",
+      "value": 10000
+    },
+    "min_bounty": {
+      "currency": "USD",
+      "value": 50
+    },
+    "name": "DigitalOcean",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/digitalocean/digitalocean/detail"
+  },
+  "name": "DigitalOcean",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "afeba62e4212006b5f51cfcf9325c2a7edc528fbe4ee977d9f331a31972a7c34",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "dd9dba85-e047-42f3-b59e-9328c7d49672",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Please review the __*.digitalocean.com Out of Scope Subdomains__ section below to ensure testing of only in-scope domain assets.",
+        "raw": {
+          "description": "Please review the __*.digitalocean.com Out of Scope Subdomains__ section below to ensure testing of only in-scope domain assets.",
+          "endpoint": "*.digitalocean.com",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Metadata service available at http://169.254.169.254/ from Droplets",
+        "raw": {
+          "description": "Metadata service available at http://169.254.169.254/ from Droplets",
+          "endpoint": "169.254.169.254",
+          "impact": "Tier 2",
+          "type": "iprange"
+        },
+        "type": "iprange",
+        "value": "169.254.169.254"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "api.digitalocean.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "api.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Findings against resources owned by your account should be filed underneath this asset.\n\n* While performing your research, please limit the scope of testing to only the accounts or resources that are owned by you.\n* If you discover a vulnerability that could allow you to bypass existing controls and gain access to other accounts, **please do not take any further action** against those accounts or data that are not owned by you.",
+        "raw": {
+          "description": "Findings against resources owned by your account should be filed underneath this asset.\n\n* While performing your research, please limit the scope of testing to only the accounts or resources that are owned by you.\n* If you discover a vulnerability that could allow you to bypass existing controls and gain access to other accounts, **please do not take any further action** against those accounts or data that are not owned by you.",
+          "endpoint": "cloud.digitalocean.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "cloud.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This asset follows the same testing guidelines as `cloud.digitalocean.com`.\n\n* While performing your research, please limit the scope of testing to only the accounts or resources that are owned by you.\n* If you discover a vulnerability that could allow you to bypass existing controls and gain access to other accounts, **please do not take any further action** against those accounts or data that are not owned by you.\n\nNote that we consider `cloud.digitalocean.com` and `amd.digitalocean.com` as having functionally the same backend codebase.",
+        "raw": {
+          "description": "This asset follows the same testing guidelines as `cloud.digitalocean.com`.\n\n* While performing your research, please limit the scope of testing to only the accounts or resources that are owned by you.\n* If you discover a vulnerability that could allow you to bypass existing controls and gain access to other accounts, **please do not take any further action** against those accounts or data that are not owned by you.\n\nNote that we consider `cloud.digitalocean.com` and `amd.digitalocean.com` as having functionally the same backend codebase.",
+          "endpoint": "amd.digitalocean.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "amd.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "DigitalOcean Serverless Inference API",
+        "raw": {
+          "description": "DigitalOcean Serverless Inference API",
+          "endpoint": "inference.do-ai.run",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "inference.do-ai.run"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Note that marketplace 1-click apps and add-ons are maintained by our partnered vendors and are out of scope. \nPlease see the \"Out of Scope\" section below for more info.",
+        "raw": {
+          "description": "Note that marketplace 1-click apps and add-ons are maintained by our partnered vendors and are out of scope. \nPlease see the \"Out of Scope\" section below for more info.",
+          "endpoint": "marketplace.digitalocean.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "marketplace.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Includes DigitalOcean Community, www.digitalocean.com/community",
+        "raw": {
+          "description": "Includes DigitalOcean Community, www.digitalocean.com/community",
+          "endpoint": "www.digitalocean.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "digitaloceanmirrors.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "digitaloceanmirrors.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "digitaloceanpartners.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "digitaloceanpartners.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "digitaloceanstatus.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "digitaloceanstatus.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "digitaloceantest.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "digitaloceantest.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Company shortlink service",
+        "raw": {
+          "description": "Company shortlink service",
+          "endpoint": "do.co",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "do.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API for hacktoberfest.com",
+        "raw": {
+          "description": "API for hacktoberfest.com",
+          "endpoint": "hackathon-tracker.digitalocean.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "hackathon-tracker.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "hacktoberfest.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "hacktoberfest.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "We do not currently offer bounty rewards for findings related to the `paperspace.com` domain or associated sub-domains.",
+        "raw": {
+          "description": "We do not currently offer bounty rewards for findings related to the `paperspace.com` domain or associated sub-domains.",
+          "endpoint": "paperspace.com",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "paperspace.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "A daemon that helps collect system metrics from droplets",
+        "raw": {
+          "description": "A daemon that helps collect system metrics from droplets",
+          "endpoint": "https://github.com/digitalocean/do-agent",
+          "impact": "No Bounty",
+          "type": null
+        },
+        "type": "unknown",
+        "value": "https://github.com/digitalocean/do-agent"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "A daemon that enables web console access on droplets",
+        "raw": {
+          "description": "A daemon that enables web console access on droplets",
+          "endpoint": "https://github.com/digitalocean/droplet-agent",
+          "impact": "No Bounty",
+          "type": null
+        },
+        "type": "unknown",
+        "value": "https://github.com/digitalocean/droplet-agent"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The official command line interface for the DigitalOcean API",
+        "raw": {
+          "description": "The official command line interface for the DigitalOcean API",
+          "endpoint": "https://github.com/digitalocean/doctl",
+          "impact": "No Bounty",
+          "type": null
+        },
+        "type": "unknown",
+        "value": "https://github.com/digitalocean/doctl"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "SnapShooter is a cloud backup and recovery solution.",
+        "raw": {
+          "description": "SnapShooter is a cloud backup and recovery solution.",
+          "endpoint": "*.snapshooter.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.snapshooter.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "GitHub Actions for DigitalOcean - doctl",
+        "raw": {
+          "description": "GitHub Actions for DigitalOcean - doctl",
+          "endpoint": "https://github.com/digitalocean/action-doctl",
+          "impact": "Out of scope",
+          "type": null
+        },
+        "type": "unknown",
+        "value": "https://github.com/digitalocean/action-doctl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "DigitalOcean's Go API client",
+        "raw": {
+          "description": "DigitalOcean's Go API client",
+          "endpoint": "https://github.com/digitalocean/godo",
+          "impact": "Out of scope",
+          "type": null
+        },
+        "type": "unknown",
+        "value": "https://github.com/digitalocean/godo"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "DigitalOcean's Python API client",
+        "raw": {
+          "description": "DigitalOcean's Python API client",
+          "endpoint": "https://github.com/digitalocean/pydo",
+          "impact": "Out of scope",
+          "type": null
+        },
+        "type": "unknown",
+        "value": "https://github.com/digitalocean/pydo"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "DigitalOcean's official Terraform provider",
+        "raw": {
+          "description": "DigitalOcean's official Terraform provider",
+          "endpoint": "https://github.com/digitalocean/terraform-provider-digitalocean",
+          "impact": "Out of scope",
+          "type": null
+        },
+        "type": "unknown",
+        "value": "https://github.com/digitalocean/terraform-provider-digitalocean"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Golang-only network block device client",
+        "raw": {
+          "description": "Golang-only network block device client",
+          "endpoint": "https://github.com/digitalocean/go-nbd",
+          "impact": "Out of scope",
+          "type": null
+        },
+        "type": "unknown",
+        "value": "https://github.com/digitalocean/go-nbd"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community",
+        "raw": {
+          "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community",
+          "endpoint": "https://github.com/digitalocean/do-markdownit",
+          "impact": "Out of scope",
+          "type": null
+        },
+        "type": "unknown",
+        "value": "https://github.com/digitalocean/do-markdownit"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "anchor.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "anchor.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "brand.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "brand.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "cloudsupport.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "cloudsupport.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "deploy.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "deploy.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "email.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "email.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "events.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "events.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "go.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "go.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "groove.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "groove.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "helpdesk.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "helpdesk.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "ideas.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "ideas.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "investor.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "investor.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "investors.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "investors.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "ir.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "ir.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "mirrors.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "mirrors.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "pilot.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "pilot.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "rewards.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "rewards.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "segment.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "segment.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "status.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "status.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "tracking.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "tracking.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "waves.digitalocean.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "waves.digitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny database created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.\n\nFindings in Standard Edition PostgreSQL, Standard Edition MySQL, Valkey, Kafka, and OpenSearch should be submitted to [our partner, Aiven](https://bugcrowd.com/engagements/aiven-mbb-og).",
+        "raw": {
+          "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny database created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.\n\nFindings in Standard Edition PostgreSQL, Standard Edition MySQL, Valkey, Kafka, and OpenSearch should be submitted to [our partner, Aiven](https://bugcrowd.com/engagements/aiven-mbb-og).",
+          "endpoint": "*.db.ondigitalocean.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.db.ondigitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny database created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.\n\nFindings in Standard Edition PostgreSQL, Standard Edition MySQL, Valkey, Kafka, and OpenSearch should be submitted to [our partner, Aiven](https://bugcrowd.com/engagements/aiven-mbb-og).",
+        "raw": {
+          "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny database created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.\n\nFindings in Standard Edition PostgreSQL, Standard Edition MySQL, Valkey, Kafka, and OpenSearch should be submitted to [our partner, Aiven](https://bugcrowd.com/engagements/aiven-mbb-og).",
+          "endpoint": "*.db1.ondigitalocean.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.db1.ondigitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Spaces buckets created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+        "raw": {
+          "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Spaces buckets created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+          "endpoint": "*.digitaloceanspaces.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.digitaloceanspaces.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Functions created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+        "raw": {
+          "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Functions created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+          "endpoint": "*.doserverless.co",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.doserverless.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Kubernetes clusters created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+        "raw": {
+          "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Kubernetes clusters created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+          "endpoint": "*.k8s.ondigitalocean.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.k8s.ondigitalocean.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Apps created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+        "raw": {
+          "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Apps created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+          "endpoint": "*.ondigitalocean.app",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.ondigitalocean.app"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny container registries created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+        "raw": {
+          "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny container registries created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+          "endpoint": "registry.digitalocean.com/*",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "registry.digitalocean.com/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope. \n\nCustomer-deployed agents at `adk-agent-{id}.agents-internal.do-ai.run` are OOS. Any AI agents created inside your own account on this domain are considered in-scope (with the exclusion of agent model vulnerabilities). Use the `cloud.digitalocean.com` asset in that case.",
+        "raw": {
+          "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope. \n\nCustomer-deployed agents at `adk-agent-{id}.agents-internal.do-ai.run` are OOS. Any AI agents created inside your own account on this domain are considered in-scope (with the exclusion of agent model vulnerabilities). Use the `cloud.digitalocean.com` asset in that case.",
+          "endpoint": "*.agents-internal.do-ai.run",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.agents-internal.do-ai.run"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "**Any asset (Droplet, Space, or otherwise) created by other DigitalOcean customers are not to be tested under any circumstances.**",
+        "raw": {
+          "description": "**Any asset (Droplet, Space, or otherwise) created by other DigitalOcean customers are not to be tested under any circumstances.**",
+          "endpoint": "Assets created by other DigitalOcean customers",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Assets created by other DigitalOcean customers"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.doserverless-dev3.io",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.doserverless-dev3.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.ondbaasdev.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.ondbaasdev.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.onstagingocean.app",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.onstagingocean.app"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The marketplace applications and add-ons are maintained by our partnered vendors. \nSecurity issues against these components of the marketplace are not in the scope of this program and ineligible for bounty rewards, but we are happy to help facilitate communications to the application owners.\nPlease reach out to us at security@digitalocean.com for facilitation.",
+        "raw": {
+          "description": "The marketplace applications and add-ons are maintained by our partnered vendors. \nSecurity issues against these components of the marketplace are not in the scope of this program and ineligible for bounty rewards, but we are happy to help facilitate communications to the application owners.\nPlease reach out to us at security@digitalocean.com for facilitation.",
+          "endpoint": "Marketplace Apps and Add-Ons",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Marketplace Apps and Add-Ons"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "All open source projects hosted by DigitalOcean not otherwise listed as in-scope are out-of-scope.",
+        "raw": {
+          "description": "All open source projects hosted by DigitalOcean not otherwise listed as in-scope are out-of-scope.",
+          "endpoint": "Other DigitalOcean open source projects not listed",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Other DigitalOcean open source projects not listed"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/digitalocean/digitalocean/detail"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "intigriti:2de0c513-e7e8-4e4f-b0d9-885e45c1f767",
+  "metadata": {
+    "company_handle": "bitvavo",
+    "confidentiality_level": "public",
+    "handle": "bitvavovdp",
+    "id": "2de0c513-e7e8-4e4f-b0d9-885e45c1f767",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Bitvavo VDP",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/bitvavo/bitvavovdp/detail"
+  },
+  "name": "Bitvavo VDP",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "4db66d1ffb6d52640ab8d9c5921dc04d2b39d523bfddaede7b889d389cf4be5e",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "2de0c513-e7e8-4e4f-b0d9-885e45c1f767",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "1483903423",
+          "impact": "No Bounty",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "1483903423"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "com.bitvavo.android",
+          "impact": "No Bounty",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "com.bitvavo.android"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is the base REST API endpoint for Bitvavo. For the full list of available methods, endpoints, schema definition, and auth requirement consult the canonical API documentation: \n\nhttps://docs.bitvavo.com/docs/rest-api/\n\nBitvavo offers two protocols for interacting with its platform: **REST** and **WebSocket**. Both protocols return JSON-encoded responses, and use standard HTTP status codes. However, each protocol is optimized for different use cases:\n\n**REST API**\n* Best suited for synchronous, request-response interactions.\n* Client initiates every call, and the server responds with the requested data.\n\nFor more details, read carefully our API docs at https://docs.bitvavo.com/docs/get-started/",
+        "raw": {
+          "description": "This is the base REST API endpoint for Bitvavo. For the full list of available methods, endpoints, schema definition, and auth requirement consult the canonical API documentation: \n\nhttps://docs.bitvavo.com/docs/rest-api/\n\nBitvavo offers two protocols for interacting with its platform: **REST** and **WebSocket**. Both protocols return JSON-encoded responses, and use standard HTTP status codes. However, each protocol is optimized for different use cases:\n\n**REST API**\n* Best suited for synchronous, request-response interactions.\n* Client initiates every call, and the server responds with the requested data.\n\nFor more details, read carefully our API docs at https://docs.bitvavo.com/docs/get-started/",
+          "endpoint": "https://api.bitvavo.com/v2/*",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://api.bitvavo.com/v2/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is the base WebSocket API endpoint for Bitvavo. For the full list of available methods, endpoints, schema definition, and auth requirement consult the canonical API documentation: \n\nhttps://docs.bitvavo.com/docs/websocket-api/\n\nBitvavo offers two protocols for interacting with its platform: **REST** and **WebSocket**. Both protocols return JSON-encoded responses, and use standard HTTP status codes. However, each protocol is optimized for different use cases:\n\n**WebSocket API**\n* Ideal for real-time, event-driven communication.\n* Once connected, the server continuously pushes updates to the client without requiring repeated requests.\n\nFor more details, read carefully our API docs at https://docs.bitvavo.com/docs/get-started/",
+        "raw": {
+          "description": "This is the base WebSocket API endpoint for Bitvavo. For the full list of available methods, endpoints, schema definition, and auth requirement consult the canonical API documentation: \n\nhttps://docs.bitvavo.com/docs/websocket-api/\n\nBitvavo offers two protocols for interacting with its platform: **REST** and **WebSocket**. Both protocols return JSON-encoded responses, and use standard HTTP status codes. However, each protocol is optimized for different use cases:\n\n**WebSocket API**\n* Ideal for real-time, event-driven communication.\n* Once connected, the server continuously pushes updates to the client without requiring repeated requests.\n\nFor more details, read carefully our API docs at https://docs.bitvavo.com/docs/get-started/",
+          "endpoint": "wss://ws.bitvavo.com/v2 *",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "wss://ws.bitvavo.com/v2 *"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://bitvavo.com",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://bitvavo.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/bitvavo/bitvavovdp/detail"
+}

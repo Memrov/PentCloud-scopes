@@ -1,0 +1,291 @@
+{
+  "id": "hackerone:files",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": 26.0,
+    "average_time_to_first_program_response": 54.0,
+    "average_time_to_report_resolved": 109.0,
+    "handle": "files",
+    "id": 0,
+    "managed_program": false,
+    "name": "Files.com",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 92,
+    "submission_state": "open",
+    "url": "https://hackerone.com/files",
+    "website": "https://www.files.com/"
+  },
+  "name": "Files.com",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "bd5c9915e23e0c11ec060954031253daf1d9b59390f85ac0fb4d3c4e08fb4173",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "files",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "## REST API\nFull documentation for the REST API can be found here:  https://developers.files.com/\n\nThe REST API URL is tied to your specific site (https://*sitename*.files.com) that was generated when you created the trial using the [BUGBOUNTY] setup process defined in the Policy section.",
+        "raw": {
+          "asset_identifier": "FIles.com REST API",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "## REST API\nFull documentation for the REST API can be found here:  https://developers.files.com/\n\nThe REST API URL is tied to your specific site (https://*sitename*.files.com) that was generated when you created the trial using the [BUGBOUNTY] setup process defined in the Policy section.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "FIles.com REST API"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Files.com Command Line Interface (CLI) App\n\nFull documentation for the Files.com Command Line Interface (CLI) App can be found here: https://www.files.com/docs/client-apps/command-line-interface-cli-app.\n\nThe Files.com Command Line Interface (CLI) App is tied to your specific site (https://sitename.files.com) that was generated when you created the trial using the [BUGBOUNTY] setup process defined in the Policy section.",
+        "raw": {
+          "asset_identifier": "Files.com Command Line Interface (CLI) App",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Files.com Command Line Interface (CLI) App\n\nFull documentation for the Files.com Command Line Interface (CLI) App can be found here: https://www.files.com/docs/client-apps/command-line-interface-cli-app.\n\nThe Files.com Command Line Interface (CLI) App is tied to your specific site (https://sitename.files.com) that was generated when you created the trial using the [BUGBOUNTY] setup process defined in the Policy section.",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Files.com Command Line Interface (CLI) App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Files.com Desktop v6 App\n\nFull documentation for the Files.com Desktop v6 App can be found here: https://www.files.com/docs/client-apps/desktop-v6-app.\n\nThe Files.com Desktop v6 App is tied to your specific site (https://sitename.files.com) that was generated when you created the trial using the [BUGBOUNTY] setup process defined in the Policy section.",
+        "raw": {
+          "asset_identifier": "Files.com Desktop v6 App",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Files.com Desktop v6 App\n\nFull documentation for the Files.com Desktop v6 App can be found here: https://www.files.com/docs/client-apps/desktop-v6-app.\n\nThe Files.com Desktop v6 App is tied to your specific site (https://sitename.files.com) that was generated when you created the trial using the [BUGBOUNTY] setup process defined in the Policy section.",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Files.com Desktop v6 App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Files.com Mobile App\n\nFull documentation for the Files.com Mobile App App can be found here: https://www.files.com/docs/client-apps/mobile-app.\n\nThe mobile app will be installed locally from the App Store or Play Store.\n\nThe Files.com Mobile App is tied to your specific site (https://sitename.files.com) that was generated when you created the trial using the [BUGBOUNTY] setup process defined in the Policy section.",
+        "raw": {
+          "asset_identifier": "Files.com Mobile App",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Files.com Mobile App\n\nFull documentation for the Files.com Mobile App App can be found here: https://www.files.com/docs/client-apps/mobile-app.\n\nThe mobile app will be installed locally from the App Store or Play Store.\n\nThe Files.com Mobile App is tied to your specific site (https://sitename.files.com) that was generated when you created the trial using the [BUGBOUNTY] setup process defined in the Policy section.",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "OTHER",
+        "value": "Files.com Mobile App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Files.com On-Premise Agent\n\nFull documentation for the Files.com On-Premise Agent can be found here: https://www.files.com/docs/on-premise/agent.\n\nThe Files.com On-Premise Agent is tied to your specific site (https://sitename.files.com) that was generated when you created the trial using the [BUGBOUNTY] setup process defined in the Policy section.",
+        "raw": {
+          "asset_identifier": "Files.com On-Premise Agent",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Files.com On-Premise Agent\n\nFull documentation for the Files.com On-Premise Agent can be found here: https://www.files.com/docs/on-premise/agent.\n\nThe Files.com On-Premise Agent is tied to your specific site (https://sitename.files.com) that was generated when you created the trial using the [BUGBOUNTY] setup process defined in the Policy section.",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Files.com On-Premise Agent"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Full documentation for the Files.com SDK’s can be found here: \nhttps://developers.files.com/#per-language-sdks\n\n\n",
+        "raw": {
+          "asset_identifier": "Files.com SDKs and MCP",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Full documentation for the Files.com SDK’s can be found here: \nhttps://developers.files.com/#per-language-sdks\n\n\n",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "OTHER",
+        "value": "Files.com SDKs and MCP"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Files.com Web Application",
+        "raw": {
+          "asset_identifier": "app.files.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Files.com Web Application",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.files.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is the main marketing site for Files.com.  \n\nOn the marketing site asset (https://www.files.com) we will only accept vulnerabilities that lead to a vulnerability on the main *.files.com platform.",
+        "raw": {
+          "asset_identifier": "www.files.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is the main marketing site for Files.com.  \n\nOn the marketing site asset (https://www.files.com) we will only accept vulnerabilities that lead to a vulnerability on the main *.files.com platform.",
+          "integrity_requirement": "high",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "www.files.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Files.com Web Application** \n\n**Please review the Out of Scope assets** -- note that not all subdomains of https://*.files.com are in scope for this asset.  Please review the listing of assets marked Out of Scope prior to any testing.  This list will change so please refer back during all phases of testing.\n\nThe actual application URL will be created as https://*your-assigned-subdomain*.files.com when you create the trial account using the [BUGBOUNTY] process outlined in the Policy section.",
+        "raw": {
+          "asset_identifier": "your-assigned-subdomain.files.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Files.com Web Application** \n\n**Please review the Out of Scope assets** -- note that not all subdomains of https://*.files.com are in scope for this asset.  Please review the listing of assets marked Out of Scope prior to any testing.  This list will change so please refer back during all phases of testing.\n\nThe actual application URL will be created as https://*your-assigned-subdomain*.files.com when you create the trial account using the [BUGBOUNTY] process outlined in the Policy section.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "your-assigned-subdomain.files.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Files.com Public Hosting**\n\nPublic Hosting serves the contents of a folder over the web at https://*your-assigned-subdomain*.hosted-by-files.com/, on a domain kept separate from your site's primary domain as a security measure.\n\nA finding on this asset is one customer reaching another customer's hosted content, or reaching the Files.com site behind it. Public Hosting is full web hosting, and full web hosting serves JavaScript, so your own script running in your own hosted folder is the product working and not a finding. Read the Reports That Do Not Qualify section of the Policy before testing here.\n\nThe hosting domain is created alongside your site when you create the trial account using the [BUGBOUNTY] process outlined in the Policy section.",
+        "raw": {
+          "asset_identifier": "your-assigned-subdomain.hosted-by-files.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Files.com Public Hosting**\n\nPublic Hosting serves the contents of a folder over the web at https://*your-assigned-subdomain*.hosted-by-files.com/, on a domain kept separate from your site's primary domain as a security measure.\n\nA finding on this asset is one customer reaching another customer's hosted content, or reaching the Files.com site behind it. Public Hosting is full web hosting, and full web hosting serves JavaScript, so your own script running in your own hosted folder is the product working and not a finding. Read the Reports That Do Not Qualify section of the Policy before testing here.\n\nThe hosting domain is created alongside your site when you create the trial account using the [BUGBOUNTY] process outlined in the Policy section.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "your-assigned-subdomain.hosted-by-files.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Due to the costs associated with fulfilling AI requests, no testing is to be performed against this asset, at all. Violators will be banned from our program.",
+        "raw": {
+          "asset_identifier": "In-App AI Assistant",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Due to the costs associated with fulfilling AI requests, no testing is to be performed against this asset, at all. Violators will be banned from our program.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "In-App AI Assistant"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "https://developers.files.com/ is a documentation site and is out of scope for the bounty program.",
+        "raw": {
+          "asset_identifier": "developers.files.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "https://developers.files.com/ is a documentation site and is out of scope for the bounty program.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "developers.files.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "mail.files.com is an old domain and is out of scope for this program",
+        "raw": {
+          "asset_identifier": "mail.files.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "mail.files.com is an old domain and is out of scope for this program",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "mail.files.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "https://status.files.com/ is a status site hosted by StatusPage and is out of scope for this bounty program.",
+        "raw": {
+          "asset_identifier": "status.files.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "https://status.files.com/ is a status site hosted by StatusPage and is out of scope for this bounty program.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "status.files.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/files"
+}

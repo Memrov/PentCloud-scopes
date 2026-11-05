@@ -1,0 +1,94 @@
+{
+  "id": "intigriti:4acc7e11-3634-4ce5-b100-d961d3f6c6f0",
+  "metadata": {
+    "company_handle": "hrsgroup",
+    "confidentiality_level": "public",
+    "handle": "hrsgroupvdp",
+    "id": "4acc7e11-3634-4ce5-b100-d961d3f6c6f0",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "HRS Group VDP",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/hrsgroup/hrsgroupvdp/detail"
+  },
+  "name": "HRS Group VDP",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "d4b89dfb333d17b1e6e3b4ce504f5335f7a1a679b985a5e3bfe82a00ba554002",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "4acc7e11-3634-4ce5-b100-d961d3f6c6f0",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is the hotel reservation web application. Please note that this is a production system. Do **NOT** make hotel reservations for testing purposes, as they are real reservations.",
+        "raw": {
+          "description": "This is the hotel reservation web application. Please note that this is a production system. Do **NOT** make hotel reservations for testing purposes, as they are real reservations.",
+          "endpoint": "https://www.hrs.com",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://www.hrs.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://hotelservice.hrs.com/",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://hotelservice.hrs.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://jobs.hrs.com/",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://jobs.hrs.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://www.hrs.com/deals/",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://www.hrs.com/deals/"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/hrsgroup/hrsgroupvdp/detail"
+}

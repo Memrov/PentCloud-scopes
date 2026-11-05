@@ -1,0 +1,54 @@
+{
+  "id": "intigriti:baca9d50-2fd8-427f-bd56-e67f7f058573",
+  "metadata": {
+    "company_handle": "randstad",
+    "confidentiality_level": "public",
+    "handle": "bmc",
+    "id": "baca9d50-2fd8-427f-bd56-e67f7f058573",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "BMC",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/randstad/bmc/detail"
+  },
+  "name": "BMC",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "98245985d79a12ab90670ea9db9eec9bfe1349f549987315e4ade909918c1d6f",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "baca9d50-2fd8-427f-bd56-e67f7f058573",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.bmc.nl",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.bmc.nl"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/randstad/bmc/detail"
+}

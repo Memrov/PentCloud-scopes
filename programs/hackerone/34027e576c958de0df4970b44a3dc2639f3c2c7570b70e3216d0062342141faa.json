@@ -1,0 +1,219 @@
+{
+  "id": "hackerone:arkose_labs",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 0.0,
+    "average_time_to_first_program_response": 19.0,
+    "average_time_to_report_resolved": 94.0,
+    "handle": "arkose_labs",
+    "id": 0,
+    "managed_program": true,
+    "name": "Arkose Labs",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 78,
+    "submission_state": "open",
+    "url": "https://hackerone.com/arkose_labs",
+    "website": "https://www.arkoselabs.com/"
+  },
+  "name": "Arkose Labs",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "4d7377e1f2bf1ed18658ef2474178aa3f6ad4e6cc918fa0746514df9e6a7ec27",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "arkose_labs",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "cdn.arkoselabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "cdn.arkoselabs.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Core product asset. It serves the client-side scripts and API that customer sites load to run Arkose. Paid at the core bounty tier.\n\nBefore testing, read our developer docs: https://developer.arkoselabs.com/docs/client-api",
+        "raw": {
+          "asset_identifier": "client-api.arkoselabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Core product asset. It serves the client-side scripts and API that customer sites load to run Arkose. Paid at the core bounty tier.\n\nBefore testing, read our developer docs: https://developer.arkoselabs.com/docs/client-api",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "client-api.arkoselabs.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "customer-sessions.arkoselabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "customer-sessions.arkoselabs.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This web app is mainly a Marketing based site. Vulnerabilities on this asset will be awarded with lower bounties.",
+        "raw": {
+          "asset_identifier": "demo.arkoselabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This web app is mainly a Marketing based site. Vulnerabilities on this asset will be awarded with lower bounties.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "demo.arkoselabs.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Core product asset that delivers the Arkose challenge inside an iframe on customer sites. Paid at the core bounty tier.\n\nBefore testing, read our developer docs to see how the product is integrated: https://developer.arkoselabs.com/docs (see Iframe Setup Guide and Client API).",
+        "raw": {
+          "asset_identifier": "iframe.arkoselabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Core product asset that delivers the Arkose challenge inside an iframe on customer sites. Paid at the core bounty tier.\n\nBefore testing, read our developer docs to see how the product is integrated: https://developer.arkoselabs.com/docs (see Iframe Setup Guide and Client API).",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "iframe.arkoselabs.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Core product asset. This is the Arkose Command Center, the customer portal for dashboards, keys and user management. Paid at the core bounty tier.\n\nBefore testing, read our developer docs: https://developer.arkoselabs.com/docs/arkose-labs-command-center",
+        "raw": {
+          "asset_identifier": "portal.arkoselabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Core product asset. This is the Arkose Command Center, the customer portal for dashboards, keys and user management. Paid at the core bounty tier.\n\nBefore testing, read our developer docs: https://developer.arkoselabs.com/docs/arkose-labs-command-center",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "portal.arkoselabs.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Core product asset. This is the server-side API customers call to confirm that a session token is valid. Paid at the core bounty tier.\n\nBefore testing, read our developer docs to see how the API works: https://developer.arkoselabs.com/docs/verify-api-v4",
+        "raw": {
+          "asset_identifier": "verify.arkoselabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Core product asset. This is the server-side API customers call to confirm that a session token is valid. Paid at the core bounty tier.\n\nBefore testing, read our developer docs to see how the API works: https://developer.arkoselabs.com/docs/verify-api-v4",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "verify.arkoselabs.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Public marketing site. No customer data or product functionality is hosted here. Paid at the non-core bounty tier.\n\nOf interest: issues that let you change site content, inject script that runs for other visitors, or reach admin or backend functions.",
+        "raw": {
+          "asset_identifier": "www.arkoselabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Public marketing site. No customer data or product functionality is hosted here. Paid at the non-core bounty tier.\n\nOf interest: issues that let you change site content, inject script that runs for other visitors, or reach admin or backend functions.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.arkoselabs.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This site is managed by a 3rd party provider.",
+        "raw": {
+          "asset_identifier": "developer.arkoselabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This site is managed by a 3rd party provider.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "developer.arkoselabs.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://status.arkoselabs.com/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://status.arkoselabs.com/"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/arkose_labs"
+}

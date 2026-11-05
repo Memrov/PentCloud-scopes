@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:defectdojo",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 101.0,
+    "average_time_to_report_resolved": 311.0,
+    "handle": "defectdojo",
+    "id": 0,
+    "managed_program": false,
+    "name": "DefectDojo",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 62,
+    "submission_state": "open",
+    "url": "https://hackerone.com/defectdojo",
+    "website": "https://www.defectdojo.com"
+  },
+  "name": "DefectDojo",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "24aa6ee4fed4712a4ba9ca1a9e092126dbb1cce930962167277dcc69d9512ef0",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "defectdojo",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/DefectDojo/django-DefectDojo",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/DefectDojo/django-DefectDojo"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/defectdojo"
+}

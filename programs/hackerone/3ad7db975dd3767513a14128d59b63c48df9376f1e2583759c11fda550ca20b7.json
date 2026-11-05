@@ -1,0 +1,561 @@
+{
+  "id": "hackerone:reddit",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 482.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 1240.0,
+    "handle": "reddit",
+    "id": 0,
+    "managed_program": true,
+    "name": "Reddit",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 87,
+    "submission_state": "open",
+    "url": "https://hackerone.com/reddit",
+    "website": "https://www.reddit.com"
+  },
+  "name": "Reddit",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "c024335a1a3dd5894469665cfd38b2026c7632bb111753645e0565e3ccf7a616",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "reddit",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]",
+        "raw": {
+          "asset_identifier": "*.reddit.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]",
+        "raw": {
+          "asset_identifier": "*.redditblog.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]",
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.redditblog.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]",
+        "raw": {
+          "asset_identifier": "*.reddithelp.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]",
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.reddithelp.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]\nVendor hosted and managed CMS for corporate / marketing site. It is domain whitelisted for reddit.com functionality so if you can string an attack together with reddit.com then this becomes super interesting.",
+        "raw": {
+          "asset_identifier": "*.redditinc.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]\nVendor hosted and managed CMS for corporate / marketing site. It is domain whitelisted for reddit.com functionality so if you can string an attack together with reddit.com then this becomes super interesting.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.redditinc.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]",
+        "raw": {
+          "asset_identifier": "*.redditmedia.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]",
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.redditmedia.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nThis is our internal domain for \"intranet\" related services. Accessible to the internet should be either 1) an OAuth proxy that gates access to backend services (SCM, admin tooling, CI/CD, etc.) or 2) k8s public ingresses. \n\nThis domain isn't necessarily \"private\" so leaking the domain isn't interesting, but certainly bypassing proxy auth wall or finding juicy targets on that domain is of interest.",
+        "raw": {
+          "asset_identifier": "*.snooguts.net",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nThis is our internal domain for \"intranet\" related services. Accessible to the internet should be either 1) an OAuth proxy that gates access to backend services (SCM, admin tooling, CI/CD, etc.) or 2) k8s public ingresses. \n\nThis domain isn't necessarily \"private\" so leaking the domain isn't interesting, but certainly bypassing proxy auth wall or finding juicy targets on that domain is of interest.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.snooguts.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]",
+        "raw": {
+          "asset_identifier": "*.spiketrap.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.spiketrap.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]",
+        "raw": {
+          "asset_identifier": "Android App",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "OTHER",
+        "value": "Android App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Core Assets",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Core Assets"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Non-Core Assets",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Non-Core Assets"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nAuthentication / authorization service for reddit.com",
+        "raw": {
+          "asset_identifier": "accounts.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nAuthentication / authorization service for reddit.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "accounts.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]",
+        "raw": {
+          "asset_identifier": "ads.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "ads.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nThis service houses our AMP generated pages for search engine optimization. ",
+        "raw": {
+          "asset_identifier": "amp.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nThis service houses our AMP generated pages for search engine optimization. ",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "amp.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nThe Reddit API is used for programmatic access. Please use your own test accounts and do not try to access the private data of other users/mods/admins or Reddit employees. Authentication ([OAUTH](https://github.com/reddit-archive/reddit/wiki/OAuth2)) and authorization are especially important.\n\nDocs are available at: https://www.reddit.com/dev/api\n\nPlease follow Reddit's [rules for API access](https://github.com/reddit-archive/reddit/wiki/API).",
+        "raw": {
+          "asset_identifier": "api.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nThe Reddit API is used for programmatic access. Please use your own test accounts and do not try to access the private data of other users/mods/admins or Reddit employees. Authentication ([OAUTH](https://github.com/reddit-archive/reddit/wiki/OAuth2)) and authorization are especially important.\n\nDocs are available at: https://www.reddit.com/dev/api\n\nPlease follow Reddit's [rules for API access](https://github.com/reddit-archive/reddit/wiki/API).",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]\nReddit maintains a SFDC tenant for customer management for our advertisers. SFDC bugs aren't eligible for payout, but misconfigurations that are Reddit's responsibility are.",
+        "raw": {
+          "asset_identifier": "business.reddithelp.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]\nReddit maintains a SFDC tenant for customer management for our advertisers. SFDC bugs aren't eligible for payout, but misconfigurations that are Reddit's responsibility are.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "business.reddithelp.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]",
+        "raw": {
+          "asset_identifier": "developers.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "developers.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nFrontdoor service that handles dispensation to backend microservices. Relies on oauth authentication",
+        "raw": {
+          "asset_identifier": "gateway.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nFrontdoor service that handles dispensation to backend microservices. Relies on oauth authentication",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "gateway.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nGraphQL implementation for Reddit accessing all our internal things requiring OAuth.",
+        "raw": {
+          "asset_identifier": "gql.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nGraphQL implementation for Reddit accessing all our internal things requiring OAuth.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "gql.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]",
+        "raw": {
+          "asset_identifier": "iOS App",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "OTHER",
+        "value": "iOS App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nMobile webapp (we call mweb) for Reddit. Use a mobile UA to access. ",
+        "raw": {
+          "asset_identifier": "m.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nMobile webapp (we call mweb) for Reddit. Use a mobile UA to access. ",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "m.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]",
+        "raw": {
+          "asset_identifier": "matrix.redditspace.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "matrix.redditspace.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nHouses Reddit's smart contracts based on Ethereum, which is called Community Points and ties in with the Vault functionality within Reddit's official mobile apps.",
+        "raw": {
+          "asset_identifier": "meta-api.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nHouses Reddit's smart contracts based on Ethereum, which is called Community Points and ties in with the Vault functionality within Reddit's official mobile apps.",
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "meta-api.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nThe Reddit modmail interface is used by moderators to take moderator actions and view reports. Please test against your own subreddits and not those belonging to other users/mods/admins.",
+        "raw": {
+          "asset_identifier": "mod.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nThe Reddit modmail interface is used by moderators to take moderator actions and view reports. Please test against your own subreddits and not those belonging to other users/mods/admins.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mod.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nThe Reddit redesign. Follow the same rules as `www.reddit.com`.",
+        "raw": {
+          "asset_identifier": "new.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nThe Reddit redesign. Follow the same rules as `www.reddit.com`.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "new.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]\nThird party hosted CMS platform on WebFlow",
+        "raw": {
+          "asset_identifier": "redditforbusiness.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]\nThird party hosted CMS platform on WebFlow",
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "redditforbusiness.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]",
+        "raw": {
+          "asset_identifier": "sh.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "sh.reddit.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nOur streaming api.",
+        "raw": {
+          "asset_identifier": "strapi.reddit.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nOur streaming api.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "strapi.reddit.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "memorable.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "memorable.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "[Non-core asset]\nReddit maintains a SFDC tenant for customer management for our advertisers. SFDC bugs aren't eligible for payout, but misconfigurations that are Reddit's responsibility are. ",
+        "raw": {
+          "asset_identifier": "reddit.secure.force.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "[Non-core asset]\nReddit maintains a SFDC tenant for customer management for our advertisers. SFDC bugs aren't eligible for payout, but misconfigurations that are Reddit's responsibility are. ",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "reddit.secure.force.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/reddit"
+}

@@ -1,0 +1,309 @@
+{
+  "id": "hackerone:anthropic",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 144.0,
+    "average_time_to_first_program_response": 12.0,
+    "average_time_to_report_resolved": 1195.0,
+    "handle": "anthropic",
+    "id": 0,
+    "managed_program": false,
+    "name": "Anthropic",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 96,
+    "submission_state": "open",
+    "url": "https://hackerone.com/anthropic",
+    "website": "http://www.anthropic.com"
+  },
+  "name": "Anthropic",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "74282de6c2d32d190761418c7af89fe39f3de1d9c6b6563fd81b0e651742fa01",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "anthropic",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\n\nAnthropic's API enables enterprise customers to programmatically interact with Claude, supporting their diverse business requirements. Claude is a large language model (LLM) that has been trained to be a helpful assistant in a conversational tone.\n\nFor additional information on the API and SDKs, please see the following documentation:\n\n[API](https://docs.anthropic.com/claude/reference/getting-started-with-the-api/) (Note: Please remember to use the [staging hostname](https://api-staging.anthropic.com/).)\n[Python SDK](https://github.com/anthropics/anthropic-sdk-python)\n[Python Agent SDK](https://github.com/anthropics/claude-agent-sdk-python)\n[Typescript SDK](https://github.com/anthropics/anthropic-sdk-typescript)\n[Typescript Agent SDK](https://github.com/anthropics/claude-agent-sdk-typescript)\n",
+        "raw": {
+          "asset_identifier": "API & SDKs",
+          "asset_type": "AI_MODEL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\n\nAnthropic's API enables enterprise customers to programmatically interact with Claude, supporting their diverse business requirements. Claude is a large language model (LLM) that has been trained to be a helpful assistant in a conversational tone.\n\nFor additional information on the API and SDKs, please see the following documentation:\n\n[API](https://docs.anthropic.com/claude/reference/getting-started-with-the-api/) (Note: Please remember to use the [staging hostname](https://api-staging.anthropic.com/).)\n[Python SDK](https://github.com/anthropics/anthropic-sdk-python)\n[Python Agent SDK](https://github.com/anthropics/claude-agent-sdk-python)\n[Typescript SDK](https://github.com/anthropics/anthropic-sdk-typescript)\n[Typescript Agent SDK](https://github.com/anthropics/claude-agent-sdk-typescript)\n",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "AI_MODEL",
+        "value": "API & SDKs"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\n\n**In Scope:**\n* Bypassing permission prompts for unauthorized command execution \n(excluding pre-approved or user-allowed commands)\n* Bypassing permission prompts for file write operations outside working directory\n* Misrepresenting parameters or tools in permission prompts by displaying different information than what will actually be executed (see exclusion below related environment-specific settings).\n* Executing commands or tools invisibly to users\n* https://github.com/anthropics/claude-code\n* https://github.com/anthropics/claude-code-action\n\n**Out of Scope:**\n* Abusing intended functionality of Claude CLI \n* Using aliased commands, symlinks or other environment-specific settings to bypass permission prompts\n* Local storage of Claude Code credentials, configuration and logs",
+        "raw": {
+          "asset_identifier": "Claude Code",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\n\n**In Scope:**\n* Bypassing permission prompts for unauthorized command execution \n(excluding pre-approved or user-allowed commands)\n* Bypassing permission prompts for file write operations outside working directory\n* Misrepresenting parameters or tools in permission prompts by displaying different information than what will actually be executed (see exclusion below related environment-specific settings).\n* Executing commands or tools invisibly to users\n* https://github.com/anthropics/claude-code\n* https://github.com/anthropics/claude-code-action\n\n**Out of Scope:**\n* Abusing intended functionality of Claude CLI \n* Using aliased commands, symlinks or other environment-specific settings to bypass permission prompts\n* Local storage of Claude Code credentials, configuration and logs",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Claude Code"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core] \n\nConnectors (e.g., desktop extensions, local MCP servers, and remote MCP servers) installable from the Claude.ai & Desktop Connectors directory may be developed by Anthropic or created independently by third-party developers. Vulnerabilities discovered in Anthropic developed software are in-scope for Anthropic's HackerOne program.\n\nNote that any vulnerabilities discovered in software developed by third parties (whether or not they are included in Anthropic's Connectors Directory) are not in scope for Anthropic’s HackerOne program and should be reported directly to those third-party developers. For details on reporting, see the extension page in Claude Desktop. We ask that vulnerability reports regarding third-party connectors are only shared with Anthropic if a satisfactory response is not received from the responsible developer.",
+        "raw": {
+          "asset_identifier": "Claude Desktop Extensions and Claude.ai MCP servers",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core] \n\nConnectors (e.g., desktop extensions, local MCP servers, and remote MCP servers) installable from the Claude.ai & Desktop Connectors directory may be developed by Anthropic or created independently by third-party developers. Vulnerabilities discovered in Anthropic developed software are in-scope for Anthropic's HackerOne program.\n\nNote that any vulnerabilities discovered in software developed by third parties (whether or not they are included in Anthropic's Connectors Directory) are not in scope for Anthropic’s HackerOne program and should be reported directly to those third-party developers. For details on reporting, see the extension page in Claude Desktop. We ask that vulnerability reports regarding third-party connectors are only shared with Anthropic if a satisfactory response is not received from the responsible developer.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Claude Desktop Extensions and Claude.ai MCP servers"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\n\nhttps://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn",
+        "raw": {
+          "asset_identifier": "Claude in Chrome",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\n\nhttps://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Claude in Chrome"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\n\nIn scope:\n\n- Vulnerabilities in Anthropic infrastructure that could lead to unauthorized access, data exposure, or service disruption. Examples include server misconfigurations, exposed internal services, subdomain takeovers, etc.\n- Vulnerabilities in internal Anthropic web applications and services that are not intended for public access. This includes things like admin panels, support portals, build systems, monitoring tools, etc. Issues could include authentication bypasses, privilege escalation, XSS, etc.\n- Vulnerabilities leading to unauthorized disclosure of confidential Anthropic information through third-party SaaS/Cloud platforms used by Anthropic. This includes unintended public exposure of documents, data, source code, credentials or other sensitive information.\n\nPlease note:\n\n- This is not to be construed as an authorization to conduct security testing against the infrastructure of SaaS/Cloud vendors, please check with their policies\n- Submissions must include detailed information sufficient to help us understand how you discovered the vulnerability\n- Out of scope: \n  - Issues that simply identify systems used by Anthropic, without demonstrating any actual vulnerability or sensitive data exposure \n  - Vulnerabilities in third-party services that aren't specific to Anthropic's implementation or configuration of those services. \n  - General issues with a SaaS platform should be reported to that vendor's bug bounty program if they have one. However, we may, at our discretion, decide to award a bounty if there is demonstrated impact to Anthropic\n",
+        "raw": {
+          "asset_identifier": "Infrastructure & Internal Apps/Services",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\n\nIn scope:\n\n- Vulnerabilities in Anthropic infrastructure that could lead to unauthorized access, data exposure, or service disruption. Examples include server misconfigurations, exposed internal services, subdomain takeovers, etc.\n- Vulnerabilities in internal Anthropic web applications and services that are not intended for public access. This includes things like admin panels, support portals, build systems, monitoring tools, etc. Issues could include authentication bypasses, privilege escalation, XSS, etc.\n- Vulnerabilities leading to unauthorized disclosure of confidential Anthropic information through third-party SaaS/Cloud platforms used by Anthropic. This includes unintended public exposure of documents, data, source code, credentials or other sensitive information.\n\nPlease note:\n\n- This is not to be construed as an authorization to conduct security testing against the infrastructure of SaaS/Cloud vendors, please check with their policies\n- Submissions must include detailed information sufficient to help us understand how you discovered the vulnerability\n- Out of scope: \n  - Issues that simply identify systems used by Anthropic, without demonstrating any actual vulnerability or sensitive data exposure \n  - Vulnerabilities in third-party services that aren't specific to Anthropic's implementation or configuration of those services. \n  - General issues with a SaaS platform should be reported to that vendor's bug bounty program if they have one. However, we may, at our discretion, decide to award a bounty if there is demonstrated impact to Anthropic\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Infrastructure & Internal Apps/Services"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core] \n\nAPI keys belonging to employees that are publicly leaked. Hackers should submit the leaked credentials to the program and should NOT test their validity beyond authenticating and then immediately deauthenticating - without exercising any functionality. We will test validity and measure impact. At Anthropic's discretion in cases of critical impact, this may be treated as a Core asset. ",
+        "raw": {
+          "asset_identifier": "Leaked Employee API Keys",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core] \n\nAPI keys belonging to employees that are publicly leaked. Hackers should submit the leaked credentials to the program and should NOT test their validity beyond authenticating and then immediately deauthenticating - without exercising any functionality. We will test validity and measure impact. At Anthropic's discretion in cases of critical impact, this may be treated as a Core asset. ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Leaked Employee API Keys"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\n\nClaude, Anthropic's AI assistant, is now available on iOS, Android, and Desktop. \n\nClaude iOS App:\nhttps://apps.apple.com/us/app/claude/id6473753684\n\nClaude Android App:\nhttps://play.google.com/store/apps/details?id=com.anthropic.claude\n\nClaude Desktop:\nhttps://claude.ai/download \nNote: Claude for Desktop can also be used with the Model Context Protocol.",
+        "raw": {
+          "asset_identifier": "Official Clients",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\n\nClaude, Anthropic's AI assistant, is now available on iOS, Android, and Desktop. \n\nClaude iOS App:\nhttps://apps.apple.com/us/app/claude/id6473753684\n\nClaude Android App:\nhttps://play.google.com/store/apps/details?id=com.anthropic.claude\n\nClaude Desktop:\nhttps://claude.ai/download \nNote: Claude for Desktop can also be used with the Model Context Protocol.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Official Clients"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\n\nNote: It is working as intended that there are 4 queues accessible with an external account: AP Inbox, Finsys Intake, and Dev Accounts Payable. Reports about this will be closed as Informative. If you are able to access any sensitive information, please do open a report. ",
+        "raw": {
+          "asset_identifier": "anthropic.atlassian.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\n\nNote: It is working as intended that there are 4 queues accessible with an external account: AP Inbox, Finsys Intake, and Dev Accounts Payable. Reports about this will be closed as Informative. If you are able to access any sensitive information, please do open a report. ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "anthropic.atlassian.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]",
+        "raw": {
+          "asset_identifier": "api.anthropic.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.anthropic.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\n\nClaude, a next-generation AI assistant trained to be helpful, honest and harmless, is accessible through a chat interface on claude.ai.\n\nClaude is capable of a wide variety of conversational and text and image processing tasks and can help with use cases including summarization, search, creative and collaborative writing, Q&A, coding, and more. Claude can be accessed via [Claude.ai](https://www.claude.ai), which contains features such as 100k context windows and image & file uploads.",
+        "raw": {
+          "asset_identifier": "claude.ai",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\n\nClaude, a next-generation AI assistant trained to be helpful, honest and harmless, is accessible through a chat interface on claude.ai.\n\nClaude is capable of a wide variety of conversational and text and image processing tasks and can help with use cases including summarization, search, creative and collaborative writing, Q&A, coding, and more. Claude can be accessed via [Claude.ai](https://www.claude.ai), which contains features such as 100k context windows and image & file uploads.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "claude.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]",
+        "raw": {
+          "asset_identifier": "console.anthropic.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "console.anthropic.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]",
+        "raw": {
+          "asset_identifier": "docs.anthropic.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "docs.anthropic.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\n\nNote: Vulnerabilities in repos that are marked as archived or repos that are forks of other open source projects are excluded from our bug bounty unless the issue can be demonstrated to impact Anthropic assets.",
+        "raw": {
+          "asset_identifier": "github.com/anthropics",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\n\nNote: Vulnerabilities in repos that are marked as archived or repos that are forks of other open source projects are excluded from our bug bounty unless the issue can be demonstrated to impact Anthropic assets.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "github.com/anthropics"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]",
+        "raw": {
+          "asset_identifier": "support.anthropic.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "support.anthropic.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Issues in OSS Model Context Protocol code should be reported directly to MCP maintainers via the Security page for the affected repo. \n\nIssues affecting implementations of MCP in Anthropic products and services (on claude.ai, Claude Desktop, etc) are still in scope and should be submitted under the affected asset.",
+        "raw": {
+          "asset_identifier": "https://github.com/modelcontextprotocol",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Issues in OSS Model Context Protocol code should be reported directly to MCP maintainers via the Security page for the affected repo. \n\nIssues affecting implementations of MCP in Anthropic products and services (on claude.ai, Claude Desktop, etc) are still in scope and should be submitted under the affected asset.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/modelcontextprotocol"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/anthropic"
+}

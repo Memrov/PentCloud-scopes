@@ -1,0 +1,345 @@
+{
+  "id": "hackerone:supabase",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 65.0,
+    "average_time_to_report_resolved": 350.0,
+    "handle": "supabase",
+    "id": 0,
+    "managed_program": false,
+    "name": "Supabase",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 78,
+    "submission_state": "open",
+    "url": "https://hackerone.com/supabase",
+    "website": "https://supabase.com"
+  },
+  "name": "Supabase",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "b0fb95883c82b87a7b1e784e28a843608522a61143b8be904c209c774fab2faa",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "supabase",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.supabase.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.supabase.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The database package manager for Trusted Language extensions.",
+        "raw": {
+          "asset_identifier": "https://*.database.dev/",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The database package manager for Trusted Language extensions.",
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "https://*.database.dev/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/supabase",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/supabase"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Please consult our docs about this resource: https://supabase.com/docs/guides/getting-started/mcp\n\n`SQL injection` on the `executeSQL` function will not be accepted. This is intended functionality. ",
+        "raw": {
+          "asset_identifier": "https://mcp.supabase.com/mcp",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Please consult our docs about this resource: https://supabase.com/docs/guides/getting-started/mcp\n\n`SQL injection` on the `executeSQL` function will not be accepted. This is intended functionality. ",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://mcp.supabase.com/mcp"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "https://nixfbjgqturwbakhnwym.supabase.co\n\nDemo application showcasing Supabase Realtime",
+        "raw": {
+          "asset_identifier": "https://multiplayer.dev",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "https://nixfbjgqturwbakhnwym.supabase.co\n\nDemo application showcasing Supabase Realtime",
+          "integrity_requirement": "low",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "https://multiplayer.dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Redirects to the Supabase dashboard for creating support tickets",
+        "raw": {
+          "asset_identifier": "https://supabase.help",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Redirects to the Supabase dashboard for creating support tickets",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://supabase.help"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "URL shortener for branded links",
+        "raw": {
+          "asset_identifier": "https://supabase.link",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "URL shortener for branded links",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://supabase.link"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "supabase.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "supabase.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Supabase database domains belonging to our customers.\nTest only domains belonging to your own account. Domains that are part of your account are in-scope",
+        "raw": {
+          "asset_identifier": "db.*.supabase.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Supabase database domains belonging to our customers.\nTest only domains belonging to your own account. Domains that are part of your account are in-scope",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "db.*.supabase.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Supabase Product APIs and database domains belonging to our customers.\nTest only domains belonging to your own account. Domains that are part of your account are in-scope",
+        "raw": {
+          "asset_identifier": "https://*.supabase.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Supabase Product APIs and database domains belonging to our customers.\nTest only domains belonging to your own account. Domains that are part of your account are in-scope",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "https://*.supabase.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is intended to take raw SQL queries. This end-point is not \"SQL injectable\". The ability to escalate privileges via this end-point is a valid issue, but executing SQL is not.",
+        "raw": {
+          "asset_identifier": "https://api.supabase.com/platform/pg-meta/project_id/query",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is intended to take raw SQL queries. This end-point is not \"SQL injectable\". The ability to escalate privileges via this end-point is a valid issue, but executing SQL is not.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://api.supabase.com/platform/pg-meta/project_id/query"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Capture the Flag leaderboard",
+        "raw": {
+          "asset_identifier": "https://ctf.supabase.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Capture the Flag leaderboard",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://ctf.supabase.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/supabase-community/",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/supabase-community/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Supabase Contributor Portal - Guide for contributing to Supabase",
+        "raw": {
+          "asset_identifier": "https://supabase.dev/",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Supabase Contributor Portal - Guide for contributing to Supabase",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://supabase.dev/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The official Supabase album",
+        "raw": {
+          "asset_identifier": "https://supabase.productions/",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The official Supabase album",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://supabase.productions/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Website for purchasing Supabase Swag.",
+        "raw": {
+          "asset_identifier": "https://supabase.store",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Website for purchasing Supabase Swag.",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://supabase.store"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This allows command execution (ssh supabase.sh) and this is expected behaviour. This is sandboxed and not attached to the Supabase platform in any way",
+        "raw": {
+          "asset_identifier": "supabase.sh",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This allows command execution (ssh supabase.sh) and this is expected behaviour. This is sandboxed and not attached to the Supabase platform in any way",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "supabase.sh"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/supabase"
+}

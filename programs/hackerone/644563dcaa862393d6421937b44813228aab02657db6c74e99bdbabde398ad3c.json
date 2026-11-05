@@ -1,0 +1,74 @@
+{
+  "id": "hackerone:alsco",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 7.0,
+    "average_time_to_report_resolved": null,
+    "handle": "alsco",
+    "id": 0,
+    "managed_program": false,
+    "name": "ALSCO",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/alsco",
+    "website": "http://alscotoday.com"
+  },
+  "name": "ALSCO",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "a7f1ba90dd26f9a1bb80366f973f74b966b41db305393af7aa46d31443f16dbe",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "alsco",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Check [Royal CMS] Against Common Injection include [XSS Injection , SQL Injection ,SQLi Injection , OS Injection ,Command Injection, URL Injection , Remote Code Execution, and privilege escalation] that could cause hack CMS and change major files.\nGuidelines:\n1-Only full hack scenario will be accepted, e.g., edit the index page, or download the database.\n2-Upload html file contain JavaScript are not considered as vulnerability, Unless you can change an index page, database or file on our system.\n3-A recorded video must be included with every report submitted.\n4- If you don't follow these guidelines we will not award a bounty for the report.",
+        "raw": {
+          "asset_identifier": "sandbox-royal.securegateway.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Check [Royal CMS] Against Common Injection include [XSS Injection , SQL Injection ,SQLi Injection , OS Injection ,Command Injection, URL Injection , Remote Code Execution, and privilege escalation] that could cause hack CMS and change major files.\nGuidelines:\n1-Only full hack scenario will be accepted, e.g., edit the index page, or download the database.\n2-Upload html file contain JavaScript are not considered as vulnerability, Unless you can change an index page, database or file on our system.\n3-A recorded video must be included with every report submitted.\n4- If you don't follow these guidelines we will not award a bounty for the report.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "sandbox-royal.securegateway.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "1- Check if you can pass the two authentications provided by Secure Gateway mobile APP, Try any possible way to login without receiving the code, or try brute force the code or pass the rate limit.\n2- Check if you can pass upload prevention system, try any file extension out of the list (jpg,jpeg,png,gif,jfif,mp4,doc,docx,pdf,xls,xlsx,ppsx,ppt,pptx,flv,rar,zip,htm,html) And the file you uploaded should function in a browser when visiting the file.\n3- Check whether you can pass the Secure Gateway upload detector system, for example upload '.jpg' file It has the word [php_uname] in the file content (not in file name).\nInstructions\nFor 2FA, you need to install 'Secure Gateway' APP on your phone to get onetime a code. Secure Gateway APP can be downloaded by clicking on the link below.\nFor Apple Devices\nhttps://apps.apple.com/us/app/secure-gateway/id1633721151\nFor Android Devices\nhttps://play.google.com/store/apps/details?id=com.alscotoday.SecureGateway\nThen contact us to provide you with a test account to login to Secure Gateway APP.\nGuidelines:\n1-Only full hack scenario will be accepted, e.g., edit the index page, or download the database.\n2-Upload html file contain JavaScript are not considered as vulnerability, Unless you can change an index page, database or file on our system.\n3-A recorded video must be included with every report submitted.\n4- If you don't follow these guidelines we will not award a bounty for the report.\n5-Business logic errors and misconfigurations are out of scope, but you are welcome to submit reports.\nRequired Reporting Format\nAffected target, feature, or URL:\nDescription of problem:\nImpact of the issue:\nSteps to reproduce:\nProof of Concept:\nIs knowledge of this issue currently public?\nOnly complete hacking scenarios will be accepted; otherwise, the report will be closed.\nAny report that does not follow these guidelines will be rejected and closed.",
+        "raw": {
+          "asset_identifier": "sandbox.securegateway.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "1- Check if you can pass the two authentications provided by Secure Gateway mobile APP, Try any possible way to login without receiving the code, or try brute force the code or pass the rate limit.\n2- Check if you can pass upload prevention system, try any file extension out of the list (jpg,jpeg,png,gif,jfif,mp4,doc,docx,pdf,xls,xlsx,ppsx,ppt,pptx,flv,rar,zip,htm,html) And the file you uploaded should function in a browser when visiting the file.\n3- Check whether you can pass the Secure Gateway upload detector system, for example upload '.jpg' file It has the word [php_uname] in the file content (not in file name).\nInstructions\nFor 2FA, you need to install 'Secure Gateway' APP on your phone to get onetime a code. Secure Gateway APP can be downloaded by clicking on the link below.\nFor Apple Devices\nhttps://apps.apple.com/us/app/secure-gateway/id1633721151\nFor Android Devices\nhttps://play.google.com/store/apps/details?id=com.alscotoday.SecureGateway\nThen contact us to provide you with a test account to login to Secure Gateway APP.\nGuidelines:\n1-Only full hack scenario will be accepted, e.g., edit the index page, or download the database.\n2-Upload html file contain JavaScript are not considered as vulnerability, Unless you can change an index page, database or file on our system.\n3-A recorded video must be included with every report submitted.\n4- If you don't follow these guidelines we will not award a bounty for the report.\n5-Business logic errors and misconfigurations are out of scope, but you are welcome to submit reports.\nRequired Reporting Format\nAffected target, feature, or URL:\nDescription of problem:\nImpact of the issue:\nSteps to reproduce:\nProof of Concept:\nIs knowledge of this issue currently public?\nOnly complete hacking scenarios will be accepted; otherwise, the report will be closed.\nAny report that does not follow these guidelines will be rejected and closed.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "sandbox.securegateway.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/alsco"
+}

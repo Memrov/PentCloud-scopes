@@ -1,0 +1,98 @@
+{
+  "id": "yeswehack:decathlon",
+  "metadata": {
+    "disabled": false,
+    "id": "decathlon",
+    "managed": null,
+    "max_bounty": 2500,
+    "min_bounty": 50,
+    "name": "DECATHLON",
+    "public": true
+  },
+  "name": "DECATHLON",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "4b9b391fabddd29b21ea768ce10a0ee24f1cbf181e6654b7aa9992bb8b98eb61",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "decathlon",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/fr/app/decathlon-shopping/id1168607403",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/fr/app/decathlon-shopping/id1168607403"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.decathlon.app",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.decathlon.app"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://(navigate|engage|checkout|internal|cached-api|api).shoppingapp.decathlon.com/*",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://(navigate|engage|checkout|internal|cached-api|api).shoppingapp.decathlon.com/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.decathlon.(fr|ch|co.uk|it|nl|de|pt|es|be|pl|cz|ca)/",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://www.decathlon.(fr|ch|co.uk|it|nl|de|pt|es|be|pl|cz|ca)/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.decathlon.(hu|ro|com.tr)/",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://www.decathlon.(hu|ro|com.tr)/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains, subdomains, apps not listed in-scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains, subdomains, apps not listed in-scope"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/decathlon"
+}

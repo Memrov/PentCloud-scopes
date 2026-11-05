@@ -1,0 +1,120 @@
+{
+  "id": "yeswehack:tencent-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "tencent-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 5000,
+    "min_bounty": 8,
+    "name": "Tencent Bug Bounty Program",
+    "public": true
+  },
+  "name": "Tencent Bug Bounty Program",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "199cfb5f9bd0044a917856c300df8c52574ebd8b804cb1af5ad668a1d566ce13",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "tencent-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Core Assets In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Core Assets In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Non Core Assets In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Non Core Assets In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Please note that the vulnerabilities reported for the following assets will not be eligible for bounties.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Please note that the vulnerabilities reported for the following assets will not be eligible for bounties."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.qzoneapp.com",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "*.qzoneapp.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*. myqcloud.com",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "*. myqcloud.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Third-party applications and websites",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Third-party applications and websites"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*Notes about Tencent Cloud (cloud.tencent.com as included in *.tencent.com)",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "*Notes about Tencent Cloud (cloud.tencent.com as included in *.tencent.com)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Only vulnerabilities affecting the platform itself and IP owned by Tencent will be accepted. If an IP belongs to Tencent Cloud external customer, it is not considered in scope.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Only vulnerabilities affecting the platform itself and IP owned by Tencent will be accepted. If an IP belongs to Tencent Cloud external customer, it is not considered in scope."
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/tencent-bug-bounty-program"
+}

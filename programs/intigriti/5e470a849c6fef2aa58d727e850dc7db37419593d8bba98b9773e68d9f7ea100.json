@@ -1,0 +1,68 @@
+{
+  "id": "intigriti:c45fe6df-1e31-4701-8e75-e9f01919ea20",
+  "metadata": {
+    "company_handle": "nvidia",
+    "confidentiality_level": "public",
+    "handle": "nvidiavdp",
+    "id": "c45fe6df-1e31-4701-8e75-e9f01919ea20",
+    "max_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "name": "NVIDIA Vulnerability Disclosure Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/nvidia/nvidiavdp/detail"
+  },
+  "name": "NVIDIA Vulnerability Disclosure Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "6305f958ddaeea899fc7dc7d0d4b27b3f8905cc3668048aa08e58b28939bcad6",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "c45fe6df-1e31-4701-8e75-e9f01919ea20",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "All NVIDIA assets are in scope! Including NVIDIA.com",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All NVIDIA assets are in scope! Including NVIDIA.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Before initiating any testing or submitting a report, please ensure that the asset in question is genuinely owned or operated by NVIDIA. Descriptive phrases such as “compatible with NVIDIA GPU” do not constitute confirmation of NVIDIA’s ownership or control. When in doubt, we strongly encourage you to verify the asset's ownership through the program team to avoid unintentional testing of third-party systems.\n",
+        "raw": {
+          "description": "Before initiating any testing or submitting a report, please ensure that the asset in question is genuinely owned or operated by NVIDIA. Descriptive phrases such as “compatible with NVIDIA GPU” do not constitute confirmation of NVIDIA’s ownership or control. When in doubt, we strongly encourage you to verify the asset's ownership through the program team to avoid unintentional testing of third-party systems.\n",
+          "endpoint": "Third-party systems or domains referencing NVIDIA, non-secure error reporting 3rd party vulns already disclosed",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Third-party systems or domains referencing NVIDIA, non-secure error reporting 3rd party vulns already disclosed"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/nvidia/nvidiavdp/detail"
+}

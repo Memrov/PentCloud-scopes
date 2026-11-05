@@ -1,0 +1,1533 @@
+{
+  "id": "hackerone:cloudflare",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 833.0,
+    "average_time_to_first_program_response": 6.0,
+    "average_time_to_report_resolved": null,
+    "handle": "cloudflare",
+    "id": 0,
+    "managed_program": false,
+    "name": "Cloudflare Public Bug Bounty",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 87,
+    "submission_state": "open",
+    "url": "https://hackerone.com/cloudflare",
+    "website": "https://www.cloudflare.com/disclosure"
+  },
+  "name": "Cloudflare Public Bug Bounty",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "588c6d8df6991495539d73181662b17237cd38c4db1f4a6d8b365d1272795a48",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "cloudflare",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Excluding support.cloudflare.com, community.cloudflare.com and other SaaS applications",
+        "raw": {
+          "asset_identifier": "*.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Excluding support.cloudflare.com, community.cloudflare.com and other SaaS applications",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.cloudflarepartners.com",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "*.cloudflarepartners.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.teams.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.teams.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "\nA blazing fast DNS resolver built for private browsing.\nhttps://1.1.1.1/\nhttps://developers.cloudflare.com/1.1.1.1/what-is-1.1.1.1/\nhttps://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/",
+        "raw": {
+          "asset_identifier": "1.1.1.1 Resolver",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "\nA blazing fast DNS resolver built for private browsing.\nhttps://1.1.1.1/\nhttps://developers.cloudflare.com/1.1.1.1/what-is-1.1.1.1/\nhttps://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "1.1.1.1 Resolver"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/ai-gateway/",
+        "raw": {
+          "asset_identifier": "AI Gateway",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/ai-gateway/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "AI Gateway"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/speed/optimization/other/amp-real-url/",
+        "raw": {
+          "asset_identifier": "AMP Real URL",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/speed/optimization/other/amp-real-url/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "AMP Real URL"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/api-shield/",
+        "raw": {
+          "asset_identifier": "API Shield",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/api-shield/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "API Shield"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Area 1",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Area 1"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Cloudflare enables you to manage bots with speed and accuracy by applying several detection methods: Behavioral analysis, machine learning, and fingerprinting.\nhttps://www.cloudflare.com/products/bot-management/",
+        "raw": {
+          "asset_identifier": "Bot Management",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Cloudflare enables you to manage bots with speed and accuracy by applying several detection methods: Behavioral analysis, machine learning, and fingerprinting.\nhttps://www.cloudflare.com/products/bot-management/",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Bot Management"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/cloudflare-one/policies/browser-isolation/",
+        "raw": {
+          "asset_identifier": "Browser Isolation",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/cloudflare-one/policies/browser-isolation/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Browser Isolation"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "CDNJS is a free and open source project to organize and provide popular front-end web development resources to developers via a fast CDN infrastructure without usage limitations and fees.\n\nhttps://github.com/cdnjs/cdnjs\nhttps://blog.cloudflare.com/an-update-on-cdnjs/",
+        "raw": {
+          "asset_identifier": "CDNJS",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "CDNJS is a free and open source project to organize and provide popular front-end web development resources to developers via a fast CDN infrastructure without usage limitations and fees.\n\nhttps://github.com/cdnjs/cdnjs\nhttps://blog.cloudflare.com/an-update-on-cdnjs/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "CDNJS"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/china-network/",
+        "raw": {
+          "asset_identifier": "China Network",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/china-network/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "China Network"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Cloudflare Access is an application that controls access to your sites and integrates with social and enterprise identity providers (IdP) for managing user credentials.\n\nhttps://www.cloudflare.com/products/cloudflare-access/\n\n",
+        "raw": {
+          "asset_identifier": "Cloudflare Access",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Cloudflare Access is an application that controls access to your sites and integrates with social and enterprise identity providers (IdP) for managing user credentials.\n\nhttps://www.cloudflare.com/products/cloudflare-access/\n\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare Access"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/analytics/",
+        "raw": {
+          "asset_identifier": "Cloudflare Analytics",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/analytics/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare Analytics"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Cloudflare's cloud access security broker (CASB) service gives comprehensive visibility and control over SaaS apps, so you can easily prevent data leaks and compliance violations. With Zero Trust security, block insider threats, Shadow IT, risky data sharing, and bad actors.\nhttps://www.cloudflare.com/products/zero-trust/casb/",
+        "raw": {
+          "asset_identifier": "Cloudflare CASB",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Cloudflare's cloud access security broker (CASB) service gives comprehensive visibility and control over SaaS apps, so you can easily prevent data leaks and compliance violations. With Zero Trust security, block insider threats, Shadow IT, risky data sharing, and bad actors.\nhttps://www.cloudflare.com/products/zero-trust/casb/",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare CASB"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/cache/",
+        "raw": {
+          "asset_identifier": "Cloudflare Cache ",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/cache/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare Cache "
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://blog.cloudflare.com/introducing-d1/",
+        "raw": {
+          "asset_identifier": "Cloudflare D1",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://blog.cloudflare.com/introducing-d1/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare D1"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Cloudflare DNS",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare DNS"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/durable-objects/",
+        "raw": {
+          "asset_identifier": "Cloudflare Durable Objects",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/durable-objects/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare Durable Objects"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/pages",
+        "raw": {
+          "asset_identifier": "Cloudflare Pages",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/pages",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare Pages"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://blog.cloudflare.com/r2-open-beta/",
+        "raw": {
+          "asset_identifier": "Cloudflare R2",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://blog.cloudflare.com/r2-open-beta/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare R2"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Cloudflare Tunnel offers an easy way to expose web servers securely to the internet, without opening up firewall ports and configuring ACLs.\n\nhttps://developers.cloudflare.com/cloudflare-one/connections/connect-networks/\n\n",
+        "raw": {
+          "asset_identifier": "Cloudflare Tunnel",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Cloudflare Tunnel offers an easy way to expose web servers securely to the internet, without opening up firewall ports and configuring ACLs.\n\nhttps://developers.cloudflare.com/cloudflare-one/connections/connect-networks/\n\n",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare Tunnel"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Cloudflare Workers CI",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare Workers CI"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/zaraz/",
+        "raw": {
+          "asset_identifier": "Cloudflare Zaraz",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/zaraz/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare Zaraz"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Cloudflare Zero Trust/Cloudflare One",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloudflare Zero Trust/Cloudflare One"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/cloudflare-one/policies/data-loss-prevention/",
+        "raw": {
+          "asset_identifier": "Data Loss Prevention (DLP)",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/cloudflare-one/policies/data-loss-prevention/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Data Loss Prevention (DLP)"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/cloudflare-one/policies/gateway/",
+        "raw": {
+          "asset_identifier": "Gateway",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/cloudflare-one/policies/gateway/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Gateway"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/hyperdrive/",
+        "raw": {
+          "asset_identifier": "Hyperdrive",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/hyperdrive/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Hyperdrive"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/speed/optimization/images/#image-optimization",
+        "raw": {
+          "asset_identifier": "Images",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/speed/optimization/images/#image-optimization",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Images"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "\nCloudflare's Load Balancing automatically reduces latency by directing visitors to infrastructure closest to them.\n\nhttps://www.cloudflare.com/load-balancing/",
+        "raw": {
+          "asset_identifier": "Load Balancing",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "\nCloudflare's Load Balancing automatically reduces latency by directing visitors to infrastructure closest to them.\n\nhttps://www.cloudflare.com/load-balancing/",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Load Balancing"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/magic-firewall/",
+        "raw": {
+          "asset_identifier": "Magic Firewall",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/magic-firewall/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Magic Firewall"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Magic Transit is a software-defined networking product that offers IP transit with DDoS protection, next-gen firewall, traffic acceleration and more for your on-premise and data center networks from a single, easy-to-use interface.\n\nhttps://www.cloudflare.com/magic-transit/",
+        "raw": {
+          "asset_identifier": "Magic Transit",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Magic Transit is a software-defined networking product that offers IP transit with DDoS protection, next-gen firewall, traffic acceleration and more for your on-premise and data center networks from a single, easy-to-use interface.\n\nhttps://www.cloudflare.com/magic-transit/",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Magic Transit"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/magic-wan/",
+        "raw": {
+          "asset_identifier": "Magic WAN",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/magic-wan/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Magic WAN"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://github.com/cloudflare",
+        "raw": {
+          "asset_identifier": "Open source tools from Cloudflare",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://github.com/cloudflare",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Open source tools from Cloudflare"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/ssl/",
+        "raw": {
+          "asset_identifier": "SSL/TLS",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/ssl/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "SSL/TLS"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "\nSpectrum extends the power of Cloudflare's DDoS, TLS, and IP Firewall to TCP and UDP-based services, keeping them online and secure.\nhttps://www.cloudflare.com/products/cloudflare-spectrum/",
+        "raw": {
+          "asset_identifier": "Spectrum",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "\nSpectrum extends the power of Cloudflare's DDoS, TLS, and IP Firewall to TCP and UDP-based services, keeping them online and secure.\nhttps://www.cloudflare.com/products/cloudflare-spectrum/",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Spectrum"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Cloudflare Stream is an easy-to-use, affordable, on-demand video streaming platform. Stream seamlessly integrates video storage, encoding, and a customizable player with Cloudflare’s fast, secure, and reliable global network.\n\nhttps://www.cloudflare.com/products/cloudflare-stream/",
+        "raw": {
+          "asset_identifier": "Stream",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Cloudflare Stream is an easy-to-use, affordable, on-demand video streaming platform. Stream seamlessly integrates video storage, encoding, and a customizable player with Cloudflare’s fast, secure, and reliable global network.\n\nhttps://www.cloudflare.com/products/cloudflare-stream/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Stream"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/vectorize/",
+        "raw": {
+          "asset_identifier": "Vectorize",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/vectorize/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Vectorize"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Download on Android: https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone\nDownload on iOS: https://itunes.apple.com/us/app/1-1-1-1-faster-internet/id1423538627\nWARP is a free VPN for mobile phones. The app can be used as a 1.1.1.1 DNS resolver or VPN or our premium paid service Warp+. It works on wireguard protocol. See documentation section for more details.\nAreas of interest:\nCan other apps snoop with Warp\nDowngrade of connections\nMisconfiguration in the apps or backend\nMITM attacks\n\nOut of scope:\nUsing WARP+ features without paying",
+        "raw": {
+          "asset_identifier": "WARP Mobile Apps",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Download on Android: https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone\nDownload on iOS: https://itunes.apple.com/us/app/1-1-1-1-faster-internet/id1423538627\nWARP is a free VPN for mobile phones. The app can be used as a 1.1.1.1 DNS resolver or VPN or our premium paid service Warp+. It works on wireguard protocol. See documentation section for more details.\nAreas of interest:\nCan other apps snoop with Warp\nDowngrade of connections\nMisconfiguration in the apps or backend\nMITM attacks\n\nOut of scope:\nUsing WARP+ features without paying",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "WARP Mobile Apps"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Cloudflare Zero Trust client applications releases on Windows, Linux and MacOS",
+        "raw": {
+          "asset_identifier": "WARP desktop client",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Cloudflare Zero Trust client applications releases on Windows, Linux and MacOS",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "WARP desktop client"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/waiting-room/",
+        "raw": {
+          "asset_identifier": "Waiting Room",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/waiting-room/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Waiting Room"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/workers/",
+        "raw": {
+          "asset_identifier": "Workers",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/workers/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Workers"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Reports on Prompt Injection attacks on models hosted by Workers AI without demonstrating an impact on Cloudflare will not be accepted. ",
+        "raw": {
+          "asset_identifier": "Workers AI",
+          "asset_type": "AI_MODEL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Reports on Prompt Injection attacks on models hosted by Workers AI without demonstrating an impact on Cloudflare will not be accepted. ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "AI_MODEL",
+        "value": "Workers AI"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://developers.cloudflare.com/kv/",
+        "raw": {
+          "asset_identifier": "Workers KV",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://developers.cloudflare.com/kv/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Workers KV"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is a Cloudflare Workers test site.\nCloudflare Workers provides a lightweight JavaScript execution environment that allows developers to augment existing applications or create entirely new ones without configuring or maintaining infrastructure.\nhttps://www.cloudflare.com/products/cloudflare-workers/",
+        "raw": {
+          "asset_identifier": "cloudflareworkers.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is a Cloudflare Workers test site.\nCloudflare Workers provides a lightweight JavaScript execution environment that allows developers to augment existing applications or create entirely new ones without configuring or maintaining infrastructure.\nhttps://www.cloudflare.com/products/cloudflare-workers/",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "cloudflareworkers.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The Cloudflare dashboard (https://dash.cloudflare.com/) and any direct calls from the dashboard to other Cloudflare owned resources are considered in scope.",
+        "raw": {
+          "asset_identifier": "dash.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The Cloudflare dashboard (https://dash.cloudflare.com/) and any direct calls from the dashboard to other Cloudflare owned resources are considered in scope.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dash.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "-",
+        "raw": {
+          "asset_identifier": "http://github.com/cloudflare",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "-",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "http://github.com/cloudflare"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " The Next.js API surface, reimplemented on Vite.\nExperimental — under heavy development.\nTriage may delay for this repo as we will be assessing for duplicates.",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/vinext",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " The Next.js API surface, reimplemented on Vite.\nExperimental — under heavy development.\nTriage may delay for this repo as we will be assessing for duplicates.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/vinext"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/workerd",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/workerd"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://php-rce.cloudflare.app/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://php-rce.cloudflare.app/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "one.dash.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "one.dash.cloudflare.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.plugins.realtime.cloudflare.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.plugins.realtime.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "These are customer applications protected by Cloudflare Spectrum, hence out of scope",
+        "raw": {
+          "asset_identifier": "172.65.0.0/16 ",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "These are customer applications protected by Cloudflare Spectrum, hence out of scope",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "172.65.0.0/16 "
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "https://developers.cloudflare.com/turnstile/",
+        "raw": {
+          "asset_identifier": "Turnstile",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "https://developers.cloudflare.com/turnstile/",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Turnstile"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.staging.realtime.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "api.staging.realtime.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "app.dyte.io",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "app.dyte.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "community.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "community.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "demo.realtime.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "demo.realtime.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "events.www.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "events.www.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "examples.realtime.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "examples.realtime.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "files.plugins.realtime.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "files.plugins.realtime.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/agentic-inbox",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/agentic-inbox"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/cf",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/cf"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/cloudflare-os",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/cloudflare-os"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/computer",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/computer"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/moq-rs",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/moq-rs"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/pp-browser-extension",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/pp-browser-extension"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/privacy-gateway-server-go",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/privacy-gateway-server-go"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/realtimekit-web-examples ",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/realtimekit-web-examples "
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/recapn",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/recapn"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/saffron.git",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/saffron.git"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/security-audit-skill",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/security-audit-skill"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/templates",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/templates"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/vibesdk",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/vibesdk"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/vinext-private",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/vinext-private"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://playground.ai.cloudflare.com/",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://playground.ai.cloudflare.com/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://vibecoder.cloudflare.dev/",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://vibecoder.cloudflare.dev/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "react-examples.realtime.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "react-examples.realtime.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is hosted by Zendesk, and as such these reports should be submitted to their program instead via @Zendesk",
+        "raw": {
+          "asset_identifier": "support.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is hosted by Zendesk, and as such these reports should be submitted to their program instead via @Zendesk",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is hosted by Zendesk, and as such these reports should be submitted to their program instead via @zendesk.",
+        "raw": {
+          "asset_identifier": "support.cloudflarewarp.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is hosted by Zendesk, and as such these reports should be submitted to their program instead via @zendesk.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support.cloudflarewarp.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "test.realtime.cloudflare.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "test.realtime.cloudflare.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This domain must be used for testing WAF bypasses.",
+        "raw": {
+          "asset_identifier": "waf.cumulusfire.net",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This domain must be used for testing WAF bypasses.",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "waf.cumulusfire.net"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/cloudflare"
+}

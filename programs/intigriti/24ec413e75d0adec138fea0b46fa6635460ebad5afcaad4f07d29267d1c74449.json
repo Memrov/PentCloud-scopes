@@ -1,0 +1,94 @@
+{
+  "id": "intigriti:e8b2e8ca-1fb2-4c17-933f-2a1f5cfb7da7",
+  "metadata": {
+    "company_handle": "driessengroep",
+    "confidentiality_level": "public",
+    "handle": "driessenvdp",
+    "id": "e8b2e8ca-1fb2-4c17-933f-2a1f5cfb7da7",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Driessen Vulnerability Disclosure Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/driessengroep/driessenvdp/detail"
+  },
+  "name": "Driessen Vulnerability Disclosure Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "caf44091ce4e7cc5ae25ac0d8279e32b00d85dba2cacf775d23a19d66613745e",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "e8b2e8ca-1fb2-4c17-933f-2a1f5cfb7da7",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.driessen.nl/*",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "www.driessen.nl/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.driessen.software",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.driessen.software"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.driessen.nl/contact",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.driessen.nl/contact"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.driessen.nl/mijn/solliciteren/*",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "www.driessen.nl/mijn/solliciteren/*"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/driessengroep/driessenvdp/detail"
+}

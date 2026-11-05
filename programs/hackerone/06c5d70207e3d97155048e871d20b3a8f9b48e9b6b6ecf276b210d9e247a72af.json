@@ -1,0 +1,129 @@
+{
+  "id": "hackerone:mergify",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 66.0,
+    "average_time_to_first_program_response": 10.0,
+    "average_time_to_report_resolved": 285.0,
+    "handle": "mergify",
+    "id": 0,
+    "managed_program": false,
+    "name": "Mergify",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/mergify",
+    "website": "http://mergify.com"
+  },
+  "name": "Mergify",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "a5ea1c41eb93f6b69f76f242e7b5c8c72e7bd4748d7d229bc4d3668868ef2689",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "mergify",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.mergify.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.mergify.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "dashboard.mergify.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dashboard.mergify.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We do not manage our blogging infrastructure directly.",
+        "raw": {
+          "asset_identifier": "articles.mergify.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We do not manage our blogging infrastructure directly.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "articles.mergify.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We do not manage our blogging infrastructure directly.",
+        "raw": {
+          "asset_identifier": "blog.mergify.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We do not manage our blogging infrastructure directly.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "blog.mergify.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We do not manage the infrastructure of our Web hosting service.",
+        "raw": {
+          "asset_identifier": "mergify.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We do not manage the infrastructure of our Web hosting service.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "mergify.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/mergify"
+}

@@ -1,0 +1,236 @@
+{
+  "id": "hackerone:inspectorio",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 0.0,
+    "average_time_to_first_program_response": 22.0,
+    "average_time_to_report_resolved": 7532.0,
+    "handle": "inspectorio",
+    "id": 0,
+    "managed_program": true,
+    "name": "Inspectorio",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 75,
+    "submission_state": "open",
+    "url": "https://hackerone.com/inspectorio",
+    "website": "http://inspectorio.com"
+  },
+  "name": "Inspectorio",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "8ef8008168f3ea61f326fdb6b075e3697e5a01bf60f683fbae8c47a7a6035b63",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "inspectorio",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "api.stg.inspectorio.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.stg.inspectorio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**This is our Application “SIGHT”**\n\nPlease register [here](https://h1way.stg.inspectorio.com/) to get your account for access.",
+        "raw": {
+          "asset_identifier": "app.stg.inspectorio.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**This is our Application “SIGHT”**\n\nPlease register [here](https://h1way.stg.inspectorio.com/) to get your account for access.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.stg.inspectorio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "docuflow.stg.inspectorio.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "docuflow.stg.inspectorio.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This is our File Management Service and it has multiple known vulnerabilities. We will set it eligible for bounty after security hardening which is in progress now.",
+        "raw": {
+          "asset_identifier": "files-stg.inspectorio.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This is our File Management Service and it has multiple known vulnerabilities. We will set it eligible for bounty after security hardening which is in progress now.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "files-stg.inspectorio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Sign up [here](https://h1way.stg.inspectorio.com) to get your account credentials.",
+        "raw": {
+          "asset_identifier": "https://app.bitrise.io/app/51a95edaab331ec5/installable-artifacts/48548bd7878361ab/public-install-page/82f78f6dddbebab09e2f4ac3c0081984",
+          "asset_type": "OTHER_APK",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Sign up [here](https://h1way.stg.inspectorio.com) to get your account credentials.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER_APK",
+        "value": "https://app.bitrise.io/app/51a95edaab331ec5/installable-artifacts/48548bd7878361ab/public-install-page/82f78f6dddbebab09e2f4ac3c0081984"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This is a distinct component of our product, but we do not reward reports for it since we are not actively developing its codebase.",
+        "raw": {
+          "asset_identifier": "https://collabora.stg.inspectorio.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This is a distinct component of our product, but we do not reward reports for it since we are not actively developing its codebase.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://collabora.stg.inspectorio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Sign up [here](https://h1way.stg.inspectorio.com) to get your account credentials.",
+        "raw": {
+          "asset_identifier": "https://testflight.apple.com/join/vwFxXX7t",
+          "asset_type": "TESTFLIGHT",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Sign up [here](https://h1way.stg.inspectorio.com) to get your account credentials.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "TESTFLIGHT",
+        "value": "https://testflight.apple.com/join/vwFxXX7t"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "id.stg.inspectorio.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "id.stg.inspectorio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**This is our SIGHT report service**\n\nPlease register [here](https://h1way.stg.inspectorio.com/) to get your account for access.",
+        "raw": {
+          "asset_identifier": "report-html-sight.stg.inspectorio.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**This is our SIGHT report service**\n\nPlease register [here](https://h1way.stg.inspectorio.com/) to get your account for access.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "report-html-sight.stg.inspectorio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "rise-api.stg.inspectorio.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "rise-api.stg.inspectorio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**This is our Application “RISE”**\n\nPlease register [here](https://h1way.stg.inspectorio.com/) to get your account for access.\n",
+        "raw": {
+          "asset_identifier": "rise.stg.inspectorio.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**This is our Application “RISE”**\n\nPlease register [here](https://h1way.stg.inspectorio.com/) to get your account for access.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "rise.stg.inspectorio.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/inspectorio"
+}

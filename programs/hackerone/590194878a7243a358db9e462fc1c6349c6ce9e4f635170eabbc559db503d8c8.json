@@ -1,0 +1,867 @@
+{
+  "id": "hackerone:snapchat",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 601.0,
+    "average_time_to_first_program_response": 14.0,
+    "average_time_to_report_resolved": 1701.0,
+    "handle": "snapchat",
+    "id": 0,
+    "managed_program": false,
+    "name": "Snapchat",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 93,
+    "submission_state": "open",
+    "url": "https://hackerone.com/snapchat",
+    "website": "https://www.snapchat.com/"
+  },
+  "name": "Snapchat",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "842d9a6c78e2b6bf0b3a8f36647d3db527c8a70ea9f534f825707f133073dc2e",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "snapchat",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Snapchat's internal services",
+        "raw": {
+          "asset_identifier": "*.sc-core.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Snapchat's internal services",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.sc-core.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.sc-corp.net",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "*.sc-corp.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Lens Studio",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Lens Studio"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Tier A - Core Assets",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Tier A - Core Assets"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Tier B - Non Core (Bitmoji, Playcanvas)",
+          "asset_type": "OTHER",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "OTHER",
+        "value": "Tier B - Non Core (Bitmoji, Playcanvas)"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nSnapchat's account management website. ",
+        "raw": {
+          "asset_identifier": "accounts.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nSnapchat's account management website. ",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "accounts.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "ads.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "ads.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nMain server-side application hosted on Google App Engine under the hostname feelinsonice-hrd.appspot.com and app.snapchat.com.",
+        "raw": {
+          "asset_identifier": "app.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nMain server-side application hosted on Google App Engine under the hostname feelinsonice-hrd.appspot.com and app.snapchat.com.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "blog.playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "blog.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Snapchat's Business Manager. ",
+        "raw": {
+          "asset_identifier": "business.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Snapchat's Business Manager. ",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "business.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Snapchat's Salesforce instance",
+        "raw": {
+          "asset_identifier": "businesshelp.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Snapchat's Salesforce instance",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "businesshelp.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "code.playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "code.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]\n[iOS App Store](https://itunes.apple.com/us/app/bitmoji-keyboard-your-avatar/id868077558)",
+        "raw": {
+          "asset_identifier": "com.bitstrips.imoji",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]\n[iOS App Store](https://itunes.apple.com/us/app/bitmoji-keyboard-your-avatar/id868077558)",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.bitstrips.imoji"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]\n[Google Play Store](https://play.google.com/store/apps/details?id=com.bitstrips.imoji)",
+        "raw": {
+          "asset_identifier": "com.bitstrips.imoji",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]\n[Google Play Store](https://play.google.com/store/apps/details?id=com.bitstrips.imoji)",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.bitstrips.imoji"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\n[Google Play Store](https://play.google.com/store/apps/details?id=com.snapchat.android)",
+        "raw": {
+          "asset_identifier": "com.snapchat.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\n[Google Play Store](https://play.google.com/store/apps/details?id=com.snapchat.android)",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.snapchat.android"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\n[iOS App Store](https://itunes.apple.com/us/app/snapchat/id447188370?mt=8)",
+        "raw": {
+          "asset_identifier": "com.toyopagroup.picaboo",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\n[iOS App Store](https://itunes.apple.com/us/app/snapchat/id447188370?mt=8)",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.toyopagroup.picaboo"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Snapchat's Geofilter creation tool. ",
+        "raw": {
+          "asset_identifier": "create.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Snapchat's Geofilter creation tool. ",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "create.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "developer.playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "developer.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "forum.playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "forum.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nSnapchat's on-demand Geofilters purchase website. ",
+        "raw": {
+          "asset_identifier": "geofilters.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nSnapchat's on-demand Geofilters purchase website. ",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "geofilters.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://lensstudio.snapchat.com/api/",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://lensstudio.snapchat.com/api/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nSNAPKIT web application and SDKs",
+        "raw": {
+          "asset_identifier": "kit.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nSNAPKIT web application and SDKs",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "kit.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "launch.playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "launch.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "login.playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "login.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "map.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "map.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "msg.playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "msg.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Snapchat's Spotlight on the web. ",
+        "raw": {
+          "asset_identifier": "my.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Snapchat's Spotlight on the web. ",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "my.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "playcanv.as",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "playcanv.as"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "relay.playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "relay.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "rt.playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "rt.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nSnapcode creation website",
+        "raw": {
+          "asset_identifier": "scan.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nSnapcode creation website",
+          "integrity_requirement": "none",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "scan.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nSnapchat's publisher tool. ",
+        "raw": {
+          "asset_identifier": "snappublisher.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nSnapchat's publisher tool. ",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "snappublisher.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core asset]\nSnapchat's spectacles purchase website. ",
+        "raw": {
+          "asset_identifier": "spectacles.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core asset]\nSnapchat's spectacles purchase website. ",
+          "integrity_requirement": "none",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "spectacles.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "store.playcanvas.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "store.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Snapchat's Bitmoji Merch Store",
+        "raw": {
+          "asset_identifier": "store.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Snapchat's Bitmoji Merch Store",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "store.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "story.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "story.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "web.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "web.snapchat.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]",
+        "raw": {
+          "asset_identifier": "www.bitmoji.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "www.bitmoji.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-core asset]",
+        "raw": {
+          "asset_identifier": "www.bitstrips.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-core asset]",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "www.bitstrips.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Spectacles",
+          "asset_type": "HARDWARE",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "HARDWARE",
+        "value": "Spectacles"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Spectacles charging case",
+          "asset_type": "HARDWARE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "HARDWARE",
+        "value": "Spectacles charging case"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "dev.playcanv.as",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "dev.playcanv.as"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "http://dev*.playcanvas.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "http://dev*.playcanvas.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "returns.spectacles.com application is owned and managed by Netsuite. Please consider reporting vulnerabilities directly to them.",
+        "raw": {
+          "asset_identifier": "returns.spectacles.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "returns.spectacles.com application is owned and managed by Netsuite. Please consider reporting vulnerabilities directly to them.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "returns.spectacles.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Static support website",
+        "raw": {
+          "asset_identifier": "support.snapchat.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Static support website",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support.snapchat.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/snapchat"
+}

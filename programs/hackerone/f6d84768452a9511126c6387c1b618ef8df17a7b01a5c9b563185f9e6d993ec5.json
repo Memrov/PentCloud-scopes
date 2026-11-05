@@ -1,0 +1,741 @@
+{
+  "id": "hackerone:netflix",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 209.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 2654.0,
+    "handle": "netflix",
+    "id": 0,
+    "managed_program": true,
+    "name": "Netflix",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 89,
+    "submission_state": "open",
+    "url": "https://hackerone.com/netflix",
+    "website": "http://netflix.com"
+  },
+  "name": "Netflix",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "e6738b6f78c334419bfe72b73c32ab5683ccec7c587517df00b074054cae7063",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "netflix",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nStatic content is served over this domain",
+        "raw": {
+          "asset_identifier": "*.nflxext.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nStatic content is served over this domain",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.nflxext.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nStatic content is served over this domain",
+        "raw": {
+          "asset_identifier": "*.nflximg.net",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nStatic content is served over this domain",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.nflximg.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nStatic content is served over this domain",
+        "raw": {
+          "asset_identifier": "*.nflxso.net",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nStatic content is served over this domain",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.nflxso.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.nflxvideo.net",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.nflxvideo.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nThe primary Netflix experience is driven by microservices that are hosted and called through our API.\n\nYou may see the API referenced as `api*.netflix.com` as well as `www.netflix.com/api/*`",
+        "raw": {
+          "asset_identifier": "*.prod.cloud.netflix.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nThe primary Netflix experience is driven by microservices that are hosted and called through our API.\n\nYou may see the API referenced as `api*.netflix.com` as well as `www.netflix.com/api/*`",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.prod.cloud.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nThe primary Netflix experience is driven by microservices that are hosted and called through our API. \n\nYou may see the API referenced as` api*.netflix.com` as well as `www.netflix.com/api/*`\n",
+        "raw": {
+          "asset_identifier": "*.prod.dradis.netflix.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nThe primary Netflix experience is driven by microservices that are hosted and called through our API. \n\nYou may see the API referenced as` api*.netflix.com` as well as `www.netflix.com/api/*`\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.prod.dradis.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nThe primary Netflix experience is driven by microservices that are hosted and called through our API. \n\nYou may see the API referenced as` api*.netflix.com` as well as `www.netflix.com/api/*`\n",
+        "raw": {
+          "asset_identifier": "*.prod.ftl.netflix.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nThe primary Netflix experience is driven by microservices that are hosted and called through our API. \n\nYou may see the API referenced as` api*.netflix.com` as well as `www.netflix.com/api/*`\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.prod.ftl.netflix.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "**Non-Rewardable**",
+        "raw": {
+          "asset_identifier": "Affiliates or entities such as recently acquired companies",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "**Non-Rewardable**",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Affiliates or entities such as recently acquired companies"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Device & Content Authorization Findings**\n\nHigh severity targets include methods of subverting content authorization or obtaining private keys. Medium severity targets include leaked private keys for content decryption. Submissions of hardware-backed private keys (i.e. from a TEE) & key exfiltration methods will have higher payouts than submissions of software-backed private keys & key exfiltration methods.",
+        "raw": {
+          "asset_identifier": "Content Authorization Targets",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Device & Content Authorization Findings**\n\nHigh severity targets include methods of subverting content authorization or obtaining private keys. Medium severity targets include leaked private keys for content decryption. Submissions of hardware-backed private keys (i.e. from a TEE) & key exfiltration methods will have higher payouts than submissions of software-backed private keys & key exfiltration methods.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Content Authorization Targets"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "**Non-Rewardable**",
+        "raw": {
+          "asset_identifier": "Content authorization vulnerabilities affecting only the in-browser player",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "**Non-Rewardable**",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Content authorization vulnerabilities affecting only the in-browser player"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "** Netflix.com Google G suite **\n**For targets listed in the \"Corporate Targets Overview\" section, we only reward for the bugs that are critical or High based on the CVSS.** \n\n- We do accept submissions of overly exposed Google documents (as described in Corporate Targets above), which start at Low severity. \n- Submissions must meet other applicable requirements (e.g. not an Excluded Submission Type). \n- Medium and Low severity reports will be accepted but will not be eligible for a bounty. \n",
+        "raw": {
+          "asset_identifier": "Corporate Assets",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "** Netflix.com Google G suite **\n**For targets listed in the \"Corporate Targets Overview\" section, we only reward for the bugs that are critical or High based on the CVSS.** \n\n- We do accept submissions of overly exposed Google documents (as described in Corporate Targets above), which start at Low severity. \n- Submissions must meet other applicable requirements (e.g. not an Excluded Submission Type). \n- Medium and Low severity reports will be accepted but will not be eligible for a bounty. \n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Corporate Assets"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "**Non-Rewardable**",
+        "raw": {
+          "asset_identifier": "Low impact, individually exposed Google Docs with no common root cause (see “Publicly accessible Google Document or Drive Links” in the “Corporate Targets” section)",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "**Non-Rewardable**",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Low impact, individually exposed Google Docs with no common root cause (see “Publicly accessible Google Document or Drive Links” in the “Corporate Targets” section)"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "## Secondary Target\nMicrosites are sites that Netflix typically publishes for promotion or in support of Netflix titles.\nNot all microsites are hosted by Netflix. Some are hosted by vendors or partners. We cannot authorize you to test these sites as we do not own the computers that host them. It is critical that you confirm that Netflix is the owner of a particular microsite before testing. When in doubt, please reach out to the Netflix team to confirm.\n",
+        "raw": {
+          "asset_identifier": "Microsites",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "## Secondary Target\nMicrosites are sites that Netflix typically publishes for promotion or in support of Netflix titles.\nNot all microsites are hosted by Netflix. Some are hosted by vendors or partners. We cannot authorize you to test these sites as we do not own the computers that host them. It is critical that you confirm that Netflix is the owner of a particular microsite before testing. When in doubt, please reach out to the Netflix team to confirm.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Microsites"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "**Non-Rewardable**",
+        "raw": {
+          "asset_identifier": "Netflix Gaming Target",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "**Non-Rewardable**",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Netflix Gaming Target"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "## Mobile target\n**App Id on play store - com.netflix.mediaclient**\nWe only accept Critical and High-level vulnerabilities in the apps",
+        "raw": {
+          "asset_identifier": "Netflix Mobile Application for Android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "## Mobile target\n**App Id on play store - com.netflix.mediaclient**\nWe only accept Critical and High-level vulnerabilities in the apps",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "Netflix Mobile Application for Android"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "## Mobile target\n**App ID on app store - 363590051**\nWe only accept Critical and High-level vulnerabilities in the apps",
+        "raw": {
+          "asset_identifier": "Netflix Mobile Application for iOS",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "## Mobile target\n**App ID on app store - 363590051**\nWe only accept Critical and High-level vulnerabilities in the apps",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "Netflix Mobile Application for iOS"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "## https://github.com/Netflix/atlas\n**Secondary Target**",
+        "raw": {
+          "asset_identifier": "Open Source - Atlas",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "## https://github.com/Netflix/atlas\n**Secondary Target**",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "Open Source - Atlas"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "## https://github.com/Netflix/spectator\n\n**Secondary Target**",
+        "raw": {
+          "asset_identifier": "Open Source - Spectator",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "## https://github.com/Netflix/spectator\n\n**Secondary Target**",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Open Source - Spectator"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "## https://github.com/Netflix/zuul\n\n**Primary Target**",
+        "raw": {
+          "asset_identifier": "Open Source - Zuul",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "## https://github.com/Netflix/zuul\n\n**Primary Target**",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Open Source - Zuul"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Secondary Assets",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Secondary Assets"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nThe primary Netflix experience is driven by microservices that are hosted and called through our API. \n\nYou may see the API referenced as` api*.netflix.com` as well as `www.netflix.com/api/*`\n",
+        "raw": {
+          "asset_identifier": "api*.netflix.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nThe primary Netflix experience is driven by microservices that are hosted and called through our API. \n\nYou may see the API referenced as` api*.netflix.com` as well as `www.netflix.com/api/*`\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "api*.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nBeacon is a logging endpoint used to collect client information from member's browsers and streaming devices.",
+        "raw": {
+          "asset_identifier": "beacon.netflix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nBeacon is a logging endpoint used to collect client information from member's browsers and streaming devices.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "beacon.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\n`customerevents.netflix.com`, `nmtracking.netflix.com`, and `presentationtracking.netflix.com` are all alias of `beacon.netflix.com`. \n\nSubmissions containing variations of the URL will not be treated as unique.",
+        "raw": {
+          "asset_identifier": "customerevents.netflix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\n`customerevents.netflix.com`, `nmtracking.netflix.com`, and `presentationtracking.netflix.com` are all alias of `beacon.netflix.com`. \n\nSubmissions containing variations of the URL will not be treated as unique.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "customerevents.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nOur help site provides a knowledge base and customer service chat",
+        "raw": {
+          "asset_identifier": "help.netflix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nOur help site provides a knowledge base and customer service chat",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "help.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nIchanaea is a logging endpoint used to collect client information",
+        "raw": {
+          "asset_identifier": "ichnaea.netflix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nIchanaea is a logging endpoint used to collect client information",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "ichnaea.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nNetflix partner page",
+        "raw": {
+          "asset_identifier": "meechum.netflix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nNetflix partner page",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "meechum.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\n`customerevents.netflix.com`, `nmtracking.netflix.com`, and `presentationtracking.netflix.com` are all alias of `beacon.netflix.com`. \n\nSubmissions containing variations of the URL will not be treated as unique.",
+        "raw": {
+          "asset_identifier": "nmtracking.netflix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\n`customerevents.netflix.com`, `nmtracking.netflix.com`, and `presentationtracking.netflix.com` are all alias of `beacon.netflix.com`. \n\nSubmissions containing variations of the URL will not be treated as unique.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "nmtracking.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\n`customerevents.netflix.com`, `nmtracking.netflix.com`, and `presentationtracking.netflix.com` are all alias of `beacon.netflix.com`. \n\nSubmissions containing variations of the URL will not be treated as unique.",
+        "raw": {
+          "asset_identifier": "presentationtracking.netflix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\n`customerevents.netflix.com`, `nmtracking.netflix.com`, and `presentationtracking.netflix.com` are all alias of `beacon.netflix.com`. \n\nSubmissions containing variations of the URL will not be treated as unique.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "presentationtracking.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary Target**\nSecure static assets are hosted on this domain",
+        "raw": {
+          "asset_identifier": "secure.netflix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary Target**\nSecure static assets are hosted on this domain",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "secure.netflix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "## Primary Target\nThe primary Netflix experience is hosted on this top level domain. The UI uses a combination of React JS and Node.",
+        "raw": {
+          "asset_identifier": "www.netflix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "## Primary Target\nThe primary Netflix experience is hosted on this top level domain. The UI uses a combination of React JS and Node.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.netflix.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Assets associated with ReadyPlayerMe ",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Assets associated with ReadyPlayerMe "
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "https://github.com/netflix/consoleme\n\n**As of Feb 2026: out of scope**",
+        "raw": {
+          "asset_identifier": "Open Source - Consoleme",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "https://github.com/netflix/consoleme\n\n**As of Feb 2026: out of scope**",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Open Source - Consoleme"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "https://github.com/Netflix/dispatch\n\n**Secondary Target**",
+        "raw": {
+          "asset_identifier": "Open Source - Dispatch",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "https://github.com/Netflix/dispatch\n\n**Secondary Target**",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Open Source - Dispatch"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "https://github.com/netflix/weep\n\n**As of Feb 2026: out of scope**",
+        "raw": {
+          "asset_identifier": "Open Source - Weep",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "https://github.com/netflix/weep\n\n**As of Feb 2026: out of scope**",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Open Source - Weep"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**Out of Scope**",
+        "raw": {
+          "asset_identifier": "Set-top-boxes, smart TVs, streaming sticks Out of Scope",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**Out of Scope**",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Set-top-boxes, smart TVs, streaming sticks Out of Scope"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**Out of Scope**",
+        "raw": {
+          "asset_identifier": "Third party websites or systems hosted by non-Netflix entities Out of Scope",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**Out of Scope**",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Third party websites or systems hosted by non-Netflix entities Out of Scope"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**Out of Scope**",
+        "raw": {
+          "asset_identifier": "ir.netflix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**Out of Scope**",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "ir.netflix.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**Out of Scope**",
+        "raw": {
+          "asset_identifier": "ir.netflix.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**Out of Scope**",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "ir.netflix.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**Out of Scope**",
+        "raw": {
+          "asset_identifier": "netflixinvestor.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**Out of Scope**",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "netflixinvestor.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/netflix"
+}

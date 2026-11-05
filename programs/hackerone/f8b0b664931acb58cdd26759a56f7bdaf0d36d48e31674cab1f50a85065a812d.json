@@ -1,0 +1,417 @@
+{
+  "id": "hackerone:krisp",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 42.0,
+    "average_time_to_first_program_response": 9.0,
+    "average_time_to_report_resolved": 3258.0,
+    "handle": "krisp",
+    "id": 0,
+    "managed_program": false,
+    "name": "Krisp",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/krisp",
+    "website": "https://krisp.ai"
+  },
+  "name": "Krisp",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "403b7c54721221ee5082bec54f2ae2c07927f7de071fb0e3f68f26eba69c5323",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "krisp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Except for OOS domains",
+        "raw": {
+          "asset_identifier": "*.krisp.ai",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Except for OOS domains",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Anything that is verified that belongs to us and doesn't match any other scope.",
+        "raw": {
+          "asset_identifier": "Other",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Anything that is verified that belongs to us and doesn't match any other scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Other"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Krisp account frontend\n",
+        "raw": {
+          "asset_identifier": "account.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Krisp account frontend\n",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "account.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Krisp analytics",
+        "raw": {
+          "asset_identifier": "analytics.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Krisp analytics",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "analytics.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Krisp API",
+        "raw": {
+          "asset_identifier": "api.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Krisp API",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Krisp account frontend\n",
+        "raw": {
+          "asset_identifier": "app.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Krisp account frontend\n",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Download endpoints",
+        "raw": {
+          "asset_identifier": "download.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Download endpoints",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "download.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Misconfigurations are in scope and may be awarded",
+        "raw": {
+          "asset_identifier": "help-jp.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Misconfigurations are in scope and may be awarded",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "help-jp.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Misconfigurations are in scope and may be awarded",
+        "raw": {
+          "asset_identifier": "help.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Misconfigurations are in scope and may be awarded",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "help.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Krisp MacOS electron app.\nBypassing free minutes limitation via changing frontend applications' logic is out of scope",
+        "raw": {
+          "asset_identifier": "https://download.krisp.ai/mac",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Krisp MacOS electron app.\nBypassing free minutes limitation via changing frontend applications' logic is out of scope",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "https://download.krisp.ai/mac"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Krisp Windows electron app.\nBypassing free minutes limitation via changing frontend applications' logic is out of scope",
+        "raw": {
+          "asset_identifier": "https://download.krisp.ai/win",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Krisp Windows electron app.\nBypassing free minutes limitation via changing frontend applications' logic is out of scope",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "https://download.krisp.ai/win"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "krisp.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Misconfigurations are in scope and may be awarded",
+        "raw": {
+          "asset_identifier": "resources.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Misconfigurations are in scope and may be awarded",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "resources.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Teams API",
+        "raw": {
+          "asset_identifier": "teams.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Teams API",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "teams.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Websocket API",
+        "raw": {
+          "asset_identifier": "upld.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Websocket API",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "upld.krisp.ai"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Development environment",
+        "raw": {
+          "asset_identifier": "*dev*.krisp.ai",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Development environment",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*dev*.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "metabase.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "metabase.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "sdk-docs.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "sdk-docs.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "url5145.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "url5145.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "voice-ai-newsletter.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "voice-ai-newsletter.krisp.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "whatsnew.krisp.ai",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "whatsnew.krisp.ai"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/krisp"
+}

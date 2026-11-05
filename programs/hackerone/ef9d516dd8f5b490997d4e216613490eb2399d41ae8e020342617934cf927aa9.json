@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:netscaler_public_program",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "netscaler_public_program",
+    "id": 0,
+    "managed_program": false,
+    "name": "NetScaler Public Program",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 12,
+    "submission_state": "open",
+    "url": "https://hackerone.com/netscaler_public_program",
+    "website": ""
+  },
+  "name": "NetScaler Public Program",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "ac8cbfad0506ccfd7c27d4a51f358f150720967fb9386d17f57499709ba2c1b2",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "netscaler_public_program",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Critical\n\nRemote code execution, e.g., code execution on CC production, remote code execution with root level access on host machine or multi-tenant key compromise\nService key compromise, e.g., taking over a multi-tenant key\n\nHigh\n\nService key compromise, e.g., taking over a single tenant key\nSQL injection, e.g., cross-tenant data exfiltration\nIDOR/missing authorization checks leading to key compromise or customer data leakage\nUnrestricted XXE/file system access, e.g., cross-tenant data leak\nDirectory traversal/arbitrary file read - depending on types of files that can be read, e.g., system file read issues\n\nMedium\n\nCSRF - excluding on logout and on publicly available forums\nXSS - depending on impact and type of XSS\n\n\nLow\n\nOther vulnerabilities with proven impact which are not listed as out of scope\n\n\nOut of Scope:\n\nSelf -XSS are Out of Scope\nAny vulnerabilities that are reported determined to be due to the configuration issue \nhttps://lb1.iris.cgophobb.com - Out of Scope for the program since this is a dummy server redirects to NS instance\nEnterprise Related Vulnerabilities are OOS\nThis is a Testing Instance with no prevention on the password restrictions, Hence Bruteforce Attacks are OOS",
+        "raw": {
+          "asset_identifier": "NetScaler AAA",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Critical\n\nRemote code execution, e.g., code execution on CC production, remote code execution with root level access on host machine or multi-tenant key compromise\nService key compromise, e.g., taking over a multi-tenant key\n\nHigh\n\nService key compromise, e.g., taking over a single tenant key\nSQL injection, e.g., cross-tenant data exfiltration\nIDOR/missing authorization checks leading to key compromise or customer data leakage\nUnrestricted XXE/file system access, e.g., cross-tenant data leak\nDirectory traversal/arbitrary file read - depending on types of files that can be read, e.g., system file read issues\n\nMedium\n\nCSRF - excluding on logout and on publicly available forums\nXSS - depending on impact and type of XSS\n\n\nLow\n\nOther vulnerabilities with proven impact which are not listed as out of scope\n\n\nOut of Scope:\n\nSelf -XSS are Out of Scope\nAny vulnerabilities that are reported determined to be due to the configuration issue \nhttps://lb1.iris.cgophobb.com - Out of Scope for the program since this is a dummy server redirects to NS instance\nEnterprise Related Vulnerabilities are OOS\nThis is a Testing Instance with no prevention on the password restrictions, Hence Bruteforce Attacks are OOS",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "NetScaler AAA"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Critical\n\nRemote code execution, e.g., code execution on CC production, remote code execution with root level access on host machine or multi-tenant key compromise\nService key compromise, e.g., taking over a multi-tenant key\n\nHigh\n\nService key compromise, e.g., taking over a single tenant key\nSQL injection, e.g., cross-tenant data exfiltration\nIDOR/missing authorization checks leading to key compromise or customer data leakage\nUnrestricted XXE/file system access, e.g., cross-tenant data leak\nDirectory traversal/arbitrary file read - depending on types of files that can be read, e.g., system file read issues\n\nMedium\n\nCSRF - excluding on logout and on publicly available forums\nXSS - depending on impact and type of XSS\n\nLow\n\nOther vulnerabilities with proven impact which are not listed as out of scope\n\nOut of Scope:\n\nServer misconfiguration leading to compromise or data leak\nAny vulnerabilities that are reported determined to be due to the configuration issue\n\nEnterprise Related Vulnerabilities are OOS\nSelf -XSS are Out of Scope\nThis is a Testing Instance with no prevention on the password restrictions, Hence Bruteforce Attacks are OOS",
+        "raw": {
+          "asset_identifier": "NetScaler ADC",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Critical\n\nRemote code execution, e.g., code execution on CC production, remote code execution with root level access on host machine or multi-tenant key compromise\nService key compromise, e.g., taking over a multi-tenant key\n\nHigh\n\nService key compromise, e.g., taking over a single tenant key\nSQL injection, e.g., cross-tenant data exfiltration\nIDOR/missing authorization checks leading to key compromise or customer data leakage\nUnrestricted XXE/file system access, e.g., cross-tenant data leak\nDirectory traversal/arbitrary file read - depending on types of files that can be read, e.g., system file read issues\n\nMedium\n\nCSRF - excluding on logout and on publicly available forums\nXSS - depending on impact and type of XSS\n\nLow\n\nOther vulnerabilities with proven impact which are not listed as out of scope\n\nOut of Scope:\n\nServer misconfiguration leading to compromise or data leak\nAny vulnerabilities that are reported determined to be due to the configuration issue\n\nEnterprise Related Vulnerabilities are OOS\nSelf -XSS are Out of Scope\nThis is a Testing Instance with no prevention on the password restrictions, Hence Bruteforce Attacks are OOS",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "NetScaler ADC"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Critical\n\nRemote code execution, e.g., code execution on CC production, remote code execution with root level access on host machine or multi-tenant key compromise\nService key compromise, e.g., taking over a multi-tenant key\n\nHigh\n\nService key compromise, e.g., taking over a single tenant key\nSQL injection, e.g., cross-tenant data exfiltration\nIDOR/missing authorization checks leading to key compromise or customer data leakage\nUnrestricted XXE/file system access, e.g., cross-tenant data leak\nDirectory traversal/arbitrary file read - depending on types of files that can be read, e.g., system file read issues\n\nMedium\n\nCSRF - excluding on logout and on publicly available forums\nXSS - depending on impact and type of XSS\n\n\nLow\n\nOther vulnerabilities with proven impact which are not listed as out of scope\n\n\nOut of Scope:\n\nServer misconfiguration leading to compromise or data leak\nSelf -XSS are Out of Scope\nMisconfigured S3 buckets - only when the attacker can weaponize the buckets/instance\nAny vulnerabilities that are reported determined to be due to the configuration issue\n\nEnterprise Related Vulnerabilities are OOS\nThis is a Testing Instance with no prevention on the password restrictions, Hence Bruteforce Attacks are OOS",
+        "raw": {
+          "asset_identifier": "NetScaler Gateway",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Critical\n\nRemote code execution, e.g., code execution on CC production, remote code execution with root level access on host machine or multi-tenant key compromise\nService key compromise, e.g., taking over a multi-tenant key\n\nHigh\n\nService key compromise, e.g., taking over a single tenant key\nSQL injection, e.g., cross-tenant data exfiltration\nIDOR/missing authorization checks leading to key compromise or customer data leakage\nUnrestricted XXE/file system access, e.g., cross-tenant data leak\nDirectory traversal/arbitrary file read - depending on types of files that can be read, e.g., system file read issues\n\nMedium\n\nCSRF - excluding on logout and on publicly available forums\nXSS - depending on impact and type of XSS\n\n\nLow\n\nOther vulnerabilities with proven impact which are not listed as out of scope\n\n\nOut of Scope:\n\nServer misconfiguration leading to compromise or data leak\nSelf -XSS are Out of Scope\nMisconfigured S3 buckets - only when the attacker can weaponize the buckets/instance\nAny vulnerabilities that are reported determined to be due to the configuration issue\n\nEnterprise Related Vulnerabilities are OOS\nThis is a Testing Instance with no prevention on the password restrictions, Hence Bruteforce Attacks are OOS",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "NetScaler Gateway"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/netscaler_public_program"
+}

@@ -1,0 +1,146 @@
+{
+  "id": "hackerone:yuga_labs",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 1522.0,
+    "average_time_to_first_program_response": 8.0,
+    "average_time_to_report_resolved": null,
+    "handle": "yuga_labs",
+    "id": 0,
+    "managed_program": true,
+    "name": "Yuga Labs",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 78,
+    "submission_state": "open",
+    "url": "https://hackerone.com/yuga_labs",
+    "website": "http://www.yuga.com"
+  },
+  "name": "Yuga Labs",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "65fb1a4544e531439777a33035d4d362a77deba0dd25a024d6ec26206bf16d16",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "yuga_labs",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.boredapeyachtclub.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.boredapeyachtclub.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "NOTE: all hosts with CNAME records pointed to out-of-scope, or partner websites, will be considered out of scope. This includes \"odk.otherside.xyz\", and additionally, all development domains that are not explicitly in scope are considered out of scope.",
+        "raw": {
+          "asset_identifier": "*.otherside.xyz",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "NOTE: all hosts with CNAME records pointed to out-of-scope, or partner websites, will be considered out of scope. This includes \"odk.otherside.xyz\", and additionally, all development domains that are not explicitly in scope are considered out of scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.otherside.xyz"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.yuga.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.yuga.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.yugalabs.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.yugalabs.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Bored Ape Yacht Club Discord Server\nCanary Channel ID: 999376248943943813",
+        "raw": {
+          "asset_identifier": "831287358355275877",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Bored Ape Yacht Club Discord Server\nCanary Channel ID: 999376248943943813",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "831287358355275877"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Otherside Discord Server\nCanary Channel ID: 999375944731082923",
+        "raw": {
+          "asset_identifier": "961114489414094898",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Otherside Discord Server\nCanary Channel ID: 999375944731082923",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "961114489414094898"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/yuga_labs"
+}

@@ -1,0 +1,633 @@
+{
+  "id": "hackerone:grab",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 406.0,
+    "average_time_to_first_program_response": 4.0,
+    "average_time_to_report_resolved": null,
+    "handle": "grab",
+    "id": 0,
+    "managed_program": true,
+    "name": "Grab",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 87,
+    "submission_state": "open",
+    "url": "https://hackerone.com/grab",
+    "website": "https://grab.com"
+  },
+  "name": "Grab",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "b5ad33223dd64e8e8064138703bfa6a36e18d0bacc69ce31841a13919c8455c1",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "grab",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "*.grab-sure.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.grab-sure.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.grab.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.grab.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.grab.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.grab.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.grabpay.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.grabpay.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.grabtaxi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.grabtaxi.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.myteksi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.myteksi.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.myteksi.net",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.myteksi.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Staging/Development/UAT environments are considered out-of-scope, such as:\n- *.byte-stack.net\n- *.dududev\n- *.uat-ovo.net\nand other assets that might not be explicitly listed.",
+        "raw": {
+          "asset_identifier": "*.ovo.id",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Staging/Development/UAT environments are considered out-of-scope, such as:\n- *.byte-stack.net\n- *.dududev\n- *.uat-ovo.net\nand other assets that might not be explicitly listed.",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.ovo.id"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "*.taralite.com has been rebranded as OVO Finansial",
+        "raw": {
+          "asset_identifier": "*.ovofinansial.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "*.taralite.com has been rebranded as OVO Finansial",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.ovofinansial.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "OVO iOS application\nhttps://apps.apple.com/ID/app/id1142114207\nStaging/Development/UAT environments are considered out-of-scope, such as:\n- *.byte-stack.net\n- *.dududev\n- *.uat-ovo.net\nand other assets that might not be explicitly listed.",
+        "raw": {
+          "asset_identifier": "1142114207",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "OVO iOS application\nhttps://apps.apple.com/ID/app/id1142114207\nStaging/Development/UAT environments are considered out-of-scope, such as:\n- *.byte-stack.net\n- *.dududev\n- *.uat-ovo.net\nand other assets that might not be explicitly listed.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1142114207"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Grab Driver\n\n* Eligible for updated mobile Apps bounty rewards offering (up to $15,000 for a Critical vulnerability)",
+        "raw": {
+          "asset_identifier": "1257641454",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Grab Driver\n\n* Eligible for updated mobile Apps bounty rewards offering (up to $15,000 for a Critical vulnerability)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1257641454"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "GrabPay Merchant",
+        "raw": {
+          "asset_identifier": "1343620481",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "GrabPay Merchant",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1343620481"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "MoveIt is an independent two-wheeler taxi platform serving the Philippines.",
+        "raw": {
+          "asset_identifier": "1481198245",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "MoveIt is an independent two-wheeler taxi platform serving the Philippines.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1481198245"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Grab (iOS)\n\n* Eligible for updated mobile Apps bounty rewards offering (up to $15,000 for a Critical vulnerability)",
+        "raw": {
+          "asset_identifier": "647268330",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Grab (iOS)\n\n* Eligible for updated mobile Apps bounty rewards offering (up to $15,000 for a Critical vulnerability)",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "647268330"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Grab Superapp for Huawei Devices(using HMS)\nhttps://appgallery.huawei.com/#/app/C100447517",
+        "raw": {
+          "asset_identifier": "C100447517",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Grab Superapp for Huawei Devices(using HMS)\nhttps://appgallery.huawei.com/#/app/C100447517",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "C100447517"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Grab Driver app for Huawei Devices(using HMS)\nhttps://appgallery.huawei.com/#/app/C103149579",
+        "raw": {
+          "asset_identifier": "C103149579",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Grab Driver app for Huawei Devices(using HMS)\nhttps://appgallery.huawei.com/#/app/C103149579",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "C103149579"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This category covers third-party hosted infrastructure, SaaS, and cloud platforms (e.g., Firebase, AWS, GCP) used by our organization. Scope is strictly limited to security misconfigurations within our direct administrative control that our team can independently fix. Any issue that requires contacting vendor support, requesting upstream patches, or altering assets managed by outsourced partners or third-party vendors is strictly out of scope.",
+        "raw": {
+          "asset_identifier": "Cloud & 3rd-Party Services (First-Party Misconfigurations)",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This category covers third-party hosted infrastructure, SaaS, and cloud platforms (e.g., Firebase, AWS, GCP) used by our organization. Scope is strictly limited to security misconfigurations within our direct administrative control that our team can independently fix. Any issue that requires contacting vendor support, requesting upstream patches, or altering assets managed by outsourced partners or third-party vendors is strictly out of scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cloud & 3rd-Party Services (First-Party Misconfigurations)"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**What it does:** Grab iOS and Android apps communicate with this service while you use Grab specifically for newer payment features. This endpoint acts as an API gateway proxy to all of our services. This API exposes the largest attack surface of any service here at GrabPay.\n\n**What to look for:** Much like our external API, `api.grabpay.com` is a RESTful API performed over HTTPS requests. The best way to hunt for bugs here is to use your own auth token via the `X-mts-ssid` header and look for authorization and access control issues, business logic and etc. Please keep in mind that you should only ever perform this testing against accounts you own, accessing any data not owned by you can result in disqualification. \n\n**What it runs on:** Golang / Java",
+        "raw": {
+          "asset_identifier": "api.grabpay.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**What it does:** Grab iOS and Android apps communicate with this service while you use Grab specifically for newer payment features. This endpoint acts as an API gateway proxy to all of our services. This API exposes the largest attack surface of any service here at GrabPay.\n\n**What to look for:** Much like our external API, `api.grabpay.com` is a RESTful API performed over HTTPS requests. The best way to hunt for bugs here is to use your own auth token via the `X-mts-ssid` header and look for authorization and access control issues, business logic and etc. Please keep in mind that you should only ever perform this testing against accounts you own, accessing any data not owned by you can result in disqualification. \n\n**What it runs on:** Golang / Java",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.grabpay.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.grab.merchant",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.grab.merchant"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "GrabPay Merchant",
+        "raw": {
+          "asset_identifier": "com.grabpay.merchant",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "GrabPay Merchant",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.grabpay.merchant"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Grab Driver\n\n* Eligible for updated mobile Apps bounty rewards offering (up to $15,000 for a Critical vulnerability)",
+        "raw": {
+          "asset_identifier": "com.grabtaxi.driver2",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Grab Driver\n\n* Eligible for updated mobile Apps bounty rewards offering (up to $15,000 for a Critical vulnerability)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.grabtaxi.driver2"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Grab (Android)\n\n* Eligible for updated mobile Apps bounty rewards offering (up to $15,000 for a Critical vulnerability)",
+        "raw": {
+          "asset_identifier": "com.grabtaxi.passenger",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Grab (Android)\n\n* Eligible for updated mobile Apps bounty rewards offering (up to $15,000 for a Critical vulnerability)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.grabtaxi.passenger"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "MoveIt is an independent two-wheeler taxi platform serving the Philippines.",
+        "raw": {
+          "asset_identifier": "com.moveit.app.customer",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "MoveIt is an independent two-wheeler taxi platform serving the Philippines.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.moveit.app.customer"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "gamma.grab.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "gamma.grab.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "gifts.grab.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "gifts.grab.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Certain features are managed by third-party vendors; bounties for these components will be evaluated on a case-by-case basis.",
+        "raw": {
+          "asset_identifier": "grab.careers",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Certain features are managed by third-party vendors; bounties for these components will be evaluated on a case-by-case basis.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "grab.careers"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "HungryGoWhere is a food discovery platform that helps users explore dining options, reviews, and deals, primarily in Singapore.",
+        "raw": {
+          "asset_identifier": "hungrygowhere.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "HungryGoWhere is a food discovery platform that helps users explore dining options, reviews, and deals, primarily in Singapore.",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "hungrygowhere.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " KartaView (formerly OpenStreetCam) is a community-contributed street-level imagery platform operated by Grab. Users upload geo-tagged photos that are processed through an automated pipeline before being made publicly available.",
+        "raw": {
+          "asset_identifier": "kartaview.org",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " KartaView (formerly OpenStreetCam) is a community-contributed street-level imagery platform operated by Grab. Users upload geo-tagged photos that are processed through an automated pipeline before being made publicly available.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "kartaview.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "manage.grab.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "manage.grab.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "OVO's Android App:\nhttps://play.google.com/store/apps/details?id=ovo.id\n\nStaging/Development/UAT environments are considered out-of-scope, such as:\n*.byte-stack.net\n*.dududev\n*.uat-ovo.net and other assets that might not be explicitly listed.",
+        "raw": {
+          "asset_identifier": "ovo.id",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "OVO's Android App:\nhttps://play.google.com/store/apps/details?id=ovo.id\n\nStaging/Development/UAT environments are considered out-of-scope, such as:\n*.byte-stack.net\n*.dududev\n*.uat-ovo.net and other assets that might not be explicitly listed.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "ovo.id"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**What it does:** Grab iOS and Android apps communicate with this service while you use Grab. This endpoint acts as an API gateway proxy to all of our services. This API exposes the largest attack surface of any service here at Grab.\n\n**What to look for:** Much like our external API, p.grabtaxi.com is a RESTful API performed over certificate-pinned HTTPS requests. The best way to hunt for bugs here is to use your own auth token via the X-mts-ssid header and look for authorization and access control issues, user enumeration, business logic etc. Please keep in mind that you should only ever perform this testing against accounts you own, failure to do so could result in ban from the program, which nobody wants!.\n\n**What it runs on:** Golang",
+        "raw": {
+          "asset_identifier": "p.grabtaxi.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**What it does:** Grab iOS and Android apps communicate with this service while you use Grab. This endpoint acts as an API gateway proxy to all of our services. This API exposes the largest attack surface of any service here at Grab.\n\n**What to look for:** Much like our external API, p.grabtaxi.com is a RESTful API performed over certificate-pinned HTTPS requests. The best way to hunt for bugs here is to use your own auth token via the X-mts-ssid header and look for authorization and access control issues, user enumeration, business logic etc. Please keep in mind that you should only ever perform this testing against accounts you own, failure to do so could result in ban from the program, which nobody wants!.\n\n**What it runs on:** Golang",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "p.grabtaxi.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "xtramile.grabpay.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "xtramile.grabpay.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.qms.grab.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.qms.grab.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/grab"
+}

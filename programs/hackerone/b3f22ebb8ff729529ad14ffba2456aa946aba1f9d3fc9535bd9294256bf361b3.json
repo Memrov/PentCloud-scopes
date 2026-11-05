@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:top_echelon_software",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 66.0,
+    "average_time_to_report_resolved": 8784.0,
+    "handle": "top_echelon_software",
+    "id": 0,
+    "managed_program": false,
+    "name": "Top Echelon Software",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 67,
+    "submission_state": "open",
+    "url": "https://hackerone.com/top_echelon_software",
+    "website": "https://www.topechelon.com"
+  },
+  "name": "Top Echelon Software",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "dd6e17a268d9e55f3642e6a478e8b3c31b8eac4723d1fb4968ef5cb43db00863",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "top_echelon_software",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Main application website (backend)",
+        "raw": {
+          "asset_identifier": "bb3api.topechelon.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Main application website (backend)",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "bb3api.topechelon.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Main application website (frontend)",
+        "raw": {
+          "asset_identifier": "bigbiller.topechelon.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Main application website (frontend)",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "bigbiller.topechelon.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Main Marketing Website",
+        "raw": {
+          "asset_identifier": "www.topechelon.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Main Marketing Website",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.topechelon.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/top_echelon_software"
+}

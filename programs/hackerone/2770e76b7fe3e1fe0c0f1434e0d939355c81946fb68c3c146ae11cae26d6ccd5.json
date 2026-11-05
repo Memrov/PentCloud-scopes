@@ -1,0 +1,110 @@
+{
+  "id": "hackerone:monarch_money",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "monarch_money",
+    "id": 0,
+    "managed_program": true,
+    "name": "Monarch Money",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": null,
+    "submission_state": "open",
+    "url": "https://hackerone.com/monarch_money",
+    "website": "http://www.monarchmoney.com"
+  },
+  "name": "Monarch Money",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "3d998c842a9de243f432a6b9d259ff937080268d5bdbeeaf616908f4ebfb7aff",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "monarch_money",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Monarch Money's iOS app.",
+        "raw": {
+          "asset_identifier": "1459319841",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Monarch Money's iOS app.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1459319841"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This is Monarch Money's core app. It's a Single Page App running in the browser.",
+        "raw": {
+          "asset_identifier": "app.monarchmoney.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This is Monarch Money's core app. It's a Single Page App running in the browser.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.monarchmoney.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Monarch Money's Android app.",
+        "raw": {
+          "asset_identifier": "com.monarchmoney.mobile",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Monarch Money's Android app.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.monarchmoney.mobile"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Monarch Money's marketing website.",
+        "raw": {
+          "asset_identifier": "www.monarchmoney.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Monarch Money's marketing website.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.monarchmoney.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/monarch_money"
+}

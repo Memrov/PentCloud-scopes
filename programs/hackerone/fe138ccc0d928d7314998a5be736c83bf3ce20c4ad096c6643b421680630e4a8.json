@@ -1,0 +1,255 @@
+{
+  "id": "hackerone:chaturbate",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 766.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 1637.0,
+    "handle": "chaturbate",
+    "id": 0,
+    "managed_program": true,
+    "name": "Chaturbate",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 70,
+    "submission_state": "open",
+    "url": "https://hackerone.com/chaturbate",
+    "website": "https://chaturbate.com"
+  },
+  "name": "Chaturbate",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "16c549aed1dd917e73a331913977cb8562ef147094487201947b541b48cba80e",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "chaturbate",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Caution: Reports about the testbed will be excluded if they do not affect the main site.** However it is useful to test some exploits.",
+        "raw": {
+          "asset_identifier": "*.cb.dev",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Caution: Reports about the testbed will be excluded if they do not affect the main site.** However it is useful to test some exploits.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.cb.dev"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This domain covers all our main media servers; such as video servers, chat servers, image servers, etc.",
+        "raw": {
+          "asset_identifier": "*.highwebmedia.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This domain covers all our main media servers; such as video servers, chat servers, image servers, etc.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.highwebmedia.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Our new CDN Domain, replaces highwebmedia.com",
+        "raw": {
+          "asset_identifier": "*.mmcdn.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Our new CDN Domain, replaces highwebmedia.com",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.mmcdn.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Our domain for Web Components ",
+        "raw": {
+          "asset_identifier": "*.mmwebc.dev",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Our domain for Web Components ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.mmwebc.dev"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Our billing customer service site. Any access here is critical and must be immediately reported.",
+        "raw": {
+          "asset_identifier": "*.securegatewayaccess.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Our billing customer service site. Any access here is critical and must be immediately reported.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.securegatewayaccess.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Alisas of the billing customer support site.",
+        "raw": {
+          "asset_identifier": "billingsupport.chaturbate.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Alisas of the billing customer support site.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "billingsupport.chaturbate.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The main chaturbate site!",
+        "raw": {
+          "asset_identifier": "chaturbate.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The main chaturbate site!",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "chaturbate.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The mobile version of Chaturbate",
+        "raw": {
+          "asset_identifier": "m.chaturbate.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The mobile version of Chaturbate",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "m.chaturbate.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The billing customer service and signup page",
+        "raw": {
+          "asset_identifier": "secure.chaturbate.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The billing customer service and signup page",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "secure.chaturbate.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is a Shopify store, we recommend you submit any shopify bugs to their program: https://hackerone.com/shopify",
+        "raw": {
+          "asset_identifier": "cbswag.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is a Shopify store, we recommend you submit any shopify bugs to their program: https://hackerone.com/shopify",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "cbswag.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is a 3rd party site and therefore ineligible.",
+        "raw": {
+          "asset_identifier": "status.chaturbate.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is a 3rd party site and therefore ineligible.",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "status.chaturbate.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The support site is 3rd party and therefore not part of the bounty program.",
+        "raw": {
+          "asset_identifier": "support.chaturbate.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The support site is 3rd party and therefore not part of the bounty program.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support.chaturbate.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/chaturbate"
+}

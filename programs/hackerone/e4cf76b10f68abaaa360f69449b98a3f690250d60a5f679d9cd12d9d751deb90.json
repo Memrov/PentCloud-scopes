@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:worklytics",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 55.0,
+    "average_time_to_report_resolved": 311.0,
+    "handle": "worklytics",
+    "id": 0,
+    "managed_program": false,
+    "name": "Worklytics",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/worklytics",
+    "website": "http://www.worklytics.co"
+  },
+  "name": "Worklytics",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "809175cab120316c5f66a13352d252ac9cf754982a5059c3cbbaed90e01800e8",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "worklytics",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Worklytics is concerned about any vulnerabilties in web applications hosted under any sub-domain of worklytics.co.  Specifically, we host our marketing site at www.worklytics.co, and our web application platform at app.worklytics.co, app-eu.worklytics.co (EU customers), and intl.worklytics.co (non-EU markets).  \n\nDue to the nature of our business, secure handling of data is our primary concern. Exploits that could expose customer data in a manner inconsistent with the working of our application is our primary concern.  ",
+        "raw": {
+          "asset_identifier": "*.worklytics.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Worklytics is concerned about any vulnerabilties in web applications hosted under any sub-domain of worklytics.co.  Specifically, we host our marketing site at www.worklytics.co, and our web application platform at app.worklytics.co, app-eu.worklytics.co (EU customers), and intl.worklytics.co (non-EU markets).  \n\nDue to the nature of our business, secure handling of data is our primary concern. Exploits that could expose customer data in a manner inconsistent with the working of our application is our primary concern.  ",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.worklytics.co"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/worklytics"
+}

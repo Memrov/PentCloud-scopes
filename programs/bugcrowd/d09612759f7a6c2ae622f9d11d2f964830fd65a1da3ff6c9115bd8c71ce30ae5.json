@@ -1,0 +1,73 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/fis",
+  "metadata": {
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "max_payout": 20000,
+    "name": "FIS",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/fis"
+  },
+  "name": "FIS",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "1a5fa5227ca0e823cf2af1e968347cd8d7aef31599c34d27cce0fd0bfdabb410",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/fis",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Any FIS asset is in scope",
+          "target": "Any FIS asset is in scope",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "Any FIS asset is in scope"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://www.tdfitloan.com/#!/",
+          "target": "https://www.tdfitloan.com/#!/",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "https://www.tdfitloan.com/#!/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Reference above out of scope targets",
+          "target": "https://apuat-aaa.fisglobal.com",
+          "type": "website",
+          "uri": "https://apuat-aaa.fisglobal.com"
+        },
+        "type": "website",
+        "value": "https://apuat-aaa.fisglobal.com"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/fis"
+}

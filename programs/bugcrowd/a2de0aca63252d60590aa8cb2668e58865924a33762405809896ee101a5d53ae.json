@@ -1,0 +1,44 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/pexels",
+  "metadata": {
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "max_payout": 6000,
+    "name": "Pexels",
+    "safe_harbor": "partial",
+    "url": "https://bugcrowd.com/engagements/pexels"
+  },
+  "name": "Pexels",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "9bfcef9c616dd4c340c9c49b18d53751ef8f78a02ad972c3f34b5fc90705d952",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/pexels",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.pexels.com",
+          "target": "https://www.pexels.com/",
+          "type": "website",
+          "uri": "https://www.pexels.com/"
+        },
+        "type": "website",
+        "value": "https://www.pexels.com/"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://bugcrowd.com/engagements/pexels"
+}

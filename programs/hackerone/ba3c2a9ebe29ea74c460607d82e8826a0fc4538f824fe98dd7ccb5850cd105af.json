@@ -1,0 +1,110 @@
+{
+  "id": "hackerone:inditex",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 96.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": null,
+    "handle": "inditex",
+    "id": 0,
+    "managed_program": true,
+    "name": "Inditex",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/inditex",
+    "website": "https://www.inditex.com/"
+  },
+  "name": "Inditex",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "e65f248e1f33396ee47d6b77a0ba1babba1efa88b05ba2f5108dd65dd5141256",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "inditex",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This scope covers Inditex's main corporate site, mainly made up of the following domains:\n\n- www.inditex.com\n- www.inditex.cn\n\nAs these services are consumed in a non-authenticated and public way by users, client-side vulnerabilities could have their severity assessment seriously diminished (e.g. a CSRF is probably meaningless in this scope).\n\nIf the bug is in a service not explicitly named in the above list, but you are able to demonstrate that exploitation of the bug would affect the main corp site, we will consider it to be in scope.\n\nBecause the corp site shares a common technological foundation,  multiple reports describing the same vulnerability against multiple assets or endpoints where the root cause is the same will be treated as one report. Do not submit duplicate reports for the same issue across multiple sites, as the duplicates will be closed, and the issue will be treated as one report.",
+        "raw": {
+          "asset_identifier": "Main corporate site",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This scope covers Inditex's main corporate site, mainly made up of the following domains:\n\n- www.inditex.com\n- www.inditex.cn\n\nAs these services are consumed in a non-authenticated and public way by users, client-side vulnerabilities could have their severity assessment seriously diminished (e.g. a CSRF is probably meaningless in this scope).\n\nIf the bug is in a service not explicitly named in the above list, but you are able to demonstrate that exploitation of the bug would affect the main corp site, we will consider it to be in scope.\n\nBecause the corp site shares a common technological foundation,  multiple reports describing the same vulnerability against multiple assets or endpoints where the root cause is the same will be treated as one report. Do not submit duplicate reports for the same issue across multiple sites, as the duplicates will be closed, and the issue will be treated as one report.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Main corporate site"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This scope covers other Inditex's e-commerce services, that do not comply with the scope specified under \"e-Commerce\", mainly made up of the following domain wildcards:\n\n- *.zara.com\n- *.bershka.com\n- *.oysho.com\n- *.stradivarius.com\n- *.zarahome.com\n- *.pullandbear.com\n- *.massimodutti.com\n- *.lefties.com\n- *.zara.cn\n- *.bershka.cn\n- *.oysho.cn\n- *.stradivarius.cn\n- *.zarahome.cn\n- *.pullandbear.cn\n- *.massimodutti.cn\n\nBecause the e-commerce platform shares a common technological foundation,  multiple reports describing the same vulnerability against multiple assets or endpoints where the root cause is the same will be treated as one report. Do not submit duplicate reports for the same issue across multiple sites, as the duplicates will be closed, and the issue will be treated as one report.",
+        "raw": {
+          "asset_identifier": "Other related e-commerce services",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This scope covers other Inditex's e-commerce services, that do not comply with the scope specified under \"e-Commerce\", mainly made up of the following domain wildcards:\n\n- *.zara.com\n- *.bershka.com\n- *.oysho.com\n- *.stradivarius.com\n- *.zarahome.com\n- *.pullandbear.com\n- *.massimodutti.com\n- *.lefties.com\n- *.zara.cn\n- *.bershka.cn\n- *.oysho.cn\n- *.stradivarius.cn\n- *.zarahome.cn\n- *.pullandbear.cn\n- *.massimodutti.cn\n\nBecause the e-commerce platform shares a common technological foundation,  multiple reports describing the same vulnerability against multiple assets or endpoints where the root cause is the same will be treated as one report. Do not submit duplicate reports for the same issue across multiple sites, as the duplicates will be closed, and the issue will be treated as one report.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Other related e-commerce services"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This scope covers Inditex's recruitment services, mainly made up of the following domain wildcards:\n\n* *.inditexcareers.com",
+        "raw": {
+          "asset_identifier": "Recruitment services",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This scope covers Inditex's recruitment services, mainly made up of the following domain wildcards:\n\n* *.inditexcareers.com",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Recruitment services"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This scope covers Inditex's entire e-commerce platform, mainly made up of the following domains:\n\n- www.zara.com\n- www.bershka.com\n- www.oysho.com\n- www.stradivarius.com\n- www.zarahome.com\n- www.pullandbear.com\n- www.massimodutti.com\n- www.lefties.com\n- www.zara.cn\n- www.bershka.cn\n- www.oysho.cn\n- www.stradivarius.cn\n- www.zarahome.cn\n- www.pullandbear.cn\n- www.massimodutti.cn\n\nIf the bug is in a service not explicitly named in the above list, but you are able to demonstrate that exploitation of the bug would affect directly and clearly to e-commerce operations, we will consider it to be in scope, (e.g. cache poisoning within static.zara.com will affect the operations of www.zara.com).\n\nBecause the e-commerce platform shares a common technological foundation,  multiple reports describing the same vulnerability against multiple assets or endpoints where the root cause is the same will be treated as one report. Do not submit duplicate reports for the same issue across multiple sites, as the duplicates will be closed, and the issue will be treated as one report.",
+        "raw": {
+          "asset_identifier": "e-Commerce",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This scope covers Inditex's entire e-commerce platform, mainly made up of the following domains:\n\n- www.zara.com\n- www.bershka.com\n- www.oysho.com\n- www.stradivarius.com\n- www.zarahome.com\n- www.pullandbear.com\n- www.massimodutti.com\n- www.lefties.com\n- www.zara.cn\n- www.bershka.cn\n- www.oysho.cn\n- www.stradivarius.cn\n- www.zarahome.cn\n- www.pullandbear.cn\n- www.massimodutti.cn\n\nIf the bug is in a service not explicitly named in the above list, but you are able to demonstrate that exploitation of the bug would affect directly and clearly to e-commerce operations, we will consider it to be in scope, (e.g. cache poisoning within static.zara.com will affect the operations of www.zara.com).\n\nBecause the e-commerce platform shares a common technological foundation,  multiple reports describing the same vulnerability against multiple assets or endpoints where the root cause is the same will be treated as one report. Do not submit duplicate reports for the same issue across multiple sites, as the duplicates will be closed, and the issue will be treated as one report.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "e-Commerce"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/inditex"
+}

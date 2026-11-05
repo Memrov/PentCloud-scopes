@@ -1,0 +1,315 @@
+{
+  "id": "intigriti:6558543a-236f-4e98-91a3-4536e39b9c1e",
+  "metadata": {
+    "company_handle": "intigriti",
+    "confidentiality_level": "public",
+    "handle": "intigriti",
+    "id": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 13337
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "intigriti",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/intigriti/intigriti/detail"
+  },
+  "name": "intigriti",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "0822fb5db40bba0f486564935431c977f63d4ae5ed134ac1cc47aa910d4f20f4",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is our test (PWN) environment that replicates production.",
+        "raw": {
+          "description": "This is our test (PWN) environment that replicates production.",
+          "endpoint": "*.pwn.intigriti.rocks",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.pwn.intigriti.rocks"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is our marketing website.",
+        "raw": {
+          "description": "This is our marketing website.",
+          "endpoint": "www.intigriti.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Asset used for our [mail-forwarding system](https://kb.intigriti.com/en/articles/2642598-intigriti-me-email-alias)",
+        "raw": {
+          "description": "Asset used for our [mail-forwarding system](https://kb.intigriti.com/en/articles/2642598-intigriti-me-email-alias)",
+          "endpoint": "*.intigriti.me",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.intigriti.me"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is based of an open source project which you can find here https://wgportal.org/latest/",
+        "raw": {
+          "description": "This is based of an open source project which you can find here https://wgportal.org/latest/",
+          "endpoint": "https://vpn.intigriti.rocks/*",
+          "impact": null,
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://vpn.intigriti.rocks/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://metabase.pwn.intigriti.rocks/",
+          "impact": null,
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://metabase.pwn.intigriti.rocks/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.intigriti.io",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.intigriti.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.intigriti.net",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.intigriti.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "any intigriti CTF or challenge",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "any intigriti CTF or challenge"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.intercom.io",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.intercom.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "autodiscover.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "autodiscover.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "careers.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "careers.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "click.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "click.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "go.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "go.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "kb.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "kb.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "mail.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "mail.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "newsletter.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "newsletter.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "status.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "status.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "swag.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "swag.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "trust.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "trust.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "PostHog proxy: https://posthog.com/docs/advanced/proxy\nAlso the PostHog token is meant to be publicly available see: https://posthog.com/docs/api\n\nPlease don't test against this subdomain since you are directly testing PostHog which we don't control.",
+        "raw": {
+          "description": "PostHog proxy: https://posthog.com/docs/advanced/proxy\nAlso the PostHog token is meant to be publicly available see: https://posthog.com/docs/api\n\nPlease don't test against this subdomain since you are directly testing PostHog which we don't control.",
+          "endpoint": "posthog.intigriti.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "posthog.intigriti.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "our hubspot pages (/hs-fs/, /hubfs/, /hs/, /_hcms/, landing/, report/, webinar/, /datasheet, /customer/, /video/...)",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "our hubspot pages (/hs-fs/, /hubfs/, /hs/, /_hcms/, landing/, report/, webinar/, /datasheet, /customer/, /video/...)"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/intigriti/intigriti/detail"
+}

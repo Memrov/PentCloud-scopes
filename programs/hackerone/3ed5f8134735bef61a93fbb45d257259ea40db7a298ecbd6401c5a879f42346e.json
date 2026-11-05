@@ -1,0 +1,110 @@
+{
+  "id": "hackerone:quora",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 1236.0,
+    "average_time_to_first_program_response": 290.0,
+    "average_time_to_report_resolved": 2566.0,
+    "handle": "quora",
+    "id": 0,
+    "managed_program": false,
+    "name": "Quora",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 22,
+    "submission_state": "open",
+    "url": "https://hackerone.com/quora",
+    "website": "http://www.quora.com"
+  },
+  "name": "Quora",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "8620cc6e1f79312de37f04060db649307d662c5ec1607d3cde9210e979d2952d",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "quora",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Except for subdomains managed by third parties, such as help.quora.com, careers.quora.com, and business.quora.com.",
+        "raw": {
+          "asset_identifier": "*.quora.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Except for subdomains managed by third parties, such as help.quora.com, careers.quora.com, and business.quora.com.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.quora.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The latest version of Android app installed from the official store at:\nhttps://play.google.com/store/apps/details?id=com.quora.android\n\n",
+        "raw": {
+          "asset_identifier": "com.quora.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The latest version of Android app installed from the official store at:\nhttps://play.google.com/store/apps/details?id=com.quora.android\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.quora.android"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The latest version of iOS app installed from the official store at:\nhttps://itunes.apple.com/us/developer/quora-inc/id456034440",
+        "raw": {
+          "asset_identifier": "com.quora.app.mobile",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The latest version of iOS app installed from the official store at:\nhttps://itunes.apple.com/us/developer/quora-inc/id456034440",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.quora.app.mobile"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "http://poe.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "http://poe.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/quora"
+}

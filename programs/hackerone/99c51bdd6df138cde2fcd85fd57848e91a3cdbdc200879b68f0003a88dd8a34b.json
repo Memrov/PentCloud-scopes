@@ -1,0 +1,327 @@
+{
+  "id": "hackerone:matomo",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": 217.0,
+    "average_time_to_first_program_response": 12.0,
+    "average_time_to_report_resolved": 230.0,
+    "handle": "matomo",
+    "id": 0,
+    "managed_program": false,
+    "name": "Matomo",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/matomo",
+    "website": "https://matomo.org"
+  },
+  "name": "Matomo",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "c31b369d38554599736bc4825e918d3156b38aad2f6dddf7fd0442a2c90fcf58",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "matomo",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Matomo Mobile 2 iOS App\nOnly critical issues compromising the token are in scope.",
+        "raw": {
+          "asset_identifier": "737216887",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Matomo Mobile 2 iOS App\nOnly critical issues compromising the token are in scope.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "737216887"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "All other software on the innocraft GitHub organisation. Archived or forked repositories are explicitly out of scope.",
+        "raw": {
+          "asset_identifier": "https://github.com/innocraft/",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "All other software on the innocraft GitHub organisation. Archived or forked repositories are explicitly out of scope.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "high"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/innocraft/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "All other software on the matomo-org GitHub organisation not listed separately. Archived or forked repositories are explicitly out of scope.",
+        "raw": {
+          "asset_identifier": "https://github.com/matomo-org",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "All other software on the matomo-org GitHub organisation not listed separately. Archived or forked repositories are explicitly out of scope.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "high"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/matomo-org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Developer Documentation. Vulnerabilities are only in scope in case they affect https://developer.matomo.org/",
+        "raw": {
+          "asset_identifier": "https://github.com/matomo-org/developer-documentation",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Developer Documentation. Vulnerabilities are only in scope in case they affect https://developer.matomo.org/",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/matomo-org/developer-documentation"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " Official Docker project for Matomo Analytics ",
+        "raw": {
+          "asset_identifier": "https://github.com/matomo-org/docker",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " Official Docker project for Matomo Analytics ",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://github.com/matomo-org/docker"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "this repository contains the source code of Matomo Analytics",
+        "raw": {
+          "asset_identifier": "https://github.com/matomo-org/matomo",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "this repository contains the source code of Matomo Analytics",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/matomo-org/matomo"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Matomo Tracker Proxy",
+        "raw": {
+          "asset_identifier": "https://github.com/matomo-org/tracker-proxy",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Matomo Tracker Proxy",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/matomo-org/tracker-proxy"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Official plugins by Innocraft",
+        "raw": {
+          "asset_identifier": "https://plugins.matomo.org/developer/innocraft",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Official plugins by Innocraft",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://plugins.matomo.org/developer/innocraft"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Official plugins by the Matomo team",
+        "raw": {
+          "asset_identifier": "https://plugins.matomo.org/developer/matomo-org",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Official plugins by the Matomo team",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://plugins.matomo.org/developer/matomo-org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Matomo Analytics Cloud\n*$username.matomo.cloud* is also in scope, but please limit tests to ones that don't affect the live instance. (no automated tools) You can easily set up your own Matomo instance for extensive testing (see https://matomo.org/docs/installation/) ",
+        "raw": {
+          "asset_identifier": "matomo.cloud",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Matomo Analytics Cloud\n*$username.matomo.cloud* is also in scope, but please limit tests to ones that don't affect the live instance. (no automated tools) You can easily set up your own Matomo instance for extensive testing (see https://matomo.org/docs/installation/) ",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "matomo.cloud"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Matomo Mobile 2 Android App\nOnly critical issues compromising the token are in scope.",
+        "raw": {
+          "asset_identifier": "org.piwik.mobile2",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Matomo Mobile 2 Android App\nOnly critical issues compromising the token are in scope.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "org.piwik.mobile2"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.matomo.org",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "api.matomo.org"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Please don't post test posts on the forum.\nThe forum is using discourse, so please report any security issues [on their bug bounty](https://hackerone.com/discourse)",
+        "raw": {
+          "asset_identifier": "forum.matomo.org",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Please don't post test posts on the forum.\nThe forum is using discourse, so please report any security issues [on their bug bounty](https://hackerone.com/discourse)",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "forum.matomo.org"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Project website",
+        "raw": {
+          "asset_identifier": "matomo.org",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Project website",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "matomo.org"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The Matomo Marketplace Platform is excluded from this bug bounty",
+        "raw": {
+          "asset_identifier": "plugins.matomo.org",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The Matomo Marketplace Platform is excluded from this bug bounty",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "plugins.matomo.org"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "shop.matomo.org",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "shop.matomo.org"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/matomo"
+}

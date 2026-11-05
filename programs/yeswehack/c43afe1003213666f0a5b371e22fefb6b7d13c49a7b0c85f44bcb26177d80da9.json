@@ -1,0 +1,120 @@
+{
+  "id": "yeswehack:louis-vuitton-malletier-public-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "louis-vuitton-malletier-public-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 5000,
+    "min_bounty": 50,
+    "name": "Louis Vuitton Malletier - Public Bug Bounty Program",
+    "public": true
+  },
+  "name": "Louis Vuitton Malletier - Public Bug Bounty Program",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "d886c0b204c2140db0f893fa3e800c301180efa67046b2dcee883b23a73df22b",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "louis-vuitton-malletier-public-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://[it | fr | us | sg | …].louisvuitton.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://[it | fr | us | sg | …].louisvuitton.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.api.louisvuitton.com",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "*.api.louisvuitton.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/fr/app/louis-vuitton/id709101942",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/fr/app/louis-vuitton/id709101942"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.vuitton.android&hl=fr&gl=US",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.vuitton.android&hl=fr&gl=US"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://appgallery.huawei.com/#/app/C102099703?locale=zh_CN&source=appshare&subsource=C102099703",
+          "type": "mobile-application"
+        },
+        "type": "mobile-application",
+        "value": "https://appgallery.huawei.com/#/app/C102099703?locale=zh_CN&source=appshare&subsource=C102099703"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/fr/app/louis-vuitton-city-guide/id1014618396",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/fr/app/louis-vuitton-city-guide/id1014618396"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains, subdomains or assets not listed in the above list of 'Scopes' must be considered as out of the scope of this program",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains, subdomains or assets not listed in the above list of 'Scopes' must be considered as out of the scope of this program"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.louisvuitton.com",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "*.louisvuitton.com"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/louis-vuitton-malletier-public-bug-bounty-program"
+}

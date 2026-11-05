@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:coursera",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 62.0,
+    "average_time_to_report_resolved": 62.0,
+    "handle": "coursera",
+    "id": 0,
+    "managed_program": false,
+    "name": "Coursera",
+    "offers_bounties": false,
+    "offers_swag": true,
+    "response_efficiency_percentage": 81,
+    "submission_state": "open",
+    "url": "https://hackerone.com/coursera",
+    "website": "https://www.coursera.org"
+  },
+  "name": "Coursera",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "cd5c0a09efd3ab7afbb7187a40678ed3df47eb752506707124ee1fd4113dd678",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "coursera",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.coursera.org",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.coursera.org"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/coursera"
+}

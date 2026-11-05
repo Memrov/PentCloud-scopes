@@ -1,0 +1,107 @@
+{
+  "id": "intigriti:30f445f7-ca4c-4130-9434-49add5c6ac74",
+  "metadata": {
+    "company_handle": "dpgm",
+    "confidentiality_level": "public",
+    "handle": "algemeendagblad",
+    "id": "30f445f7-ca4c-4130-9434-49add5c6ac74",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 2200
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 25
+    },
+    "name": "Algemeen Dagblad",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/dpgm/algemeendagblad/detail"
+  },
+  "name": "Algemeen Dagblad",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "46ddd999ca89dfedd407026457e62c390b0e2fed1f372a2eba788908a0fe5296",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "30f445f7-ca4c-4130-9434-49add5c6ac74",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "myaccount.ad.nl",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "myaccount.ad.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding\n* ad.nl/service\n* ad.nl/inloggen\n* ad.nl/login\n* ad.nl/registreren",
+        "raw": {
+          "description": "excluding\n* ad.nl/service\n* ad.nl/inloggen\n* ad.nl/login\n* ad.nl/registreren",
+          "endpoint": "www.ad.nl",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.ad.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.ad.nl/abonnementen",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.ad.nl/abonnementen"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding abonnement.ad.nl",
+        "raw": {
+          "description": "excluding abonnement.ad.nl",
+          "endpoint": "*.ad.nl",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.ad.nl"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+        "raw": {
+          "description": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+          "endpoint": "actie.ad.nl",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "actie.ad.nl"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/dpgm/algemeendagblad/detail"
+}

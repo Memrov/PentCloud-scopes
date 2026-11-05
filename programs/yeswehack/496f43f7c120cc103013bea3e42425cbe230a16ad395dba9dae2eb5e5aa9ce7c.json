@@ -1,0 +1,197 @@
+{
+  "id": "yeswehack:swiss-post",
+  "metadata": {
+    "disabled": false,
+    "id": "swiss-post",
+    "managed": null,
+    "max_bounty": 5000,
+    "min_bounty": 50,
+    "name": "Swiss Post",
+    "public": true
+  },
+  "name": "Swiss Post",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "f926f0241b104b3c0569c7fb96d029dfe3e0f5fe71883a3b12ae23e85b54e20a",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "swiss-post",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://account.post.ch",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://account.post.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://shop.post.ch/shop",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://shop.post.ch/shop"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://service.post.ch/ekp-web/",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://service.post.ch/ekp-web/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://service.post.ch/zopa/app/",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://service.post.ch/zopa/app/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/ch/app/die-post/id378676700",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/ch/app/die-post/id378676700"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://service.post.ch/ele-klp/ele/",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://service.post.ch/ele-klp/ele/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Anything that has not been described as in scope in the previous section is automatically out of scope.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Anything that has not been described as in scope in the previous section is automatically out of scope."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Attacks on administrative and surrounding systems that are not used for the in-scope services are not permitted (this includes DNS, NTP, routers, systems of the ISP, etc.).",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Attacks on administrative and surrounding systems that are not used for the in-scope services are not permitted (this includes DNS, NTP, routers, systems of the ISP, etc.)."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "The alternative login (https://login.swissid.ch) is out of scope. It also leads to the in-scope service, (https://account.post.ch) but we have designated it as out of scope.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "The alternative login (https://login.swissid.ch) is out of scope. It also leads to the in-scope service, (https://account.post.ch) but we have designated it as out of scope."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Any services related to Incamail (for example https://incamail-dev.post.ch (194.41.248.224) and https://incamail-test.post.ch (194.41.248.58))",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Any services related to Incamail (for example https://incamail-dev.post.ch (194.41.248.224) and https://incamail-test.post.ch (194.41.248.58))"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Any services related to PostCardCreator (for example https://service.post.ch/pccweb, mobile apps and https://pccweb.api.post.ch)",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Any services related to PostCardCreator (for example https://service.post.ch/pccweb, mobile apps and https://pccweb.api.post.ch)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Please note that some of the applications may contain links or redirect you away from the URIs described in the scope section. This means you are leaving the scope if you follow these links / redirects.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Please note that some of the applications may contain links or redirect you away from the URIs described in the scope section. This means you are leaving the scope if you follow these links / redirects."
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/swiss-post"
+}

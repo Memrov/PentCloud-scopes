@@ -1,0 +1,120 @@
+{
+  "id": "intigriti:acb632b9-2605-47ec-9195-3ffb2f0fcae6",
+  "metadata": {
+    "company_handle": "randstad",
+    "confidentiality_level": "public",
+    "handle": "gulp",
+    "id": "acb632b9-2605-47ec-9195-3ffb2f0fcae6",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "GULP",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/randstad/gulp/detail"
+  },
+  "name": "GULP",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "9668c66e767a47b924b85583ecf59e28b53a617786ce9b487b4ca7e87ca249e6",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "acb632b9-2605-47ec-9195-3ffb2f0fcae6",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.gulp.ch",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.gulp.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.gulp.de",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.gulp.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "demo.tendertracker.de",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "demo.tendertracker.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.gulp-shop.de",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.gulp-shop.de"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.gulp.ch/forum/*",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "www.gulp.ch/forum/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.gulp.de/forum/*",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "www.gulp.de/forum/*"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/randstad/gulp/detail"
+}

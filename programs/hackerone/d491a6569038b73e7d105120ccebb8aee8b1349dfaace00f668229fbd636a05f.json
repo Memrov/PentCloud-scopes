@@ -1,0 +1,164 @@
+{
+  "id": "hackerone:whatnot",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 759.0,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "whatnot",
+    "id": 0,
+    "managed_program": true,
+    "name": "Whatnot",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 88,
+    "submission_state": "open",
+    "url": "https://hackerone.com/whatnot",
+    "website": "https://www.whatnot.com"
+  },
+  "name": "Whatnot",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "e190353262e7200505124f1eaa642d10e0fc93b338356a33ca911c504920f7c9",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "whatnot",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We also welcome reports concerning other Whatnot-owned assets where the findings provide meaningful value to the business. In most cases, this includes services operating under the *.whatnot.com domain.\nPlease note the following:\nSome infrastructure within our domain relies on third-party services that we do not own or manage. We cannot authorize testing of these systems, and we are unable to remediate vulnerabilities identified within them. Issues affecting third-party infrastructure should be reported directly to the relevant provider through their vulnerability disclosure or bug bounty program.\nWe maintain non-production environments, including those associated with terms such as “stage,” “test,” “qa,” “load,” and “dev.” These environments may not have the same security controls or hardening measures as production systems. As a result, we may decline vulnerability reports affecting non-production environments unless the issue demonstrates a clear and meaningful impact to the business. Findings that would be considered valid in production may not be accepted in non-production environments\n",
+        "raw": {
+          "asset_identifier": "*.whatnot.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We also welcome reports concerning other Whatnot-owned assets where the findings provide meaningful value to the business. In most cases, this includes services operating under the *.whatnot.com domain.\nPlease note the following:\nSome infrastructure within our domain relies on third-party services that we do not own or manage. We cannot authorize testing of these systems, and we are unable to remediate vulnerabilities identified within them. Issues affecting third-party infrastructure should be reported directly to the relevant provider through their vulnerability disclosure or bug bounty program.\nWe maintain non-production environments, including those associated with terms such as “stage,” “test,” “qa,” “load,” and “dev.” These environments may not have the same security controls or hardening measures as production systems. As a result, we may decline vulnerability reports affecting non-production environments unless the issue demonstrates a clear and meaningful impact to the business. Findings that would be considered valid in production may not be accepted in non-production environments\n",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "*.whatnot.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://apps.apple.com/pl/app/whatnot-shop-sell-connect/id1488269261\n\nAll researchers on HackerOne are assigned an email alias in the format username@wearehackerone.com, which automatically forwards to their registered email address.\nIf you need additional test accounts, you may use email aliasing by adding a plus sign (“+”) followed by any combination of words or numbers to your username. For example: username+whatnot@wearehackerone.com. This allows you to test different attack scenarios and account states without interacting with other users or creating multiple HackerOne accounts.\nThere are some exceptions. In cases such as unauthenticated requests, when the username itself is used as an injection point, or when testing alternative entry points (for example, email-based flows) where a @wearehackerone.com address cannot be used, please include the header: X-HackerOne-Research: [your H1 username]. If neither an email alias nor the header can be used, clearly and unambiguously reference HackerOne somewhere in your payload.",
+        "raw": {
+          "asset_identifier": "Whatnot: Shop, Sell, Connect",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://apps.apple.com/pl/app/whatnot-shop-sell-connect/id1488269261\n\nAll researchers on HackerOne are assigned an email alias in the format username@wearehackerone.com, which automatically forwards to their registered email address.\nIf you need additional test accounts, you may use email aliasing by adding a plus sign (“+”) followed by any combination of words or numbers to your username. For example: username+whatnot@wearehackerone.com. This allows you to test different attack scenarios and account states without interacting with other users or creating multiple HackerOne accounts.\nThere are some exceptions. In cases such as unauthenticated requests, when the username itself is used as an injection point, or when testing alternative entry points (for example, email-based flows) where a @wearehackerone.com address cannot be used, please include the header: X-HackerOne-Research: [your H1 username]. If neither an email alias nor the header can be used, clearly and unambiguously reference HackerOne somewhere in your payload.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "Whatnot: Shop, Sell, Connect"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.whatnot.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.whatnot.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "auction-service.whatnot.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "auction-service.whatnot.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://play.google.com/store/apps/details?id=com.whatnot_mobile&pcampaignid=web_share\n\nAll researchers on HackerOne are assigned an email alias in the format username@wearehackerone.com, which automatically forwards to their registered email address.\nIf you need additional test accounts, you may use email aliasing by adding a plus sign (“+”) followed by any combination of words or numbers to your username. For example: username+whatnot@wearehackerone.com. This allows you to test different attack scenarios and account states without interacting with other users or creating multiple HackerOne accounts.\nThere are some exceptions. In cases such as unauthenticated requests, when the username itself is used as an injection point, or when testing alternative entry points (for example, email-based flows) where a @wearehackerone.com address cannot be used, please include the header: X-HackerOne-Research: [your H1 username]. If neither an email alias nor the header can be used, clearly and unambiguously reference HackerOne somewhere in your payload.",
+        "raw": {
+          "asset_identifier": "com.whatnot_mobile",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://play.google.com/store/apps/details?id=com.whatnot_mobile&pcampaignid=web_share\n\nAll researchers on HackerOne are assigned an email alias in the format username@wearehackerone.com, which automatically forwards to their registered email address.\nIf you need additional test accounts, you may use email aliasing by adding a plus sign (“+”) followed by any combination of words or numbers to your username. For example: username+whatnot@wearehackerone.com. This allows you to test different attack scenarios and account states without interacting with other users or creating multiple HackerOne accounts.\nThere are some exceptions. In cases such as unauthenticated requests, when the username itself is used as an injection point, or when testing alternative entry points (for example, email-based flows) where a @wearehackerone.com address cannot be used, please include the header: X-HackerOne-Research: [your H1 username]. If neither an email alias nor the header can be used, clearly and unambiguously reference HackerOne somewhere in your payload.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.whatnot_mobile"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "live-service.whatnot.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "live-service.whatnot.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "All researchers on HackerOne are assigned an email alias in the format username@wearehackerone.com, which automatically forwards to their registered email address.\nIf you need additional test accounts, you may use email aliasing by adding a plus sign (“+”) followed by any combination of words or numbers to your username. For example: username+whatnot@wearehackerone.com. This allows you to test different attack scenarios and account states without interacting with other users or creating multiple HackerOne accounts.\nThere are some exceptions. In cases such as unauthenticated requests, when the username itself is used as an injection point, or when testing alternative entry points (for example, email-based flows) where a @wearehackerone.com address cannot be used, please include the header: X-HackerOne-Research: [your H1 username]. If neither an email alias nor the header can be used, clearly and unambiguously reference HackerOne somewhere in your payload.",
+        "raw": {
+          "asset_identifier": "www.whatnot.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "All researchers on HackerOne are assigned an email alias in the format username@wearehackerone.com, which automatically forwards to their registered email address.\nIf you need additional test accounts, you may use email aliasing by adding a plus sign (“+”) followed by any combination of words or numbers to your username. For example: username+whatnot@wearehackerone.com. This allows you to test different attack scenarios and account states without interacting with other users or creating multiple HackerOne accounts.\nThere are some exceptions. In cases such as unauthenticated requests, when the username itself is used as an injection point, or when testing alternative entry points (for example, email-based flows) where a @wearehackerone.com address cannot be used, please include the header: X-HackerOne-Research: [your H1 username]. If neither an email alias nor the header can be used, clearly and unambiguously reference HackerOne somewhere in your payload.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.whatnot.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/whatnot"
+}

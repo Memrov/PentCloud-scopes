@@ -1,0 +1,101 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/openai-safety",
+  "metadata": {
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "max_payout": 7500,
+    "name": "Safety Bug Bounty",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/openai-safety"
+  },
+  "name": "Safety Bug Bounty",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "64ac8b921db67e6ce117b8173edb74cf7a5ba78e9882466704dbba266fb21246",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/openai-safety",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Agentic Tools",
+          "target": "Agentic Tools",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "Agentic Tools"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.openai.com",
+          "target": "*.openai.com",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "*.openai.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "openai.com",
+          "target": "https://openai.com/",
+          "type": "website",
+          "uri": "https://openai.com/"
+        },
+        "type": "website",
+        "value": "https://openai.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Other",
+          "target": "Other",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "Other"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "OpenAI models",
+          "target": "OpenAI models",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "OpenAI models"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/openai-safety"
+}

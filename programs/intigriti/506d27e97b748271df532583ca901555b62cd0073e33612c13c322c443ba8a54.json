@@ -1,0 +1,133 @@
+{
+  "id": "intigriti:806f54d7-a85d-40bd-82cc-f09c1a500f28",
+  "metadata": {
+    "company_handle": "dpgm",
+    "confidentiality_level": "public",
+    "handle": "dpgmedia",
+    "id": "806f54d7-a85d-40bd-82cc-f09c1a500f28",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 500
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 25
+    },
+    "name": "DPG Media",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/dpgm/dpgmedia/detail"
+  },
+  "name": "DPG Media",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "f0dad0f0c52c48b1f99b6d5450dcd1d5d0241b1c936f05e3db8cd0ef0f8d3688",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "806f54d7-a85d-40bd-82cc-f09c1a500f28",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding\n* login.dpgmedia.be",
+        "raw": {
+          "description": "excluding\n* login.dpgmedia.be",
+          "endpoint": "*.dpgmedia.be",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.dpgmedia.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding\n* login.dpgmedia.nl",
+        "raw": {
+          "description": "excluding\n* login.dpgmedia.nl",
+          "endpoint": "*.dpgmedia.nl",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.dpgmedia.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "_Only applicable to domains that are **100% owned by DPG**.  \nFor example, projects that are partly owned by DPG and where DPG media is not responsible for the IT infrastructure are **not** in scope._\n\nYou can easily validate based on Domain Whois:\n\nDe Persgroep Publishing nv\nBrusselstesteenweg 347\n1730 Asse\nBelgië\n\nDPG Media Services NV \nMediaplein 1 \n2018 Antwerpen \nBelgium",
+        "raw": {
+          "description": "_Only applicable to domains that are **100% owned by DPG**.  \nFor example, projects that are partly owned by DPG and where DPG media is not responsible for the IT infrastructure are **not** in scope._\n\nYou can easily validate based on Domain Whois:\n\nDe Persgroep Publishing nv\nBrusselstesteenweg 347\n1730 Asse\nBelgië\n\nDPG Media Services NV \nMediaplein 1 \n2018 Antwerpen \nBelgium",
+          "endpoint": "Any related DPG media domain",
+          "impact": "Tier 3",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Any related DPG media domain"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Issues related to Zendesk beyond our control are Out of Scope",
+        "raw": {
+          "description": "Issues related to Zendesk beyond our control are Out of Scope",
+          "endpoint": "visitors.dpgmedia.be",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "visitors.dpgmedia.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Any domain that has a CNAME to a Qualifio application.\nSaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+        "raw": {
+          "description": "Any domain that has a CNAME to a Qualifio application.\nSaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+          "endpoint": "Qualifio Subdomains",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Qualifio Subdomains"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+        "raw": {
+          "description": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+          "endpoint": "actie.*.*",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "actie.*.*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "cadeau.videoland.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "cadeau.videoland.com"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/dpgm/dpgmedia/detail"
+}

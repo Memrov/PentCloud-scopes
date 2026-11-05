@@ -1,0 +1,219 @@
+{
+  "id": "hackerone:vectra_ai_vdp",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 1029.0,
+    "handle": "vectra_ai_vdp",
+    "id": 0,
+    "managed_program": true,
+    "name": "Vectra AI, Inc. (Response)",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 80,
+    "submission_state": "open",
+    "url": "https://hackerone.com/vectra_ai_vdp",
+    "website": "https://www.vectra.ai"
+  },
+  "name": "Vectra AI, Inc. (Response)",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "0440c44451c3ec5ea97cf2835f864d6b02f626da44413caea8974cfe9da8c0c2",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "vectra_ai_vdp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Vectra domain used for various services, if you have identified something interesting or impactful on this primary domain or on one of the subdomians let us know!",
+        "raw": {
+          "asset_identifier": "*.vectra-svc.ai",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Vectra domain used for various services, if you have identified something interesting or impactful on this primary domain or on one of the subdomians let us know!",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.vectra-svc.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Found something interesting or impactful on our primary or subdomains let us know!",
+        "raw": {
+          "asset_identifier": "*.vectra.ai",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Found something interesting or impactful on our primary or subdomains let us know!",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.vectra.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "api.vectranetworks.com - blackbox no authentication\n\nThe api.vectranetworks.com (TCP 443) is used for cloud API queries, i.e.VirusTotal summaries of domain names.\n\nCognito brain appliances upload health information to the Vectra cloud using the existing connection to https://api.vectranetworks.com/. This data contains useful information about system health of the brain, sensors, processes, databases, hardware and environment.\n\nThe health information is automatically sanitized and checked against known baselines.  AI health alerts trigger pessimistically and are often triaged without further action from Vectra or our customers.",
+        "raw": {
+          "asset_identifier": "api.vectranetworks.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "api.vectranetworks.com - blackbox no authentication\n\nThe api.vectranetworks.com (TCP 443) is used for cloud API queries, i.e.VirusTotal summaries of domain names.\n\nCognito brain appliances upload health information to the Vectra cloud using the existing connection to https://api.vectranetworks.com/. This data contains useful information about system health of the brain, sensors, processes, databases, hardware and environment.\n\nThe health information is automatically sanitized and checked against known baselines.  AI health alerts trigger pessimistically and are often triaged without further action from Vectra or our customers.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.vectranetworks.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://203074349567.uw2.portal.vectra.ai/api",
+          "asset_type": "API",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "API",
+        "value": "https://203074349567.uw2.portal.vectra.ai/api"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "For Vectra customers who have opted-in to sharing detection metadata with Vectra (for the purpose of improving overall detection efficacy), Cognito will connect to metadata.vectranetworks.com to send the detection metadata.\n\nMetadata shared with Vectra over the connection includes anonymized detection and algorithm precursor event details. Personally identifiable information such as IP addresses, internal domain names, usernames, Kerberos services and names, is replaced with a salted hash of that information.\n\nhttps://support.vectra.ai/s/article/KB-VS-1049",
+        "raw": {
+          "asset_identifier": "metadata.vectranetworks.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "For Vectra customers who have opted-in to sharing detection metadata with Vectra (for the purpose of improving overall detection efficacy), Cognito will connect to metadata.vectranetworks.com to send the detection metadata.\n\nMetadata shared with Vectra over the connection includes anonymized detection and algorithm precursor event details. Personally identifiable information such as IP addresses, internal domain names, usernames, Kerberos services and names, is replaced with a salted hash of that information.\n\nhttps://support.vectra.ai/s/article/KB-VS-1049",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "metadata.vectranetworks.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "rp.vectranetworks.com - blackbox\n\nUsed only for Brains deployed in IaaS clouds. Used for authentication and verification (integrity check of the file system).",
+        "raw": {
+          "asset_identifier": "rp.vectranetworks.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "rp.vectranetworks.com - blackbox\n\nUsed only for Brains deployed in IaaS clouds. Used for authentication and verification (integrity check of the file system).",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "rp.vectranetworks.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The update2.vectranetworks.com (TCP 443) is used by the appliance to verify the current version number and, if appropriate, download new versions.",
+        "raw": {
+          "asset_identifier": "update2.vectranetworks.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The update2.vectranetworks.com (TCP 443) is used by the appliance to verify the current version number and, if appropriate, download new versions.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "update2.vectranetworks.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "vectra.ai",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "vectra.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "vpn.vectranetworks.com - blackbox no auth\n\nThe vpn.vectranetworks.com is used by the appliances to connect back to Vectra when the appliance VPN is enabled. VPN tries to connect both TCP on port 443 and UDP on port 9970. Either can be successful for the VPN to work. ",
+        "raw": {
+          "asset_identifier": "vpn.vectranetworks.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "vpn.vectranetworks.com - blackbox no auth\n\nThe vpn.vectranetworks.com is used by the appliances to connect back to Vectra when the appliance VPN is enabled. VPN tries to connect both TCP on port 443 and UDP on port 9970. Either can be successful for the VPN to work. ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "vpn.vectranetworks.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "OUT OF SCOPE",
+        "raw": {
+          "asset_identifier": "partners.vectra.ai",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "OUT OF SCOPE",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "partners.vectra.ai"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/vectra_ai_vdp"
+}

@@ -1,0 +1,165 @@
+{
+  "id": "hackerone:urbancompany",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 1536.0,
+    "average_time_to_first_program_response": 19.0,
+    "average_time_to_report_resolved": 947.0,
+    "handle": "urbancompany",
+    "id": 0,
+    "managed_program": false,
+    "name": "Urban Company",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 96,
+    "submission_state": "open",
+    "url": "https://hackerone.com/urbancompany",
+    "website": "https://www.urbancompany.com"
+  },
+  "name": "Urban Company",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "b57594e5c41a75345b8cd7fb2b03ac70b01faa13efd9eb19e3397f76855254f4",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "urbancompany",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is our customer iOS apps",
+        "raw": {
+          "asset_identifier": "1032480595",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is our customer iOS apps",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1032480595"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is our professional ios app.",
+        "raw": {
+          "asset_identifier": "982922982",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is our professional ios app.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "982922982"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is our partner android app.",
+        "raw": {
+          "asset_identifier": "com.urbanclap.provider",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is our partner android app.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.urbanclap.provider"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is our customer app.",
+        "raw": {
+          "asset_identifier": "com.urbanclap.urbanclap",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is our customer app.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.urbanclap.urbanclap"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "www.urbanclap.com is also our root and critical domain. Most of our traffic routes through it.",
+        "raw": {
+          "asset_identifier": "www.urbanclap.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "www.urbanclap.com is also our root and critical domain. Most of our traffic routes through it.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.urbanclap.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "www.urbancompany.com is our main and critical domain. Most of our traffic routes through urbanclap.com. Other subdomains mentioned in scope are for internal purpose and either are password protected or Google auth protected. We do not wish anyone to login to mentioned domains and hence they are critical for us to find vulnerabilities in.\n\n**partner.urbancompany.com is one of the critical subdomains within this asset.**\n\nTesting Directions:\n* A user can Sign Up using his phone number and email ID from the website home page or app. Do ensure that you are reachable on the mobile number that you shall use to register with us. While creating account reporters should use their own HackerOne email address like [handle]@wearehackerone.com",
+        "raw": {
+          "asset_identifier": "www.urbancompany.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "www.urbancompany.com is our main and critical domain. Most of our traffic routes through urbanclap.com. Other subdomains mentioned in scope are for internal purpose and either are password protected or Google auth protected. We do not wish anyone to login to mentioned domains and hence they are critical for us to find vulnerabilities in.\n\n**partner.urbancompany.com is one of the critical subdomains within this asset.**\n\nTesting Directions:\n* A user can Sign Up using his phone number and email ID from the website home page or app. Do ensure that you are reachable on the mobile number that you shall use to register with us. While creating account reporters should use their own HackerOne email address like [handle]@wearehackerone.com",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.urbancompany.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Examples of out-of-scope subdomains include but not limited to:\n- careers.urbancompany.com\n- careers.urbanclap.com\n- blog.urbancompany.com\n- blog.urbanclap.com\n- sherlock.urbanclap.com\n- sherlock.urbancompany.com \n- ops.urbanclap.com \n- ops.urbancompany.com\n- configs.urbanclap.com\n- configs.urbancompany.com\n- jarvis.urbanclap.com\n- jarvis.urbancompany.com\n- pro.urbanclap.com\n- dev*.urbanclap.com\n- All staging and dev subdomains",
+        "raw": {
+          "asset_identifier": "Other urbancompany.com subdomains except for the ones in-scope",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Examples of out-of-scope subdomains include but not limited to:\n- careers.urbancompany.com\n- careers.urbanclap.com\n- blog.urbancompany.com\n- blog.urbanclap.com\n- sherlock.urbanclap.com\n- sherlock.urbancompany.com \n- ops.urbanclap.com \n- ops.urbancompany.com\n- configs.urbanclap.com\n- configs.urbancompany.com\n- jarvis.urbanclap.com\n- jarvis.urbancompany.com\n- pro.urbanclap.com\n- dev*.urbanclap.com\n- All staging and dev subdomains",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Other urbancompany.com subdomains except for the ones in-scope"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/urbancompany"
+}

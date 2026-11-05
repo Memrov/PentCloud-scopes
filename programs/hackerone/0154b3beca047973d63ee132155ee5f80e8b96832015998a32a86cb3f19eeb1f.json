@@ -1,0 +1,201 @@
+{
+  "id": "hackerone:baird_vdp",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 2.0,
+    "average_time_to_report_resolved": null,
+    "handle": "baird_vdp",
+    "id": 0,
+    "managed_program": true,
+    "name": "Baird",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 94,
+    "submission_state": "open",
+    "url": "https://hackerone.com/baird_vdp",
+    "website": "http://www.rwbaird.com/"
+  },
+  "name": "Baird",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "16e1f53e8c56548d2be544d10aeff9d0926be5c344f3ccd02dce8b6cc735b07a",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "baird_vdp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Baird's Private Wealth Management Site",
+        "raw": {
+          "asset_identifier": "bairdwealth.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Baird's Private Wealth Management Site",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "bairdwealth.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This asset covers all sites for Baird",
+        "raw": {
+          "asset_identifier": "https://*.rwbaird.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This asset covers all sites for Baird",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "https://*.rwbaird.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "IOS App ID for Baird Online",
+        "raw": {
+          "asset_identifier": "777691707",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "IOS App ID for Baird Online",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "777691707"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Google Play Store App ID for Baird Online",
+        "raw": {
+          "asset_identifier": "com.rwbaird.investorandroid",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Google Play Store App ID for Baird Online",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.rwbaird.investorandroid"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Baird Online - Baird's Online Trading Platform",
+        "raw": {
+          "asset_identifier": "http://bol.rwbaird.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Baird Online - Baird's Online Trading Platform",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://bol.rwbaird.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Page hosting public, non-confidential, information",
+        "raw": {
+          "asset_identifier": "http://clientdocs.rwbaird.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Page hosting public, non-confidential, information",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://clientdocs.rwbaird.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "http://content.rwbaird.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://content.rwbaird.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "UAT environment hosting non-confidential documents",
+        "raw": {
+          "asset_identifier": "http://uatclientdocs.rwbaird.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "UAT environment hosting non-confidential documents",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://uatclientdocs.rwbaird.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is an old file sharing site, currently in the process of being taken down",
+        "raw": {
+          "asset_identifier": "http://www.rwbaird.com/docs",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is an old file sharing site, currently in the process of being taken down",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://www.rwbaird.com/docs"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/baird_vdp"
+}

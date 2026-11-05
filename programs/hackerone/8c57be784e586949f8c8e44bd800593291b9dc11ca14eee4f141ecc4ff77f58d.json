@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:clear_street_vdp",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 10.0,
+    "average_time_to_report_resolved": null,
+    "handle": "clear_street_vdp",
+    "id": 0,
+    "managed_program": true,
+    "name": "Clear Street Disclosure Program",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 88,
+    "submission_state": "open",
+    "url": "https://hackerone.com/clear_street_vdp",
+    "website": "https://www.clearstreet.io/"
+  },
+  "name": "Clear Street Disclosure Program",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "6f51fb3d439ad72ebc2733fb7c072e9161343a5696d4874fc6684b69fb5c9532",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "clear_street_vdp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "sub domains are out of scope.",
+        "raw": {
+          "asset_identifier": "clearstreet.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "sub domains are out of scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "clearstreet.io"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/clear_street_vdp"
+}

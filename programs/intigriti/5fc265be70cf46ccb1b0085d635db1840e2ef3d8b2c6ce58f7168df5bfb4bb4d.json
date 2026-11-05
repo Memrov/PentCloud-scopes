@@ -1,0 +1,276 @@
+{
+  "id": "intigriti:afaeab02-261f-486e-8a43-4dee76fccabb",
+  "metadata": {
+    "company_handle": "rivian",
+    "confidentiality_level": "public",
+    "handle": "rivianbugbounty",
+    "id": "afaeab02-261f-486e-8a43-4dee76fccabb",
+    "max_bounty": {
+      "currency": "USD",
+      "value": 5000
+    },
+    "min_bounty": {
+      "currency": "USD",
+      "value": 100
+    },
+    "name": "Rivian Bug Bounty",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/rivian/rivianbugbounty/detail"
+  },
+  "name": "Rivian Bug Bounty",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "7f86a142f9cfa0c4b070d49f75cf4c584aa396bd742674957ac3149ddd499c71",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "afaeab02-261f-486e-8a43-4dee76fccabb",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://business.rivian.com/api",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://business.rivian.com/api"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://rivian.com/api/gql/content/graphql",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://rivian.com/api/gql/content/graphql"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://rivian.com/api/gql/gateway/graphql",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://rivian.com/api/gql/gateway/graphql"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://rivian.com/api/gql/orders/graphql",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://rivian.com/api/gql/orders/graphql"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": " *.rivian.com",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": " *.rivian.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Rivian iOS Application",
+          "impact": "Tier 2",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "Rivian iOS Application"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "basecamp.rivian.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "basecamp.rivian.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Rivian Android Application",
+          "impact": "Tier 2",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "Rivian Android Application"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "rivian.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "rivian.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "assets.rivian.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "assets.rivian.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "careers.rivian.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "careers.rivian.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "cloud.e.rivian.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "cloud.e.rivian.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "demovehicles.rivian.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "demovehicles.rivian.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "feedback.rivian.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "feedback.rivian.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "internalshop.rivian.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "internalshop.rivian.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "media.rivian.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "media.rivian.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "stories.rivian.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "stories.rivian.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "view.e.rivian.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "view.e.rivian.com"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/rivian/rivianbugbounty/detail"
+}

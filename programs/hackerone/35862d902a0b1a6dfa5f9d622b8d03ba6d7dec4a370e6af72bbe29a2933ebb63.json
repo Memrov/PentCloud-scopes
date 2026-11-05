@@ -1,0 +1,129 @@
+{
+  "id": "hackerone:render",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 130.0,
+    "average_time_to_report_resolved": 120.0,
+    "handle": "render",
+    "id": 0,
+    "managed_program": false,
+    "name": "Render",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 60,
+    "submission_state": "open",
+    "url": "https://hackerone.com/render",
+    "website": "http://render.com"
+  },
+  "name": "Render",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "66e0747ba1cea195e2ecca0e5d23c866f6811daa01e52e8769fcabf223b08246",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "render",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "For this asset, we're asking you to look at the underlying infrastructure while being a user of Render. Container escapes, Kubernetes issues and more.",
+        "raw": {
+          "asset_identifier": "Render Infrastructure",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "For this asset, we're asking you to look at the underlying infrastructure while being a user of Render. Container escapes, Kubernetes issues and more.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Render Infrastructure"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "dashboard.render.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dashboard.render.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "render.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "render.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Please do not submit reports related to the chat function in the application.",
+        "raw": {
+          "asset_identifier": "Support chat",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Please do not submit reports related to the chat function in the application.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Support chat"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Applications and source code for services hosted on the Render platform are not in scope. Please reach out directly to the owner of the project or repo.",
+        "raw": {
+          "asset_identifier": "onrender.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Applications and source code for services hosted on the Render platform are not in scope. Please reach out directly to the owner of the project or repo.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "onrender.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/render"
+}

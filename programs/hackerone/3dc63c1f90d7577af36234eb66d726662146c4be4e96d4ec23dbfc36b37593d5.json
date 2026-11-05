@@ -1,0 +1,219 @@
+{
+  "id": "hackerone:goodrx",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 4.0,
+    "average_time_to_report_resolved": null,
+    "handle": "goodrx",
+    "id": 0,
+    "managed_program": true,
+    "name": "GoodRx",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 61,
+    "submission_state": "open",
+    "url": "https://hackerone.com/goodrx",
+    "website": "https://www.goodrx.com"
+  },
+  "name": "GoodRx",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "389d9b99bfc42102267c2400919ac9a4c347c60c627dde2c928d0fbbf9ccf1eb",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "goodrx",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Playstore Download: https://play.google.com/store/apps/details?id=com.goodrx",
+        "raw": {
+          "asset_identifier": "com.goodrx",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Playstore Download: https://play.google.com/store/apps/details?id=com.goodrx",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.goodrx"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "iOS Download: https://itunes.apple.com/app/id485357017",
+        "raw": {
+          "asset_identifier": "com.goodrx.iphone",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "iOS Download: https://itunes.apple.com/app/id485357017",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.goodrx.iphone"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This our primary site. Our mobile site m.goodrx.com is also covered by this scope. Only issues regarding the frontend of https://www.goodrx.com/care will be considered in-scope. Any backend issue is belonging to a partner of ours.",
+        "raw": {
+          "asset_identifier": "www.goodrx.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This our primary site. Our mobile site m.goodrx.com is also covered by this scope. Only issues regarding the frontend of https://www.goodrx.com/care will be considered in-scope. Any backend issue is belonging to a partner of ours.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.goodrx.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "iOS Download: https://itunes.apple.com/app/id1122105489",
+        "raw": {
+          "asset_identifier": "com.goodrx.doctors",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "iOS Download: https://itunes.apple.com/app/id1122105489",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.goodrx.doctors"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Playstore Download: https://play.google.com/store/apps/details?id=com.goodrx.doctors",
+        "raw": {
+          "asset_identifier": "com.goodrx.doctors",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Playstore Download: https://play.google.com/store/apps/details?id=com.goodrx.doctors",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.goodrx.doctors"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "iOS Download: https://itunes.apple.com/app/id1249717355",
+        "raw": {
+          "asset_identifier": "com.goodrx.gold",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "iOS Download: https://itunes.apple.com/app/id1249717355",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.goodrx.gold"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Playstore Download: https://play.google.com/store/apps/details?id=com.goodrx.gold\n\nGold workflow and features are being migrated into the primary GoodRx consumer app. Bounties for the Gold application must be replicated within the core GoodRx application to qualify for a bounty.",
+        "raw": {
+          "asset_identifier": "com.goodrx.gold",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Playstore Download: https://play.google.com/store/apps/details?id=com.goodrx.gold\n\nGold workflow and features are being migrated into the primary GoodRx consumer app. Bounties for the Gold application must be replicated within the core GoodRx application to qualify for a bounty.",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.goodrx.gold"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This subdomain is not managed by GoodRx.",
+        "raw": {
+          "asset_identifier": "investors.goodrx.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This subdomain is not managed by GoodRx.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "investors.goodrx.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This sub-domain is manged by Auth0. Bugs hosted on this domain would be covered by Auth0's bug bounty program and not GoodRx's.",
+        "raw": {
+          "asset_identifier": "sso.identity.goodrx.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This sub-domain is manged by Auth0. Bugs hosted on this domain would be covered by Auth0's bug bounty program and not GoodRx's.",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "sso.identity.goodrx.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This subdomain is managed by Zendesk. Any issues on this page would be covered by Zendesk's bug bounty program.",
+        "raw": {
+          "asset_identifier": "support.goodrx.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This subdomain is managed by Zendesk. Any issues on this page would be covered by Zendesk's bug bounty program.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support.goodrx.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/goodrx"
+}

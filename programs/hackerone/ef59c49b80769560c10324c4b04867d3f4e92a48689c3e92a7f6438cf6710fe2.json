@@ -1,0 +1,110 @@
+{
+  "id": "hackerone:neon_bbp",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 497.0,
+    "average_time_to_first_program_response": 6.0,
+    "average_time_to_report_resolved": 2573.0,
+    "handle": "neon_bbp",
+    "id": 0,
+    "managed_program": true,
+    "name": "Neon",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 78,
+    "submission_state": "open",
+    "url": "https://hackerone.com/neon_bbp",
+    "website": "http://neon.tech"
+  },
+  "name": "Neon",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "695ccdffab3197ed5ce1d2a4ee2cebe18ec00f7ffd240d6241825321f27d8067",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "neon_bbp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Neon-supported extensions",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Neon-supported extensions"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Please do research here and use @wearehackerone.com email addresses for account creation.",
+        "raw": {
+          "asset_identifier": "https://console-stage.neon.build/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Please do research here and use @wearehackerone.com email addresses for account creation.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://console-stage.neon.build/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Use Staging unless absolutely necessary. Notify us before testing here. Accounts must use @wearehackerone.com email addresses. ",
+        "raw": {
+          "asset_identifier": "https://console.neon.tech/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Use Staging unless absolutely necessary. Notify us before testing here. Accounts must use @wearehackerone.com email addresses. ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://console.neon.tech/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://console.neon.tech/api/v2/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://console.neon.tech/api/v2/"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/neon_bbp"
+}

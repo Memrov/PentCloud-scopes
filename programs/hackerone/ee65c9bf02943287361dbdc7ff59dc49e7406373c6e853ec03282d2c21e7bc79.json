@@ -1,0 +1,165 @@
+{
+  "id": "hackerone:coalition",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": 528.0,
+    "handle": "coalition",
+    "id": 0,
+    "managed_program": false,
+    "name": "Coalition, Inc.",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 50,
+    "submission_state": "open",
+    "url": "https://hackerone.com/coalition",
+    "website": "https://www.coalitioninc.com/"
+  },
+  "name": "Coalition, Inc.",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "6f054df867361f56b9bea2386e07f0ce7233e954c796e664aa1ffcfa19fabb73",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "coalition",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.thecoalition.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.thecoalition.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "app.wirespeed.co",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.wirespeed.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "coalitioninc.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "coalitioninc.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "platform.thecoalition.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "platform.thecoalition.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Coalition's blog is hosted by Ghost.  Security bugs in Ghost may be reported per https://github.com/TryGhost/Ghost/blob/master/SECURITY.md",
+        "raw": {
+          "asset_identifier": "blog.thecoalition.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Coalition's blog is hosted by Ghost.  Security bugs in Ghost may be reported per https://github.com/TryGhost/Ghost/blob/master/SECURITY.md",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "blog.thecoalition.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Coalition's help site is hosted by Intercom.  Security bugs in Intercom may be reported directly to the vendor.",
+        "raw": {
+          "asset_identifier": "help.thecoalition.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Coalition's help site is hosted by Intercom.  Security bugs in Intercom may be reported directly to the vendor.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "help.thecoalition.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Coalition's www site is hosted by Webflow.  Security bugs in Webflow may be reported to the service provider.",
+        "raw": {
+          "asset_identifier": "www.thecoalition.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Coalition's www site is hosted by Webflow.  Security bugs in Webflow may be reported to the service provider.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.thecoalition.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/coalition"
+}

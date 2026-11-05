@@ -1,0 +1,1875 @@
+{
+  "id": "hackerone:nextcloud",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": 4178.0,
+    "average_time_to_first_program_response": 17.0,
+    "average_time_to_report_resolved": 3052.0,
+    "handle": "nextcloud",
+    "id": 0,
+    "managed_program": false,
+    "name": "Nextcloud",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/nextcloud",
+    "website": "https://nextcloud.com"
+  },
+  "name": "Nextcloud",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "5c2a2fdebbd8ebb9b97e92183d3633ff50a8353acd159580b98ad071238c0e1f",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "nextcloud",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Issues affecting the Desktop Client available from [https://nextcloud.com/install/#install-clients](https://nextcloud.com/install/#install-clients \"https://nextcloud.com/install/#install-clients\")\n\n",
+        "raw": {
+          "asset_identifier": "Desktop Client",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Issues affecting the Desktop Client available from [https://nextcloud.com/install/#install-clients](https://nextcloud.com/install/#install-clients \"https://nextcloud.com/install/#install-clients\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Desktop Client"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Part of the Nextcloud app store which source code is available from [https://github.com/nextcloud/appstore](https://github.com/nextcloud/appstore \"https://github.com/nextcloud/appstore\"). Note that all apps are cryptographically signed by developers and reports thus usually don't qualify for monetary rewards as they don't affect Nextcloud instances.\n\n",
+        "raw": {
+          "asset_identifier": "apps.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Part of the Nextcloud app store which source code is available from [https://github.com/nextcloud/appstore](https://github.com/nextcloud/appstore \"https://github.com/nextcloud/appstore\"). Note that all apps are cryptographically signed by developers and reports thus usually don't qualify for monetary rewards as they don't affect Nextcloud instances.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "apps.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+        "raw": {
+          "asset_identifier": "auth.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "auth.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Our official iOS Talk client from [https://itunes.apple.com/app/id1296825574](https://itunes.apple.com/app/id1296825574)\n\n",
+        "raw": {
+          "asset_identifier": "com.nextcloud.Talk",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Our official iOS Talk client from [https://itunes.apple.com/app/id1296825574](https://itunes.apple.com/app/id1296825574)\n\n",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.nextcloud.Talk"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Our official Android client from [https://play.google.com/store/apps/details?id=com.nextcloud.client](https://play.google.com/store/apps/details?id=com.nextcloud.client \"https://play.google.com/store/apps/details?id=com.nextcloud.client\")\n\n",
+        "raw": {
+          "asset_identifier": "com.nextcloud.client",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Our official Android client from [https://play.google.com/store/apps/details?id=com.nextcloud.client](https://play.google.com/store/apps/details?id=com.nextcloud.client \"https://play.google.com/store/apps/details?id=com.nextcloud.client\")\n\n",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.nextcloud.client"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Our official Android Talk client from [https://play.google.com/store/apps/details?id=com.nextcloud.talk2](https://play.google.com/store/apps/details?id=com.nextcloud.talk2)\n\n",
+        "raw": {
+          "asset_identifier": "com.nextcloud.talk2",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Our official Android Talk client from [https://play.google.com/store/apps/details?id=com.nextcloud.talk2](https://play.google.com/store/apps/details?id=com.nextcloud.talk2)\n\n",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.nextcloud.talk2"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Our official iOS Nextcloud Notes client from [https://itunes.apple.com/app/id813973264](https://itunes.apple.com/app/id813973264)\n\n",
+        "raw": {
+          "asset_identifier": "com.peterandlinda.iOCNotes",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Our official iOS Nextcloud Notes client from [https://itunes.apple.com/app/id813973264](https://itunes.apple.com/app/id813973264)\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.peterandlinda.iOCNotes"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+        "raw": {
+          "asset_identifier": "crm.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "crm.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This domain serves updates to Nextcloud server and the Nextcloud desktop client.\n\n- Client updater server:[https://github.com/nextcloud/client\\_updater\\_server](https://github.com/nextcloud/client_updater_server \"https://github.com/nextcloud/client\\_updater\\_server\")\n- Server updater server: [https://github.com/nextcloud/updater\\_server](https://github.com/nextcloud/updater_server \"https://github.com/nextcloud/updater\\_server\")\n\nWhile updates are cryptographically signed this is still a core part of Nextcloud. We thus pay out monetary rewards for issues affecting the integrity of the system. (e.g. allowing an attacker to announce malicious updates)\n\n",
+        "raw": {
+          "asset_identifier": "customerupdates.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This domain serves updates to Nextcloud server and the Nextcloud desktop client.\n\n- Client updater server:[https://github.com/nextcloud/client\\_updater\\_server](https://github.com/nextcloud/client_updater_server \"https://github.com/nextcloud/client\\_updater\\_server\")\n- Server updater server: [https://github.com/nextcloud/updater\\_server](https://github.com/nextcloud/updater_server \"https://github.com/nextcloud/updater\\_server\")\n\nWhile updates are cryptographically signed this is still a core part of Nextcloud. We thus pay out monetary rewards for issues affecting the integrity of the system. (e.g. allowing an attacker to announce malicious updates)\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "customerupdates.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Static web server serving the generated documentation from [https://github.com/nextcloud/documentation](https://github.com/nextcloud/documentation \"https://github.com/nextcloud/documentation\")\n\n",
+        "raw": {
+          "asset_identifier": "docs.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Static web server serving the generated documentation from [https://github.com/nextcloud/documentation](https://github.com/nextcloud/documentation \"https://github.com/nextcloud/documentation\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "docs.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "While updates and downloads are cryptographically signed this is still a core part of Nextcloud. We thus pay out monetary rewards for issues affecting the integrity of the system. (e.g. allowing an attacker replacing arbitrary files on the system)\n\n",
+        "raw": {
+          "asset_identifier": "download.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "While updates and downloads are cryptographically signed this is still a core part of Nextcloud. We thus pay out monetary rewards for issues affecting the integrity of the system. (e.g. allowing an attacker replacing arbitrary files on the system)\n\n",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "download.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This asset is running Discourse, and as such reports of newly discovered vulnerabilities should be submitted to their program instead: [https://hackerone.com/discourse](https://hackerone.com/discourse \"https://hackerone.com/discourse\") – Please use this scope only for reporting missing security updates on our Discourse installation.\n\n",
+        "raw": {
+          "asset_identifier": "help.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This asset is running Discourse, and as such reports of newly discovered vulnerabilities should be submitted to their program instead: [https://hackerone.com/discourse](https://hackerone.com/discourse \"https://hackerone.com/discourse\") – Please use this scope only for reporting missing security updates on our Discourse installation.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "help.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/collectives](https://github.com/nextcloud/collectives) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "https://github.com/nextcloud/collectives",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/collectives](https://github.com/nextcloud/collectives) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/nextcloud/collectives"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/files_confidential](https://github.com/nextcloud/files_confidential) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "https://github.com/nextcloud/files_confidential",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/files_confidential](https://github.com/nextcloud/files_confidential) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/nextcloud/files_confidential"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/tables](https://github.com/nextcloud/tables) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "https://github.com/nextcloud/tables",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/tables](https://github.com/nextcloud/tables) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/nextcloud/tables"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "https://github.com/roundcube/roundcubemail",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/roundcube/roundcubemail"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Our official Android Notes client from [https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes](https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes \"https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes\")\n",
+        "raw": {
+          "asset_identifier": "it.niedermann.owncloud.notes",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Our official Android Notes client from [https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes](https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes \"https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes\")\n",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "it.niedermann.owncloud.notes"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Our official iOS client from [https://itunes.apple.com/app/nextcloud/id1125420102](https://itunes.apple.com/app/nextcloud/id1125420102 \"https://itunes.apple.com/app/nextcloud/id1125420102\")\n\n",
+        "raw": {
+          "asset_identifier": "it.twsweb.Nextcloud",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Our official iOS client from [https://itunes.apple.com/app/nextcloud/id1125420102](https://itunes.apple.com/app/nextcloud/id1125420102 \"https://itunes.apple.com/app/nextcloud/id1125420102\")\n\n",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "it.twsweb.Nextcloud"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+        "raw": {
+          "asset_identifier": "knowledge.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "knowledge.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+        "raw": {
+          "asset_identifier": "lists.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "lists.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+        "raw": {
+          "asset_identifier": "logs.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "logs.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The Nextcloud lookup server source code can be found at [https://github.com/nextcloud/lookup-server/](https://github.com/nextcloud/lookup-server/ \"https://github.com/nextcloud/lookup-server/\")\n\n",
+        "raw": {
+          "asset_identifier": "lookup.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The Nextcloud lookup server source code can be found at [https://github.com/nextcloud/lookup-server/](https://github.com/nextcloud/lookup-server/ \"https://github.com/nextcloud/lookup-server/\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "lookup.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "newsletter.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "newsletter.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The nextcloud.com website is running Wordpress and the source code of our theme and adjustments can be found at [https://github.com/nextcloud/nextcloud.com](https://github.com/nextcloud/nextcloud.com \"https://github.com/nextcloud/nextcloud.com\")\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The nextcloud.com website is running Wordpress and the source code of our theme and adjustments can be found at [https://github.com/nextcloud/nextcloud.com](https://github.com/nextcloud/nextcloud.com \"https://github.com/nextcloud/nextcloud.com\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/3rdparty](https://github.com/nextcloud/3rdparty \"https://github.com/nextcloud/3rdparty\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\nAlso note while we are happy to receive reports about all libraries we use, we only pay monetary rewards for \"in-house\" developed libraries in the nextcloud/ subdirectory.\n\nIf you find issues in other libraries it might make more sense to report it with the respective project instead. If you can not find any, we are also happy to receive the report and deal with upstream communication.",
+        "raw": {
+          "asset_identifier": "nextcloud/3rdparty",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/3rdparty](https://github.com/nextcloud/3rdparty \"https://github.com/nextcloud/3rdparty\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\nAlso note while we are happy to receive reports about all libraries we use, we only pay monetary rewards for \"in-house\" developed libraries in the nextcloud/ subdirectory.\n\nIf you find issues in other libraries it might make more sense to report it with the respective project instead. If you can not find any, we are also happy to receive the report and deal with upstream communication.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/3rdparty"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/activity](https://github.com/nextcloud/activity \"https://github.com/nextcloud/activity\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/activity",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/activity](https://github.com/nextcloud/activity \"https://github.com/nextcloud/activity\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/activity"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/approval](https://github.com/nextcloud/approval) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/approval",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/approval](https://github.com/nextcloud/approval) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/approval"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/bruteforcesettings](https://github.com/nextcloud/bruteforcesettings) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/bruteforcesettings",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/bruteforcesettings](https://github.com/nextcloud/bruteforcesettings) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/bruteforcesettings"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/calendar](https://github.com/nextcloud/calendar) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/calendar",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/calendar](https://github.com/nextcloud/calendar) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/calendar"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/calendar_resource_management](https://github.com/nextcloud/calendar_resource_management) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/calendar_resource_management",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/calendar_resource_management](https://github.com/nextcloud/calendar_resource_management) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/calendar_resource_management"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/circles](https://github.com/nextcloud/circles \"https://github.com/nextcloud/circles\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+        "raw": {
+          "asset_identifier": "nextcloud/circles",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/circles](https://github.com/nextcloud/circles \"https://github.com/nextcloud/circles\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/circles"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/contacts](https://github.com/nextcloud/contacts) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/contacts",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/contacts](https://github.com/nextcloud/contacts) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/contacts"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/data_request](https://github.com/nextcloud/data_request) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+        "raw": {
+          "asset_identifier": "nextcloud/data_request",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/data_request](https://github.com/nextcloud/data_request) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/data_request"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/deck](https://github.com/nextcloud/deck \"https://github.com/nextcloud/deck\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+        "raw": {
+          "asset_identifier": "nextcloud/deck",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/deck](https://github.com/nextcloud/deck \"https://github.com/nextcloud/deck\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/deck"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/end_to_end_encryption](https://github.com/nextcloud/end_to_end_encryption \"https://github.com/nextcloud/end_to_end_encryption\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+        "raw": {
+          "asset_identifier": "nextcloud/end_to_end_encryption",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/end_to_end_encryption](https://github.com/nextcloud/end_to_end_encryption \"https://github.com/nextcloud/end_to_end_encryption\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/end_to_end_encryption"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/external](https://github.com/nextcloud/external) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/external",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/external](https://github.com/nextcloud/external) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/external"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/files\\_accesscontrol](https://github.com/nextcloud/files_accesscontrol \"https://github.com/nextcloud/files\\_accesscontrol\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/files_accesscontrol",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/files\\_accesscontrol](https://github.com/nextcloud/files_accesscontrol \"https://github.com/nextcloud/files\\_accesscontrol\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/files_accesscontrol"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/files_antivirus](https://github.com/nextcloud/files_antivirus) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/files_antivirus",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/files_antivirus](https://github.com/nextcloud/files_antivirus) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/files_antivirus"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/files\\_automatedtagging](https://github.com/nextcloud/files_automatedtagging \"https://github.com/nextcloud/files\\_automatedtagging\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/files_automatedtagging",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/files\\_automatedtagging](https://github.com/nextcloud/files_automatedtagging \"https://github.com/nextcloud/files\\_automatedtagging\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/files_automatedtagging"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/files_fulltextsearch](https://github.com/nextcloud/files_fulltextsearch) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/files_fulltextsearch",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/files_fulltextsearch](https://github.com/nextcloud/files_fulltextsearch) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/files_fulltextsearch"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from https://github.com/nextcloud/files_fulltextsearch_tesseract\nNote that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/files_fulltextsearch_tesseract",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from https://github.com/nextcloud/files_fulltextsearch_tesseract\nNote that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/files_fulltextsearch_tesseract"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/files_lock](https://github.com/nextcloud/files_lock) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/files_lock",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/files_lock](https://github.com/nextcloud/files_lock) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/files_lock"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/files\\_pdfviewer](https://github.com/nextcloud/files_pdfviewer \"https://github.com/nextcloud/files\\_pdfviewer\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/files_pdfviewer",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/files\\_pdfviewer](https://github.com/nextcloud/files_pdfviewer \"https://github.com/nextcloud/files\\_pdfviewer\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/files_pdfviewer"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/files\\_retention](https://github.com/nextcloud/files_retention \"https://github.com/nextcloud/files\\_retention\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/files_retention",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/files\\_retention](https://github.com/nextcloud/files_retention \"https://github.com/nextcloud/files\\_retention\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/files_retention"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/files_rightclick](https://github.com/nextcloud/files_rightclick \"https://github.com/nextcloud/files_rightclick\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+        "raw": {
+          "asset_identifier": "nextcloud/files_rightclick",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/files_rightclick](https://github.com/nextcloud/files_rightclick \"https://github.com/nextcloud/files_rightclick\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/files_rightclick"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/files\\_texteditor](https://github.com/nextcloud/files_texteditor \"https://github.com/nextcloud/files\\_texteditor\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/files_texteditor",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/files\\_texteditor](https://github.com/nextcloud/files_texteditor \"https://github.com/nextcloud/files\\_texteditor\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/files_texteditor"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/firstrunwizard](https://github.com/nextcloud/firstrunwizard \"https://github.com/nextcloud/firstrunwizard\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/firstrunwizard",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/firstrunwizard](https://github.com/nextcloud/firstrunwizard \"https://github.com/nextcloud/firstrunwizard\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/firstrunwizard"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/flow_notifications](https://github.com/nextcloud/flow_notifications) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/flow_notifications",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/flow_notifications](https://github.com/nextcloud/flow_notifications) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/flow_notifications"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/fulltextsearch](https://github.com/nextcloud/fulltextsearch) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+        "raw": {
+          "asset_identifier": "nextcloud/fulltextsearch",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/fulltextsearch](https://github.com/nextcloud/fulltextsearch) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/fulltextsearch"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/fulltextsearch_elasticsearch](https://github.com/nextcloud/fulltextsearch_elasticsearch) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/fulltextsearch_elasticsearch",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/fulltextsearch_elasticsearch](https://github.com/nextcloud/fulltextsearch_elasticsearch) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/fulltextsearch_elasticsearch"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/globalsiteselector](https://github.com/nextcloud/globalsiteselector) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/globalsiteselector",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/globalsiteselector](https://github.com/nextcloud/globalsiteselector) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/globalsiteselector"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/groupfolders](https://github.com/nextcloud/groupfolders) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/groupfolders",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/groupfolders](https://github.com/nextcloud/groupfolders) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/groupfolders"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/guests](https://github.com/nextcloud/guests) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/guests",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/guests](https://github.com/nextcloud/guests) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/guests"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/logreader](https://github.com/nextcloud/logreader \"https://github.com/nextcloud/logreader\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/logreader",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/logreader](https://github.com/nextcloud/logreader \"https://github.com/nextcloud/logreader\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/logreader"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/mail](https://github.com/nextcloud/mail \"https://github.com/nextcloud/mail\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/mail",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/mail](https://github.com/nextcloud/mail \"https://github.com/nextcloud/mail\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/mail"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/nextcloud\\_announcements](https://github.com/nextcloud/nextcloud_announcements \"https://github.com/nextcloud/nextcloud\\_announcements\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/nextcloud_announcements",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/nextcloud\\_announcements](https://github.com/nextcloud/nextcloud_announcements \"https://github.com/nextcloud/nextcloud\\_announcements\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/nextcloud_announcements"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/notes](https://github.com/nextcloud/notes \"https://github.com/nextcloud/notes\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/notes",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/notes](https://github.com/nextcloud/notes \"https://github.com/nextcloud/notes\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/notes"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/notifications](https://github.com/nextcloud/notifications \"https://github.com/nextcloud/notifications\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/notifications",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/notifications](https://github.com/nextcloud/notifications \"https://github.com/nextcloud/notifications\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/notifications"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/notify_push](https://github.com/nextcloud/notify_push) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/notify_push",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/notify_push](https://github.com/nextcloud/notify_push) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/notify_push"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/password\\_policy](https://github.com/nextcloud/password_policy \"https://github.com/nextcloud/password\\_policy\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/password_policy",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/password\\_policy](https://github.com/nextcloud/password_policy \"https://github.com/nextcloud/password\\_policy\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/password_policy"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/photos](https://github.com/nextcloud/photos \"https://github.com/nextcloud/photos\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/photos",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/photos](https://github.com/nextcloud/photos \"https://github.com/nextcloud/photos\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/photos"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/preferred_providers](https://github.com/nextcloud/preferred_providers) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/preferred_providers",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/preferred_providers](https://github.com/nextcloud/preferred_providers) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/preferred_providers"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/privacy](https://github.com/nextcloud/privacy \"https://github.com/nextcloud/privacy\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/privacy",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/privacy](https://github.com/nextcloud/privacy \"https://github.com/nextcloud/privacy\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/privacy"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/recommendations](https://github.com/nextcloud/recommendations \"https://github.com/nextcloud/recommendations\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/recommendations",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/recommendations](https://github.com/nextcloud/recommendations \"https://github.com/nextcloud/recommendations\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/recommendations"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/related_resources](https://github.com/nextcloud/related_resources) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/related_resources",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/related_resources](https://github.com/nextcloud/related_resources) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/related_resources"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/richdocuments](https://github.com/nextcloud/richdocuments) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n**Note:** We only issue monetary awards for issue in our own code base. For any bugs within Collabora Online, please contact [Collabora](https://www.collaboraoffice.com/about-us/).",
+        "raw": {
+          "asset_identifier": "nextcloud/richdocuments",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/richdocuments](https://github.com/nextcloud/richdocuments) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n**Note:** We only issue monetary awards for issue in our own code base. For any bugs within Collabora Online, please contact [Collabora](https://www.collaboraoffice.com/about-us/).",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/richdocuments"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/server](https://github.com/nextcloud/server \"https://github.com/nextcloud/server\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/server",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/server](https://github.com/nextcloud/server \"https://github.com/nextcloud/server\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/server"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/serverinfo](https://github.com/nextcloud/serverinfo \"https://github.com/nextcloud/serverinfo\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/serverinfo",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/serverinfo](https://github.com/nextcloud/serverinfo \"https://github.com/nextcloud/serverinfo\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/serverinfo"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/sharepoint](https://github.com/nextcloud/sharepoint) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/sharepoint",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/sharepoint](https://github.com/nextcloud/sharepoint) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/sharepoint"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/socialsharing](https://github.com/nextcloud/socialsharing) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/socialsharing",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/socialsharing](https://github.com/nextcloud/socialsharing) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/socialsharing"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/spreed](https://github.com/nextcloud/spreed) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/spreed",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/spreed](https://github.com/nextcloud/spreed) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/spreed"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/survey\\_client](https://github.com/nextcloud/survey_client \"https://github.com/nextcloud/survey\\_client\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/survey_client",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/survey\\_client](https://github.com/nextcloud/survey_client \"https://github.com/nextcloud/survey\\_client\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/survey_client"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/suspicious_login](https://github.com/nextcloud/suspicious_login) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/suspicious_login",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/suspicious_login](https://github.com/nextcloud/suspicious_login) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/suspicious_login"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/terms_of_service](https://github.com/nextcloud/terms_of_service) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/terms_of_service",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/terms_of_service](https://github.com/nextcloud/terms_of_service) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/terms_of_service"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/text](https://github.com/nextcloud/text \"https://github.com/nextcloud/text\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/text",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/text](https://github.com/nextcloud/text \"https://github.com/nextcloud/text\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/text"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/twofactor_totp](https://github.com/nextcloud/twofactor_totp) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/twofactor_totp",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/twofactor_totp](https://github.com/nextcloud/twofactor_totp) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/twofactor_totp"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/twofactor_webauthn](https://github.com/nextcloud/twofactor_webauthn) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/twofactor_webauthn",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/twofactor_webauthn](https://github.com/nextcloud/twofactor_webauthn) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/twofactor_webauthn"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/updater](https://github.com/nextcloud/updater \"https://github.com/nextcloud/updater\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/updater",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/updater](https://github.com/nextcloud/updater \"https://github.com/nextcloud/updater\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/updater"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/user_migration](https://github.com/nextcloud/user_migration) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/user_migration",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/user_migration](https://github.com/nextcloud/user_migration) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/user_migration"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/user_oidc](https://github.com/nextcloud/user_oidc) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/user_oidc",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/user_oidc](https://github.com/nextcloud/user_oidc) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/user_oidc"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/user\\_saml](https://github.com/nextcloud/user_saml \"https://github.com/nextcloud/user\\_saml\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+        "raw": {
+          "asset_identifier": "nextcloud/user_saml",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/user\\_saml](https://github.com/nextcloud/user_saml \"https://github.com/nextcloud/user\\_saml\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/user_saml"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/viewer](https://github.com/nextcloud/viewer \"https://github.com/nextcloud/viewer\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/viewer",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/viewer](https://github.com/nextcloud/viewer \"https://github.com/nextcloud/viewer\") – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/viewer"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Code from [https://github.com/nextcloud/workflow_script](https://github.com/nextcloud/workflow_script) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "nextcloud/workflow_script",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Code from [https://github.com/nextcloud/workflow_script](https://github.com/nextcloud/workflow_script) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "nextcloud/workflow_script"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Portal with support answers by the Nextcloud support team.\n\nPlease be extremely careful when testing this server as it is used by our customers as well.\n\n",
+        "raw": {
+          "asset_identifier": "portal.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Portal with support answers by the Nextcloud support team.\n\nPlease be extremely careful when testing this server as it is used by our customers as well.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "portal.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+        "raw": {
+          "asset_identifier": "projects.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "projects.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Backend behind the push notification proxy for our mobile apps. Our push notifications are End-To-End encrypted and thus an attacker would not be able to gain access to the content of push notifications.\n\nThe push notification proxy client can be found at [https://github.com/nextcloud/notifications](https://github.com/nextcloud/notifications \"https://github.com/nextcloud/notifications\")\n\n",
+        "raw": {
+          "asset_identifier": "push-notifications.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Backend behind the push notification proxy for our mobile apps. Our push notifications are End-To-End encrypted and thus an attacker would not be able to gain access to the content of push notifications.\n\nThe push notification proxy client can be found at [https://github.com/nextcloud/notifications](https://github.com/nextcloud/notifications \"https://github.com/nextcloud/notifications\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "push-notifications.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "pushfeed.nextcloud.com is used to push cryptographically signed announcements to administrators of all Nextcloud instances. The source code for the generation of said announcement feeds can be found at [https://github.com/nextcloud/announcer](https://github.com/nextcloud/announcer \"https://github.com/nextcloud/announcer\") and the client at [https://github.com/nextcloud/nextcloud\\_announcements](https://github.com/nextcloud/nextcloud_announcements \"https://github.com/nextcloud/nextcloud\\_announcements\")\n\n",
+        "raw": {
+          "asset_identifier": "pushfeed.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "pushfeed.nextcloud.com is used to push cryptographically signed announcements to administrators of all Nextcloud instances. The source code for the generation of said announcement feeds can be found at [https://github.com/nextcloud/announcer](https://github.com/nextcloud/announcer \"https://github.com/nextcloud/announcer\") and the client at [https://github.com/nextcloud/nextcloud\\_announcements](https://github.com/nextcloud/nextcloud_announcements \"https://github.com/nextcloud/nextcloud\\_announcements\")\n\n",
+          "integrity_requirement": "none",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "pushfeed.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Runs the web interface for the software used by the Nextcloud security scanner.\n\n",
+        "raw": {
+          "asset_identifier": "scan.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Runs the web interface for the software used by the Nextcloud security scanner.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "scan.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Part of the Nextcloud app store which source code is available from [https://github.com/nextcloud/appstore](https://github.com/nextcloud/appstore \"https://github.com/nextcloud/appstore\"). Note that all apps are cryptographically signed by developers and reports thus usually don't qualify for monetary rewards as they don't affect Nextcloud instances.\n\n",
+        "raw": {
+          "asset_identifier": "static.apps.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Part of the Nextcloud app store which source code is available from [https://github.com/nextcloud/appstore](https://github.com/nextcloud/appstore \"https://github.com/nextcloud/appstore\"). Note that all apps are cryptographically signed by developers and reports thus usually don't qualify for monetary rewards as they don't affect Nextcloud instances.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "static.apps.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+        "raw": {
+          "asset_identifier": "stats.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Internally used system behind SSO. We'd like to ask you to not actively test against our production SSO server. You can find the used software at [http://www.keycloak.org/](http://www.keycloak.org/ \"http://www.keycloak.org/\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "stats.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This asset is running Zammad, and as such reports of newly discovered vulnerabilities should be submitted to them: [https://zammad.com/contact](https://zammad.com/contact \"https://zammad.com/contact\") – Please use this scope only for reporting missing security updates on our Zammad installation.\n\nPlease be extremely careful when testing this server as it is used by our customers as well.\n\n",
+        "raw": {
+          "asset_identifier": "support.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This asset is running Zammad, and as such reports of newly discovered vulnerabilities should be submitted to them: [https://zammad.com/contact](https://zammad.com/contact \"https://zammad.com/contact\") – Please use this scope only for reporting missing security updates on our Zammad installation.\n\nPlease be extremely careful when testing this server as it is used by our customers as well.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "support.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The survey server data processes and stores anonymous statistics about deployed Nextcloud instances. Source code of the server can be found at [https://github.com/nextcloud/survey\\_server](https://github.com/nextcloud/survey_server \"https://github.com/nextcloud/survey\\_server\") and source code of the client at [https://github.com/nextcloud/survey\\_client](https://github.com/nextcloud/survey_client \"https://github.com/nextcloud/survey\\_client\")\n\n",
+        "raw": {
+          "asset_identifier": "surveyserver.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The survey server data processes and stores anonymous statistics about deployed Nextcloud instances. Source code of the server can be found at [https://github.com/nextcloud/survey\\_server](https://github.com/nextcloud/survey_server \"https://github.com/nextcloud/survey\\_server\") and source code of the client at [https://github.com/nextcloud/survey\\_client](https://github.com/nextcloud/survey_client \"https://github.com/nextcloud/survey\\_client\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "surveyserver.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This domain serves updates to Nextcloud server and the Nextcloud desktop client.\n\n- Client updater server:[https://github.com/nextcloud/client\\_updater\\_server](https://github.com/nextcloud/client_updater_server \"https://github.com/nextcloud/client\\_updater\\_server\")\n- Server updater server: [https://github.com/nextcloud/updater\\_server](https://github.com/nextcloud/updater_server \"https://github.com/nextcloud/updater\\_server\")\n\nWhile updates are cryptographically signed this is still a core part of Nextcloud. We thus pay out monetary rewards for issues affecting the integrity of the system. (e.g. allowing an attacker to announce malicious updates)\n\n",
+        "raw": {
+          "asset_identifier": "updates.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This domain serves updates to Nextcloud server and the Nextcloud desktop client.\n\n- Client updater server:[https://github.com/nextcloud/client\\_updater\\_server](https://github.com/nextcloud/client_updater_server \"https://github.com/nextcloud/client\\_updater\\_server\")\n- Server updater server: [https://github.com/nextcloud/updater\\_server](https://github.com/nextcloud/updater_server \"https://github.com/nextcloud/updater\\_server\")\n\nWhile updates are cryptographically signed this is still a core part of Nextcloud. We thus pay out monetary rewards for issues affecting the integrity of the system. (e.g. allowing an attacker to announce malicious updates)\n\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "updates.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Note that usercontent.apps.nextcloud.com serves potentially untrusted user content and is always setting a Content-Type of attachment. The source code for the software can be found at [https://github.com/nextcloud/usercontent.apps.nextcloud.com](https://github.com/nextcloud/usercontent.apps.nextcloud.com \"https://github.com/nextcloud/usercontent.apps.nextcloud.com\")\n\n",
+        "raw": {
+          "asset_identifier": "usercontent.apps.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Note that usercontent.apps.nextcloud.com serves potentially untrusted user content and is always setting a Content-Type of attachment. The source code for the software can be found at [https://github.com/nextcloud/usercontent.apps.nextcloud.com](https://github.com/nextcloud/usercontent.apps.nextcloud.com \"https://github.com/nextcloud/usercontent.apps.nextcloud.com\")\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "usercontent.apps.nextcloud.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "[https://cloud.nextcloud.com](https://cloud.nextcloud.com \"https://cloud.nextcloud.com\") is our internal production Nextcloud instance. Please limit testing to your own testing instances.\n\n",
+        "raw": {
+          "asset_identifier": "cloud.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "[https://cloud.nextcloud.com](https://cloud.nextcloud.com \"https://cloud.nextcloud.com\") is our internal production Nextcloud instance. Please limit testing to your own testing instances.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "cloud.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is a legacy system now redirecting to our [eventyay page](https://eventyay.com/e/de88e486/). Please report issues within eventyay directly to [the responsible contacts](https://eventyay.com/imprint/).\n\n",
+        "raw": {
+          "asset_identifier": "conf.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is a legacy system now redirecting to our [eventyay page](https://eventyay.com/e/de88e486/). Please report issues within eventyay directly to [the responsible contacts](https://eventyay.com/imprint/).\n\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "conf.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Code from [https://github.com/daita/files_fulltextsearch_tesseract](https://github.com/daita/files_fulltextsearch_tesseract) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+        "raw": {
+          "asset_identifier": "daita/files_fulltextsearch_tesseract",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Code from [https://github.com/daita/files_fulltextsearch_tesseract](https://github.com/daita/files_fulltextsearch_tesseract) – Note that some folders such as tests and so on will not be packaged. Please make sure that the referenced file is thus also existent in our final releases.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "daita/files_fulltextsearch_tesseract"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "[https://demo.nextcloud.com](https://demo.nextcloud.com \"https://demo.nextcloud.com\") is running on dedicated machines. While you can try to find security vulnerabilities in the demo instances there please verify that they are also exploitable in the current Nextcloud source code. Select then the proper component while reporting.\n\n",
+        "raw": {
+          "asset_identifier": "demo.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "[https://demo.nextcloud.com](https://demo.nextcloud.com \"https://demo.nextcloud.com\") is running on dedicated machines. While you can try to find security vulnerabilities in the demo instances there please verify that they are also exploitable in the current Nextcloud source code. Select then the proper component while reporting.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "demo.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Our Drone server contains no sensitive data and we would ask you to not test against our development environments. If you discover a security issue in Drone please report this to [https://github.com/drone/drone](https://github.com/drone/drone \"https://github.com/drone/drone\") instead.\n\n",
+        "raw": {
+          "asset_identifier": "drone.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Our Drone server contains no sensitive data and we would ask you to not test against our development environments. If you discover a security issue in Drone please report this to [https://github.com/drone/drone](https://github.com/drone/drone \"https://github.com/drone/drone\") instead.\n\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "drone.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "⛔ Please note that the JIRA instance running at https://nextcloud.atlassian.net/jira/dashboard is not ours.\nIt is not operated on our infrastructure, we do not own/host the domain nor are we in any way related to the JIRA instance.\n🔒 Any reports regarding this will be closed as N/A!",
+        "raw": {
+          "asset_identifier": "https://nextcloud.atlassian.net/jira/dashboard",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "⛔ Please note that the JIRA instance running at https://nextcloud.atlassian.net/jira/dashboard is not ours.\nIt is not operated on our infrastructure, we do not own/host the domain nor are we in any way related to the JIRA instance.\n🔒 Any reports regarding this will be closed as N/A!",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://nextcloud.atlassian.net/jira/dashboard"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We would ask you to not test against our development environments. If you discover a security issue in Sentry please report this to https://sentry.io/security/ instead.",
+        "raw": {
+          "asset_identifier": "sentry.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We would ask you to not test against our development environments. If you discover a security issue in Sentry please report this to https://sentry.io/security/ instead.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "sentry.nextcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "https://try.nextcloud.com is running on dedicated machines. While you can try to find security vulnerabilities in the demo instances there please verify that they are also exploitable in the current Nextcloud source code. Select then the proper component while reporting.",
+        "raw": {
+          "asset_identifier": "try.nextcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "https://try.nextcloud.com is running on dedicated machines. While you can try to find security vulnerabilities in the demo instances there please verify that they are also exploitable in the current Nextcloud source code. Select then the proper component while reporting.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "try.nextcloud.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/nextcloud"
+}

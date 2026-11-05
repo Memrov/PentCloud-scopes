@@ -1,0 +1,75 @@
+{
+  "id": "hackerone:revive_adserver",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 32.0,
+    "average_time_to_report_resolved": 198.0,
+    "handle": "revive_adserver",
+    "id": 0,
+    "managed_program": false,
+    "name": "Revive Adserver",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/revive_adserver",
+    "website": "https://www.revive-adserver.com"
+  },
+  "name": "Revive Adserver",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "87a3733c24446b2d169b880073defad23cedeb07747bcf59abbf69657c58d6b1",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "revive_adserver",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/revive-adserver/revive-adserver",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/revive-adserver/revive-adserver"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.revive-adserver.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.revive-adserver.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/revive_adserver"
+}

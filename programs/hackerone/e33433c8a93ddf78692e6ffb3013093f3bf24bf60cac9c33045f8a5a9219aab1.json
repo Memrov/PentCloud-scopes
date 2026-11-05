@@ -1,0 +1,327 @@
+{
+  "id": "hackerone:audible",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 545.0,
+    "average_time_to_first_program_response": 49.0,
+    "average_time_to_report_resolved": 1572.0,
+    "handle": "audible",
+    "id": 0,
+    "managed_program": false,
+    "name": "Audible",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 88,
+    "submission_state": "open",
+    "url": "https://hackerone.com/audible",
+    "website": "http://audible.com"
+  },
+  "name": "Audible",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "5629142d2bd612c651e530aa876ee844e6787c3a5dd014748748a8148d73f1b3",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "audible",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This scope item encompasses the following domains:\n\n- \\*.audible.com\n- \\*.audible.ca\n- \\*.audible.com.au\n- \\*.audible.co.uk\n- \\*.audible.com.br\n- \\*.audible.ca\n- \\*.audible.in\n- \\*.audible.fr\n- \\*.audible.es\n- \\*.audible.co.jp\n- \\*.audible.it\n- \\*.audible.de\n\nThere are 3rd party applications within this domain space, and are out of scope. If it is impossible to determine if the asset is 3rd party on submission, we'll reward the issue once, then specifically mention the domain as out of scope.",
+        "raw": {
+          "asset_identifier": "*.audible.(TLD)",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This scope item encompasses the following domains:\n\n- \\*.audible.com\n- \\*.audible.ca\n- \\*.audible.com.au\n- \\*.audible.co.uk\n- \\*.audible.com.br\n- \\*.audible.ca\n- \\*.audible.in\n- \\*.audible.fr\n- \\*.audible.es\n- \\*.audible.co.jp\n- \\*.audible.it\n- \\*.audible.de\n\nThere are 3rd party applications within this domain space, and are out of scope. If it is impossible to determine if the asset is 3rd party on submission, we'll reward the issue once, then specifically mention the domain as out of scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "*.audible.(TLD)"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "(https://apps.apple.com/us/app/audible-audiobooks-podcasts/id379693831)",
+        "raw": {
+          "asset_identifier": "379693831",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "(https://apps.apple.com/us/app/audible-audiobooks-podcasts/id379693831)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "379693831"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "(https://play.google.com/store/apps/details?id=com.audible.application)",
+        "raw": {
+          "asset_identifier": "com.audible.application",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "(https://play.google.com/store/apps/details?id=com.audible.application)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.audible.application"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "tax.audible.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "tax.audible.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.acx.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.acx.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Example:\n* https://creators.audibletrial.com\n* https://audible.targetcircle.com/signup",
+        "raw": {
+          "asset_identifier": "Affiliate Programs",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Example:\n* https://creators.audibletrial.com\n* https://audible.targetcircle.com/signup",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Affiliate Programs"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Examples:\n* https://www.audible.ca/blog/en\n* https://www.audible.com/blog",
+        "raw": {
+          "asset_identifier": "All Audible blogs across marketplaces",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Examples:\n* https://www.audible.ca/blog/en\n* https://www.audible.com/blog",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "All Audible blogs across marketplaces"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This includes help.audible.com",
+        "raw": {
+          "asset_identifier": "All help centers across marketplaces",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This includes help.audible.com",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "All help centers across marketplaces"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "acx-horizonte.audible.com/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "acx-horizonte.audible.com/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is adobe owned, do not send requests to this.",
+        "raw": {
+          "asset_identifier": "adobedtm.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is adobe owned, do not send requests to this.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "adobedtm.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is Adobe owned, do not send requests to this.",
+        "raw": {
+          "asset_identifier": "demdex.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is Adobe owned, do not send requests to this.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "demdex.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "3rd party asset",
+        "raw": {
+          "asset_identifier": "https://www.audible.com/ep/podcast-development-program",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "3rd party asset",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://www.audible.com/ep/podcast-development-program"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "3rd party asset",
+        "raw": {
+          "asset_identifier": "https://www.audiblehub.com/submit",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "3rd party asset",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://www.audiblehub.com/submit"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "3rd party asset",
+        "raw": {
+          "asset_identifier": "newsletters.audible.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "3rd party asset",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "newsletters.audible.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is adobe owned, do not send requests to this.",
+        "raw": {
+          "asset_identifier": "omtrdc.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is adobe owned, do not send requests to this.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "omtrdc.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "3rd party asset",
+        "raw": {
+          "asset_identifier": "www.audiblecareers.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "3rd party asset",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.audiblecareers.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/audible"
+}

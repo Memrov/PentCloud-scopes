@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Memrov/PentCloud-scopes/main/schema/program.schema.json",
+  "title": "PentCloud public program record v1",
+  "description": "Discovery data from a public upstream snapshot. Not testing authorization or live provider verification.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "platform", "source_id", "name", "url", "source_status", "targets", "metadata", "source"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "minLength": 1},
+    "platform": {"enum": ["bugcrowd", "hackerone", "intigriti", "yeswehack"]},
+    "source_id": {"type": "string", "minLength": 1},
+    "name": {"type": "string", "minLength": 1},
+    "url": {"type": "string", "format": "uri"},
+    "source_status": {
+      "type": "object", "additionalProperties": false, "required": ["field", "value"],
+      "properties": {"field": {"type": ["string", "null"]}, "value": {"type": ["string", "boolean", "null"]}}
+    },
+    "targets": {
+      "type": "object", "additionalProperties": false, "required": ["in_scope", "out_of_scope"],
+      "properties": {
+        "in_scope": {"type": "array", "items": {"$ref": "#/$defs/asset"}},
+        "out_of_scope": {"type": "array", "items": {"$ref": "#/$defs/asset"}}
+      }
+    },
+    "metadata": {"type": "object"},
+    "source": {
+      "type": "object", "additionalProperties": false, "required": ["repository", "path", "record_sha256"],
+      "properties": {
+        "repository": {"const": "arkadiyt/bounty-targets-data"},
+        "path": {"enum": ["data/bugcrowd_data.json", "data/hackerone_data.json", "data/intigriti_data.json", "data/yeswehack_data.json"]},
+        "record_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    }
+  },
+  "$defs": {
+    "asset": {
+      "type": "object", "additionalProperties": false,
+      "required": ["type", "value", "instructions", "eligible_for_bounty", "eligible_for_submission", "raw"],
+      "properties": {
+        "type": {"type": "string", "minLength": 1},
+        "value": {"type": "string", "minLength": 1},
+        "instructions": {"type": ["string", "null"]},
+        "eligible_for_bounty": {"type": ["boolean", "null"]},
+        "eligible_for_submission": {"type": ["boolean", "null"]},
+        "raw": {"type": "object"}
+      }
+    }
+  }
+}

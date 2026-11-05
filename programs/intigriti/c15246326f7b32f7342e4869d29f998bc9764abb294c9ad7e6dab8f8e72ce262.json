@@ -1,0 +1,211 @@
+{
+  "id": "intigriti:23f5d877-7948-4740-830c-393e66753fc4",
+  "metadata": {
+    "company_handle": "monzobank",
+    "confidentiality_level": "public",
+    "handle": "monzopublicbugbountyprogram",
+    "id": "23f5d877-7948-4740-830c-393e66753fc4",
+    "max_bounty": {
+      "currency": "GBP",
+      "value": 12500
+    },
+    "min_bounty": {
+      "currency": "GBP",
+      "value": 50
+    },
+    "name": "Monzo Public Bug Bounty Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/monzobank/monzopublicbugbountyprogram/detail"
+  },
+  "name": "Monzo Public Bug Bounty Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "0ddf737764c4bd5d0f1b564b5153007bb0fef440969a1d0d5e8816679d9e4f36",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "23f5d877-7948-4740-830c-393e66753fc4",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The crux of Monzo where the APIs live as well as Monzo Business. Excludes the main website (like `monzo.com`/`www.monzo.com`).",
+        "raw": {
+          "description": "The crux of Monzo where the APIs live as well as Monzo Business. Excludes the main website (like `monzo.com`/`www.monzo.com`).",
+          "endpoint": "*.monzo.com",
+          "impact": "Tier 1",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.monzo.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Where our internet-facing services are accessed",
+        "raw": {
+          "description": "Where our internet-facing services are accessed",
+          "endpoint": "*.prod-ffs.io",
+          "impact": "Tier 1",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.prod-ffs.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The public seed of the Monzo app on iOS",
+        "raw": {
+          "description": "The public seed of the Monzo app on iOS",
+          "endpoint": "1052238659",
+          "impact": "Tier 2",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "1052238659"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The public seed of the Monzo app on Android",
+        "raw": {
+          "description": "The public seed of the Monzo app on Android",
+          "endpoint": "co.uk.getmondo",
+          "impact": "Tier 2",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "co.uk.getmondo"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.monzo.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.monzo.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "monzo.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "monzo.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*/p2p/*",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*/p2p/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*/contact-discovery/*",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*/contact-discovery/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*/inbound-p2p/*",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*/inbound-p2p/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Houses the services for the pay me/request payment feature",
+        "raw": {
+          "description": "Houses the services for the pay me/request payment feature",
+          "endpoint": "*.monzo.me",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.monzo.me"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "We use a third-party, Discourse for our community forums. Third-parties are out of scope for our programs.",
+        "raw": {
+          "description": "We use a third-party, Discourse for our community forums. Third-parties are out of scope for our programs.",
+          "endpoint": "community.monzo.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "community.monzo.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is our connection to Okta for internal authentication. Third-parties are out of scope for our programs. ",
+        "raw": {
+          "description": "This is our connection to Okta for internal authentication. Third-parties are out of scope for our programs. ",
+          "endpoint": "login.internal.monzo.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "login.internal.monzo.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Monzo.me is a service that allows Monzo users to easily receive money from others via a personalised link, even if the sender doesn't have a Monzo account.",
+        "raw": {
+          "description": "Monzo.me is a service that allows Monzo users to easily receive money from others via a personalised link, even if the sender doesn't have a Monzo account.",
+          "endpoint": "monzo.me",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "monzo.me"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/monzobank/monzopublicbugbountyprogram/detail"
+}

@@ -1,0 +1,328 @@
+{
+  "id": "intigriti:4afd6f0f-40a3-4f6d-a332-56b5970d12a0",
+  "metadata": {
+    "company_handle": "buhlergroup",
+    "confidentiality_level": "public",
+    "handle": "buhlergroupvdp",
+    "id": "4afd6f0f-40a3-4f6d-a332-56b5970d12a0",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Bühler Group VDP",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/buhlergroup/buhlergroupvdp/detail"
+  },
+  "name": "Bühler Group VDP",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "03c7f4229a03058564b545ff1ae6dfc1d94e77aa70fcc4a656301fe287dd37e1",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "4afd6f0f-40a3-4f6d-a332-56b5970d12a0",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "- Our main domain containing hundreds of subdomains/assets. Can be customer facing websites and services but also assets for internal purposes\n- For assets requiring authentication, please refer to the FAQ section",
+        "raw": {
+          "description": "- Our main domain containing hundreds of subdomains/assets. Can be customer facing websites and services but also assets for internal purposes\n- For assets requiring authentication, please refer to the FAQ section",
+          "endpoint": "*.buhlergroup.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.buhlergroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.pk-buhler.ch",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.pk-buhler.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "- containing subdomains/assets specific to our data science team\n- For assets requiring authentication, please refer to the FAQ section",
+        "raw": {
+          "description": "- containing subdomains/assets specific to our data science team\n- For assets requiring authentication, please refer to the FAQ section",
+          "endpoint": "*.buhler-datascience.ch",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.buhler-datascience.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "- containing subdomains/assets related to a customer facing web application\n- For assets requiring authentication, please refer to the FAQ section",
+        "raw": {
+          "description": "- containing subdomains/assets related to a customer facing web application\n- For assets requiring authentication, please refer to the FAQ section",
+          "endpoint": "*.buhlercloud.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.buhlercloud.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "- containing subdomains/assets related to customer facing AI services\n- For assets requiring authentication, please refer to the FAQ section",
+        "raw": {
+          "description": "- containing subdomains/assets related to customer facing AI services\n- For assets requiring authentication, please refer to the FAQ section",
+          "endpoint": "*.buhlergroup.ai",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.buhlergroup.ai"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "- containing subdomains/assets located in our Chinese locations. Mainly IT systems related to internal purposes.\n- For assets requiring authentication, please refer to the FAQ section",
+        "raw": {
+          "description": "- containing subdomains/assets located in our Chinese locations. Mainly IT systems related to internal purposes.\n- For assets requiring authentication, please refer to the FAQ section",
+          "endpoint": "*.buhlergroup.cn",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.buhlergroup.cn"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "- containing subdomains/assets related to customer facing digital services\n- For assets requiring authentication, please refer to the FAQ section",
+        "raw": {
+          "description": "- containing subdomains/assets related to customer facing digital services\n- For assets requiring authentication, please refer to the FAQ section",
+          "endpoint": "*.buhlergroup.io",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.buhlergroup.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "- containing subdomains/assets of test systems\n- For assets requiring authentication, please refer to the FAQ section",
+        "raw": {
+          "description": "- containing subdomains/assets of test systems\n- For assets requiring authentication, please refer to the FAQ section",
+          "endpoint": "*.buhlertest.ch",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.buhlertest.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "- This is our public IP range used for systems located in the DMZ. (Sub)domains listed above may point to IPs in this range but there are also other types of assets such as network devices.\n- For assets requiring authentication, please refer to the FAQ section",
+        "raw": {
+          "description": "- This is our public IP range used for systems located in the DMZ. (Sub)domains listed above may point to IPs in this range but there are also other types of assets such as network devices.\n- For assets requiring authentication, please refer to the FAQ section",
+          "endpoint": "194.9.120.0 - 194.9.123.255",
+          "impact": "No Bounty",
+          "type": "iprange"
+        },
+        "type": "iprange",
+        "value": "194.9.120.0 - 194.9.123.255"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "kroki.devops.buhlergroup.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "kroki.devops.buhlergroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "puml.devops.buhlergroup.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "puml.devops.buhlergroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.info.buhlergroup.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.info.buhlergroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.learnhub.buhlergroup.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.learnhub.buhlergroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.virtualworld-portal.buhlergroup.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.virtualworld-portal.buhlergroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.virtualworld.buhlergroup.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.virtualworld.buhlergroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.webinars.buhlergroup.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.webinars.buhlergroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "bestbuy.buhlergroup.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "bestbuy.buhlergroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "channel.buhlergroup.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "channel.buhlergroup.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "gitlab.buhler-datascience.ch/api/v4/projects",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "gitlab.buhler-datascience.ch/api/v4/projects"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "imap.buhlergroup.cn",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "imap.buhlergroup.cn"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "pop.buhlergroup.cn",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "pop.buhlergroup.cn"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "smtp.buhlergroup.cn",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "smtp.buhlergroup.cn"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/buhlergroup/buhlergroupvdp/detail"
+}

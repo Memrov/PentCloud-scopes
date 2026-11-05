@@ -1,0 +1,93 @@
+{
+  "id": "intigriti:fa431861-6fb9-413e-bc33-04325250a2fb",
+  "metadata": {
+    "company_handle": "ivoai",
+    "confidentiality_level": "public",
+    "handle": "ivovulnerabilitydisclosureprogram",
+    "id": "fa431861-6fb9-413e-bc33-04325250a2fb",
+    "max_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "name": "Ivo: AI VDP",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/ivoai/ivovulnerabilitydisclosureprogram/detail"
+  },
+  "name": "Ivo: AI VDP",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "e6e6bee0488e03c8a7f12664836427342ece89e02319b207fb3ddab5b160c7c3",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "fa431861-6fb9-413e-bc33-04325250a2fb",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Ivo was previously known as Latch, and this legacy domain remains active to support several feature services that are yet to be migrated to the ivo.ai domain",
+        "raw": {
+          "description": "Ivo was previously known as Latch, and this legacy domain remains active to support several feature services that are yet to be migrated to the ivo.ai domain",
+          "endpoint": "*.latchapp.com",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.latchapp.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The Ivo web application is in scope.\nIvo authentication and authorization flows are also in scope.\n\nTesting should focus on authentication, authorization, access control, session handling, user account security, document access controls, sensitive data exposure, business logic flaws, and vulnerabilities affecting application functionality or user data as well as login security, session management, token handling, account access controls, authorization bypass, privilege escalation, cross-account access, and weaknesses that could allow unauthorized access to user accounts, documents, APIs, or restricted functionality.",
+        "raw": {
+          "description": "The Ivo web application is in scope.\nIvo authentication and authorization flows are also in scope.\n\nTesting should focus on authentication, authorization, access control, session handling, user account security, document access controls, sensitive data exposure, business logic flaws, and vulnerabilities affecting application functionality or user data as well as login security, session management, token handling, account access controls, authorization bypass, privilege escalation, cross-account access, and weaknesses that could allow unauthorized access to user accounts, documents, APIs, or restricted functionality.",
+          "endpoint": "https://app.ivo.ai/*",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://app.ivo.ai/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Ivo public APIs are in scope.\n\nTesting should focus on API authentication, authorization, access control, IDOR/BOLA, excessive data exposure, token handling, rate-sensitive abuse with clear impact, and API vulnerabilities affecting user data, document data, account data, or Ivo.ai-controlled functionality.",
+        "raw": {
+          "description": "Ivo public APIs are in scope.\n\nTesting should focus on API authentication, authorization, access control, IDOR/BOLA, excessive data exposure, token handling, rate-sensitive abuse with clear impact, and API vulnerabilities affecting user data, document data, account data, or Ivo.ai-controlled functionality.",
+          "endpoint": "All Ivo public APIs",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All Ivo public APIs"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The Ivo Microsoft Word add-in is in scope.\n\nTesting should focus on add-in security, authentication flows, authorization boundaries, document handling, data transmission, token handling, sensitive data exposure, and vulnerabilities affecting users’ documents or Ivo.ai integrations.",
+        "raw": {
+          "description": "The Ivo Microsoft Word add-in is in scope.\n\nTesting should focus on add-in security, authentication flows, authorization boundaries, document handling, data transmission, token handling, sensitive data exposure, and vulnerabilities affecting users’ documents or Ivo.ai integrations.",
+          "endpoint": "Ivo Microsoft Word add-in",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Ivo Microsoft Word add-in"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/ivoai/ivovulnerabilitydisclosureprogram/detail"
+}

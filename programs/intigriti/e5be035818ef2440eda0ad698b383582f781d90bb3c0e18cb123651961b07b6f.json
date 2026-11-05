@@ -1,0 +1,145 @@
+{
+  "id": "intigriti:4fdf596d-6335-4568-a501-13dbfeafe059",
+  "metadata": {
+    "company_handle": "postenbringas",
+    "confidentiality_level": "public",
+    "handle": "vdp",
+    "id": "4fdf596d-6335-4568-a501-13dbfeafe059",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Posten Bring Responsible Disclosure",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/postenbringas/vdp/detail"
+  },
+  "name": "Posten Bring Responsible Disclosure",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "f689d1332bd749d5b30068835b6eed640aa231a112b3be5668e6207f583e86c0",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "4fdf596d-6335-4568-a501-13dbfeafe059",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://*.mybring.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://*.mybring.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://*.bring.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://*.bring.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://*.posten.no",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://*.posten.no"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://*.digipostdata.no",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://*.digipostdata.no"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://*.digipost.no",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://*.digipost.no"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://github.com/digipost",
+          "impact": "No Bounty",
+          "type": null
+        },
+        "type": "unknown",
+        "value": "https://github.com/digipost"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Digipost Android app",
+          "impact": "No Bounty",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "Digipost Android app"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Digipost iOS app",
+          "impact": "No Bounty",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "Digipost iOS app"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/postenbringas/vdp/detail"
+}

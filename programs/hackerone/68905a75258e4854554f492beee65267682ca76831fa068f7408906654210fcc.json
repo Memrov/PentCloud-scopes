@@ -1,0 +1,309 @@
+{
+  "id": "hackerone:rockstargames",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 0.0,
+    "average_time_to_first_program_response": 10.0,
+    "average_time_to_report_resolved": null,
+    "handle": "rockstargames",
+    "id": 0,
+    "managed_program": true,
+    "name": "Rockstar Games",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 77,
+    "submission_state": "open",
+    "url": "https://hackerone.com/rockstargames",
+    "website": "http://www.rockstargames.com/"
+  },
+  "name": "Rockstar Games",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "576989bd9a7b1cd2e3fe0b699731d94e2db3d00b48d98db254356424db336133",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "rockstargames",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Some subdomains excluded. See the rest of the scope table below.",
+        "raw": {
+          "asset_identifier": "*.rockstargames.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Some subdomains excluded. See the rest of the scope table below.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.rockstargames.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Rockstar Games Launcher",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Rockstar Games Launcher"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "circolocorecords.com/",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "circolocorecords.com/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "prod.ros.rockstargames.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "prod.ros.rockstargames.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "rockstarnorth.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "rockstarnorth.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "socialclub.rockstargames.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "socialclub.rockstargames.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Please note that the checkout/payment process go through the Xsolla platform. If you believe you have found a vulnerability in the checkout/payment process, please confirm first whether the vulnerability is in the general Xsolla platform, or our specific implementation.",
+        "raw": {
+          "asset_identifier": "store.rockstargames.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Please note that the checkout/payment process go through the Xsolla platform. If you believe you have found a vulnerability in the checkout/payment process, please confirm first whether the vulnerability is in the general Xsolla platform, or our specific implementation.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "store.rockstargames.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Vulnerability reports for support.rockstargames.com may not be awarded bounties if it is discovered that the root vulnerability lies in Zendesk's code. Hackers are encouraged to submit such reports to [Zendesk's bug bounty program](https://hackerone.com/zendesk).",
+        "raw": {
+          "asset_identifier": "support.rockstargames.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Vulnerability reports for support.rockstargames.com may not be awarded bounties if it is discovered that the root vulnerability lies in Zendesk's code. Hackers are encouraged to submit such reports to [Zendesk's bug bounty program](https://hackerone.com/zendesk).",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "support.rockstargames.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.rockstargames.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.rockstargames.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "anomotion.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "anomotion.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Any subdomain that does NOT contain its own valid content and instead redirects to 'rockstargames.com/?domain-check-failed', UNLESS you can demonstrate an impact to a valid domain or subdomain.",
+        "raw": {
+          "asset_identifier": "any-invalid-domains.rockstargames.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Any subdomain that does NOT contain its own valid content and instead redirects to 'rockstargames.com/?domain-check-failed', UNLESS you can demonstrate an impact to a valid domain or subdomain.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "any-invalid-domains.rockstargames.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This subdomain is ineligible for bounty at this time.",
+        "raw": {
+          "asset_identifier": "bomgar.rockstargames.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This subdomain is ineligible for bounty at this time.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "bomgar.rockstargames.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We do not have direct control over this subdomain and will not be accepting submissions for it.",
+        "raw": {
+          "asset_identifier": "emailcontent.rockstargames.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We do not have direct control over this subdomain and will not be accepting submissions for it.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "emailcontent.rockstargames.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "faspex.rockstargames.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "faspex.rockstargames.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "lifeinvader.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "lifeinvader.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/rockstargames"
+}

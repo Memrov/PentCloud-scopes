@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:agoda-public",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 348.0,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": null,
+    "handle": "agoda-public",
+    "id": 0,
+    "managed_program": true,
+    "name": "Agoda Public",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 93,
+    "submission_state": "open",
+    "url": "https://hackerone.com/agoda-public",
+    "website": "https://www.agoda.com/"
+  },
+  "name": "Agoda Public",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "f2a59dac3e19d0104986ab77b95e7ebe522202043f6897c0aeee45c5fdaab439",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "agoda-public",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://www.agoda.com/account/agodacash",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://www.agoda.com/account/agodacash"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://www.agoda.com/account/cashback",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://www.agoda.com/account/cashback"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://www.agoda.com/book/",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://www.agoda.com/book/"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/agoda-public"
+}

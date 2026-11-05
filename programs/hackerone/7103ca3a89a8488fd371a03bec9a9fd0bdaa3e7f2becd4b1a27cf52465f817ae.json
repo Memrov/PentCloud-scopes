@@ -1,0 +1,399 @@
+{
+  "id": "hackerone:trip_com",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 289.0,
+    "average_time_to_first_program_response": 4.0,
+    "average_time_to_report_resolved": 466.0,
+    "handle": "trip_com",
+    "id": 0,
+    "managed_program": true,
+    "name": "Trip.com",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 89,
+    "submission_state": "open",
+    "url": "https://hackerone.com/trip_com",
+    "website": "http://trip.com"
+  },
+  "name": "Trip.com",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "0c4f0373bc63c0b5dda16182633b5ed34897f45de69eb4cc053b5fc68c20344f",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "trip_com",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.budgetair.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.budgetair.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Low priority Scope",
+        "raw": {
+          "asset_identifier": "*.cheaptickets.nl",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Low priority Scope",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.cheaptickets.nl"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.flugladen.de",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.flugladen.de"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The staging.travix.com & stg.travix.com & dev.travix.com & development.travix.com & playground.travix.com is in scope, but no bounties will be awarded for bugs found in these platforms. If these platforms can be leveraged to compromise production and infra stack, these bugs will be considered in scope for bounty.",
+        "raw": {
+          "asset_identifier": "*.staging.travix.com",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The staging.travix.com & stg.travix.com & dev.travix.com & development.travix.com & playground.travix.com is in scope, but no bounties will be awarded for bugs found in these platforms. If these platforms can be leveraged to compromise production and infra stack, these bugs will be considered in scope for bounty.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "*.staging.travix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Low priority Scope",
+        "raw": {
+          "asset_identifier": "*.trainpal.com,*.mytrainpal.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Low priority Scope",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.trainpal.com,*.mytrainpal.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Low priority Scope",
+        "raw": {
+          "asset_identifier": "*.travix.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Low priority Scope",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.travix.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Low priority Scope",
+        "raw": {
+          "asset_identifier": "*.travix.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Low priority Scope",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.travix.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.trip.biz",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.trip.biz"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Except for the domain name of <local>. trip.com\nLow priority Scope",
+        "raw": {
+          "asset_identifier": "*.trip.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Except for the domain name of <local>. trip.com\nLow priority Scope",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.trip.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.triplinkintl.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.triplinkintl.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.tyo-masters.co.jp",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.tyo-masters.co.jp"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.vayama.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.vayama.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.vliegwinkel.nl",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.vliegwinkel.nl"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Trip Main Sites\nHigh priority Scope",
+        "raw": {
+          "asset_identifier": "<locale>.trip.com",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Trip Main Sites\nHigh priority Scope",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "<locale>.trip.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "High priority Scope",
+        "raw": {
+          "asset_identifier": "com.trip.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "High priority Scope",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.trip.android"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "High priority Scope",
+        "raw": {
+          "asset_identifier": "com.trip.ios",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "High priority Scope",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.trip.ios"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The staging.travix.com & stg.travix.com & dev.travix.com & development.travix.com & playground.travix.com is in scope, but no bounties will be awarded for bugs found in these platforms. If these platforms can be leveraged to compromise production and infra stack, these bugs will be considered in scope for bounty.",
+        "raw": {
+          "asset_identifier": "*.dev.travix.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The staging.travix.com & stg.travix.com & dev.travix.com & development.travix.com & playground.travix.com is in scope, but no bounties will be awarded for bugs found in these platforms. If these platforms can be leveraged to compromise production and infra stack, these bugs will be considered in scope for bounty.",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.dev.travix.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The staging.travix.com & stg.travix.com & dev.travix.com & development.travix.com & playground.travix.com is in scope, but no bounties will be awarded for bugs found in these platforms. If these platforms can be leveraged to compromise production and infra stack, these bugs will be considered in scope for bounty.",
+        "raw": {
+          "asset_identifier": "*.development.travix.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The staging.travix.com & stg.travix.com & dev.travix.com & development.travix.com & playground.travix.com is in scope, but no bounties will be awarded for bugs found in these platforms. If these platforms can be leveraged to compromise production and infra stack, these bugs will be considered in scope for bounty.",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.development.travix.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The staging.travix.com & stg.travix.com & dev.travix.com & development.travix.com & playground.travix.com is in scope, but no bounties will be awarded for bugs found in these platforms. If these platforms can be leveraged to compromise production and infra stack, these bugs will be considered in scope for bounty.",
+        "raw": {
+          "asset_identifier": "*.playground.travix.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The staging.travix.com & stg.travix.com & dev.travix.com & development.travix.com & playground.travix.com is in scope, but no bounties will be awarded for bugs found in these platforms. If these platforms can be leveraged to compromise production and infra stack, these bugs will be considered in scope for bounty.",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.playground.travix.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The staging.travix.com & stg.travix.com & dev.travix.com & development.travix.com & playground.travix.com is in scope, but no bounties will be awarded for bugs found in these platforms. If these platforms can be leveraged to compromise production and infra stack, these bugs will be considered in scope for bounty.",
+        "raw": {
+          "asset_identifier": "*.stg.travix.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The staging.travix.com & stg.travix.com & dev.travix.com & development.travix.com & playground.travix.com is in scope, but no bounties will be awarded for bugs found in these platforms. If these platforms can be leveraged to compromise production and infra stack, these bugs will be considered in scope for bounty.",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.stg.travix.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/trip_com"
+}

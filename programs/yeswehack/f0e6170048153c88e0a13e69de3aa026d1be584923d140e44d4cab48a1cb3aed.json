@@ -1,0 +1,824 @@
+{
+  "id": "yeswehack:infomaniak-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "infomaniak-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 7000,
+    "min_bounty": 100,
+    "name": "Infomaniak Bug Bounty program",
+    "public": true
+  },
+  "name": "Infomaniak Bug Bounty program",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "cc98b77fbb96c671aacd233dbe2e6fd1c3999d55488ea411b5e29acff5c3095e",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "infomaniak-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "login.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "login.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "manager.infomaniak.com/v3/*",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "manager.infomaniak.com/v3/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "shop.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "shop.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "ksuite.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "ksuite.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.kdrive.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "*.kdrive.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "swiss-backup*.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "swiss-backup*.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "www.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "www.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "api.infomaniak.com",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "api.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.kchat.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "*.kchat.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "calendar.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "calendar.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "chk.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "chk.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "contacts.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "contacts.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "etickets.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "etickets.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "kmeet.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "kmeet.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "kpaste.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "kpaste.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "mail.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "mail.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "player-radio.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "player-radio.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "storage*.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "storage*.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "sync.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "sync.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "swisstransfer.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "swisstransfer.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "vod.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "vod.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.vod2.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "*.vod2.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "welcome.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "welcome.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "www.swisstransfer.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "www.swisstransfer.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "euria.infomaniak.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "euria.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.infomaniak.drive"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://github.com/Infomaniak/desktop-kDrive",
+          "type": "application"
+        },
+        "type": "application",
+        "value": "https://github.com/Infomaniak/desktop-kDrive"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.mail",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.infomaniak.mail"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.auth",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.infomaniak.auth"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/fr/app/infomaniak-authenticator/id1478424817",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/fr/app/infomaniak-authenticator/id1478424817"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "kdrive.infomaniak.com/app/*/preview/*",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "kdrive.infomaniak.com/app/*/preview/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "kdrive.infomaniak.com/app/office*/*",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "kdrive.infomaniak.com/app/office*/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "ksuite.infomaniak.com/*/kdrive/*/preview/*",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "ksuite.infomaniak.com/*/kdrive/*/preview/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "infomaniak.events",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "infomaniak.events"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "hosting-ik.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "hosting-ik.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "ix2smbdyjt.infomaniak.site",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "ix2smbdyjt.infomaniak.site"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "5k8vrbdyje.infomaniak.site",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "5k8vrbdyje.infomaniak.site"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "fv3lfbdyjh.infomaniak.site",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "fv3lfbdyjh.infomaniak.site"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "l75pvbdyjo.infomaniak.site",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "l75pvbdyjo.infomaniak.site"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://github.com/Infomaniak/desktop-kChat",
+          "type": "application"
+        },
+        "type": "application",
+        "value": "https://github.com/Infomaniak/desktop-kChat"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.chat",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.infomaniak.chat"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/fr/app/infomaniak-kchat/id6443845553",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/fr/app/infomaniak-kchat/id6443845553"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.euria",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.infomaniak.euria"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/fr/app/infomaniak-euria/id6754152858",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/fr/app/infomaniak-euria/id6754152858"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.swisstransfer",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.infomaniak.swisstransfer"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/fr/app/infomaniak-swisstransfer/id6737686335",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/fr/app/infomaniak-swisstransfer/id6737686335"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.infomaniak.sync",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.infomaniak.sync"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.infomaniak.com",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "manager.infomaniak.com/*proxy*",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "manager.infomaniak.com/*proxy*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "api.pub1.infomaniak.cloud",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "api.pub1.infomaniak.cloud"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "api.pub2.infomaniak.cloud",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "api.pub2.infomaniak.cloud"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "s3.gva2.infomaniak.cloud",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "s3.gva2.infomaniak.cloud"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "s3.gva1.infomaniak.cloud",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "s3.gva1.infomaniak.cloud"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Assets not listed in the in scope section are to be considered as out of the scope of this program and won't be eligible for reward",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Assets not listed in the in scope section are to be considered as out of the scope of this program and won't be eligible for reward"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "We do not manage Open Stack dashboard which is therefore out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "We do not manage Open Stack dashboard which is therefore out of scope"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "ov-XX.infomaniak.ch and od-XX.infomaniak.ch sub domains",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "ov-XX.infomaniak.ch and od-XX.infomaniak.ch sub domains"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "This domain https://drive.infomaniak.com/app/office/:folder:/:file: is out of scope. This is only office application, an external app to open MS office documents.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "This domain https://drive.infomaniak.com/app/office/:folder:/:file: is out of scope. This is only office application, an external app to open MS office documents."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "FTP credentials from our customers, like *.ftp.infomaniak.com",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "FTP credentials from our customers, like *.ftp.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "VPS instances from our customers, like *.vps.infomaniak.com",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "VPS instances from our customers, like *.vps.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "MySQL credentials from our customers, like *.myd.infomaniak.com",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "MySQL credentials from our customers, like *.myd.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Jelastic subdomains : *.jcloud.ik-server.com, *.jpc.infomaniak.com, *.jpe.infomaniak.com",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Jelastic subdomains : *.jcloud.ik-server.com, *.jpc.infomaniak.com, *.jpe.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "User email verification",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "User email verification"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Websocket IPS-public credentials (MQTT, info-mq, IPS_RABBIT, ips-public). Public identifiers that do not allow access to information outside the scope of the user's profile.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Websocket IPS-public credentials (MQTT, info-mq, IPS_RABBIT, ips-public). Public identifiers that do not allow access to information outside the scope of the user's profile."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "S3 credentials from our customers, like s3.pub*.infomaniak.cloud",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "S3 credentials from our customers, like s3.pub*.infomaniak.cloud"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Database service instances from customers, like *.dbaas.infomaniak.cloud",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Database service instances from customers, like *.dbaas.infomaniak.cloud"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "acronis.infomaniak.com",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "acronis.infomaniak.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Partner program: pages about finding partner and sending offer, and reports about data already public on the partner directory are not eligible. Missing authorization on partner-program routes exposing private data remains in scope.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Partner program: pages about finding partner and sending offer, and reports about data already public on the partner directory are not eligible. Missing authorization on partner-program routes exposing private data remains in scope."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "storage*.infomaniak.com/newsletter/thumbnails/*",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "storage*.infomaniak.com/newsletter/thumbnails/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Information returned by /get-tickets-infos (including organizer, event_name, event_date, command_date, and masked email) is out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Information returned by /get-tickets-infos (including organizer, event_name, event_date, command_date, and masked email) is out of scope"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Moving or copying calendar events / contacts between containers by read-write collaborators (intended behavior)",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Moving or copying calendar events / contacts between containers by read-write collaborators (intended behavior)"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/infomaniak-bug-bounty-program"
+}

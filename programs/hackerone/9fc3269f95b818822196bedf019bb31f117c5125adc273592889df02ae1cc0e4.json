@@ -1,0 +1,327 @@
+{
+  "id": "hackerone:3cx",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 67.0,
+    "average_time_to_first_program_response": 16.0,
+    "average_time_to_report_resolved": 2932.0,
+    "handle": "3cx",
+    "id": 0,
+    "managed_program": false,
+    "name": "3CX",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 94,
+    "submission_state": "open",
+    "url": "https://hackerone.com/3cx",
+    "website": "https://www.3cx.com"
+  },
+  "name": "3CX",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "0386caa6de348078dcb06a459574e120d62bc10a295364fefcbddf1c7a8b86ec",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "3cx",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is a plugin that integrates 3CX Livechat into a WordPress site. A 3CX installation is required (On Premise or in the Cloud).\n\nLink to the plugin: https://wordpress.org/plugins/wp-live-chat-support/\nLink to the documentation: https://www.3cx.com/docs/manual/live-chat/",
+        "raw": {
+          "asset_identifier": "3CX Live chat WordPress plugin",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is a plugin that integrates 3CX Livechat into a WordPress site. A 3CX installation is required (On Premise or in the Cloud).\n\nLink to the plugin: https://wordpress.org/plugins/wp-live-chat-support/\nLink to the documentation: https://www.3cx.com/docs/manual/live-chat/",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "OTHER",
+        "value": "3CX Live chat WordPress plugin"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "1. Register on www.3cx.com using your **hackerone email address**. Confirm your email and follow the wizard to select a deployment type. (Please refer to our documentation for more information about each deployment type https://www.3cx.com/docs/manual/install/)\n\n2. **There might be new builds in the repository after you have installed it. If you find a vulnerability, before submitting it, make sure you update to the latest available version and ensure it is still valid. This includes Alpha/Beta/RC versions.**\n\n3. For any additional technical documentation you can refer to our website.",
+        "raw": {
+          "asset_identifier": "3CX Phone System",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "1. Register on www.3cx.com using your **hackerone email address**. Confirm your email and follow the wizard to select a deployment type. (Please refer to our documentation for more information about each deployment type https://www.3cx.com/docs/manual/install/)\n\n2. **There might be new builds in the repository after you have installed it. If you find a vulnerability, before submitting it, make sure you update to the latest available version and ensure it is still valid. This includes Alpha/Beta/RC versions.**\n\n3. For any additional technical documentation you can refer to our website.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "3CX Phone System"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "1. 3CX SBC requires an existing installation of 3CX Server. \n\n2. Use the following ISO instead to deploy 3CX SBC on-premise: https://downloads-global.3cx.com/downloads/debian12iso/debian-amd64-netinst-3cx.iso . \n\n3. In the 3CX Installer select 3CX SBC (not PBX)\n\n4. During the Installation you will be asked to enter the PBX FQDN and SBC key.\n\n5. **There might be new builds in the repository after you have installed it. If you find a vulnerability, before submitting it, make sure you update to the latest available version (both 3CX PBX and 3CX SBC) and ensure it is still valid. This includes Alpha/Beta/RC versions.**\n\n6. For any additional technical documentation you can refer to our website.",
+        "raw": {
+          "asset_identifier": "3CX SBC",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "1. 3CX SBC requires an existing installation of 3CX Server. \n\n2. Use the following ISO instead to deploy 3CX SBC on-premise: https://downloads-global.3cx.com/downloads/debian12iso/debian-amd64-netinst-3cx.iso . \n\n3. In the 3CX Installer select 3CX SBC (not PBX)\n\n4. During the Installation you will be asked to enter the PBX FQDN and SBC key.\n\n5. **There might be new builds in the repository after you have installed it. If you find a vulnerability, before submitting it, make sure you update to the latest available version (both 3CX PBX and 3CX SBC) and ensure it is still valid. This includes Alpha/Beta/RC versions.**\n\n6. For any additional technical documentation you can refer to our website.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "3CX SBC"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Other",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Other"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Endpoint used by the 3CX PBX to activate the product.",
+        "raw": {
+          "asset_identifier": "activate.3cx.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Endpoint used by the 3CX PBX to activate the product.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "activate.3cx.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Endpoint used by the 3CX PBX (and other services) to download various packages and files. \n\nIt contains sample configuration files which are commonly miscategorized as findings by researchers. ",
+        "raw": {
+          "asset_identifier": "downloads-global.3cx.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Endpoint used by the 3CX PBX (and other services) to download various packages and files. \n\nIt contains sample configuration files which are commonly miscategorized as findings by researchers. ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "downloads-global.3cx.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The 3CX App allows you to make and receive calls, schedule conferences, video call and chat with your team and customers from anywhere. You install the app and provision it by scanning your extension's QR code.\n\nUser manual: https://www.3cx.com/user-manual/installation-iphone/",
+        "raw": {
+          "asset_identifier": "https://apps.apple.com/us/app/3cx/id992045982",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The 3CX App allows you to make and receive calls, schedule conferences, video call and chat with your team and customers from anywhere. You install the app and provision it by scanning your extension's QR code.\n\nUser manual: https://www.3cx.com/user-manual/installation-iphone/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "https://apps.apple.com/us/app/3cx/id992045982"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The 3CX softphone app for Windows allows you to make calls, view the status of colleagues, chat, schedule a video conference and check voicemail from your desktop\n ",
+        "raw": {
+          "asset_identifier": "https://apps.microsoft.com/detail/3cx/9NW77489NGJ0",
+          "asset_type": "WINDOWS_APP_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The 3CX softphone app for Windows allows you to make calls, view the status of colleagues, chat, schedule a video conference and check voicemail from your desktop\n ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WINDOWS_APP_STORE_APP_ID",
+        "value": "https://apps.microsoft.com/detail/3cx/9NW77489NGJ0"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The 3CX App allows you to make and receive calls, schedule conferences, video call and chat with your team and customers from anywhere. You install the app and provision it by scanning your extension's QR code. \n\nUser manual: https://www.3cx.com/user-manual/installation-android/",
+        "raw": {
+          "asset_identifier": "https://play.google.com/store/apps/details?id=com.tcx.sipphone14",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The 3CX App allows you to make and receive calls, schedule conferences, video call and chat with your team and customers from anywhere. You install the app and provision it by scanning your extension's QR code. \n\nUser manual: https://www.3cx.com/user-manual/installation-android/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "https://play.google.com/store/apps/details?id=com.tcx.sipphone14"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is the portal where customers and partners can manage their 3CX account/license keys.",
+        "raw": {
+          "asset_identifier": "https://portal.3cx.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is the portal where customers and partners can manage their 3CX account/license keys.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://portal.3cx.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Endpoint used by the 3CX PBX to send out emails.",
+        "raw": {
+          "asset_identifier": "mailproxy.3cx.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Endpoint used by the 3CX PBX to send out emails.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mailproxy.3cx.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Endpoint used by the 3CX PBX to download Debian packages.",
+        "raw": {
+          "asset_identifier": "repo.3cx.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Endpoint used by the 3CX PBX to download Debian packages.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "repo.3cx.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Endpoint used by the 3CX PBX for the provisioning of remote IP  phones. ",
+        "raw": {
+          "asset_identifier": "rps.3cx.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Endpoint used by the 3CX PBX for the provisioning of remote IP  phones. ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "rps.3cx.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Endpoint used by the 3CX PBX for the Webmeeting and transcription services.",
+        "raw": {
+          "asset_identifier": "wmr.3cx.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Endpoint used by the 3CX PBX for the Webmeeting and transcription services.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "wmr.3cx.net"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Catch-all entry for any subdomain under *.3cx.com which is not explicitly in scope.",
+        "raw": {
+          "asset_identifier": "*.3cx.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Catch-all entry for any subdomain under *.3cx.com which is not explicitly in scope.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.3cx.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The free VoIP softphone found on https://www.3cx.com/voip/voip-phone/ is outside of scope.",
+        "raw": {
+          "asset_identifier": "3CX Phone 6.0",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The free VoIP softphone found on https://www.3cx.com/voip/voip-phone/ is outside of scope.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "3CX Phone 6.0"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/3cx"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "yeswehack:ovh",
+  "metadata": {
+    "disabled": false,
+    "id": "ovh",
+    "managed": null,
+    "max_bounty": 12500,
+    "min_bounty": 50,
+    "name": "OVHcloud",
+    "public": true
+  },
+  "name": "OVHcloud",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "5ca9477e340c816476e1e260a578f8f55bbfc301e04e57b96833b2613c3c5fb7",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "ovh",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "api.ovh.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "api.ovh.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "www.ovh.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "www.ovh.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.soyoustart.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "*.soyoustart.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains, subdomains or applications not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains, subdomains or applications not listed in the above list of 'Scopes'"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Vulnerabilities reported on client services",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Vulnerabilities reported on client services"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.osp.ovh.com",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "*.osp.ovh.com"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/ovh"
+}

@@ -1,0 +1,172 @@
+{
+  "id": "intigriti:d5c4e966-a80a-44f5-91c9-2bb9487b8762",
+  "metadata": {
+    "company_handle": "eurid",
+    "confidentiality_level": "public",
+    "handle": "eurid",
+    "id": "d5c4e966-a80a-44f5-91c9-2bb9487b8762",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 1500
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 50
+    },
+    "name": "EURid",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/eurid/eurid/detail"
+  },
+  "name": "EURid",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "3327d602630179e4a60829d1e88ce2ab5db4037ff2decfc7041bcfb54903f95e",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "d5c4e966-a80a-44f5-91c9-2bb9487b8762",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "My .eu is the registrant or domain holder portal and requires a registered domain name in one of our supported scripts to access.",
+        "raw": {
+          "description": "My .eu is the registrant or domain holder portal and requires a registered domain name in one of our supported scripts to access.",
+          "endpoint": "my.eurid.eu",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "my.eurid.eu"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.das.eu",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.das.eu"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.dns.eu",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.dns.eu"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.eurid.eu",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.eurid.eu"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.nic.eu",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.nic.eu"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.registry.eu",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.registry.eu"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.whois.eu",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.whois.eu"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.20years.eurid.eu",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.20years.eurid.eu"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.yadifa.eu",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.yadifa.eu"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "YADIFA is EURid's authoritative name server software which can be downloaded from the yadifa.eu website.",
+        "raw": {
+          "description": "YADIFA is EURid's authoritative name server software which can be downloaded from the yadifa.eu website.",
+          "endpoint": "YADIFA authoritative name server",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "YADIFA authoritative name server"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/eurid/eurid/detail"
+}

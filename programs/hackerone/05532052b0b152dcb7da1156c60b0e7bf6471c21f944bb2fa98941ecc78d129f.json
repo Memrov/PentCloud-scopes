@@ -1,0 +1,651 @@
+{
+  "id": "hackerone:security",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 1826.0,
+    "average_time_to_first_program_response": 4.0,
+    "average_time_to_report_resolved": 180.0,
+    "handle": "security",
+    "id": 0,
+    "managed_program": true,
+    "name": "HackerOne",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/security",
+    "website": "https://hackerone.com"
+  },
+  "name": "HackerOne",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "b81d78bb46898f9c9f5ac0a28274a6c7f890d23990fc8a9f18750546816fd302",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "security",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The HackerOne hacker VPN is used by hackers and HackerOne personnel. We'd be most interested in vulnerabilities that allow you to route traffic to other clients (lack of client isolation), routing traffic to internal HackerOne / Amazon networks, and bypassing [sslsplit](https://github.com/droe/sslsplit). Traffic routed through the VPN will originate from `66.232.20.0/23` or `206.166.248.0/23` (HackerOne netblocks). The VPN is based on OpenVPN.",
+        "raw": {
+          "asset_identifier": "*.vpn.hackerone.net",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The HackerOne hacker VPN is used by hackers and HackerOne personnel. We'd be most interested in vulnerabilities that allow you to route traffic to other clients (lack of client isolation), routing traffic to internal HackerOne / Amazon networks, and bypassing [sslsplit](https://github.com/droe/sslsplit). Traffic routed through the VPN will originate from `66.232.20.0/23` or `206.166.248.0/23` (HackerOne netblocks). The VPN is based on OpenVPN.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "*.vpn.hackerone.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This domain is used to serve static marketing assets. No confidential information is stored on these systems. However, it is important to us that these assets cannot be updated by an unauthorized third-party.",
+        "raw": {
+          "asset_identifier": "a5s.hackerone-ext-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This domain is used to serve static marketing assets. No confidential information is stored on these systems. However, it is important to us that these assets cannot be updated by an unauthorized third-party.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "a5s.hackerone-ext-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is our public API that customers use to read and interact with reports. To look for vulnerabilities in this asset, create a sandboxed program, select HackerOne Professional or HackerOne Enterprise in the Product Edition settings page, and create an API token. This system’s backend is written in Ruby, converts the request to a GraphQL query, and serializes the GraphQL result to JSON.",
+        "raw": {
+          "asset_identifier": "api.hackerone.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is our public API that customers use to read and interact with reports. To look for vulnerabilities in this asset, create a sandboxed program, select HackerOne Professional or HackerOne Enterprise in the Product Edition settings page, and create an API token. This system’s backend is written in Ruby, converts the request to a GraphQL query, and serializes the GraphQL result to JSON.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.hackerone.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Please use your `@wearehackerone.com` email address when signing up.",
+        "raw": {
+          "asset_identifier": "app.pullrequest.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Please use your `@wearehackerone.com` email address when signing up.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.pullrequest.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This domain is used to serve static marketing assets. No confidential information is stored on these systems. However, it is important to us that these assets cannot be updated by an unauthorized third-party.",
+        "raw": {
+          "asset_identifier": "b5s.hackerone-ext-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This domain is used to serve static marketing assets. No confidential information is stored on these systems. However, it is important to us that these assets cannot be updated by an unauthorized third-party.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "b5s.hackerone-ext-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+        "raw": {
+          "asset_identifier": "cover-photos-us-east-2.hackerone-user-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "cover-photos-us-east-2.hackerone-user-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+        "raw": {
+          "asset_identifier": "cover-photos.hackerone-user-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "cover-photos.hackerone-user-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The Hacker101 CTF domain, ctf.hacker101.com, is not connected to HackerOne's production environment. It is hosted on Amazon AWS. Users authenticate through HackerOne.com (OAuth). The maximum bounty for any vulnerability on this asset is $500 right now. The CTF challenges itself are not in scope for our bug bounty program.",
+        "raw": {
+          "asset_identifier": "ctf.hacker101.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The Hacker101 CTF domain, ctf.hacker101.com, is not connected to HackerOne's production environment. It is hosted on Amazon AWS. Users authenticate through HackerOne.com (OAuth). The maximum bounty for any vulnerability on this asset is $500 right now. The CTF challenges itself are not in scope for our bug bounty program.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "ctf.hacker101.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "A separate domain that we use to capture information of client and server side exceptions.",
+        "raw": {
+          "asset_identifier": "errors.hackerone.net",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "A separate domain that we use to capture information of client and server side exceptions.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "errors.hackerone.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+        "raw": {
+          "asset_identifier": "hackathon-photos-us-east-2.hackerone-user-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "hackathon-photos-us-east-2.hackerone-user-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+        "raw": {
+          "asset_identifier": "hackathon-photos.hackerone-user-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "hackathon-photos.hackerone-user-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This domain is used to serve static marketing assets. No confidential information is stored on these systems. However, it is important to us that these assets cannot be updated by an unauthorized third-party.",
+        "raw": {
+          "asset_identifier": "hackerone-ext-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This domain is used to serve static marketing assets. No confidential information is stored on these systems. However, it is important to us that these assets cannot be updated by an unauthorized third-party.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "hackerone-ext-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is an Amazon S3 bucket that contains attachments of reports and activities. These attachments may contain confidential information. A signed request is required to download an object.",
+        "raw": {
+          "asset_identifier": "hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is an Amazon S3 bucket that contains attachments of reports and activities. These attachments may contain confidential information. A signed request is required to download an object.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+        "raw": {
+          "asset_identifier": "hackerone-user-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "hackerone-user-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is our main application that hackers and customers use to interact with each other. It connects with a database that contains information about vulnerability reports, users, and programs. This system’s backend is written in Ruby and exposes data to the client through GraphQL, rendered pages, and JSON endpoints.",
+        "raw": {
+          "asset_identifier": "hackerone.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is our main application that hackers and customers use to interact with each other. It connects with a database that contains information about vulnerability reports, users, and programs. This system’s backend is written in Ruby and exposes data to the client through GraphQL, rendered pages, and JSON endpoints.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "hackerone.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "hackerone.live",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "hackerone.live"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This domain is used to serve static marketing assets. No confidential information is stored on these systems. However, it is important to us that these assets cannot be updated by an unauthorized third-party.",
+        "raw": {
+          "asset_identifier": "https://*.hackerone-ext-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This domain is used to serve static marketing assets. No confidential information is stored on these systems. However, it is important to us that these assets cannot be updated by an unauthorized third-party.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "https://*.hackerone-ext-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.\n\n",
+        "raw": {
+          "asset_identifier": "https://*.hackerone-user-content.com/",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.\n\n",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "https://*.hackerone-user-content.com/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/Hacker0x01/react-datepicker",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "https://github.com/Hacker0x01/react-datepicker"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://hackerone.com/mcp",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "https://hackerone.com/mcp"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "mta-sts.wearehackerone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mta-sts.wearehackerone.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+        "raw": {
+          "asset_identifier": "profile-photos-us-east-2.hackerone-user-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "profile-photos-us-east-2.hackerone-user-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+        "raw": {
+          "asset_identifier": "profile-photos.hackerone-user-content.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is an Amazon S3 bucket that contains profile and cover photos of users and programs. It does not contain any highly confidential information and would not impact the main application if it would be unreachable. A signed request is required to download an object.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "profile-photos.hackerone-user-content.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Please use your `@wearehackerone.com` email address when signing up.",
+        "raw": {
+          "asset_identifier": "reviewer.pullrequest.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Please use your `@wearehackerone.com` email address when signing up.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "reviewer.pullrequest.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is our marketing website. It does not contain any report or customer information. It may store information about hackers, such as information collected through the [penetration tester sign up form](https://www.hackerone.com/hackers/pentest-community-application). The website runs Drupal with a few customizations.",
+        "raw": {
+          "asset_identifier": "www.hackerone.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is our marketing website. It does not contain any report or customer information. It may store information about hackers, such as information collected through the [penetration tester sign up form](https://www.hackerone.com/hackers/pentest-community-application). The website runs Drupal with a few customizations.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.hackerone.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "www.wearehackerone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.wearehackerone.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is hosted by Marketo, and as such these reports should be submitted to them directly.",
+        "raw": {
+          "asset_identifier": "go.hacker.one",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is hosted by Marketo, and as such these reports should be submitted to them directly.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "go.hacker.one"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "h1.community",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "h1.community"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "hackerone-swag.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "hackerone-swag.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is hosted by Unbounce, and as such these reports should be submitted to them via https://unbounce.com/security/.",
+        "raw": {
+          "asset_identifier": "info.hacker.one",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is hosted by Unbounce, and as such these reports should be submitted to them via https://unbounce.com/security/.",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "info.hacker.one"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is hosted by Marketo, and as such these reports should be submitted to them directly.",
+        "raw": {
+          "asset_identifier": "ma.hacker.one",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is hosted by Marketo, and as such these reports should be submitted to them directly.",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "ma.hacker.one"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is hosted by Freshdesk (as of 2023-04-28), and as such these reports should be submitted to the appropriate program: https://hackerone.com/freshworks",
+        "raw": {
+          "asset_identifier": "support.hackerone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is hosted by Freshdesk (as of 2023-04-28), and as such these reports should be submitted to the appropriate program: https://hackerone.com/freshworks",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support.hackerone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "www.h1.community",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.h1.community"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is hosted by Atlassian, and as such these reports should be submitted to their program instead via https://bugcrowd.com/statuspage. ",
+        "raw": {
+          "asset_identifier": "www.hackeronestatus.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is hosted by Atlassian, and as such these reports should be submitted to their program instead via https://bugcrowd.com/statuspage. ",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.hackeronestatus.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/security"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:hexagon_vdp",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": null,
+    "handle": "hexagon_vdp",
+    "id": 0,
+    "managed_program": true,
+    "name": "Hexagon-VDP",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 78,
+    "submission_state": "open",
+    "url": "https://hackerone.com/hexagon_vdp",
+    "website": "http://hexagon.com"
+  },
+  "name": "Hexagon-VDP",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "3258e0aae1cd75568278132e9d43eeba0b8366a11311cb989be5b32b89b70f5f",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "hexagon_vdp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Security vulnerabilities that are identified in digital properties owned, operated, or controlled by Hexagon AB are considered in scope.",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Security vulnerabilities that are identified in digital properties owned, operated, or controlled by Hexagon AB are considered in scope."
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/hexagon_vdp"
+}

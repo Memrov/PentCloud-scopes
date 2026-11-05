@@ -1,0 +1,67 @@
+{
+  "id": "intigriti:ef919950-9ced-48c3-b1f4-2379c43c8ec5",
+  "metadata": {
+    "company_handle": "wartsila",
+    "confidentiality_level": "public",
+    "handle": "wartsila-vdp",
+    "id": "ef919950-9ced-48c3-b1f4-2379c43c8ec5",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Wärtsilä Vulnerability Disclosure Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/wartsila/wartsila-vdp/detail"
+  },
+  "name": "Wärtsilä Vulnerability Disclosure Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "344d0e45e53ec22b5324ad355655a9dd023111329cf9f3051bfaccb64e2ca02c",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "ef919950-9ced-48c3-b1f4-2379c43c8ec5",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.wartsila.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.wartsila.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Please verify ownership or legitimate association via WHOIS, reverse DNS, delegated DNS, or other reliable means to ensure the asset is intended for Wärtsilä use and that Wärtsilä is the appropriate recipient of the disclosure.",
+        "raw": {
+          "description": "Please verify ownership or legitimate association via WHOIS, reverse DNS, delegated DNS, or other reliable means to ensure the asset is intended for Wärtsilä use and that Wärtsilä is the appropriate recipient of the disclosure.",
+          "endpoint": "Any Wartsila related domain ",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "Any Wartsila related domain "
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/wartsila/wartsila-vdp/detail"
+}

@@ -1,0 +1,175 @@
+{
+  "id": "yeswehack:private-internet-access-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "private-internet-access-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 1250,
+    "min_bounty": 50,
+    "name": "Private Internet Access - Bug Bounty Program",
+    "public": true
+  },
+  "name": "Private Internet Access - Bug Bounty Program",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "91d86d36557d9b69837329d4a0650429f73c405a32771a1b76b5c6820854f051",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "private-internet-access-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.privateinternetaccess.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "*.privateinternetaccess.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.piaservers.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "*.piaservers.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.piaservers.net",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "*.piaservers.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "api.privateinternetaccess.com",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "api.privateinternetaccess.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://privateinternetaccess.com/api/client/v5",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://privateinternetaccess.com/api/client/v5"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "PIA VPN servers",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "PIA VPN servers"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/us/app/private-internet-access-anonymous/id955626407",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/us/app/private-internet-access-anonymous/id955626407"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.privateinternetaccess.com/download/linux-vpn",
+          "type": "application"
+        },
+        "type": "application",
+        "value": "https://www.privateinternetaccess.com/download/linux-vpn"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.privateinternetaccess.com/download/mac-vpn",
+          "type": "application"
+        },
+        "type": "application",
+        "value": "https://www.privateinternetaccess.com/download/mac-vpn"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.privateinternetaccess.com/download/windows-vpn",
+          "type": "application"
+        },
+        "type": "application",
+        "value": "https://www.privateinternetaccess.com/download/windows-vpn"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Applications/Extensions under https://www.privateinternetaccess.com/download",
+          "type": "application"
+        },
+        "type": "application",
+        "value": "Applications/Extensions under https://www.privateinternetaccess.com/download"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains or subdomains not listed in the above list of 'Scopes'"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/private-internet-access-bug-bounty-program"
+}

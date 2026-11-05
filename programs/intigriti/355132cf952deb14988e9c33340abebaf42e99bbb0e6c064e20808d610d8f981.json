@@ -1,0 +1,107 @@
+{
+  "id": "intigriti:c7272420-0cef-4366-87d2-278c06591799",
+  "metadata": {
+    "company_handle": "houseofhr",
+    "confidentiality_level": "public",
+    "handle": "houseofhrvulnerabilitydisclosureprogram",
+    "id": "c7272420-0cef-4366-87d2-278c06591799",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "House of HR Vulnerability Disclosure Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/houseofhr/houseofhrvulnerabilitydisclosureprogram/detail"
+  },
+  "name": "House of HR Vulnerability Disclosure Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "918c33f4f24fb2d8b1d623477ceb558172e99df7b49e60975181359c51846727",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "c7272420-0cef-4366-87d2-278c06591799",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.houseofhr.com/*",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.houseofhr.com/*"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.swop.com/*",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.swop.com/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This contact form is out of scope",
+        "raw": {
+          "description": "This contact form is out of scope",
+          "endpoint": "houseofhr.com/contact-us",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "houseofhr.com/contact-us"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Applying for jobs is out of scope",
+        "raw": {
+          "description": "Applying for jobs is out of scope",
+          "endpoint": "houseofhr.com/your-career/jobs",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "houseofhr.com/your-career/jobs"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "rebel.houseofhr.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "rebel.houseofhr.com"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/houseofhr/houseofhrvulnerabilitydisclosureprogram/detail"
+}

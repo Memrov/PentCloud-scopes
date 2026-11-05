@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:octopus-energy",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 571.0,
+    "handle": "octopus-energy",
+    "id": 0,
+    "managed_program": true,
+    "name": "Octopus Energy Group",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 71,
+    "submission_state": "open",
+    "url": "https://hackerone.com/octopus-energy",
+    "website": "https://octopusenergy.group/"
+  },
+  "name": "Octopus Energy Group",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "5ab2d28851c3fdb1a69f536c3a75d9ebfbbeb20c9133c2977212f23912a0c918",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "octopus-energy",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Security vulnerabilities that are identified in digital properties owned, operated, or controlled by Octopus Energy are considered in scope.",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Security vulnerabilities that are identified in digital properties owned, operated, or controlled by Octopus Energy are considered in scope."
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/octopus-energy"
+}

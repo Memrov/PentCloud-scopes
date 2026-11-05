@@ -1,0 +1,111 @@
+{
+  "id": "hackerone:lpl_financial-vdp",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "lpl_financial-vdp",
+    "id": 0,
+    "managed_program": true,
+    "name": "LPL Financial VDP",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/lpl_financial-vdp",
+    "website": "http://lplfinancial.lpl.com"
+  },
+  "name": "LPL Financial VDP",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "47743e4a8396b5098db98a48530a2129c5f7e45400cd66b80f0199f07bd95f4f",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "lpl_financial-vdp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Domains where LPL Financial is listed as the Registrant Organization, Admin Organization, or Tech Organization are in scope. Domains maintained by third parties, other than LPL Financial, are not in scope for this program.",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Domains where LPL Financial is listed as the Registrant Organization, Admin Organization, or Tech Organization are in scope. Domains maintained by third parties, other than LPL Financial, are not in scope for this program."
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "AdvisoryWorld assets are in scope EXCEPT for www.advisoryworld.com",
+        "raw": {
+          "asset_identifier": "advisoryworld.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "AdvisoryWorld assets are in scope EXCEPT for www.advisoryworld.com",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "advisoryworld.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "lpl.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "lpl.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The specific URL www.advisoryworld.com is out of scope. However, reports on other AdvisoryWorld sites are welcome.",
+        "raw": {
+          "asset_identifier": "www.advisoryworld.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The specific URL www.advisoryworld.com is out of scope. However, reports on other AdvisoryWorld sites are welcome.",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.advisoryworld.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/lpl_financial-vdp"
+}

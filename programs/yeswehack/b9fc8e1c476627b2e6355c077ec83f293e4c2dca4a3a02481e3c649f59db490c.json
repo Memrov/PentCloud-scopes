@@ -1,0 +1,65 @@
+{
+  "id": "yeswehack:toom-baumarkt-gmbh-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "toom-baumarkt-gmbh-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 3000,
+    "min_bounty": 50,
+    "name": "toom Baumarkt GmbH - Webshop",
+    "public": true
+  },
+  "name": "toom Baumarkt GmbH - Webshop",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "6ede643cad3f993eadfc18449fd2e43dd3352eff745f5f40cb9a2ca6ed9fb91b",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "toom-baumarkt-gmbh-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://toom.de",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://toom.de"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://api.toom.de",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://api.toom.de"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains or subdomains not listed in the above list of 'Scopes'."
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/toom-baumarkt-gmbh-bug-bounty-program"
+}

@@ -1,0 +1,255 @@
+{
+  "id": "hackerone:bill_vdp",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 3.0,
+    "average_time_to_report_resolved": 303.0,
+    "handle": "bill_vdp",
+    "id": 0,
+    "managed_program": true,
+    "name": "BILL VDP",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 59,
+    "submission_state": "open",
+    "url": "https://hackerone.com/bill_vdp",
+    "website": "https://www.bill.com"
+  },
+  "name": "BILL VDP",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "d8ce9717528446001480c3053b8db1be6c39122a4c8782514a790a0886db5b76",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "bill_vdp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Invoice2go related assets",
+        "raw": {
+          "asset_identifier": "*.2go.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Invoice2go related assets",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.2go.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Other assets under `*.bill.com` that are not components of the main AP/AR web application. For example, the BILL marketing site (`www.bill.com`) and the BILL help center (`help.bill.com`).",
+        "raw": {
+          "asset_identifier": "*.bill.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Other assets under `*.bill.com` that are not components of the main AP/AR web application. For example, the BILL marketing site (`www.bill.com`) and the BILL help center (`help.bill.com`).",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.bill.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Other assets under `*.divvy.co` that are not components of the main Spend & Expense web application.",
+        "raw": {
+          "asset_identifier": "*.divvy.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Other assets under `*.divvy.co` that are not components of the main Spend & Expense web application.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.divvy.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This asset is intended to encompass all components of the main AP/AR web application, including those on other subdomains, e.g., `login.us.bill.com`, `app01.us.bill.com`, etc.",
+        "raw": {
+          "asset_identifier": "app.bill.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This asset is intended to encompass all components of the main AP/AR web application, including those on other subdomains, e.g., `login.us.bill.com`, `app01.us.bill.com`, etc.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.bill.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This asset is intended to encompass all components of the main Spend & Expense web application, including those on other subdomains, e.g., `apply.divvy.co`, etc.",
+        "raw": {
+          "asset_identifier": "app.divvy.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This asset is intended to encompass all components of the main Spend & Expense web application, including those on other subdomains, e.g., `apply.divvy.co`, etc.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.divvy.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Android app: [BILL AP & AR Business Payments](https://play.google.com/store/apps/details?id=com.bdc.bill)",
+        "raw": {
+          "asset_identifier": "com.bdc.bill",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Android app: [BILL AP & AR Business Payments](https://play.google.com/store/apps/details?id=com.bdc.bill)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.bdc.bill"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Android app: [BILL Spend & Expense (Divvy)](https://play.google.com/store/apps/details?id=com.divvypay.Divvy)",
+        "raw": {
+          "asset_identifier": "com.divvypay.Divvy",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Android app: [BILL Spend & Expense (Divvy)](https://play.google.com/store/apps/details?id=com.divvypay.Divvy)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.divvypay.Divvy"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Android app: [Invoice2go: Easy Invoice Maker](https://play.google.com/store/apps/details?id=com.invoice2go.invoice2goplus)",
+        "raw": {
+          "asset_identifier": "com.invoice2go.invoice2goplus",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Android app: [Invoice2go: Easy Invoice Maker](https://play.google.com/store/apps/details?id=com.invoice2go.invoice2goplus)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.invoice2go.invoice2goplus"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "iOS app: [BILL Spend & Expense (Divvy)](https://apps.apple.com/us/app/bill-spend-expense-divvy/id1114962353)",
+        "raw": {
+          "asset_identifier": "id1114962353",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "iOS app: [BILL Spend & Expense (Divvy)](https://apps.apple.com/us/app/bill-spend-expense-divvy/id1114962353)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "id1114962353"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "iOS app: [BILL AP & AR Business Payments](https://apps.apple.com/us/app/bill-ap-ar-business-payments/id980353334)",
+        "raw": {
+          "asset_identifier": "id980353334",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "iOS app: [BILL AP & AR Business Payments](https://apps.apple.com/us/app/bill-ap-ar-business-payments/id980353334)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "id980353334"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Zipbooks related assets",
+        "raw": {
+          "asset_identifier": "*.zipbooks.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Zipbooks related assets",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.zipbooks.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Other assets owned/managed by BILL that are not otherwise listed.",
+        "raw": {
+          "asset_identifier": "Other BILL assets",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Other assets owned/managed by BILL that are not otherwise listed.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Other BILL assets"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/bill_vdp"
+}

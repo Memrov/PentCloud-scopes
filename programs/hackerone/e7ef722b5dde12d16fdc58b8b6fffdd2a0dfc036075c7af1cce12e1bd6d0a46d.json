@@ -1,0 +1,201 @@
+{
+  "id": "hackerone:banco_plata",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 627.0,
+    "average_time_to_first_program_response": 21.0,
+    "average_time_to_report_resolved": 5938.0,
+    "handle": "banco_plata",
+    "id": 0,
+    "managed_program": true,
+    "name": "Banco Plata",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 96,
+    "submission_state": "open",
+    "url": "https://hackerone.com/banco_plata",
+    "website": "http://bancoplata.mx"
+  },
+  "name": "Banco Plata",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "97c48492110237ec88955564bac4093b4bd10eb1e3906ef7629234d0f6592e08",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "banco_plata",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.bancoplata.mx",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.bancoplata.mx"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.platacard.mx",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.platacard.mx"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "dif.tech.plata",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "dif.tech.plata"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "id6443932656",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "id6443932656"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We are particularly interested in vulnerabilities that could lead to unauthorized access to employee data or HR functions, such as authentication and session management weaknesses, broken access control (including IDOR and horizontal or vertical privilege escalation between employee and HR/admin roles), exposure of personal data through APIs or file handling, injection vulnerabilities, and account takeover scenarios. Findings reachable without authentication, such as exposed endpoints, login bypass, or information disclosure on public pages, are of particular interest.\n\nResearchers should not attempt to access, modify, or exfiltrate real employee data beyond the minimum needed to demonstrate impact. If you gain access to personal information, stop testing, do not retain the data, and report the finding immediately. Social engineering of Plata employees, phishing, and denial-of-service testing are out of scope for this asset.",
+        "raw": {
+          "asset_identifier": "people.plata.team",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We are particularly interested in vulnerabilities that could lead to unauthorized access to employee data or HR functions, such as authentication and session management weaknesses, broken access control (including IDOR and horizontal or vertical privilege escalation between employee and HR/admin roles), exposure of personal data through APIs or file handling, injection vulnerabilities, and account takeover scenarios. Findings reachable without authentication, such as exposed endpoints, login bypass, or information disclosure on public pages, are of particular interest.\n\nResearchers should not attempt to access, modify, or exfiltrate real employee data beyond the minimum needed to demonstrate impact. If you gain access to personal information, stop testing, do not retain the data, and report the finding immediately. Social engineering of Plata employees, phishing, and denial-of-service testing are out of scope for this asset.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "people.plata.team"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Primary public website of Banco Plata, accessible from the internet and used by customers and prospective customers to learn about and access Plata’s banking products and services. As the main public-facing domain of a regulated financial institution, it is treated as a high-value asset, and any compromise of its integrity or the data it handles has direct impact on customer trust.\n\nWe are particularly interested in vulnerabilities that could affect customers or the integrity of the site, such as cross-site scripting, open redirects and other issues that could be abused for phishing, content injection or defacement, broken access control, injection vulnerabilities, exposure of customer or internal data through APIs, forms, or file handling, and security misconfigurations. Findings reachable without authentication, such as exposed endpoints, information disclosure, or leaked credentials and configuration files, are of particular interest.\n\nResearchers should not attempt to access, modify, or exfiltrate real customer data beyond the minimum needed to demonstrate impact. If you gain access to personal or financial information, stop testing, do not retain the data, and report the finding immediately. Social engineering of Plata employees or customers, phishing, and denial-of-service testing are out of scope for this asset.",
+        "raw": {
+          "asset_identifier": "plata.co",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Primary public website of Banco Plata, accessible from the internet and used by customers and prospective customers to learn about and access Plata’s banking products and services. As the main public-facing domain of a regulated financial institution, it is treated as a high-value asset, and any compromise of its integrity or the data it handles has direct impact on customer trust.\n\nWe are particularly interested in vulnerabilities that could affect customers or the integrity of the site, such as cross-site scripting, open redirects and other issues that could be abused for phishing, content injection or defacement, broken access control, injection vulnerabilities, exposure of customer or internal data through APIs, forms, or file handling, and security misconfigurations. Findings reachable without authentication, such as exposed endpoints, information disclosure, or leaked credentials and configuration files, are of particular interest.\n\nResearchers should not attempt to access, modify, or exfiltrate real customer data beyond the minimum needed to demonstrate impact. If you gain access to personal or financial information, stop testing, do not retain the data, and report the finding immediately. Social engineering of Plata employees or customers, phishing, and denial-of-service testing are out of scope for this asset.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "plata.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We are particularly interested in vulnerabilities that could lead to unauthorized access to customer accounts, data, or banking functions, such as authentication and token handling weaknesses, broken object level authorization (BOLA/IDOR) allowing access to other customers’ data, broken function level authorization, mass assignment, injection vulnerabilities, business logic flaws in banking operations, missing or bypassable rate limiting on sensitive actions, and account takeover scenarios. Issues that can be triggered directly against the API, bypassing controls enforced only on the client side, are of particular interest. Findings reachable without authentication, such as exposed endpoints, information disclosure, or verbose error messages leaking internal details, are also in focus.\n\nResearchers should not attempt to access, modify, or exfiltrate real customer data, or execute real financial operations, beyond the minimum needed to demonstrate impact. If you gain access to personal or financial information, stop testing, do not retain the data, and report the finding immediately. Social engineering of Plata employees or customers, phishing, and denial-of-service testing are out of scope for this asset.",
+        "raw": {
+          "asset_identifier": "prime.plata.co",
+          "asset_type": "API",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We are particularly interested in vulnerabilities that could lead to unauthorized access to customer accounts, data, or banking functions, such as authentication and token handling weaknesses, broken object level authorization (BOLA/IDOR) allowing access to other customers’ data, broken function level authorization, mass assignment, injection vulnerabilities, business logic flaws in banking operations, missing or bypassable rate limiting on sensitive actions, and account takeover scenarios. Issues that can be triggered directly against the API, bypassing controls enforced only on the client side, are of particular interest. Findings reachable without authentication, such as exposed endpoints, information disclosure, or verbose error messages leaking internal details, are also in focus.\n\nResearchers should not attempt to access, modify, or exfiltrate real customer data, or execute real financial operations, beyond the minimum needed to demonstrate impact. If you gain access to personal or financial information, stop testing, do not retain the data, and report the finding immediately. Social engineering of Plata employees or customers, phishing, and denial-of-service testing are out of scope for this asset.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "API",
+        "value": "prime.plata.co"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://bancoplata.mx/*/whistleblowing",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "https://bancoplata.mx/*/whistleblowing"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://platacard.mx/*/whistleblowing",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "https://platacard.mx/*/whistleblowing"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/banco_plata"
+}

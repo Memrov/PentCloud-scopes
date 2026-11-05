@@ -1,0 +1,129 @@
+{
+  "id": "hackerone:wellhive",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 96.0,
+    "average_time_to_report_resolved": null,
+    "handle": "wellhive",
+    "id": 0,
+    "managed_program": true,
+    "name": "WellHive",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 86,
+    "submission_state": "open",
+    "url": "https://hackerone.com/wellhive",
+    "website": ""
+  },
+  "name": "WellHive",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "92cba20730c6192c426e6b9ec3e2e7e3405dd2c44d4d3829b866b672600cc924",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "wellhive",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "analytics.wellhive.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "analytics.wellhive.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Primary user interface for WellHive's cloud service offering.",
+        "raw": {
+          "asset_identifier": "app.wellhive.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Primary user interface for WellHive's cloud service offering.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.wellhive.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Test only for configuration issues of WellHive's Okta Org.\nAny testing of Okta infrastructure is not in scope for WellHive's program.",
+        "raw": {
+          "asset_identifier": "corporate-okta.wellhive.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Test only for configuration issues of WellHive's Okta Org.\nAny testing of Okta infrastructure is not in scope for WellHive's program.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "corporate-okta.wellhive.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Test only for configuration issues of WellHive's Okta Org.\nAny testing of Okta infrastructure is not in scope for WellHive's program.",
+        "raw": {
+          "asset_identifier": "login.wellhive.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Test only for configuration issues of WellHive's Okta Org.\nAny testing of Okta infrastructure is not in scope for WellHive's program.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "login.wellhive.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "WellHive's marketing website.",
+        "raw": {
+          "asset_identifier": "www.wellhive.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "WellHive's marketing website.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.wellhive.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/wellhive"
+}

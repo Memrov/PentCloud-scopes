@@ -1,0 +1,417 @@
+{
+  "id": "hackerone:hubspot",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 173.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 1453.0,
+    "handle": "hubspot",
+    "id": 0,
+    "managed_program": true,
+    "name": "HubSpot",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 76,
+    "submission_state": "open",
+    "url": "https://hackerone.com/hubspot",
+    "website": "http://hubspot.com"
+  },
+  "name": "HubSpot",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "64853afc3523b61b948fd79df529562e0beeaa8ef3b036686427c2190207f680",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "hubspot",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.hs-sites(-eu1)?.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "WILDCARD",
+        "value": "*.hs-sites(-eu1)?.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.hubspotemail.net",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.hubspotemail.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.hubspotpagebuilder.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "WILDCARD",
+        "value": "*.hubspotpagebuilder.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.hubspotpagebuilder.eu",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "WILDCARD",
+        "value": "*.hubspotpagebuilder.eu"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Refers to domains connected within a HubSpot portal. For example, an XSS vulnerability identified on a HubSpot hosted page (where customer domain is connected in the HubSpot portal).",
+        "raw": {
+          "asset_identifier": "Customer Connected Domain",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Refers to domains connected within a HubSpot portal. For example, an XSS vulnerability identified on a HubSpot hosted page (where customer domain is connected in the HubSpot portal).",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "OTHER",
+        "value": "Customer Connected Domain"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Instructions on setting up a customer portal linked below:\nhttps://knowledge.hubspot.com/inbox/set-up-a-customer-portal",
+        "raw": {
+          "asset_identifier": "Customer Portal",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Instructions on setting up a customer portal linked below:\nhttps://knowledge.hubspot.com/inbox/set-up-a-customer-portal",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "OTHER",
+        "value": "Customer Portal"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "You can download the app at the link below:\nhttps://play.google.com/store/apps/details?id=com.hubspot.android&hl=en_US&gl=US&pli=1",
+        "raw": {
+          "asset_identifier": "HubSpot Android Mobile App",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "You can download the app at the link below:\nhttps://play.google.com/store/apps/details?id=com.hubspot.android&hl=en_US&gl=US&pli=1",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "HubSpot Android Mobile App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Setup instructions linked below:\nhttps://knowledge.hubspot.com/connected-email/get-started-with-the-hubspot-sales-office-365-add-in",
+        "raw": {
+          "asset_identifier": "HubSpot Sales Office 365 add-in",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Setup instructions linked below:\nhttps://knowledge.hubspot.com/connected-email/get-started-with-the-hubspot-sales-office-365-add-in",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "OTHER",
+        "value": "HubSpot Sales Office 365 add-in"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "You can download the app at the link below:\nhttps://apps.apple.com/us/app/hubspot-crm-grow-better/id1107711722",
+        "raw": {
+          "asset_identifier": "HubSpot iOS Mobile App",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "You can download the app at the link below:\nhttps://apps.apple.com/us/app/hubspot-crm-grow-better/id1107711722",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "HubSpot iOS Mobile App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
+        "raw": {
+          "asset_identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "OTHER",
+        "value": "Other HubSpot-owned (sub)domains not listed as Out of Scope"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api*.hubapi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "api*.hubapi.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api*.hubspot.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "api*.hubspot.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "app*.hubspot.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "app*.hubspot.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "chatspot.ai",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "chatspot.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "hubspot.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "hubspot.net"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Please note that connect.com will be sunset as of June 13, 2025. As a result, functionality associated with connect.com, even under api*.hubspot.com, will also be considered out of scope. In a case where a vulnerability stemming from connect.com results in compromise of HubSpot accounts or other features not associated with connect.com, those will be considered in-scope.",
+        "raw": {
+          "asset_identifier": "connect.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Please note that connect.com will be sunset as of June 13, 2025. As a result, functionality associated with connect.com, even under api*.hubspot.com, will also be considered out of scope. In a case where a vulnerability stemming from connect.com results in compromise of HubSpot accounts or other features not associated with connect.com, those will be considered in-scope.",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "connect.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "events.hubspot.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "events.hubspot.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "ir.hubspot.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "ir.hubspot.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "shop.hubspot.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "shop.hubspot.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "thespot.hubspot.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "thespot.hubspot.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "trust.hubspot.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "trust.hubspot.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/hubspot"
+}

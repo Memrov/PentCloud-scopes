@@ -1,0 +1,74 @@
+{
+  "id": "hackerone:dust",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 586.0,
+    "average_time_to_report_resolved": 1108.0,
+    "handle": "dust",
+    "id": 0,
+    "managed_program": false,
+    "name": "Dust",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 38,
+    "submission_state": "open",
+    "url": "https://hackerone.com/dust",
+    "website": "http://dust.tt"
+  },
+  "name": "Dust",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "97ca44cc86992a7ea14ba46ad851b6c3888259755eb6ab50706445c55943ec07",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "dust",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This is the US region for our main app. To access it you want to create an account from https://dust.tt. You can contact security@dust.tt to get your account upgraded for research purposes.\nPlease do not create accounts on the EU region (https://eu.dust.tt)",
+        "raw": {
+          "asset_identifier": "https://dust.tt",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This is the US region for our main app. To access it you want to create an account from https://dust.tt. You can contact security@dust.tt to get your account upgraded for research purposes.\nPlease do not create accounts on the EU region (https://eu.dust.tt)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://dust.tt"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This is our API. To get an API key please create an account from https://dust.tt. You can contact security@dust.tt to get your account upgraded for research purposes.\nPlease do not create accounts on the EU region (https://eu.dust.tt)",
+        "raw": {
+          "asset_identifier": "https://dust.tt/api/v1",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This is our API. To get an API key please create an account from https://dust.tt. You can contact security@dust.tt to get your account upgraded for research purposes.\nPlease do not create accounts on the EU region (https://eu.dust.tt)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://dust.tt/api/v1"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/dust"
+}

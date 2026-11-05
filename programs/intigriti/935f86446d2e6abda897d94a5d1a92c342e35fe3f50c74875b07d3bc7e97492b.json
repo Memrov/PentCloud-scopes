@@ -1,0 +1,107 @@
+{
+  "id": "intigriti:0d6d1230-beb5-489c-b306-cf9c2e06730f",
+  "metadata": {
+    "company_handle": "dpgm",
+    "confidentiality_level": "public",
+    "handle": "devolkskrant",
+    "id": "0d6d1230-beb5-489c-b306-cf9c2e06730f",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 2200
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 25
+    },
+    "name": "De Volkskrant",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/dpgm/devolkskrant/detail"
+  },
+  "name": "De Volkskrant",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "de2dd26a8e4750cc227bd283b047a3a2ea910aaf09f2d1dd3bf312dda1fb1ea8",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "0d6d1230-beb5-489c-b306-cf9c2e06730f",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "myaccount.volkskrant.nl",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "myaccount.volkskrant.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding\n* volkskrant.nl/service\n* volkskrant.nl/inloggen\n* volkskrant.nl/login\n* volkskrant.nl/registreren",
+        "raw": {
+          "description": "excluding\n* volkskrant.nl/service\n* volkskrant.nl/inloggen\n* volkskrant.nl/login\n* volkskrant.nl/registreren",
+          "endpoint": "www.volkskrant.nl",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.volkskrant.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.volkskrant.nl/abonnementen",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.volkskrant.nl/abonnementen"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding abonnement.volkskrant.nl",
+        "raw": {
+          "description": "excluding abonnement.volkskrant.nl",
+          "endpoint": "*.volkskrant.nl",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.volkskrant.nl"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+        "raw": {
+          "description": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+          "endpoint": "actie.volkskrant.nl",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "actie.volkskrant.nl"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/dpgm/devolkskrant/detail"
+}

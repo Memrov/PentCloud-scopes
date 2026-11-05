@@ -1,0 +1,633 @@
+{
+  "id": "hackerone:wordpress",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 735.0,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "wordpress",
+    "id": 0,
+    "managed_program": false,
+    "name": "WordPress",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 89,
+    "submission_state": "open",
+    "url": "https://hackerone.com/wordpress",
+    "website": "https://wordpress.org/"
+  },
+  "name": "WordPress",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "952b02bb29bd2c9bdb3c40f6e1084db272856213bcfe60bb0d8396570bc4a4bc",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "wordpress",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.buddypress.org,bbpress.org,profiles.wordpress.org",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.buddypress.org,bbpress.org,profiles.wordpress.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Do _not_ pentest Trac instances**, it's very annoying to clean up after. Setup a local environment instead; the custom source code is available via the Git command below, in the `trac.wordpress.org` subfolder. **If you ignore this you'll forfeit any bounty.**\n\nThe projects here are kept mostly for archival purposes and non-critical information disclosure will generally not be eligible for a bounty.\n\nOnly report vulnerabilities in our custom code, don't report vulnerabilities that only exist upstream in Trac itself. Report those directly to info@edgewall.com.\n\nAll source code that isn't behind authentication is intended to be public. The source code itself has `High` CVSS impact scores. The applications that manage the code (Trac, Git, SVN, etc) have `Low` scores, except for vulnerabilities that allow modifications to the source code.\n\nMost of the source code in these domains is contained in the \"meta\" repository: `git clone git://meta.git.wordpress.org/`",
+        "raw": {
+          "asset_identifier": "*.trac.wordpress.org, *.svn.wordpress.org, *.git.wordpress.org",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Do _not_ pentest Trac instances**, it's very annoying to clean up after. Setup a local environment instead; the custom source code is available via the Git command below, in the `trac.wordpress.org` subfolder. **If you ignore this you'll forfeit any bounty.**\n\nThe projects here are kept mostly for archival purposes and non-critical information disclosure will generally not be eligible for a bounty.\n\nOnly report vulnerabilities in our custom code, don't report vulnerabilities that only exist upstream in Trac itself. Report those directly to info@edgewall.com.\n\nAll source code that isn't behind authentication is intended to be public. The source code itself has `High` CVSS impact scores. The applications that manage the code (Trac, Git, SVN, etc) have `Low` scores, except for vulnerabilities that allow modifications to the source code.\n\nMost of the source code in these domains is contained in the \"meta\" repository: `git clone git://meta.git.wordpress.org/`",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "*.trac.wordpress.org, *.svn.wordpress.org, *.git.wordpress.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.wordcamp.org",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.wordcamp.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Only the jobs.wordpress.net site is eligible for bounty.\n\nIssues with playground.wordpress.net should use the \"Playground\" asset.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+        "raw": {
+          "asset_identifier": "*.wordpress.net",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Only the jobs.wordpress.net site is eligible for bounty.\n\nIssues with playground.wordpress.net should use the \"Playground\" asset.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+          "integrity_requirement": "low",
+          "max_severity": "low"
+        },
+        "type": "WILDCARD",
+        "value": "*.wordpress.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "All wordpress.org domains that **are not listed in other assets**, including (but not limited to) the following:\n* login.wordpress.org\n* developer.wordpress.org\n* make.wordpress.org\n* translate.wordpress.org\n* global.wordpress.org, {locale}.wordpress.org (e.g., de.wordpress.org, es-mx.wordpress.org)\n* learn.wordpress.org\n\nIssues are in scope only if they can be exploited without an authenticated user account or with the default user role that's granted when an account is created on wordpress.org. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+        "raw": {
+          "asset_identifier": "*.wordpress.org",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "All wordpress.org domains that **are not listed in other assets**, including (but not limited to) the following:\n* login.wordpress.org\n* developer.wordpress.org\n* make.wordpress.org\n* translate.wordpress.org\n* global.wordpress.org, {locale}.wordpress.org (e.g., de.wordpress.org, es-mx.wordpress.org)\n* learn.wordpress.org\n\nIssues are in scope only if they can be exploited without an authenticated user account or with the default user role that's granted when an account is created on wordpress.org. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.wordpress.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Download source code from: https://buddypress.org/download/\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+        "raw": {
+          "asset_identifier": "BuddyPress Core",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Download source code from: https://buddypress.org/download/\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "BuddyPress Core"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The Create Block Theme plugin at https://github.com/WordPress/create-block-theme.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible.",
+        "raw": {
+          "asset_identifier": "Create Block Theme",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The Create Block Theme plugin at https://github.com/WordPress/create-block-theme.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "Create Block Theme"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "All code located under [the GlotPress organization](https://github.com/GlotPress/) on GitHub.\n\nThe most important target is the `glotpress-wp` repository. Other repositories are in scope, but may have a lower importance.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+        "raw": {
+          "asset_identifier": "GlotPress",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "All code located under [the GlotPress organization](https://github.com/GlotPress/) on GitHub.\n\nThe most important target is the `glotpress-wp` repository. Other repositories are in scope, but may have a lower importance.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "GlotPress"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Download source code from https://github.com/WordPress/gutenberg",
+        "raw": {
+          "asset_identifier": "Gutenberg",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Download source code from https://github.com/WordPress/gutenberg",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "Gutenberg"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Only plugins that are officially maintained by WordPress.org are in scope. Most plugins have their own asset, use this asset only for those that don't.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.\n\nNote that some third-party plugins incorrectly list `wordpressdotorg` as a contributor or developer. These are not in scope.",
+        "raw": {
+          "asset_identifier": "Official WordPress plugins",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Only plugins that are officially maintained by WordPress.org are in scope. Most plugins have their own asset, use this asset only for those that don't.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.\n\nNote that some third-party plugins incorrectly list `wordpressdotorg` as a contributor or developer. These are not in scope.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "Official WordPress plugins"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Please check all other assets before using this one.\n\nThis only covers repos under https://github.com/wordpress that are not covered by any other asset.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible.",
+        "raw": {
+          "asset_identifier": "Other github.com/wordpress repos",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Please check all other assets before using this one.\n\nThis only covers repos under https://github.com/wordpress that are not covered by any other asset.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "Other github.com/wordpress repos"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Covers https://playground.wordpress.net and https://github.com/WordPress/wordpress-playground .\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+        "raw": {
+          "asset_identifier": "Playground",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Covers https://playground.wordpress.net and https://github.com/WordPress/wordpress-playground .\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "Playground"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The SQLite Database Integration plugin at https://github.com/WordPress/sqlite-database-integration.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+        "raw": {
+          "asset_identifier": "SQLite Database Integration",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The SQLite Database Integration plugin at https://github.com/WordPress/sqlite-database-integration.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "SQLite Database Integration"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The Secure Custom Fields plugin at https://github.com/WordPress/secure-custom-fields.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+        "raw": {
+          "asset_identifier": "Secure Custom Fields",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The Secure Custom Fields plugin at https://github.com/WordPress/secure-custom-fields.\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "Secure Custom Fields"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "All code located under [the WP-CLI organization](https://github.com/wp-cli) on GitHub.\n\nThe most important targets are the main `wp-cli` repository, and any repositories for commands that are bundled with the distributed `wp-cli` source code, like `cache-command`, `scaffold-command`, etc.\n\nOther repositories are in scope, but may have a lower importance.",
+        "raw": {
+          "asset_identifier": "WP-CLI",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "All code located under [the WP-CLI organization](https://github.com/wp-cli) on GitHub.\n\nThe most important targets are the main `wp-cli` repository, and any repositories for commands that are bundled with the distributed `wp-cli` source code, like `cache-command`, `scaffold-command`, etc.\n\nOther repositories are in scope, but may have a lower importance.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "WP-CLI"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Download source code from: https://wordpress.org/download/source/",
+        "raw": {
+          "asset_identifier": "WordPress Core",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Download source code from: https://wordpress.org/download/source/",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "WordPress Core"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.wordpress.org",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.wordpress.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Download source code from: https://bbpress.org/download/\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+        "raw": {
+          "asset_identifier": "bbPress Core",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Download source code from: https://bbpress.org/download/\n\nIssues are in scope only if they can be exploited without an authenticated user account. Issues that require authenticated roles like Contributor+ or those that can only be granted by an admin are ineligible unless you can demonstrate a significant and high impact escalation, like a clear path to admin escalation or remote code execution.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "bbPress Core"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "These are wikis, they're intended to be freely edited by anonymous users. We are not interested in vulnerabilities unless they have a severe impact.",
+        "raw": {
+          "asset_identifier": "codex.wordpress.org,codex.bbpress.org,codex.buddypress.org",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "These are wikis, they're intended to be freely edited by anonymous users. We are not interested in vulnerabilities unless they have a severe impact.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "codex.wordpress.org,codex.bbpress.org,codex.buddypress.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "doaction.org",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "doaction.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This site runs uses [the WooCommerce plugin](https://woocommerce.com/), but we don't accept reports for that. We only accept reports for our custom code. If you find any vulnerabilities that are also present in WooCommerce itself, please [report them to Automattic](/automattic).\n\nPlease don't submit test orders (especially automated ones). They don't test any of our custom code, and are a pain to clean up.\n\nAdditionally, price manipulation is a common invalid report, please see #682344.",
+        "raw": {
+          "asset_identifier": "mercantile.wordpress.org",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This site runs uses [the WooCommerce plugin](https://woocommerce.com/), but we don't accept reports for that. We only accept reports for our custom code. If you find any vulnerabilities that are also present in WooCommerce itself, please [report them to Automattic](/automattic).\n\nPlease don't submit test orders (especially automated ones). They don't test any of our custom code, and are a pain to clean up.\n\nAdditionally, price manipulation is a common invalid report, please see #682344.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "mercantile.wordpress.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "planet.wordpress.org",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "planet.wordpress.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "wordpressfoundation.org",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "wordpressfoundation.org"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "All WordPress.com vulnerabilities should be reported to [Automattic's HackerOne program](https://hackerone.com/automattic). \n\n**WordPress.com vulnerabilities reported here will be marked as `Not Applicable`.**",
+        "raw": {
+          "asset_identifier": "*.wordpress.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "All WordPress.com vulnerabilities should be reported to [Automattic's HackerOne program](https://hackerone.com/automattic). \n\n**WordPress.com vulnerabilities reported here will be marked as `Not Applicable`.**",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.wordpress.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**Please, report vulnerabilities for the WordPress mobile apps through the [Automattic HackerOne page](/automattic).**\n",
+        "raw": {
+          "asset_identifier": "335703880",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**Please, report vulnerabilities for the WordPress mobile apps through the [Automattic HackerOne page](/automattic).**\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "335703880"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Archived code repositories (e.g. in GitHub) are out of scope, unless you have verified that code from it is imported and actively being used.",
+        "raw": {
+          "asset_identifier": "Archived GitHub repositories",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Archived code repositories (e.g. in GitHub) are out of scope, unless you have verified that code from it is imported and actively being used.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Archived GitHub repositories"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Unless otherwise noted, we own and operate dedicated servers, rather than using services like AWS, Digital Ocean, etc. Third-parties frequently create S3 buckets, droplets, etc that have security issues, and have \"WordPress\" in the name. These are not ours, and reports about them will be closed as `Not Applicable`.",
+        "raw": {
+          "asset_identifier": "Digital Ocean, AWS, etc",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Unless otherwise noted, we own and operate dedicated servers, rather than using services like AWS, Digital Ocean, etc. Third-parties frequently create S3 buckets, droplets, etc that have security issues, and have \"WordPress\" in the name. These are not ours, and reports about them will be closed as `Not Applicable`.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Digital Ocean, AWS, etc"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**Please, report vulnerabilities for the WordPress mobile apps through the [Automattic HackerOne page](/automattic).**\n",
+        "raw": {
+          "asset_identifier": "https://github.com/wordpress-mobile/",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**Please, report vulnerabilities for the WordPress mobile apps through the [Automattic HackerOne page](/automattic).**\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/wordpress-mobile/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "These are public logs of very old conversations. We are not interested in vulnerabilities unless they have a severe impact (e.g., RCE, XSS, modifying the logs, etc). DoS is not severe in this case.",
+        "raw": {
+          "asset_identifier": "irclogs.wordpress.org",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "These are public logs of very old conversations. We are not interested in vulnerabilities unless they have a severe impact (e.g., RCE, XSS, modifying the logs, etc). DoS is not severe in this case.",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "irclogs.wordpress.org"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We are not interested in vulnerabilities unless they have a severe impact.",
+        "raw": {
+          "asset_identifier": "lists.wordpress.org",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We are not interested in vulnerabilities unless they have a severe impact.",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "lists.wordpress.org"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "We are not interested in vulnerabilities unless they have a severe impact (e.g., RCE, SSRF). Metrics data is intentionally made public.",
+        "raw": {
+          "asset_identifier": "munin-*.wordpress.org",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "We are not interested in vulnerabilities unless they have a severe impact (e.g., RCE, SSRF). Metrics data is intentionally made public.",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "munin-*.wordpress.org"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**Please, report vulnerabilities for the WordPress mobile apps through the [Automattic HackerOne page](/automattic).**\n",
+        "raw": {
+          "asset_identifier": "org.wordpress.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**Please, report vulnerabilities for the WordPress mobile apps through the [Automattic HackerOne page](/automattic).**\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "org.wordpress.android"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "These are hosted on WordPress.com and we don't have access to modify the code, servers, etc. Check [Automattic's HackerOne program](https://hackerone.com/automattic) for details on reporting vulnerabilities with WordPress.com sites.",
+        "raw": {
+          "asset_identifier": "status.wordpress.org,glotpress.blog,wordpress.tv",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "These are hosted on WordPress.com and we don't have access to modify the code, servers, etc. Check [Automattic's HackerOne program](https://hackerone.com/automattic) for details on reporting vulnerabilities with WordPress.com sites.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "status.wordpress.org,glotpress.blog,wordpress.tv"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/wordpress"
+}

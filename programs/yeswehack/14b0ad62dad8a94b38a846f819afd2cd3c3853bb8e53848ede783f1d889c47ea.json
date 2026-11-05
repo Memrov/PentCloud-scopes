@@ -1,0 +1,65 @@
+{
+  "id": "yeswehack:govtech-vulnerability-disclosure-programme-policy",
+  "metadata": {
+    "disabled": false,
+    "id": "govtech-vulnerability-disclosure-programme-policy",
+    "managed": null,
+    "max_bounty": null,
+    "min_bounty": null,
+    "name": "GovTech - Vulnerability Disclosure Programme",
+    "public": true
+  },
+  "name": "GovTech - Vulnerability Disclosure Programme",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "262154c999764d6d77c17024475fabfc2bd845b8dc599dec9afb59220b16c2f4",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "govtech-vulnerability-disclosure-programme-policy",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.gov.sg",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "*.gov.sg"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Domains where GovTech is the registrar",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Domains where GovTech is the registrar"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains or subdomains not listed in the above list of 'Scopes'"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/govtech-vulnerability-disclosure-programme-policy"
+}

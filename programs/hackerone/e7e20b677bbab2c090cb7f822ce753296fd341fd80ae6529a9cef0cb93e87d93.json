@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:sorare",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 415.0,
+    "average_time_to_first_program_response": 4.0,
+    "average_time_to_report_resolved": 433.0,
+    "handle": "sorare",
+    "id": 0,
+    "managed_program": true,
+    "name": "Sorare",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 80,
+    "submission_state": "open",
+    "url": "https://hackerone.com/sorare",
+    "website": "https://sorare.com"
+  },
+  "name": "Sorare",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "78965aa1c83d0c4bd638066fa596ebda69292729f2c7c61c0e106fe442622a93",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "sorare",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is Sorare's GraphQL Open API. More documentation about the API can be found on GitHub: https://github.com/sorare/api",
+        "raw": {
+          "asset_identifier": "api.sorare.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is Sorare's GraphQL Open API. More documentation about the API can be found on GitHub: https://github.com/sorare/api",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.sorare.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is Sorare's main application.",
+        "raw": {
+          "asset_identifier": "sorare.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is Sorare's main application.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "sorare.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is Sorare's WebSocket domain, providing GraphQL subscriptions capabilities as described in https://github.com/sorare/api#subscribing-to-graphql-events",
+        "raw": {
+          "asset_identifier": "ws.sorare.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is Sorare's WebSocket domain, providing GraphQL subscriptions capabilities as described in https://github.com/sorare/api#subscribing-to-graphql-events",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "ws.sorare.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/sorare"
+}

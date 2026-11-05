@@ -1,0 +1,200 @@
+{
+  "id": "hackerone:chia_network",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 182.0,
+    "average_time_to_first_program_response": 12.0,
+    "average_time_to_report_resolved": null,
+    "handle": "chia_network",
+    "id": 0,
+    "managed_program": false,
+    "name": "Chia Network",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/chia_network",
+    "website": "http://chia.net"
+  },
+  "name": "Chia Network",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "6dac90981ffe00a4c3e8a01d9e36c5980655a4a8379cf430e4c034e46fdd75ef",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "chia_network",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Chia Cloud crypto wallet API",
+        "raw": {
+          "asset_identifier": "api.vault.chiatest.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Chia Cloud crypto wallet API",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.vault.chiatest.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "IOS cryptographic signing application",
+        "raw": {
+          "asset_identifier": "https://apps.apple.com/app/chia-signer/id6504493785 ",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "IOS cryptographic signing application",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "https://apps.apple.com/app/chia-signer/id6504493785 "
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Chia core",
+        "raw": {
+          "asset_identifier": "https://github.com/Chia-Network/chia-blockchain",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Chia core",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/Chia-Network/chia-blockchain"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Chia desktop",
+        "raw": {
+          "asset_identifier": "https://github.com/Chia-Network/chia-blockchain-gui",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Chia desktop",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/Chia-Network/chia-blockchain-gui"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Chia RUST implementations",
+        "raw": {
+          "asset_identifier": "https://github.com/Chia-Network/chia_rs",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Chia RUST implementations",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/Chia-Network/chia_rs"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Chia Proof of Space plotter",
+        "raw": {
+          "asset_identifier": "https://github.com/Chia-Network/chiapos",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Chia Proof of Space plotter",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/Chia-Network/chiapos"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "ChiaVDF (Verifiable Delay Function) for Timelords",
+        "raw": {
+          "asset_identifier": "https://github.com/Chia-Network/chiavdf",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "ChiaVDF (Verifiable Delay Function) for Timelords",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/Chia-Network/chiavdf"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Chia RUST implementations",
+        "raw": {
+          "asset_identifier": "https://github.com/Chia-Network/clvm_rs",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Chia RUST implementations",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/Chia-Network/clvm_rs"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Chia Cloud crypto wallet",
+        "raw": {
+          "asset_identifier": "https://vault.chiatest.net/",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Chia Cloud crypto wallet",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://vault.chiatest.net/"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/chia_network"
+}

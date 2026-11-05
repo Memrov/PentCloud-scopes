@@ -1,0 +1,74 @@
+{
+  "id": "hackerone:stripo",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 38.0,
+    "average_time_to_report_resolved": 723.0,
+    "handle": "stripo",
+    "id": 0,
+    "managed_program": false,
+    "name": "Stripo Inc",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/stripo",
+    "website": "https://stripo.email"
+  },
+  "name": "Stripo Inc",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "dcbf5d43a2a7a05dbf16f9343a17c0d583f54253656fea3ff8d05e8a9559c0f8",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "stripo",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "my.stripo.email",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "my.stripo.email"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "stripo.email",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "stripo.email"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/stripo"
+}

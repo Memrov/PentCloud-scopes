@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:ibm",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 86.0,
+    "average_time_to_report_resolved": 989.0,
+    "handle": "ibm",
+    "id": 0,
+    "managed_program": false,
+    "name": "IBM",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 71,
+    "submission_state": "open",
+    "url": "https://hackerone.com/ibm",
+    "website": "https://www.ibm.com"
+  },
+  "name": "IBM",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "0b2fadabf6c98dcc45e6c336f42bcf6794bca82869d13bf93954fbca1dfd5c00",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "ibm",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Vulnerability Reports against IBM products.",
+        "raw": {
+          "asset_identifier": "IBM Products",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Vulnerability Reports against IBM products.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "IBM Products"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Vulnerability Reports against IBM tokens & secrets\n\n",
+        "raw": {
+          "asset_identifier": "IBM Tokens & Secrets",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Vulnerability Reports against IBM tokens & secrets\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "IBM Tokens & Secrets"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Vulnerability Reports against *.ibm.com websites or any other web domains owned by IBM (example: ibmcloud.com). ",
+        "raw": {
+          "asset_identifier": "IBM Websites",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Vulnerability Reports against *.ibm.com websites or any other web domains owned by IBM (example: ibmcloud.com). ",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "IBM Websites"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/ibm"
+}

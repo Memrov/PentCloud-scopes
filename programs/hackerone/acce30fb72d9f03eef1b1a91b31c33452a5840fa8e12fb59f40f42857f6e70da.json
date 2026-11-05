@@ -1,0 +1,218 @@
+{
+  "id": "hackerone:alohi",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 7.0,
+    "average_time_to_report_resolved": 287.0,
+    "handle": "alohi",
+    "id": 0,
+    "managed_program": false,
+    "name": "Alohi",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/alohi",
+    "website": "https://www.alohi.com"
+  },
+  "name": "Alohi",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "0b200b2b346357fa3e9e18018188f824e615a0dab938e1d018606a8ca0c42268",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "alohi",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "FAX.PLUS Web application and APIs\nhttps://app.fax.plus",
+        "raw": {
+          "asset_identifier": "*.fax.plus",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "FAX.PLUS Web application and APIs\nhttps://app.fax.plus",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.fax.plus"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SIGN.PLUS Web application and APIs\nhttps://app.sign.plus",
+        "raw": {
+          "asset_identifier": "*.sign.plus",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SIGN.PLUS Web application and APIs\nhttps://app.sign.plus",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.sign.plus"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Docs: https://apidoc.fax.plus/v3\nOfficial SDKs: https://www.fax.plus/fax-api",
+        "raw": {
+          "asset_identifier": "FAX Programmable API",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Docs: https://apidoc.fax.plus/v3\nOfficial SDKs: https://www.fax.plus/fax-api",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "FAX Programmable API"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "FAX.PLUS iOS Application",
+        "raw": {
+          "asset_identifier": "plus.fax.FaxPlus",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "FAX.PLUS iOS Application",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "plus.fax.FaxPlus"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "FAX.PLUS Android Application",
+        "raw": {
+          "asset_identifier": "plus.fax.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "FAX.PLUS Android Application",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "plus.fax.android"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SCAN.PLUS iOS Application",
+        "raw": {
+          "asset_identifier": "plus.scan.ScanPlus",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SCAN.PLUS iOS Application",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "plus.scan.ScanPlus"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SCAN.PLUS Android Application",
+        "raw": {
+          "asset_identifier": "plus.scan.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SCAN.PLUS Android Application",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "plus.scan.android"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SIGN.PLUS iOS Application",
+        "raw": {
+          "asset_identifier": "plus.sign.SignPlus",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SIGN.PLUS iOS Application",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "plus.sign.SignPlus"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SIGN.PLUS Android Application",
+        "raw": {
+          "asset_identifier": "plus.sign.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SIGN.PLUS Android Application",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "plus.sign.android"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Static landing page",
+        "raw": {
+          "asset_identifier": "www.alohi.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Static landing page",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.alohi.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/alohi"
+}

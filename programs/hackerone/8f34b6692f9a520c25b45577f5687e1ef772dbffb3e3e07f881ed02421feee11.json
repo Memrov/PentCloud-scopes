@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:braze_inc",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 3180.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 2472.0,
+    "handle": "braze_inc",
+    "id": 0,
+    "managed_program": true,
+    "name": "Braze, Inc.",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 95,
+    "submission_state": "open",
+    "url": "https://hackerone.com/braze_inc",
+    "website": "http://braze.com"
+  },
+  "name": "Braze, Inc.",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "fb96153841173d6f5136e3f93d730f65c984392e1711fceaf21eeb273fdf9ec2",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "braze_inc",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is NOT the REST API and will have different endpoints and documentation that can be found on the Braze Public Docs.",
+        "raw": {
+          "asset_identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com/",
+          "asset_type": "API",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is NOT the REST API and will have different endpoints and documentation that can be found on the Braze Public Docs.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "API",
+        "value": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Only test against accounts that you own, or have explicit permission to test against.",
+        "raw": {
+          "asset_identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Only test against accounts that you own, or have explicit permission to test against.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is the REST API, and can be used to manage the Dashboard. Documentation can be found on the public braze docs: https://www.braze.com/docs/api/basics",
+        "raw": {
+          "asset_identifier": "https://bug-bounty-rest.k8s.tools-001.d-use-1.braze-dev.com/",
+          "asset_type": "API",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is the REST API, and can be used to manage the Dashboard. Documentation can be found on the public braze docs: https://www.braze.com/docs/api/basics",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "API",
+        "value": "https://bug-bounty-rest.k8s.tools-001.d-use-1.braze-dev.com/"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/braze_inc"
+}

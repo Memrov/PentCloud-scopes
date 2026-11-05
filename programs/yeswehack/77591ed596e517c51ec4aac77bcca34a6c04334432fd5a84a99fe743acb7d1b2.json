@@ -1,0 +1,98 @@
+{
+  "id": "yeswehack:yes-we-hack",
+  "metadata": {
+    "disabled": false,
+    "id": "yes-we-hack",
+    "managed": null,
+    "max_bounty": 15000,
+    "min_bounty": 50,
+    "name": "YesWeHack",
+    "public": true
+  },
+  "name": "YesWeHack",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "cfd127078a9413a18ffa00adf060c60eb343144aca519a812d49e701a93416c3",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "yes-we-hack",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://yeswehack.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://yeswehack.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://api.yeswehack.com",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://api.yeswehack.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.yeswehack.com",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://apps.yeswehack.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.yeswehack.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://www.yeswehack.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Vulnerabilities reported on other services or applications are not allowed.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Vulnerabilities reported on other services or applications are not allowed."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Any issues with Wallet or KYC features (There are third party services)",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Any issues with Wallet or KYC features (There are third party services)"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/yes-we-hack"
+}

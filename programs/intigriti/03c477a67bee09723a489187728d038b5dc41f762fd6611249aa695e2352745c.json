@@ -1,0 +1,198 @@
+{
+  "id": "intigriti:efa92aaa-d683-4cf9-8834-a03cf864cc80",
+  "metadata": {
+    "company_handle": "dpgm",
+    "confidentiality_level": "public",
+    "handle": "trouw",
+    "id": "efa92aaa-d683-4cf9-8834-a03cf864cc80",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 2200
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 25
+    },
+    "name": "Trouw",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/dpgm/trouw/detail"
+  },
+  "name": "Trouw",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "07973de91fa4fa899282be0a1e79539ab1ef824fb1ec0263e3e4c8e7d0f84ba6",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "efa92aaa-d683-4cf9-8834-a03cf864cc80",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "myaccount.trouw.nl",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "myaccount.trouw.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "shop.trouw.nl",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "shop.trouw.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "webwinkel.trouw.nl",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "webwinkel.trouw.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding\n* trouw.nl/service\n* trouw.nl/inloggen\n* trouw.nl/login\n* trouw.nl/registreren",
+        "raw": {
+          "description": "excluding\n* trouw.nl/service\n* trouw.nl/inloggen\n* trouw.nl/login\n* trouw.nl/registreren",
+          "endpoint": "www.trouw.nl",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.trouw.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.trouw.nl/abonnementen",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.trouw.nl/abonnementen"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding abonnement.trouw.nl",
+        "raw": {
+          "description": "excluding abonnement.trouw.nl",
+          "endpoint": "*.trouw.nl",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.trouw.nl"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "trouw.nl/inloggen",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "trouw.nl/inloggen"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "trouw.nl/login",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "trouw.nl/login"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "trouw.nl/registreren",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "trouw.nl/registreren"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "trouw.nl/service",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "trouw.nl/service"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "abonnement.trouw.nl",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "abonnement.trouw.nl"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+        "raw": {
+          "description": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+          "endpoint": "actie.trouw.nl",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "actie.trouw.nl"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/dpgm/trouw/detail"
+}

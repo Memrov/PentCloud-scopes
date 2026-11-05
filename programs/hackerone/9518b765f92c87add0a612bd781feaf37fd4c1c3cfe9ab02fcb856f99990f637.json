@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:servicenow-disclosure",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 20.0,
+    "average_time_to_report_resolved": 885.0,
+    "handle": "servicenow-disclosure",
+    "id": 0,
+    "managed_program": true,
+    "name": "ServiceNow Disclosure",
+    "offers_bounties": false,
+    "offers_swag": true,
+    "response_efficiency_percentage": 71,
+    "submission_state": "open",
+    "url": "https://hackerone.com/servicenow-disclosure",
+    "website": "https://www.servicenow.com/"
+  },
+  "name": "ServiceNow Disclosure",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "97f340a4013490ee978bb272ba0bddb6de1270eabc4b92e11a0dd796af3e22e3",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "servicenow-disclosure",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.lightstep.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.lightstep.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.service-now.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.service-now.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.servicenow.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.servicenow.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/servicenow-disclosure"
+}

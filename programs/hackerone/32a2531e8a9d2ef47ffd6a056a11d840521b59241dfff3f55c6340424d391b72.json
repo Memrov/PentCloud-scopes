@@ -1,0 +1,578 @@
+{
+  "id": "hackerone:mongodb",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 696.0,
+    "average_time_to_first_program_response": 2.0,
+    "average_time_to_report_resolved": 1260.0,
+    "handle": "mongodb",
+    "id": 0,
+    "managed_program": true,
+    "name": "MongoDB",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 79,
+    "submission_state": "open",
+    "url": "https://hackerone.com/mongodb",
+    "website": "https://mongodb.com"
+  },
+  "name": "MongoDB",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "8fdf0fe1f19cd146c15644454e98c6369c777e8a7bff1d1021bbb23f970661e7",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "mongodb",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\n.mongodb.com/ is in scope, and includes\nmongodb.com/docs/\nsupport.mongodb.com\nAll others sites that follow that pattern are in-scope. If the site is owned by MongoDB, it is eligible for a bounty. If it’s owned by a 3rd party, it is not eligible for a bounty. This scope is a catch-all for all products not listed individually with the 'Atlas' Prefix, or covered as an Atlas product, listed elsewhere in the scope.\nmongodb.com/community/forums is in scope, but not eligible for a bounty.\nfeedback.mongodb.com is out of scope and not eligible for bounty. Please do not test that platform. All bugs should be reported to AHA, not MongoDB.\nArtifactory is being deprecated and not eligible for bounty.\n",
+        "raw": {
+          "asset_identifier": "*.mongodb.com/*",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\n.mongodb.com/ is in scope, and includes\nmongodb.com/docs/\nsupport.mongodb.com\nAll others sites that follow that pattern are in-scope. If the site is owned by MongoDB, it is eligible for a bounty. If it’s owned by a 3rd party, it is not eligible for a bounty. This scope is a catch-all for all products not listed individually with the 'Atlas' Prefix, or covered as an Atlas product, listed elsewhere in the scope.\nmongodb.com/community/forums is in scope, but not eligible for a bounty.\nfeedback.mongodb.com is out of scope and not eligible for bounty. Please do not test that platform. All bugs should be reported to AHA, not MongoDB.\nArtifactory is being deprecated and not eligible for bounty.\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.mongodb.com/*"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "MongoDB App Services (fka Realm) has been deprecated. ",
+        "raw": {
+          "asset_identifier": "App Services/Realm",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "MongoDB App Services (fka Realm) has been deprecated. ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "App Services/Realm"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\ncharts.mongodb.com",
+        "raw": {
+          "asset_identifier": "Atlas Charts",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\ncharts.mongodb.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Atlas Charts"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\nAtlas Data Federation is embedded into the Atlas Platform. Read more here:\nhttps://www.mongodb.com/products/platform/atlas-data-federation\n",
+        "raw": {
+          "asset_identifier": "Atlas Data Federation",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\nAtlas Data Federation is embedded into the Atlas Platform. Read more here:\nhttps://www.mongodb.com/products/platform/atlas-data-federation\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Atlas Data Federation"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\naccount.mongodb.com and other Identity and Access Management bugs within Atlas, regarding Organizations, Projects and permissions.",
+        "raw": {
+          "asset_identifier": "Atlas IAM",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\naccount.mongodb.com and other Identity and Access Management bugs within Atlas, regarding Organizations, Projects and permissions.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Atlas IAM"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\nhttps://www.mongodb.com/docs/atlas/infinite/atlas-infinite-landing/",
+        "raw": {
+          "asset_identifier": "Atlas Infinite",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\nhttps://www.mongodb.com/docs/atlas/infinite/atlas-infinite-landing/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Atlas Infinite"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\nBilling is integrated into the Atlas Platform, read more here: https://www.mongodb.com/docs/atlas/billing/",
+        "raw": {
+          "asset_identifier": "Atlas Payments/Billing",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\nBilling is integrated into the Atlas Platform, read more here: https://www.mongodb.com/docs/atlas/billing/",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Atlas Payments/Billing"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://www.mongodb.com/try/download/mongosync",
+        "raw": {
+          "asset_identifier": "Cluster-To-Cluster sync",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://www.mongodb.com/try/download/mongosync",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Cluster-To-Cluster sync"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://www.mongodb.com/try/download/compass\nResponsible social engineering reports are in scope but not eligible for bounty. \n",
+        "raw": {
+          "asset_identifier": "Compass",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://www.mongodb.com/try/download/compass\nResponsible social engineering reports are in scope but not eligible for bounty. \n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Compass"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://www.mongodb.com/try/download/database-tools",
+        "raw": {
+          "asset_identifier": "Database Tools",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://www.mongodb.com/try/download/database-tools",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Database Tools"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nThese are the following drivers that are in scope:\nAtlas SQL JDBC Driver\nAtlas SQL ODBC Driver\nC\nC++\nGo\nJVM (Java, Scala, Kotlin)\nLibmongocrypt\nNode.js/Typescript\nPHP\nPython\nRuby\nRust\nThe Swift Driver is not in scope and not eligible for bounty.\n",
+        "raw": {
+          "asset_identifier": "Drivers",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nThese are the following drivers that are in scope:\nAtlas SQL JDBC Driver\nAtlas SQL ODBC Driver\nC\nC++\nGo\nJVM (Java, Scala, Kotlin)\nLibmongocrypt\nNode.js/Typescript\nPHP\nPython\nRuby\nRust\nThe Swift Driver is not in scope and not eligible for bounty.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Drivers"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\nOps manager and Cloud manager",
+        "raw": {
+          "asset_identifier": "Enterprise Edition Products and Tools",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\nOps manager and Cloud manager",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Enterprise Edition Products and Tools"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://github.com/evergreen-ci/evergreen",
+        "raw": {
+          "asset_identifier": "Evergreen",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://github.com/evergreen-ci/evergreen",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Evergreen"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nMongoDB is open-sourced and has publicly visible JIRA tickets. Only report information disclosure issues-- no technical bugs are accepted. Bounty may be varied.",
+        "raw": {
+          "asset_identifier": "Jira Projects",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nMongoDB is open-sourced and has publicly visible JIRA tickets. Only report information disclosure issues-- no technical bugs are accepted. Bounty may be varied.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Jira Projects"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nMongoDB Assistant is integrated into Data Explorer and Compass.",
+        "raw": {
+          "asset_identifier": "MongoDB Assistant",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nMongoDB Assistant is integrated into Data Explorer and Compass.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB Assistant"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\nAtlas and Atlas Features and Products are in scope and eligible for bounty.\nAtlas IAM, Charts, Data Federation, Payments/Billing, are listed elsewhere in the scope. Other Atlas products not explicitly listed elsewhere in the scope should be submitted here. This includes, but is not limited to Streams, Online Archive, Clusters, and Backup.\nhttps://cloud.mongodb.com\n",
+        "raw": {
+          "asset_identifier": "MongoDB Atlas",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\nAtlas and Atlas Features and Products are in scope and eligible for bounty.\nAtlas IAM, Charts, Data Federation, Payments/Billing, are listed elsewhere in the scope. Other Atlas products not explicitly listed elsewhere in the scope should be submitted here. This includes, but is not limited to Streams, Online Archive, Clusters, and Backup.\nhttps://cloud.mongodb.com\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB Atlas"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\nhttps://www.mongodb.com/docs/agentengine/\nCustomers are responsible for the correct functioning of their MongoDB-hosted agent, so no bug reports will be accepted for misbehaving agents. Bug reports will also not be accepted for agents that violate our Acceptable Use Policy or Terms of Service. Otherwise, security gaps in the Atlas Agent Engine control plane or data plane, especially where cross-customer data access or availability impacts are possible, should be reported.",
+        "raw": {
+          "asset_identifier": "MongoDB Atlas Agent Engine ",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\nhttps://www.mongodb.com/docs/agentengine/\nCustomers are responsible for the correct functioning of their MongoDB-hosted agent, so no bug reports will be accepted for misbehaving agents. Bug reports will also not be accepted for agents that violate our Acceptable Use Policy or Terms of Service. Otherwise, security gaps in the Atlas Agent Engine control plane or data plane, especially where cross-customer data access or availability impacts are possible, should be reported.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB Atlas Agent Engine "
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nResponsible social engineering reports are in scope but not eligible for bounty. ",
+        "raw": {
+          "asset_identifier": "MongoDB Atlas Agent Engine CLI and First Party Libraries",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nResponsible social engineering reports are in scope but not eligible for bounty. ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB Atlas Agent Engine CLI and First Party Libraries"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nThe Connectors are in scope. This includes\nKafka Connector\nPowerBI Connector\nBI Connector\nSpark Connector\nTableau Connector\n",
+        "raw": {
+          "asset_identifier": "MongoDB Connectors",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nThe Connectors are in scope. This includes\nKafka Connector\nPowerBI Connector\nBI Connector\nSpark Connector\nTableau Connector\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB Connectors"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://plugins.jetbrains.com/plugin/24377-mongodb",
+        "raw": {
+          "asset_identifier": "MongoDB IntelliJ Plugin",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://plugins.jetbrains.com/plugin/24377-mongodb",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB IntelliJ Plugin"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://github.com/mongodb-js/mongodb-mcp-server",
+        "raw": {
+          "asset_identifier": "MongoDB MCP Server",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://github.com/mongodb-js/mongodb-mcp-server",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB MCP Server"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nOnly github.com/mongodb is considered to be eligible for bounty. Other MongoDB owned repositories are in scope, but not eligible for bounty.\nhttps://github.com/mongodb/kingfisher is out of scope and not eligible for bounty.\n",
+        "raw": {
+          "asset_identifier": "MongoDB Owned GitHub Repositories",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nOnly github.com/mongodb is considered to be eligible for bounty. Other MongoDB owned repositories are in scope, but not eligible for bounty.\nhttps://github.com/mongodb/kingfisher is out of scope and not eligible for bounty.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB Owned GitHub Repositories"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://cloud.mongodb.com/ecosystem\nPartner integrations may be eligible for bounties, depending on the owner of the issue.\n",
+        "raw": {
+          "asset_identifier": "MongoDB Partner Integrations",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://cloud.mongodb.com/ecosystem\nPartner integrations may be eligible for bounties, depending on the owner of the issue.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB Partner Integrations"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Core]\nServer Community and Server Enterprise are in scope and eligible for bounty.",
+        "raw": {
+          "asset_identifier": "MongoDB Server",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Core]\nServer Community and Server Enterprise are in scope and eligible for bounty.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB Server"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://www.mongodb.com/try/download/shell",
+        "raw": {
+          "asset_identifier": "MongoDB Shell",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://www.mongodb.com/try/download/shell",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB Shell"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttp://mongodbtoolchain.build.10gen.cc",
+        "raw": {
+          "asset_identifier": "MongoDB Toolchain",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttp://mongodbtoolchain.build.10gen.cc",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "MongoDB Toolchain"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://www.mongodb.com/try/download/relational-migrator",
+        "raw": {
+          "asset_identifier": "Relational Migrator",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://www.mongodb.com/try/download/relational-migrator",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Relational Migrator"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nlearn.mongodb.com is owned by 3rd party and not eligible for bounty",
+        "raw": {
+          "asset_identifier": "University Platform",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nlearn.mongodb.com is owned by 3rd party and not eligible for bounty",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "University Platform"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode",
+        "raw": {
+          "asset_identifier": "VS Code Plugin",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "VS Code Plugin"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Non-Core]\nhttps://www.voyageai.com\nhttps://ai.mongodb.com\nhttps://api.voyageai.com\nhttps://blog.voyageai.com/\nhttps://docs.voyageai.com/docs/introduction",
+        "raw": {
+          "asset_identifier": "voyageai.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Non-Core]\nhttps://www.voyageai.com\nhttps://ai.mongodb.com\nhttps://api.voyageai.com\nhttps://blog.voyageai.com/\nhttps://docs.voyageai.com/docs/introduction",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "voyageai.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/mongodb"
+}

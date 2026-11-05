@@ -1,0 +1,525 @@
+{
+  "id": "hackerone:mendix",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 6449.0,
+    "handle": "mendix",
+    "id": 0,
+    "managed_program": true,
+    "name": "Mendix",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 43,
+    "submission_state": "open",
+    "url": "https://hackerone.com/mendix",
+    "website": "https://mendix.com"
+  },
+  "name": "Mendix",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "cc777cd0743800761efde2e425651914a8823ba8cd5611c9f3e787af2f9c1c64",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "mendix",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "# *.mendix.com\n\nThis is an open-ended program, we want to be better and we welcome your help us get there.\n\n## Observations\n\n  - Some of the sub-domains are behind sign-up\n  - The CIA impact will vary depending on the explored vulnerabilities.",
+        "raw": {
+          "asset_identifier": "*.mendix.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "# *.mendix.com\n\nThis is an open-ended program, we want to be better and we welcome your help us get there.\n\n## Observations\n\n  - Some of the sub-domains are behind sign-up\n  - The CIA impact will vary depending on the explored vulnerabilities.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.mendix.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.timeseries.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.timeseries.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.timeseries.nl",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.timeseries.nl"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "#3dvis.mendixcloud.com\n\n3dviewer production environment",
+        "raw": {
+          "asset_identifier": "3dvis.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "#3dvis.mendixcloud.com\n\n3dviewer production environment",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "3dvis.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Endpoints\n  - URL: https://3s.mendixcloud.com",
+        "raw": {
+          "asset_identifier": "3s.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Endpoints\n  - URL: https://3s.mendixcloud.com",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "3s.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Endpoints\n  - URL:  https://alm.mendixcloud.com",
+        "raw": {
+          "asset_identifier": "alm.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Endpoints\n  - URL:  https://alm.mendixcloud.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "alm.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "#contributor.mendixcloud.com\n \nThis is a frontend application for onboarding flow in Marketplace.\n \n## Endpoints\n  - URL:  https://contributor.mendixcloud.com",
+        "raw": {
+          "asset_identifier": "contributor.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "#contributor.mendixcloud.com\n \nThis is a frontend application for onboarding flow in Marketplace.\n \n## Endpoints\n  - URL:  https://contributor.mendixcloud.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "contributor.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Endpoints\n  - URL:  https://datalake-sync.apps.mendix.com",
+        "raw": {
+          "asset_identifier": "datalake-sync.apps.mendix.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Endpoints\n  - URL:  https://datalake-sync.apps.mendix.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "datalake-sync.apps.mendix.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Endpoints\n  - URL:  https://dataprivacy.mendixcloud.com",
+        "raw": {
+          "asset_identifier": "dataprivacy.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Endpoints\n  - URL:  https://dataprivacy.mendixcloud.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dataprivacy.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Endpoints\n  - URL:  https://dealservice.mendixcloud.com",
+        "raw": {
+          "asset_identifier": "dealservice.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Endpoints\n  - URL:  https://dealservice.mendixcloud.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dealservice.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Endpoints\n  - URL: https://deskallocation.mendixcloud.com",
+        "raw": {
+          "asset_identifier": "deskallocation.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Endpoints\n  - URL: https://deskallocation.mendixcloud.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "deskallocation.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Endpoints\n  - URL: https://employees.mendix.com",
+        "raw": {
+          "asset_identifier": "employees.mendix.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Endpoints\n  - URL: https://employees.mendix.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "employees.mendix.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "# Authorization information:\nEndpoint                                     :   gateway.us-east-1.sws.siemens.com\n- samAccessKeyId                  :   3491d6d93e82498e828d468ebce592f0\n- samSecretAccessKey       :   gAgnBmdPGnlOtX/I0CoY7aIJVoU95lkJ7DorNXI1SBk=",
+        "raw": {
+          "asset_identifier": "gateway.us-east-1.sws.siemens.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "# Authorization information:\nEndpoint                                     :   gateway.us-east-1.sws.siemens.com\n- samAccessKeyId                  :   3491d6d93e82498e828d468ebce592f0\n- samSecretAccessKey       :   gAgnBmdPGnlOtX/I0CoY7aIJVoU95lkJ7DorNXI1SBk=",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "gateway.us-east-1.sws.siemens.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "license broker\n\nurl:\nk8s-licbrk-licenseb-11d216e80e-384217420.eu-central-1.elb.amazonaws.com",
+        "raw": {
+          "asset_identifier": "k8s-licbrk-licenseb-11d216e80e-384217420.eu-central-1.elb.amazonaws.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "license broker\n\nurl:\nk8s-licbrk-licenseb-11d216e80e-384217420.eu-central-1.elb.amazonaws.com",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "k8s-licbrk-licenseb-11d216e80e-384217420.eu-central-1.elb.amazonaws.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "marketplaceadmin.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "marketplaceadmin.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "# Visualisation Platform\n\nThis application is used for Mendix Basic Package configuration.\n\n## Endpoints\n - App's URL: https://mxbpconfig.mendixcloud.com",
+        "raw": {
+          "asset_identifier": "mxbpconfig.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "# Visualisation Platform\n\nThis application is used for Mendix Basic Package configuration.\n\n## Endpoints\n - App's URL: https://mxbpconfig.mendixcloud.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mxbpconfig.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Endpoints\n  - URL: https://mxpeople.mendixcloud.com",
+        "raw": {
+          "asset_identifier": "mxpeople.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Endpoints\n  - URL: https://mxpeople.mendixcloud.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mxpeople.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "notification.billing.appservices.mendix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "notification.billing.appservices.mendix.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "provisioning.servicemanagement.mendix.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "provisioning.servicemanagement.mendix.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Endpoints\n  - URL: https://revenuedatahub.mendixcloud.com",
+        "raw": {
+          "asset_identifier": "revenuedatahub.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Endpoints\n  - URL: https://revenuedatahub.mendixcloud.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "revenuedatahub.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "servicemanagement-accp.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "servicemanagement-accp.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Endpoints\n  - URL: https://simplate.mendixcloud.com",
+        "raw": {
+          "asset_identifier": "simplate.mendixcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Endpoints\n  - URL: https://simplate.mendixcloud.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "simplate.mendixcloud.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "#slm.appservices.mendix.com\n \nAppService Lifecycle service\n \n## Endpoints\n  - URL:  https://slm.store.mendix.com",
+        "raw": {
+          "asset_identifier": "slm.store.mendix.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "#slm.appservices.mendix.com\n \nAppService Lifecycle service\n \n## Endpoints\n  - URL:  https://slm.store.mendix.com",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "slm.store.mendix.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "event.us-east-1.sws.siemens.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "event.us-east-1.sws.siemens.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "http://o0pv3l7chl.execute-api.us-east-1.amazonaws.com/dev",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://o0pv3l7chl.execute-api.us-east-1.amazonaws.com/dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://react.vis.pre2.usea1.devops.sws.siemens.com/sample/dist/index.html",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://react.vis.pre2.usea1.devops.sws.siemens.com/sample/dist/index.html"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "poh0v3odoi.execute-api.eu-central-1.amazonaws.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "poh0v3odoi.execute-api.eu-central-1.amazonaws.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/mendix"
+}

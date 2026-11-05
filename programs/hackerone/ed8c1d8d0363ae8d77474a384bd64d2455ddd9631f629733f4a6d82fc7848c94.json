@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:emoney-advisor",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "emoney-advisor",
+    "id": 0,
+    "managed_program": true,
+    "name": "eMoney Advisor",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 80,
+    "submission_state": "open",
+    "url": "https://hackerone.com/emoney-advisor",
+    "website": "https://www.emoneyadvisor.com/"
+  },
+  "name": "eMoney Advisor",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "5018fe6854e4aa301c36a3971d3ae8d6b6902b58a1f759b9e650441563d44de8",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "emoney-advisor",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.emaplan.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.emaplan.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.emoneyadvisor.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.emoneyadvisor.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "wealth.emaplan.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "wealth.emaplan.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/emoney-advisor"
+}

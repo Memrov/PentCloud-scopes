@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:vanguard",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 1010.0,
+    "handle": "vanguard",
+    "id": 0,
+    "managed_program": true,
+    "name": "Vanguard",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 84,
+    "submission_state": "open",
+    "url": "https://hackerone.com/vanguard",
+    "website": "http://vanguard.com"
+  },
+  "name": "Vanguard",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "bdc2ab43396dd98062b1106a1fb82f9e4a6aefd4a22aa5f6f3d9a5ebb16a0484",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "vanguard",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Security vulnerabilities that are identified in Vanguard products or in website domains owned, operated, or controlled by Vanguard are in scope.",
+        "raw": {
+          "asset_identifier": "Scope",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Security vulnerabilities that are identified in Vanguard products or in website domains owned, operated, or controlled by Vanguard are in scope.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Scope"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/vanguard"
+}

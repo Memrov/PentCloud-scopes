@@ -1,0 +1,73 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/bullish-exchange",
+  "metadata": {
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "max_payout": 25000,
+    "name": "Bullish Exchange",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/bullish-exchange"
+  },
+  "name": "Bullish Exchange",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "91324220f9520846764b240abf454a79219c713d360b4c691034b931744b5c7d",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/bullish-exchange",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://simnext.bullish-test.com",
+          "target": "https://simnext.bullish-test.com",
+          "type": "website",
+          "uri": "https://simnext.bullish-test.com"
+        },
+        "type": "website",
+        "value": "https://simnext.bullish-test.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://api.simnext.bullish-test.com",
+          "target": "https://api.simnext.bullish-test.com",
+          "type": "api",
+          "uri": "https://api.simnext.bullish-test.com"
+        },
+        "type": "api",
+        "value": "https://api.simnext.bullish-test.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.bullish.com/",
+          "target": "*.bullish.com/",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.bullish.com/"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/bullish-exchange"
+}

@@ -1,0 +1,219 @@
+{
+  "id": "hackerone:lowes",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 2.0,
+    "average_time_to_report_resolved": null,
+    "handle": "lowes",
+    "id": 0,
+    "managed_program": true,
+    "name": "Lowe's Companies VDP",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 70,
+    "submission_state": "open",
+    "url": "https://hackerone.com/lowes",
+    "website": "http://lowes.com"
+  },
+  "name": "Lowe's Companies VDP",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "27c993c7d382ad5dae1bacfebb4f3375cca1687b0ee96aeb984b9b661adcf885",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "lowes",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This application is only accessible in the US. VPN use may be required for testing.\nGoogle Play Store Link: https://play.google.com/store/apps/details?id=com.lowes.android&hl=en_US&gl=US",
+        "raw": {
+          "asset_identifier": "com.LowesAndroid",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This application is only accessible in the US. VPN use may be required for testing.\nGoogle Play Store Link: https://play.google.com/store/apps/details?id=com.lowes.android&hl=en_US&gl=US",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.LowesAndroid"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This application is only accessible in the US. VPN use may be required for testing.\nApple App Store Link: https://apps.apple.com/us/app/lowes-home-improvement/id457954781",
+        "raw": {
+          "asset_identifier": "com.lowes.LowesStore",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This application is only accessible in the US. VPN use may be required for testing.\nApple App Store Link: https://apps.apple.com/us/app/lowes-home-improvement/id457954781",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.lowes.LowesStore"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Public TestFlight Link: https://testflight.apple.com/join/nB0VMPeC",
+        "raw": {
+          "asset_identifier": "com.lowes.LowesStoreTestFlight",
+          "asset_type": "TESTFLIGHT",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Public TestFlight Link: https://testflight.apple.com/join/nB0VMPeC",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "TESTFLIGHT",
+        "value": "com.lowes.LowesStoreTestFlight"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://corporate.lowes.com/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://corporate.lowes.com/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://talent.lowes.com/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://talent.lowes.com/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://uat.lpsdxp.com/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://uat.lpsdxp.com/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://www.lowes.co.in/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://www.lowes.co.in/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This website uses self-registration for user accounts. Please create accounts responsibly and using your HackerOne designated email address.",
+        "raw": {
+          "asset_identifier": "lowes.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This website uses self-registration for user accounts. Please create accounts responsibly and using your HackerOne designated email address.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "lowes.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "http://myfbm.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://myfbm.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Please do not request a user account for this asset.\nTesting is to be performed as an unauthenticated user.",
+        "raw": {
+          "asset_identifier": "www.lowesprosupply.com/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Please do not request a user account for this asset.\nTesting is to be performed as an unauthenticated user.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.lowesprosupply.com/"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/lowes"
+}

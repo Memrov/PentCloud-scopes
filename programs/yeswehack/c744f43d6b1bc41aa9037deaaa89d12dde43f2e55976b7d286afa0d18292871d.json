@@ -1,0 +1,87 @@
+{
+  "id": "yeswehack:onedoc-sa-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "onedoc-sa-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 5000,
+    "min_bounty": 50,
+    "name": "OneDoc",
+    "public": true
+  },
+  "name": "OneDoc",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "a734e592ff3e9c76993eafeae9522c46b3056ae7cc0ced0a204f682ed950b375",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "onedoc-sa-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.onedoc.ch",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://www.onedoc.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://pro.onedoc.ch",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://pro.onedoc.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://api.onedoc.ch",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://api.onedoc.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://telehealth.onedoc.ch",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://telehealth.onedoc.ch"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains or subdomains not listed in the above list of 'Scopes'"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/onedoc-sa-bug-bounty-program"
+}

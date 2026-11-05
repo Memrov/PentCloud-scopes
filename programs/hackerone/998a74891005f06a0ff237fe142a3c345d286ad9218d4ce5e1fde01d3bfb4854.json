@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:citi_group",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": null,
+    "handle": "citi_group",
+    "id": 0,
+    "managed_program": true,
+    "name": "Citi Group",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 63,
+    "submission_state": "open",
+    "url": "https://hackerone.com/citi_group",
+    "website": "http://citigroup.com"
+  },
+  "name": "Citi Group",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "e30fce17023e61c1d14faff32f6af3f54a04825dcedd06fbfc77f9f590ebc5b6",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "citi_group",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Any Citigroup owned asset",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Any Citigroup owned asset"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/citi_group"
+}

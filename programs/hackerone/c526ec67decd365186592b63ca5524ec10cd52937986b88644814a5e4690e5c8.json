@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:blend-labs",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 20.0,
+    "average_time_to_report_resolved": null,
+    "handle": "blend-labs",
+    "id": 0,
+    "managed_program": true,
+    "name": "Blend Labs",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 86,
+    "submission_state": "open",
+    "url": "https://hackerone.com/blend-labs",
+    "website": "https://blend.com"
+  },
+  "name": "Blend Labs",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "ebf90b58a276e6475641a57f9adbfa18a6fdd08f554bfaff301bd8b47c541d5a",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "blend-labs",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "knox.beta.blendlabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "knox.beta.blendlabs.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/blend-labs"
+}

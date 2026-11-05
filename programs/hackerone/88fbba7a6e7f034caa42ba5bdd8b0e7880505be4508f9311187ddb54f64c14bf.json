@@ -1,0 +1,75 @@
+{
+  "id": "hackerone:ruby",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 136.0,
+    "average_time_to_report_resolved": 1538.0,
+    "handle": "ruby",
+    "id": 0,
+    "managed_program": false,
+    "name": "Ruby",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 88,
+    "submission_state": "open",
+    "url": "https://hackerone.com/ruby",
+    "website": "https://www.ruby-lang.org"
+  },
+  "name": "Ruby",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "7e75c825158668267f6632842b61a8082ae4622a5cfbe1370290779d584b8dc0",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "ruby",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/ruby/ruby",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/ruby/ruby"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.ruby-lang.org",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.ruby-lang.org"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/ruby"
+}

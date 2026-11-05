@@ -1,0 +1,453 @@
+{
+  "id": "hackerone:singlestore",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 4.0,
+    "average_time_to_report_resolved": 1572.0,
+    "handle": "singlestore",
+    "id": 0,
+    "managed_program": true,
+    "name": "SingleStore",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 57,
+    "submission_state": "open",
+    "url": "https://hackerone.com/singlestore",
+    "website": "http://singlestore.com"
+  },
+  "name": "SingleStore",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "9ac65b689f591a230878c3add51ae05c667888efcaf25606705c7605f117e825",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "singlestore",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SingleStore maintains several subdomains under svc.singlestore.com or cloud.singlestore.com pertaining to the SingleStore Helios offering. These can be easily discovered through a tool like `subfinder` or `amass`.  Usually we structure our public-facing services as `{service-name}.{cell}.{svc|cloud}.singlestore.com`, although a small subset of services can be launched under `{service-name}.{svc|cloud}.singlestore.com`.\n\n* `{cell}` will be a cloud hosting provider and region where we host services (e.g. `aws-virginia-8`, `azr-southcentral-1`, `gcp-netherlands-1`)\n* `{service-name}` are the actual names we give our services (e.g. `cell-agent`, `gateway`, `auth`, `core-dump-viewer`, `oauth2-proxy`, `ai`)",
+        "raw": {
+          "asset_identifier": "*.cloud.singlestore.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SingleStore maintains several subdomains under svc.singlestore.com or cloud.singlestore.com pertaining to the SingleStore Helios offering. These can be easily discovered through a tool like `subfinder` or `amass`.  Usually we structure our public-facing services as `{service-name}.{cell}.{svc|cloud}.singlestore.com`, although a small subset of services can be launched under `{service-name}.{svc|cloud}.singlestore.com`.\n\n* `{cell}` will be a cloud hosting provider and region where we host services (e.g. `aws-virginia-8`, `azr-southcentral-1`, `gcp-netherlands-1`)\n* `{service-name}` are the actual names we give our services (e.g. `cell-agent`, `gateway`, `auth`, `core-dump-viewer`, `oauth2-proxy`, `ai`)",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.cloud.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SingleStore maintains several subdomains under svc.singlestore.com or cloud.singlestore.com pertaining to the SingleStore Helios offering. These can be easily discovered through a tool like `subfinder` or `amass`.  Usually we structure our public-facing services as `{service-name}.{cell}.{svc|cloud}.singlestore.com`, although a small subset of services can be launched under `{service-name}.{svc|cloud}.singlestore.com`.\n\n* `{cell}` will be a cloud hosting provider and region where we host services (e.g. `aws-virginia-8`, `azr-southcentral-1`, `gcp-netherlands-1`)\n* `{service-name}` are the actual names we give our services (e.g. `cell-agent`, `gateway`, `auth`, `core-dump-viewer`, `oauth2-proxy`, `ai`)",
+        "raw": {
+          "asset_identifier": "*.svc.singlestore.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SingleStore maintains several subdomains under svc.singlestore.com or cloud.singlestore.com pertaining to the SingleStore Helios offering. These can be easily discovered through a tool like `subfinder` or `amass`.  Usually we structure our public-facing services as `{service-name}.{cell}.{svc|cloud}.singlestore.com`, although a small subset of services can be launched under `{service-name}.{svc|cloud}.singlestore.com`.\n\n* `{cell}` will be a cloud hosting provider and region where we host services (e.g. `aws-virginia-8`, `azr-southcentral-1`, `gcp-netherlands-1`)\n* `{service-name}` are the actual names we give our services (e.g. `cell-agent`, `gateway`, `auth`, `core-dump-viewer`, `oauth2-proxy`, `ai`)",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.svc.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SingleStore's Management API can be used to create and manage workspaces, workspace groups, private connections, etc. in SingleStore Helios (these changes are visible through Portal too).\n\nSee https://docs.singlestore.com/cloud/reference/management-api/.",
+        "raw": {
+          "asset_identifier": "api.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SingleStore's Management API can be used to create and manage workspaces, workspace groups, private connections, etc. in SingleStore Helios (these changes are visible through Portal too).\n\nSee https://docs.singlestore.com/cloud/reference/management-api/.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SingleStore's Portal authentication workflows rely on the authentication service deployed at auth.singlestore.com and authsvc.singlestore.com.",
+        "raw": {
+          "asset_identifier": "auth.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SingleStore's Portal authentication workflows rely on the authentication service deployed at auth.singlestore.com and authsvc.singlestore.com.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "auth.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SingleStore's Portal authentication workflows rely on the authentication service deployed at auth.singlestore.com and authsvc.singlestore.com.",
+        "raw": {
+          "asset_identifier": "authsvc.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SingleStore's Portal authentication workflows rely on the authentication service deployed at auth.singlestore.com and authsvc.singlestore.com.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "authsvc.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This subdomain is where our backend GraphQL API supporting SingleStore Helios is hosted from.",
+        "raw": {
+          "asset_identifier": "backend.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This subdomain is where our backend GraphQL API supporting SingleStore Helios is hosted from.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "backend.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Portal is SingleStore's Internet-facing cloud portal for the SingleStore Helios product, a DBaaS offering where customers can use, manage and monitor several different aspects related to their data, databases and users on the platform.\n\nSee https://docs.singlestore.com/cloud/getting-started-with-singlestore-helios/",
+        "raw": {
+          "asset_identifier": "https://portal.singlestore.com/",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Portal is SingleStore's Internet-facing cloud portal for the SingleStore Helios product, a DBaaS offering where customers can use, manage and monitor several different aspects related to their data, databases and users on the platform.\n\nSee https://docs.singlestore.com/cloud/getting-started-with-singlestore-helios/",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://portal.singlestore.com/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Portal Admin is an internal-only version of SingleStore's Portal. It's meant for SingleStore staff (w/ the right roles and privileges) to manage certain aspects of organizations enrolled in SingleStore Helios.",
+        "raw": {
+          "asset_identifier": "https://portal.singlestore.com/admin",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Portal Admin is an internal-only version of SingleStore's Portal. It's meant for SingleStore staff (w/ the right roles and privileges) to manage certain aspects of organizations enrolled in SingleStore Helios.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://portal.singlestore.com/admin"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Upcoming public-facing MCP server for SingleStore Helios.",
+        "raw": {
+          "asset_identifier": "mcp.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Upcoming public-facing MCP server for SingleStore Helios.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mcp.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SingleStore Helios BYOC offering infrastructure.",
+        "raw": {
+          "asset_identifier": "nimbus-gateway.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SingleStore Helios BYOC offering infrastructure.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "nimbus-gateway.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SingleStore telemetry collection infrastructure.",
+        "raw": {
+          "asset_identifier": "phone-home.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SingleStore telemetry collection infrastructure.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "phone-home.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SingleStore Operator image for self-managed customers. Can be obtained from https://hub.docker.com/r/memsql/operator.",
+        "raw": {
+          "asset_identifier": "singlestore-operator",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SingleStore Operator image for self-managed customers. Can be obtained from https://hub.docker.com/r/memsql/operator.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "singlestore-operator"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SingleStore's main webpage and domain.",
+        "raw": {
+          "asset_identifier": "singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SingleStore's main webpage and domain.",
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "SingleStoreDB server image for self-managed customers. Can be obtained from https://hub.docker.com/r/memsql/node.\n\nA development/test image is available at without license restrictions at https://github.com/singlestore-labs/singlestoredb-dev-image.\n\nBy using our software you agree to our free/trial license conditions. Please refer to https://www.singlestore.com/legal/.\n\nMore details or installation alternatives for self-managed deployments available at https://docs.singlestore.com/db/v9.0/deploy/.",
+        "raw": {
+          "asset_identifier": "singlestoredb-server",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "SingleStoreDB server image for self-managed customers. Can be obtained from https://hub.docker.com/r/memsql/node.\n\nA development/test image is available at without license restrictions at https://github.com/singlestore-labs/singlestoredb-dev-image.\n\nBy using our software you agree to our free/trial license conditions. Please refer to https://www.singlestore.com/legal/.\n\nMore details or installation alternatives for self-managed deployments available at https://docs.singlestore.com/db/v9.0/deploy/.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "singlestoredb-server"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.ito.singlestore.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.ito.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.labs.singlestore.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.labs.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "bifrost.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "bifrost.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "docs.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "docs.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "login.internal.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "login.internal.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "status.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "status.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "studio.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "studio.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "support.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support.singlestore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "training.singlestore.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "training.singlestore.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/singlestore"
+}

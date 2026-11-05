@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:bumba_bbp",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 15.0,
+    "average_time_to_report_resolved": null,
+    "handle": "bumba_bbp",
+    "id": 0,
+    "managed_program": true,
+    "name": "Bumba",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 95,
+    "submission_state": "open",
+    "url": "https://hackerone.com/bumba_bbp",
+    "website": "http://bumba.global"
+  },
+  "name": "Bumba",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "bf806628729efe38878c0ed8949814318585d95f09733ea4d58d133676de30aa",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "bumba_bbp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "http://bumba.global",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "http://bumba.global"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/bumba_bbp"
+}

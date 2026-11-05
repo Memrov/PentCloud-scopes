@@ -1,0 +1,597 @@
+{
+  "id": "hackerone:crypto",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 124.0,
+    "average_time_to_first_program_response": 14.0,
+    "average_time_to_report_resolved": null,
+    "handle": "crypto",
+    "id": 0,
+    "managed_program": false,
+    "name": "Crypto.com",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/crypto",
+    "website": "https://crypto.com"
+  },
+  "name": "Crypto.com",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "7e63b6f62745d5ad82b849d17f47ae49adb89f93904241754ebef4fcc6b46ea9",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "crypto",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We will consider all vulnerability reports against assets in Crypto.com's control. Severity might be limited for certain assets based on business impact.",
+        "raw": {
+          "asset_identifier": "*.crypto.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We will consider all vulnerability reports against assets in Crypto.com's control. Severity might be limited for certain assets based on business impact.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.crypto.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We will consider all vulnerability reports against assets in Crypto.com's control. Severity might be limited for certain assets based on business impact.",
+        "raw": {
+          "asset_identifier": "*.mona.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We will consider all vulnerability reports against assets in Crypto.com's control. Severity might be limited for certain assets based on business impact.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.mona.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Includes any BFF APIs",
+        "raw": {
+          "asset_identifier": "Crypto.com Exchange APIs that require an account",
+          "asset_type": "API",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Includes any BFF APIs",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "API",
+        "value": "Crypto.com Exchange APIs that require an account"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Includes any BFF APIs",
+        "raw": {
+          "asset_identifier": "Crypto.com mobile app APIs that require an account",
+          "asset_type": "API",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Includes any BFF APIs",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "API",
+        "value": "Crypto.com mobile app APIs that require an account"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "app.mona.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.mona.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Get the app here: https://play.google.com/store/apps/details?id=co.mona.android\n\nYou won’t need test accounts for this as it will be public-facing sites for now.\n\nThe app should give you the functionality to start using CRO services.",
+        "raw": {
+          "asset_identifier": "co.mona.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Get the app here: https://play.google.com/store/apps/details?id=co.mona.android\n\nYou won’t need test accounts for this as it will be public-facing sites for now.\n\nThe app should give you the functionality to start using CRO services.",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "co.mona.android"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "com.monaco.mobile",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.monaco.mobile"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "developer-api.crypto.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "developer-api.crypto.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "developer-platform-api.crypto.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "developer-platform-api.crypto.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "developer.crypto.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "developer.crypto.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "For this asset, we only accept Critical and High severity issues.",
+        "raw": {
+          "asset_identifier": "experiences.crypto.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "For this asset, we only accept Critical and High severity issues.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "experiences.crypto.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://crypto.com/exchange",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://crypto.com/exchange"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "For this asset, we only accept Critical and High severity issues.",
+        "raw": {
+          "asset_identifier": "https://crypto.com/nft",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "For this asset, we only accept Critical and High severity issues.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://crypto.com/nft"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "For this asset, we only accept Critical and High severity issues.",
+        "raw": {
+          "asset_identifier": "https://crypto.com/price",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "For this asset, we only accept Critical and High severity issues.",
+          "integrity_requirement": "medium",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "https://crypto.com/price"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Bounty Range Changes: CDCETH Smart Contract**\n\nCritical Severity: Up to $50,000 USD\nExtreme Tier: Up to $1,000,000",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/token/0xfe18ae03741a5b84e39c295ac9c856ed7991c38e",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Bounty Range Changes: CDCETH Smart Contract**\n\nCritical Severity: Up to $50,000 USD\nExtreme Tier: Up to $1,000,000",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/token/0xfe18ae03741a5b84e39c295ac9c856ed7991c38e"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://explorer.cronos.org/token/0x2e53c5586e12a99d4CAE366E9Fc5C14fE9c6495d",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://explorer.cronos.org/token/0x2e53c5586e12a99d4CAE366E9Fc5C14fE9c6495d"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "js.crypto.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "js.crypto.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Reward for GraphQL-based DOS that can cause service disruption will be capped at $200 USD",
+        "raw": {
+          "asset_identifier": "merchant.crypto.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Reward for GraphQL-based DOS that can cause service disruption will be capped at $200 USD",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "merchant.crypto.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "For this asset, we only accept Critical and High severity issues.",
+        "raw": {
+          "asset_identifier": "nadex.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "For this asset, we only accept Critical and High severity issues.",
+          "integrity_requirement": null,
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "nadex.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "OG is available now in the U.S. via App Store, Google Play, and OG.com.",
+        "raw": {
+          "asset_identifier": "og.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "OG is available now in the U.S. via App Store, Google Play, and OG.com.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "og.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "For this asset, we only accept Critical and High severity issues.",
+        "raw": {
+          "asset_identifier": "tax.crypto.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "For this asset, we only accept Critical and High severity issues.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "tax.crypto.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "For this asset, we only accept Critical and High severity issues.",
+        "raw": {
+          "asset_identifier": "tickets.crypto.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "For this asset, we only accept Critical and High severity issues.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "tickets.crypto.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "For this asset, we only accept Critical and High severity issues.",
+        "raw": {
+          "asset_identifier": "travel.crypto.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "For this asset, we only accept Critical and High severity issues.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "travel.crypto.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "web.crypto.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "web.crypto.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Crypto.com Wallet Extension",
+          "asset_type": "OTHER",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Crypto.com Wallet Extension"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "https://apps.apple.com/app/crypto-com-wallet/id1512048310",
+        "raw": {
+          "asset_identifier": "com.defi.wallet",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "https://apps.apple.com/app/crypto-com-wallet/id1512048310",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.defi.wallet"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "https://play.google.com/store/apps/details?id=com.defi.wallet",
+        "raw": {
+          "asset_identifier": "com.defi.wallet",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "https://play.google.com/store/apps/details?id=com.defi.wallet",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.defi.wallet"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/crypto-com/chain-desktop-wallet",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/crypto-com/chain-desktop-wallet"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/crypto-com/cro-staking",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/crypto-com/cro-staking"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/crypto-com/swap-contracts-core",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/crypto-com/swap-contracts-core"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/crypto-com/swap-contracts-periphery",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/crypto-com/swap-contracts-periphery"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/crypto"
+}

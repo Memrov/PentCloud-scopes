@@ -1,0 +1,345 @@
+{
+  "id": "hackerone:magic-eden",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 139.0,
+    "average_time_to_first_program_response": 6.0,
+    "average_time_to_report_resolved": 228.0,
+    "handle": "magic-eden",
+    "id": 0,
+    "managed_program": true,
+    "name": "Magic Eden",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 66,
+    "submission_state": "open",
+    "url": "https://hackerone.com/magic-eden",
+    "website": "http://magiceden.io"
+  },
+  "name": "Magic Eden",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "91dabbab704e3d004b460e92534463903c97b0f573ad34b2fd8129d31b74a406",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "magic-eden",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Focus: High-severity technical vulnerabilities (e.g., SQLi, RCE, Broken Auth, Double Spending) and original games.\nStrictly Out of Scope:\nNo Social Engineering.\nNo Non-Production Assets: Testing is limited to production only; ignore test/dev environments.\nNo DoS/DDoS: Do not attempt to disrupt our services.\nReports failing to follow these guidelines will be disqualified from rewards.",
+        "raw": {
+          "asset_identifier": "api.dicey.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Focus: High-severity technical vulnerabilities (e.g., SQLi, RCE, Broken Auth, Double Spending) and original games.\nStrictly Out of Scope:\nNo Social Engineering.\nNo Non-Production Assets: Testing is limited to production only; ignore test/dev environments.\nNo DoS/DDoS: Do not attempt to disrupt our services.\nReports failing to follow these guidelines will be disqualified from rewards.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.dicey.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Focus: High-severity technical vulnerabilities (e.g., SQLi, RCE, Broken Auth, Double Spending) and original games.\nStrictly Out of Scope:\nNo Social Engineering.\nNo Non-Production Assets: Testing is limited to production only; ignore test/dev environments.\nNo DoS/DDoS: Do not attempt to disrupt our services.\nReports failing to follow these guidelines will be disqualified from rewards.\n",
+        "raw": {
+          "asset_identifier": "dicey.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Focus: High-severity technical vulnerabilities (e.g., SQLi, RCE, Broken Auth, Double Spending) and original games.\nStrictly Out of Scope:\nNo Social Engineering.\nNo Non-Production Assets: Testing is limited to production only; ignore test/dev environments.\nNo DoS/DDoS: Do not attempt to disrupt our services.\nReports failing to follow these guidelines will be disqualified from rewards.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dicey.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Cryptocurrency = Solana.\nOnly reports detailing High or Critical severity issues will be reviewed for potential rewards",
+        "raw": {
+          "asset_identifier": "*.magiceden.dev",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Cryptocurrency = Solana.\nOnly reports detailing High or Critical severity issues will be reviewed for potential rewards",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "*.magiceden.dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Only reports detailing High or Critical severity issues will be reviewed for potential rewards",
+        "raw": {
+          "asset_identifier": "*.magiceden.io",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Only reports detailing High or Critical severity issues will be reviewed for potential rewards",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "*.magiceden.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.magiceden.workers.dev",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "*.magiceden.workers.dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This service is done through substack and they are unwilling to fix reported bugs",
+        "raw": {
+          "asset_identifier": "blog.magiceden.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This service is done through substack and they are unwilling to fix reported bugs",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "blog.magiceden.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "cdn.magiceden.dev",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "cdn.magiceden.dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "docs.magiceden.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "docs.magiceden.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "eng.magiceden.dev",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "eng.magiceden.dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "eng.magiceden.io",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "eng.magiceden.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "help.dicey.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "help.dicey.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "http://auth.magiceden.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://auth.magiceden.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "http://ord-mirror.magiceden.dev",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://ord-mirror.magiceden.dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "img-cdn.magiceden.dev",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "img-cdn.magiceden.dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Program Focus:\nWe are only accepting High and Critical severity reports.\nReports must be specifically related to Solana protocols or NFT-integrated functionality",
+        "raw": {
+          "asset_identifier": "magiceden.io",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Program Focus:\nWe are only accepting High and Critical severity reports.\nReports must be specifically related to Solana protocols or NFT-integrated functionality",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "magiceden.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "mainframe.magiceden.io",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "mainframe.magiceden.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "staging.dicey.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "staging.dicey.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/magic-eden"
+}

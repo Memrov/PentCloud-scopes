@@ -1,0 +1,164 @@
+{
+  "id": "hackerone:shein",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 206.0,
+    "average_time_to_first_program_response": 8.0,
+    "average_time_to_report_resolved": null,
+    "handle": "shein",
+    "id": 0,
+    "managed_program": true,
+    "name": "SHEIN",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 60,
+    "submission_state": "open",
+    "url": "https://hackerone.com/shein",
+    "website": "http://shein.com"
+  },
+  "name": "SHEIN",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "b6aea5277d8f53dbc171930d135f72563862e539aa3d8bac8aef8ef35e2701f6",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "shein",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "*.romwe. [com | co.in ]\n.romwe.org\n\n1. **Please note that if the exact same vulnerability is found on different top-level domains listed above (ie: .com, .co.in and .org), please do not submit multiple reports. Any duplicate reports submitted will be treated as such.**\n\n2. Please read the \"Important guidelines regarding cross-host vulnerabilities\" section of the policy page as the guidelines apply for this asset.",
+        "raw": {
+          "asset_identifier": "*.romwe.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "*.romwe. [com | co.in ]\n.romwe.org\n\n1. **Please note that if the exact same vulnerability is found on different top-level domains listed above (ie: .com, .co.in and .org), please do not submit multiple reports. Any duplicate reports submitted will be treated as such.**\n\n2. Please read the \"Important guidelines regarding cross-host vulnerabilities\" section of the policy page as the guidelines apply for this asset.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.romwe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "*.shein.[com | in | tw | se | com.hk | com.vn | com.mx | co.uk ]\n\n1. **Please note that if the exact same vulnerability is found on different top-level domains listed above (example: .com, .in, .tw etc), please do not submit multiple reports. Any duplicate reports submitted will be treated as such.**\n\n2. Please read the \"Important guidelines regarding cross-host vulnerabilities\" section of the policy page as the guidelines apply for this asset.",
+        "raw": {
+          "asset_identifier": "*.shein.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "*.shein.[com | in | tw | se | com.hk | com.vn | com.mx | co.uk ]\n\n1. **Please note that if the exact same vulnerability is found on different top-level domains listed above (example: .com, .in, .tw etc), please do not submit multiple reports. Any duplicate reports submitted will be treated as such.**\n\n2. Please read the \"Important guidelines regarding cross-host vulnerabilities\" section of the policy page as the guidelines apply for this asset.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.shein.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.sheingsp.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.sheingsp.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[ROMWE - Fashion Store](https://apps.apple.com/app/romwe-fashion-store/id1080248000)  on the Apple App Store \n",
+        "raw": {
+          "asset_identifier": "1080248000",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[ROMWE - Fashion Store](https://apps.apple.com/app/romwe-fashion-store/id1080248000)  on the Apple App Store \n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1080248000"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[SHEIN-Fashion Shopping Online](https://apps.apple.com/app/shein-fashion-shopping-online/id878577184)  on the Apple App Store \n",
+        "raw": {
+          "asset_identifier": "878577184",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[SHEIN-Fashion Shopping Online](https://apps.apple.com/app/shein-fashion-shopping-online/id878577184)  on the Apple App Store \n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "878577184"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[ROMWE](https://play.google.com/store/apps/details?id=com.romwe) on the Google Play Store\n",
+        "raw": {
+          "asset_identifier": "com.romwe",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[ROMWE](https://play.google.com/store/apps/details?id=com.romwe) on the Google Play Store\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.romwe"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[SHEIN-Fashion Shopping Online](https://play.google.com/store/apps/details?id=com.zzkko) on the Google Play Store\n\n",
+        "raw": {
+          "asset_identifier": "com.zzkko",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[SHEIN-Fashion Shopping Online](https://play.google.com/store/apps/details?id=com.zzkko) on the Google Play Store\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.zzkko"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/shein"
+}

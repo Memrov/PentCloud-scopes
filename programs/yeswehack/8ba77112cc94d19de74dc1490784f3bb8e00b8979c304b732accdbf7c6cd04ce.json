@@ -1,0 +1,98 @@
+{
+  "id": "yeswehack:ooredoo-qpsc-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "ooredoo-qpsc-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 1500,
+    "min_bounty": 50,
+    "name": "Ooredoo QPSC - Customer Portal Bug Bounty Program",
+    "public": true
+  },
+  "name": "Ooredoo QPSC - Customer Portal Bug Bounty Program",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "5707c2400d98d23b4cec084ebb297933bb9c56af1c37e3467e3bea819e506cf3",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "ooredoo-qpsc-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.ooredoo.qa",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://www.ooredoo.qa"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://mobile.ooredoo.qa",
+          "type": "mobile-application"
+        },
+        "type": "mobile-application",
+        "value": "https://mobile.ooredoo.qa"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://selfcare.ooredoo.qa",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://selfcare.ooredoo.qa"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=qa.ooredoo.android&hl=en&gl=US",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=qa.ooredoo.android&hl=en&gl=US"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains or subdomains not listed in the above list of 'Scopes'"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/ooredoo-qpsc-bug-bounty-program"
+}

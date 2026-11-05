@@ -1,0 +1,327 @@
+{
+  "id": "hackerone:faraday_inc",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 66.0,
+    "average_time_to_first_program_response": 4.0,
+    "average_time_to_report_resolved": 68.0,
+    "handle": "faraday_inc",
+    "id": 0,
+    "managed_program": true,
+    "name": "Faraday, Inc.",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 98,
+    "submission_state": "open",
+    "url": "https://hackerone.com/faraday_inc",
+    "website": "https://faraday.ai"
+  },
+  "name": "Faraday, Inc.",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "9a33db6d3ba604529a6d0ad0fea2550c84ad4c739c3c49b413229df9c16564ec",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "faraday_inc",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Faraday-managed datasets. Unauthenticated or cross-account access to Faraday or other customers' data is in scope. Access to a project you were granted is not a finding.",
+        "raw": {
+          "asset_identifier": "BigQuery",
+          "asset_type": "OTHER",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Faraday-managed datasets. Unauthenticated or cross-account access to Faraday or other customers' data is in scope. Access to a project you were granted is not a finding.",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "BigQuery"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "JWT is the user, not the account. Switching accounts changes what the JWT can do. API keys are shared by every member and appear in GraphQL, REST, and the UI; seeing your own key is intended. Cross-account requires curl from two unrelated users (different emails, never invited, not a parent/sub pair) with a fresh JWT taken after /v1/me or /v1/accounts/current shows the attacker. Connecting to a host you configured (Connections, SFTP, webhooks) is the product. SSRF is in scope only if the worker reaches Faraday-internal or other-customer space. Proof is reachability, not a pasted secret. Catalog attributes are public at https://faraday.ai/catalog",
+        "raw": {
+          "asset_identifier": "api.faraday.ai",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "JWT is the user, not the account. Switching accounts changes what the JWT can do. API keys are shared by every member and appear in GraphQL, REST, and the UI; seeing your own key is intended. Cross-account requires curl from two unrelated users (different emails, never invited, not a parent/sub pair) with a fresh JWT taken after /v1/me or /v1/accounts/current shows the attacker. Connecting to a host you configured (Connections, SFTP, webhooks) is the product. SSRF is in scope only if the worker reaches Faraday-internal or other-customer space. Proof is reachability, not a pasted secret. Catalog attributes are public at https://faraday.ai/catalog",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.faraday.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Catalog histograms and Faraday-provided consumer attributes are public (https://faraday.ai/catalog). Cross-account requires two unrelated users and curl from both sides. Copy a fresh token after the session shows the attacker identity. A 200 on your own resource is not evidence. Admin vs member privilege gain is in scope.",
+        "raw": {
+          "asset_identifier": "api.pro.faraday.ai",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Catalog histograms and Faraday-provided consumer attributes are public (https://faraday.ai/catalog). Cross-account requires two unrelated users and curl from both sides. Copy a fresh token after the session shows the attacker identity. A 200 on your own resource is not evidence. Admin vs member privilege gain is in scope.",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.pro.faraday.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Catalog histograms and Faraday-provided consumer attributes are public (https://faraday.ai/catalog). Cross-account requires two unrelated users and curl from both sides. Copy a fresh token after the session shows the attacker identity. A 200 on your own resource is not evidence. Admin vs member privilege gain is in scope.",
+        "raw": {
+          "asset_identifier": "api.row.pro",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Catalog histograms and Faraday-provided consumer attributes are public (https://faraday.ai/catalog). Cross-account requires two unrelated users and curl from both sides. Copy a fresh token after the session shows the attacker identity. A 200 on your own resource is not evidence. Admin vs member privilege gain is in scope.",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.row.pro"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Same auth model as api.faraday.ai. Frontend \"enabled\" flags and hidden consoles are intended; access control is at the API. Non-secret tokens in /api/environment.js and public third-party client tokens (PostHog, Knock, Algolia, Auth0 client id, Rollbar, Intercom) are out unless you use one to read or change another customer's data. Self-XSS is out. Stored XSS is in only if it runs for a victim who is not the attacker.",
+        "raw": {
+          "asset_identifier": "app.faraday.ai",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Same auth model as api.faraday.ai. Frontend \"enabled\" flags and hidden consoles are intended; access control is at the API. Non-secret tokens in /api/environment.js and public third-party client tokens (PostHog, Knock, Algolia, Auth0 client id, Rollbar, Intercom) are out unless you use one to read or change another customer's data. Self-XSS is out. Stored XSS is in only if it runs for a victim who is not the attacker.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.faraday.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Unauthenticated or cross-account read/write of Faraday secrets. Listing or reading under a prefix you own is not a finding.",
+        "raw": {
+          "asset_identifier": "gs://faraday-secret",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Unauthenticated or cross-account read/write of Faraday secrets. Listing or reading under a prefix you own is not a finding.",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "gs://faraday-secret"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Customer upload bucket. Unauthenticated or cross-account read/write is in scope. Listing is prefix-scoped to the caller account; seeing your own prefix is not a finding.",
+        "raw": {
+          "asset_identifier": "gs://fdy-production-sdk-uploads",
+          "asset_type": "OTHER",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Customer upload bucket. Unauthenticated or cross-account read/write is in scope. Listing is prefix-scoped to the caller account; seeing your own prefix is not a finding.",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "gs://fdy-production-sdk-uploads"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Unauthenticated tool execution or customer data without a valid Faraday API key is in scope. Listing tools is out. Running tools with a valid key is the product.",
+        "raw": {
+          "asset_identifier": "mcp.faraday.ai",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Unauthenticated tool execution or customer data without a valid Faraday API key is in scope. Listing tools is out. Running tools with a valid key is the product.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mcp.faraday.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Catalog histograms and Faraday-provided consumer attributes are public (https://faraday.ai/catalog). Cross-account requires two unrelated users and curl from both sides. Copy a fresh token after the session shows the attacker identity. A 200 on your own resource is not evidence. Admin vs member privilege gain is in scope.",
+        "raw": {
+          "asset_identifier": "pro.faraday.ai",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Catalog histograms and Faraday-provided consumer attributes are public (https://faraday.ai/catalog). Cross-account requires two unrelated users and curl from both sides. Copy a fresh token after the session shows the attacker identity. A 200 on your own resource is not evidence. Admin vs member privilege gain is in scope.",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "pro.faraday.ai"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Catalog histograms and Faraday-provided consumer attributes are public (https://faraday.ai/catalog). Cross-account requires two unrelated users and curl from both sides. Copy a fresh token after the session shows the attacker identity. A 200 on your own resource is not evidence. Admin vs member privilege gain is in scope.",
+        "raw": {
+          "asset_identifier": "row.pro",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Catalog histograms and Faraday-provided consumer attributes are public (https://faraday.ai/catalog). Cross-account requires two unrelated users and curl from both sides. Copy a fresh token after the session shows the attacker identity. A 200 on your own resource is not evidence. Admin vs member privilege gain is in scope.",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "row.pro"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Unauthenticated or cross-account read/write of Faraday secrets. Listing or reading under a prefix you own is not a finding.",
+        "raw": {
+          "asset_identifier": "s3://faraday-secret",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Unauthenticated or cross-account read/write of Faraday secrets. Listing or reading under a prefix you own is not a finding.",
+          "integrity_requirement": "none",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "s3://faraday-secret"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Reachable from the public internet (no IP allowlist) is intended. Do not report that. Unauthenticated access to secrets is in scope. DoS, including resource exhaustion, is out.",
+        "raw": {
+          "asset_identifier": "vault2.faraday.ai",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Reachable from the public internet (no IP allowlist) is intended. Do not report that. Unauthenticated access to secrets is in scope. DoS, including resource exhaustion, is out.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "vault2.faraday.ai"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Support Live Chat is provided by Hubspot. If you have any security issues to report, use https://hackerone.com/hubspot",
+        "raw": {
+          "asset_identifier": "Support Live Chat",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Support Live Chat is provided by Hubspot. If you have any security issues to report, use https://hackerone.com/hubspot",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Support Live Chat"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Public marketing site. Not eligible. Do not report missing headers, cache issues, or open redirects. Do not book a demo while testing.",
+        "raw": {
+          "asset_identifier": "faraday.ai",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Public marketing site. Not eligible. Do not report missing headers, cache issues, or open redirects. Do not book a demo while testing.",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "faraday.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "faraday.atlassian.net",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "faraday.atlassian.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "No longer used.",
+        "raw": {
+          "asset_identifier": "s3://faraday-uploads",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "No longer used.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "s3://faraday-uploads"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/faraday_inc"
+}

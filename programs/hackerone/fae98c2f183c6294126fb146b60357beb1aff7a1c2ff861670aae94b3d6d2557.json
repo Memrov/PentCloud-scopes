@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:canada_goose_inc",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 2214.0,
+    "handle": "canada_goose_inc",
+    "id": 0,
+    "managed_program": true,
+    "name": "Canada Goose Inc.",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 83,
+    "submission_state": "open",
+    "url": "https://hackerone.com/canada_goose_inc",
+    "website": "https://canadagoose.com"
+  },
+  "name": "Canada Goose Inc.",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "ff35039a21c1e42ce61b66e3c4ae396e158bcf9698468be515fa366f2d0b9c4a",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "canada_goose_inc",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The canadagoose API gateway is an interface to a collection of backend services",
+        "raw": {
+          "asset_identifier": "api.canadagoose.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The canadagoose API gateway is an interface to a collection of backend services",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.canadagoose.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Canadagoose.com is our public facing e-commerce website hosted on the Salesforce Commerce Cloud. All subdomains under canadagoose.com are in-scope",
+        "raw": {
+          "asset_identifier": "canadagoose.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Canadagoose.com is our public facing e-commerce website hosted on the Salesforce Commerce Cloud. All subdomains under canadagoose.com are in-scope",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "canadagoose.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This is our customer warranty portal hosted on the Salesforce Service Cloud.",
+        "raw": {
+          "asset_identifier": "service.canadagoose.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This is our customer warranty portal hosted on the Salesforce Service Cloud.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "service.canadagoose.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/canada_goose_inc"
+}

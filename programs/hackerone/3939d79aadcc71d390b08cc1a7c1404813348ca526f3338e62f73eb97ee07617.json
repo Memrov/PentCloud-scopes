@@ -1,0 +1,291 @@
+{
+  "id": "hackerone:box_private",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 720.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 1719.0,
+    "handle": "box_private",
+    "id": 0,
+    "managed_program": true,
+    "name": "Box BB",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 95,
+    "submission_state": "open",
+    "url": "https://hackerone.com/box_private",
+    "website": "http://box.com"
+  },
+  "name": "Box BB",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "81f0720cbb55c0591bbb4cf21ffd18b88915232b8105996ec7d2e0a9715f9920",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "box_private",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://play.google.com/store/apps/details?id=com.box.android",
+        "raw": {
+          "asset_identifier": "Android Box Mobile App",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://play.google.com/store/apps/details?id=com.box.android",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "Android Box Mobile App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://www.box.com/resources/downloads/drive",
+        "raw": {
+          "asset_identifier": "Box Drive",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://www.box.com/resources/downloads/drive",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Box Drive"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Box Tools is an installer package that lets you open and edit Box-stored files directly in default desktop applications. Download from https://www.box.com/resources/downloads",
+        "raw": {
+          "asset_identifier": "Box Tools",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Box Tools is an installer package that lets you open and edit Box-stored files directly in default desktop applications. Download from https://www.box.com/resources/downloads",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Box Tools"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Authentication and identity plane. Includes login, OAuth flows, SSO, token issuance, and session management. High-value target for account takeover and auth bypass vulnerabilities.",
+        "raw": {
+          "asset_identifier": "account.box.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Authentication and identity plane. Includes login, OAuth flows, SSO, token issuance, and session management. High-value target for account takeover and auth bypass vulnerabilities.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "account.box.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Core Box API surface. Includes endpoints for files, folders, users, collaborations, shared links, search, metadata, governance, Shield, events, and AI-related functionality. Primary surface for authorization and data access vulnerabilities.",
+        "raw": {
+          "asset_identifier": "api.box.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Core Box API surface. Includes endpoints for files, folders, users, collaborations, shared links, search, metadata, governance, Shield, events, and AI-related functionality. Primary surface for authorization and data access vulnerabilities.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.box.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Primary Box web application. Includes all end-user and admin functionality such as file storage, sharing, collaboration, Box AI, Box Shield, Box Governance, Hubs, Forms, Relay, Apps, Notes, Canvas, and Admin Console.",
+        "raw": {
+          "asset_identifier": "app.box.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Primary Box web application. Includes all end-user and admin functionality such as file storage, sharing, collaboration, Box AI, Box Shield, Box Governance, Hubs, Forms, Relay, Apps, Notes, Canvas, and Admin Console.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "app.box.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Box-hosted web surface use for certain content experiences such as Box Notes and other cloud-rendered or embedded application views. Represents a distinct frontend origin from app.box.com and may have unique session, rendering, and security behaviors.",
+        "raw": {
+          "asset_identifier": "cloud.app.box.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Box-hosted web surface use for certain content experiences such as Box Notes and other cloud-rendered or embedded application views. Represents a distinct frontend origin from app.box.com and may have unique session, rendering, and security behaviors.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "cloud.app.box.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "File download and content delivery network. Includes signed URLs and file access mechanisms. Relevant for data exposure, token leakage, and access control issues.",
+        "raw": {
+          "asset_identifier": "dl.boxcloud.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "File download and content delivery network. Includes signed URLs and file access mechanisms. Relevant for data exposure, token leakage, and access control issues.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dl.boxcloud.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://apps.apple.com/us/app/box-the-power-of-content-ai/id290853822",
+        "raw": {
+          "asset_identifier": "iOS Box Mobile App",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://apps.apple.com/us/app/box-the-power-of-content-ai/id290853822",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "iOS Box Mobile App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Mobile web version of Box application. Separate rendering and session handling logic may expose unique vulnerabilities.",
+        "raw": {
+          "asset_identifier": "m.box.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Mobile web version of Box application. Separate rendering and session handling logic may expose unique vulnerabilities.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "m.box.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Box Notes service backend. Includes real-time collaboration and content sync functionality.",
+        "raw": {
+          "asset_identifier": "notes.services.box.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Box Notes service backend. Includes real-time collaboration and content sync functionality.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "notes.services.box.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "File upload pipeline. Includes file ingestion, processing, and storage entry points. Relevant for malware bypass, file parsing, and content validation vulnerabilities.",
+        "raw": {
+          "asset_identifier": "upload.box.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "File upload pipeline. Includes file ingestion, processing, and storage entry points. Relevant for malware bypass, file parsing, and content validation vulnerabilities.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "upload.box.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This domain is not in scope and testing is prohibited.",
+        "raw": {
+          "asset_identifier": "signrequest.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This domain is not in scope and testing is prohibited.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "signrequest.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This domain is not in scope and testing is prohibited.",
+        "raw": {
+          "asset_identifier": "sr-staging-1.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This domain is not in scope and testing is prohibited.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "sr-staging-1.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/box_private"
+}

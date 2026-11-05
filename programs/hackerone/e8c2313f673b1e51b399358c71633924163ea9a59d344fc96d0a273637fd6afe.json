@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:hy-vee",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": null,
+    "handle": "hy-vee",
+    "id": 0,
+    "managed_program": true,
+    "name": "Hy-Vee",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 50,
+    "submission_state": "open",
+    "url": "https://hackerone.com/hy-vee",
+    "website": "http://hy-vee.com"
+  },
+  "name": "Hy-Vee",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "4d13d535ed37196d554130df54260147e7728fed42690cf7ad938db9b1326641",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "hy-vee",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.hy-vee.cloud",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.hy-vee.cloud"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "1) In order to register, navigate to \nhttps://www.hy-vee.com/\n\n2) Click on the Log In button\n\n3) Click on \"Create an account\"\n\n4) Fill out the form\ncreate a test account using your @ wearehackerone.com email\n\n5) Click on \"Create Account\".",
+        "raw": {
+          "asset_identifier": "*.hy-vee.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "1) In order to register, navigate to \nhttps://www.hy-vee.com/\n\n2) Click on the Log In button\n\n3) Click on \"Create an account\"\n\n4) Fill out the form\ncreate a test account using your @ wearehackerone.com email\n\n5) Click on \"Create Account\".",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.hy-vee.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "If you believe you have found a vulnerability on an application owned by Hy-Vee other than *.hy-vee.com or  *.hy-vee.cloud, you may safely report it to us here on our Vulnerability Disclosure Program. Thank you!",
+        "raw": {
+          "asset_identifier": "Other Hy-Vee owned asset",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "If you believe you have found a vulnerability on an application owned by Hy-Vee other than *.hy-vee.com or  *.hy-vee.cloud, you may safely report it to us here on our Vulnerability Disclosure Program. Thank you!",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Other Hy-Vee owned asset"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/hy-vee"
+}

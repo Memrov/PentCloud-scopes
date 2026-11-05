@@ -1,0 +1,524 @@
+{
+  "id": "hackerone:ford",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 12.0,
+    "average_time_to_report_resolved": 9798.0,
+    "handle": "ford",
+    "id": 0,
+    "managed_program": true,
+    "name": "Ford",
+    "offers_bounties": false,
+    "offers_swag": true,
+    "response_efficiency_percentage": 83,
+    "submission_state": "open",
+    "url": "https://hackerone.com/ford",
+    "website": "http://ford.com"
+  },
+  "name": "Ford",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "52fe16942003eaa6eea14953293248c509bda25a8d0e0f74c707b4055c156fe9",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "ford",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Any asset/application that appears to be owned by Ford is in scope, but this is a priority domain.\n\nThe same vulnerability that is found on multiple domains will be treated as a SINGLE vulnerability. Please report all affected domains (e.g. ford.com.ca, ford.com.mx, ford.com.br, etc.) on a single report.  All subsequent reports will be closed as a Duplicate.",
+        "raw": {
+          "asset_identifier": "*.ford.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Any asset/application that appears to be owned by Ford is in scope, but this is a priority domain.\n\nThe same vulnerability that is found on multiple domains will be treated as a SINGLE vulnerability. Please report all affected domains (e.g. ford.com.ca, ford.com.mx, ford.com.br, etc.) on a single report.  All subsequent reports will be closed as a Duplicate.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.ford.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Any asset/application that appears to be owned by Ford is in scope, but this is a priority domain.\n\nThe same vulnerability that is found on multiple domains will be treated as a SINGLE vulnerability. Please report all affected domains (e.g. lincoln.com.ca, lincoln.com.mx, lincoln.com.br, etc.) on a single report.  All subsequent reports will be closed as a Duplicate.",
+        "raw": {
+          "asset_identifier": "*.lincoln.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Any asset/application that appears to be owned by Ford is in scope, but this is a priority domain.\n\nThe same vulnerability that is found on multiple domains will be treated as a SINGLE vulnerability. Please report all affected domains (e.g. lincoln.com.ca, lincoln.com.mx, lincoln.com.br, etc.) on a single report.  All subsequent reports will be closed as a Duplicate.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.lincoln.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Any asset/application that appears to be owned by Ford is in scope, but this is a priority domain.",
+        "raw": {
+          "asset_identifier": "*.motorcraft.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Any asset/application that appears to be owned by Ford is in scope, but this is a priority domain.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.motorcraft.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Any asset/application that appears to be owned by Ford is in scope, but this is a priority domain.",
+        "raw": {
+          "asset_identifier": "*.omnicraftautoparts.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Any asset/application that appears to be owned by Ford is in scope, but this is a priority domain.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.omnicraftautoparts.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Any asset/application that appears to be owned by Ford is in scope, but this is a priority domain.",
+        "raw": {
+          "asset_identifier": "*.quicklane.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Any asset/application that appears to be owned by Ford is in scope, but this is a priority domain.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.quicklane.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Ford App Catalog \nhttps://appadvice.com/app/ford-app-catalog/1068283395",
+        "raw": {
+          "asset_identifier": "1068283395",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Ford App Catalog \nhttps://appadvice.com/app/ford-app-catalog/1068283395",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1068283395"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "FordPass\nhttps://apps.apple.com/us/app/fordpass/id1095418609",
+        "raw": {
+          "asset_identifier": "1095418609",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "FordPass\nhttps://apps.apple.com/us/app/fordpass/id1095418609",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1095418609"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The Lincoln Way\nhttps://apps.apple.com/us/app/ford-performance-app/id1141482401",
+        "raw": {
+          "asset_identifier": "1141482401",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The Lincoln Way\nhttps://apps.apple.com/us/app/ford-performance-app/id1141482401",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1141482401"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "1142223695",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1142223695"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Ford Performance App\nhttps://apps.apple.com/us/app/ford-performance-app/id1225744589",
+        "raw": {
+          "asset_identifier": "1225744589",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Ford Performance App\nhttps://apps.apple.com/us/app/ford-performance-app/id1225744589",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1225744589"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Ford Play\nhttps://apps.apple.com/us/app/ford-play/id1290945517",
+        "raw": {
+          "asset_identifier": "1290945517",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Ford Play\nhttps://apps.apple.com/us/app/ford-play/id1290945517",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1290945517"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Lincoln Play\nhttps://apps.apple.com/us/app/ford-performance-app/id1290960071",
+        "raw": {
+          "asset_identifier": "1290960071",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Lincoln Play\nhttps://apps.apple.com/us/app/ford-performance-app/id1290960071",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1290960071"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Lincoln + Alexa\nhttps://apps.apple.com/us/app/ford-performance-app/id1316029168\n",
+        "raw": {
+          "asset_identifier": "1316029168",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Lincoln + Alexa\nhttps://apps.apple.com/us/app/ford-performance-app/id1316029168\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1316029168"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Ford + Alexa\nhttps://apps.apple.com/us/app/ford-alexa/id1316029395",
+        "raw": {
+          "asset_identifier": "1316029395",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Ford + Alexa\nhttps://apps.apple.com/us/app/ford-alexa/id1316029395",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1316029395"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "587040067",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "587040067"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "950707840",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "950707840"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Vehicle",
+          "asset_type": "HARDWARE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "HARDWARE",
+        "value": "Vehicle"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Ford + Alexa\nhttps://apps.apple.com/us/app/ford-alexa/id1316029395",
+        "raw": {
+          "asset_identifier": "com.ford.fordalexa",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Ford + Alexa\nhttps://apps.apple.com/us/app/ford-alexa/id1316029395",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.ford.fordalexa"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "## Test VIN: 1FMZU73W92UC83509\n\nNorth America \nhttps://play.google.com/store/apps/details?id=com.ford.fordpass&hl=en\n\nSouth America\nhttps://play.google.com/store/apps/details?id=com.ford.fordpasssa&hl=en\n\nEuropean Union\nhttps://play.google.com/store/apps/details?id=com.ford.fordpasseu&hl=en\n\nAll services and api’s used within the FordPass application are in scope.\n\nFordPass Android app available in North America, South America, Asia, and Europe.\n\nFordPass offers the ability to manage your vehicle right from your phone:\n\n• Send convenient remote commands – Lock, unlock, and start your vehicle using complimentary remote vehicle controls (1) – when equipped with FordPass® Connect (2)\n• Send commands and check your vehicle status right from your wrist with Wear OS smartwatches\n• Electric vehicle ownership support – Monitor charging progress and use Departure Times to pre-condition your battery and cabin (3)\n• FordPass feature availability varies by vehicle and country. Images shown for illustrative purposes only\n\n(1) Remote lock/unlock requires power door locks. Remote starting requires automatic transmission.\n(2) FordPass Connect (optional on select vehicles), the FordPass App and complimentary Connected Service are required for remote features (see FordPass Terms for details). Connected service and features depend on compatible network availability. Evolving technology/cellular networks/vehicle capability may limit functionality and prevent operation of connected features. Connected service excludes Wi-Fi hotspot.\n(3) Effectiveness of cabin conditioning may be reduced by extreme outside temperatures",
+        "raw": {
+          "asset_identifier": "com.ford.fordpass",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "## Test VIN: 1FMZU73W92UC83509\n\nNorth America \nhttps://play.google.com/store/apps/details?id=com.ford.fordpass&hl=en\n\nSouth America\nhttps://play.google.com/store/apps/details?id=com.ford.fordpasssa&hl=en\n\nEuropean Union\nhttps://play.google.com/store/apps/details?id=com.ford.fordpasseu&hl=en\n\nAll services and api’s used within the FordPass application are in scope.\n\nFordPass Android app available in North America, South America, Asia, and Europe.\n\nFordPass offers the ability to manage your vehicle right from your phone:\n\n• Send convenient remote commands – Lock, unlock, and start your vehicle using complimentary remote vehicle controls (1) – when equipped with FordPass® Connect (2)\n• Send commands and check your vehicle status right from your wrist with Wear OS smartwatches\n• Electric vehicle ownership support – Monitor charging progress and use Departure Times to pre-condition your battery and cabin (3)\n• FordPass feature availability varies by vehicle and country. Images shown for illustrative purposes only\n\n(1) Remote lock/unlock requires power door locks. Remote starting requires automatic transmission.\n(2) FordPass Connect (optional on select vehicles), the FordPass App and complimentary Connected Service are required for remote features (see FordPass Terms for details). Connected service and features depend on compatible network availability. Evolving technology/cellular networks/vehicle capability may limit functionality and prevent operation of connected features. Connected service excludes Wi-Fi hotspot.\n(3) Effectiveness of cabin conditioning may be reduced by extreme outside temperatures",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.ford.fordpass"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.ford.fordplay",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.ford.fordplay"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.ford.performance.android.experience",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.ford.performance.android.experience"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.ford.remoteaccess",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.ford.remoteaccess"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.ford.therightway",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.ford.therightway"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.lincoln.lincolnalexa",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.lincoln.lincolnalexa"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.lincoln.lincolnplay",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.lincoln.lincolnplay"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "### Test VIN: 1FMZU73W92UC83509\n\nExplore the collection of premier services we call The Lincoln Way (1):\n- With Lincoln Connect, start or stop your engine with a touch of a button or lock and unlock your Lincoln remotely for increased peace of mind (2)\n- With Lincoln Connect, locate your vehicle from virtually anywhere (2)\n- Access 24/7 complimentary Roadside Assistance for fuel delivery, lock-out assistance, towing and more (3)\n-Schedule Lincoln Pickup & DeliveryTM—an exclusive maintenance offering that leaves a Lincoln vehicle for you to drive while we take care of your service needs (4)\n-Discover destinations of interest near you including fuel stations and restaurants\n- Wi-Fi hotspot: Set up and manage your mobile Lincoln Connect Wi-Fi hotspot plan.(5)\n-Contact a Lincoln Concierge for personalized assistance with your Lincoln\n-Reserve and pay for parking on your schedule (6)\n-Monitor your vehicle’s health, track fuel levels and check important notifications on your phone (2)\n-Manage your Lincoln Automotive Financial Services payments and more\n\nVehicle controls are available on the:\n2018: Lincoln MKC, Lincoln MKZ, Lincoln MKZ HEV, Lincoln Continental, Lincoln MKX, Lincoln Navigator\n2019: MKC",
+        "raw": {
+          "asset_identifier": "com.lincoln.lincolnway",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "### Test VIN: 1FMZU73W92UC83509\n\nExplore the collection of premier services we call The Lincoln Way (1):\n- With Lincoln Connect, start or stop your engine with a touch of a button or lock and unlock your Lincoln remotely for increased peace of mind (2)\n- With Lincoln Connect, locate your vehicle from virtually anywhere (2)\n- Access 24/7 complimentary Roadside Assistance for fuel delivery, lock-out assistance, towing and more (3)\n-Schedule Lincoln Pickup & DeliveryTM—an exclusive maintenance offering that leaves a Lincoln vehicle for you to drive while we take care of your service needs (4)\n-Discover destinations of interest near you including fuel stations and restaurants\n- Wi-Fi hotspot: Set up and manage your mobile Lincoln Connect Wi-Fi hotspot plan.(5)\n-Contact a Lincoln Concierge for personalized assistance with your Lincoln\n-Reserve and pay for parking on your schedule (6)\n-Monitor your vehicle’s health, track fuel levels and check important notifications on your phone (2)\n-Manage your Lincoln Automotive Financial Services payments and more\n\nVehicle controls are available on the:\n2018: Lincoln MKC, Lincoln MKZ, Lincoln MKZ HEV, Lincoln Continental, Lincoln MKX, Lincoln Navigator\n2019: MKC",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.lincoln.lincolnway"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "ford.ca",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "ford.ca"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/ford"
+}

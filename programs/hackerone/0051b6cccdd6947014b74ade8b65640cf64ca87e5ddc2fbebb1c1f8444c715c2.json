@@ -1,0 +1,111 @@
+{
+  "id": "hackerone:openmage",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "openmage",
+    "id": 0,
+    "managed_program": false,
+    "name": "OpenMage",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 44,
+    "submission_state": "open",
+    "url": "https://hackerone.com/openmage",
+    "website": "https://www.openmage.org/"
+  },
+  "name": "OpenMage",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "e5fed568eb0ecddd3e88ccee4ef5d9a641417f6ec01c1ff13c1ab416fbd34af0",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "openmage",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "demo-admin.openmage.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "demo-admin.openmage.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This \"demo site\" is the OpenMage LTS source code hosted on a server donated by a third-party. It does not contain sensitive data but for the purpose of this program may be considered as a live shopping cart target.\n\nOnly the website on **port 443** is in-scope for this HackerOne program!\n\n**Please do not connect to or scan any ports other than 443.**\n*Reports that are not applicable to the web service on port 443 will be closed as Not Applicable.*\n\nPlease do not report other issues that might be expected to be handled on a production-grade installation such as:\n\n- Lack of rate-limiting\n- Lack of intrusion detection/prevention\n- Lack of anti-spam measures\n- Lack of other features like 2FA which would improve security\n\n*We are aware of these shortcomings but are interested in the security of the OpenMage LTS software as it relates to the functioning of the open-source source code and consider these features to be outside the scope of this software project.*\n\nIn general, we consider the session IDs (the value in the `om_frontend` or `adminhtml` cookies) to be safely stored in the browser (the cookies have the HttpOnly and Secure flags) and safely transmitted to the server over https. We are not interested in vulnerabilities caused by the user's system or network being deeply compromised  such that these session IDs become known to the attacker (session fixation). Reports with this premise will be closed as Not Applicable.",
+        "raw": {
+          "asset_identifier": "demo.openmage.org",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This \"demo site\" is the OpenMage LTS source code hosted on a server donated by a third-party. It does not contain sensitive data but for the purpose of this program may be considered as a live shopping cart target.\n\nOnly the website on **port 443** is in-scope for this HackerOne program!\n\n**Please do not connect to or scan any ports other than 443.**\n*Reports that are not applicable to the web service on port 443 will be closed as Not Applicable.*\n\nPlease do not report other issues that might be expected to be handled on a production-grade installation such as:\n\n- Lack of rate-limiting\n- Lack of intrusion detection/prevention\n- Lack of anti-spam measures\n- Lack of other features like 2FA which would improve security\n\n*We are aware of these shortcomings but are interested in the security of the OpenMage LTS software as it relates to the functioning of the open-source source code and consider these features to be outside the scope of this software project.*\n\nIn general, we consider the session IDs (the value in the `om_frontend` or `adminhtml` cookies) to be safely stored in the browser (the cookies have the HttpOnly and Secure flags) and safely transmitted to the server over https. We are not interested in vulnerabilities caused by the user's system or network being deeply compromised  such that these session IDs become known to the attacker (session fixation). Reports with this premise will be closed as Not Applicable.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "demo.openmage.org"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The source code for OpenMage LTS is provided via github.com/OpenMage/magento-lts and is publicly available.\n\nThe attack surface for this source code can vary widely based on how it is deployed. If there is a security vulnerability with a specific installation that does not widely affect other OpenMage LTS users please disclose the issue directly to the affected party.\n\nThe OpenMage program covers only vulnerabilities that exist within the source code that is available on github.com/OpenMage/magento-lts and you are responsible for setting up your own test environment to hack on this source code.\n\n**AI-generated reports are welcome if they are clearly and well-validated (video PoC and reproduction scripts recommended). Non-validated markdown reports will be marked as Not Applicable to discourage high volumes of low-quality reports.**",
+        "raw": {
+          "asset_identifier": "https://github.com/OpenMage/magento-lts",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The source code for OpenMage LTS is provided via github.com/OpenMage/magento-lts and is publicly available.\n\nThe attack surface for this source code can vary widely based on how it is deployed. If there is a security vulnerability with a specific installation that does not widely affect other OpenMage LTS users please disclose the issue directly to the affected party.\n\nThe OpenMage program covers only vulnerabilities that exist within the source code that is available on github.com/OpenMage/magento-lts and you are responsible for setting up your own test environment to hack on this source code.\n\n**AI-generated reports are welcome if they are clearly and well-validated (video PoC and reproduction scripts recommended). Non-validated markdown reports will be marked as Not Applicable to discourage high volumes of low-quality reports.**",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/OpenMage/magento-lts"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is hosted by Github Pages. Please observe [Github's security program](https://hackerone.com/github) and report directly to them if any issues are found with the underlying technologies. Only issues directly affecting the security or privacy of the OpenMage organization should be submitted to this program.\n\n### Email services for the openmage.org domain are not in scope! Reports relating to SPF and DMARC will be closed immediately as N/A.",
+        "raw": {
+          "asset_identifier": "www.openmage.org",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is hosted by Github Pages. Please observe [Github's security program](https://hackerone.com/github) and report directly to them if any issues are found with the underlying technologies. Only issues directly affecting the security or privacy of the OpenMage organization should be submitted to this program.\n\n### Email services for the openmage.org domain are not in scope! Reports relating to SPF and DMARC will be closed immediately as N/A.",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.openmage.org"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/openmage"
+}

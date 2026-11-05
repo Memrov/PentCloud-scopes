@@ -1,0 +1,94 @@
+{
+  "id": "intigriti:e6386eb8-ce59-43b5-98b6-f1590cafdceb",
+  "metadata": {
+    "company_handle": "dpgm",
+    "confidentiality_level": "public",
+    "handle": "tweakers",
+    "id": "e6386eb8-ce59-43b5-98b6-f1590cafdceb",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 2200
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 50
+    },
+    "name": "Tweakers",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/dpgm/tweakers/detail"
+  },
+  "name": "Tweakers",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "7b98084cda2c0f2a28ab3f49dc28f0f834fc2ca379251784eb1240a69ba91bca",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "e6386eb8-ce59-43b5-98b6-f1590cafdceb",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.tweakblogs.net",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.tweakblogs.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Out of scope: elect.tweakers.net",
+        "raw": {
+          "description": "Out of scope: elect.tweakers.net",
+          "endpoint": "*.tweakers.net",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.tweakers.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.tweakimg.net",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.tweakimg.net"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "elect.tweakers.net",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "elect.tweakers.net"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/dpgm/tweakers/detail"
+}

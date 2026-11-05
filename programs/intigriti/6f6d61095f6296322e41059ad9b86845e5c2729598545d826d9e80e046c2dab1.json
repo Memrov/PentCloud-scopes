@@ -1,0 +1,54 @@
+{
+  "id": "intigriti:4981522f-5675-4f46-b7b7-e065d30c8d79",
+  "metadata": {
+    "company_handle": "bpost",
+    "confidentiality_level": "public",
+    "handle": "crossborderfines",
+    "id": "4981522f-5675-4f46-b7b7-e065d30c8d79",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Cross Border Fines",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/bpost/crossborderfines/detail"
+  },
+  "name": "Cross Border Fines",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "d3545dba199192cc1fc9ec5b9cb493f05380474aaa081da5ac24496e69da79fd",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "4981522f-5675-4f46-b7b7-e065d30c8d79",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://justonweb.be/fines/",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://justonweb.be/fines/"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/bpost/crossborderfines/detail"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:stagingdoteverydotorg",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "stagingdoteverydotorg",
+    "id": 0,
+    "managed_program": false,
+    "name": "Staging.every.org",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 0,
+    "submission_state": "open",
+    "url": "https://hackerone.com/stagingdoteverydotorg",
+    "website": "https://staging.every.org"
+  },
+  "name": "Staging.every.org",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "1b96434876034b7d584dc88a2ecc9510cc142b7d04d3e59bf4bfc1a3f6183939",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "stagingdoteverydotorg",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Please create all accounts at https://staging.every.org!! We have it configured just like the real every.org so any vulnerabilities you find will be valid :)\n\nstaging.every.org is protected with HTTP Basic Auth to prevent crawlers from indexing it. The credentials are as follows.\nUsername: `give`\nPassword: `give`",
+        "raw": {
+          "asset_identifier": "staging.every.org",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Please create all accounts at https://staging.every.org!! We have it configured just like the real every.org so any vulnerabilities you find will be valid :)\n\nstaging.every.org is protected with HTTP Basic Auth to prevent crawlers from indexing it. The credentials are as follows.\nUsername: `give`\nPassword: `give`",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "staging.every.org"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/stagingdoteverydotorg"
+}

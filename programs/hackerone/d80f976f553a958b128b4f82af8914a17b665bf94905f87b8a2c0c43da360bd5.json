@@ -1,0 +1,146 @@
+{
+  "id": "hackerone:razorpay",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 214.0,
+    "average_time_to_first_program_response": 77.0,
+    "average_time_to_report_resolved": null,
+    "handle": "razorpay",
+    "id": 0,
+    "managed_program": false,
+    "name": "Razorpay",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 43,
+    "submission_state": "open",
+    "url": "https://hackerone.com/razorpay",
+    "website": "https://razorpay.com"
+  },
+  "name": "Razorpay",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "004d529d2b39ce603caf1f3821c2b402d392e50a0e482bc8878eede6ff6c0dca",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "razorpay",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Reference:\nhttps://razorpay.com/docs/",
+        "raw": {
+          "asset_identifier": "api.razorpay.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Reference:\nhttps://razorpay.com/docs/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.razorpay.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Payment Workflow: https://razorpay.com/docs/payments/dashboard/test-live-modes/\nReference:\nhttps://razorpay.com/docs/\nhttps://razorpay.com/docs/payments/payments/test-card-upi-details/",
+        "raw": {
+          "asset_identifier": "checkout.razorpay.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Payment Workflow: https://razorpay.com/docs/payments/dashboard/test-live-modes/\nReference:\nhttps://razorpay.com/docs/\nhttps://razorpay.com/docs/payments/payments/test-card-upi-details/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "checkout.razorpay.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Signup Workflow: https://razorpay.com/docs/payments/sign-up/",
+        "raw": {
+          "asset_identifier": "dashboard.razorpay.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Signup Workflow: https://razorpay.com/docs/payments/sign-up/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dashboard.razorpay.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Reference:\nhttps://razorpay.com/docs/",
+        "raw": {
+          "asset_identifier": "invoices.razorpay.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Reference:\nhttps://razorpay.com/docs/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "invoices.razorpay.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Doc - https://razorpay.com/docs/x/xpayroll/",
+        "raw": {
+          "asset_identifier": "payroll.razorpay.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Doc - https://razorpay.com/docs/x/xpayroll/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "payroll.razorpay.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Docs - https://razorpay.com/docs/x",
+        "raw": {
+          "asset_identifier": "x.razorpay.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Docs - https://razorpay.com/docs/x",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "x.razorpay.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/razorpay"
+}

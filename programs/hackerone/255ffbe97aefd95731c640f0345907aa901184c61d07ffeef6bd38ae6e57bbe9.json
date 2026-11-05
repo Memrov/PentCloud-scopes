@@ -1,0 +1,110 @@
+{
+  "id": "hackerone:blackrock",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": null,
+    "handle": "blackrock",
+    "id": 0,
+    "managed_program": true,
+    "name": "BlackRock",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 67,
+    "submission_state": "open",
+    "url": "https://hackerone.com/blackrock",
+    "website": "http://blackrock.com"
+  },
+  "name": "BlackRock",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "e1a994203bbbb5167a5403d47e5753d839518ff68b912f795d38e800e8e4401a",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "blackrock",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Researchers must use HackerOne email aliases when registering for accounts: [username]@wearehackerone.com. No credentials will be provided, but you can register for up to 3 accounts.",
+        "raw": {
+          "asset_identifier": "*.blackrock.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Researchers must use HackerOne email aliases when registering for accounts: [username]@wearehackerone.com. No credentials will be provided, but you can register for up to 3 accounts.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "*.blackrock.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Researchers must use HackerOne email aliases when registering for accounts: [username]@wearehackerone.com. No credentials will be provided, but you can register for up to 3 accounts.",
+        "raw": {
+          "asset_identifier": "*.ishares.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Researchers must use HackerOne email aliases when registering for accounts: [username]@wearehackerone.com. No credentials will be provided, but you can register for up to 3 accounts.",
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "*.ishares.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Researchers must use HackerOne email aliases when registering for accounts: [username]@wearehackerone.com. No credentials will be provided, but you can register for up to 3 accounts in case there is an option.",
+        "raw": {
+          "asset_identifier": "*.isharesonline.com",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Researchers must use HackerOne email aliases when registering for accounts: [username]@wearehackerone.com. No credentials will be provided, but you can register for up to 3 accounts in case there is an option.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "*.isharesonline.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "69.52.0.0/16",
+          "asset_type": "CIDR",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "CIDR",
+        "value": "69.52.0.0/16"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/blackrock"
+}

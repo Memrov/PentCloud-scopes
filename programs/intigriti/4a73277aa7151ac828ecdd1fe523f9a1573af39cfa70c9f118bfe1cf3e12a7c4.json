@@ -1,0 +1,68 @@
+{
+  "id": "intigriti:bdbdcb88-3242-4d0b-8926-38775bd262bf",
+  "metadata": {
+    "company_handle": "axelspringerse",
+    "confidentiality_level": "public",
+    "handle": "axelspringersevulnerabilitydisclosureprogram",
+    "id": "bdbdcb88-3242-4d0b-8926-38775bd262bf",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Axel Springer SE Vulnerability Disclosure Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/axelspringerse/axelspringersevulnerabilitydisclosureprogram/detail"
+  },
+  "name": "Axel Springer SE Vulnerability Disclosure Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "78519a7313568d5d87298d9d556651d337226ab6e950bca68e3bd1a556ecb131",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "bdbdcb88-3242-4d0b-8926-38775bd262bf",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.axelspringer.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.axelspringer.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This asset falls under the Axel Springer National Media & Tech bug bounty program. We kindly ask that you report any findings related to this asset through that program.",
+        "raw": {
+          "description": "This asset falls under the Axel Springer National Media & Tech bug bounty program. We kindly ask that you report any findings related to this asset through that program.",
+          "endpoint": "adtechnology.axelspringer.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "adtechnology.axelspringer.com"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/axelspringerse/axelspringersevulnerabilitydisclosureprogram/detail"
+}

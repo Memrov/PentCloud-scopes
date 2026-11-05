@@ -1,0 +1,597 @@
+{
+  "id": "hackerone:superhuman",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 98.0,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 5043.0,
+    "handle": "superhuman",
+    "id": 0,
+    "managed_program": true,
+    "name": "Superhuman (formerly Grammarly)",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 89,
+    "submission_state": "open",
+    "url": "https://hackerone.com/superhuman",
+    "website": "https://superhuman.com/"
+  },
+  "name": "Superhuman (formerly Grammarly)",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "3f2600746fe5336f98fe0e1fbc7c56972daf532f456011c9e4aec5bd87459e86",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "superhuman",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.coda.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.coda.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.grammarly.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.grammarly.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.grammarly.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.grammarly.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.grammarlyaws.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.grammarlyaws.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "All subdomains of Superhuman.com - third party saas domains are excluded.",
+        "raw": {
+          "asset_identifier": "*.superhuman.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "All subdomains of Superhuman.com - third party saas domains are excluded.",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.superhuman.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The first hacker who reports the `$FLAG` saved in the document (`document_id: 1198436185`) of the user `h1_ctf@grammarly.com` (`user_id: 1411519194`) will be awarded a **$100K bounty**.\n",
+        "raw": {
+          "asset_identifier": "Capture the Flag",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The first hacker who reports the `$FLAG` saved in the document (`document_id: 1198436185`) of the user `h1_ctf@grammarly.com` (`user_id: 1411519194`) will be awarded a **$100K bounty**.\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Capture the Flag"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Coda Chrome Extension",
+          "asset_type": "OTHER",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "high"
+        },
+        "type": "OTHER",
+        "value": "Coda Chrome Extension"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The extension is available in the extension/add-on store of the respective browser: \n* [Chrome](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en) \n* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/)\n* [Edge](https://microsoftedge.microsoft.com/addons/detail/grammarly-ai-writing-and/cnlefmmeadmemmdciolhbnfeacpdfbkd)\n* [Safari](https://apps.apple.com/us/app/grammarly-for-safari/id1462114288)\n\n**Browser Extension vulnerabilities will not be distinguished. For example, if a vulnerability exists in the Chrome and Safari extensions, we will consider it the same vulnerability and will only award one bounty.**",
+        "raw": {
+          "asset_identifier": "Grammarly Browser Extensions",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The extension is available in the extension/add-on store of the respective browser: \n* [Chrome](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en) \n* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/)\n* [Edge](https://microsoftedge.microsoft.com/addons/detail/grammarly-ai-writing-and/cnlefmmeadmemmdciolhbnfeacpdfbkd)\n* [Safari](https://apps.apple.com/us/app/grammarly-for-safari/id1462114288)\n\n**Browser Extension vulnerabilities will not be distinguished. For example, if a vulnerability exists in the Chrome and Safari extensions, we will consider it the same vulnerability and will only award one bounty.**",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Grammarly Browser Extensions"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://download-windows.grammarly.com/GrammarlyInstaller.exe",
+        "raw": {
+          "asset_identifier": "Grammarly Desktop for Windows",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://download-windows.grammarly.com/GrammarlyInstaller.exe",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Grammarly Desktop for Windows"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://download-mac.grammarly.com/Grammarly.dmg",
+        "raw": {
+          "asset_identifier": "Grammarly Desktop for macOS",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://download-mac.grammarly.com/Grammarly.dmg",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Grammarly Desktop for macOS"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Superhuman Go is a proactive AI assistant that integrates with 100+ apps to coordinate agents and provide context-aware help across your workflow. It works in every tab where you work.\n[Superhuman Go - AI Assistant](https://superhuman.com/products/go-ai-assistant)\n",
+        "raw": {
+          "asset_identifier": "Superhuman Go",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Superhuman Go is a proactive AI assistant that integrates with 100+ apps to coordinate agents and provide context-aware help across your workflow. It works in every tab where you work.\n[Superhuman Go - AI Assistant](https://superhuman.com/products/go-ai-assistant)\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Superhuman Go"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Superhuman Mail Chrome Extension",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Superhuman Mail Chrome Extension"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Superhuman Mail Desktop App",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Superhuman Mail Desktop App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "coda.grammarly.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "coda.grammarly.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "coda.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "coda.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "codacontent.io",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "codacontent.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "codahosted.io",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "codahosted.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Grammarly for Android](https://www.grammarly.com/mobile/android).\n\nVulnerabilities with PoC may qualify for additional bounty via [Google Play Security Rewards Program](https://hackerone.com/googleplay). See [Vulnerability Criteria](https://hackerone.com/googleplay) for details.",
+        "raw": {
+          "asset_identifier": "com.grammarly.android.keyboard",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Grammarly for Android](https://www.grammarly.com/mobile/android).\n\nVulnerabilities with PoC may qualify for additional bounty via [Google Play Security Rewards Program](https://hackerone.com/googleplay). See [Vulnerability Criteria](https://hackerone.com/googleplay) for details.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.grammarly.android.keyboard"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[Grammarly for iOS](https://www.grammarly.com/mobile/ios)",
+        "raw": {
+          "asset_identifier": "com.grammarly.keyboard",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[Grammarly for iOS](https://www.grammarly.com/mobile/ios)",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.grammarly.keyboard"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Superhuman Mail Android app\nhttps://play.google.com/store/apps/details?id=com.superhuman.mail&hl=en",
+        "raw": {
+          "asset_identifier": "com.superhuman.mail",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Superhuman Mail Android app\nhttps://play.google.com/store/apps/details?id=com.superhuman.mail&hl=en",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.superhuman.mail"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Superhuman Mail iOS app\nhttps://apps.apple.com/us/app/superhuman-mail/id1120837655",
+        "raw": {
+          "asset_identifier": "com.superhuman.mail ",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Superhuman Mail iOS app\nhttps://apps.apple.com/us/app/superhuman-mail/id1120837655",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.superhuman.mail "
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "docs.superhuman.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "docs.superhuman.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "gateway.superhuman.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "gateway.superhuman.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "id.superhuman.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "id.superhuman.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "io.coda",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "io.coda"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "io.coda.codaapp",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "io.coda.codaapp"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "mail.superhuman.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mail.superhuman.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "settings.superhuman.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "settings.superhuman.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "superhuman.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "superhuman.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "- `send.grammarly.com`\n- `calendar.grammarly.com`\n- `support.grammarly.com`\n- `status.grammarly.com`\n- `brand.grammarly.com`\n- `partners.grammarly.com`\n- `events.grammarly.com`\n- `hello.superhuman.com`\n- `events.superhuman.com`\n- `engage.superhuman.com`\n- `help.superhuman.com`\n\nAny submissions on these domains and their subdomains are out of scope for the bounty. This includes any SaaS that is not controlled by Superhuman, even if it is not mentioned here.",
+        "raw": {
+          "asset_identifier": "Third party external services",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "- `send.grammarly.com`\n- `calendar.grammarly.com`\n- `support.grammarly.com`\n- `status.grammarly.com`\n- `brand.grammarly.com`\n- `partners.grammarly.com`\n- `events.grammarly.com`\n- `hello.superhuman.com`\n- `events.superhuman.com`\n- `engage.superhuman.com`\n- `help.superhuman.com`\n\nAny submissions on these domains and their subdomains are out of scope for the bounty. This includes any SaaS that is not controlled by Superhuman, even if it is not mentioned here.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Third party external services"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "status.coda.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "status.coda.io"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/superhuman"
+}

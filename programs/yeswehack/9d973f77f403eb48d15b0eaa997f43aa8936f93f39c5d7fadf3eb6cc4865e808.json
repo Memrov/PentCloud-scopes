@@ -1,0 +1,142 @@
+{
+  "id": "yeswehack:datadome-bug-bounty",
+  "metadata": {
+    "disabled": false,
+    "id": "datadome-bug-bounty",
+    "managed": null,
+    "max_bounty": 3000,
+    "min_bounty": 50,
+    "name": "DataDome Bug Bounty",
+    "public": true
+  },
+  "name": "DataDome Bug Bounty",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "d46ee79c282b284e5d8be7ca3dcacdfa856f9dcaa04db94e67d9183d169417c6",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "datadome-bug-bounty",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://app.datadome.co",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://app.datadome.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://api-app.datadome.co/",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://api-app.datadome.co/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://customer-api.datadome.co",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://customer-api.datadome.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://api.datadome.co",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://api.datadome.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://api-js.datadome.co",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://api-js.datadome.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://*.captcha-delivery.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://*.captcha-delivery.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://auth.datadome.co",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://auth.datadome.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://datadome.co",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://datadome.co"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains not listed In-Scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains not listed In-Scope"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Third-party widgets on www.datadome.co and app.datadome.co",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Third-party widgets on www.datadome.co and app.datadome.co"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/datadome-bug-bounty"
+}

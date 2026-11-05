@@ -1,0 +1,75 @@
+{
+  "id": "hackerone:rails",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 20.0,
+    "average_time_to_report_resolved": 2539.0,
+    "handle": "rails",
+    "id": 0,
+    "managed_program": false,
+    "name": "Ruby on Rails",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 94,
+    "submission_state": "open",
+    "url": "https://hackerone.com/rails",
+    "website": "http://rubyonrails.org/security"
+  },
+  "name": "Ruby on Rails",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "728d1d38f5547e445d49f964530f0eb75c6fa2c471bf5b7faa02b91a2f76443e",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "rails",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/rails/rails",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/rails/rails"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.rubyonrails.org",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.rubyonrails.org"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/rails"
+}

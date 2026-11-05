@@ -1,0 +1,272 @@
+{
+  "id": "hackerone:notion",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 431.0,
+    "average_time_to_first_program_response": 5.0,
+    "average_time_to_report_resolved": 1328.0,
+    "handle": "notion",
+    "id": 0,
+    "managed_program": true,
+    "name": "Notion Labs, Inc.",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 89,
+    "submission_state": "open",
+    "url": "https://hackerone.com/notion",
+    "website": "https://www.notion.com"
+  },
+  "name": "Notion Labs, Inc.",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "5f07d4e34bc2dbf3f9e275300c830c247d01751569735c2c3bb89d10ec60928d",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "notion",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Github Repositories or other public artifacts owned by makenotion",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Github Repositories or other public artifacts owned by makenotion"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We are particularly interested in the ability to access data the user lacks permission to view. Prompt engineering for inappropriate AI responses is out of scope. The usage of obfuscated or invisible characters to alter AI responses is in scope if security impact can be demonstrated.",
+        "raw": {
+          "asset_identifier": "Notion AI",
+          "asset_type": "AI_MODEL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We are particularly interested in the ability to access data the user lacks permission to view. Prompt engineering for inappropriate AI responses is out of scope. The usage of obfuscated or invisible characters to alter AI responses is in scope if security impact can be demonstrated.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "AI_MODEL",
+        "value": "Notion AI"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Notion Authentication",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Notion Authentication"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Any desktop app available for download at www.notion.so/desktop\n\nWe only reward for the most recent version of the app.",
+        "raw": {
+          "asset_identifier": "Notion Desktop App",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Any desktop app available for download at www.notion.so/desktop\n\nWe only reward for the most recent version of the app.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Notion Desktop App"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Includes any resources served to or affects a user from notion.so/ or our marketing site on notion.so.",
+        "raw": {
+          "asset_identifier": "Notion Frontend",
+          "asset_type": "OTHER",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Includes any resources served to or affects a user from notion.so/ or our marketing site on notion.so.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Notion Frontend"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We are most interested in any CSRF in third-party integrations.",
+        "raw": {
+          "asset_identifier": "Notion Integrations",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We are most interested in any CSRF in third-party integrations.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Notion Integrations"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Notion MCP",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Notion MCP"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We are particularly interested in the ability to access pages a given user should lack the ability to access. \n\nAdditionally, if a page is available through “Anyone with a link at…” (permission grant), we are interested in cases where another user could access that page without explicitly receiving the link.",
+        "raw": {
+          "asset_identifier": "Privilege Escalation",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We are particularly interested in the ability to access pages a given user should lack the ability to access. \n\nAdditionally, if a page is available through “Anyone with a link at…” (permission grant), we are interested in cases where another user could access that page without explicitly receiving the link.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Privilege Escalation"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Includes resources at notion.so/api/v3.\n\nAttacks we are most interested in receiving reports about include: injection attacks, remote code execution, server-side request forgery, IDOR, and privilege escalation. This list is not exhaustive; please submit anything related to the API here.",
+        "raw": {
+          "asset_identifier": "Product API",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Includes resources at notion.so/api/v3.\n\nAttacks we are most interested in receiving reports about include: injection attacks, remote code execution, server-side request forgery, IDOR, and privilege escalation. This list is not exhaustive; please submit anything related to the API here.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Product API"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Includes resources at [api.notion.com](https://api.notion.com/).\n\nWe are particularly interested in the ability to escalate your privileges beyond the scope of our API tokens.",
+        "raw": {
+          "asset_identifier": "Public API",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Includes resources at [api.notion.com](https://api.notion.com/).\n\nWe are particularly interested in the ability to escalate your privileges beyond the scope of our API tokens.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Public API"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "calendar.notion.so",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "calendar.notion.so"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "mail.notion.so",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mail.notion.so"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Includes the Android app available for download at https://play.google.com/store/apps/details?id=notion.id. We only reward for the most recent version of the app.",
+        "raw": {
+          "asset_identifier": "notion.id",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Includes the Android app available for download at https://play.google.com/store/apps/details?id=notion.id. We only reward for the most recent version of the app.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "notion.id"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/notion"
+}

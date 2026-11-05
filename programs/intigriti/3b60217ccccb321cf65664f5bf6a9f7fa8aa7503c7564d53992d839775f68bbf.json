@@ -1,0 +1,263 @@
+{
+  "id": "intigriti:1e325f65-37de-4094-9079-217e27cab00b",
+  "metadata": {
+    "company_handle": "wpengine",
+    "confidentiality_level": "public",
+    "handle": "wpengine",
+    "id": "1e325f65-37de-4094-9079-217e27cab00b",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "WP Engine VDP",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/wpengine/wpengine/detail"
+  },
+  "name": "WP Engine VDP",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "8751c2b67fde94219aa59d9c2f599480e3d45fa08d7116d4fe005e02dcd44ef6",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "1e325f65-37de-4094-9079-217e27cab00b",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*. advancedcustomfields.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*. advancedcustomfields.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*. bettersearchreplace.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*. bettersearchreplace.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.deliciousbrains.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.deliciousbrains.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The studiopress.com, www.studiopress.com, and my.studiopress.com sites are public facing marketing and WordPress theme e-commerce sites. **No credentials will be provided.** Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application.",
+        "raw": {
+          "description": "The studiopress.com, www.studiopress.com, and my.studiopress.com sites are public facing marketing and WordPress theme e-commerce sites. **No credentials will be provided.** Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application.",
+          "endpoint": "*.studiopress.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.studiopress.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpengine.io",
+        "raw": {
+          "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpengine.io",
+          "endpoint": "*.wpengine.io",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.wpengine.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpesvc.net",
+        "raw": {
+          "description": "This is an apex domain used for microservices hosted as subdomains and service-to-service APIs - these are intended to be \"internal\" services like APIs but have public DNS records and some may be publicly-accessible. To aid in testing, we've provided some initial OSINT for this domain: https://crt.sh/?q=%25wpesvc.net",
+          "endpoint": "*.wpesvc.net",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.wpesvc.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is the primary site for researchers to register and test both the Flywheel App as well as the Flywheel Platform. We will not provide credentials or bypass verification controls (i.e, a researcher will need to either provide a valid phone number or credit card to have a live site), but a researcher may register a demo site that matches the platform's functionality without verification. **Please use your Intigriti credentials to register.** Please note that any issues regarding an individual WordPress installation on the Flywheel platform, outside of plugins owned by WP Engine/Flywheel, will be considered out of scope as we do not monitor or manage customer content. We are, however, very interested in issues that may compromise customer isolation on the platform or cause data to be leaked from either a host or an unrelated customer site.",
+        "raw": {
+          "description": "This is the primary site for researchers to register and test both the Flywheel App as well as the Flywheel Platform. We will not provide credentials or bypass verification controls (i.e, a researcher will need to either provide a valid phone number or credit card to have a live site), but a researcher may register a demo site that matches the platform's functionality without verification. **Please use your Intigriti credentials to register.** Please note that any issues regarding an individual WordPress installation on the Flywheel platform, outside of plugins owned by WP Engine/Flywheel, will be considered out of scope as we do not monitor or manage customer content. We are, however, very interested in issues that may compromise customer isolation on the platform or cause data to be leaked from either a host or an unrelated customer site.",
+          "endpoint": "app.getflywheel.com",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "app.getflywheel.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This site is the landing page for Flywheel-branded services. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality or https://getflywheel.com/schedule-a-demo/. No testing should be done against these targets or any 3rd party services. Please do not contact Live Chat agents.",
+        "raw": {
+          "description": "This site is the landing page for Flywheel-branded services. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality or https://getflywheel.com/schedule-a-demo/. No testing should be done against these targets or any 3rd party services. Please do not contact Live Chat agents.",
+          "endpoint": "getflywheel.com",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "getflywheel.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "With NitroPack, you get everything you need for a fast website, in one place. Features like caching, image optimization, and a CDN are ready to go out of the box.",
+        "raw": {
+          "description": "With NitroPack, you get everything you need for a fast website, in one place. Features like caching, image optimization, and a CDN are ready to go out of the box.",
+          "endpoint": "https://nitropack.io",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://nitropack.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The User Portal for WP Engine. Customers manage their WordPress sites, addons, and billing details through this portal. **No credentials will be provided**. Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application.",
+        "raw": {
+          "description": "The User Portal for WP Engine. Customers manage their WordPress sites, addons, and billing details through this portal. **No credentials will be provided**. Researchers are free to test functionally that requires authentication with their own accounts. Please note: no reimbursements will be made for money spent to access this part of the application.",
+          "endpoint": "my.wpengine.com",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "my.wpengine.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "We accept any reports of vulnerabilities in plugins developed by NitroPack, with the exception of any application-level vulnerabilities in the Out of Scope section below.",
+        "raw": {
+          "description": "We accept any reports of vulnerabilities in plugins developed by NitroPack, with the exception of any application-level vulnerabilities in the Out of Scope section below.",
+          "endpoint": "NitroPack Plugins",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "NitroPack Plugins"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The staging environment for the StudioPress community forum, built on WordPress. Researchers are welcome to register an account using their @intigriti.me email address, but should refrain from interacting with the community, making public posts, or performing automated testing which may cause disruption. Do not attempt to gain access to any user accounts not under your control.",
+        "raw": {
+          "description": "The staging environment for the StudioPress community forum, built on WordPress. Researchers are welcome to register an account using their @intigriti.me email address, but should refrain from interacting with the community, making public posts, or performing automated testing which may cause disruption. Do not attempt to gain access to any user accounts not under your control.",
+          "endpoint": "spressforumstg.wpengine.com",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "spressforumstg.wpengine.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is a public-facing marketing site built on WordPress. Most of the content on this site consists of static blog posts.",
+        "raw": {
+          "description": "This is a public-facing marketing site built on WordPress. Most of the content on this site consists of static blog posts.",
+          "endpoint": "studiopress.blog",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "studiopress.blog"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "We accept any reports of vulnerabilities in plugins or themes managed or developed by WP Engine, with the exception of any application-level vulnerabilities in the Out of Scope section below.  These free versions closely mirror their paid counterparts, so any vulnerabilities discovered should be applicable to both the paid or free plugins.\n\nWe also accept reports for the following Delicious Brains plugins:\nhttps://wordpress.org/plugins/advanced-custom-fields\n",
+        "raw": {
+          "description": "We accept any reports of vulnerabilities in plugins or themes managed or developed by WP Engine, with the exception of any application-level vulnerabilities in the Out of Scope section below.  These free versions closely mirror their paid counterparts, so any vulnerabilities discovered should be applicable to both the paid or free plugins.\n\nWe also accept reports for the following Delicious Brains plugins:\nhttps://wordpress.org/plugins/advanced-custom-fields\n",
+          "endpoint": "WP Engine-developed WordPress Plugins and Themes",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "WP Engine-developed WordPress Plugins and Themes"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality and wpengine.com/contact/. No testing should be done against these targets or any 3rd party services.",
+        "raw": {
+          "description": "This the landing page for the main WP Engine website. Most of this data is static, but there are a number of dynamic fields and functionalities that are available to be tested. Support, contact forms, and chat functionality are out-of-scope - specifically, the Sales Questions functionality and wpengine.com/contact/. No testing should be done against these targets or any 3rd party services.",
+          "endpoint": "wpengine.com",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "wpengine.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": " https://getflywheel.com/schedule-a-demo/",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": " https://getflywheel.com/schedule-a-demo/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://wpengine.com/contact/",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://wpengine.com/contact/"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/wpengine/wpengine/detail"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:tron_dao",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 2468.0,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 2378.0,
+    "handle": "tron_dao",
+    "id": 0,
+    "managed_program": false,
+    "name": "TRON DAO",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 76,
+    "submission_state": "open",
+    "url": "https://hackerone.com/tron_dao",
+    "website": "http://tron.network"
+  },
+  "name": "TRON DAO",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "239f4828408dfac62ea58f1f76976292280b5b408d74559a9f8f1a4ea345286a",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "tron_dao",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/tronprotocol/java-tron",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/tronprotocol/java-tron"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/tron_dao"
+}

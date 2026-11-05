@@ -1,0 +1,227 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/gearset-mbb",
+  "metadata": {
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "max_payout": 6000,
+    "name": "Gearset: Managed Bug Bounty",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/gearset-mbb"
+  },
+  "name": "Gearset: Managed Bug Bounty",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "bf73cd1c4e82570d748c605049571203910804cb09c5da725b18a9b8e32a084c",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/gearset-mbb",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.staging.gearset.com",
+          "target": "https://staging.gearset.com/",
+          "type": "website",
+          "uri": "https://staging.gearset.com/"
+        },
+        "type": "website",
+        "value": "https://staging.gearset.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "staging-api.gearset.com",
+          "target": "https://staging.gearset.com/",
+          "type": "api",
+          "uri": "https://staging.gearset.com/"
+        },
+        "type": "api",
+        "value": "https://staging.gearset.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "hipaa.staging.gearset.com",
+          "target": "https://hipaa.staging.gearset.com/",
+          "type": "website",
+          "uri": "https://hipaa.staging.gearset.com/"
+        },
+        "type": "website",
+        "value": "https://hipaa.staging.gearset.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "staging.claytonapp.com",
+          "target": "https://staging.claytonapp.com",
+          "type": "website",
+          "uri": "https://staging.claytonapp.com"
+        },
+        "type": "website",
+        "value": "https://staging.claytonapp.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "staging.claytonapp.com/api",
+          "target": "https://staging.claytonapp.com/api",
+          "type": "api",
+          "uri": "https://staging.claytonapp.com/api"
+        },
+        "type": "api",
+        "value": "https://staging.claytonapp.com/api"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "api.gearset.com",
+          "target": "api.gearset.com",
+          "type": "api",
+          "uri": ""
+        },
+        "type": "api",
+        "value": "api.gearset.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "app.gearset.com",
+          "target": "app.gearset.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "app.gearset.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "us.app.gearset.com",
+          "target": "us.app.gearset.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "us.app.gearset.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "eu.app.gearset.com",
+          "target": "eu.app.gearset.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "eu.app.gearset.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "ap.app.gearest.com",
+          "target": "ap.app.gearest.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "ap.app.gearest.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "gearset.com",
+          "target": "gearset.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "gearset.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "app.clayton.io",
+          "target": "app.clayton.io",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "app.clayton.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "getclayton.com",
+          "target": "getclayton.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "getclayton.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "api.clayton.io",
+          "target": "api.clayton.io",
+          "type": "api",
+          "uri": ""
+        },
+        "type": "api",
+        "value": "api.clayton.io"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/gearset-mbb"
+}

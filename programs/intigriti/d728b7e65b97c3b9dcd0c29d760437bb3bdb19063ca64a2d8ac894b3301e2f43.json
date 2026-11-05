@@ -1,0 +1,54 @@
+{
+  "id": "intigriti:bbc2d49d-6b11-40af-9746-aefa64756928",
+  "metadata": {
+    "company_handle": "randstad",
+    "confidentiality_level": "public",
+    "handle": "yacht",
+    "id": "bbc2d49d-6b11-40af-9746-aefa64756928",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Yacht",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/randstad/yacht/detail"
+  },
+  "name": "Yacht",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "bfdf5fcbefb1799da78fa1c32370ca8ffdfebea47015e7fd851472291bf6739e",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "bbc2d49d-6b11-40af-9746-aefa64756928",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.yacht.nl",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.yacht.nl"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/randstad/yacht/detail"
+}

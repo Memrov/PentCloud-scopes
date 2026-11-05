@@ -1,0 +1,131 @@
+{
+  "id": "yeswehack:bug-bounty-program-blablacar",
+  "metadata": {
+    "disabled": false,
+    "id": "bug-bounty-program-blablacar",
+    "managed": null,
+    "max_bounty": 3000,
+    "min_bounty": 50,
+    "name": "Bug Bounty Program - BlaBlaCar",
+    "public": true
+  },
+  "name": "Bug Bounty Program - BlaBlaCar",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "9f78b77634bebb79b365a48460df03ab8e09baa1f23df60522b6ad3195530ba3",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "bug-bounty-program-blablacar",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua))",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua))"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.comuto&hl=en"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Any website that is not listed explicitly in the scope.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Any website that is not listed explicitly in the scope."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "However, though listed in the out-of-scope list, if you really feel that a bug will leave an impact on our platform, please come up with a convincing and working POC. If that convinces us to change our code, we will reward you with a bounty.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "However, though listed in the out-of-scope list, if you really feel that a bug will leave an impact on our platform, please come up with a convincing and working POC. If that convinces us to change our code, we will reward you with a bounty."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Finally, fraud related reports are out-of-scope if they do not exploit a security vulnerability. Therefore, fraud activity enabled by bug or incomplete business rules enforcement are out-of-scope.  However, a fraud activity enabled by a CSRF exploit for example is valid.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Finally, fraud related reports are out-of-scope if they do not exploit a security vulnerability. Therefore, fraud activity enabled by bug or incomplete business rules enforcement are out-of-scope.  However, a fraud activity enabled by a CSRF exploit for example is valid."
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/bug-bounty-program-blablacar"
+}

@@ -1,0 +1,182 @@
+{
+  "id": "hackerone:syfe_bbp",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 17.0,
+    "average_time_to_report_resolved": 1181.0,
+    "handle": "syfe_bbp",
+    "id": 0,
+    "managed_program": true,
+    "name": "Syfe",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 80,
+    "submission_state": "open",
+    "url": "https://hackerone.com/syfe_bbp",
+    "website": "https://syfe.com"
+  },
+  "name": "Syfe",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "97bddff9c1e4aad1dd6e02b9e6d1833478a22daf7df2a0a5468ed094c8e581ad",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "syfe_bbp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Trading service APIs.",
+        "raw": {
+          "asset_identifier": "alfred.syfe.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Trading service APIs.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "alfred.syfe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "API domain for the test environment.",
+        "raw": {
+          "asset_identifier": "api-uat-bugbounty.nonprod.syfe.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "API domain for the test environment.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api-uat-bugbounty.nonprod.syfe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "API domain for the user services.",
+        "raw": {
+          "asset_identifier": "api.syfe.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "API domain for the user services.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.syfe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Syfe android application.",
+        "raw": {
+          "asset_identifier": "com.syfe",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Syfe android application.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.syfe"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Syfe IOS application.",
+        "raw": {
+          "asset_identifier": "https://apps.apple.com/sg/app/syfe-stay-invested/id1497156434",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Syfe IOS application.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "https://apps.apple.com/sg/app/syfe-stay-invested/id1497156434"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Market data API service.",
+        "raw": {
+          "asset_identifier": "mark8.syfe.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Market data API service.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mark8.syfe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The primary test environment for the research is provided. The credentials are only valid for this environment.\nNote: Findings on this environment should be applicable on production.",
+        "raw": {
+          "asset_identifier": "uat-bugbounty.nonprod.syfe.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The primary test environment for the research is provided. The credentials are only valid for this environment.\nNote: Findings on this environment should be applicable on production.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "uat-bugbounty.nonprod.syfe.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Main domain for Syfe. \nPlease self sign-up for the accounts only using your ==@wearehackerone.com== address at [https://www.syfe.com/create-account?utm_source=bug_bounty&medium=bug_bounty](https://www.syfe.com/create-account?utm_source=bug_bounty&medium=bug_bounty) to perform any testing on production. \nRefer to non-qualifying bugs and disqualifiers in program guidelines.",
+        "raw": {
+          "asset_identifier": "www.syfe.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Main domain for Syfe. \nPlease self sign-up for the accounts only using your ==@wearehackerone.com== address at [https://www.syfe.com/create-account?utm_source=bug_bounty&medium=bug_bounty](https://www.syfe.com/create-account?utm_source=bug_bounty&medium=bug_bounty) to perform any testing on production. \nRefer to non-qualifying bugs and disqualifiers in program guidelines.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.syfe.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/syfe_bbp"
+}

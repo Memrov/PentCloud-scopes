@@ -1,0 +1,80 @@
+{
+  "id": "intigriti:8a5bf4a3-3183-4e2a-aa5e-20f71efe7f4b",
+  "metadata": {
+    "company_handle": "waterlink",
+    "confidentiality_level": "public",
+    "handle": "water-linkvdp",
+    "id": "8a5bf4a3-3183-4e2a-aa5e-20f71efe7f4b",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Water-Link VDP",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/waterlink/water-linkvdp/detail"
+  },
+  "name": "Water-Link VDP",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "33e6e8b3d5f49592c7bd247f6439b683cf6efc69250546aada83ed590a01b7bb",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "8a5bf4a3-3183-4e2a-aa5e-20f71efe7f4b",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "our main domain and website",
+        "raw": {
+          "description": "our main domain and website",
+          "endpoint": "*.water-link.be",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.water-link.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "an older domain, with some accounts still linked to it",
+        "raw": {
+          "description": "an older domain, with some accounts still linked to it",
+          "endpoint": "*.aww.be",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.aww.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "water-link-jaarverslag.be",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "water-link-jaarverslag.be"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/waterlink/water-linkvdp/detail"
+}

@@ -1,0 +1,272 @@
+{
+  "id": "hackerone:phonepe_vdp",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 42.0,
+    "average_time_to_report_resolved": 2164.0,
+    "handle": "phonepe_vdp",
+    "id": 0,
+    "managed_program": false,
+    "name": "PhonePe",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 66,
+    "submission_state": "open",
+    "url": "https://hackerone.com/phonepe_vdp",
+    "website": "https://www.phonepe.com/"
+  },
+  "name": "PhonePe",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "959445fe02a48bbe59b59d8a83aa86ada969c22c2578a65a0c68155c270a7af7",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "phonepe_vdp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.phonepe.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.phonepe.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "PhonePe Publication - https://www.phonepe.com/press/phonepe-launches-upi-payments-for-indias-feature-phone-users\n\nNPCI Publication - https://www.npci.org.in/product/upi-123pay",
+        "raw": {
+          "asset_identifier": "UPI 123 Feature in \"Feature Phones\"",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "PhonePe Publication - https://www.phonepe.com/press/phonepe-launches-upi-payments-for-indias-feature-phone-users\n\nNPCI Publication - https://www.npci.org.in/product/upi-123pay",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "UPI 123 Feature in \"Feature Phones\""
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "PhonePe Business web application. You need an Indian mobile number to register as a merchant.\nThis is the web version of the the PhonePe for Business mobile app.",
+        "raw": {
+          "asset_identifier": "business.phonepe.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "PhonePe Business web application. You need an Indian mobile number to register as a merchant.\nThis is the web version of the the PhonePe for Business mobile app.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "business.phonepe.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Indus AppStore developer web app that allows developers to upload their apps for review and publication.\nCreate your developer account and get started.",
+        "raw": {
+          "asset_identifier": "developer.indusappstore.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Indus AppStore developer web app that allows developers to upload their apps for review and publication.\nCreate your developer account and get started.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "developer.indusappstore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This is PhonePe Business App For Merchants in iOS version.\nThe app needs a Indian mobile phone number and bank account to register. Video KYC process is followed for production apps to validate registered users.\n\nGeneral Description:\nThe PhonePe Business App is your gateway to a digital payments acceptance network spanning 3.8 Crore merchants! You can set up your business account & accept payments, track transactions, receive settlements, apply for a loan & much more.\n\nOnce your account is activated, you can instantly download the payment QR sticker & start accepting digital payments at your store. You can also order free QR stickers & have them delivered to your store, across India.\n\nKey Benefits of PhonePe Business App\n\nEasy payment acceptance:\nUse the PhonePe QR to accept payments from all BHIM UPI apps. The PhonePe QR also supports other payment modes like Credit & Debit Card & Wallets.\n\nGet instant help:\nResolve queries using our user-friendly Chat Bot in the Help section. You can also reach out to our helpdesk on the PhonePe Business app.\n\nDirect settlement into your bank account:\nMoney is transferred safely & directly into your bank account instantly or next morning. You can also use our ‘SettleNow’ feature to receive money in your bank account any time during the day.\n\nReal-time transactions & payments tracking:\nCheck your transactions & settlements easily in the History section on the PhonePe Business app.\n\nGet Instant Loan for Merchants:\nThe PhonePe Business app provides online loans to MSMEs. Get a loan on PhonePe & move a step closer to growing your business.",
+        "raw": {
+          "asset_identifier": "https://apps.apple.com/in/app/phonepe-business-merchant-app/id1463742453",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This is PhonePe Business App For Merchants in iOS version.\nThe app needs a Indian mobile phone number and bank account to register. Video KYC process is followed for production apps to validate registered users.\n\nGeneral Description:\nThe PhonePe Business App is your gateway to a digital payments acceptance network spanning 3.8 Crore merchants! You can set up your business account & accept payments, track transactions, receive settlements, apply for a loan & much more.\n\nOnce your account is activated, you can instantly download the payment QR sticker & start accepting digital payments at your store. You can also order free QR stickers & have them delivered to your store, across India.\n\nKey Benefits of PhonePe Business App\n\nEasy payment acceptance:\nUse the PhonePe QR to accept payments from all BHIM UPI apps. The PhonePe QR also supports other payment modes like Credit & Debit Card & Wallets.\n\nGet instant help:\nResolve queries using our user-friendly Chat Bot in the Help section. You can also reach out to our helpdesk on the PhonePe Business app.\n\nDirect settlement into your bank account:\nMoney is transferred safely & directly into your bank account instantly or next morning. You can also use our ‘SettleNow’ feature to receive money in your bank account any time during the day.\n\nReal-time transactions & payments tracking:\nCheck your transactions & settlements easily in the History section on the PhonePe Business app.\n\nGet Instant Loan for Merchants:\nThe PhonePe Business app provides online loans to MSMEs. Get a loan on PhonePe & move a step closer to growing your business.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "https://apps.apple.com/in/app/phonepe-business-merchant-app/id1463742453"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Security researcher need to have a Indian mobile number to register on the PhonePe mobile app. \nTo make payments, a valid Indian bank account number is needed to added to the user account.",
+        "raw": {
+          "asset_identifier": "https://apps.apple.com/in/app/phonepe-secure-payments-app/id1170055821",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Security researcher need to have a Indian mobile number to register on the PhonePe mobile app. \nTo make payments, a valid Indian bank account number is needed to added to the user account.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "https://apps.apple.com/in/app/phonepe-secure-payments-app/id1170055821"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "share.market app is a stockbroking app developed by PhonePe. \nYou need to register with an Indian phone number to start trading.\n\nGeneral Description:\n\n🚀 HOW TO START YOUR SHARE MARKET JOURNEY\n\n✓ Download this online trading app and sign up with your mobile number\n✓ Complete KYC online for demat and trading account activation\n✓ Add funds via UPI, net banking, or cards\n✓ Begin stock trading, mutual fund investing, or apply for IPO\n\nYour trusted online trading app for stock trading, mutual funds, IPO investment, F&O trading, and demat account opening. Start your investing journey with India's most secure SEBI-registered trading platform backed by PhonePe.\n\nOpen a free demat account online, trade stocks with real-time Sensex and Nifty 50 updates, invest in mutual funds SIP, apply for IPO, and build wealth with complete market intelligence.\n\n🚀Share.Market is your one app to invest & trade in:\n\nStock Market\nFutures and Options Trading (F&O)\nIPO\nETF\nMutual Fund\n\n📊 STOCK MARKET TRADING - Buy & Sell Shares\n\nYour complete stock invest platform for the share bazaar:\n✓ Stock Trading App: Trade stocks on NSE & BSE with live market data\n✓ Demat Account Opening: Open demat account online in minutes with instant KYC - completely free\n✓ Intraday Trading App: Execute intraday trading with advanced charts and indicators\n✓ Best Demat Account: Zero charges for your demat trading account\n✓ Track Sensex app data, Nifty 50 indices, and create custom watchlists\n✓ Portfolio tracking with detailed analytics\n\n💰 MUTUAL FUND INVESTMENT - Grow Your Wealth\n\nComplete mutual fund app for wealth building:\n✓ Mutual Funds SIP: Start SIP investments from just ₹100 and build long-term wealth\n✓ Investment App: Explore equity funds, debt funds, hybrid schemes based on your goals\n✓ Automated SIP: Set up monthly SIP investments for wealth accumulation\n✓ Fund Comparison: Compare mutual fund returns and performance\n✓ SIP Calculator: Plan your mutual funds sip journey with calculators\n\n⚡ F&O TRADING - Futures & Options\n\nAdvanced fno trading app for derivatives market:\n✓ Option Trading: Trade stock futures and options with option chain analysis\n✓ F&O Tools: Real-time option chain data, Greeks, and volatility indicators\n✓ Hedging Strategies: Protect your stock market portfolio\n✓ Technical Analysis: Advanced charting tools for trading strategies\n\n🎯 IPO INVESTMENT - New Opportunities\n\nComplete ipo app for mainboard and SME offerings:\n✓ IPO Application: Apply for ipo directly with UPI facility\n✓ IPO Allotment Status: Check your ipo allotment status instantly\n✓ IPO Premium: Track grey market premium for upcoming IPOs\n✓ IPO Calendar: Stay updated on IPO investment opportunities\n\n📈 ETF & WEALTHBASKETS - Diversified Investing\n\nSmart investment solutions for diversification:\n✓ ETF Trading: Invest in exchange-traded funds tracking indices and sectors\n✓ WealthBaskets: Curated portfolios starting ₹1,000 with stocks and ETFs\n✓ Theme-Based: Technology, pharma, banking, and emerging sectors",
+        "raw": {
+          "asset_identifier": "https://apps.apple.com/in/app/share-market-stock-trading-app/id6444640366",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "share.market app is a stockbroking app developed by PhonePe. \nYou need to register with an Indian phone number to start trading.\n\nGeneral Description:\n\n🚀 HOW TO START YOUR SHARE MARKET JOURNEY\n\n✓ Download this online trading app and sign up with your mobile number\n✓ Complete KYC online for demat and trading account activation\n✓ Add funds via UPI, net banking, or cards\n✓ Begin stock trading, mutual fund investing, or apply for IPO\n\nYour trusted online trading app for stock trading, mutual funds, IPO investment, F&O trading, and demat account opening. Start your investing journey with India's most secure SEBI-registered trading platform backed by PhonePe.\n\nOpen a free demat account online, trade stocks with real-time Sensex and Nifty 50 updates, invest in mutual funds SIP, apply for IPO, and build wealth with complete market intelligence.\n\n🚀Share.Market is your one app to invest & trade in:\n\nStock Market\nFutures and Options Trading (F&O)\nIPO\nETF\nMutual Fund\n\n📊 STOCK MARKET TRADING - Buy & Sell Shares\n\nYour complete stock invest platform for the share bazaar:\n✓ Stock Trading App: Trade stocks on NSE & BSE with live market data\n✓ Demat Account Opening: Open demat account online in minutes with instant KYC - completely free\n✓ Intraday Trading App: Execute intraday trading with advanced charts and indicators\n✓ Best Demat Account: Zero charges for your demat trading account\n✓ Track Sensex app data, Nifty 50 indices, and create custom watchlists\n✓ Portfolio tracking with detailed analytics\n\n💰 MUTUAL FUND INVESTMENT - Grow Your Wealth\n\nComplete mutual fund app for wealth building:\n✓ Mutual Funds SIP: Start SIP investments from just ₹100 and build long-term wealth\n✓ Investment App: Explore equity funds, debt funds, hybrid schemes based on your goals\n✓ Automated SIP: Set up monthly SIP investments for wealth accumulation\n✓ Fund Comparison: Compare mutual fund returns and performance\n✓ SIP Calculator: Plan your mutual funds sip journey with calculators\n\n⚡ F&O TRADING - Futures & Options\n\nAdvanced fno trading app for derivatives market:\n✓ Option Trading: Trade stock futures and options with option chain analysis\n✓ F&O Tools: Real-time option chain data, Greeks, and volatility indicators\n✓ Hedging Strategies: Protect your stock market portfolio\n✓ Technical Analysis: Advanced charting tools for trading strategies\n\n🎯 IPO INVESTMENT - New Opportunities\n\nComplete ipo app for mainboard and SME offerings:\n✓ IPO Application: Apply for ipo directly with UPI facility\n✓ IPO Allotment Status: Check your ipo allotment status instantly\n✓ IPO Premium: Track grey market premium for upcoming IPOs\n✓ IPO Calendar: Stay updated on IPO investment opportunities\n\n📈 ETF & WEALTHBASKETS - Diversified Investing\n\nSmart investment solutions for diversification:\n✓ ETF Trading: Invest in exchange-traded funds tracking indices and sectors\n✓ WealthBaskets: Curated portfolios starting ₹1,000 with stocks and ETFs\n✓ Theme-Based: Technology, pharma, banking, and emerging sectors",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "https://apps.apple.com/in/app/share-market-stock-trading-app/id6444640366"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://play.google.com/store/apps/details?id=com.phonepe.app&pcampaignid=web_share",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "https://play.google.com/store/apps/details?id=com.phonepe.app&pcampaignid=web_share"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This is PhonePe Business App For Merchants in Android version.\nThe app needs a Indian mobile phone number and bank account to register. Video KYC process is followed for production apps to validate registered users.\n\nGeneral Description:\nThe PhonePe Business App is your gateway to a digital payments acceptance network spanning 3.8 Crore merchants! You can set up your business account & accept payments, track transactions, receive settlements, apply for a loan & much more.\n\nOnce your account is activated, you can instantly download the payment QR sticker & start accepting digital payments at your store. You can also order free QR stickers & have them delivered to your store, across India.\n\nKey Benefits of PhonePe Business App\n\nEasy payment acceptance:\nUse the PhonePe QR to accept payments from all BHIM UPI apps. The PhonePe QR also supports other payment modes like Credit & Debit Card & Wallets.\n\nGet instant help:\nResolve queries using our user-friendly Chat Bot in the Help section. You can also reach out to our helpdesk on the PhonePe Business app.\n\nDirect settlement into your bank account:\nMoney is transferred safely & directly into your bank account instantly or next morning. You can also use our ‘SettleNow’ feature to receive money in your bank account any time during the day.\n\nReal-time transactions & payments tracking:\nCheck your transactions & settlements easily in the History section on the PhonePe Business app.\n\nGet Instant Loan for Merchants:\nThe PhonePe Business app provides online loans to MSMEs. Get a loan on PhonePe & move a step closer to growing your business.",
+        "raw": {
+          "asset_identifier": "https://play.google.com/store/apps/details?id=com.phonepe.app.business&pcampaignid=web_share",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This is PhonePe Business App For Merchants in Android version.\nThe app needs a Indian mobile phone number and bank account to register. Video KYC process is followed for production apps to validate registered users.\n\nGeneral Description:\nThe PhonePe Business App is your gateway to a digital payments acceptance network spanning 3.8 Crore merchants! You can set up your business account & accept payments, track transactions, receive settlements, apply for a loan & much more.\n\nOnce your account is activated, you can instantly download the payment QR sticker & start accepting digital payments at your store. You can also order free QR stickers & have them delivered to your store, across India.\n\nKey Benefits of PhonePe Business App\n\nEasy payment acceptance:\nUse the PhonePe QR to accept payments from all BHIM UPI apps. The PhonePe QR also supports other payment modes like Credit & Debit Card & Wallets.\n\nGet instant help:\nResolve queries using our user-friendly Chat Bot in the Help section. You can also reach out to our helpdesk on the PhonePe Business app.\n\nDirect settlement into your bank account:\nMoney is transferred safely & directly into your bank account instantly or next morning. You can also use our ‘SettleNow’ feature to receive money in your bank account any time during the day.\n\nReal-time transactions & payments tracking:\nCheck your transactions & settlements easily in the History section on the PhonePe Business app.\n\nGet Instant Loan for Merchants:\nThe PhonePe Business app provides online loans to MSMEs. Get a loan on PhonePe & move a step closer to growing your business.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "https://play.google.com/store/apps/details?id=com.phonepe.app.business&pcampaignid=web_share"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "share.market app is a stockbroking app developed by PhonePe. \nYou need to register with an Indian phone number to start trading.\n\nGeneral Description:\n\n🚀 HOW TO START YOUR SHARE MARKET JOURNEY\n\n✓ Download this online trading app and sign up with your mobile number\n✓ Complete KYC online for demat and trading account activation\n✓ Add funds via UPI, net banking, or cards\n✓ Begin stock trading, mutual fund investing, or apply for IPO\n\nYour trusted online trading app for stock trading, mutual funds, IPO investment, F&O trading, and demat account opening. Start your investing journey with India's most secure SEBI-registered trading platform backed by PhonePe.\n\nOpen a free demat account online, trade stocks with real-time Sensex and Nifty 50 updates, invest in mutual funds SIP, apply for IPO, and build wealth with complete market intelligence.\n\n🚀Share.Market is your one app to invest & trade in:\n\nStock Market\nFutures and Options Trading (F&O)\nIPO\nETF\nMutual Fund\n\n📊 STOCK MARKET TRADING - Buy & Sell Shares\n\nYour complete stock invest platform for the share bazaar:\n✓ Stock Trading App: Trade stocks on NSE & BSE with live market data\n✓ Demat Account Opening: Open demat account online in minutes with instant KYC - completely free\n✓ Intraday Trading App: Execute intraday trading with advanced charts and indicators\n✓ Best Demat Account: Zero charges for your demat trading account\n✓ Track Sensex app data, Nifty 50 indices, and create custom watchlists\n✓ Portfolio tracking with detailed analytics\n\n💰 MUTUAL FUND INVESTMENT - Grow Your Wealth\n\nComplete mutual fund app for wealth building:\n✓ Mutual Funds SIP: Start SIP investments from just ₹100 and build long-term wealth\n✓ Investment App: Explore equity funds, debt funds, hybrid schemes based on your goals\n✓ Automated SIP: Set up monthly SIP investments for wealth accumulation\n✓ Fund Comparison: Compare mutual fund returns and performance\n✓ SIP Calculator: Plan your mutual funds sip journey with calculators\n\n⚡ F&O TRADING - Futures & Options\n\nAdvanced fno trading app for derivatives market:\n✓ Option Trading: Trade stock futures and options with option chain analysis\n✓ F&O Tools: Real-time option chain data, Greeks, and volatility indicators\n✓ Hedging Strategies: Protect your stock market portfolio\n✓ Technical Analysis: Advanced charting tools for trading strategies\n\n🎯 IPO INVESTMENT - New Opportunities\n\nComplete ipo app for mainboard and SME offerings:\n✓ IPO Application: Apply for ipo directly with UPI facility\n✓ IPO Allotment Status: Check your ipo allotment status instantly\n✓ IPO Premium: Track grey market premium for upcoming IPOs\n✓ IPO Calendar: Stay updated on IPO investment opportunities\n\n📈 ETF & WEALTHBASKETS - Diversified Investing\n\nSmart investment solutions for diversification:\n✓ ETF Trading: Invest in exchange-traded funds tracking indices and sectors\n✓ WealthBaskets: Curated portfolios starting ₹1,000 with stocks and ETFs\n✓ Theme-Based: Technology, pharma, banking, and emerging sectors",
+        "raw": {
+          "asset_identifier": "https://play.google.com/store/apps/details?id=com.phonepe.stockbroking&pcampaignid=web_share",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "share.market app is a stockbroking app developed by PhonePe. \nYou need to register with an Indian phone number to start trading.\n\nGeneral Description:\n\n🚀 HOW TO START YOUR SHARE MARKET JOURNEY\n\n✓ Download this online trading app and sign up with your mobile number\n✓ Complete KYC online for demat and trading account activation\n✓ Add funds via UPI, net banking, or cards\n✓ Begin stock trading, mutual fund investing, or apply for IPO\n\nYour trusted online trading app for stock trading, mutual funds, IPO investment, F&O trading, and demat account opening. Start your investing journey with India's most secure SEBI-registered trading platform backed by PhonePe.\n\nOpen a free demat account online, trade stocks with real-time Sensex and Nifty 50 updates, invest in mutual funds SIP, apply for IPO, and build wealth with complete market intelligence.\n\n🚀Share.Market is your one app to invest & trade in:\n\nStock Market\nFutures and Options Trading (F&O)\nIPO\nETF\nMutual Fund\n\n📊 STOCK MARKET TRADING - Buy & Sell Shares\n\nYour complete stock invest platform for the share bazaar:\n✓ Stock Trading App: Trade stocks on NSE & BSE with live market data\n✓ Demat Account Opening: Open demat account online in minutes with instant KYC - completely free\n✓ Intraday Trading App: Execute intraday trading with advanced charts and indicators\n✓ Best Demat Account: Zero charges for your demat trading account\n✓ Track Sensex app data, Nifty 50 indices, and create custom watchlists\n✓ Portfolio tracking with detailed analytics\n\n💰 MUTUAL FUND INVESTMENT - Grow Your Wealth\n\nComplete mutual fund app for wealth building:\n✓ Mutual Funds SIP: Start SIP investments from just ₹100 and build long-term wealth\n✓ Investment App: Explore equity funds, debt funds, hybrid schemes based on your goals\n✓ Automated SIP: Set up monthly SIP investments for wealth accumulation\n✓ Fund Comparison: Compare mutual fund returns and performance\n✓ SIP Calculator: Plan your mutual funds sip journey with calculators\n\n⚡ F&O TRADING - Futures & Options\n\nAdvanced fno trading app for derivatives market:\n✓ Option Trading: Trade stock futures and options with option chain analysis\n✓ F&O Tools: Real-time option chain data, Greeks, and volatility indicators\n✓ Hedging Strategies: Protect your stock market portfolio\n✓ Technical Analysis: Advanced charting tools for trading strategies\n\n🎯 IPO INVESTMENT - New Opportunities\n\nComplete ipo app for mainboard and SME offerings:\n✓ IPO Application: Apply for ipo directly with UPI facility\n✓ IPO Allotment Status: Check your ipo allotment status instantly\n✓ IPO Premium: Track grey market premium for upcoming IPOs\n✓ IPO Calendar: Stay updated on IPO investment opportunities\n\n📈 ETF & WEALTHBASKETS - Diversified Investing\n\nSmart investment solutions for diversification:\n✓ ETF Trading: Invest in exchange-traded funds tracking indices and sectors\n✓ WealthBaskets: Curated portfolios starting ₹1,000 with stocks and ETFs\n✓ Theme-Based: Technology, pharma, banking, and emerging sectors",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "https://play.google.com/store/apps/details?id=com.phonepe.stockbroking&pcampaignid=web_share"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The support website for PhonePe customers.",
+        "raw": {
+          "asset_identifier": "support.phonepe.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The support website for PhonePe customers.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "support.phonepe.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Indus OS AppStore webpage.\nYou can download the beta IndusOS AppStore from this website.",
+        "raw": {
+          "asset_identifier": "www.indusappstore.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Indus OS AppStore webpage.\nYou can download the beta IndusOS AppStore from this website.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.indusappstore.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "www.share.market",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.share.market"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/phonepe_vdp"
+}

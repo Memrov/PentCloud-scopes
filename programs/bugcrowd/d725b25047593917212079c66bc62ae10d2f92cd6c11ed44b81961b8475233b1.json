@@ -1,0 +1,129 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/opsgenie",
+  "metadata": {
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "max_payout": 4000,
+    "name": "Opsgenie",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/opsgenie"
+  },
+  "name": "Opsgenie",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "6583cd9d48e10a935252f890a7323fc89590fbbeb6aec0defbd3f00296ee5f45",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/opsgenie",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "app.opsgenie.com",
+          "target": "https://app.opsgenie.com",
+          "type": "website",
+          "uri": "https://app.opsgenie.com"
+        },
+        "type": "website",
+        "value": "https://app.opsgenie.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "mobileapp.opsgenie.com",
+          "target": "https://mobileapp.opsgenie.com",
+          "type": "website",
+          "uri": "https://mobileapp.opsgenie.com"
+        },
+        "type": "website",
+        "value": "https://mobileapp.opsgenie.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.opsgenie.com",
+          "target": "*.opsgenie.com",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "*.opsgenie.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Opsgenie (IoS)",
+          "target": "Opsgenie (IoS)",
+          "type": "ios",
+          "uri": null
+        },
+        "type": "ios",
+        "value": "Opsgenie (IoS)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Opsgenie (Android)",
+          "target": "Opsgenie (Android)",
+          "type": "android",
+          "uri": null
+        },
+        "type": "android",
+        "value": "Opsgenie (Android)"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Opsgenie Production (billing systems, third parties)",
+          "target": "Opsgenie Production (billing systems, third parties)",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "Opsgenie Production (billing systems, third parties)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Any internal or development services.",
+          "target": "Any internal or development services.",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "Any internal or development services."
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/opsgenie"
+}

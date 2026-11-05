@@ -1,0 +1,363 @@
+{
+  "id": "hackerone:airtable",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 365.0,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "airtable",
+    "id": 0,
+    "managed_program": true,
+    "name": "Airtable",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 77,
+    "submission_state": "open",
+    "url": "https://hackerone.com/airtable",
+    "website": "https://staging.airtable.com/"
+  },
+  "name": "Airtable",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "88386a5fbd66a6c676371f3874257b6f6490c907f74cb219ebb1e6adbfcf0705",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "airtable",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "IMPORTANT: this domain is NOT eligible for stored XSS via building custom apps/blocks functionality.",
+        "raw": {
+          "asset_identifier": "*.staging-airtableblocks.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "IMPORTANT: this domain is NOT eligible for stored XSS via building custom apps/blocks functionality.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.staging-airtableblocks.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.staging.airtable.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.staging.airtable.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "- Install `airtable.js` via `npm install airtable`\n- Visit https://staging.airtable.com/account and generate an API key\n- Create a new Javascript file and add the following lines:\n\n```javascript\nconst Airtable = require('airtable');\nconst airtable = new Airtable({\n    apiKey: 'PUT YOUR API KEY HERE',\n    endpointUrl: 'https://api-staging.airtable.com', // IMPORTANT: you MUST set the endpointUrl attribute to this URL, or else you will be testing on airtable.com, which is out of scope\n});\n```\n\nSee https://staging.airtable.com/api for instructions on how to use the API, as well as [the source code on Github](https://github.com/airtable/airtable.js)\n\nPlease note that reports about outdated/vulnerable dependencies flagged by `npm audit` or `yarn audit` are **out of scope**. Vulnerabilities discovered via manual code audits are acceptable.",
+        "raw": {
+          "asset_identifier": "airtable.js SDK (https://www.npmjs.com/package/airtable)",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "- Install `airtable.js` via `npm install airtable`\n- Visit https://staging.airtable.com/account and generate an API key\n- Create a new Javascript file and add the following lines:\n\n```javascript\nconst Airtable = require('airtable');\nconst airtable = new Airtable({\n    apiKey: 'PUT YOUR API KEY HERE',\n    endpointUrl: 'https://api-staging.airtable.com', // IMPORTANT: you MUST set the endpointUrl attribute to this URL, or else you will be testing on airtable.com, which is out of scope\n});\n```\n\nSee https://staging.airtable.com/api for instructions on how to use the API, as well as [the source code on Github](https://github.com/airtable/airtable.js)\n\nPlease note that reports about outdated/vulnerable dependencies flagged by `npm audit` or `yarn audit` are **out of scope**. Vulnerabilities discovered via manual code audits are acceptable.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "airtable.js SDK (https://www.npmjs.com/package/airtable)"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Go to https://staging.airtable.com/account to generate an API key. See https://staging.airtable.com/api for API documentation per base.",
+        "raw": {
+          "asset_identifier": "api-staging.airtable.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Go to https://staging.airtable.com/account to generate an API key. See https://staging.airtable.com/api for API documentation per base.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api-staging.airtable.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Source code for our MCP CLI.\n\nVulnerabilities assuming a malicious MCP server must be paired with a demonstrated MCP exploit that provides a full exploit chain in order to be considered.",
+        "raw": {
+          "asset_identifier": "https://www.npmjs.com/package/@airtable/mcp-cli",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Source code for our MCP CLI.\n\nVulnerabilities assuming a malicious MCP server must be paired with a demonstrated MCP exploit that provides a full exploit chain in order to be considered.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://www.npmjs.com/package/@airtable/mcp-cli"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Use the official Airtable MCP CLI (https://www.npmjs.com/package/@airtable/mcp-cli) to interact with the MCP server. \n\nMCP CLI code is also in scope, but vulnerabilities assuming a malicious MCP server must be paired with a demonstrated MCP exploit that provides a full exploit chain.",
+        "raw": {
+          "asset_identifier": "mcp.staging.airtable.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Use the official Airtable MCP CLI (https://www.npmjs.com/package/@airtable/mcp-cli) to interact with the MCP server. \n\nMCP CLI code is also in scope, but vulnerabilities assuming a malicious MCP server must be paired with a demonstrated MCP exploit that provides a full exploit chain.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mcp.staging.airtable.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "staging.airtable.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "staging.airtable.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The Airtable Windows app is available for download at: https://staging.airtable.com/downloads",
+        "raw": {
+          "asset_identifier": "Airtable Windows app",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The Airtable Windows app is available for download at: https://staging.airtable.com/downloads",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Airtable Windows app"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The Airtable macOS app is available for download at: https://staging.airtable.com/downloads",
+        "raw": {
+          "asset_identifier": "Airtable macOS app",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The Airtable macOS app is available for download at: https://staging.airtable.com/downloads",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Airtable macOS app"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is production environment. All testing should be performed against staging.airtable.com.",
+        "raw": {
+          "asset_identifier": "airtable.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is production environment. All testing should be performed against staging.airtable.com.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "airtable.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "blog.airtable.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "blog.airtable.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Airtable's iOS is not in-scope for bounties.",
+        "raw": {
+          "asset_identifier": "com.FormaGrid.Hyperbase",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Airtable's iOS is not in-scope for bounties.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.FormaGrid.Hyperbase"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.formagrid.airtable",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.formagrid.airtable"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "community.airtable.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "community.airtable.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "dl.airtable.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "dl.airtable.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "dl.getforma.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "dl.getforma.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "guide.airtable.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "guide.airtable.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "support.airtable.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support.airtable.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/airtable"
+}

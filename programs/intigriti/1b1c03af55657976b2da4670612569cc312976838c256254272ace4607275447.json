@@ -1,0 +1,68 @@
+{
+  "id": "intigriti:784ffbc6-daaa-4e7e-8eba-c38a101d7b12",
+  "metadata": {
+    "company_handle": "voi",
+    "confidentiality_level": "public",
+    "handle": "voivulnerabilitydisclosureprogram",
+    "id": "784ffbc6-daaa-4e7e-8eba-c38a101d7b12",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Voi Vulnerability Disclosure Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/voi/voivulnerabilitydisclosureprogram/detail"
+  },
+  "name": "Voi Vulnerability Disclosure Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "c172ce7004bcab5b4e173ee3146d8d991e5a88f90c0d6d68b83b92e719a08c77",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "784ffbc6-daaa-4e7e-8eba-c38a101d7b12",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "All Voi assets",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All Voi assets"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Before testing or reporting a vulnerability, confirm that the target asset is owned or managed by Voi. When in doubt, we strongly encourage you to verify the asset's ownership through the program team to avoid unintentional testing of third-party systems.",
+        "raw": {
+          "description": "Before testing or reporting a vulnerability, confirm that the target asset is owned or managed by Voi. When in doubt, we strongly encourage you to verify the asset's ownership through the program team to avoid unintentional testing of third-party systems.",
+          "endpoint": "Third-party systems or domains referencing Voi",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Third-party systems or domains referencing Voi"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/voi/voivulnerabilitydisclosureprogram/detail"
+}

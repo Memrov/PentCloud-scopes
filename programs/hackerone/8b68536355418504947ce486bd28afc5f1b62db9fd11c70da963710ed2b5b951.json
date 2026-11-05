@@ -1,0 +1,470 @@
+{
+  "id": "hackerone:ripio",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 13.0,
+    "average_time_to_first_program_response": 36.0,
+    "average_time_to_report_resolved": 103.0,
+    "handle": "ripio",
+    "id": 0,
+    "managed_program": false,
+    "name": "Ripio",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 91,
+    "submission_state": "open",
+    "url": "https://hackerone.com/ripio",
+    "website": "http://ripio.com"
+  },
+  "name": "Ripio",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "da6671adf07dd277c8076b20515544897e33f745f93772f476f428405161f222",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "ripio",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Vulnerabilities reported in wildcard will be valid for reputation only.",
+        "raw": {
+          "asset_identifier": "*ripio.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Vulnerabilities reported in wildcard will be valid for reputation only.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*ripio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*ripiotrade.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*ripiotrade.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Please read the Ripio HackerOne Program - Scope & Exclusions Policy (Logic-Based)",
+        "raw": {
+          "asset_identifier": "Web3 - Smart Contracts Scope",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Please read the Ripio HackerOne Program - Scope & Exclusions Policy (Logic-Based)",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Web3 - Smart Contracts Scope"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Play store download: https://play.google.com/store/apps/details?id=com.ripio.android",
+        "raw": {
+          "asset_identifier": "com.ripio.android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Play store download: https://play.google.com/store/apps/details?id=com.ripio.android",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.ripio.android"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Apple Store iOS download: https://itunes.apple.com/us/app/ripio/id1221006761",
+        "raw": {
+          "asset_identifier": "com.ripio.ios",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Apple Store iOS download: https://itunes.apple.com/us/app/ripio/id1221006761",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.ripio.ios"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "defi.ripio.com is an API for investing cryptocurrencies in DeFi protocols, offering deposit and withdrawal features.",
+        "raw": {
+          "asset_identifier": "defi.ripio.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "defi.ripio.com is an API for investing cryptocurrencies in DeFi protocols, offering deposit and withdrawal features.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "defi.ripio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "http://auth.ripio.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "http://auth.ripio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://app.ripio.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://app.ripio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://basescan.org/address/0xf469eC9dEBf7F0adEBA4d1Db2FF5c70707bEeB30",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://basescan.org/address/0xf469eC9dEBf7F0adEBA4d1Db2FF5c70707bEeB30"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://bridge.ripio.com/",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://bridge.ripio.com/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/address/0x0DC4F92879B7670e5f4e4e6e3c801D229129D90D",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/address/0x0DC4F92879B7670e5f4e4e6e3c801D229129D90D"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/address/0x337E7456B420bD3481e7FA61fA9850343d610d34",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/address/0x337E7456B420bD3481e7FA61fA9850343d610d34"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/address/0x46167cB034feC6ceC46CaeD4f61281f5Aa0Eb0e6",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/address/0x46167cB034feC6ceC46CaeD4f61281f5Aa0Eb0e6"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/address/0x465e642387d3d73a57CDc1368fFA53A800bA5D47",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/address/0x465e642387d3d73a57CDc1368fFA53A800bA5D47"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/address/0x4F34c8b3b5FB6D98Da888F0feA543d4d9C9F2eBE",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/address/0x4F34c8b3b5FB6D98Da888F0feA543d4d9C9F2eBE"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/address/0x61D450a098b6a7f69fC4b98CE68198fe59768651",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/address/0x61D450a098b6a7f69fC4b98CE68198fe59768651"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/address/0x8a1D45e102e886510e891d2Ec656a708991e2D76",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/address/0x8a1D45e102e886510e891d2Ec656a708991e2D76"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/address/0xD168CFbBE260D48cd119497a9a2eE8482080C5E7",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/address/0xD168CFbBE260D48cd119497a9a2eE8482080C5E7"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/address/0xD76f5Faf6888e24D9F04Bf92a0c8B921FE4390e0",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/address/0xD76f5Faf6888e24D9F04Bf92a0c8B921FE4390e0"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://etherscan.io/address/0xdcC340132740AD57E9Fc90C9BD08B00dBbc87986",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://etherscan.io/address/0xdcC340132740AD57E9Fc90C9BD08B00dBbc87986"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This asset corresponds to the company's identity verification system (KYC), used for the authentication and validation of users across the various platforms and services we have at Ripio. The main purpose of this system is to ensure that users meet identification requirements, helping to mitigate fraud risks, comply with regulations, and enhance platform security.",
+        "raw": {
+          "asset_identifier": "https://kyc.ripio.com/",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This asset corresponds to the company's identity verification system (KYC), used for the authentication and validation of users across the various platforms and services we have at Ripio. The main purpose of this system is to ensure that users meet identification requirements, helping to mitigate fraud risks, comply with regulations, and enhance platform security.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://kyc.ripio.com/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://worldscan.org/address/0xDe7Ec97CFDeE9F20f9d256F4a0A0d694479fa2E0",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://worldscan.org/address/0xDe7Ec97CFDeE9F20f9d256F4a0A0d694479fa2E0"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "B2B API allows a third party to access different use cases and services inside of Ripio ecosystem.",
+        "raw": {
+          "asset_identifier": "sandbox-b2b.ripio.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "B2B API allows a third party to access different use cases and services inside of Ripio ecosystem.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "sandbox-b2b.ripio.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "trade.ripio.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "trade.ripio.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/ripio"
+}

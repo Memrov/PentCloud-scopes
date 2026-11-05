@@ -1,0 +1,507 @@
+{
+  "id": "hackerone:pingidentity",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 84.0,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": null,
+    "handle": "pingidentity",
+    "id": 0,
+    "managed_program": true,
+    "name": "Ping Identity",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 68,
+    "submission_state": "open",
+    "url": "https://hackerone.com/pingidentity",
+    "website": "https://www.pingidentity.com/"
+  },
+  "name": "Ping Identity",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "0f4ed08b50e1f80e5e66fa066293a9229e97e3ab95d3754f6f0e49061e8d8941",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "pingidentity",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "api.ort-one-pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.ort-one-pingone.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "apps.ort-one-pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "apps.ort-one-pingone.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "auth.ort-one-pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "auth.ort-one-pingone.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "console.ort-one-pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "console.ort-one-pingone.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "You will need to reset the one-time-use password upon your first login, and possibly to register your HackerOne email address as a MFA method.",
+        "raw": {
+          "asset_identifier": "https://console.ort-one-pingone.com/?env=361b34ef-2725-4fd9-af1b-a2b189df3d05",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "You will need to reset the one-time-use password upon your first login, and possibly to register your HackerOne email address as a MFA method.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://console.ort-one-pingone.com/?env=361b34ef-2725-4fd9-af1b-a2b189df3d05"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "You will need to reset the one-time-use password upon your first login, and possibly to register your HackerOne email address as a MFA method.",
+        "raw": {
+          "asset_identifier": "https://console.ort-one-pingone.com/?env=7f327541-54e0-4ba4-8335-65eac2a25b5e",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "You will need to reset the one-time-use password upon your first login, and possibly to register your HackerOne email address as a MFA method.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://console.ort-one-pingone.com/?env=7f327541-54e0-4ba4-8335-65eac2a25b5e"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "* **What it is:**\n   * Administrative console for the single-tenant SAAS PingOne Advaced Identity Cloud platform which manages IAM functionality for Enterprise customers.\n   * Staging environment - Used for testing development changes, including stress tests and scalability tests with realistic deployment settings.\n* **What it does:**\n   * Allows administrators to configure authentication workflows and assign different authentication policies (SAML, OAuth2, and OpenID Connect are supported) to each of your applications.\n   * Supports Single-Sign-On (SSO) and Multi-Factor Authentication (MFA) across all connected applications.\n   * Offers robust user-management capabilities.\n* **Documentation:**\n  * https://backstage.forgerock.com/docs/idcloud/latest/overview.html  ",
+        "raw": {
+          "asset_identifier": "https://openam-bug-bounty-stag.forgeblocks.com/*",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "* **What it is:**\n   * Administrative console for the single-tenant SAAS PingOne Advaced Identity Cloud platform which manages IAM functionality for Enterprise customers.\n   * Staging environment - Used for testing development changes, including stress tests and scalability tests with realistic deployment settings.\n* **What it does:**\n   * Allows administrators to configure authentication workflows and assign different authentication policies (SAML, OAuth2, and OpenID Connect are supported) to each of your applications.\n   * Supports Single-Sign-On (SSO) and Multi-Factor Authentication (MFA) across all connected applications.\n   * Offers robust user-management capabilities.\n* **Documentation:**\n  * https://backstage.forgerock.com/docs/idcloud/latest/overview.html  ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "https://openam-bug-bounty-stag.forgeblocks.com/*"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "\n* **What it is:**\n   * Administrative web portal for PingOne For Enterprise (P14E)\n* **What it does:**\n   * Allows P14E administrators to manage all aspects of their enterprise user accounts\n",
+        "raw": {
+          "asset_identifier": "https://ort-admin.pingone.com/*",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "\n* **What it is:**\n   * Administrative web portal for PingOne For Enterprise (P14E)\n* **What it does:**\n   * Allows P14E administrators to manage all aspects of their enterprise user accounts\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "https://ort-admin.pingone.com/*"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "\n* **What it is:**\n   * Multi-factor Authentication (MFA) authenticator service\n   * MFA is configured via the PingOne Desktop > Devices > My Device > Add.\n   * Ping Authenticator used for Multi-Factor Authentication (MFA)\n   * The authenticator is a service which provides multi-factor via PingID mobile applications available in the iTunes and Android app stores, Yubikey Series 4, PingID Desktop apps for OS X and Windows, or email.\n   * The authenticator service is a back-end hosted service.\n   * The client MFA applications are not in scope but the protocol data and authenticator service are, this includes requests and responses.\n\n* **What it does:**\n   * Employs MFA (typically [PingID](https://www.pingidentity.com/en/cloud/pingid.html)) to authenticate users and then pass control back to PingOne for Enterprise\n",
+        "raw": {
+          "asset_identifier": "https://ort-authenticator.pingone.com/*",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "\n* **What it is:**\n   * Multi-factor Authentication (MFA) authenticator service\n   * MFA is configured via the PingOne Desktop > Devices > My Device > Add.\n   * Ping Authenticator used for Multi-Factor Authentication (MFA)\n   * The authenticator is a service which provides multi-factor via PingID mobile applications available in the iTunes and Android app stores, Yubikey Series 4, PingID Desktop apps for OS X and Windows, or email.\n   * The authenticator service is a back-end hosted service.\n   * The client MFA applications are not in scope but the protocol data and authenticator service are, this includes requests and responses.\n\n* **What it does:**\n   * Employs MFA (typically [PingID](https://www.pingidentity.com/en/cloud/pingid.html)) to authenticate users and then pass control back to PingOne for Enterprise\n",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "https://ort-authenticator.pingone.com/*"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "\n* **What it is:** \n   * Central hub of Ping One For Enterprise, a cloud-based dock that provides users with secure SSO access to an expansive library of applications\n* **What it does:** \n   * Provides many pre-existing integrations with popular SaaS applications\n   * Leverages SAML, OIDC and other secure identity standards to integrate with any other cloud-based applications\nProvides the option of storing user identity data in PingOne’s cloud directory\n",
+        "raw": {
+          "asset_identifier": "https://ort-desktop.pingone.com/*",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "\n* **What it is:** \n   * Central hub of Ping One For Enterprise, a cloud-based dock that provides users with secure SSO access to an expansive library of applications\n* **What it does:** \n   * Provides many pre-existing integrations with popular SaaS applications\n   * Leverages SAML, OIDC and other secure identity standards to integrate with any other cloud-based applications\nProvides the option of storing user identity data in PingOne’s cloud directory\n",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "WILDCARD",
+        "value": "https://ort-desktop.pingone.com/*"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "admin.pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "admin.pingone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "api-staging.pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "api-staging.pingone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "api.pingone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "authenticator.pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "authenticator.pingone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "console-staging.pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "console-staging.pingone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "console.pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "console.pingone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "desktop.pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "desktop.pingone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://*.pingidentity.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "https://*.pingidentity.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://*.pingidentity.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "https://*.pingidentity.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://*.pingidentity.net",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "https://*.pingidentity.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://developer.pingidentity.com/*",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "https://developer.pingidentity.com/*"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "privilege.ort-one-pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "privilege.ort-one-pingone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "test-desktop.pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "test-desktop.pingone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "test-sso.connect.pingidentity.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "test-sso.connect.pingidentity.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "uploads-staging.pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "uploads-staging.pingone.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "uploads.pingone.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "uploads.pingone.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/pingidentity"
+}

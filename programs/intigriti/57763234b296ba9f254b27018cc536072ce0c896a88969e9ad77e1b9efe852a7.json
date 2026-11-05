@@ -1,0 +1,133 @@
+{
+  "id": "intigriti:cefc1013-9927-4e4a-b306-e5d57f06d34a",
+  "metadata": {
+    "company_handle": "uz leuven",
+    "confidentiality_level": "public",
+    "handle": "ehealthhub&meta-hubvznkul",
+    "id": "cefc1013-9927-4e4a-b306-e5d57f06d34a",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 2000
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "eHealth Hub VZN KUL",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/uz%20leuven/ehealthhub%26meta-hubvznkul/detail"
+  },
+  "name": "eHealth Hub VZN KUL",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "fe29e948346abf7c8d328e9bb41ac1294995cd090e9e8a4d83e15d3d048810f7",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "cefc1013-9927-4e4a-b306-e5d57f06d34a",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "hub.vznkul.be/* ",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "hub.vznkul.be/* "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "hub.vznkul.be/services/interhub/InterHubService",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "hub.vznkul.be/services/interhub/InterHubService"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "hub.vznkul.be/services/intrahub/IntraHubService",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "hub.vznkul.be/services/intrahub/IntraHubService"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "hubacc.vznkul.be/*",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "hubacc.vznkul.be/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "hubacc.vznkul.be/services/acceptance/interhub/InterHubService",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "hubacc.vznkul.be/services/acceptance/interhub/InterHubService"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "hubacc.vznkul.be/services/acceptance/intrahub/IntraHubService",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "hubacc.vznkul.be/services/acceptance/intrahub/IntraHubService"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.vznkul.be",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.vznkul.be"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/uz%20leuven/ehealthhub%26meta-hubvznkul/detail"
+}

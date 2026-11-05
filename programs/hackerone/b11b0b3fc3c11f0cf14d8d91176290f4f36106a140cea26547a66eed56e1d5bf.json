@@ -1,0 +1,1353 @@
+{
+  "id": "hackerone:elastic",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 1368.0,
+    "average_time_to_first_program_response": 5.0,
+    "average_time_to_report_resolved": 2413.0,
+    "handle": "elastic",
+    "id": 0,
+    "managed_program": true,
+    "name": "Elastic",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 84,
+    "submission_state": "open",
+    "url": "https://hackerone.com/elastic",
+    "website": "https://www.elastic.co/"
+  },
+  "name": "Elastic",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "4d6bea7aaae3861621a14a6bc747b8aa8f88cba19f1865dededade21fc739f93",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "elastic",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.ela.st",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.ela.st"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "All subdomains are in scope UNLESS OTHERWISE LISTED IN OUT-OF-SCOPE.   ",
+        "raw": {
+          "asset_identifier": "*.elastic.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "All subdomains are in scope UNLESS OTHERWISE LISTED IN OUT-OF-SCOPE.   ",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elastic.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Not all applications and services hosted here are of the same importance so expect some nuance while we triage reports about assets falling in this category. ",
+        "raw": {
+          "asset_identifier": "*.elastic.dev",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Not all applications and services hosted here are of the same importance so expect some nuance while we triage reports about assets falling in this category. ",
+          "integrity_requirement": "not_defined",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elastic.dev"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elastic.wtf",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elastic.wtf"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticacademy.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticacademy.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticaccelerationzone.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticaccelerationzone.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticapm.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticapm.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticbeats.wtf",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticbeats.wtf"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticcloud.wtf",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticcloud.wtf"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticgov.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticgov.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticloud.wtf",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticloud.wtf"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticnet.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticnet.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticon.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticon.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticon.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticon.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticpartneracademy.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticpartneracademy.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticps.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticps.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticsearch.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticsearch.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticsearch.fr",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticsearch.fr"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticsearch.jp",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticsearch.jp"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticsearch.org",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticsearch.org"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.elasticsearch.wtf",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elasticsearch.wtf"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Not all applications and services hosted here are of the same importance so expect some nuance while we triage reports about assets falling in this category. ",
+        "raw": {
+          "asset_identifier": "*.elstc.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Not all applications and services hosted here are of the same importance so expect some nuance while we triage reports about assets falling in this category. ",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.elstc.co"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.eops.nl",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.eops.nl"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.estccdn.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.estccdn.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "These are internal assets, bugs found in services that are hosted in subdomains and subdomain takeovers are welcome. ",
+        "raw": {
+          "asset_identifier": "*.found.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "These are internal assets, bugs found in services that are hosted in subdomains and subdomain takeovers are welcome. ",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.found.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.insight.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.insight.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.kibana.wtf",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.kibana.wtf"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.logstash.net",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.logstash.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.logstash.wtf",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.logstash.wtf"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.prelert.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.prelert.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.theelasticast.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.theelasticast.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "We adopt the Bounty Awards for Discovered Leaked Credentials policy\nSee https://docs.hackerone.com/en/articles/8369826-detailed-platform-standards#h_83c05e1cc8\n\n- Low: active credentials for non-production environments such as development, testing, QA, staging, CI, proof-of-concept, or demo systems, where there is no production exposure or customer-impacting access.\n- Medium: active credentials that provide access to internal systems or restricted business data, but do not enable production access or direct customer-impacting access\n- High: active credentials that allow access to production systems or customer-impacting access",
+        "raw": {
+          "asset_identifier": "Elastic Credentials",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "We adopt the Bounty Awards for Discovered Leaked Credentials policy\nSee https://docs.hackerone.com/en/articles/8369826-detailed-platform-standards#h_83c05e1cc8\n\n- Low: active credentials for non-production environments such as development, testing, QA, staging, CI, proof-of-concept, or demo systems, where there is no production exposure or customer-impacting access.\n- Medium: active credentials that provide access to internal systems or restricted business data, but do not enable production access or direct customer-impacting access\n- High: active credentials that allow access to production systems or customer-impacting access",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "OTHER",
+        "value": "Elastic Credentials"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Includes threats highlighted by SLSA https://slsa.dev/spec/v0.1/threats\n\n- Source\n- Build\n- Dependencies\n- Package\n\nSpecifically \n\n- Github Workflows in our repositories https://github.com/elastic - look under the .github/workflows directory\n- Dependency Confusion. When reporting dependency confusion attacks please include verifiable proof that the dependency has been downloaded by Elastic employees or Elastic owned infrastructure. NPM and PyPI packages are scanned and analyzed continuously by a plethora of actors on the internet, so pings from arbitrary IPs to webhooks defined in package scripts are not enough to prove exploitability. \n- Actual credential exfiltration or leaks (not theoretical) from build services (below)\n- Command injection against build service\n\n**Build Services**\n\nBuildkite - https://buildkite.com/elastic\n\nGithub Actions - https://github.com/elastic/",
+        "raw": {
+          "asset_identifier": "Software Supply Chain",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Includes threats highlighted by SLSA https://slsa.dev/spec/v0.1/threats\n\n- Source\n- Build\n- Dependencies\n- Package\n\nSpecifically \n\n- Github Workflows in our repositories https://github.com/elastic - look under the .github/workflows directory\n- Dependency Confusion. When reporting dependency confusion attacks please include verifiable proof that the dependency has been downloaded by Elastic employees or Elastic owned infrastructure. NPM and PyPI packages are scanned and analyzed continuously by a plethora of actors on the internet, so pings from arbitrary IPs to webhooks defined in package scripts are not enough to prove exploitability. \n- Actual credential exfiltration or leaks (not theoretical) from build services (below)\n- Command injection against build service\n\n**Build Services**\n\nBuildkite - https://buildkite.com/elastic\n\nGithub Actions - https://github.com/elastic/",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Software Supply Chain"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "- Multiple subdomain takeovers resulting from the same underlying record or IP address will be eligible for only one bounty.\n- Subdomain takeovers involving typosquatted domains or parked/reserved domains used for phishing are out of scope.\n- Subdomain takeovers are only eligible if they occur on an in-scope domain.",
+        "raw": {
+          "asset_identifier": "Subdomain takeover",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "- Multiple subdomain takeovers resulting from the same underlying record or IP address will be eligible for only one bounty.\n- Subdomain takeovers involving typosquatted domains or parked/reserved domains used for phishing are out of scope.\n- Subdomain takeovers are only eligible if they occur on an in-scope domain.",
+          "integrity_requirement": null,
+          "max_severity": "low"
+        },
+        "type": "OTHER",
+        "value": "Subdomain takeover"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.es.io",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.es.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.jina.ai",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.jina.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.kbndev.co",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.kbndev.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "These are deprecated and we will not continue to operate and support after the acquisition. All relevant infrastructure will be decommissioned. ",
+        "raw": {
+          "asset_identifier": "*.keephq.dev",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "These are deprecated and we will not continue to operate and support after the acquisition. All relevant infrastructure will be decommissioned. ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.keephq.dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Application-layer DoS attacks are explicitly out of scope. We will not be triaging or rewarding such reports. ",
+        "raw": {
+          "asset_identifier": "*.swiftype.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Application-layer DoS attacks are explicitly out of scope. We will not be triaging or rewarding such reports. ",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.swiftype.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Issue that span across multiple Beats\n\nSource: https://github.com/elastic/beats\nDownload: https://www.elastic.co/downloads/beats/\n\nIncluding\n- Auditbeat\n- Filebeat\n- Metricbeat\n- Packetbeat\n- Heartbeat\n- Winlogbeat\n- Osquerybeat",
+        "raw": {
+          "asset_identifier": "Beats",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Issue that span across multiple Beats\n\nSource: https://github.com/elastic/beats\nDownload: https://www.elastic.co/downloads/beats/\n\nIncluding\n- Auditbeat\n- Filebeat\n- Metricbeat\n- Packetbeat\n- Heartbeat\n- Winlogbeat\n- Osquerybeat",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Beats"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/auditbeat\n- Docker container: https://www.docker.elastic.co/r/beats/auditbeat\n- Source code: https://github.com/elastic/beats/tree/main/auditbeat",
+        "raw": {
+          "asset_identifier": "Beats - Auditbeat",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/auditbeat\n- Docker container: https://www.docker.elastic.co/r/beats/auditbeat\n- Source code: https://github.com/elastic/beats/tree/main/auditbeat",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Beats - Auditbeat"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/filebeat\n- Docker container: https://www.docker.elastic.co/r/beats/filebeat\n- Source code: https://github.com/elastic/beats/tree/main/filebeat\n",
+        "raw": {
+          "asset_identifier": "Beats - Filebeat",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/filebeat\n- Docker container: https://www.docker.elastic.co/r/beats/filebeat\n- Source code: https://github.com/elastic/beats/tree/main/filebeat\n",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Beats - Filebeat"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/heartbeat\n- Docker container: https://www.docker.elastic.co/r/beats/heartbeat\n- Source code: https://github.com/elastic/beats/tree/main/heartbeat\n",
+        "raw": {
+          "asset_identifier": "Beats - Heartbeat",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/heartbeat\n- Docker container: https://www.docker.elastic.co/r/beats/heartbeat\n- Source code: https://github.com/elastic/beats/tree/main/heartbeat\n",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Beats - Heartbeat"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/metricbeat\n- Docker container: https://www.docker.elastic.co/r/beats/metricbeat\n- Source code: https://github.com/elastic/beats/tree/main/metricbeat",
+        "raw": {
+          "asset_identifier": "Beats - Metricbeat",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/metricbeat\n- Docker container: https://www.docker.elastic.co/r/beats/metricbeat\n- Source code: https://github.com/elastic/beats/tree/main/metricbeat",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Beats - Metricbeat"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/osquerybeat\n- Docker container: https://www.docker.elastic.co/r/beats/osquerybeat\n- Source code: https://github.com/elastic/beats/tree/main/osquerybeat",
+        "raw": {
+          "asset_identifier": "Beats - Osquerybeat",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/osquerybeat\n- Docker container: https://www.docker.elastic.co/r/beats/osquerybeat\n- Source code: https://github.com/elastic/beats/tree/main/osquerybeat",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Beats - Osquerybeat"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/packetbeat\n- Docker container: https://www.docker.elastic.co/r/beats/packetbeat\n- Source code: https://github.com/elastic/beats/tree/main/packetbeat",
+        "raw": {
+          "asset_identifier": "Beats - Packetbeat",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/beats/packetbeat\n- Docker container: https://www.docker.elastic.co/r/beats/packetbeat\n- Source code: https://github.com/elastic/beats/tree/main/packetbeat",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Beats - Packetbeat"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- Download: https://www.elastic.co/downloads/beats/winlogbeat\n- Source code: https://github.com/elastic/beats/tree/main/winlogbeat",
+        "raw": {
+          "asset_identifier": "Beats - Winlogbeat",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- Download: https://www.elastic.co/downloads/beats/winlogbeat\n- Source code: https://github.com/elastic/beats/tree/main/winlogbeat",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Beats - Winlogbeat"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/elastic-agent\n- With Fleet: https://www.elastic.co/guide/en/fleet/current/fleet-elastic-agent-quick-start.html\n- Source code: https://github.com/elastic/elastic-agent",
+        "raw": {
+          "asset_identifier": "Elastic Agent",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/elastic-agent\n- With Fleet: https://www.elastic.co/guide/en/fleet/current/fleet-elastic-agent-quick-start.html\n- Source code: https://github.com/elastic/elastic-agent",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Elastic Agent"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Includes\n\n- Java Client: https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html\n- JavaScript Client: https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html\n- Ruby Client: https://www.elastic.co/guide/en/elasticsearch/client/ruby-api/current/index.html\n- Go Client: https://www.elastic.co/guide/en/elasticsearch/client/go-api/current/index.html\n- .NET Client: https://www.elastic.co/guide/en/elasticsearch/client/net-api/current/index.html\n- PHP Client: https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html\n- Python Client: https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html\n- Eland Client: https://www.elastic.co/guide/en/elasticsearch/client/eland/current/index.html\n- Rust Client: https://www.elastic.co/guide/en/elasticsearch/client/rust-api/current/index.html\n",
+        "raw": {
+          "asset_identifier": "Elastic Clients",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Includes\n\n- Java Client: https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/index.html\n- JavaScript Client: https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html\n- Ruby Client: https://www.elastic.co/guide/en/elasticsearch/client/ruby-api/current/index.html\n- Go Client: https://www.elastic.co/guide/en/elasticsearch/client/go-api/current/index.html\n- .NET Client: https://www.elastic.co/guide/en/elasticsearch/client/net-api/current/index.html\n- PHP Client: https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html\n- Python Client: https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html\n- Eland Client: https://www.elastic.co/guide/en/elasticsearch/client/eland/current/index.html\n- Rust Client: https://www.elastic.co/guide/en/elasticsearch/client/rust-api/current/index.html\n",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Elastic Clients"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- Download: https://www.elastic.co/downloads/enterprise",
+        "raw": {
+          "asset_identifier": "Elastic Cloud Enterprise (ECE)",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- Download: https://www.elastic.co/downloads/enterprise",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Elastic Cloud Enterprise (ECE)"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- Download: https://www.elastic.co/downloads/elastic-cloud-kubernetes\n\nNote that this should be used only for security issues with the Orchestrator and not any applications ( i.e. Elasticsearch/Kibana ) one deploys using ECK",
+        "raw": {
+          "asset_identifier": "Elastic Cloud on Kubernetes (ECK)",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- Download: https://www.elastic.co/downloads/elastic-cloud-kubernetes\n\nNote that this should be used only for security issues with the Orchestrator and not any applications ( i.e. Elasticsearch/Kibana ) one deploys using ECK",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Elastic Cloud on Kubernetes (ECK)"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Elastic Defend provides organizations with prevention, detection, and response capabilities with deep visibility for EPP, EDR, SIEM, and Security Analytics use cases across Windows, macOS, and Linux operating systems running on both traditional endpoints and public cloud environments.\n\nIn-Scope:\n\n* Local Privilege Escalation (LPE): Any finding that allows an attacker with lower-privilege to execute code or gain privileges as a higher-privileged user e.g. from a standard user to SYSTEM or administrator.   \n* Confidentiality of Data: An non-administrative local or unauthorized remote attacker can view Elastic Defend logs or events.  \n* Unauthorized of Command and Control: An non-administrative local or unauthorized remote attacker can configure or control Elastic Defend through a mechanism such as response actions or policy updates.  \n* System Crash from Unprivileged User: If the actions of a non-administrative user can cause Elastic Defend to bug check the system, we want to know about and fix this. Note that this does not apply to administrators, since administrators can already change system/driver configuration and/or modify kernel memory.\n\nOut-of-Scope:\n\n* Findings that require administrative or root privileges are out of scope. Administrators are very powerful, free to modify or downgrade the OS. Elastic aligns with the MSRC's stance that the boundary between an administrator and the kernel is not a security boundary. [https://www.microsoft.com/en-us/msrc/windows-security-servicing-criteria](https://www.microsoft.com/en-us/msrc/windows-security-servicing-criteria)  \n* Bypassing Tamper Protection as an administrator: Tamper Protection is a defense-in-depth feature and not intended as a security boundary against an administrator.  \n* Physical access vulnerabilities: Findings that require physical access to the device as users are free to alter the OS via recovery modes or booting from a separate OS.  \n* Crashing Defend: Elastic considers crashes to be bugs, but not security bugs. Defend will automatically restart if it crashes. We are interested in hearing about these issues, and may pay a bounty (case-by-case basis).  \n* Bypassing a Defend protection (e.g. malware scanning, memory scan, rule): Because no protection is perfect, Elastic Defend employs multiple layers of protection to provide a comprehensive system protection. ",
+        "raw": {
+          "asset_identifier": "Elastic Defend",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Elastic Defend provides organizations with prevention, detection, and response capabilities with deep visibility for EPP, EDR, SIEM, and Security Analytics use cases across Windows, macOS, and Linux operating systems running on both traditional endpoints and public cloud environments.\n\nIn-Scope:\n\n* Local Privilege Escalation (LPE): Any finding that allows an attacker with lower-privilege to execute code or gain privileges as a higher-privileged user e.g. from a standard user to SYSTEM or administrator.   \n* Confidentiality of Data: An non-administrative local or unauthorized remote attacker can view Elastic Defend logs or events.  \n* Unauthorized of Command and Control: An non-administrative local or unauthorized remote attacker can configure or control Elastic Defend through a mechanism such as response actions or policy updates.  \n* System Crash from Unprivileged User: If the actions of a non-administrative user can cause Elastic Defend to bug check the system, we want to know about and fix this. Note that this does not apply to administrators, since administrators can already change system/driver configuration and/or modify kernel memory.\n\nOut-of-Scope:\n\n* Findings that require administrative or root privileges are out of scope. Administrators are very powerful, free to modify or downgrade the OS. Elastic aligns with the MSRC's stance that the boundary between an administrator and the kernel is not a security boundary. [https://www.microsoft.com/en-us/msrc/windows-security-servicing-criteria](https://www.microsoft.com/en-us/msrc/windows-security-servicing-criteria)  \n* Bypassing Tamper Protection as an administrator: Tamper Protection is a defense-in-depth feature and not intended as a security boundary against an administrator.  \n* Physical access vulnerabilities: Findings that require physical access to the device as users are free to alter the OS via recovery modes or booting from a separate OS.  \n* Crashing Defend: Elastic considers crashes to be bugs, but not security bugs. Defend will automatically restart if it crashes. We are interested in hearing about these issues, and may pay a bounty (case-by-case basis).  \n* Bypassing a Defend protection (e.g. malware scanning, memory scan, rule): Because no protection is perfect, Elastic Defend employs multiple layers of protection to provide a comprehensive system protection. ",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Elastic Defend"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version https://www.elastic.co/support/eol\n\nIncludes:\n\n- Elastic Distribution of OpenTelemetry Collector: https://www.elastic.co/docs/reference/edot-collector\n- Elastic Distribution of OpenTelemetry .NET: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/dotnet\n- Elastic Distribution of OpenTelemetry Java: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/java\n- Elastic Distribution of OpenTelemetry Node.js: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/node\n- Elastic Distribution of OpenTelemetry PHP: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/php\n- Elastic Distribution of OpenTelemetry Python: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/python\n- Elastic Distribution of OpenTelemetry Cloud Forwarder for AWS: https://www.elastic.co/docs/reference/opentelemetry/edot-cloud-forwarder/aws\n- Elastic Distribution of OpenTelemetry iOS: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/ios\n- Elastic Distribution of OpenTelemetry Android: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/android",
+        "raw": {
+          "asset_identifier": "Elastic Distributions of OpenTelemetry (EDOT)",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version https://www.elastic.co/support/eol\n\nIncludes:\n\n- Elastic Distribution of OpenTelemetry Collector: https://www.elastic.co/docs/reference/edot-collector\n- Elastic Distribution of OpenTelemetry .NET: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/dotnet\n- Elastic Distribution of OpenTelemetry Java: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/java\n- Elastic Distribution of OpenTelemetry Node.js: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/node\n- Elastic Distribution of OpenTelemetry PHP: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/php\n- Elastic Distribution of OpenTelemetry Python: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/python\n- Elastic Distribution of OpenTelemetry Cloud Forwarder for AWS: https://www.elastic.co/docs/reference/opentelemetry/edot-cloud-forwarder/aws\n- Elastic Distribution of OpenTelemetry iOS: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/ios\n- Elastic Distribution of OpenTelemetry Android: https://www.elastic.co/docs/reference/opentelemetry/edot-sdks/android",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Elastic Distributions of OpenTelemetry (EDOT)"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/enterprise-search\n- Docker: https://www.docker.elastic.co/r/enterprise-search\n- Cloud: https://cloud.elastic.co",
+        "raw": {
+          "asset_identifier": "Elastic Enterprise Search",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/enterprise-search\n- Docker: https://www.docker.elastic.co/r/enterprise-search\n- Cloud: https://cloud.elastic.co",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Elastic Enterprise Search"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- Download: https://www.elastic.co/downloads/elastic-maps-server",
+        "raw": {
+          "asset_identifier": "Elastic Maps Server",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- Download: https://www.elastic.co/downloads/elastic-maps-server",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Elastic Maps Server"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "- https://github.com/elastic/package-registry\n- https://epr.elastic.co/search?all\n\nElastic's package registry is used to pull elastic packages. Being able to modify our package registry is of particular interest to us.",
+        "raw": {
+          "asset_identifier": "Elastic Package Registry",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "- https://github.com/elastic/package-registry\n- https://epr.elastic.co/search?all\n\nElastic's package registry is used to pull elastic packages. Being able to modify our package registry is of particular interest to us.",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Elastic Package Registry"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "To get access, do the following steps:\n\n1. Create a new Observability deployment on cloud.elastic.co using an account with your @wearehackerone.com email alias.\n2. See https://www.elastic.co/docs/solutions/observability/synthetics/create-monitors-ui to set up a monitor\n\n",
+        "raw": {
+          "asset_identifier": "Elastic Synthetics Monitoring",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "To get access, do the following steps:\n\n1. Create a new Observability deployment on cloud.elastic.co using an account with your @wearehackerone.com email alias.\n2. See https://www.elastic.co/docs/solutions/observability/synthetics/create-monitors-ui to set up a monitor\n\n",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Elastic Synthetics Monitoring"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/elasticsearch\n- Docker container: https://www.docker.elastic.co/r/elasticsearch\n- Source code: https://github.com/elastic/elasticsearch\n- Instance on Cloud: https://cloud.elastic.co",
+        "raw": {
+          "asset_identifier": "Elasticsearch",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/elasticsearch\n- Docker container: https://www.docker.elastic.co/r/elasticsearch\n- Source code: https://github.com/elastic/elasticsearch\n- Instance on Cloud: https://cloud.elastic.co",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Elasticsearch"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Setup (Included in Elastic Cloud): https://www.elastic.co/guide/en/fleet/8.8/fleet-server.html\nSource: https://github.com/elastic/fleet-server",
+        "raw": {
+          "asset_identifier": "Fleet Server",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Setup (Included in Elastic Cloud): https://www.elastic.co/guide/en/fleet/8.8/fleet-server.html\nSource: https://github.com/elastic/fleet-server",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Fleet Server"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/kibana\n\n- Docker container: https://www.docker.elastic.co/r/kibana\n\n- Source code: https://github.com/elastic/kibana\n\n- Cloud: https://cloud.elastic.co",
+        "raw": {
+          "asset_identifier": "Kibana",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/kibana\n\n- Docker container: https://www.docker.elastic.co/r/kibana\n\n- Source code: https://github.com/elastic/kibana\n\n- Cloud: https://cloud.elastic.co",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Kibana"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/logstash\n- Docker container: https://www.docker.elastic.co/r/logstash\n- Source code: https://github.com/elastic/logstash",
+        "raw": {
+          "asset_identifier": "Logstash",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/logstash\n- Docker container: https://www.docker.elastic.co/r/logstash\n- Source code: https://github.com/elastic/logstash",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Logstash"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- .NET Agent: https://www.elastic.co/guide/en/apm/agent/dotnet/current/index.html\n- Java Agent: https://www.elastic.co/guide/en/apm/agent/java/current/index.html\n- JavaScript RUM Agent: https://www.elastic.co/guide/en/apm/agent/rum-js/current/getting-started.html\n- Go Agent: https://www.elastic.co/guide/en/apm/agent/go/current/index.html\n- Node.js Agent: https://www.elastic.co/guide/en/apm/agent/nodejs/current/set-up.html\n- PHP Agent: https://www.elastic.co/guide/en/apm/agent/php/current/index.html\n- Python Agent: https://www.elastic.co/guide/en/apm/agent/python/current/index.html\n- Ruby Agent: https://www.elastic.co/guide/en/apm/agent/ruby/current/index.html",
+        "raw": {
+          "asset_identifier": "Observability - APM Agents",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- .NET Agent: https://www.elastic.co/guide/en/apm/agent/dotnet/current/index.html\n- Java Agent: https://www.elastic.co/guide/en/apm/agent/java/current/index.html\n- JavaScript RUM Agent: https://www.elastic.co/guide/en/apm/agent/rum-js/current/getting-started.html\n- Go Agent: https://www.elastic.co/guide/en/apm/agent/go/current/index.html\n- Node.js Agent: https://www.elastic.co/guide/en/apm/agent/nodejs/current/set-up.html\n- PHP Agent: https://www.elastic.co/guide/en/apm/agent/php/current/index.html\n- Python Agent: https://www.elastic.co/guide/en/apm/agent/python/current/index.html\n- Ruby Agent: https://www.elastic.co/guide/en/apm/agent/ruby/current/index.html",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Observability - APM Agents"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/apm\n- Docker: https://www.docker.elastic.co/r/apm/apm-server\n- Source code: https://github.com/elastic/apm-server",
+        "raw": {
+          "asset_identifier": "Observability - APM Server",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Must be a supported version: https://www.elastic.co/support/eol\n\nIncludes\n- All platforms: https://www.elastic.co/downloads/apm\n- Docker: https://www.docker.elastic.co/r/apm/apm-server\n- Source code: https://github.com/elastic/apm-server",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Observability - APM Server"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "If you found something that we own that is not explicitly listed as in-scope, please file it under this asset for us to investigate. We don't want our scope section to stop you from finding us vulnerabilities!",
+        "raw": {
+          "asset_identifier": "Other",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "If you found something that we own that is not explicitly listed as in-scope, please file it under this asset for us to investigate. We don't want our scope section to stop you from finding us vulnerabilities!",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Other"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**How to test**\n\n1. Go to https://cloud.elastic.co/\n1. Click “Sign Up”\n1. Enter your @wearehackerone email and click “Start Free Trial” (you can create multiple trials if necessary)\n1. Find your verification email and click “Verify and Accept”\n1. Set your password\n1. Click “Start Free Trial”\n\nWe retain the right to not award bounties to reports where the exploitation did not use @wearehackerone email accounts. \n\nYou should now be able to create a deployment or project in any hosted infrastructure you choose. Once you create a deployment/project, try to find bugs! We also encourage you to find bugs in the Cloud Console, affecting your Organization or your users.\n\nPlease be careful and mindful when you attempt to reproduce attack scenarios affecting the availability of the service. \n\nOnly the latest supported versions of the Elastic Stack will be eligible for a bounty.\n\nBugs describing missing rate limiting on cloud.elastic.co/api/v1/users/_login are out of scope. The API is rate limited but doesn't return a 429.",
+        "raw": {
+          "asset_identifier": "cloud.elastic.co",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**How to test**\n\n1. Go to https://cloud.elastic.co/\n1. Click “Sign Up”\n1. Enter your @wearehackerone email and click “Start Free Trial” (you can create multiple trials if necessary)\n1. Find your verification email and click “Verify and Accept”\n1. Set your password\n1. Click “Start Free Trial”\n\nWe retain the right to not award bounties to reports where the exploitation did not use @wearehackerone email accounts. \n\nYou should now be able to create a deployment or project in any hosted infrastructure you choose. Once you create a deployment/project, try to find bugs! We also encourage you to find bugs in the Cloud Console, affecting your Organization or your users.\n\nPlease be careful and mindful when you attempt to reproduce attack scenarios affecting the availability of the service. \n\nOnly the latest supported versions of the Elastic Stack will be eligible for a bounty.\n\nBugs describing missing rate limiting on cloud.elastic.co/api/v1/users/_login are out of scope. The API is rate limited but doesn't return a 429.",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "cloud.elastic.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "community.elastic.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "community.elastic.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "discuss.elastic.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "discuss.elastic.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Our wikis are public on purpose",
+        "raw": {
+          "asset_identifier": "https://github.com/elastic/*/wiki",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Our wikis are public on purpose",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "https://github.com/elastic/*/wiki"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Our wikis are meant to be public",
+        "raw": {
+          "asset_identifier": "https://github.com/swiftype/*/wiki",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Our wikis are meant to be public",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "https://github.com/swiftype/*/wiki"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "learn.elastic.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "learn.elastic.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "link.email.elastic.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "link.email.elastic.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "sendgrid.elastic.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "sendgrid.elastic.co"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "track.email.elastic.co",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "track.email.elastic.co"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/elastic"
+}

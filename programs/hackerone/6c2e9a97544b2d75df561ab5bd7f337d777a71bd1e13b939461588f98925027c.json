@@ -1,0 +1,561 @@
+{
+  "id": "hackerone:meesho_bbp",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 628.0,
+    "average_time_to_first_program_response": 66.0,
+    "average_time_to_report_resolved": 1087.0,
+    "handle": "meesho_bbp",
+    "id": 0,
+    "managed_program": false,
+    "name": "Meesho",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 68,
+    "submission_state": "open",
+    "url": "https://hackerone.com/meesho_bbp",
+    "website": "https://meesho.com"
+  },
+  "name": "Meesho",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "daddfc6780ca4104173cd90e4075a240038dc128f6327401269be344d53727d8",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "meesho_bbp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "1457958492",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1457958492"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "admin.meeshosupply.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "admin.meeshosupply.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The Affiliate Panel is accessible via Meesho Mobile Apps (Android & iOS) and Web. Please review the updated Out of Scope section for exclusions.",
+        "raw": {
+          "asset_identifier": "affiliate.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The Affiliate Panel is accessible via Meesho Mobile Apps (Android & iOS) and Web. Please review the updated Out of Scope section for exclusions.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "affiliate.meesho.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "com.meesho.supply",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.meesho.supply"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is the Android App for Valmo Partners",
+        "raw": {
+          "asset_identifier": "com.valmo.valmo",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is the Android App for Valmo Partners",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.valmo.valmo"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "investor.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": " ",
+          "integrity_requirement": "none",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "investor.meesho.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "meesho.io",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "low"
+        },
+        "type": "URL",
+        "value": "meesho.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "prod.meeshoapi.com is accessible via Meesho Mobile Apps (Android & iOS)",
+        "raw": {
+          "asset_identifier": "prod.meeshoapi.com",
+          "asset_type": "API",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "prod.meeshoapi.com is accessible via Meesho Mobile Apps (Android & iOS)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "API",
+        "value": "prod.meeshoapi.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Meesho Grocery/Superstore is part of the Meesho android app and is not a standalone service. To test this feature, please update the delivery PIN code to Nagpur (PIN: 440002), after which the Grocery/Superstore section will be visible.\n\nNote: When using the test account, please cancel any Superstore/Grocery orders within 30 minutes. If not cancelled, the account may be locked or suspended for further testing.",
+        "raw": {
+          "asset_identifier": "superstoreapp.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Meesho Grocery/Superstore is part of the Meesho android app and is not a standalone service. To test this feature, please update the delivery PIN code to Nagpur (PIN: 440002), after which the Grocery/Superstore section will be visible.\n\nNote: When using the test account, please cancel any Superstore/Grocery orders within 30 minutes. If not cancelled, the account may be locked or suspended for further testing.",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "superstoreapp.meesho.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The Supplier Panel is accessible via Meesho Mobile Apps (Android & iOS) and is in scope. Please review the updated Out of Scope section for exclusions.",
+        "raw": {
+          "asset_identifier": "supplier.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The Supplier Panel is accessible via Meesho Mobile Apps (Android & iOS) and is in scope. Please review the updated Out of Scope section for exclusions.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "supplier.meesho.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The defined scope covers Meesho’s production web application and mobile applications (iOS and Android) that facilitate customer transactions, seller workflows, and core marketplace services. Please refer to the updated Out of Scope section for details on excluded assets and functionalities.",
+        "raw": {
+          "asset_identifier": "www.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The defined scope covers Meesho’s production web application and mobile applications (iOS and Android) that facilitate customer transactions, seller workflows, and core marketplace services. Please refer to the updated Out of Scope section for details on excluded assets and functionalities.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.meesho.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Valmo is the in-house logistics arm of Meesho, launched to manage the company's shipping operations",
+        "raw": {
+          "asset_identifier": "www.valmo.in",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Valmo is the in-house logistics arm of Meesho, launched to manage the company's shipping operations",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.valmo.in"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Only in-scope assets are acceptable; all other assets related to this domain are considered out of scope.",
+        "raw": {
+          "asset_identifier": "*.meesho.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Only in-scope assets are acceptable; all other assets related to this domain are considered out of scope.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.meesho.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "*.meeshoaiservices.ai",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.meeshoaiservices.ai"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Only in-scope assets are acceptable; all other assets related to this domain are considered out of scope.",
+        "raw": {
+          "asset_identifier": "*.meeshoapi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Only in-scope assets are acceptable; all other assets related to this domain are considered out of scope.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.meeshoapi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "*.meeshogcp.in",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.meeshogcp.in"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Only in-scope assets are acceptable; all other assets related to this domain are considered out of scope.",
+        "raw": {
+          "asset_identifier": "*.meeshosupply.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Only in-scope assets are acceptable; all other assets related to this domain are considered out of scope.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.meeshosupply.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Only in-scope assets are acceptable; all other assets related to this domain are considered out of scope.",
+        "raw": {
+          "asset_identifier": "*.valmo.in",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Only in-scope assets are acceptable; all other assets related to this domain are considered out of scope.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.valmo.in"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This indicates all assets apart from those specified in the in-scope items. Reports submitted under this asset are not eligible for any bounty.",
+        "raw": {
+          "asset_identifier": "Other Asset",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This indicates all assets apart from those specified in the in-scope items. Reports submitted under this asset are not eligible for any bounty.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Other Asset"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "admin.meesho.io",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "admin.meesho.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "affiliate-c.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "affiliate-c.meesho.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "agency.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "agency.meesho.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "atlas.valmo.in",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "atlas.valmo.in"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "console.valmo.in",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "console.valmo.in"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "di-prd-superset.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "di-prd-superset.meesho.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "farmiso.meeshosupply.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "farmiso.meeshosupply.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "grocery-supplier.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "grocery-supplier.meesho.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "log10-web-staging.valmo.in",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "log10-web-staging.valmo.in"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": " ",
+        "raw": {
+          "asset_identifier": "warehouse.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": " ",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "warehouse.meesho.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/meesho_bbp"
+}

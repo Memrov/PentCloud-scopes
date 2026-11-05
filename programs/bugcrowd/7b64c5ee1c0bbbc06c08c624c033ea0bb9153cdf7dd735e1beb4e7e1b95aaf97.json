@@ -1,0 +1,549 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/auth0-okta",
+  "metadata": {
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "max_payout": 50000,
+    "name": "Auth0 by Okta",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/auth0-okta"
+  },
+  "name": "Auth0 by Okta",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "4b6c1978d957b7660be252e0f0755456586a16635313785682358798326b9093",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/auth0-okta",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "config.cic-bug-bounty.auth0app.com",
+          "target": "config.cic-bug-bounty.auth0app.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "config.cic-bug-bounty.auth0app.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
+          "target": "https://manage.cic-bug-bounty.auth0app.com/",
+          "type": "website",
+          "uri": "https://manage.cic-bug-bounty.auth0app.com/"
+        },
+        "type": "website",
+        "value": "https://manage.cic-bug-bounty.auth0app.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.cic-bug-bounty.auth0app.com",
+          "target": "*.cic-bug-bounty.auth0app.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.cic-bug-bounty.auth0app.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Auth0 Guardian Android",
+          "target": "https://play.google.com/store/apps/details?id=com.auth0.guardian&hl=en_US&gl=US",
+          "type": "android",
+          "uri": "https://play.google.com/store/apps/details?id=com.auth0.guardian&hl=en_US&gl=US"
+        },
+        "type": "android",
+        "value": "https://play.google.com/store/apps/details?id=com.auth0.guardian&hl=en_US&gl=US"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Auth0 Guardian IoS",
+          "target": "https://apps.apple.com/us/app/auth0-guardian/id1093447833",
+          "type": "ios",
+          "uri": "https://apps.apple.com/us/app/auth0-guardian/id1093447833"
+        },
+        "type": "ios",
+        "value": "https://apps.apple.com/us/app/auth0-guardian/id1093447833"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "marketplace.auth0.com (Auth0 Marketplace)",
+          "target": "https://marketplace.auth0.com",
+          "type": "website",
+          "uri": "https://marketplace.auth0.com"
+        },
+        "type": "website",
+        "value": "https://marketplace.auth0.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "MFA Integrations\t",
+          "target": "MFA Integrations\t",
+          "type": "other",
+          "uri": ""
+        },
+        "type": "other",
+        "value": "MFA Integrations\t"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "https://dashboard.fga.dev/",
+          "target": "https://dashboard.fga.dev/",
+          "type": "website",
+          "uri": "https://dashboard.fga.dev/"
+        },
+        "type": "website",
+        "value": "https://dashboard.fga.dev/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "https://api.us1.fga.dev/",
+          "target": "https://api.us1.fga.dev/",
+          "type": "api",
+          "uri": "https://api.us1.fga.dev/"
+        },
+        "type": "api",
+        "value": "https://api.us1.fga.dev/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "https://customers.us1.fga.dev/",
+          "target": "https://customers.us1.fga.dev/",
+          "type": "api",
+          "uri": "https://customers.us1.fga.dev/"
+        },
+        "type": "api",
+        "value": "https://customers.us1.fga.dev/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "https://play.fga.dev/",
+          "target": "https://play.fga.dev/",
+          "type": "website",
+          "uri": "https://play.fga.dev/"
+        },
+        "type": "website",
+        "value": "https://play.fga.dev/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "webtask.run",
+          "target": "webtask.run",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "webtask.run"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Auth0 SDK for Web (Auth0.js)",
+          "target": "https://github.com/auth0/auth0.js",
+          "type": "other",
+          "uri": "https://github.com/auth0/auth0.js"
+        },
+        "type": "other",
+        "value": "https://github.com/auth0/auth0.js"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Lock for Web (lock)",
+          "target": "https://github.com/auth0/lock",
+          "type": "other",
+          "uri": "https://github.com/auth0/lock"
+        },
+        "type": "other",
+        "value": "https://github.com/auth0/lock"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Auth0 Single Page App SDK (auth0-spa-js)",
+          "target": "https://github.com/auth0/auth0-spa-js",
+          "type": "other",
+          "uri": "https://github.com/auth0/auth0-spa-js"
+        },
+        "type": "other",
+        "value": "https://github.com/auth0/auth0-spa-js"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": ".NET SDK (Auth0.Net)",
+          "target": "https://github.com/auth0/Auth0.Net",
+          "type": "other",
+          "uri": "https://github.com/auth0/Auth0.Net"
+        },
+        "type": "other",
+        "value": "https://github.com/auth0/Auth0.Net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Auth0 Next.js SDK (nextjs-auth0)",
+          "target": "https://github.com/auth0/nextjs-auth0",
+          "type": "other",
+          "uri": "https://github.com/auth0/nextjs-auth0"
+        },
+        "type": "other",
+        "value": "https://github.com/auth0/nextjs-auth0"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Auth0 Java SDK (auth0-java)",
+          "target": "https://github.com/auth0/auth0-java",
+          "type": "other",
+          "uri": "https://github.com/auth0/auth0-java"
+        },
+        "type": "other",
+        "value": "https://github.com/auth0/auth0-java"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Auth0 React Native SDK (react-native-auth0)",
+          "target": "https://github.com/auth0/react-native-auth0",
+          "type": "other",
+          "uri": "https://github.com/auth0/react-native-auth0"
+        },
+        "type": "other",
+        "value": "https://github.com/auth0/react-native-auth0"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Auth0 PHP SDK (auth0-php)",
+          "target": "https://github.com/auth0/auth0-php",
+          "type": "other",
+          "uri": "https://github.com/auth0/auth0-php"
+        },
+        "type": "other",
+        "value": "https://github.com/auth0/auth0-php"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "auth0.com\t",
+          "target": "auth0.com\t",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "auth0.com\t"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "samltool.io\t",
+          "target": "samltool.io\t",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "samltool.io\t"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "webauthn.me\t",
+          "target": "webauthn.me\t",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "webauthn.me\t"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "openidconnect.net\t",
+          "target": "openidconnect.net\t",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "openidconnect.net\t"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "jwt.io",
+          "target": "jwt.io",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "jwt.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "auth0.net",
+          "target": "auth0.net",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "auth0.net"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "auth0.auth0.com",
+          "target": "auth0.auth0.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "auth0.auth0.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "manage.auth0.com",
+          "target": "manage.auth0.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "manage.auth0.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "accounts.auth0.com",
+          "target": "accounts.auth0.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "accounts.auth0.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "phenix.rocks\t",
+          "target": "phenix.rocks\t",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "phenix.rocks\t"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Auth0 Docs (including quickstarts)",
+          "target": "Auth0 Docs (including quickstarts)",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "Auth0 Docs (including quickstarts)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "sharelock.io",
+          "target": "sharelock.io",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "sharelock.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "goextend.io\t",
+          "target": "goextend.io\t",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "goextend.io\t"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "https://support.auth0.com/tickets/new",
+          "target": "https://support.auth0.com/tickets/new",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "https://support.auth0.com/tickets/new"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "support.auth0.com",
+          "target": "support.auth0.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "support.auth0.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "community.auth0.com",
+          "target": "community.auth0.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "community.auth0.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "Auth0 passport-ws-fed",
+          "target": "https://github.com/auth0/passport-wsfed-saml2",
+          "type": "other",
+          "uri": "https://github.com/auth0/passport-wsfed-saml2"
+        },
+        "type": "other",
+        "value": "https://github.com/auth0/passport-wsfed-saml2"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/auth0-okta"
+}

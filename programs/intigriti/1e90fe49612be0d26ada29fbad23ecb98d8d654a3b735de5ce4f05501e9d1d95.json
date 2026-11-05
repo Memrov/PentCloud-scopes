@@ -1,0 +1,81 @@
+{
+  "id": "intigriti:e1dc7326-0466-4c06-bd52-3c6df82370be",
+  "metadata": {
+    "company_handle": "redbull",
+    "confidentiality_level": "public",
+    "handle": "redbull",
+    "id": "e1dc7326-0466-4c06-bd52-3c6df82370be",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Red Bull",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/redbull/redbull/detail"
+  },
+  "name": "Red Bull",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "290d337d472db64a705d6b1674011ad064435e72f467acebb6293bf460ffbf05",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "e1dc7326-0466-4c06-bd52-3c6df82370be",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "## Please use only this list to search for targets.\n\nDomains that are related to Red Bull and can be found on [this list](https://gist.github.com/RedBullSecurity/3eb88debcb01759eccf65ec2b799b340). \n- Submissions affecting other domains than the ones on the list will be out of scope. \n- Please stop enumerating Red Bull related domains, and work based on the list provided.\n\nAny subdomain not mentioned in this list, will be considered as out of scope.",
+        "raw": {
+          "description": "## Please use only this list to search for targets.\n\nDomains that are related to Red Bull and can be found on [this list](https://gist.github.com/RedBullSecurity/3eb88debcb01759eccf65ec2b799b340). \n- Submissions affecting other domains than the ones on the list will be out of scope. \n- Please stop enumerating Red Bull related domains, and work based on the list provided.\n\nAny subdomain not mentioned in this list, will be considered as out of scope.",
+          "endpoint": "https://gist.github.com/RedBullSecurity/3eb88debcb01759eccf65ec2b799b340",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "https://gist.github.com/RedBullSecurity/3eb88debcb01759eccf65ec2b799b340"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "IOS and Android apps related to Red Bull",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "IOS and Android apps related to Red Bull"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.newyorkredbulls.com",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.newyorkredbulls.com"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/redbull/redbull/detail"
+}

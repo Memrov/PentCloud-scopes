@@ -1,0 +1,111 @@
+{
+  "id": "hackerone:concretecms",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 117.0,
+    "average_time_to_report_resolved": 1277.0,
+    "handle": "concretecms",
+    "id": 0,
+    "managed_program": false,
+    "name": "Concrete CMS",
+    "offers_bounties": false,
+    "offers_swag": true,
+    "response_efficiency_percentage": 68,
+    "submission_state": "open",
+    "url": "https://hackerone.com/concretecms",
+    "website": "https://www.concretecms.org"
+  },
+  "name": "Concrete CMS",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "ed916efb1c5b4c7efa973c8714fbdebd77df02f9f5068300cc1b1d717c617b9f",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "concretecms",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/concrete5/concrete5",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/concrete5/concrete5"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Please send reports of issues with concrete5.org the website to `security@concrete5.org`.\n\nThank you!",
+        "raw": {
+          "asset_identifier": "*.concrete5.org",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Please send reports of issues with concrete5.org the website to `security@concrete5.org`.\n\nThank you!",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.concrete5.org"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Please send reports of issues with concretecms.com the website to `security@concrete5.org`.\n\nThank you!",
+        "raw": {
+          "asset_identifier": "*.concretecms.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Please send reports of issues with concretecms.com the website to `security@concrete5.org`.\n\nThank you!",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.concretecms.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Please send reports of issues with concretecms.org the website to `security@concrete5.org`.\n\nThank you!",
+        "raw": {
+          "asset_identifier": "*.concretecms.org",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Please send reports of issues with concretecms.org the website to `security@concrete5.org`.\n\nThank you!",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.concretecms.org"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/concretecms"
+}

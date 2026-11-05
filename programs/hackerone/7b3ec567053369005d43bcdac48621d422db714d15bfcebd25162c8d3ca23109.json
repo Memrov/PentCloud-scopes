@@ -1,0 +1,128 @@
+{
+  "id": "hackerone:anthropic-cyber-jailbreak",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": null,
+    "handle": "anthropic-cyber-jailbreak",
+    "id": 0,
+    "managed_program": true,
+    "name": "Anthropic Cyber Jailbreak",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/anthropic-cyber-jailbreak",
+    "website": "http://www.anthropic.com"
+  },
+  "name": "Anthropic Cyber Jailbreak",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "044cfd26ea744426ad59b593aa21cb952a893fc817ee3eb6d1096ac3f78f2520",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "anthropic-cyber-jailbreak",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Fable 5.1",
+          "asset_type": "AI_MODEL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "AI_MODEL",
+        "value": "Fable 5.1"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Haiku Class Models",
+          "asset_type": "AI_MODEL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "AI_MODEL",
+        "value": "Haiku Class Models"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Opus 5.5",
+          "asset_type": "AI_MODEL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "AI_MODEL",
+        "value": "Opus 5.5"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "Other Opus Class Models",
+          "asset_type": "AI_MODEL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "AI_MODEL",
+        "value": "Other Opus Class Models"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Sonnet Class Models",
+          "asset_type": "AI_MODEL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "AI_MODEL",
+        "value": "Sonnet Class Models"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/anthropic-cyber-jailbreak"
+}

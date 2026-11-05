@@ -1,0 +1,67 @@
+{
+  "id": "intigriti:a5158346-5add-4916-bd31-d8a5fe1e805f",
+  "metadata": {
+    "company_handle": "universitatsspitalzurich",
+    "confidentiality_level": "public",
+    "handle": "usz-vdp",
+    "id": "a5158346-5add-4916-bd31-d8a5fe1e805f",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Universitätsspital Zürich VDP",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/universitatsspitalzurich/usz-vdp/detail"
+  },
+  "name": "Universitätsspital Zürich VDP",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "fbb59f5e1a54f05050bc200e93453884f2ab8039ba90b27194086ba933b51145",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "a5158346-5add-4916-bd31-d8a5fe1e805f",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "forwarding to usz.ch",
+        "raw": {
+          "description": "forwarding to usz.ch",
+          "endpoint": "*.unispital.ch ",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.unispital.ch "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "this is our Main Website.\nYou are welcome to check it all around for security Issues.",
+        "raw": {
+          "description": "this is our Main Website.\nYou are welcome to check it all around for security Issues.",
+          "endpoint": "*.usz.ch ",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.usz.ch "
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/universitatsspitalzurich/usz-vdp/detail"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "intigriti:b31aef04-c63f-429f-b965-f92c94e5eec3",
+  "metadata": {
+    "company_handle": "dropbox",
+    "confidentiality_level": "public",
+    "handle": "dropbox-vdp",
+    "id": "b31aef04-c63f-429f-b965-f92c94e5eec3",
+    "max_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "name": "Dropbox Vulnerability Disclosure Program ",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/dropbox/dropbox-vdp/detail"
+  },
+  "name": "Dropbox Vulnerability Disclosure Program ",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "1c0d921465b189be66cb3a6188aa903efc465c62e0149f12a61ef8ce7d95eb06",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "b31aef04-c63f-429f-b965-f92c94e5eec3",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "All assets owned by or attributable to Dropbox",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All assets owned by or attributable to Dropbox"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Before testing or reporting a vulnerability, confirm that the target asset is owned or managed by Dropbox. Terms like “Dropbox-compatible” do not mean Dropbox controls the system. If you're unsure, contact the program team to avoid interacting with assets outside of scope at bugbounty@dropbox.com.",
+        "raw": {
+          "description": "Before testing or reporting a vulnerability, confirm that the target asset is owned or managed by Dropbox. Terms like “Dropbox-compatible” do not mean Dropbox controls the system. If you're unsure, contact the program team to avoid interacting with assets outside of scope at bugbounty@dropbox.com.",
+          "endpoint": "Third-party systems or domains referencing Dropbox",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Third-party systems or domains referencing Dropbox"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/dropbox/dropbox-vdp/detail"
+}

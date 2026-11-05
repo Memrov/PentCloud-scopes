@@ -1,0 +1,120 @@
+{
+  "id": "intigriti:0d585f25-b705-4141-a961-66d6ade8942e",
+  "metadata": {
+    "company_handle": "simscale",
+    "confidentiality_level": "public",
+    "handle": "simscale",
+    "id": "0d585f25-b705-4141-a961-66d6ade8942e",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 6000
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 250
+    },
+    "name": "SimScale",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/simscale/simscale/detail"
+  },
+  "name": "SimScale",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "85d83708616a10cab8e453113c90266187b74a6ecf8c471b5b5fd78db9ce03bf",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "0d585f25-b705-4141-a961-66d6ade8942e",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "API URL: `https://api.simscale.com`\n\nThe API doc is available at https://api.simscale.com.\n\nAPI keys can be managed in the [API keys page](https://www.simscale.com/dashboard/api_keys).\n",
+        "raw": {
+          "description": "API URL: `https://api.simscale.com`\n\nThe API doc is available at https://api.simscale.com.\n\nAPI keys can be managed in the [API keys page](https://www.simscale.com/dashboard/api_keys).\n",
+          "endpoint": "SimScale API",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "SimScale API"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The following areas and paths under domain `https://www.simscale.com`:\n\n#### User Account & Security\nIncludes all aspects of user accounts, including signup, login, password management, API keys, and session handling.\n\nPaths: `/signup/*`, `/signin/*`, `/dashboard/profile`, `/dashboard/security`, `/dashboard/api_keys`\n\n* [User registration](https://www.simscale.com/signup/) and following onboarding\n* [Login](https://www.simscale.com/signin/)\n* [Password reset](https://www.simscale.com/signin/forgot-password/)\n* [Change password](https://www.simscale.com/dashboard/security) (login required)\n* [API key management](https://www.simscale.com/dashboard/api_keys/) (login required)\n\n\n#### Dashboard \n\nCentral space for project and permission management.\n\nPaths:  `/dashboard/*`\n\n* [Dashboard](https://www.simscale.com/dashboard/) (login required).\n\n\n#### Workbench\n\nCovers the complete simulation workflow, including CAD import and editing, meshing, simulation setup and execution, and post-processing.\n\nPaths: `/workbench/*`\n\n* [Workbench](https://www.simscale.com/workbench/?pid=1765004443902609189) (login required), opens a public project in view-only mode.\n\n\n#### Public project library\n\nPaths: `/projects/*`\n\n* [Public projects](https://www.simscale.com/projects/)\n* [Detail page of a public project](https://www.simscale.com/projects/simscale/tutorial-_pipe_junction_flow/)\n\n\n#### Related API endpoints\n\nAll API endpoints used by the areas listed above.\n\nPaths: `/api/*`, `/csm/*`, `/postprocessing/*`",
+        "raw": {
+          "description": "The following areas and paths under domain `https://www.simscale.com`:\n\n#### User Account & Security\nIncludes all aspects of user accounts, including signup, login, password management, API keys, and session handling.\n\nPaths: `/signup/*`, `/signin/*`, `/dashboard/profile`, `/dashboard/security`, `/dashboard/api_keys`\n\n* [User registration](https://www.simscale.com/signup/) and following onboarding\n* [Login](https://www.simscale.com/signin/)\n* [Password reset](https://www.simscale.com/signin/forgot-password/)\n* [Change password](https://www.simscale.com/dashboard/security) (login required)\n* [API key management](https://www.simscale.com/dashboard/api_keys/) (login required)\n\n\n#### Dashboard \n\nCentral space for project and permission management.\n\nPaths:  `/dashboard/*`\n\n* [Dashboard](https://www.simscale.com/dashboard/) (login required).\n\n\n#### Workbench\n\nCovers the complete simulation workflow, including CAD import and editing, meshing, simulation setup and execution, and post-processing.\n\nPaths: `/workbench/*`\n\n* [Workbench](https://www.simscale.com/workbench/?pid=1765004443902609189) (login required), opens a public project in view-only mode.\n\n\n#### Public project library\n\nPaths: `/projects/*`\n\n* [Public projects](https://www.simscale.com/projects/)\n* [Detail page of a public project](https://www.simscale.com/projects/simscale/tutorial-_pipe_junction_flow/)\n\n\n#### Related API endpoints\n\nAll API endpoints used by the areas listed above.\n\nPaths: `/api/*`, `/csm/*`, `/postprocessing/*`",
+          "endpoint": "SimScale Platform",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "SimScale Platform"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Everything below https://www.simscale.com/forum/\n",
+        "raw": {
+          "description": "Everything below https://www.simscale.com/forum/\n",
+          "endpoint": "SimScale Forum",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "SimScale Forum"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Domain https://www.simscale.com and the remaining paths not listed under SimScale Platform or SimScale Forum.\n\n* [Landing page](https://www.simscale.com/)\n* [Documentation](https://www.simscale.com/docs/)\n* [Blog](https://www.simscale.com/blog/)\n",
+        "raw": {
+          "description": "Domain https://www.simscale.com and the remaining paths not listed under SimScale Platform or SimScale Forum.\n\n* [Landing page](https://www.simscale.com/)\n* [Documentation](https://www.simscale.com/docs/)\n* [Blog](https://www.simscale.com/blog/)\n",
+          "endpoint": "SimScale Website",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "SimScale Website"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://www.simscale.com/api/v1/projects/*",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://www.simscale.com/api/v1/projects/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.simscale.com/forum/users/*.json",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "www.simscale.com/forum/users/*.json"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/simscale/simscale/detail"
+}

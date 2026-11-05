@@ -1,0 +1,67 @@
+{
+  "id": "intigriti:2f8db691-ed2b-4796-9b31-d808efb80dfa",
+  "metadata": {
+    "company_handle": "kuleuven",
+    "confidentiality_level": "public",
+    "handle": "onlineinschrijvingenbetalingstoepassing",
+    "id": "2f8db691-ed2b-4796-9b31-d808efb80dfa",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 2000
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Online enrollment for students Bug Bounty Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/kuleuven/onlineinschrijvingenbetalingstoepassing/detail"
+  },
+  "name": "Online enrollment for students Bug Bounty Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "11c869ca0ae1e0cd8d15e773ad34927de1f4fa898771cd23c798c4612a17e25b",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "2f8db691-ed2b-4796-9b31-d808efb80dfa",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "🇬🇧🇳🇱  the registration/login part on idp.kuleuven.be itself is out of scope for the program",
+        "raw": {
+          "description": "🇬🇧🇳🇱  the registration/login part on idp.kuleuven.be itself is out of scope for the program",
+          "endpoint": "https://associatie.kuleuven.be/inschrijvingen/oli_login_50000050",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://associatie.kuleuven.be/inschrijvingen/oli_login_50000050"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "🇬🇧🇳🇱 ",
+        "raw": {
+          "description": "🇬🇧🇳🇱 ",
+          "endpoint": "https://webwsp.aps.kuleuven.be/sap/bc/ui5_ui5/sap/zc_oi_appl/",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://webwsp.aps.kuleuven.be/sap/bc/ui5_ui5/sap/zc_oi_appl/"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/kuleuven/onlineinschrijvingenbetalingstoepassing/detail"
+}

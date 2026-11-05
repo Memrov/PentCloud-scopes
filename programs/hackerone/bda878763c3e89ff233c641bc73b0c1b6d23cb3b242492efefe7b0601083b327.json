@@ -1,0 +1,74 @@
+{
+  "id": "hackerone:discover-vdp",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 1170.0,
+    "handle": "discover-vdp",
+    "id": 0,
+    "managed_program": true,
+    "name": "Discover VDP",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 86,
+    "submission_state": "open",
+    "url": "https://hackerone.com/discover-vdp",
+    "website": "http://www.discover.com"
+  },
+  "name": "Discover VDP",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "0218454964434f21468443a4cc616d036f92f70b5119a5bab560e868a83f7000",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "discover-vdp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.discover.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.discover.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.discoverfinancial.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.discoverfinancial.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/discover-vdp"
+}

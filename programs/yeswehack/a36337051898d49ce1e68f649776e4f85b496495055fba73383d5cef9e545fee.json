@@ -1,0 +1,142 @@
+{
+  "id": "yeswehack:datadome-bot-bounty",
+  "metadata": {
+    "disabled": false,
+    "id": "datadome-bot-bounty",
+    "managed": null,
+    "max_bounty": 1000,
+    "min_bounty": 200,
+    "name": "DataDome Bot Bounty",
+    "public": true
+  },
+  "name": "DataDome Bot Bounty",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "7ca7a7456f84729efdda01fa4abd90755d44da61bd40b708b741a9af3d97e675",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "datadome-bot-bounty",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://bounty-nodejs.datashield.co",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://bounty-nodejs.datashield.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://bounty-fastly.datashield.co",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://bounty-fastly.datashield.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://bounty-nginx.datashield.co",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://bounty-nginx.datashield.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "*.captcha-delivery.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "*.captcha-delivery.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "js.datadome.co",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "js.datadome.co"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "api-js.datadome.co",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "api-js.datadome.co"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Distributed attacks (scraping must be performed from a single IP at a time)",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Distributed attacks (scraping must be performed from a single IP at a time)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Denial of service attacks or any technique whose goal is to degrade infrastructure availability. This falls outside the scope of bot protection bypass and will not be rewarded.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Denial of service attacks or any technique whose goal is to degrade infrastructure availability. This falls outside the scope of bot protection bypass and will not be rewarded."
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Social engineering of DataDome employees or contractors",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Social engineering of DataDome employees or contractors"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Client-side web vulnerabilities",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Client-side web vulnerabilities"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/datadome-bot-bounty"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:curl",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 13.0,
+    "average_time_to_report_resolved": 419.0,
+    "handle": "curl",
+    "id": 0,
+    "managed_program": false,
+    "name": "curl",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/curl",
+    "website": "https://curl.se"
+  },
+  "name": "curl",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "044d4494fa06603d03186c765110839072216c63edcecc1eb808295db6123d89",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "curl",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/curl/curl",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/curl/curl"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/curl"
+}

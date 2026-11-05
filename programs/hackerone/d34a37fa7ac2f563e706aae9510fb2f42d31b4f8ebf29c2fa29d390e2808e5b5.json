@@ -1,0 +1,290 @@
+{
+  "id": "hackerone:1win_com",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 349.0,
+    "average_time_to_first_program_response": 7.0,
+    "average_time_to_report_resolved": 1017.0,
+    "handle": "1win_com",
+    "id": 0,
+    "managed_program": false,
+    "name": "1win",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/1win_com",
+    "website": "https://1win.com"
+  },
+  "name": "1win",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "3309bf0a27a72affdac56b7889275c805ae112554976d1028912c61a6a71bcf1",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "1win_com",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Mirror of 1win.com: redirects to the current 1win.com mirror. Same platform and same scope as 1win.com. Not related to the 1win Partners program.",
+        "raw": {
+          "asset_identifier": "1w.cash",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Mirror of 1win.com: redirects to the current 1win.com mirror. Same platform and same scope as 1win.com. Not related to the 1win Partners program.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "1w.cash"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**1win Partners** - the official 1win affiliate program, owned and operated by 1win.\n\nIn scope:\n- Partner registration and login\n- Partner dashboard: statistics, promo tools, payment details, payouts\n- Referral links, attribution and postbacks\n- Partner API and Telegram bot\n\nThe same service runs on 1w.run, 1win-partners.com, 1win.partners, 1win.run, 1w-partner.com and 1win.team. Report issues found on any of them under 1w.run or 1win-partners.com; both are accepted.\n\nPayout manipulation and hijacking of referral attribution are rated under the financial rows of the reward table (¹).",
+        "raw": {
+          "asset_identifier": "1w.run",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**1win Partners** - the official 1win affiliate program, owned and operated by 1win.\n\nIn scope:\n- Partner registration and login\n- Partner dashboard: statistics, promo tools, payment details, payouts\n- Referral links, attribution and postbacks\n- Partner API and Telegram bot\n\nThe same service runs on 1w.run, 1win-partners.com, 1win.partners, 1win.run, 1w-partner.com and 1win.team. Report issues found on any of them under 1w.run or 1win-partners.com; both are accepted.\n\nPayout manipulation and hijacking of referral attribution are rated under the financial rows of the reward table (¹).",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "1w.run"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**1win Partners** - the official 1win affiliate program, owned and operated by 1win.\n\nIn scope:\n- Partner registration and login\n- Partner dashboard: statistics, promo tools, payment details, payouts\n- Referral links, attribution and postbacks\n- Partner API and Telegram bot\n\nThe same service runs on 1w.run, 1win-partners.com, 1win.partners, 1win.run, 1w-partner.com and 1win.team. Report issues found on any of them under 1w.run or 1win-partners.com; both are accepted.\n\nPayout manipulation and hijacking of referral attribution are rated under the financial rows of the reward table (¹).",
+        "raw": {
+          "asset_identifier": "1win-partners.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**1win Partners** - the official 1win affiliate program, owned and operated by 1win.\n\nIn scope:\n- Partner registration and login\n- Partner dashboard: statistics, promo tools, payment details, payouts\n- Referral links, attribution and postbacks\n- Partner API and Telegram bot\n\nThe same service runs on 1w.run, 1win-partners.com, 1win.partners, 1win.run, 1w-partner.com and 1win.team. Report issues found on any of them under 1w.run or 1win-partners.com; both are accepted.\n\nPayout manipulation and hijacking of referral attribution are rated under the financial rows of the reward table (¹).",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "1win-partners.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "- Registration\n- Login\n- Deposit\n- Withdrawal\n- Personal account(settings, voucher, details, etc)\n\n**Here is an incomplete list of countries where the 1win.com website is available: Brazil, Albania, Vietnam, Gibraltar, Zimbabwe, Israel, Indonesia, Malaysia, Kuwait, Jamaica, Japan, Panama, Thailand, Taiwan, Turkey, Philippines, South Korea, India, Bangladesh, Pakistan, Nepal, Kyrgyzstan, Azerbaijan, Uzbekistan, Tajikistan, Armenia, Chile, Argentina, Colombia, Ecuador, Venezuela, Bolivia, Cameroon, Egypt, Zambia, Costa Rica, Algeria, Angola, Andorra, Gabon, Guatemala, Guinea-Bissau, Honduras, Mozambique, Monaco, Mongolia, Namibia**\n\nOfficial 1win country domains and mirrors serving the same platform as 1win.com are in scope. Report issues found on them against this asset.",
+        "raw": {
+          "asset_identifier": "1win.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "- Registration\n- Login\n- Deposit\n- Withdrawal\n- Personal account(settings, voucher, details, etc)\n\n**Here is an incomplete list of countries where the 1win.com website is available: Brazil, Albania, Vietnam, Gibraltar, Zimbabwe, Israel, Indonesia, Malaysia, Kuwait, Jamaica, Japan, Panama, Thailand, Taiwan, Turkey, Philippines, South Korea, India, Bangladesh, Pakistan, Nepal, Kyrgyzstan, Azerbaijan, Uzbekistan, Tajikistan, Armenia, Chile, Argentina, Colombia, Ecuador, Venezuela, Bolivia, Cameroon, Egypt, Zambia, Costa Rica, Algeria, Angola, Andorra, Gabon, Guatemala, Guinea-Bissau, Honduras, Mozambique, Monaco, Mongolia, Namibia**\n\nOfficial 1win country domains and mirrors serving the same platform as 1win.com are in scope. Report issues found on them against this asset.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "1win.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**1win.io** - the official 1win crypto casino and sports betting site, running on the same platform as 1win.com.\n\nIn scope:\n- Registration and login\n- Crypto deposits and withdrawals\n- Personal account (settings, vouchers, bonuses)\n- Casino and betting",
+        "raw": {
+          "asset_identifier": "1win.io",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**1win.io** - the official 1win crypto casino and sports betting site, running on the same platform as 1win.com.\n\nIn scope:\n- Registration and login\n- Crypto deposits and withdrawals\n- Personal account (settings, vouchers, bonuses)\n- Casino and betting",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "1win.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "1wintoken.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "1wintoken.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "1wtoken.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "1wtoken.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "In scope:\n- Payment forms and integrations hosted on 1win.com, including processing of redirect responses and callbacks.\n\nOut of scope:\n- Infrastructure and APIs of external payment providers (vulnerabilities that do not affect 1win)",
+        "raw": {
+          "asset_identifier": "Deposit/Withdraw",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "In scope:\n- Payment forms and integrations hosted on 1win.com, including processing of redirect responses and callbacks.\n\nOut of scope:\n- Infrastructure and APIs of external payment providers (vulnerabilities that do not affect 1win)",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Deposit/Withdraw"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**1win Forum** - the official 1win community forum (self-hosted Invision Community). Also available at forum.1win.com; report issues found there under this asset.\n\nIn scope:\n- Access control, including restricted sub-forums and private messages\n- Account security and session handling\n- Stored XSS and other injections in posts, profiles, themes and integrations\n\nVulnerabilities in the Invision Community core are accepted if they are exploitable on this instance.",
+        "raw": {
+          "asset_identifier": "forum.1win.io",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**1win Forum** - the official 1win community forum (self-hosted Invision Community). Also available at forum.1win.com; report issues found there under this asset.\n\nIn scope:\n- Access control, including restricted sub-forums and private messages\n- Account security and session handling\n- Stored XSS and other injections in posts, profiles, themes and integrations\n\nVulnerabilities in the Invision Community core are accepted if they are exploitable on this instance.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "forum.1win.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Here is an incomplete list of countries where the 1win.com website is available: Brazil, Albania, Vietnam, Gibraltar, Zimbabwe, Israel, Indonesia, Malaysia, Kuwait, Jamaica, Japan, Panama, Thailand, Taiwan, Turkey, Philippines, South Korea, India, Bangladesh, Pakistan, Nepal, Kyrgyzstan, Azerbaijan, Uzbekistan, Tajikistan, Armenia, Chile, Argentina, Colombia, Ecuador, Venezuela, Bolivia, Cameroon, Egypt, Zambia, Costa Rica, Algeria, Angola, Andorra, Gabon, Guatemala, Guinea-Bissau, Honduras, Mozambique, Monaco, Mongolia, Namibia",
+        "raw": {
+          "asset_identifier": "https://1win.com/betting",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Here is an incomplete list of countries where the 1win.com website is available: Brazil, Albania, Vietnam, Gibraltar, Zimbabwe, Israel, Indonesia, Malaysia, Kuwait, Jamaica, Japan, Panama, Thailand, Taiwan, Turkey, Philippines, South Korea, India, Bangladesh, Pakistan, Nepal, Kyrgyzstan, Azerbaijan, Uzbekistan, Tajikistan, Armenia, Chile, Argentina, Colombia, Ecuador, Venezuela, Bolivia, Cameroon, Egypt, Zambia, Costa Rica, Algeria, Angola, Andorra, Gabon, Guatemala, Guinea-Bissau, Honduras, Mozambique, Monaco, Mongolia, Namibia",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://1win.com/betting"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "All games available at https://1win.com/casino fall within the scope of the program.",
+        "raw": {
+          "asset_identifier": "https://1win.com/casino",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "All games available at https://1win.com/casino fall within the scope of the program.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://1win.com/casino"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://solscan.io/account/B2RFzpckwjtHXHMrPMKarg6Cj6xkSdT6mru4gJiJE87L",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://solscan.io/account/B2RFzpckwjtHXHMrPMKarg6Cj6xkSdT6mru4gJiJE87L"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://solscan.io/account/GWvQinGBRa7ZUzhXY23MrLjdsx3KfRGxH8yXURBwrz1R",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://solscan.io/account/GWvQinGBRa7ZUzhXY23MrLjdsx3KfRGxH8yXURBwrz1R"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://solscan.io/account/sxzuA7TuRvjVbrXkJUgrYq2hfjVf3RFd8WFaSxt2rYm",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://solscan.io/account/sxzuA7TuRvjVbrXkJUgrYq2hfjVf3RFd8WFaSxt2rYm"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/1win_com"
+}

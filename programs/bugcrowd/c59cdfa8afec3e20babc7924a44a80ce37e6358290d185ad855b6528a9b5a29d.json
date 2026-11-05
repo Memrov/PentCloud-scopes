@@ -1,0 +1,59 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/volkswagen-og",
+  "metadata": {
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "max_payout": 2500,
+    "name": "Volkswagen ",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/volkswagen-og"
+  },
+  "name": "Volkswagen ",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "955f8468b71940e625a07ecde1823f46e8ba0fdae77b32a9543577a6dc6dda88",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/volkswagen-og",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.volkswagen.de",
+          "target": "*.volkswagen.de",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.volkswagen.de"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "erwin.volkswagen.de",
+          "target": "https://erwin.volkswagen.de",
+          "type": "website",
+          "uri": "https://erwin.volkswagen.de"
+        },
+        "type": "website",
+        "value": "https://erwin.volkswagen.de"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/volkswagen-og"
+}

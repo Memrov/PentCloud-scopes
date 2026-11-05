@@ -1,0 +1,453 @@
+{
+  "id": "hackerone:chainlink",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 535.0,
+    "average_time_to_report_resolved": null,
+    "handle": "chainlink",
+    "id": 0,
+    "managed_program": false,
+    "name": "Chainlink",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 16,
+    "submission_state": "open",
+    "url": "https://hackerone.com/chainlink",
+    "website": "https://chain.link/"
+  },
+  "name": "Chainlink",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "0635330d7d8b3ac4379a765ab965f7375d2c2d14477dc413a6ed883804e6fe4f",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "chainlink",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.smartcontract.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.smartcontract.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Chainlink Testnet Faucet is available at the following URL: https://faucets.chain.link/\n",
+        "raw": {
+          "asset_identifier": "Faucets",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Chainlink Testnet Faucet is available at the following URL: https://faucets.chain.link/\n",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "OTHER",
+        "value": "Faucets"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The focus of this program should be on the code residing on our Github repository. While reports on the domain and email are useful, we will no longer reward bounties for these reports.",
+        "raw": {
+          "asset_identifier": "chain.link",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The focus of this program should be on the code residing on our Github repository. While reports on the domain and email are useful, we will no longer reward bounties for these reports.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "chain.link"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/smartcontractkit/chainlink"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink-evm/tree/develop/contracts",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://github.com/smartcontractkit/chainlink-evm/tree/develop/contracts"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink-solana/tree/develop/contracts",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://github.com/smartcontractkit/chainlink-solana/tree/develop/contracts"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/external-adapters-js/",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "high"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/smartcontractkit/external-adapters-js/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/staking-v0.1/tree/master/contracts",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://github.com/smartcontractkit/staking-v0.1/tree/master/contracts"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Intercom is a 3rd party add-on and is not in scope.",
+        "raw": {
+          "asset_identifier": "Intercom",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Intercom is a 3rd party add-on and is not in scope.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Intercom"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "blog.chain.link",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "blog.chain.link"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The asset chainlinklabs.com is out of scope for this program.",
+        "raw": {
+          "asset_identifier": "chainlinklabs.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The asset chainlinklabs.com is out of scope for this program.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "chainlinklabs.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "create.smartcontract.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "create.smartcontract.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "docs.chain.link",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "docs.chain.link"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The contracts in the chainlink/contracts/src/*/dev directory are currently in development and not considered production-ready.",
+        "raw": {
+          "asset_identifier": "github.com/smartcontractkit/chainlink/contracts/src/*/dev",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The contracts in the chainlink/contracts/src/*/dev directory are currently in development and not considered production-ready.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "github.com/smartcontractkit/chainlink/contracts/src/*/dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The Chainlink Examples directory contains tools and private keys in order to test the Chainlink client in an end-to-end, deterministic way. It contains private keys and passwords which are only for use in development.",
+        "raw": {
+          "asset_identifier": "github.com/smartcontractkit/chainlink/examples",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The Chainlink Examples directory contains tools and private keys in order to test the Chainlink client in an end-to-end, deterministic way. It contains private keys and passwords which are only for use in development.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "github.com/smartcontractkit/chainlink/examples"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://github.com/smartcontractkit/chainlink"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink-evm/tree/develop/contracts/.../dev",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://github.com/smartcontractkit/chainlink-evm/tree/develop/contracts/.../dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink-solana/tree/develop/contracts/.../dev",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://github.com/smartcontractkit/chainlink-solana/tree/develop/contracts/.../dev"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink/tree/master/contracts",
+          "asset_type": "SMART_CONTRACT",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "SMART_CONTRACT",
+        "value": "https://github.com/smartcontractkit/chainlink/tree/master/contracts"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The internal directory contains tools and private keys in order to test the Chainlink client in an end-to-end, deterministic way. It contains private keys and passwords which are only for use in development.",
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink/tree/master/core/internal",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The internal directory contains tools and private keys in order to test the Chainlink client in an end-to-end, deterministic way. It contains private keys and passwords which are only for use in development.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/smartcontractkit/chainlink/tree/master/core/internal"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The Chainlink SGX directory contains tools and private keys in order to test the Chainlink's SGX compatibility in an end-to-end, deterministic way. It contains private keys and passwords which are only for use in development.",
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink/tree/master/core/sgx",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The Chainlink SGX directory contains tools and private keys in order to test the Chainlink's SGX compatibility in an end-to-end, deterministic way. It contains private keys and passwords which are only for use in development.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/smartcontractkit/chainlink/tree/master/core/sgx"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The Chainlink Integration directory contains tools and private keys in order to test the Chainlink client in an end-to-end, deterministic way. It contains private keys and passwords which are only for use in development.",
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink/tree/master/integration",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The Chainlink Integration directory contains tools and private keys in order to test the Chainlink client in an end-to-end, deterministic way. It contains private keys and passwords which are only for use in development.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/smartcontractkit/chainlink/tree/master/integration"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The Chainlink Tools directory contains tools and private keys in order to test the Chainlink client in an end-to-end, deterministic way. It contains private keys and passwords which are only for use in development.",
+        "raw": {
+          "asset_identifier": "https://github.com/smartcontractkit/chainlink/tree/master/tools",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The Chainlink Tools directory contains tools and private keys in order to test the Chainlink client in an end-to-end, deterministic way. It contains private keys and passwords which are only for use in development.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/smartcontractkit/chainlink/tree/master/tools"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/chainlink"
+}

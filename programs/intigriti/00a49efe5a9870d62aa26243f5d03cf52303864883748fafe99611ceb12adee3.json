@@ -1,0 +1,132 @@
+{
+  "id": "intigriti:afeb2624-ac2e-46bc-b078-b0e018baeb62",
+  "metadata": {
+    "company_handle": "digitalocean",
+    "confidentiality_level": "public",
+    "handle": "cloudways",
+    "id": "afeb2624-ac2e-46bc-b078-b0e018baeb62",
+    "max_bounty": {
+      "currency": "USD",
+      "value": 4000
+    },
+    "min_bounty": {
+      "currency": "USD",
+      "value": 50
+    },
+    "name": "Cloudways by DigitalOcean",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/digitalocean/cloudways/detail"
+  },
+  "name": "Cloudways by DigitalOcean",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "e1cf90f5478204396d172cd747ac0d12a22c3b930621bda5e21b30d5152a5267",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "afeb2624-ac2e-46bc-b078-b0e018baeb62",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "All external services/software like `support.cloudways.com` and `feedback.cloudways.com` that are not owned, managed or controlled by Cloudways are considered out of scope and ineligible for rewards.",
+        "raw": {
+          "description": "All external services/software like `support.cloudways.com` and `feedback.cloudways.com` that are not owned, managed or controlled by Cloudways are considered out of scope and ineligible for rewards.",
+          "endpoint": "*.cloudways.com",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.cloudways.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Cloudways API offers an alternative to the Cloudways Platform. Many, but not all actions that Cloudways Platform allows through the UI can also be performed through Cloudways API.\n\nIn the event a vulnerability is applicable to both the Cloudways Platform (platform.cloudways.com) and API, it will be treated as one root incident.",
+        "raw": {
+          "description": "Cloudways API offers an alternative to the Cloudways Platform. Many, but not all actions that Cloudways Platform allows through the UI can also be performed through Cloudways API.\n\nIn the event a vulnerability is applicable to both the Cloudways Platform (platform.cloudways.com) and API, it will be treated as one root incident.",
+          "endpoint": "api.cloudways.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "api.cloudways.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Cloudways Developers authorizes the API key to use Cloudways API. The vulnerability testing of this target should focus on the process of API authorization ONLY. All other areas on Cloudways developers are strictly OUT OF SCOPE.",
+        "raw": {
+          "description": "Cloudways Developers authorizes the API key to use Cloudways API. The vulnerability testing of this target should focus on the process of API authorization ONLY. All other areas on Cloudways developers are strictly OUT OF SCOPE.",
+          "endpoint": "developers.cloudways.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "developers.cloudways.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Cloudways Platform is the primary target for this program. Cloudways Platform is the main interaction point for Cloudways customers. Through the Platform, customers could launch managed cloud servers and then set up their application on these servers. Once the application is up, Cloudways Platform provides users with options to manage their servers and applications.",
+        "raw": {
+          "description": "Cloudways Platform is the primary target for this program. Cloudways Platform is the main interaction point for Cloudways customers. Through the Platform, customers could launch managed cloud servers and then set up their application on these servers. Once the application is up, Cloudways Platform provides users with options to manage their servers and applications.",
+          "endpoint": "platform.cloudways.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "platform.cloudways.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Cloudways Platofrm with new UI along with new api and backend to handle all the services of Cloudways",
+        "raw": {
+          "description": "Cloudways Platofrm with new UI along with new api and backend to handle all the services of Cloudways",
+          "endpoint": "unified.cloudways.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "unified.cloudways.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Cloudways website is the corporate website that is often the initial touchpoint for a significant number of interactions between visitors, customers and Cloudways. It offers product details and related corporate information to visitors.\n",
+        "raw": {
+          "description": "Cloudways website is the corporate website that is often the initial touchpoint for a significant number of interactions between visitors, customers and Cloudways. It offers product details and related corporate information to visitors.\n",
+          "endpoint": "www.cloudways.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.cloudways.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "css-tricks.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "css-tricks.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/digitalocean/cloudways/detail"
+}

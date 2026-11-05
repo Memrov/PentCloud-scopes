@@ -1,0 +1,273 @@
+{
+  "id": "hackerone:enjin",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": 184.0,
+    "average_time_to_first_program_response": 12.0,
+    "average_time_to_report_resolved": null,
+    "handle": "enjin",
+    "id": 0,
+    "managed_program": false,
+    "name": "Enjin",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/enjin",
+    "website": "https://enjin.io"
+  },
+  "name": "Enjin",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "09f8568742b4c8795790379f8e6317bcd08a451a638610159d4a997730ad6f19",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "enjin",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "This asset is out-of-scope as a third-party service is responsible for the running and maintenance of this website.",
+        "raw": {
+          "asset_identifier": "*.enjinusercontent.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "This asset is out-of-scope as a third-party service is responsible for the running and maintenance of this website.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "low"
+        },
+        "type": "WILDCARD",
+        "value": "*.enjinusercontent.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "The Enjin Blockchain refers to either the Enjin Relaychain or the Enjin Matrixchain. It does not refer to other (community-operated) Matrixchains.\n\nIssues originating from Substrate are notifiable but ineligible for a bounty as Enjin Blockchain will automatically work towards scheduling upgrades from Substrate, which includes new features; bug fixes; and security fixes.",
+        "raw": {
+          "asset_identifier": "Enjin Blockchain",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "The Enjin Blockchain refers to either the Enjin Relaychain or the Enjin Matrixchain. It does not refer to other (community-operated) Matrixchains.\n\nIssues originating from Substrate are notifiable but ineligible for a bounty as Enjin Blockchain will automatically work towards scheduling upgrades from Substrate, which includes new features; bug fixes; and security fixes.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Enjin Blockchain"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://apps.apple.com/us/app/enjin-cryptocurrency-wallet/id1349078375\n\n**Background**\nThe Enjin Wallet is a secure, feature-packed, and convenient blockchain asset wallet built for traders, gamers, and developers.",
+        "raw": {
+          "asset_identifier": "com.enjin.mobile.wallet",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://apps.apple.com/us/app/enjin-cryptocurrency-wallet/id1349078375\n\n**Background**\nThe Enjin Wallet is a secure, feature-packed, and convenient blockchain asset wallet built for traders, gamers, and developers.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.enjin.mobile.wallet"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://play.google.com/store/apps/details?id=com.enjin.mobile.wallet\n\n**Background**\nThe Enjin Wallet is a secure, feature-packed, and convenient blockchain asset wallet built for traders, gamers, and developers.",
+        "raw": {
+          "asset_identifier": "com.enjin.mobile.wallet",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://play.google.com/store/apps/details?id=com.enjin.mobile.wallet\n\n**Background**\nThe Enjin Wallet is a secure, feature-packed, and convenient blockchain asset wallet built for traders, gamers, and developers.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.enjin.mobile.wallet"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "You can also test, for free, on [canary.nft.io](https://canary.nft.io).",
+        "raw": {
+          "asset_identifier": "nft.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "You can also test, for free, on [canary.nft.io](https://canary.nft.io).",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "nft.io"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "platform.enjin.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "platform.enjin.io"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is out-of-scope as a third-party service is responsible for the running and maintenance of this website.",
+        "raw": {
+          "asset_identifier": "assets.enjin.io",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is out-of-scope as a third-party service is responsible for the running and maintenance of this website.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "assets.enjin.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is out-of-scope as a third-party service is responsible for the running and maintenance of this website.",
+        "raw": {
+          "asset_identifier": "cdn.enjin.io",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is out-of-scope as a third-party service is responsible for the running and maintenance of this website.",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "cdn.enjin.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is out-of-scope as a third-party service is responsible for the running and maintenance of this website.",
+        "raw": {
+          "asset_identifier": "cdn.nft.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is out-of-scope as a third-party service is responsible for the running and maintenance of this website.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "cdn.nft.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is out-of-scope as a third-party service (ReadMe) is responsible for the running and maintenance of this website.",
+        "raw": {
+          "asset_identifier": "docs.enjin.io",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is out-of-scope as a third-party service (ReadMe) is responsible for the running and maintenance of this website.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "docs.enjin.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is out-of-scope as a third-party service is responsible for the running and maintenance of this website.",
+        "raw": {
+          "asset_identifier": "enj.in",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is out-of-scope as a third-party service is responsible for the running and maintenance of this website.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "enj.in"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is out-of-scope as a third-party service (Webflow) is responsible for the running and maintenance of this website.",
+        "raw": {
+          "asset_identifier": "enjin.io",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is out-of-scope as a third-party service (Webflow) is responsible for the running and maintenance of this website.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "enjin.io"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This asset is out-of-scope. Testing on this asset is strictly prohibited.",
+        "raw": {
+          "asset_identifier": "support.enjin.io",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This asset is out-of-scope. Testing on this asset is strictly prohibited.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "support.enjin.io"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/enjin"
+}

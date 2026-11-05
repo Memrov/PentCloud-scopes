@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:omarchy",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 35.0,
+    "average_time_to_report_resolved": null,
+    "handle": "omarchy",
+    "id": 0,
+    "managed_program": false,
+    "name": "Omarchy",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 93,
+    "submission_state": "open",
+    "url": "https://hackerone.com/omarchy",
+    "website": "http://omarchy.org"
+  },
+  "name": "Omarchy",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "f3af7a083dd7389347397f8b88d3a74a84c3622acdd9f25b6776036e2b7e0a79",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "omarchy",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/omacom/omarchy",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/omacom/omarchy"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/omarchy"
+}

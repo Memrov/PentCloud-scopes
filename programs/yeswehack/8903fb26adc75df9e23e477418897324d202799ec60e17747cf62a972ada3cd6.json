@@ -1,0 +1,76 @@
+{
+  "id": "yeswehack:cryptobox-bug-bounty",
+  "metadata": {
+    "disabled": false,
+    "id": "cryptobox-bug-bounty",
+    "managed": null,
+    "max_bounty": 5000,
+    "min_bounty": 100,
+    "name": "Cryptobox",
+    "public": true
+  },
+  "name": "Cryptobox",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "5b15dc878894669f17a1f6d157d0c2ffcbd473311ea66634e3877ad56c9b4594",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "cryptobox-bug-bounty",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://bounty.cryptobox.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://bounty.cryptobox.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.ercom.cryptobox.release&hl=fr",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.ercom.cryptobox.release&hl=fr"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/fr/app/cryptobox/id972602802",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/fr/app/cryptobox/id972602802"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Testing any other system than https://bounty.cryptobox.com, in particular admin.bounty.cryptobox.com, *.cryptobox.com or *.ercom.fr.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Testing any other system than https://bounty.cryptobox.com, in particular admin.bounty.cryptobox.com, *.cryptobox.com or *.ercom.fr."
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/cryptobox-bug-bounty"
+}

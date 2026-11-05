@@ -1,0 +1,119 @@
+{
+  "id": "intigriti:0083a5bf-e54f-4f79-a972-12a795272c8b",
+  "metadata": {
+    "company_handle": "innovapost",
+    "confidentiality_level": "public",
+    "handle": "innovapost",
+    "id": "0083a5bf-e54f-4f79-a972-12a795272c8b",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Canada Post - Responsible Disclosure Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/innovapost/innovapost/detail"
+  },
+  "name": "Canada Post - Responsible Disclosure Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "66030cb483541093a3aa83cc5b7487cfe551e46d9ada2c2cef3a502e3ab7e5d1",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "0083a5bf-e54f-4f79-a972-12a795272c8b",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Any subdomain of azcpggpc.ca (eg. alert-management-svc.prd01.retail-api.azcpggpc.ca)",
+        "raw": {
+          "description": "Any subdomain of azcpggpc.ca (eg. alert-management-svc.prd01.retail-api.azcpggpc.ca)",
+          "endpoint": "*.azcpggpc.ca",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.azcpggpc.ca"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Any subdomain of canadapost-postescanada.ca (eg. www.canadapost-postescanada.ca, sso-osu.canadapost-postescanada.ca and store.canadapost-postescanada.ca)",
+        "raw": {
+          "description": "Any subdomain of canadapost-postescanada.ca (eg. www.canadapost-postescanada.ca, sso-osu.canadapost-postescanada.ca and store.canadapost-postescanada.ca)",
+          "endpoint": "*.canadapost-postescanada.ca",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.canadapost-postescanada.ca"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Any subdomain of infopost.ca (eg. www.infopost.ca and dev.infopost.ca)",
+        "raw": {
+          "description": "Any subdomain of infopost.ca (eg. www.infopost.ca and dev.infopost.ca)",
+          "endpoint": "*.infopost.ca",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.infopost.ca"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Any subdomain of postescanada-canadapost.ca (eg. www.postescanada-canadapost.ca)",
+        "raw": {
+          "description": "Any subdomain of postescanada-canadapost.ca (eg. www.postescanada-canadapost.ca)",
+          "endpoint": "*.postescanada-canadapost.ca",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.postescanada-canadapost.ca"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Canada Post's mobile application for iOS",
+        "raw": {
+          "description": "Canada Post's mobile application for iOS",
+          "endpoint": "394391577",
+          "impact": "No Bounty",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "394391577"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Canada Post's mobile application for Android",
+        "raw": {
+          "description": "Canada Post's mobile application for Android",
+          "endpoint": "com.canadapost.android",
+          "impact": "No Bounty",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "com.canadapost.android"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/innovapost/innovapost/detail"
+}

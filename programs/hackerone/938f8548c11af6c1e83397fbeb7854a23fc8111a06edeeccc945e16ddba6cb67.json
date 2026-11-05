@@ -1,0 +1,417 @@
+{
+  "id": "hackerone:pixiv",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 147.0,
+    "average_time_to_first_program_response": 6.0,
+    "average_time_to_report_resolved": 1237.0,
+    "handle": "pixiv",
+    "id": 0,
+    "managed_program": true,
+    "name": "pixiv",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 72,
+    "submission_state": "open",
+    "url": "https://hackerone.com/pixiv",
+    "website": "https://www.pixiv.net"
+  },
+  "name": "pixiv",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "28cb20b12f82bcc7342f6259f203746947370ac5c961a70623d86de5de452801",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "pixiv",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "* This site uses pixiv account (signup at https://accounts.pixiv.net).\n",
+        "raw": {
+          "asset_identifier": "*.fanbox.cc",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "* This site uses pixiv account (signup at https://accounts.pixiv.net).\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.fanbox.cc"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "* Signin / signup site for many pixiv products (`*.pixiv.net`, `*.booth.pm`, etc).",
+        "raw": {
+          "asset_identifier": "accounts.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "* Signin / signup site for many pixiv products (`*.pixiv.net`, `*.booth.pm`, etc).",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "accounts.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "* This site uses pixiv account (signup at https://accounts.pixiv.net).\n* PC: https://booth.pm",
+        "raw": {
+          "asset_identifier": "booth.pm",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "* This site uses pixiv account (signup at https://accounts.pixiv.net).\n* PC: https://booth.pm",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "booth.pm"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "coban.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "coban.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "/submission is the only part excluded from vulnerability testing",
+        "raw": {
+          "asset_identifier": "comic-indies.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "/submission is the only part excluded from vulnerability testing",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "comic-indies.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This site is in Japanese.\nThis site uses pixiv account (signup at https://accounts.pixiv.net).\n- Web: https://comic.pixiv.net\n- iOS : https://apps.apple.com/jp/app/pixiv%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF/id975414811\n- Android: https://play.google.com/store/apps/details?id=jp.pxv.android.manga",
+        "raw": {
+          "asset_identifier": "comic.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This site is in Japanese.\nThis site uses pixiv account (signup at https://accounts.pixiv.net).\n- Web: https://comic.pixiv.net\n- iOS : https://apps.apple.com/jp/app/pixiv%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF/id975414811\n- Android: https://play.google.com/store/apps/details?id=jp.pxv.android.manga",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "comic.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "dic.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dic.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://vroid.com/studio",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://vroid.com/studio"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "* This site uses pixiv account (signup at https://accounts.pixiv.net).\n* This is a site where users share their 3D characters in [VRM file format](https://vrm.dev/en/).\n* When testing with VRM, please use characters provided by [our official account](https://hub.vroid.com/users/36144806).\n  * Go to a character -> click \"Use this model\" -> click \"Download\".\n* Please avoid interactions / exposure to other users to the best of you ability.",
+        "raw": {
+          "asset_identifier": "hub.vroid.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "* This site uses pixiv account (signup at https://accounts.pixiv.net).\n* This is a site where users share their 3D characters in [VRM file format](https://vrm.dev/en/).\n* When testing with VRM, please use characters provided by [our official account](https://hub.vroid.com/users/36144806).\n  * Go to a character -> click \"Use this model\" -> click \"Download\".\n* Please avoid interactions / exposure to other users to the best of you ability.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "hub.vroid.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "neoket.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "neoket.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This site is in Japanese.\nThis site uses pixiv account (signup at https://accounts.pixiv.net).\n- Web: https://novel.pixiv.net",
+        "raw": {
+          "asset_identifier": "novel.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This site is in Japanese.\nThis site uses pixiv account (signup at https://accounts.pixiv.net).\n- Web: https://novel.pixiv.net",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "novel.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "- This site uses pixiv account (signup at https://accounts.pixiv.net).\n- PC: https://pastela.app\n- iPadOS: https://apps.apple.com/app/pastela/id6478907270",
+        "raw": {
+          "asset_identifier": "pastela.app",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "- This site uses pixiv account (signup at https://accounts.pixiv.net).\n- PC: https://pastela.app\n- iPadOS: https://apps.apple.com/app/pastela/id6478907270",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "pastela.app"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "payment.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "payment.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "premium.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "premium.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "sensei.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "sensei.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "/lives/ is out of scope for scheduled to be discontinued.\n\n* This site is in Japanese.\n* This site uses pixiv account (signup at https://accounts.pixiv.net).\n* PC: https://sketch.pixiv.net/\n* iOS: https://itunes.apple.com/app/pixiv-sketch/id991334925\n* Android: https://play.google.com/store/apps/details?id=jp.pxv.android.sketch",
+        "raw": {
+          "asset_identifier": "sketch.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "/lives/ is out of scope for scheduled to be discontinued.\n\n* This site is in Japanese.\n* This site uses pixiv account (signup at https://accounts.pixiv.net).\n* PC: https://sketch.pixiv.net/\n* iOS: https://itunes.apple.com/app/pixiv-sketch/id991334925\n* Android: https://play.google.com/store/apps/details?id=jp.pxv.android.sketch",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "sketch.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "vroid.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "vroid.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "* The core pixiv.\n* Signup at https://accounts.pixiv.net\n* PC: https://www.pixiv.net/\n* iOS: https://itunes.apple.com/app/pixiv/id337248563\n* Android:  https://play.google.com/store/apps/details?id=jp.pxv.android",
+        "raw": {
+          "asset_identifier": "www.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "* The core pixiv.\n* Signup at https://accounts.pixiv.net\n* PC: https://www.pixiv.net/\n* iOS: https://itunes.apple.com/app/pixiv/id337248563\n* Android:  https://play.google.com/store/apps/details?id=jp.pxv.android",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.pixiv.net"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.pixiv.co.jp",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.pixiv.co.jp"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "ads.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "ads.pixiv.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "* This site is in Japanese.\n* This site uses pixiv account (signup at https://accounts.pixiv.net).",
+        "raw": {
+          "asset_identifier": "factory.pixiv.net",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "* This site is in Japanese.\n* This site uses pixiv account (signup at https://accounts.pixiv.net).",
+          "integrity_requirement": "medium",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "factory.pixiv.net"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/pixiv"
+}

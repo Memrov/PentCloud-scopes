@@ -1,0 +1,120 @@
+{
+  "id": "yeswehack:moneybox-bug-bounty",
+  "metadata": {
+    "disabled": false,
+    "id": "moneybox-bug-bounty",
+    "managed": null,
+    "max_bounty": 2000,
+    "min_bounty": 50,
+    "name": "Moneybox Bug Bounty",
+    "public": true
+  },
+  "name": "Moneybox Bug Bounty",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "926dcac0d8a85766fc27b9bc622536a932c69974902f8b7fe2018e572de63da2",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "moneybox-bug-bounty",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://api.moneyboxapp.com",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://api.moneyboxapp.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://admin.moneyboxapp.org",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://admin.moneyboxapp.org"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://admin-roundups.moneyboxapp.org",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://admin-roundups.moneyboxapp.org"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/gb/app/moneybox-save-and-invest/id1049797239",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/gb/app/moneybox-save-and-invest/id1049797239"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.moneyboxapp",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.moneyboxapp"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://sycamore.moneyboxapp.org",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://sycamore.moneyboxapp.org"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains or subdomains not listed in the above list of 'Scopes'"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "- Any reports relating to improper authorization / information disclosure on api.moneyboxapp.com through /investment/payments/GetGiftUser/{code} and PII leak or sensitive data exposure is out of scope as this was intended by design.",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "- Any reports relating to improper authorization / information disclosure on api.moneyboxapp.com through /investment/payments/GetGiftUser/{code} and PII leak or sensitive data exposure is out of scope as this was intended by design."
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/moneybox-bug-bounty"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "intigriti:0bcc2455-bd63-490b-b725-890a93a1c678",
+  "metadata": {
+    "company_handle": "lansweeper",
+    "confidentiality_level": "public",
+    "handle": "fing",
+    "id": "0bcc2455-bd63-490b-b725-890a93a1c678",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 3500
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 50
+    },
+    "name": "Fing Bug Bounty Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/lansweeper/fing/detail"
+  },
+  "name": "Fing Bug Bounty Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "8e36177e4149bdb34a23869bc26d27fd087e43d0dcfd7a3ac44d9d7334e16547",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "0bcc2455-bd63-490b-b725-890a93a1c678",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Our public cloud API for Device Recognition which can be requested on our website: https://app.fing.com/internet/business/devrecog/trial.",
+        "raw": {
+          "description": "Our public cloud API for Device Recognition which can be requested on our website: https://app.fing.com/internet/business/devrecog/trial.",
+          "endpoint": "service.fing.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "service.fing.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The Fing web application that gives you an overview of all monitored networks",
+        "raw": {
+          "description": "The Fing web application that gives you an overview of all monitored networks",
+          "endpoint": "app.fing.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "app.fing.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The free Fing App to identify connected devices, troubleshoot network and device issues, detect network intruders and run Wi-Fi and internet speed tests anywhere. It can be downloaded here: http://app.fing.com/app",
+        "raw": {
+          "description": "The free Fing App to identify connected devices, troubleshoot network and device issues, detect network intruders and run Wi-Fi and internet speed tests anywhere. It can be downloaded here: http://app.fing.com/app",
+          "endpoint": "Fing desktop",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "Fing desktop"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Always use \"intigriti.me\" address for any web form",
+        "raw": {
+          "description": "Always use \"intigriti.me\" address for any web form",
+          "endpoint": "www.fing.com*",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "www.fing.com*"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/lansweeper/fing/detail"
+}

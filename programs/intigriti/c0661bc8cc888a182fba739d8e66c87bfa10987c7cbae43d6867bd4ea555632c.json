@@ -1,0 +1,120 @@
+{
+  "id": "intigriti:eb340a46-b5b8-4165-b8d8-bc032493e8a6",
+  "metadata": {
+    "company_handle": "ubisoft",
+    "confidentiality_level": "public",
+    "handle": "ubisoftvdp",
+    "id": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Ubisoft Responsible Disclosure Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/ubisoft/ubisoftvdp/detail"
+  },
+  "name": "Ubisoft Responsible Disclosure Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "6f50555d8c564388f97e2f0bf2530ebf9868f6ed1e3d45a5b7b4736c60f6ce08",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "**Active in-scope Game Titles** - *last updated 08/12/25*\n\nPlatforms: all officially supported platforms and distribution channels for each title (e.g., PC, PlayStation, Xbox, Switch, iOS, Android, cloud services, and web-based games playable in a web browser).\n\n* R6 Siege\n* TCTD2\n* For Honor\n* Skull & Bones\n* The Crew: Motorfest\n* Just Dance\n* Watch Dogs Legion\n* Laser\n* Genesis\n* GR: Wildlands\n* AC: Shadows\n* Hungry Shark World\n* Hungry Shark Evolution\n* Invincible\n* Howrse\n* Brawlhalla\n* R6Mobile\n* M&M Era of Chaos\n* JD:Now\n* AC Mirage\n* AC Shadows\n* POP Lost Crown",
+        "raw": {
+          "description": "**Active in-scope Game Titles** - *last updated 08/12/25*\n\nPlatforms: all officially supported platforms and distribution channels for each title (e.g., PC, PlayStation, Xbox, Switch, iOS, Android, cloud services, and web-based games playable in a web browser).\n\n* R6 Siege\n* TCTD2\n* For Honor\n* Skull & Bones\n* The Crew: Motorfest\n* Just Dance\n* Watch Dogs Legion\n* Laser\n* Genesis\n* GR: Wildlands\n* AC: Shadows\n* Hungry Shark World\n* Hungry Shark Evolution\n* Invincible\n* Howrse\n* Brawlhalla\n* R6Mobile\n* M&M Era of Chaos\n* JD:Now\n* AC Mirage\n* AC Shadows\n* POP Lost Crown",
+          "endpoint": "Game Titles",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Game Titles"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "* Public-facing web applications and APIs owned and operated by Ubisoft (e.g., *.ubisoft.com, *.ubi.com, *.ubisoftconnect.com).\n* Official desktop applications (e.g., Ubisoft Connect and similar Ubisoft-owned client software) and official mobile applications (iOS/Android). Mobile applications that provide corporate services, account management, companion functionality, or other non‑game features are in scope; mobile games are excluded (see Game‑specific exclusions).\n* Corporate/online services and infrastructure exposed to the internet where Ubisoft is the owner/operator (e.g., partner/employee portals, admin panels, CDNs, storage endpoints).",
+        "raw": {
+          "description": "* Public-facing web applications and APIs owned and operated by Ubisoft (e.g., *.ubisoft.com, *.ubi.com, *.ubisoftconnect.com).\n* Official desktop applications (e.g., Ubisoft Connect and similar Ubisoft-owned client software) and official mobile applications (iOS/Android). Mobile applications that provide corporate services, account management, companion functionality, or other non‑game features are in scope; mobile games are excluded (see Game‑specific exclusions).\n* Corporate/online services and infrastructure exposed to the internet where Ubisoft is the owner/operator (e.g., partner/employee portals, admin panels, CDNs, storage endpoints).",
+          "endpoint": "First-party Ubisoft Web, Desktop and Mobile applications",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "First-party Ubisoft Web, Desktop and Mobile applications"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "The Settlers Online game",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "The Settlers Online game"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "forums.ubisoft.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "forums.ubisoft.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "ivalua.ubisoft.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "ivalua.ubisoft.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "suppliers-ivalua.ubisoft.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "suppliers-ivalua.ubisoft.com"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/ubisoft/ubisoftvdp/detail"
+}

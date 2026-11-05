@@ -1,0 +1,92 @@
+{
+  "id": "hackerone:6sense-vdp",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 288.0,
+    "average_time_to_report_resolved": 1292.0,
+    "handle": "6sense-vdp",
+    "id": 0,
+    "managed_program": true,
+    "name": "6sense VDP",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 80,
+    "submission_state": "open",
+    "url": "https://hackerone.com/6sense-vdp",
+    "website": "http://6sense.com"
+  },
+  "name": "6sense VDP",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "48b878dcab2be5174ba90c0e8f0d437111c2765a801f07bed66c55d0492eaf9b",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "6sense-vdp",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Security vulnerabilities that are identified in 6sense products or in website domains owned, operated, or controlled by 6sense are in scope",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Security vulnerabilities that are identified in 6sense products or in website domains owned, operated, or controlled by 6sense are in scope"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "6sense API Docs",
+        "raw": {
+          "asset_identifier": "https://api.6sense.com/docs/#introduction",
+          "asset_type": "API",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "6sense API Docs",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "API",
+        "value": "https://api.6sense.com/docs/#introduction"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "6sense SI Chrome extension\n\n",
+        "raw": {
+          "asset_identifier": "https://chromewebstore.google.com/detail/6sense-si-extension-for-c/mkpoonlmiaknmcdcmdhbnehhglndcolf?hl=en",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "6sense SI Chrome extension\n\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://chromewebstore.google.com/detail/6sense-si-extension-for-c/mkpoonlmiaknmcdcmdhbnehhglndcolf?hl=en"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/6sense-vdp"
+}

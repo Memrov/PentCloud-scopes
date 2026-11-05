@@ -1,0 +1,129 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/tamedia",
+  "metadata": {
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "max_payout": 2500,
+    "name": "Tamedia",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/tamedia"
+  },
+  "name": "Tamedia",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "7f3b8002118d3e1c7fb5cb842ddc22ab6e95be1449cb4fbef132f36f1cc751b9",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/tamedia",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://www.tagesanzeiger.ch",
+          "target": "https://www.tagesanzeiger.ch",
+          "type": "website",
+          "uri": "https://www.tagesanzeiger.ch"
+        },
+        "type": "website",
+        "value": "https://www.tagesanzeiger.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
+          "target": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
+          "type": "api",
+          "uri": ""
+        },
+        "type": "api",
+        "value": "API calls going to disco-api from https://www.tagesanzeiger.ch "
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://abo.inscopedomain.ch",
+          "target": "https://abo.inscopedomain.ch",
+          "type": "website",
+          "uri": "https://abo.inscopedomain.ch"
+        },
+        "type": "website",
+        "value": "https://abo.inscopedomain.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://login.inscopedomain.ch/",
+          "target": "https://login.inscopedomain.ch/",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "https://login.inscopedomain.ch/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://auth.inscopedomain.ch/",
+          "target": "https://auth.inscopedomain.ch/",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "https://auth.inscopedomain.ch/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://tgt.inscopedomain.ch/",
+          "target": "https://tgt.inscopedomain.ch/",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "https://tgt.inscopedomain.ch/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://shop.inscopedomain.ch/",
+          "target": "https://shop.inscopedomain.ch/",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "https://shop.inscopedomain.ch/"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/tamedia"
+}

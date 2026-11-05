@@ -1,0 +1,185 @@
+{
+  "id": "intigriti:67d5a491-4baa-4565-bdc9-962bcd5f5ddd",
+  "metadata": {
+    "company_handle": "dpgm",
+    "confidentiality_level": "public",
+    "handle": "humo",
+    "id": "67d5a491-4baa-4565-bdc9-962bcd5f5ddd",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 2200
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 25
+    },
+    "name": "Humo",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/dpgm/humo/detail"
+  },
+  "name": "Humo",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "2c5936351ed1229e243209f32d2a6a8abe2fcca11f83e1505a991c6fba0eebde",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "67d5a491-4baa-4565-bdc9-962bcd5f5ddd",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "humo.be/registreren",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "humo.be/registreren"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "myaccount.humo.be",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "myaccount.humo.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "shop.humo.be",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "shop.humo.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding\n* humo.be/service\n* humo.be/inloggen\n* humo.be/login\n* humo.be/registreren",
+        "raw": {
+          "description": "excluding\n* humo.be/service\n* humo.be/inloggen\n* humo.be/login\n* humo.be/registreren",
+          "endpoint": "www.humo.be",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.humo.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.humo.be/abonnementen",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.humo.be/abonnementen"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "excluding abonnement.humo.be",
+        "raw": {
+          "description": "excluding abonnement.humo.be",
+          "endpoint": "*.humo.be",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.humo.be"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "humo.be/inloggen",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "humo.be/inloggen"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "humo.be/login",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "humo.be/login"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "humo.be/service",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "humo.be/service"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "abonnement.humo.be",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "abonnement.humo.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+        "raw": {
+          "description": "SaaS platform - Report at https://qualifio.com/.well-known/security.txt",
+          "endpoint": "actie.humo.be",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "actie.humo.be"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/dpgm/humo/detail"
+}

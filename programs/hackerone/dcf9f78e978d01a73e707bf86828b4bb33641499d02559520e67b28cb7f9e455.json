@@ -1,0 +1,201 @@
+{
+  "id": "hackerone:wisdomtree",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 0.0,
+    "average_time_to_first_program_response": 7.0,
+    "average_time_to_report_resolved": 257.0,
+    "handle": "wisdomtree",
+    "id": 0,
+    "managed_program": true,
+    "name": "WisdomTree, Inc.",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 95,
+    "submission_state": "open",
+    "url": "https://hackerone.com/wisdomtree",
+    "website": "https://www.wisdomtree.com"
+  },
+  "name": "WisdomTree, Inc.",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "81d35cfb6e42b18877baa849bc170a85a152551828de76090c9e8bcdd3e77908",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "wisdomtree",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.wisdomtreeprimeapp.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.wisdomtreeprimeapp.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.wisdomtree.wtprime",
+          "asset_type": "OTHER_APK",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "OTHER_APK",
+        "value": "com.wisdomtree.wtprime"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.wisdomtree.wtprime",
+          "asset_type": "TESTFLIGHT",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "TESTFLIGHT",
+        "value": "com.wisdomtree.wtprime"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://app.wisdomtreeconnect.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://app.wisdomtreeconnect.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://app.wisdomtreeconnect.com/api/",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://app.wisdomtreeconnect.com/api/"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://app.wisdomtreeconnect.com/o/token/",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://app.wisdomtreeconnect.com/o/token/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "dataspanapi.wisdomtree.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "dataspanapi.wisdomtree.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Wisdomtree.com and Wisdomtree.eu are out of scope of this project. If you find something that you wish to report please reach out to security@wisdomtree.com.",
+        "raw": {
+          "asset_identifier": "wisdomtree.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Wisdomtree.com and Wisdomtree.eu are out of scope of this project. If you find something that you wish to report please reach out to security@wisdomtree.com.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "wisdomtree.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Wisdomtree.com and Wisdomtree.eu are out of scope of this project. If you find something that you wish to report please reach out to security@wisdomtree.com.",
+        "raw": {
+          "asset_identifier": "wisdomtree.eu",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Wisdomtree.com and Wisdomtree.eu are out of scope of this project. If you find something that you wish to report please reach out to security@wisdomtree.com.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "wisdomtree.eu"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/wisdomtree"
+}

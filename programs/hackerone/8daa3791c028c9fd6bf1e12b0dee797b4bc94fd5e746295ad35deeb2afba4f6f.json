@@ -1,0 +1,183 @@
+{
+  "id": "hackerone:cs_money",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 433.0,
+    "average_time_to_first_program_response": 209.0,
+    "average_time_to_report_resolved": 482.0,
+    "handle": "cs_money",
+    "id": 0,
+    "managed_program": false,
+    "name": "CS Money",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 58,
+    "submission_state": "open",
+    "url": "https://hackerone.com/cs_money",
+    "website": "https://cs.money"
+  },
+  "name": "CS Money",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "03fab91a2a4f9bf38904d88c73774d0be173948ff21c481f7b0dd24c0dcfe977",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "cs_money",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "\n[3d.cs.money](https://3d.cs.money/) is a skin model generator.\n\n## What to look for:\n\n* Vulnerabilities related to user privacy violations\n* Vulnerabilities directly affecting `cs.money`\n\n",
+        "raw": {
+          "asset_identifier": "3d.cs.money",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "\n[3d.cs.money](https://3d.cs.money/) is a skin model generator.\n\n## What to look for:\n\n* Vulnerabilities related to user privacy violations\n* Vulnerabilities directly affecting `cs.money`\n\n",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "3d.cs.money"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "By visiting this domain you will be redirected to our blog at [cs.money/blog/](https://cs.money/blog/). This is a web application built on Wordpress. \n\nOut of Scope\nWordPress Core Vulnerabilities\nAny vulnerabilities resulting from bugs or shortcomings in the WordPress core itself (e.g., issues with form validation, incorrect API implementations, vulnerabilities in the base architecture of WordPress, etc.).\nThis also includes cases where an outdated and potentially vulnerable version of WordPress is being used.\n\nPlugin Vulnerabilities\nVulnerabilities in third-party or built-in WordPress plugins that extend the blog's functionality (e.g., SEO plugins, contact form plugins, etc.).\nAlso included are configuration errors or flaws that are directly related to issues within the plugin itself.\n\nTheme Vulnerabilities\nVulnerabilities associated with custom or default WordPress themes (e.g., broken or unsafe layout structure, vulnerable JavaScript or PHP files within the theme, templating issues, etc.).\nAny flaws in the operation of themes (standard or custom) that may lead to site compromise via known or outdated theme components are considered out of scope.\n\nVersion Conflicts or WordPress Setup Issues\nAll cases where the problem stems solely from an improperly installed or conflicting version of WordPress and can be resolved by updating or switching to another version.\n\nManual Installation or Modification of WordPress\nVulnerabilities that require manual code changes to the WordPress core, or installing/configuring third-party plugins or themes solely to reproduce the issue.",
+        "raw": {
+          "asset_identifier": "blog.cs.money",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "By visiting this domain you will be redirected to our blog at [cs.money/blog/](https://cs.money/blog/). This is a web application built on Wordpress. \n\nOut of Scope\nWordPress Core Vulnerabilities\nAny vulnerabilities resulting from bugs or shortcomings in the WordPress core itself (e.g., issues with form validation, incorrect API implementations, vulnerabilities in the base architecture of WordPress, etc.).\nThis also includes cases where an outdated and potentially vulnerable version of WordPress is being used.\n\nPlugin Vulnerabilities\nVulnerabilities in third-party or built-in WordPress plugins that extend the blog's functionality (e.g., SEO plugins, contact form plugins, etc.).\nAlso included are configuration errors or flaws that are directly related to issues within the plugin itself.\n\nTheme Vulnerabilities\nVulnerabilities associated with custom or default WordPress themes (e.g., broken or unsafe layout structure, vulnerable JavaScript or PHP files within the theme, templating issues, etc.).\nAny flaws in the operation of themes (standard or custom) that may lead to site compromise via known or outdated theme components are considered out of scope.\n\nVersion Conflicts or WordPress Setup Issues\nAll cases where the problem stems solely from an improperly installed or conflicting version of WordPress and can be resolved by updating or switching to another version.\n\nManual Installation or Modification of WordPress\nVulnerabilities that require manual code changes to the WordPress core, or installing/configuring third-party plugins or themes solely to reproduce the issue.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "blog.cs.money"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[cs.money](https://cs.money/) is our primary web application where users can trade, sell and buy in-game items.\n\n## What to look for:\n* Besides the described scope on our policy tab, please pay attention to anything else that can affect user experience, security and privacy.",
+        "raw": {
+          "asset_identifier": "cs.money",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[cs.money](https://cs.money/) is our primary web application where users can trade, sell and buy in-game items.\n\n## What to look for:\n* Besides the described scope on our policy tab, please pay attention to anything else that can affect user experience, security and privacy.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "cs.money"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "This is our [web client](https://support.cs.money/) for providing technical support.\n\n## What to look for:\n* Direct access to the client, authentication bypass\n* Vulnerabilities related to user privacy violations\n* Vulnerabilities, directly affecting `cs.money`\n\n#Important information\nIf you are to test anything related to typing in the support chat, please send  the following message before that.\n```\nHello. I'm a pentester from HackerOne. I'm going to test something in support chat. Your developers are aware of that.\n```",
+        "raw": {
+          "asset_identifier": "support.cs.money",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "This is our [web client](https://support.cs.money/) for providing technical support.\n\n## What to look for:\n* Direct access to the client, authentication bypass\n* Vulnerabilities related to user privacy violations\n* Vulnerabilities, directly affecting `cs.money`\n\n#Important information\nIf you are to test anything related to typing in the support chat, please send  the following message before that.\n```\nHello. I'm a pentester from HackerOne. I'm going to test something in support chat. Your developers are aware of that.\n```",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "support.cs.money"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "[wiki.cs.money](https://wiki.cs.money/) contains detailed description and characteristics of all CS2 skins as well as a unique 3D viewing system.\n\n## What to look for:\n* Vulnerabilities related to user privacy violations\n* Vulnerabilities directly affecting `cs.money`",
+        "raw": {
+          "asset_identifier": "wiki.cs.money",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "[wiki.cs.money](https://wiki.cs.money/) contains detailed description and characteristics of all CS2 skins as well as a unique 3D viewing system.\n\n## What to look for:\n* Vulnerabilities related to user privacy violations\n* Vulnerabilities directly affecting `cs.money`",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "wiki.cs.money"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is our Google Chrome extension, which protects our users from potential scams. No longer supported and thus out of scope.\n[Chrome Web Store](https://chrome.google.com/webstore/detail/csmoney-antiscam/bocdepodnagbohblgjmooobalmcojkpg)",
+        "raw": {
+          "asset_identifier": "CS.Money Antiscam",
+          "asset_type": "OTHER",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is our Google Chrome extension, which protects our users from potential scams. No longer supported and thus out of scope.\n[Chrome Web Store](https://chrome.google.com/webstore/detail/csmoney-antiscam/bocdepodnagbohblgjmooobalmcojkpg)",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "CS.Money Antiscam"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope. This is our instance of Grafana.",
+        "raw": {
+          "asset_identifier": "grafana.cs.money",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope. This is our instance of Grafana.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "grafana.cs.money"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope. This was the old version of our primary web application.",
+        "raw": {
+          "asset_identifier": "old.cs.money",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope. This was the old version of our primary web application.",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "old.cs.money"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/cs_money"
+}

@@ -1,0 +1,164 @@
+{
+  "id": "yeswehack:maya-public-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "maya-public-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 5000,
+    "min_bounty": 50,
+    "name": "Maya - Public Bug Bounty Program",
+    "public": true
+  },
+  "name": "Maya - Public Bug Bounty Program",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "fe5ef80cb71a774ed7e438f4ae45dfced998c4fd44733a2ab78221c510c4ba1c",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "maya-public-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.paymaya",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.paymaya"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/am/app/maya-your-all-in-one-money-app/id991673877",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/am/app/maya-your-all-in-one-money-app/id991673877"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://appgallery.huawei.com/app/C101186357",
+          "type": "mobile-application"
+        },
+        "type": "mobile-application",
+        "value": "https://appgallery.huawei.com/app/C101186357"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://api.paymaya.com/",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://api.paymaya.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://pg.paymaya.com",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://pg.paymaya.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://payoutapi.maya.ph/",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://payoutapi.maya.ph/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://op.paymaya.com/",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://op.paymaya.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://connect.paymaya.com/",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://connect.paymaya.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://paymayabiller-prod.paymaya.com/",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://paymayabiller-prod.paymaya.com/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains or subdomains not listed in the above list of 'Scopes'"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Other subdomain of paymaya.com that has no direct integration/part of the mobile application",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Other subdomain of paymaya.com that has no direct integration/part of the mobile application"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "Non-Production environments (test, dev, staging, or sandbox)",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Non-Production environments (test, dev, staging, or sandbox)"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/maya-public-bug-bounty-program"
+}

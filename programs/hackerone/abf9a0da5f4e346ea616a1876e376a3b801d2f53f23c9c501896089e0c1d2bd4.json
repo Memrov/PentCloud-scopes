@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:torproject",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 928.0,
+    "average_time_to_first_program_response": 245.0,
+    "average_time_to_report_resolved": 808.0,
+    "handle": "torproject",
+    "id": 0,
+    "managed_program": false,
+    "name": "Tor",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 20,
+    "submission_state": "open",
+    "url": "https://hackerone.com/torproject",
+    "website": "https://www.torproject.org/"
+  },
+  "name": "Tor",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "1c810f722587f4bd366143bdc0907e24c7e40968366571705ccec8289a40b6a4",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "torproject",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "https://gitlab.torproject.org/tpo/applications/tor-browser\n\nIt's a good start to look at the latest stable, alpha, and nightly builds. The former can be found at https://www.torproject.org/download/ and nightlies can be obtained via http://umj4zbqdfcyevlkgqgpq6foxk3z75zzxsbgt5jqmfxofrbrjh3crbnad.onion/nightly-builds/tor-browser-builds/.",
+        "raw": {
+          "asset_identifier": "Tor Browser",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "https://gitlab.torproject.org/tpo/applications/tor-browser\n\nIt's a good start to look at the latest stable, alpha, and nightly builds. The former can be found at https://www.torproject.org/download/ and nightlies can be obtained via http://umj4zbqdfcyevlkgqgpq6foxk3z75zzxsbgt5jqmfxofrbrjh3crbnad.onion/nightly-builds/tor-browser-builds/.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Tor Browser"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/torproject"
+}

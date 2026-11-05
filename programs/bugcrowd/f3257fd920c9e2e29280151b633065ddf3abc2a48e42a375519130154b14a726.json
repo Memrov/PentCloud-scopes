@@ -1,0 +1,44 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/pixabay",
+  "metadata": {
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "max_payout": 6000,
+    "name": "Pixabay",
+    "safe_harbor": null,
+    "url": "https://bugcrowd.com/engagements/pixabay"
+  },
+  "name": "Pixabay",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "0ecd366558f6975661f7b8a9e994b1272d27ac2d15d01f12e99cb377a84eeb15",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/pixabay",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.pixabay.com/",
+          "target": "https://pixabay.com/",
+          "type": "website",
+          "uri": "https://pixabay.com/"
+        },
+        "type": "website",
+        "value": "https://pixabay.com/"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://bugcrowd.com/engagements/pixabay"
+}

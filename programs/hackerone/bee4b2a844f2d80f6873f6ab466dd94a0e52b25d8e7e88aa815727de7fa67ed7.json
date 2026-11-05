@@ -1,0 +1,75 @@
+{
+  "id": "hackerone:sony",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 1063.0,
+    "handle": "sony",
+    "id": 0,
+    "managed_program": true,
+    "name": "Sony",
+    "offers_bounties": false,
+    "offers_swag": true,
+    "response_efficiency_percentage": 92,
+    "submission_state": "open",
+    "url": "https://hackerone.com/sony",
+    "website": "http://www.sony.com"
+  },
+  "name": "Sony",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "c18b56dd0cf3afe0b2097e08ca8d2250a22c1b2656a226d9856f63ab2539e6ab",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "sony",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Security vulnerabilities that are identified in Sony products or in website domains owned, operated, or controlled by Sony are in scope.  ",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Security vulnerabilities that are identified in Sony products or in website domains owned, operated, or controlled by Sony are in scope.  "
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "So-net is a Japanese internet service provider, operated by Sony Network Communications Inc., a wholly owned subsidiary of Sony. IPs and website domains that utilize So-net are Out-of-scope if the website domains owned, operated, or controlled also not directly owned by Sony.\n",
+        "raw": {
+          "asset_identifier": "So-net (Sony Network Communications Inc.)",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "So-net is a Japanese internet service provider, operated by Sony Network Communications Inc., a wholly owned subsidiary of Sony. IPs and website domains that utilize So-net are Out-of-scope if the website domains owned, operated, or controlled also not directly owned by Sony.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "So-net (Sony Network Communications Inc.)"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/sony"
+}

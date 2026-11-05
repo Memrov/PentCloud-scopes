@@ -1,0 +1,111 @@
+{
+  "id": "hackerone:starbucks_china",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 512.0,
+    "average_time_to_first_program_response": 2.0,
+    "average_time_to_report_resolved": 1637.0,
+    "handle": "starbucks_china",
+    "id": 0,
+    "managed_program": true,
+    "name": "Starbucks China",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 73,
+    "submission_state": "open",
+    "url": "https://hackerone.com/starbucks_china",
+    "website": "http://starbucks.com"
+  },
+  "name": "Starbucks China",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "a989e51a2c797c7f8cbd93232869440fb0370b97fe3ee1994fbd1fe40ee188eb",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "starbucks_china",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Download the App:\nhttps://play.google.com/store/apps/details?id=com.starbucks.cn",
+        "raw": {
+          "asset_identifier": "Starbucks China Android",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Download the App:\nhttps://play.google.com/store/apps/details?id=com.starbucks.cn",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "Starbucks China Android"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Download the App:\nhttps://apps.apple.com/us/app/%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%AD%E5%9B%BD/id499819758",
+        "raw": {
+          "asset_identifier": "Starbucks China iOS",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Download the App:\nhttps://apps.apple.com/us/app/%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%AD%E5%9B%BD/id499819758",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "Starbucks China iOS"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Starbucks China",
+        "raw": {
+          "asset_identifier": "www.starbucks.com.cn/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Starbucks China",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.starbucks.com.cn/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Assets or site/domains related to Teavana (or aliased as Teavana) are not eligible for bounty, even if the WHOIS record shows that it is owned by Starbucks.  ",
+        "raw": {
+          "asset_identifier": "Teavana",
+          "asset_type": "OTHER",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Assets or site/domains related to Teavana (or aliased as Teavana) are not eligible for bounty, even if the WHOIS record shows that it is owned by Starbucks.  ",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "Teavana"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/starbucks_china"
+}

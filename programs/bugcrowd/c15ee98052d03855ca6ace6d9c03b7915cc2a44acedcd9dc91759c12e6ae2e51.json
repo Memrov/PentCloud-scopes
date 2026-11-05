@@ -1,0 +1,101 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/snapnames",
+  "metadata": {
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "max_payout": 2000,
+    "name": "SnapNames Bug Bounty",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/snapnames"
+  },
+  "name": "SnapNames Bug Bounty",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "ea36bef0787aaf3d6742a1f024cdd8a79df5b568379a3ace25bfa190d9b25e9d",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/snapnames",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://snapnames.com/",
+          "target": "https://snapnames.com/",
+          "type": "website",
+          "uri": "https://snapnames.com/"
+        },
+        "type": "website",
+        "value": "https://snapnames.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "https://www.namejet.com/",
+          "target": "https://www.namejet.com/",
+          "type": "website",
+          "uri": "https://www.namejet.com/"
+        },
+        "type": "website",
+        "value": "https://www.namejet.com/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.snapnames.com",
+          "target": "https://www.*.snapnames.com",
+          "type": "website",
+          "uri": "https://www.*.snapnames.com"
+        },
+        "type": "website",
+        "value": "https://www.*.snapnames.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.namejet.com",
+          "target": "https://www.namejet.com",
+          "type": "website",
+          "uri": "https://www.namejet.com"
+        },
+        "type": "website",
+        "value": "https://www.namejet.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.buydomains.com",
+          "target": "*.buydomains.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.buydomains.com"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/snapnames"
+}

@@ -1,0 +1,795 @@
+{
+  "id": "hackerone:automattic",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 830.0,
+    "average_time_to_first_program_response": null,
+    "average_time_to_report_resolved": null,
+    "handle": "automattic",
+    "id": 0,
+    "managed_program": false,
+    "name": "Automattic",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 63,
+    "submission_state": "open",
+    "url": "https://hackerone.com/automattic",
+    "website": "https://automattic.com"
+  },
+  "name": "Automattic",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "a9bd579ce2d355e9d931b0a0ec1a890fdb9e47bdb9d1fc9fa91e3a834f10e0b6",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "automattic",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.srvcs.tumblr.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.srvcs.tumblr.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**The Blog Network**\n\n*Note: Blogs are cached for 1 minute after first request (60s from first request); content is re-loaded into cache when a new request is submitted after the 61st second.*\n\nHow to identify you are looking at the Blog Network:\n* Header: `X-tumblr-user` can be used to identify if the domain is a blog on the Blog Network\n* View the domain in a browser, there will be a Tumblr banner visible. \n\nExclusions for this asset:\n* JavaScript is allowed; XSS is excluded from eligibility.\n* Pages can be framed; Clickjacking or other X-Frame-Options attacks are excluded from eligibility.",
+        "raw": {
+          "asset_identifier": "*.tumblr.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**The Blog Network**\n\n*Note: Blogs are cached for 1 minute after first request (60s from first request); content is re-loaded into cache when a new request is submitted after the 61st second.*\n\nHow to identify you are looking at the Blog Network:\n* Header: `X-tumblr-user` can be used to identify if the domain is a blog on the Blog Network\n* View the domain in a browser, there will be a Tumblr banner visible. \n\nExclusions for this asset:\n* JavaScript is allowed; XSS is excluded from eligibility.\n* Pages can be framed; Clickjacking or other X-Frame-Options attacks are excluded from eligibility.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.tumblr.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Beeper apps across all the available platforms are eligible.",
+        "raw": {
+          "asset_identifier": "Beeper",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Beeper apps across all the available platforms are eligible.",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "OTHER",
+        "value": "Beeper"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Any issues on https://crowdsignal.com/, and or Crowdsignal WordPress plugins",
+        "raw": {
+          "asset_identifier": "Crowdsignal",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Any issues on https://crowdsignal.com/, and or Crowdsignal WordPress plugins",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Crowdsignal"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Any issues related to the Jetpack plugin https://github.com/Automattic/jetpack and/or https://jetpack.com/",
+        "raw": {
+          "asset_identifier": "Jetpack",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Any issues related to the Jetpack plugin https://github.com/Automattic/jetpack and/or https://jetpack.com/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "Jetpack"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Any issue affecting the WP Cloud hosting environment allowing cross-site access/impact, the WP Cloud API or the wp.cloud website.",
+        "raw": {
+          "asset_identifier": "WP Cloud",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Any issue affecting the WP Cloud hosting environment allowing cross-site access/impact, the WP Cloud API or the wp.cloud website.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "WP Cloud"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Any security issues on the WordPress WooCommerce plugin (https://wordpress.org/plugins/woocommerce/) and/or https://woocommerce.com/",
+        "raw": {
+          "asset_identifier": "WooCommerce",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Any security issues on the WordPress WooCommerce plugin (https://wordpress.org/plugins/woocommerce/) and/or https://woocommerce.com/",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "WooCommerce"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Any security issue found on any WordPress plugin or theme that's **maintained/created by Automattic**.\n\nThis includes but is not limited to\n- WP-Supercache (https://wordpress.org/plugins/wp-super-cache/)\n- WP-Job-Manager (https://github.com/Automattic/WP-Job-Manager)\n- Sensei LMS (https://github.com/Automattic/sensei)\n\nSee https://profiles.wordpress.org/automattic/ for more details",
+        "raw": {
+          "asset_identifier": "WordPress Plugins & Themes",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Any security issue found on any WordPress plugin or theme that's **maintained/created by Automattic**.\n\nThis includes but is not limited to\n- WP-Supercache (https://wordpress.org/plugins/wp-super-cache/)\n- WP-Job-Manager (https://github.com/Automattic/WP-Job-Manager)\n- Sensei LMS (https://github.com/Automattic/sensei)\n\nSee https://profiles.wordpress.org/automattic/ for more details",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "WordPress Plugins & Themes"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Any issue in the WordPress VIP infrastructure, WordPress plugins, or client sites.",
+        "raw": {
+          "asset_identifier": "WordPress VIP",
+          "asset_type": "OTHER",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Any issue in the WordPress VIP infrastructure, WordPress plugins, or client sites.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "WordPress VIP"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Any issues on https://akismet.com/, or the Akismet WordPress plugin.",
+        "raw": {
+          "asset_identifier": "akismet.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Any issues on https://akismet.com/, or the Akismet WordPress plugin.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "akismet.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "api.tumblr.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "api.tumblr.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "assets.tumblr.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "assets.tumblr.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "clay.earth",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "clay.earth"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Clay: Contacts + CRM (iOS app).",
+        "raw": {
+          "asset_identifier": "com.clay.ios",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Clay: Contacts + CRM (iOS app).",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.clay.ios"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "- Minimum OS version: API 21\n\nExclusions:\n- API keys in code\n- Certificate pinning",
+        "raw": {
+          "asset_identifier": "com.tumblr",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "- Minimum OS version: API 21\n\nExclusions:\n- API keys in code\n- Certificate pinning",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.tumblr"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "- Minimum OS version: iOS 11\n\nExclusions:\n- API keys in code\n- Certificate pinning",
+        "raw": {
+          "asset_identifier": "com.tumblr.tumblr",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "- Minimum OS version: iOS 11\n\nExclusions:\n- API keys in code\n- Certificate pinning",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.tumblr.tumblr"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "embed.tumblr.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "embed.tumblr.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "gravatar.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "gravatar.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "intensedebate.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "intensedebate.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Any issue in https://www.mailpoet.com/, or the MailPoet WordPress plugin.",
+        "raw": {
+          "asset_identifier": "mailpoet.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Any issue in https://www.mailpoet.com/, or the MailPoet WordPress plugin.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mailpoet.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "my.pressable.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "my.pressable.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "parse.ly",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "parse.ly"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "safe.tumblr.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "safe.tumblr.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "secure.tumblr.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "secure.tumblr.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "simperium.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "simperium.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "simplenote.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "simplenote.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "t.umblr.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "t.umblr.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "wordpress.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "wordpress.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "WPScan.com - valid vulnerabilities in the site itself or the submission platform.",
+        "raw": {
+          "asset_identifier": "wpscan.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "WPScan.com - valid vulnerabilities in the site itself or the submission platform.",
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "wpscan.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.tumblr.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.tumblr.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This cookieless domain contains user generated content. While we might decide to fix XSS issues, reports for this domain will not be eligible for a bounty.",
+        "raw": {
+          "asset_identifier": "*.crowdsignal.net",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This cookieless domain contains user generated content. While we might decide to fix XSS issues, reports for this domain will not be eligible for a bounty.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.crowdsignal.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This cookieless domain contains user generated content. While we might decide to fix XSS issues, reports for this domain will not be eligible for a bounty.",
+        "raw": {
+          "asset_identifier": "*.poll.fm",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This cookieless domain contains user generated content. While we might decide to fix XSS issues, reports for this domain will not be eligible for a bounty.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.poll.fm"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This cookieless domain contains user generated content. While we might decide to fix XSS issues, reports for this domain will not be eligible for a bounty.",
+        "raw": {
+          "asset_identifier": "*.survey.fm",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This cookieless domain contains user generated content. While we might decide to fix XSS issues, reports for this domain will not be eligible for a bounty.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.survey.fm"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.txmblr.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.txmblr.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "The sole presence of `xmlrpc.php` in `wordpress.com` and all the domains hosted under our platform doesn't constitute a vulnerability. If you report an issue related to this file, please make sure to provide a working proof of concept that clearly shows the impact.",
+        "raw": {
+          "asset_identifier": "*/xmlrpc.php",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "The sole presence of `xmlrpc.php` in `wordpress.com` and all the domains hosted under our platform doesn't constitute a vulnerability. If you report an issue related to this file, please make sure to provide a working proof of concept that clearly shows the impact.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "OTHER",
+        "value": "*/xmlrpc.php"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "afterthedeadline.com,*.afterthedeadline.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "afterthedeadline.com,*.afterthedeadline.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "atavist.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "atavist.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "happy.tools",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "happy.tools"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "learnboost.com,*.learnboost.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "learnboost.com,*.learnboost.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "polishmywriting.com,*.polishmywriting.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "polishmywriting.com,*.polishmywriting.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "scrollkit.com,*.scrollkit.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "scrollkit.com,*.scrollkit.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "This is only a demo site. Security issues that don't affect the integrity of `my.pressable.com` or `pressable.com` will most likely be closed as `N/A`.",
+        "raw": {
+          "asset_identifier": "try.pressable.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "This is only a demo site. Security issues that don't affect the integrity of `my.pressable.com` or `pressable.com` will most likely be closed as `N/A`.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "try.pressable.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/automattic"
+}

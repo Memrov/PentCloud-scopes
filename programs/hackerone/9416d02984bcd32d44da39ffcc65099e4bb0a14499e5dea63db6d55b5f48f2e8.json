@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:wakatime",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 15.0,
+    "average_time_to_report_resolved": 14.0,
+    "handle": "wakatime",
+    "id": 0,
+    "managed_program": false,
+    "name": "WakaTime",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/wakatime",
+    "website": "https://wakatime.com"
+  },
+  "name": "WakaTime",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "0200faacd81e99d686cb2a22e2560e6cb7b42d4a740298fbdc28520974fb1c0f",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "wakatime",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "wakatime.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "wakatime.com"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/wakatime"
+}

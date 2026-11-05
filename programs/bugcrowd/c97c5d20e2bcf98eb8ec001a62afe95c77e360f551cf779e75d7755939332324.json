@@ -1,0 +1,465 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/wise",
+  "metadata": {
+    "allows_disclosure": true,
+    "managed_by_bugcrowd": true,
+    "max_payout": 4000,
+    "name": "Wise (ex-TransferWise)",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/wise"
+  },
+  "name": "Wise (ex-TransferWise)",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "06779c276d1662ab3f8608146d98e5fdb46a9a0f3b1761890ad5e6231cd5cf62",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/wise",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "transferwise.com",
+          "target": "https://transferwise.com",
+          "type": "website",
+          "uri": "https://transferwise.com"
+        },
+        "type": "website",
+        "value": "https://transferwise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.transferwise.com",
+          "target": "*.transferwise.com",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "*.transferwise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "wise.com",
+          "target": "https://wise.com",
+          "type": "website",
+          "uri": "https://wise.com"
+        },
+        "type": "website",
+        "value": "https://wise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.wise.com",
+          "target": "*.wise.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "*.wise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Latest version of Wise iOS App",
+          "target": "https://apps.apple.com/us/app/wise-ex-transferwise/id612261027",
+          "type": "ios",
+          "uri": "https://apps.apple.com/us/app/wise-ex-transferwise/id612261027"
+        },
+        "type": "ios",
+        "value": "https://apps.apple.com/us/app/wise-ex-transferwise/id612261027"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Latest version of Wise Android App",
+          "target": "https://play.google.com/store/apps/details?id=com.transferwise.android&hl=en_US&gl=US",
+          "type": "android",
+          "uri": "https://play.google.com/store/apps/details?id=com.transferwise.android&hl=en_US&gl=US"
+        },
+        "type": "android",
+        "value": "https://play.google.com/store/apps/details?id=com.transferwise.android&hl=en_US&gl=US"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "AWS infrastructure and services in use by Wise (eg: S3 buckets)",
+          "target": "AWS infrastructure and services in use by Wise (eg: S3 buckets)",
+          "type": "other",
+          "uri": null
+        },
+        "type": "other",
+        "value": "AWS infrastructure and services in use by Wise (eg: S3 buckets)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "github.com/transferwise/*",
+          "target": "https://github.com/transferwise/*",
+          "type": "other",
+          "uri": "https://github.com/transferwise/*"
+        },
+        "type": "other",
+        "value": "https://github.com/transferwise/*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "*.wise-sandbox.com",
+          "target": "https://wise-sandbox.com/",
+          "type": "website",
+          "uri": "https://wise-sandbox.com/"
+        },
+        "type": "website",
+        "value": "https://wise-sandbox.com/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Wise Affiliate Program",
+          "target": "Wise Affiliate Program",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "Wise Affiliate Program"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Third party services not hosted by Wise",
+          "target": "Third party services not hosted by Wise",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "Third party services not hosted by Wise"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Any Github asset not under the “transferwise” organization",
+          "target": "Any Github asset not under the “transferwise” organization",
+          "type": "other",
+          "uri": null
+        },
+        "type": "other",
+        "value": "Any Github asset not under the “transferwise” organization"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Third party authentication services (eg: Facebook and Google)",
+          "target": "Third party authentication services (eg: Facebook and Google)",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "Third party authentication services (eg: Facebook and Google)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://transferwise.com/help/contact",
+          "target": "https://transferwise.com/help/contact",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "https://transferwise.com/help/contact"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "https://wise.com/help/contact",
+          "target": "https://wise.com/help/contact",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "https://wise.com/help/contact"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.tw.com",
+          "target": "*.tw.com",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "*.tw.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.tw.ee",
+          "target": "*.tw.ee",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "*.tw.ee"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Non-current version of the Android app",
+          "target": "Non-current version of the Android app",
+          "type": "android",
+          "uri": null
+        },
+        "type": "android",
+        "value": "Non-current version of the Android app"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "Non-current version of the iOS app",
+          "target": "Non-current version of the iOS app",
+          "type": "ios",
+          "uri": null
+        },
+        "type": "ios",
+        "value": "Non-current version of the iOS app"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.transferwise.tech",
+          "target": "*.transferwise.tech",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "*.transferwise.tech"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "brand.wise.com",
+          "target": "brand.wise.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "brand.wise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "links.wise.com",
+          "target": "links.wise.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "links.wise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "widgets.transferwise.com",
+          "target": "widgets.transferwise.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "widgets.transferwise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "brand.transferwise.com",
+          "target": "brand.transferwise.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "brand.transferwise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "bootstrap.transferwise.com",
+          "target": "bootstrap.transferwise.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "bootstrap.transferwise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "links.transferwise.com",
+          "target": "links.transferwise.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "links.transferwise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "status.wise.com",
+          "target": "status.wise.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "status.wise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "status.transferwise.com",
+          "target": "status.transferwise.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "status.transferwise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "tech.transferwise.com",
+          "target": "tech.transferwise.com",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "tech.transferwise.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "https://docs.wise.com ",
+          "name": "docs.wise.com ",
+          "target": "docs.wise.com ",
+          "type": "other",
+          "uri": null
+        },
+        "type": "other",
+        "value": "docs.wise.com "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
+          "name": "github.com/transferwise/pipelinewise",
+          "target": "https://github.com/transferwise/pipelinewise",
+          "type": "other",
+          "uri": "https://github.com/transferwise/pipelinewise"
+        },
+        "type": "other",
+        "value": "https://github.com/transferwise/pipelinewise"
+      }
+    ]
+  },
+  "url": "https://bugcrowd.com/engagements/wise"
+}

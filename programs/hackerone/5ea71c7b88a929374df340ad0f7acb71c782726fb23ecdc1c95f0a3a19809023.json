@@ -1,0 +1,93 @@
+{
+  "id": "hackerone:r3",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 49.0,
+    "handle": "r3",
+    "id": 0,
+    "managed_program": true,
+    "name": "R3",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 67,
+    "submission_state": "open",
+    "url": "https://hackerone.com/r3",
+    "website": "http://r3.com"
+  },
+  "name": "R3",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "7c53960760144ad91605ed33b4bf315a91d295b98880e8b8f0a6f6f31242b584",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "r3",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "We welcome submissions related to any publicly accessible information system, web property, or data owned, operated, or controlled by R3, unless explicitly defined as out of scope.\n\nR3's primary corporate domains are:\n* r3.com\n* corda.net\n* corda.network",
+        "raw": {
+          "asset_identifier": "R3 - everything in scope",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "We welcome submissions related to any publicly accessible information system, web property, or data owned, operated, or controlled by R3, unless explicitly defined as out of scope.\n\nR3's primary corporate domains are:\n* r3.com\n* corda.net\n* corda.network",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "R3 - everything in scope"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.corda.net",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.corda.net"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.r3.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "www.r3.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/r3"
+}

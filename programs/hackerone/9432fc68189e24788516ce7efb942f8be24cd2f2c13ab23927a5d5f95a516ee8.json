@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:nodejs",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 98.0,
+    "average_time_to_report_resolved": 859.0,
+    "handle": "nodejs",
+    "id": 0,
+    "managed_program": false,
+    "name": "Node.js",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 73,
+    "submission_state": "open",
+    "url": "https://hackerone.com/nodejs",
+    "website": "https://nodejs.org"
+  },
+  "name": "Node.js",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "b2447fc2d8d26537b9fc4a8388927c0996f6f1d5096d8a8d07994e2295eb6228",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "nodejs",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/nodejs/node",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/nodejs/node"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/nodejs"
+}

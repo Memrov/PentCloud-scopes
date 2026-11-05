@@ -1,0 +1,159 @@
+{
+  "id": "intigriti:b2049472-b637-49c3-b9cc-077c676f093c",
+  "metadata": {
+    "company_handle": "randstad",
+    "confidentiality_level": "public",
+    "handle": "randstad",
+    "id": "b2049472-b637-49c3-b9cc-077c676f093c",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "Randstad",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/randstad/randstad/detail"
+  },
+  "name": "Randstad",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "31ea340f1b95aaa9ca4a74bdf1fa863c60a51da9452aae7241c6102415a0fefd",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "b2049472-b637-49c3-b9cc-077c676f093c",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Out of Scope: workplace.randstad.in & apps.randstad.in",
+        "raw": {
+          "description": "Out of Scope: workplace.randstad.in & apps.randstad.in",
+          "endpoint": "*.randstad.*",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.randstad.*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.randstadrisesmart.*",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.randstadrisesmart.*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.risesmart.*",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.risesmart.*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Any related Randstad domain",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Any related Randstad domain"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "grizzlyforce.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "grizzlyforce.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.randstad.in",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.randstad.in"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "apps.randstad.in",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "apps.randstad.in"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "cz.randstad.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "cz.randstad.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "workplace.randstad.in",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "workplace.randstad.in"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/randstad/randstad/detail"
+}

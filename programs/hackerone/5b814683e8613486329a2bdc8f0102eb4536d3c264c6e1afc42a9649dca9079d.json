@@ -1,0 +1,453 @@
+{
+  "id": "hackerone:acronis",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 1898.0,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 3816.0,
+    "handle": "acronis",
+    "id": 0,
+    "managed_program": false,
+    "name": "Acronis",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 36,
+    "submission_state": "open",
+    "url": "https://hackerone.com/acronis",
+    "website": "https://www.acronis.com"
+  },
+  "name": "Acronis",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "8753bf1fc7cc474acab468e24ac73aa6f7fa0a5917c0cc7abb7023a2a36286ca",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "acronis",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*-api-*.acronis.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*-api-*.acronis.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.5nine.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.5nine.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.acronis.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.acronis.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.acronis.work",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.acronis.work"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.devicelock.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.devicelock.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Cyber Protect for [iOS](https://apps.apple.com/app/acronis-cyber-backup/id1118448159).",
+        "raw": {
+          "asset_identifier": "1118448159",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Cyber Protect for [iOS](https://apps.apple.com/app/acronis-cyber-backup/id1118448159).",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1118448159"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Files Cloud for [iOS](https://apps.apple.com/us/app/files-cloud/id1192506963).",
+        "raw": {
+          "asset_identifier": "1192506963",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Files Cloud for [iOS](https://apps.apple.com/us/app/files-cloud/id1192506963).",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "1192506963"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Mobile for [iOS](https://apps.apple.com/app/acronis-true-image-mobile/id978342143).",
+        "raw": {
+          "asset_identifier": "978342143",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Mobile for [iOS](https://apps.apple.com/app/acronis-true-image-mobile/id978342143).",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "978342143"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Agent is a client-side application for Acronis Cyber Protect that incorporates backup and cyber protection mechanisms. You may download versions for all supported platforms from [here](https://mc-beta-cloud.acronis.com/download/u/baas/4.0/).",
+        "raw": {
+          "asset_identifier": "Acronis Agent",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Agent is a client-side application for Acronis Cyber Protect that incorporates backup and cyber protection mechanisms. You may download versions for all supported platforms from [here](https://mc-beta-cloud.acronis.com/download/u/baas/4.0/).",
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Acronis Agent"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Cloud Manager provides advanced monitoring, management, migration, and recovery for Microsoft Cloud environments. You may request a trial by completing [registration](https://www.acronis.com/en-eu/products/cloud-manager/trial/).",
+        "raw": {
+          "asset_identifier": "Acronis Cloud Manager",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Cloud Manager provides advanced monitoring, management, migration, and recovery for Microsoft Cloud environments. You may request a trial by completing [registration](https://www.acronis.com/en-eu/products/cloud-manager/trial/).",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Acronis Cloud Manager"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Cyber Infrastructure unites software-defined compute, network and storage in a single, scalable product, designed for building private or public clouds. You can read more about it at [kb.acronis.com](https://kb.acronis.com/acronis-cyber-infrastructure).\n\nPlease note that this asset is only available periodically during testing phases.",
+        "raw": {
+          "asset_identifier": "Acronis Cyber Infrastructure",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Cyber Infrastructure unites software-defined compute, network and storage in a single, scalable product, designed for building private or public clouds. You can read more about it at [kb.acronis.com](https://kb.acronis.com/acronis-cyber-infrastructure).\n\nPlease note that this asset is only available periodically during testing phases.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Acronis Cyber Infrastructure"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Cyber Protect is an on-premises cyber protection solution designed for business environments. You may request a trial by completing [registration](https://www.acronis.com/en-us/business/cyber-protect/trial/#/registration).\n",
+        "raw": {
+          "asset_identifier": "Acronis Cyber Protect",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Cyber Protect is an on-premises cyber protection solution designed for business environments. You may request a trial by completing [registration](https://www.acronis.com/en-us/business/cyber-protect/trial/#/registration).\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Acronis Cyber Protect"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis DeviceLock DLP provides comprehensive endpoint data loss prevention. You may request a trial by completing [registration](https://www.acronis.com/en-us/products/devicelock/trial/).",
+        "raw": {
+          "asset_identifier": "Acronis DeviceLock DLP",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis DeviceLock DLP provides comprehensive endpoint data loss prevention. You may request a trial by completing [registration](https://www.acronis.com/en-us/products/devicelock/trial/).",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Acronis DeviceLock DLP"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Snap Deploy is designed to deploy and provision all of your servers and workstations at once. You may request a trial by completing [registration](https://www.acronis.com/en-us/products/snap-deploy/trial/).",
+        "raw": {
+          "asset_identifier": "Acronis Snap Deploy",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Snap Deploy is designed to deploy and provision all of your servers and workstations at once. You may request a trial by completing [registration](https://www.acronis.com/en-us/products/snap-deploy/trial/).",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Acronis Snap Deploy"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis True Image is designed for protection of home computers. [Download a trial](https://www.acronis.com/en-us/products/true-image/trial/).",
+        "raw": {
+          "asset_identifier": "Acronis True Image (formerly Acronis Cyber Protect Home Office)",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis True Image is designed for protection of home computers. [Download a trial](https://www.acronis.com/en-us/products/true-image/trial/).",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Acronis True Image (formerly Acronis Cyber Protect Home Office)"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Other Acronis Domains",
+          "asset_type": "OTHER",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "OTHER",
+        "value": "Other Acronis Domains"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "Other Acronis executables",
+          "asset_type": "DOWNLOADABLE_EXECUTABLES",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "DOWNLOADABLE_EXECUTABLES",
+        "value": "Other Acronis executables"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Customer Portal.",
+        "raw": {
+          "asset_identifier": "account.acronis.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Customer Portal.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "account.acronis.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Cyber Cloud beta environment. To request an account, please follow HackerOne [Credentials](https://docs.hackerone.com/en/articles/8466488-credentials) guide and select `beta-cloud.acronis.com` asset.",
+        "raw": {
+          "asset_identifier": "beta-cloud.acronis.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Cyber Cloud beta environment. To request an account, please follow HackerOne [Credentials](https://docs.hackerone.com/en/articles/8466488-credentials) guide and select `beta-cloud.acronis.com` asset.",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "beta-cloud.acronis.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Cyber Protect for [Android](https://play.google.com/store/apps/details?id=com.acronis.cyberb2b).",
+        "raw": {
+          "asset_identifier": "com.acronis.abc",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Cyber Protect for [Android](https://play.google.com/store/apps/details?id=com.acronis.cyberb2b).",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.acronis.abc"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Acronis Mobile for [Android](https://play.google.com/store/apps/details?id=com.acronis.cyberb2c).",
+        "raw": {
+          "asset_identifier": "com.acronis.acronistrueimage",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Acronis Mobile for [Android](https://play.google.com/store/apps/details?id=com.acronis.cyberb2c).",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.acronis.acronistrueimage"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "learn.acronis.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "learn.acronis.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "training.acronis.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "training.acronis.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/acronis"
+}

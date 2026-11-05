@@ -1,0 +1,58 @@
+{
+  "id": "bugcrowd:https://bugcrowd.com/engagements/statuspage",
+  "metadata": {
+    "allows_disclosure": false,
+    "managed_by_bugcrowd": true,
+    "max_payout": 4000,
+    "name": "Statuspage",
+    "safe_harbor": "full",
+    "url": "https://bugcrowd.com/engagements/statuspage"
+  },
+  "name": "Statuspage",
+  "platform": "bugcrowd",
+  "schema_version": 1,
+  "source": {
+    "path": "data/bugcrowd_data.json",
+    "record_sha256": "a157e6614090148841b346c00d0e5306f1e096797e02af7a8058d001659724dd",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "https://bugcrowd.com/engagements/statuspage",
+  "source_status": {
+    "field": null,
+    "value": null
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "manage.statuspage.io",
+          "target": "https://manage.statuspage.io",
+          "type": "website",
+          "uri": "https://manage.statuspage.io"
+        },
+        "type": "website",
+        "value": "https://manage.statuspage.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": null,
+          "name": "*.statuspage.io",
+          "target": "*.statuspage.io",
+          "type": "website",
+          "uri": null
+        },
+        "type": "website",
+        "value": "*.statuspage.io"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://bugcrowd.com/engagements/statuspage"
+}

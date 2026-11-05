@@ -1,0 +1,109 @@
+{
+  "id": "yeswehack:imou-public-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "imou-public-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 1200,
+    "min_bounty": 10,
+    "name": "IMOU Public Bug Bounty Program",
+    "public": true
+  },
+  "name": "IMOU Public Bug Bounty Program",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "37574c56fc30b468917ac0d3f02357a61f7c9338a0af02c355fbe1b834158623",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "imou-public-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://app.easy4ipcloud.com",
+          "type": "application"
+        },
+        "type": "application",
+        "value": "https://app.easy4ipcloud.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://app-*.easy4ipcloud.com",
+          "type": "application"
+        },
+        "type": "application",
+        "value": "https://app-*.easy4ipcloud.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://partnerapi.imoulife.com",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://partnerapi.imoulife.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.imou.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://www.imou.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://glow.imoulife.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://glow.imoulife.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://hg.easy4ipcloud.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://hg.easy4ipcloud.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains or subdomains not listed in the above list of 'Scopes'"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/imou-public-bug-bounty-program"
+}

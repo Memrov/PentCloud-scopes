@@ -1,0 +1,341 @@
+{
+  "id": "intigriti:201f8ade-4d93-4d8b-b371-af5ed9d8b837",
+  "metadata": {
+    "company_handle": "ripencc",
+    "confidentiality_level": "public",
+    "handle": "ripencc",
+    "id": "201f8ade-4d93-4d8b-b371-af5ed9d8b837",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 2000
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 0
+    },
+    "name": "RIPE NCC",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/ripencc/ripencc/detail"
+  },
+  "name": "RIPE NCC",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "201c279085b559b9eece3720450aa5e2fc77af95ff7d1723c8adcd3e97de5d45",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "201f8ade-4d93-4d8b-b371-af5ed9d8b837",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is the authentication service for our membership and community, mostly used for all of our membership (e.g. LIR) applications.",
+        "raw": {
+          "description": "This is the authentication service for our membership and community, mostly used for all of our membership (e.g. LIR) applications.",
+          "endpoint": "https://access.ripe.net",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://access.ripe.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This repository contains the source code for the RIPE NCC certification. We strive to publish as many components as possible with reasonable effort. Some elements or information are not included, either because of our threat model or because we can not publish them.",
+        "raw": {
+          "description": "This repository contains the source code for the RIPE NCC certification. We strive to publish as many components as possible with reasonable effort. Some elements or information are not included, either because of our threat model or because we can not publish them.",
+          "endpoint": "https://github.com/RIPE-NCC/rpki-core",
+          "impact": "Tier 1",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "https://github.com/RIPE-NCC/rpki-core"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "RIPE Database whois code repository, excluding:\n* NRTMv4 client (whois-nrtm4-client)",
+        "raw": {
+          "description": "RIPE Database whois code repository, excluding:\n* NRTMv4 client (whois-nrtm4-client)",
+          "endpoint": "https://github.com/RIPE-NCC/whois",
+          "impact": "Tier 1",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "https://github.com/RIPE-NCC/whois"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The LIR portal allows RIPE members to manage their allocated resources. It is accessible only through authentication via our SSO application access.ripe.net.\nIt is not possible to get a test account for now.",
+        "raw": {
+          "description": "The LIR portal allows RIPE members to manage their allocated resources. It is accessible only through authentication via our SSO application access.ripe.net.\nIt is not possible to get a test account for now.",
+          "endpoint": "lirportal.ripe.net",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "lirportal.ripe.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Our main domain.\nWe suggest you to check out of scope section of our program if you discover any vulnerabilities on this domain or its subdomains.\nTo make your reports better, we suggest you to check the IP address of the asset you've found so you can understand the address if in scope or out of scope.",
+        "raw": {
+          "description": "Our main domain.\nWe suggest you to check out of scope section of our program if you discover any vulnerabilities on this domain or its subdomains.\nTo make your reports better, we suggest you to check the IP address of the asset you've found so you can understand the address if in scope or out of scope.",
+          "endpoint": "*.ripe.net",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.ripe.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is our IP space.\nThe RIPE NCC hosts websites for other organizations and therefore only assets in the ripe.net zones are included.",
+        "raw": {
+          "description": "This is our IP space.\nThe RIPE NCC hosts websites for other organizations and therefore only assets in the ripe.net zones are included.",
+          "endpoint": "193.0.0.0/19 and 2001:67c:2e8::/48",
+          "impact": "Tier 2",
+          "type": "iprange"
+        },
+        "type": "iprange",
+        "value": "193.0.0.0/19 and 2001:67c:2e8::/48"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://github.com/RIPE-NCC/rpki-monitoring",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "https://github.com/RIPE-NCC/rpki-monitoring"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://github.com/RIPE-NCC/rpki-ta-0",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "https://github.com/RIPE-NCC/rpki-ta-0"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Assets owned by RIPE NCC",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "Assets owned by RIPE NCC"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This library contains an implementation of an X.509 v3 certificate extension which binds a list of IP address blocks or prefixes to the subject of a certificate (IP Address Delegation Extension).",
+        "raw": {
+          "description": "This library contains an implementation of an X.509 v3 certificate extension which binds a list of IP address blocks or prefixes to the subject of a certificate (IP Address Delegation Extension).",
+          "endpoint": "https://github.com/RIPE-NCC/rpki-commons",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "https://github.com/RIPE-NCC/rpki-commons"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "These probes and anchors are not hosted in networks managed by the RIPE NCC, but in networks participating in the RIPE Atlas project. If you find any vulnerabilities for IP addresses associated with RIPE Atlas probes/anchors, you will need to report them to the security teams of the responsible network operators.",
+        "raw": {
+          "description": "These probes and anchors are not hosted in networks managed by the RIPE NCC, but in networks participating in the RIPE Atlas project. If you find any vulnerabilities for IP addresses associated with RIPE Atlas probes/anchors, you will need to report them to the security teams of the responsible network operators.",
+          "endpoint": "*.anchors.atlas.ripe.net",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.anchors.atlas.ripe.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "These probes and anchors are not hosted in networks managed by the RIPE NCC, but in networks participating in the RIPE Atlas project. If you find any vulnerabilities for IP addresses associated with RIPE Atlas probes/anchors, you will need to report them to the security teams of the responsible network operators.",
+        "raw": {
+          "description": "These probes and anchors are not hosted in networks managed by the RIPE NCC, but in networks participating in the RIPE Atlas project. If you find any vulnerabilities for IP addresses associated with RIPE Atlas probes/anchors, you will need to report them to the security teams of the responsible network operators.",
+          "endpoint": "*.probes.atlas.ripe.net",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.probes.atlas.ripe.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*aso.ripe.net",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*aso.ripe.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*nro.ripe.net",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*nro.ripe.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "193.0.0.160/27",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "193.0.0.160/27"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "2001:67c:2e8:3::/64",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "2001:67c:2e8:3::/64"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "The RIPE NCC uses a number of SaaS provider where a *.ripe.net record may point to. However, these services are not maintained by the RIPE NCC and are not part of this Bug Bounty program. If you think a specific host may be in scope, please contact Intigriti Support",
+        "raw": {
+          "description": "The RIPE NCC uses a number of SaaS provider where a *.ripe.net record may point to. However, these services are not maintained by the RIPE NCC and are not part of this Bug Bounty program. If you think a specific host may be in scope, please contact Intigriti Support",
+          "endpoint": "Any *.ripe.net host that is located outside of the in-scope IP ranges ",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "Any *.ripe.net host that is located outside of the in-scope IP ranges "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://exams.ripe.net",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://exams.ripe.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is the RIPE NCC's implementation of RFC 8182 - The RPKI Repository Delta Protocol and a draft of RFC 8181 - A Publication Protocol for the Resource Public Key Infrastructure.",
+        "raw": {
+          "description": "This is the RIPE NCC's implementation of RFC 8182 - The RPKI Repository Delta Protocol and a draft of RFC 8181 - A Publication Protocol for the Resource Public Key Infrastructure.",
+          "endpoint": "https://github.com/RIPE-NCC/rpki-publication-server",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "https://github.com/RIPE-NCC/rpki-publication-server"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://github.com/RIPE-NCC/rsyncit",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "https://github.com/RIPE-NCC/rsyncit"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://labs.ripe.net",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://labs.ripe.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "RIPE Meeting network (2001:67c:64::/48 and 193.0.24.0/21)",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "RIPE Meeting network (2001:67c:64::/48 and 193.0.24.0/21)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "ripe[1-100].ripe.net",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "ripe[1-100].ripe.net"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/ripencc/ripencc/detail"
+}

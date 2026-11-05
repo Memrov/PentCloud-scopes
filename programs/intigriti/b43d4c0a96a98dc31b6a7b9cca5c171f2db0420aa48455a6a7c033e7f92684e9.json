@@ -1,0 +1,133 @@
+{
+  "id": "intigriti:5e9d5fc7-2cfe-4530-94de-c55f1d8d3a8e",
+  "metadata": {
+    "company_handle": "ourahealthoy",
+    "confidentiality_level": "public",
+    "handle": "ouravulnerabilitydisclosureprogram",
+    "id": "5e9d5fc7-2cfe-4530-94de-c55f1d8d3a8e",
+    "max_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "min_bounty": {
+      "currency": "USD",
+      "value": 0
+    },
+    "name": "OURA Vulnerability Disclosure Program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/ourahealthoy/ouravulnerabilitydisclosureprogram/detail"
+  },
+  "name": "OURA Vulnerability Disclosure Program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "eae5f872dcc50fa275193e26e46b845e5bf8eada1efac233155512fffc31e0f8",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "5e9d5fc7-2cfe-4530-94de-c55f1d8d3a8e",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.ouraring.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.ouraring.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Oura Android App",
+          "impact": "No Bounty",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "Oura Android App"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Oura iOS App",
+          "impact": "No Bounty",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "Oura iOS App"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Oura Ring (Gen 3 to current)",
+          "impact": "No Bounty",
+          "type": "device"
+        },
+        "type": "device",
+        "value": "Oura Ring (Gen 3 to current)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Please verify ownership or legitimate association via WHOIS, reverse DNS, delegated DNS, or other reliable means to ensure the asset is intended for Oura use and that Oura is the appropriate recipient of the disclosure.",
+        "raw": {
+          "description": "Please verify ownership or legitimate association via WHOIS, reverse DNS, delegated DNS, or other reliable means to ensure the asset is intended for Oura use and that Oura is the appropriate recipient of the disclosure.",
+          "endpoint": "Any Oura related domain",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Any Oura related domain"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Any official Oura Ring accessories such as the [the Official Oura Ring 4 Charging Case](https://ouraring.com/store/accessories/oura-ring-4-charging-case) or provided ring charger.",
+        "raw": {
+          "description": "Any official Oura Ring accessories such as the [the Official Oura Ring 4 Charging Case](https://ouraring.com/store/accessories/oura-ring-4-charging-case) or provided ring charger.",
+          "endpoint": "Official Oura Ring Accessories",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Official Oura Ring Accessories"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Ensure that ownership is verified before submitting disclosures to Oura.\nExamples of domains used but not hosted/owned by Oura:\n\nsupport.ouraring.com\nouraring.com/blog\n\nVulnerabilities related to or embedded in third party services used by Oura are not in scope. Bugs found in implementation of these services for Oura are. Examples:\n- weak authentication\n- public data exposure through third party",
+        "raw": {
+          "description": "Ensure that ownership is verified before submitting disclosures to Oura.\nExamples of domains used but not hosted/owned by Oura:\n\nsupport.ouraring.com\nouraring.com/blog\n\nVulnerabilities related to or embedded in third party services used by Oura are not in scope. Bugs found in implementation of these services for Oura are. Examples:\n- weak authentication\n- public data exposure through third party",
+          "endpoint": "Services not hosted/owned by Oura",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Services not hosted/owned by Oura"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/ourahealthoy/ouravulnerabilitydisclosureprogram/detail"
+}

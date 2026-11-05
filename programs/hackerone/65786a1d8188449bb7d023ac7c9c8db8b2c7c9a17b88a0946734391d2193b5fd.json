@@ -1,0 +1,615 @@
+{
+  "id": "hackerone:kiwicom",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": 280.0,
+    "average_time_to_first_program_response": 37.0,
+    "average_time_to_report_resolved": 1050.0,
+    "handle": "kiwicom",
+    "id": 0,
+    "managed_program": true,
+    "name": "Kiwi.com",
+    "offers_bounties": true,
+    "offers_swag": true,
+    "response_efficiency_percentage": 83,
+    "submission_state": "open",
+    "url": "https://hackerone.com/kiwicom",
+    "website": "https://www.kiwi.com"
+  },
+  "name": "Kiwi.com",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "f40b680db2461fb0dde4d46d2ad55d949710b540263e336ccf38073871d3bc1e",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "kiwicom",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Mostly branded versions of our main www.kiwi.com site, please report vulnerabilities only for www.kiwi.com and don't duplicate it here.",
+        "raw": {
+          "asset_identifier": "*.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Mostly branded versions of our main www.kiwi.com site, please report vulnerabilities only for www.kiwi.com and don't duplicate it here.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "APIs & internal tools.",
+        "raw": {
+          "asset_identifier": "*.skypicker.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "APIs & internal tools.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.skypicker.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Authentication API used on www.kiwi.com.",
+        "raw": {
+          "asset_identifier": "auth.skypicker.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Authentication API used on www.kiwi.com.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "auth.skypicker.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary target** - Available in [App Store](https://itunes.apple.com/bs/app/kiwi-com-cheap-flight-tickets/id657843853)",
+        "raw": {
+          "asset_identifier": "com.skypicker.Skypicker",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary target** - Available in [App Store](https://itunes.apple.com/bs/app/kiwi-com-cheap-flight-tickets/id657843853)",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "com.skypicker.Skypicker"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "**Primary target** - Available in the [Play Store](https://play.google.com/store/apps/details?id=com.skypicker.main)",
+        "raw": {
+          "asset_identifier": "com.skypicker.main",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "**Primary target** - Available in the [Play Store](https://play.google.com/store/apps/details?id=com.skypicker.main)",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.skypicker.main"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Online travel magazine Kiwi.com Stories, with very limited impact on our sites & infrastructure.",
+        "raw": {
+          "asset_identifier": "http://www.kiwi.com/stories",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Online travel magazine Kiwi.com Stories, with very limited impact on our sites & infrastructure.",
+          "integrity_requirement": "low",
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "http://www.kiwi.com/stories"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Hiring page, no sensitive information, likely no impact on our company.",
+        "raw": {
+          "asset_identifier": "jobs.kiwi.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Hiring page, no sensitive information, likely no impact on our company.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "jobs.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "B2B platform. Backend API requests are proxied via **tequila-api.kiwi.com** & **api.tequila.kiwi.com**",
+        "raw": {
+          "asset_identifier": "tequila.kiwi.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "B2B platform. Backend API requests are proxied via **tequila-api.kiwi.com** & **api.tequila.kiwi.com**",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "tequila.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Our main website",
+        "raw": {
+          "asset_identifier": "www.kiwi.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Our main website",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.kiwi.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope, 3rd party assets that are under our domains.",
+        "raw": {
+          "asset_identifier": "*._domainkey.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope, 3rd party assets that are under our domains.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*._domainkey.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Managed by third party.",
+        "raw": {
+          "asset_identifier": "*.coupons.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Managed by third party.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.coupons.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope: 3rd party asset that is linked under our domain.\n",
+        "raw": {
+          "asset_identifier": "*_domainkey.skypicker.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope: 3rd party asset that is linked under our domain.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*_domainkey.skypicker.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**3rd-party target** - Operated by [rentalcars.com](https://rentalcars.com).",
+        "raw": {
+          "asset_identifier": "*cars.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**3rd-party target** - Operated by [rentalcars.com](https://rentalcars.com).",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*cars.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope: 3rd party asset that is linked under our domain.\n",
+        "raw": {
+          "asset_identifier": "*citi-sign.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope: 3rd party asset that is linked under our domain.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*citi-sign.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**3rd-party target** - Hosted on [medium.com](https://medium.com) (see [this help page](https://help.medium.com/hc/en-us/articles/213481308-Bug-Bounty-Disclosure-Program)).",
+        "raw": {
+          "asset_identifier": "*code.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**3rd-party target** - Hosted on [medium.com](https://medium.com) (see [this help page](https://help.medium.com/hc/en-us/articles/213481308-Bug-Bounty-Disclosure-Program)).",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*code.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope, managed by a third party.",
+        "raw": {
+          "asset_identifier": "*experiences.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope, managed by a third party.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*experiences.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**3rd-party target** - Operated by [northpass.com](https://www.northpass.com).",
+        "raw": {
+          "asset_identifier": "*learn.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**3rd-party target** - Operated by [northpass.com](https://www.northpass.com).",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*learn.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope, 3rd party assets that are under our domains.",
+        "raw": {
+          "asset_identifier": "*ov.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope, 3rd party assets that are under our domains.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*ov.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**3rd-party target** - Operated by [travelcar.com](https://travelcar.com).",
+        "raw": {
+          "asset_identifier": "*parking.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**3rd-party target** - Operated by [travelcar.com](https://travelcar.com).",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*parking.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope, 3rd party assets that are under our domains.",
+        "raw": {
+          "asset_identifier": "*sg.kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope, 3rd party assets that are under our domains.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*sg.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope: 3rd party asset that is linked under our domain.\n",
+        "raw": {
+          "asset_identifier": "email*kiwi.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope: 3rd party asset that is linked under our domain.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "email*kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope: 3rd party asset that is linked under our domain.\n",
+        "raw": {
+          "asset_identifier": "email*skypicker.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope: 3rd party asset that is linked under our domain.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "email*skypicker.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope, 3rd party asset hosted under our domain.",
+        "raw": {
+          "asset_identifier": "kiwistore.kiwi.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope, 3rd party asset hosted under our domain.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "kiwistore.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope: 3rd party asset that is linked under our domain.",
+        "raw": {
+          "asset_identifier": "link.kiwi.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope: 3rd party asset that is linked under our domain.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "link.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope: 3rd party asset that is linked under our domain.\n",
+        "raw": {
+          "asset_identifier": "mail.skypicker.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope: 3rd party asset that is linked under our domain.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "mail.skypicker.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope: 3rd party asset that is linked under our domain.\n",
+        "raw": {
+          "asset_identifier": "nyrujhhu3yuk.nest.skypicker.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope: 3rd party asset that is linked under our domain.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "nyrujhhu3yuk.nest.skypicker.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope, 3rd party assets that are under our domains.",
+        "raw": {
+          "asset_identifier": "outbound.intercom.kiwi.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope, 3rd party assets that are under our domains.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "outbound.intercom.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Out of scope: 3rd party asset that is linked under our domain.\n",
+        "raw": {
+          "asset_identifier": "packages.kiwi.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Out of scope: 3rd party asset that is linked under our domain.\n",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "packages.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**3rd-party target** - Operated by [retool.com](https://retool.com). Please contact retool directly on security@retool.com.",
+        "raw": {
+          "asset_identifier": "retool.skypicker.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**3rd-party target** - Operated by [retool.com](https://retool.com). Please contact retool directly on security@retool.com.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "retool.skypicker.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**3rd-party target** - Operated by [booking.com](https://booking.com) (see https://hackerone.com/bookingcom).",
+        "raw": {
+          "asset_identifier": "rooms.kiwi.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**3rd-party target** - Operated by [booking.com](https://booking.com) (see https://hackerone.com/bookingcom).",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "rooms.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "**3rd-party target** - Hosted on [statuspage.io](https://statuspage.io) (see https://bugcrowd.com/statuspage).",
+        "raw": {
+          "asset_identifier": "status.kiwi.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "**3rd-party target** - Hosted on [statuspage.io](https://statuspage.io) (see https://bugcrowd.com/statuspage).",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "status.kiwi.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "3rd party, out of scope.",
+        "raw": {
+          "asset_identifier": "vacation.kiwi.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "3rd party, out of scope.",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "vacation.kiwi.com"
+      }
+    ]
+  },
+  "url": "https://hackerone.com/kiwicom"
+}

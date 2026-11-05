@@ -1,0 +1,56 @@
+{
+  "id": "hackerone:autodesk",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 1.0,
+    "average_time_to_report_resolved": 907.0,
+    "handle": "autodesk",
+    "id": 0,
+    "managed_program": true,
+    "name": "Autodesk",
+    "offers_bounties": false,
+    "offers_swag": true,
+    "response_efficiency_percentage": 97,
+    "submission_state": "open",
+    "url": "https://hackerone.com/autodesk",
+    "website": "https://www.autodesk.com/trust/overview"
+  },
+  "name": "Autodesk",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "d912795746917ec963234a69430a12ec463d28409895983f4f443fe5e305c33b",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "autodesk",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "All Autodesk Assets",
+        "raw": {
+          "asset_identifier": "*.",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "All Autodesk Assets",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*."
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/autodesk"
+}

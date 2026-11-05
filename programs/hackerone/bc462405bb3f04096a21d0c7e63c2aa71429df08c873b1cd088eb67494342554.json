@@ -1,0 +1,74 @@
+{
+  "id": "hackerone:discourse",
+  "metadata": {
+    "allows_bounty_splitting": true,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 11.0,
+    "average_time_to_report_resolved": 1227.0,
+    "handle": "discourse",
+    "id": 0,
+    "managed_program": false,
+    "name": "Discourse",
+    "offers_bounties": true,
+    "offers_swag": false,
+    "response_efficiency_percentage": 19,
+    "submission_state": "open",
+    "url": "https://hackerone.com/discourse",
+    "website": "https://discourse.org"
+  },
+  "name": "Discourse",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "8942c292a107292a2fac94fa1a3a3e3dcc0870dbe21086a5bc664b6463f1923a",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "discourse",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/discourse/discourse",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/discourse/discourse"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "try.discourse.org",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "try.discourse.org"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/discourse"
+}

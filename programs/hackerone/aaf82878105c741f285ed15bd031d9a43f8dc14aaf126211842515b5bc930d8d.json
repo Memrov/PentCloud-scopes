@@ -1,0 +1,344 @@
+{
+  "id": "hackerone:usps",
+  "metadata": {
+    "allows_bounty_splitting": false,
+    "average_time_to_bounty_awarded": null,
+    "average_time_to_first_program_response": 0.0,
+    "average_time_to_report_resolved": 9523.0,
+    "handle": "usps",
+    "id": 0,
+    "managed_program": true,
+    "name": "USPS - United States Postal Service",
+    "offers_bounties": false,
+    "offers_swag": false,
+    "response_efficiency_percentage": 100,
+    "submission_state": "open",
+    "url": "https://hackerone.com/usps",
+    "website": "https://www.usps.com"
+  },
+  "name": "USPS - United States Postal Service",
+  "platform": "hackerone",
+  "schema_version": 1,
+  "source": {
+    "path": "data/hackerone_data.json",
+    "record_sha256": "dca5b915884966f3f7b321f54a8fb21bd9dd399c1fba491da110b8ae1870a1e8",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "usps",
+  "source_status": {
+    "field": "submission_state",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Enterprise Administration provides the capability for customers to manage their own users who participate in online business offerings by designating an Business Service Administrator.  eAdmin is an authorization system for external business customers.  There is an external system as well as an internal system.  Externally, customers first go through the Business Customer Gateway (BCG) to login using Customer Registration credentials.  Then the user is offered the options to select access to a series of services (such as Manage/Audit Mailing Activities, Schedule a Mailing Appointment, Obtain a Mailer Id, Manage Permits, etc). \n\n- Requires account creation.  (gateway.usps.com)\n- Account will be business type.",
+        "raw": {
+          "asset_identifier": "gateway.usps.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Enterprise Administration provides the capability for customers to manage their own users who participate in online business offerings by designating an Business Service Administrator.  eAdmin is an authorization system for external business customers.  There is an external system as well as an internal system.  Externally, customers first go through the Business Customer Gateway (BCG) to login using Customer Registration credentials.  Then the user is offered the options to select access to a series of services (such as Manage/Audit Mailing Activities, Schedule a Mailing Appointment, Obtain a Mailer Id, Manage Permits, etc). \n\n- Requires account creation.  (gateway.usps.com)\n- Account will be business type.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "gateway.usps.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://about.usps.com/what/government-services/election-mail/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://about.usps.com/what/government-services/election-mail/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://holdmail.usps.com/holdmail/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://holdmail.usps.com/holdmail/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://redelivery.usps.com/redelivery/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://redelivery.usps.com/redelivery/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "PostalOne! provides Mailers with an efficient , cost-effective and seamless process from mail preparation to mail deliver. PostalOne! facilitates the integration of Mailer and Postal Service business processes to expedite mail acceptance and better support USPS and Mailer operations. The PostalOne! application offer businesses the capability for electronic access, electronic documentation and business mail management and electronic payment. \n\nIn addition to PostalOne! core functionality, the following business applications are submodules of PostalOne!:\n\n- Electric Verification Systems (eVS)\n- Scan Based Payment (SBP)\n- Performance Based Verification (PBV)\n- Seamless Acceptance\n- eInduction\n- Non-Profit Authorization and Periodicals Authorization\n- Self Service Terminal\n- Transportation Management System PostalOne! TM or TMS\n\nAdditional in-scope URL's related to PostalOne!:\n\nhttps://p1webservices.uspspostalone.com\nhttps://pcpostage.uspspostalone.com\n\n**External account required (not provided)**\n*Create through BCG/Customer Registration*\n\n**Additional information**\nThe users will need to login through BCG to get to PostalWizard\n**Any special steps needed?** Yes, services would need to be added to access any of the links to PO!’s PostalWizard\n\n",
+        "raw": {
+          "asset_identifier": "https://www.usps.com/postalone/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "PostalOne! provides Mailers with an efficient , cost-effective and seamless process from mail preparation to mail deliver. PostalOne! facilitates the integration of Mailer and Postal Service business processes to expedite mail acceptance and better support USPS and Mailer operations. The PostalOne! application offer businesses the capability for electronic access, electronic documentation and business mail management and electronic payment. \n\nIn addition to PostalOne! core functionality, the following business applications are submodules of PostalOne!:\n\n- Electric Verification Systems (eVS)\n- Scan Based Payment (SBP)\n- Performance Based Verification (PBV)\n- Seamless Acceptance\n- eInduction\n- Non-Profit Authorization and Periodicals Authorization\n- Self Service Terminal\n- Transportation Management System PostalOne! TM or TMS\n\nAdditional in-scope URL's related to PostalOne!:\n\nhttps://p1webservices.uspspostalone.com\nhttps://pcpostage.uspspostalone.com\n\n**External account required (not provided)**\n*Create through BCG/Customer Registration*\n\n**Additional information**\nThe users will need to login through BCG to get to PostalWizard\n**Any special steps needed?** Yes, services would need to be added to access any of the links to PO!’s PostalWizard\n\n",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "https://www.usps.com/postalone/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Informed Delivery (RMIN) captures digital images of envelopes, cards and letters, for both First Class and Standard/Marketing Mail that are processed on automated equipment. The images are industrial grayscale images of the address side of the Mail piece, and are used to automate USPS mail routing and delivery processes.  \n \nRMIN leverages these automation images to provide enrolled Users access to a dashboard as well as an optional e-mail that contains images of Mail that will be delivered to their address soon. Informed Delivery also displays package tracking data (MyUSPS) in the Users dashboard as well as the optional email.\n\n- Requires account creation. Business or Personal.\n- Account can be created via ID, eReg or BCG.\n- Requires eligible address. \n- Requires identity verification (Online or via mail code)",
+        "raw": {
+          "asset_identifier": "id.usps.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Informed Delivery (RMIN) captures digital images of envelopes, cards and letters, for both First Class and Standard/Marketing Mail that are processed on automated equipment. The images are industrial grayscale images of the address side of the Mail piece, and are used to automate USPS mail routing and delivery processes.  \n \nRMIN leverages these automation images to provide enrolled Users access to a dashboard as well as an optional e-mail that contains images of Mail that will be delivered to their address soon. Informed Delivery also displays package tracking data (MyUSPS) in the Users dashboard as well as the optional email.\n\n- Requires account creation. Business or Personal.\n- Account can be created via ID, eReg or BCG.\n- Requires eligible address. \n- Requires identity verification (Online or via mail code)",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "id.usps.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The International  Claims and Inquiry process is being separating into this application International Inquiry Claims Systems IICS (eCRS).  IICS is designed to pay or deny indemnity claims against the Postal Service when there is loss or damage to insured articles in the mail stream.\n\nThe eCRS application is used primarily to allow customers to file claims against insured shipments which have been either lost, damaged, missing contents, or delayed.\n\n- Requires account creation",
+        "raw": {
+          "asset_identifier": "internationalclaims.usps.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The International  Claims and Inquiry process is being separating into this application International Inquiry Claims Systems IICS (eCRS).  IICS is designed to pay or deny indemnity claims against the Postal Service when there is loss or damage to insured articles in the mail stream.\n\nThe eCRS application is used primarily to allow customers to file claims against insured shipments which have been either lost, damaged, missing contents, or delayed.\n\n- Requires account creation",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "internationalclaims.usps.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Informed Visibility (IV) is the single corporate standard data source for mail tracking, service performance, and predictive analytics. IV provides access in near real-time to all data events for all mail pieces, trays, and containers and tracks these products through the entire induction, transport, and delivery lifecycle while simultaneously identifying and presenting actionable information for fully-informed decisions that benefit both internal and external customers.\n\n- Requires business type account from BCG. (Not provided)\n- Requires BSA Authorization Code, emailed to the business owner. (Not provided)\n- Requires working email address during BCG registration. (Not provided)\n- Business Owner is the first person to register the business in BCG.",
+        "raw": {
+          "asset_identifier": "iv.usps.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Informed Visibility (IV) is the single corporate standard data source for mail tracking, service performance, and predictive analytics. IV provides access in near real-time to all data events for all mail pieces, trays, and containers and tracks these products through the entire induction, transport, and delivery lifecycle while simultaneously identifying and presenting actionable information for fully-informed decisions that benefit both internal and external customers.\n\n- Requires business type account from BCG. (Not provided)\n- Requires BSA Authorization Code, emailed to the business owner. (Not provided)\n- Requires working email address during BCG registration. (Not provided)\n- Business Owner is the first person to register the business in BCG.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "iv.usps.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "The moversguide.usps.com application allows customers to change their address on usps.com. Identity validation is required using a valid debit or credit card. (NOT SUPPLIED)\n\nA $1.05 fee is charged to the customer's credit card account for identity validation. Records contain customer name, old address, new mailing address, mail forwarding instructions, effective date, and information about whether the move is permanent or temporary. This application also offers move-related products and services. Revenue is generated from this application through an Alliance agreement sharing the authentication fee charged during the transaction and from advertiser revenue generated from coupons presented to movers. ",
+        "raw": {
+          "asset_identifier": "moversguide.usps.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "The moversguide.usps.com application allows customers to change their address on usps.com. Identity validation is required using a valid debit or credit card. (NOT SUPPLIED)\n\nA $1.05 fee is charged to the customer's credit card account for identity validation. Records contain customer name, old address, new mailing address, mail forwarding instructions, effective date, and information about whether the move is permanent or temporary. This application also offers move-related products and services. Revenue is generated from this application through an Alliance agreement sharing the authentication fee charged during the transaction and from advertiser revenue generated from coupons presented to movers. ",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "moversguide.usps.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "National Change of Address (NCOA) is the database of record that stores the Change Of Address (COA) information for Postal Patrons. \n\nNCOA helps reduce undeliverable-as-addressed mail by correcting input addresses prior to mailing. NCOA provides the following benefits to mailers:\n\n1) Reduces undeliverable mail by providing most current address information for matches made to the NCOA file\n2) Prevents the need for duplicate mail pieces or re-mailings after address corrections are received, since the address correction is applied prior to the mailing\n3) Using most current address information reduces mailer costs by reducing the number of undeliverable and duplicate mail pieces\n4) Provides the opportunity for faster product/service marketing through accurate mail delivery.\n\nNCOA Licensees provide mailers with the following:\n1) The original input address\n2) The input address standardized and appended with the ZIP+4 code \n3) A standardized new address when the standardized input address matches the old address on the NCOA file that includes a 5 Digit Zip code, 4 Digit add on, and a Delivery Point code\n4) PS Form 3553, Automation Discount Qualification",
+        "raw": {
+          "asset_identifier": "ncoa.usps.gov",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "National Change of Address (NCOA) is the database of record that stores the Change Of Address (COA) information for Postal Patrons. \n\nNCOA helps reduce undeliverable-as-addressed mail by correcting input addresses prior to mailing. NCOA provides the following benefits to mailers:\n\n1) Reduces undeliverable mail by providing most current address information for matches made to the NCOA file\n2) Prevents the need for duplicate mail pieces or re-mailings after address corrections are received, since the address correction is applied prior to the mailing\n3) Using most current address information reduces mailer costs by reducing the number of undeliverable and duplicate mail pieces\n4) Provides the opportunity for faster product/service marketing through accurate mail delivery.\n\nNCOA Licensees provide mailers with the following:\n1) The original input address\n2) The input address standardized and appended with the ZIP+4 code \n3) A standardized new address when the standardized input address matches the old address on the NCOA file that includes a 5 Digit Zip code, 4 Digit add on, and a Delivery Point code\n4) PS Form 3553, Automation Discount Qualification",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "ncoa.usps.gov"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "Package Intercept\n\nThis program enables users to check on the delivery status of a package and if necessary, enter instructions to intercept and redirect it.  It is an internet-based service for fee program for all classes of mail except standard mail and periodicals.\n\n* This application is accessed thru the BCG and for commercial customers. (Account not provided)\n\n\n",
+        "raw": {
+          "asset_identifier": "pi.usps.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "Package Intercept\n\nThis program enables users to check on the delivery status of a package and if necessary, enter instructions to intercept and redirect it.  It is an internet-based service for fee program for all classes of mail except standard mail and periodicals.\n\n* This application is accessed thru the BCG and for commercial customers. (Account not provided)\n\n\n",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "pi.usps.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "CUSTOMER REGISTRATION is the enterprise wide solution for registering customers who want to access USPS applications, products and services.  It provides single sign-on for external users supporting >70 applications on usps.com and the Business Customer Gateway (BCG). Over 60 MILLION users have registered to date.  \nIt provides a standardized process for user registration and login, along with centralize account profile management supporting most externally facing applications (on usps.com and BCG).  \n\nIt is the system of record for customer profiles, creation of CRIDs - company identifiers to denote a company name and address combination, as well as the SMS profile for all manner of usage (ranging from account recovery to package tracking).\n\nThere is a subsystem for Promotional Registrations, an option that allows external customers to sign up to receive calls from sales personnel or to sign up to receive information about a product or service offering or to opt-in/out of temporary programs (such as Informed Delivery, MyUSPS, Political Mail, etc)\n\n- Requires account creation. (reg.usps.com)\n- Accounts can be personal or business types.\n- Requires an address\n",
+        "raw": {
+          "asset_identifier": "reg.usps.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "CUSTOMER REGISTRATION is the enterprise wide solution for registering customers who want to access USPS applications, products and services.  It provides single sign-on for external users supporting >70 applications on usps.com and the Business Customer Gateway (BCG). Over 60 MILLION users have registered to date.  \nIt provides a standardized process for user registration and login, along with centralize account profile management supporting most externally facing applications (on usps.com and BCG).  \n\nIt is the system of record for customer profiles, creation of CRIDs - company identifiers to denote a company name and address combination, as well as the SMS profile for all manner of usage (ranging from account recovery to package tracking).\n\nThere is a subsystem for Promotional Registrations, an option that allows external customers to sign up to receive calls from sales personnel or to sign up to receive information about a product or service offering or to opt-in/out of temporary programs (such as Informed Delivery, MyUSPS, Political Mail, etc)\n\n- Requires account creation. (reg.usps.com)\n- Accounts can be personal or business types.\n- Requires an address\n",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "reg.usps.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "To offer an automated USPS Package Intercept service to retail customer or customers that do not qualify to use the commercial application. The service will be available to mailers through an online interface on USPS.com or API for PC Postage vendors.\nItems are intercepted at the initial destination delivery unit and, at the request of the customer, and redirected as either: \n**Return to Sender**\n**Hold For Pickup** \n**Send to an alternate domestic address**\n\n* This application is accessed thru the BCG and for commercial customers. (Account not provided)\n\n* A tracking barcode is required for the Package Intercept service. (Not provided)\n\nThere are two paths for the customer to request this service: \n**Online through usps.com.**\n**PC Postage provider if the vendor chooses to use the Application Programming Interface.**\n\nThe Package Intercept program will support individual requests as well as multiple requests in a single transaction. \n**Customer verification is required before Package Intercept can be requested.** \n**Customer authorization is required on the item to be intercepted.**\n",
+        "raw": {
+          "asset_identifier": "retail-pi.usps.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "To offer an automated USPS Package Intercept service to retail customer or customers that do not qualify to use the commercial application. The service will be available to mailers through an online interface on USPS.com or API for PC Postage vendors.\nItems are intercepted at the initial destination delivery unit and, at the request of the customer, and redirected as either: \n**Return to Sender**\n**Hold For Pickup** \n**Send to an alternate domestic address**\n\n* This application is accessed thru the BCG and for commercial customers. (Account not provided)\n\n* A tracking barcode is required for the Package Intercept service. (Not provided)\n\nThere are two paths for the customer to request this service: \n**Online through usps.com.**\n**PC Postage provider if the vendor chooses to use the Application Programming Interface.**\n\nThe Package Intercept program will support individual requests as well as multiple requests in a single transaction. \n**Customer verification is required before Package Intercept can be requested.** \n**Customer authorization is required on the item to be intercepted.**\n",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "retail-pi.usps.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "USPS E Commerce Platform provides Postal customers using USPS.com with an online one-stop shopping experience. The application provides a quick and customer friendly interface that allows both businesses and individuals to purchase Postal Products. The application has an interface to the Global Payment application which allows Postal customers to use a credit card or PayPal for purchases. \n\nComponents of the application include: Postal Store, Personalized Stamped Envelopes and Cards (PSE) as well as the user interfaces for Hold Mail and Redelivery Services.",
+        "raw": {
+          "asset_identifier": "store.usps.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "USPS E Commerce Platform provides Postal customers using USPS.com with an online one-stop shopping experience. The application provides a quick and customer friendly interface that allows both businesses and individuals to purchase Postal Products. The application has an interface to the Global Payment application which allows Postal customers to use a credit card or PayPal for purchases. \n\nComponents of the application include: Postal Store, Personalized Stamped Envelopes and Cards (PSE) as well as the user interfaces for Hold Mail and Redelivery Services.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "store.usps.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.liteblue.usps.gov",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.liteblue.usps.gov"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.usps.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.usps.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.usps.gov",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.usps.gov"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://hackerone.com/usps"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "yeswehack:vidaxl-services-open-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "vidaxl-services-open-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 3000,
+    "min_bounty": 50,
+    "name": "vidaXL Services - Open Bug Bounty Program",
+    "public": true
+  },
+  "name": "vidaXL Services - Open Bug Bounty Program",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "db0ef7105a763ea2bc14b0d25c99475769bc8409e8dbc86146a85d2b93936440",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "vidaxl-services-open-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://www.vidaxl.(at|be|bg|ch|co.uk.com|com.au|com.ua|com|cz|de|dk|ee|es|fi|fr|gr|ie|is|it|hr|hu|lt|lv|no|nl|pl|pt|ro|se|si|sk|uk|ae|ca|jp)",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://www.vidaxl.(at|be|bg|ch|co.uk.com|com.au|com.ua|com|cz|de|dk|ee|es|fi|fr|gr|ie|is|it|hr|hu|lt|lv|no|nl|pl|pt|ro|se|si|sk|uk|ae|ca|jp)"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://*.vidaxl.org",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://*.vidaxl.org"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://*.vidaxl.io",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "https://*.vidaxl.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://*.vidaxl.net",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "https://*.vidaxl.net"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains or subdomains not listed in the above list of 'Scopes'"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/vidaxl-services-open-bug-bounty-program"
+}
