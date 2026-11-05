@@ -1,0 +1,79 @@
+name: Sync public catalog
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      reviewed_source_commit:
+        description: 'Optional full upstream commit SHA, reviewed to approve a large removal/reduction'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-catalog-publication
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      changed: ${{ steps.sync.outputs.changed }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+      - run: python -m unittest discover -v
+      - name: Load previous public catalog
+        run: python publish_branch.py previous --directory "$RUNNER_TEMP/previous"
+      - name: Import and validate upstream data
+        id: sync
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          REVIEWED_SOURCE_COMMIT: ${{ inputs.reviewed_source_commit }}
+        shell: bash
+        run: |
+          args=()
+          if [[ -n "$REVIEWED_SOURCE_COMMIT" ]]; then
+            args+=(--source-commit "$REVIEWED_SOURCE_COMMIT" --reviewed-source-commit "$REVIEWED_SOURCE_COMMIT")
+          fi
+          python sync.py sync --previous "$RUNNER_TEMP/previous" --output "$RUNNER_TEMP/catalog" "${args[@]}"
+      - name: Transfer validated snapshot
+        if: steps.sync.outputs.changed == 'true'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: public-catalog
+          path: ${{ runner.temp }}/catalog/
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: build
+    if: github.ref == 'refs/heads/main' && needs.build.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+      - uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: public-catalog
+          path: ${{ runner.temp }}/catalog/
+      - name: Verify and publish generated data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python publish_branch.py publish --snapshot "$RUNNER_TEMP/catalog" --directory "$RUNNER_TEMP/published"
