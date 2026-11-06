@@ -1,0 +1,49 @@
+name: Public data correction
+description: Report a public catalog discrepancy without disclosing sensitive target data.
+title: 'Data: '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is for public metadata discrepancies. Catalog membership is not authorization to test.
+        For vulnerabilities or integrity failures, use [private reporting](https://github.com/Memrov/PentCloud-scopes/security/advisories/new).
+        Do not paste target inventories, private policy text, credentials, sensitive target data or scan results.
+  - type: input
+    id: revision
+    attributes:
+      label: Catalog commit SHA
+      description: Identify the snapshot you inspected so the report can be reproduced.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - HackerOne
+        - Bugcrowd
+        - Intigriti
+        - YesWeHack
+    validations:
+      required: true
+  - type: input
+    id: policy
+    attributes:
+      label: Public program policy URL
+      description: Link only to the official public policy page; omit private links and target lists.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Discrepancy and expected correction
+      description: Describe the affected metadata field using a sanitized or synthetic example. Note whether the upstream dataset has the same issue.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public report check
+      options:
+        - label: All references are public, this report contains no sensitive target data or scan results, and it does not disclose a vulnerability.
+          required: true
