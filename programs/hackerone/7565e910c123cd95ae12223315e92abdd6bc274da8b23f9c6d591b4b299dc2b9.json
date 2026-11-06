@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "fcb516682a397c452b7a6cb6603eaa9ff12fd545e055e6ac160ee2264f8113de",
+    "record_sha256": "8bc62c7def44de18ca84a30974b6215e5e919dd3e2c6037332f4114ba82c854f",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "aws_vdp",
@@ -9894,6 +9894,24 @@
         },
         "type": "SOURCE_CODE",
         "value": "https://github.com/aws/aws-sdk"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/aws/s2n-quic",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/aws/s2n-quic"
       },
       {
         "eligible_for_bounty": false,

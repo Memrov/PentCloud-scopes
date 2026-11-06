@@ -11,7 +11,7 @@
     "name": "FanDuel",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 97,
+    "response_efficiency_percentage": 96,
     "submission_state": "open",
     "url": "https://hackerone.com/fanduel",
     "website": "https://fanduel.com"
@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "d10070213f20cbdecbdc2dca2a534f88a436b60b747c7c40408ed9336ef368dc",
+    "record_sha256": "57660c8c04768d21774347105a6c7cda1eb6238504cd546b10ff142390422482",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "fanduel",
@@ -246,6 +246,24 @@
         },
         "type": "APPLE_STORE_APP_ID",
         "value": "6740879082"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "FanDuel Customer Support Sites",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "FanDuel Customer Support Sites"
       },
       {
         "eligible_for_bounty": true,
