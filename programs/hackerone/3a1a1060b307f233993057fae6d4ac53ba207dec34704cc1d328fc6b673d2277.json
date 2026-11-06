@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "aae666182cf65f4dfce3250ff90c2f386d01bb62e4ef897ec5c1d56311268203",
+    "record_sha256": "32d75a72a2e475c76262e1ced61c238173cde33e594077c3229ffb670480613d",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "mod_supply_chain_vdp",
@@ -48,6 +48,24 @@
         },
         "type": "WILDCARD",
         "value": "*.roke.co.uk"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "166.20.208.14",
+          "asset_type": "IP_ADDRESS",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "IP_ADDRESS",
+        "value": "166.20.208.14"
       },
       {
         "eligible_for_bounty": false,

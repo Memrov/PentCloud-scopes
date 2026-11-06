@@ -2,7 +2,7 @@
   "id": "hackerone:epicgames",
   "metadata": {
     "allows_bounty_splitting": true,
-    "average_time_to_bounty_awarded": 180.0,
+    "average_time_to_bounty_awarded": 181.0,
     "average_time_to_first_program_response": 0.0,
     "average_time_to_report_resolved": null,
     "handle": "epicgames",
@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "274822181920849a7214a974b2f6dce7ef9cc6f9afbe2a689f110c9b7ab3ead4",
+    "record_sha256": "bad80f6acd7ac851c82482abb3f54d1fb946a730982bccd331c94a311001aeec",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "epicgames",
@@ -732,6 +732,24 @@
         },
         "type": "DOWNLOADABLE_EXECUTABLES",
         "value": "UnrealEditorFortnite-Win64-Shipping.exe"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Zenserver is an **unauthenticated** storage server for *trusted networks only* (LAN/VPN). Full read/write/delete access is granted to all reachable users by design. Not intended for public internet or untrusted environments.\n\nSubmissions relying on out-of-scope usage (public exposure, untrusted networks) will be closed as Informative.",
+        "raw": {
+          "asset_identifier": "Zenserver",
+          "asset_type": "OTHER",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Zenserver is an **unauthenticated** storage server for *trusted networks only* (LAN/VPN). Full read/write/delete access is granted to all reachable users by design. Not intended for public internet or untrusted environments.\n\nSubmissions relying on out-of-scope usage (public exposure, untrusted networks) will be closed as Informative.",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Zenserver"
       },
       {
         "eligible_for_bounty": true,
