@@ -36,6 +36,17 @@ python3 sync.py sync --source-commit UPSTREAM_COMMIT_SHA --output build/reproduc
 
 A failed refresh cannot prove a program was removed. A successful new snapshot can record absence, but cannot prove why it disappeared. Historical snapshots remain in the catalog branch history. Rollbacks for debugging must retain explicit source provenance and do not restore testing authorization.
 
+## Trust follow-ups
+
+These improvements require separate implementation and review; they are not guarantees of the current catalog:
+
+- Define a maximum upstream source age and future-clock tolerance for publication, with tests for stale, future-dated and unchanged imports. Keep historical reproduction separate from publication eligibility.
+- Expose the last successful import check separately from the last changed snapshot, so an unchanged catalog does not acquire a misleading publication time. A workflow badge alone cannot detect a stopped schedule.
+- Record the importer commit and workflow run in provenance, then attest a verified manifest or snapshot archive and document consumer verification. Existing checksums do not authenticate the builder or verify platform policies.
+- Measure importer branch coverage before choosing a regression threshold or publishing a coverage badge.
+
+There are no published software releases or release automation today. If releases are introduced, create a draft, attach all assets and publish only after verification so the workflow supports [immutable releases](https://docs.github.com/en/code-security/concepts/supply-chain-security/immutable-releases). Release protection is separate from the advancing `catalog` branch.
+
 ## References
 
 - [Public upstream dataset and collector attribution](https://github.com/arkadiyt/bounty-targets-data)
