@@ -11,7 +11,7 @@
     "name": "Weblate",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 96,
+    "response_efficiency_percentage": 97,
     "submission_state": "open",
     "url": "https://hackerone.com/weblate",
     "website": "https://weblate.org/"
@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "e178203ff2b8c29d5344188b5bdba8861d4d836a640ab2eb3a672d6bde801560",
+    "record_sha256": "5528b9e7d8e5388e6b3bf6aeee2da265a98884d061726b9dee3c619dbc84f6bc",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "weblate",
@@ -34,7 +34,7 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": true,
-        "instructions": "Please use the [Sandbox translation project](https://hosted.weblate.org/projects/sandbox/) for testing.",
+        "instructions": "Use https://hosted.weblate.org/projects/sandbox/ for testing. Only interact with accounts you own or have explicit permission to use. Follow the program's testing rules.",
         "raw": {
           "asset_identifier": "hosted.weblate.org",
           "asset_type": "URL",
@@ -42,7 +42,7 @@
           "confidentiality_requirement": null,
           "eligible_for_bounty": false,
           "eligible_for_submission": true,
-          "instruction": "Please use the [Sandbox translation project](https://hosted.weblate.org/projects/sandbox/) for testing.",
+          "instruction": "Use https://hosted.weblate.org/projects/sandbox/ for testing. Only interact with accounts you own or have explicit permission to use. Follow the program's testing rules.",
           "integrity_requirement": null,
           "max_severity": "critical"
         },
@@ -52,7 +52,7 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": true,
-        "instructions": "",
+        "instructions": "Includes the Weblate Docker container source and published container images. Operator-supplied environment variables, container arguments, and mounted configuration are trusted deployment inputs; their ability to configure the deployment is not itself a vulnerability.",
         "raw": {
           "asset_identifier": "https://github.com/WeblateOrg/docker",
           "asset_type": "SOURCE_CODE",
@@ -60,7 +60,7 @@
           "confidentiality_requirement": null,
           "eligible_for_bounty": false,
           "eligible_for_submission": true,
-          "instruction": "",
+          "instruction": "Includes the Weblate Docker container source and published container images. Operator-supplied environment variables, container arguments, and mounted configuration are trusted deployment inputs; their ability to configure the deployment is not itself a vulnerability.",
           "integrity_requirement": null,
           "max_severity": "critical"
         },
@@ -88,7 +88,7 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": true,
-        "instructions": "",
+        "instructions": "Includes Weblate source code and published Weblate release artifacts. Evaluate findings against the threat model for the affected release: https://docs.weblate.org/en/latest/security/threat-model.html",
         "raw": {
           "asset_identifier": "https://github.com/WeblateOrg/weblate",
           "asset_type": "SOURCE_CODE",
@@ -96,7 +96,7 @@
           "confidentiality_requirement": null,
           "eligible_for_bounty": false,
           "eligible_for_submission": true,
-          "instruction": "",
+          "instruction": "Includes Weblate source code and published Weblate release artifacts. Evaluate findings against the threat model for the affected release: https://docs.weblate.org/en/latest/security/threat-model.html",
           "integrity_requirement": null,
           "max_severity": "critical"
         },
@@ -124,7 +124,7 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": true,
-        "instructions": "",
+        "instructions": "Evaluate findings against the Weblate Client threat model: https://github.com/WeblateOrg/wlc/blob/main/THREAT_MODEL.md",
         "raw": {
           "asset_identifier": "https://github.com/WeblateOrg/wlc",
           "asset_type": "SOURCE_CODE",
@@ -132,7 +132,7 @@
           "confidentiality_requirement": null,
           "eligible_for_bounty": false,
           "eligible_for_submission": true,
-          "instruction": "",
+          "instruction": "Evaluate findings against the Weblate Client threat model: https://github.com/WeblateOrg/wlc/blob/main/THREAT_MODEL.md",
           "integrity_requirement": null,
           "max_severity": "critical"
         },
@@ -141,24 +141,6 @@
       }
     ],
     "out_of_scope": [
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": false,
-        "instructions": "The GitHub wiki is intentionally open to public.",
-        "raw": {
-          "asset_identifier": "github.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": false,
-          "instruction": "The GitHub wiki is intentionally open to public.",
-          "integrity_requirement": null,
-          "max_severity": "none"
-        },
-        "type": "URL",
-        "value": "github.com"
-      },
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": false,

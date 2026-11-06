@@ -11,7 +11,7 @@
     "name": "Anduril Industries",
     "offers_bounties": true,
     "offers_swag": true,
-    "response_efficiency_percentage": 86,
+    "response_efficiency_percentage": 85,
     "submission_state": "open",
     "url": "https://hackerone.com/anduril_industries",
     "website": "https://www.anduril.com"
@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "ca158d7f02fc29f0ff70ebe3c8b86fac07528c34b0e4d4cc31ef3910d8637fa2",
+    "record_sha256": "02f2623eaca0781afd6500f3298c682f3ee236cb1146c6b5f59e6daa7cbfff39",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "anduril_industries",
@@ -31,60 +31,6 @@
   },
   "targets": {
     "in_scope": [
-      {
-        "eligible_for_bounty": true,
-        "eligible_for_submission": true,
-        "instructions": "",
-        "raw": {
-          "asset_identifier": "*.anduril.au",
-          "asset_type": "WILDCARD",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "",
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        "type": "WILDCARD",
-        "value": "*.anduril.au"
-      },
-      {
-        "eligible_for_bounty": true,
-        "eligible_for_submission": true,
-        "instructions": "",
-        "raw": {
-          "asset_identifier": "*.anduril.com",
-          "asset_type": "WILDCARD",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "",
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        "type": "WILDCARD",
-        "value": "*.anduril.com"
-      },
-      {
-        "eligible_for_bounty": true,
-        "eligible_for_submission": true,
-        "instructions": "",
-        "raw": {
-          "asset_identifier": "*.anduril.com.au",
-          "asset_type": "WILDCARD",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "",
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        "type": "WILDCARD",
-        "value": "*.anduril.com.au"
-      },
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
@@ -138,6 +84,24 @@
         },
         "type": "WILDCARD",
         "value": "*.andurildev.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "anduril.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "anduril.com"
       }
     ],
     "out_of_scope": [
