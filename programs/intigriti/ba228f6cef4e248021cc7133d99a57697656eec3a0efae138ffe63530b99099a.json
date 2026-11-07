@@ -24,7 +24,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/intigriti_data.json",
-    "record_sha256": "2a6bd95a4c964d9f16c2b7fc9cb2395a0ec8f912780ef5d7acdf829d0291fd3c",
+    "record_sha256": "74d505171471dca51c82932465944230c97c9435207d2e9e73462cb536c33024",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "e540980d-b56e-4956-afff-f914653a4f6e",
@@ -37,6 +37,19 @@
       {
         "eligible_for_bounty": null,
         "eligible_for_submission": null,
+        "instructions": "Dropbox Public API",
+        "raw": {
+          "description": "Dropbox Public API",
+          "endpoint": "api.dropbox.com",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "api.dropbox.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
         "instructions": "Dropbox Core Web Application",
         "raw": {
           "description": "Dropbox Core Web Application",
@@ -46,19 +59,6 @@
         },
         "type": "url",
         "value": "Dropbox.com"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": "Sign by Dropbox (formerly HelloSign)",
-        "raw": {
-          "description": "Sign by Dropbox (formerly HelloSign)",
-          "endpoint": "sign.dropbox.com",
-          "impact": "Tier 1",
-          "type": "url"
-        },
-        "type": "url",
-        "value": "sign.dropbox.com"
       },
       {
         "eligible_for_bounty": null,
@@ -76,80 +76,15 @@
       {
         "eligible_for_bounty": null,
         "eligible_for_submission": null,
-        "instructions": "Web Browser Extension",
+        "instructions": "Sign by Dropbox (formerly HelloSign)",
         "raw": {
-          "description": "Web Browser Extension",
-          "endpoint": "dash.ai",
+          "description": "Sign by Dropbox (formerly HelloSign)",
+          "endpoint": "sign.dropbox.com",
           "impact": "Tier 1",
           "type": "url"
         },
         "type": "url",
-        "value": "dash.ai"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": "Dash by Dropbox MacOS and PC",
-        "raw": {
-          "description": "Dash by Dropbox MacOS and PC",
-          "endpoint": "dash.dropbox.com",
-          "impact": "Tier 1",
-          "type": "other"
-        },
-        "type": "other",
-        "value": "dash.dropbox.com"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": "Dropbox Public API",
-        "raw": {
-          "description": "Dropbox Public API",
-          "endpoint": "api.dropbox.com",
-          "impact": "Tier 1",
-          "type": "url"
-        },
-        "type": "url",
-        "value": "api.dropbox.com"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": "Dropbox for MacOS and PC",
-        "raw": {
-          "description": "Dropbox for MacOS and PC",
-          "endpoint": "Dropbox Desktop Application",
-          "impact": "Tier 2",
-          "type": "other"
-        },
-        "type": "other",
-        "value": "Dropbox Desktop Application"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": "Dropbox iOS Application",
-        "raw": {
-          "description": "Dropbox iOS Application",
-          "endpoint": "327630330",
-          "impact": "Tier 2",
-          "type": "ios"
-        },
-        "type": "ios",
-        "value": "327630330"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": "Dash by Dropbox iOS Application",
-        "raw": {
-          "description": "Dash by Dropbox iOS Application",
-          "endpoint": "6450553960",
-          "impact": "Tier 2",
-          "type": "ios"
-        },
-        "type": "ios",
-        "value": "6450553960"
+        "value": "sign.dropbox.com"
       },
       {
         "eligible_for_bounty": null,
@@ -167,54 +102,15 @@
       {
         "eligible_for_bounty": null,
         "eligible_for_submission": null,
-        "instructions": "Dash by Dropbox Android Application",
+        "instructions": "Dropbox iOS Application",
         "raw": {
-          "description": "Dash by Dropbox Android Application",
-          "endpoint": "com.dropbox.dash",
+          "description": "Dropbox iOS Application",
+          "endpoint": "327630330",
           "impact": "Tier 2",
-          "type": "android"
+          "type": "ios"
         },
-        "type": "android",
-        "value": "com.dropbox.dash"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": "Dropbox Android Application",
-        "raw": {
-          "description": "Dropbox Android Application",
-          "endpoint": "com.dropbox.android",
-          "impact": "Tier 2",
-          "type": "android"
-        },
-        "type": "android",
-        "value": "com.dropbox.android"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": "HelloFax Web Application",
-        "raw": {
-          "description": "HelloFax Web Application",
-          "endpoint": "HelloFax.com",
-          "impact": "Tier 2",
-          "type": "url"
-        },
-        "type": "url",
-        "value": "HelloFax.com"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": "Docsend Web Application",
-        "raw": {
-          "description": "Docsend Web Application",
-          "endpoint": "docsend.com",
-          "impact": "Tier 2",
-          "type": "url"
-        },
-        "type": "url",
-        "value": "docsend.com"
+        "type": "ios",
+        "value": "327630330"
       },
       {
         "eligible_for_bounty": null,
@@ -232,6 +128,45 @@
       {
         "eligible_for_bounty": null,
         "eligible_for_submission": null,
+        "instructions": "Dropbox Android Application",
+        "raw": {
+          "description": "Dropbox Android Application",
+          "endpoint": "com.dropbox.android",
+          "impact": "Tier 2",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "com.dropbox.android"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Docsend Web Application",
+        "raw": {
+          "description": "Docsend Web Application",
+          "endpoint": "docsend.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "docsend.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Dropbox for MacOS and PC",
+        "raw": {
+          "description": "Dropbox for MacOS and PC",
+          "endpoint": "Dropbox Desktop Application",
+          "impact": "Tier 2",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Dropbox Desktop Application"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
         "instructions": "Paper by Dropbox Application",
         "raw": {
           "description": "Paper by Dropbox Application",
@@ -241,6 +176,32 @@
         },
         "type": "url",
         "value": "dropbox.com/paper"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "HelloFax Web Application",
+        "raw": {
+          "description": "HelloFax Web Application",
+          "endpoint": "HelloFax.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "HelloFax.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.docsend.com",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.docsend.com"
       },
       {
         "eligible_for_bounty": null,
@@ -313,25 +274,12 @@
         "instructions": null,
         "raw": {
           "description": null,
-          "endpoint": "*.docsend.com",
+          "endpoint": "*.hellosign.com",
           "impact": "Tier 3",
           "type": "wildcard"
         },
         "type": "wildcard",
-        "value": "*.docsend.com"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": null,
-        "raw": {
-          "description": null,
-          "endpoint": "*.reclaim.ai",
-          "impact": "Tier 3",
-          "type": "wildcard"
-        },
-        "type": "wildcard",
-        "value": "*.reclaim.ai"
+        "value": "*.hellosign.com"
       },
       {
         "eligible_for_bounty": null,
@@ -352,12 +300,12 @@
         "instructions": null,
         "raw": {
           "description": null,
-          "endpoint": "*.hellosign.com",
+          "endpoint": "*.reclaim.ai",
           "impact": "Tier 3",
           "type": "wildcard"
         },
         "type": "wildcard",
-        "value": "*.hellosign.com"
+        "value": "*.reclaim.ai"
       },
       {
         "eligible_for_bounty": null,
@@ -366,11 +314,63 @@
         "raw": {
           "description": null,
           "endpoint": "*.dash.ai",
-          "impact": "Tier 3",
+          "impact": "No Bounty",
           "type": "wildcard"
         },
         "type": "wildcard",
         "value": "*.dash.ai"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Dash by Dropbox iOS Application",
+        "raw": {
+          "description": "Dash by Dropbox iOS Application",
+          "endpoint": "6450553960",
+          "impact": "No Bounty",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "6450553960"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Dash by Dropbox Android Application",
+        "raw": {
+          "description": "Dash by Dropbox Android Application",
+          "endpoint": "com.dropbox.dash",
+          "impact": "No Bounty",
+          "type": "android"
+        },
+        "type": "android",
+        "value": "com.dropbox.dash"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Web Browser Extension",
+        "raw": {
+          "description": "Web Browser Extension",
+          "endpoint": "dash.ai",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "dash.ai"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Dash by Dropbox MacOS and PC",
+        "raw": {
+          "description": "Dash by Dropbox MacOS and PC",
+          "endpoint": "dash.dropbox.com",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "dash.dropbox.com"
       }
     ],
     "out_of_scope": [
@@ -380,25 +380,38 @@
         "instructions": null,
         "raw": {
           "description": null,
-          "endpoint": "community.dropbox.com",
+          "endpoint": "*.tigrisdata.com",
           "impact": "Out of scope",
-          "type": "url"
+          "type": "wildcard"
         },
-        "type": "url",
-        "value": "community.dropbox.com"
+        "type": "wildcard",
+        "value": "*.tigrisdata.com"
       },
       {
         "eligible_for_bounty": null,
         "eligible_for_submission": null,
-        "instructions": "Dropbox Replay is undergoing a planned deprecation and replacement. The current Replay application and its associated APIs are out of scope until the new version is released.",
+        "instructions": null,
         "raw": {
-          "description": "Dropbox Replay is undergoing a planned deprecation and replacement. The current Replay application and its associated APIs are out of scope until the new version is released.",
-          "endpoint": "replay.dropbox.com",
+          "description": null,
+          "endpoint": "*.tigrisdata.io",
           "impact": "Out of scope",
-          "type": "url"
+          "type": "wildcard"
         },
-        "type": "url",
-        "value": "replay.dropbox.com"
+        "type": "wildcard",
+        "value": "*.tigrisdata.io"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Paper by Dropbox iOS Application",
+        "raw": {
+          "description": "Paper by Dropbox iOS Application",
+          "endpoint": "1126623662",
+          "impact": "Out of scope",
+          "type": "ios"
+        },
+        "type": "ios",
+        "value": "1126623662"
       },
       {
         "eligible_for_bounty": null,
@@ -416,58 +429,6 @@
       {
         "eligible_for_bounty": null,
         "eligible_for_submission": null,
-        "instructions": "Including:\n\n*.formswift.com",
-        "raw": {
-          "description": "Including:\n\n*.formswift.com",
-          "endpoint": "Formswift",
-          "impact": "Out of scope",
-          "type": "other"
-        },
-        "type": "other",
-        "value": "Formswift"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": "Including:\n\niOS and Android Applications",
-        "raw": {
-          "description": "Including:\n\niOS and Android Applications",
-          "endpoint": "Dropbox Passwords",
-          "impact": "Out of scope",
-          "type": "other"
-        },
-        "type": "other",
-        "value": "Dropbox Passwords"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": null,
-        "raw": {
-          "description": null,
-          "endpoint": "Dropbox Capture Windows Desktop App",
-          "impact": "Out of scope",
-          "type": "other"
-        },
-        "type": "other",
-        "value": "Dropbox Capture Windows Desktop App"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
-        "instructions": null,
-        "raw": {
-          "description": null,
-          "endpoint": "Dropbox Capture macOS Desktop App",
-          "impact": "Out of scope",
-          "type": "other"
-        },
-        "type": "other",
-        "value": "Dropbox Capture macOS Desktop App"
-      },
-      {
-        "eligible_for_bounty": null,
-        "eligible_for_submission": null,
         "instructions": "Paper by Dropbox Android Application",
         "raw": {
           "description": "Paper by Dropbox Android Application",
@@ -481,15 +442,15 @@
       {
         "eligible_for_bounty": null,
         "eligible_for_submission": null,
-        "instructions": "Paper by Dropbox iOS Application",
+        "instructions": null,
         "raw": {
-          "description": "Paper by Dropbox iOS Application",
-          "endpoint": "1126623662",
+          "description": null,
+          "endpoint": "community-dev.dropbox.com",
           "impact": "Out of scope",
-          "type": "ios"
+          "type": "url"
         },
-        "type": "ios",
-        "value": "1126623662"
+        "type": "url",
+        "value": "community-dev.dropbox.com"
       },
       {
         "eligible_for_bounty": null,
@@ -510,12 +471,77 @@
         "instructions": null,
         "raw": {
           "description": null,
-          "endpoint": "community-dev.dropbox.com",
+          "endpoint": "community.dropbox.com",
           "impact": "Out of scope",
           "type": "url"
         },
         "type": "url",
-        "value": "community-dev.dropbox.com"
+        "value": "community.dropbox.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Dropbox Capture macOS Desktop App",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Dropbox Capture macOS Desktop App"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "Dropbox Capture Windows Desktop App",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Dropbox Capture Windows Desktop App"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Including:\n\niOS and Android Applications",
+        "raw": {
+          "description": "Including:\n\niOS and Android Applications",
+          "endpoint": "Dropbox Passwords",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Dropbox Passwords"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Including:\n\n*.formswift.com",
+        "raw": {
+          "description": "Including:\n\n*.formswift.com",
+          "endpoint": "Formswift",
+          "impact": "Out of scope",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Formswift"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Dropbox Replay is undergoing a planned deprecation and replacement. The current Replay application and its associated APIs are out of scope until the new version is released.",
+        "raw": {
+          "description": "Dropbox Replay is undergoing a planned deprecation and replacement. The current Replay application and its associated APIs are out of scope until the new version is released.",
+          "endpoint": "replay.dropbox.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "replay.dropbox.com"
       }
     ]
   },
