@@ -1,81 +1,33 @@
 {
   "added": [],
-  "previous_catalog_sha256": "a9e0232aea7f7c68867b35c8707118ad7f4494e12997ea7c59b2c7abfa2ce7ae",
+  "previous_catalog_sha256": "79ca050b464b2442952e4d5b2cdef16ead30eb3f63b5c592771ea4b8b6996e24",
   "removed": [
     {
-      "id": "intigriti:06ea3a06-58d5-4173-af0e-c2f1f98714c6",
-      "name": "Lansweeper Bug Bounty Program",
-      "path": "programs/intigriti/c1210d554d598bd9d4ece5d80ecf394cf72d22a235a58dff5a9d616b24f160be.json",
+      "id": "intigriti:efd8bd86-a986-4b4a-9eda-c9a6a1a6b540",
+      "name": "CM.com",
+      "path": "programs/intigriti/723720aa0ca01e74a001099194f9ee8d59ac14e1b24c34b5c1c6e3355da7fd7a.json",
       "platform": "intigriti",
       "reason": "absent_from_upstream_snapshot",
-      "record_sha256": "c27a41901ba47e98f3a167e8698a65426ef70282c32ae78b9bf19ece6c197265",
+      "record_sha256": "21e6b6619426777963acdd5cbadaf777bc0cbe303ef3c21d163bef172b5d0793",
       "scope_counts": {
-        "in_scope": 11,
-        "out_of_scope": 6
+        "in_scope": 20,
+        "out_of_scope": 0
       },
       "source_status": {
         "field": "status",
         "value": "open"
       },
-      "url": "https://www.intigriti.com/programs/lansweeper/lansweeper1/detail"
+      "url": "https://www.intigriti.com/programs/cmcom/cmcom/detail"
     }
   ],
   "schema_version": 1,
   "updated": [
     {
-      "id": "hackerone:assa_abloy_americas",
-      "name": "Assa Abloy Americas",
-      "path": "programs/hackerone/73325bdaea7234906cdb397336a7c131990b6b6e678edbe5551c38374b5cf359.json",
+      "id": "hackerone:discourse",
+      "name": "Discourse",
+      "path": "programs/hackerone/bc462405bb3f04096a21d0c7e63c2aa71429df08c873b1cd088eb67494342554.json",
       "platform": "hackerone",
-      "record_sha256": "55334b5c7fad6c96fd9f46f58dd78014106a7055a1bcfb928fbc22a140e48ff1",
-      "scope_counts": {
-        "in_scope": 36,
-        "out_of_scope": 0
-      },
-      "source_status": {
-        "field": "submission_state",
-        "value": "open"
-      },
-      "url": "https://hackerone.com/assa_abloy_americas"
-    },
-    {
-      "id": "hackerone:aws_vdp",
-      "name": "AWS VDP",
-      "path": "programs/hackerone/7565e910c123cd95ae12223315e92abdd6bc274da8b23f9c6d591b4b299dc2b9.json",
-      "platform": "hackerone",
-      "record_sha256": "345c0fd671f4caf2b0c33415aceec03a7ed3eb99bc6d4d4c29ddb512d857664a",
-      "scope_counts": {
-        "in_scope": 555,
-        "out_of_scope": 1
-      },
-      "source_status": {
-        "field": "submission_state",
-        "value": "open"
-      },
-      "url": "https://hackerone.com/aws_vdp"
-    },
-    {
-      "id": "hackerone:fanduel",
-      "name": "FanDuel",
-      "path": "programs/hackerone/2f5e883e24893afed974b750d27b48043324658a0f2398d7333932144a26d682.json",
-      "platform": "hackerone",
-      "record_sha256": "db4d7cf5c6fb922757862f44c4749d459d1fecb0bb916a996cb8908481cb2b8a",
-      "scope_counts": {
-        "in_scope": 20,
-        "out_of_scope": 3
-      },
-      "source_status": {
-        "field": "submission_state",
-        "value": "open"
-      },
-      "url": "https://hackerone.com/fanduel"
-    },
-    {
-      "id": "hackerone:flexport_vdp",
-      "name": "Flexport VDP",
-      "path": "programs/hackerone/3ebe5937bcc9e4fdafe7324ab5b865762dd807aeabe5c616a2d2b87528aeee57.json",
-      "platform": "hackerone",
-      "record_sha256": "96e5c13229064d906f250ca2ad4c426dac06d9251a0a38f5f91b0aaa0596b729",
+      "record_sha256": "6d9101663a477e197311f10ab31c72b2add200c531d1021166197d899e1a8468",
       "scope_counts": {
         "in_scope": 2,
         "out_of_scope": 0
@@ -84,158 +36,126 @@
         "field": "submission_state",
         "value": "open"
       },
-      "url": "https://hackerone.com/flexport_vdp"
+      "url": "https://hackerone.com/discourse"
     },
     {
-      "id": "hackerone:hilton",
-      "name": "Hilton",
-      "path": "programs/hackerone/b0c17531a066cc7e5e1a4d72f97261a56fd9ae256aa0a9da0ff6de1a200cfa26.json",
+      "id": "hackerone:ferrero",
+      "name": "Ferrero",
+      "path": "programs/hackerone/d7cb787045917c693f76dd0f4ccd698892c4f25f0407c0908fa16750a67c74c6.json",
       "platform": "hackerone",
-      "record_sha256": "2c1cc80578996cd18dff8a1576a0b3bdb13ccd705ddd70bec585bcb93e99c796",
+      "record_sha256": "f3994cf887b9b48862e26dde6ad0a03945f2e65382d7032a5d90e164bd2893ad",
       "scope_counts": {
-        "in_scope": 23,
-        "out_of_scope": 13
-      },
-      "source_status": {
-        "field": "submission_state",
-        "value": "open"
-      },
-      "url": "https://hackerone.com/hilton"
-    },
-    {
-      "id": "hackerone:msci",
-      "name": "MSCI",
-      "path": "programs/hackerone/2bfff037f93c0747caf55ff145fb6b0d8e3c32ffa30576fb66081989a5800444.json",
-      "platform": "hackerone",
-      "record_sha256": "ea94b34c902c7567473f4c16b2500e4176754c15efd84edc1035e9e6499e05a0",
-      "scope_counts": {
-        "in_scope": 1,
-        "out_of_scope": 2
-      },
-      "source_status": {
-        "field": "submission_state",
-        "value": "open"
-      },
-      "url": "https://hackerone.com/msci"
-    },
-    {
-      "id": "hackerone:msd",
-      "name": "Merck & Co., Inc., Rahway, NJ, USA",
-      "path": "programs/hackerone/3f8034c6b59797ab44c21ae2ebba8f09ec587247e5daf27d5ef289be926f7f32.json",
-      "platform": "hackerone",
-      "record_sha256": "a4b32fc10503b08fdf61aae7f7f3aef869d29c7210c341901eb7bba0157fd6ea",
-      "scope_counts": {
-        "in_scope": 3,
+        "in_scope": 416,
         "out_of_scope": 0
       },
       "source_status": {
         "field": "submission_state",
         "value": "open"
       },
-      "url": "https://hackerone.com/msd"
+      "url": "https://hackerone.com/ferrero"
     },
     {
-      "id": "hackerone:mtn_group",
-      "name": "MTN Group",
-      "path": "programs/hackerone/b53ef1901a608d3f18e4fc694d72b963638994f3fb8f16121e1ec843d0242d41.json",
+      "id": "hackerone:forescout_technologies",
+      "name": "ForeScout Technologies",
+      "path": "programs/hackerone/9201f45ade49c1f3554c1cecc293f0c7db8846a3eb79156ba586a96ced898e50.json",
       "platform": "hackerone",
-      "record_sha256": "5d49ae154a4b81796b929dd3c7cf7e08eb4f7e5b4201155d8adb748267d71861",
+      "record_sha256": "bf9b576ad3795f06efe440afb1e98b2f1f5e760cc25d63572ca6163c23a6e0cf",
       "scope_counts": {
-        "in_scope": 498,
-        "out_of_scope": 150
+        "in_scope": 63,
+        "out_of_scope": 8
       },
       "source_status": {
         "field": "submission_state",
         "value": "open"
       },
-      "url": "https://hackerone.com/mtn_group"
+      "url": "https://hackerone.com/forescout_technologies"
     },
     {
-      "id": "hackerone:pingidentity",
-      "name": "Ping Identity",
-      "path": "programs/hackerone/2309ebbcbec5f5b2b36dc70d7d0ebed2d43b0b5c8039d3793162e40388d9fdca.json",
+      "id": "hackerone:fronthq",
+      "name": "Front",
+      "path": "programs/hackerone/b9dea5279466345511213844fd0d955ec638d036884e50663c55375ea72585da.json",
       "platform": "hackerone",
-      "record_sha256": "98cd12ecb7abc8d638f9e8bbff514ac4e564c8568c4a6e7a0b418d3067f4c882",
+      "record_sha256": "bd05309dcf0e52282edb69159189979770e5d1511d0495847508edefe8c81c74",
       "scope_counts": {
-        "in_scope": 10,
-        "out_of_scope": 16
-      },
-      "source_status": {
-        "field": "submission_state",
-        "value": "open"
-      },
-      "url": "https://hackerone.com/pingidentity"
-    },
-    {
-      "id": "hackerone:priceline",
-      "name": "Priceline",
-      "path": "programs/hackerone/43767c9d32755b23b694d80d6ca6c921354803b7deae64b4ac6399cd2e5e060c.json",
-      "platform": "hackerone",
-      "record_sha256": "829cf534dd988351c092d079bb887d2d307d2900040a868a27957c3d1c2a56b9",
-      "scope_counts": {
-        "in_scope": 13,
-        "out_of_scope": 45
-      },
-      "source_status": {
-        "field": "submission_state",
-        "value": "open"
-      },
-      "url": "https://hackerone.com/priceline"
-    },
-    {
-      "id": "hackerone:redis-vdp",
-      "name": "Redis VDP",
-      "path": "programs/hackerone/300ab372e1a091e5675cfaae6340704f08128aaf9700c2c35c0d895d4302c2c1.json",
-      "platform": "hackerone",
-      "record_sha256": "708f96934b13d8b13544499ca3957179af66d29d90e458a596bfd9c035eca98d",
-      "scope_counts": {
-        "in_scope": 8,
+        "in_scope": 6,
         "out_of_scope": 0
       },
       "source_status": {
         "field": "submission_state",
         "value": "open"
       },
-      "url": "https://hackerone.com/redis-vdp"
+      "url": "https://hackerone.com/fronthq"
     },
     {
-      "id": "hackerone:redox_bbp",
-      "name": "Redox",
-      "path": "programs/hackerone/10dae3b3631aaab5a7547b00eb91278e8fa6844b284e6e6afe197312405d17e9.json",
+      "id": "hackerone:hubspot",
+      "name": "HubSpot",
+      "path": "programs/hackerone/4d3a23b9a3d5c6ce707b9978b93d64d600268ed89fabac8d64157c8a69bc3ce5.json",
       "platform": "hackerone",
-      "record_sha256": "3a2f9c26922e003b5ff8e6fe0ced68e505f18e608ad8a79eecfbf2b5afee4b3c",
+      "record_sha256": "e512dc779f64e79d7ddbc008f696a24d17bfd8715382b18f8b5f217b7114e285",
       "scope_counts": {
-        "in_scope": 9,
+        "in_scope": 15,
         "out_of_scope": 6
       },
       "source_status": {
         "field": "submission_state",
         "value": "open"
       },
-      "url": "https://hackerone.com/redox_bbp"
+      "url": "https://hackerone.com/hubspot"
     },
     {
-      "id": "hackerone:robinhood",
-      "name": "Robinhood Markets Bounty",
-      "path": "programs/hackerone/a6fe82cfc8996910661c29ed0e959131d8fbcbb07d3be7fb7402ac83e1644333.json",
+      "id": "hackerone:openmage",
+      "name": "OpenMage",
+      "path": "programs/hackerone/0051b6cccdd6947014b74ade8b65640cf64ca87e5ddc2fbebb1c1f8444c715c2.json",
       "platform": "hackerone",
-      "record_sha256": "4cffa129dd917745938432c658f994d9650b512a64b7894781b86f0470dd5053",
+      "record_sha256": "cab5eb7ca504e4d9128ea913e7d6108569751ed83e32d51be51aced0c2431fd5",
       "scope_counts": {
-        "in_scope": 25,
-        "out_of_scope": 43
+        "in_scope": 3,
+        "out_of_scope": 1
       },
       "source_status": {
         "field": "submission_state",
         "value": "open"
       },
-      "url": "https://hackerone.com/robinhood"
+      "url": "https://hackerone.com/openmage"
+    },
+    {
+      "id": "hackerone:pixiv",
+      "name": "pixiv",
+      "path": "programs/hackerone/938f8548c11af6c1e83397fbeb7854a23fc8111a06edeeccc945e16ddba6cb67.json",
+      "platform": "hackerone",
+      "record_sha256": "571a2478b3e0429ed51a8605d232e6cbfa4b507dd2c7336594fda5644a586abe",
+      "scope_counts": {
+        "in_scope": 18,
+        "out_of_scope": 3
+      },
+      "source_status": {
+        "field": "submission_state",
+        "value": "open"
+      },
+      "url": "https://hackerone.com/pixiv"
+    },
+    {
+      "id": "hackerone:ring",
+      "name": "Ring",
+      "path": "programs/hackerone/ff41edfa077bd43696849c45c4780bcd6329c545b0db572179f38c4c10eb850d.json",
+      "platform": "hackerone",
+      "record_sha256": "4453ea72f78fa1fd46dde6ce2829f3571a8c6cdbd1b6b78d448375a5e1313403",
+      "scope_counts": {
+        "in_scope": 30,
+        "out_of_scope": 3
+      },
+      "source_status": {
+        "field": "submission_state",
+        "value": "open"
+      },
+      "url": "https://hackerone.com/ring"
     },
     {
       "id": "hackerone:starbucks",
       "name": "Starbucks",
       "path": "programs/hackerone/18b1ff6ceaa031f942ba1cc710ad7c63a93eeb2ff1b8552dceac733259e64949.json",
       "platform": "hackerone",
-      "record_sha256": "8fc786095c6cc7c8e8015be312154ef70fd14a8fec834ed7b414a8c8f710a451",
+      "record_sha256": "88faba8230307316d1859a925e761dbf7f211a0ee4574c5ae4bc8493170802a2",
       "scope_counts": {
         "in_scope": 10,
         "out_of_scope": 6
@@ -247,68 +167,36 @@
       "url": "https://hackerone.com/starbucks"
     },
     {
-      "id": "hackerone:twilio",
-      "name": "Twilio",
-      "path": "programs/hackerone/1caba62e59e430a290ef734994bc9e345ad58036904d7fec5792de86f1434e7f.json",
+      "id": "hackerone:ui",
+      "name": "Ubiquiti Inc.",
+      "path": "programs/hackerone/11abb7ff5883d40d5de5f6b9d0cd231561fd81218d0c89782c41c7e8b7736f8d.json",
       "platform": "hackerone",
-      "record_sha256": "10892ddbd7d7a666ad7bf7acc3c699bf757fa1d884683cb80794820d262e7a3f",
+      "record_sha256": "030db947256d8ce62d2d1c4e68c695cf935668b9c1d11b05dff11acdacf1bcd2",
       "scope_counts": {
-        "in_scope": 84,
-        "out_of_scope": 28
+        "in_scope": 53,
+        "out_of_scope": 14
       },
       "source_status": {
         "field": "submission_state",
         "value": "open"
       },
-      "url": "https://hackerone.com/twilio"
+      "url": "https://hackerone.com/ui"
     },
     {
-      "id": "hackerone:udemy",
-      "name": "Udemy",
-      "path": "programs/hackerone/98bc093fbfdf69ae50650dbfc253b89f83f6baa3a023c1ffde1d52eff4137088.json",
+      "id": "hackerone:urbancompany",
+      "name": "Urban Company",
+      "path": "programs/hackerone/49dc02be12cbe25cd4b5b71f7d0142b05544e7e2d89edaba7c53060364c08249.json",
       "platform": "hackerone",
-      "record_sha256": "cd58a63eee052b237df9f82c50a624fea6ed3ce7c024af74237ea40a3b713f4d",
-      "scope_counts": {
-        "in_scope": 2,
-        "out_of_scope": 20
-      },
-      "source_status": {
-        "field": "submission_state",
-        "value": "open"
-      },
-      "url": "https://hackerone.com/udemy"
-    },
-    {
-      "id": "hackerone:verily_life_sciences",
-      "name": "Verily Life Sciences",
-      "path": "programs/hackerone/64fc79cf6a602df8fc9864b3c1371b922c85a3355375712c5ae6c6d09a0038d7.json",
-      "platform": "hackerone",
-      "record_sha256": "fdfe66cdbe1c234bdcbb3e1943d1c77837e549b56d4604fc295fa12d4544ac6a",
+      "record_sha256": "61623c0f7dbd899954dc7df92f2e680e851fd6b4a32c0bcff9b5ad5bc9f709eb",
       "scope_counts": {
         "in_scope": 6,
-        "out_of_scope": 0
+        "out_of_scope": 1
       },
       "source_status": {
         "field": "submission_state",
         "value": "open"
       },
-      "url": "https://hackerone.com/verily_life_sciences"
-    },
-    {
-      "id": "hackerone:versioncake",
-      "name": "Version Cake",
-      "path": "programs/hackerone/f9be23f8d7c66106f87127e896a95bdaa3a24efb64e1095a1590fda5dc1af7a7.json",
-      "platform": "hackerone",
-      "record_sha256": "df10d724373dccddfd31f18da26f128ae0310f54090fe2f4b0801b42d3f91df6",
-      "scope_counts": {
-        "in_scope": 1,
-        "out_of_scope": 0
-      },
-      "source_status": {
-        "field": "submission_state",
-        "value": "open"
-      },
-      "url": "https://hackerone.com/versioncake"
+      "url": "https://hackerone.com/urbancompany"
     }
   ]
 }
