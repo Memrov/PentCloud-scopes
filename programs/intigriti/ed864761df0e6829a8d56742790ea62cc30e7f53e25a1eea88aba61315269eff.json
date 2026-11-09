@@ -1,0 +1,210 @@
+{
+  "id": "intigriti:196fa177-ac2d-41b0-91bb-07bc9db43b7a",
+  "metadata": {
+    "company_handle": "sbb",
+    "confidentiality_level": "public",
+    "handle": "sbbglobal",
+    "id": "196fa177-ac2d-41b0-91bb-07bc9db43b7a",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 6666
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 25
+    },
+    "name": "SBB - Swiss Federal Railways",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/sbb/sbbglobal/detail"
+  },
+  "name": "SBB - Swiss Federal Railways",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "a02f0d06cd1dceaa088908b6314842d9a79e901cd27df9d57dfad947de6d4736",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "196fa177-ac2d-41b0-91bb-07bc9db43b7a",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "**SBB Mobile** - your personal travel companion for public transport.\n[SBB Mobile IOS](https://apps.apple.com/us/app/sbb-mobile/id294855237) | [SBB Mobile Android](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c&feature=search_result&hl=en)\n\n**SBB Preview** - [always be among the first to test the latest features.](https://www.sbb.ch/en/travel-information/apps/sbb-preview.html)\n[SBB Preview IOS](https://apps.apple.com/us/app/sbb-preview/id1074833098) | [SBB Preview Android](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.preview)\n\n**Backend URLs**\n[*.sbbmobile.ch]()\n\nPlease find more details about the apps in the\n[FAQ for SBB Mobile and SBB Preview](https://www.sbb.ch/en/help-and-contact/products-services/apps/sbb-mobile-sbb-preview/sbb-mobile-app.html)",
+        "raw": {
+          "description": "**SBB Mobile** - your personal travel companion for public transport.\n[SBB Mobile IOS](https://apps.apple.com/us/app/sbb-mobile/id294855237) | [SBB Mobile Android](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.b2c&feature=search_result&hl=en)\n\n**SBB Preview** - [always be among the first to test the latest features.](https://www.sbb.ch/en/travel-information/apps/sbb-preview.html)\n[SBB Preview IOS](https://apps.apple.com/us/app/sbb-preview/id1074833098) | [SBB Preview Android](https://play.google.com/store/apps/details?id=ch.sbb.mobile.android.preview)\n\n**Backend URLs**\n[*.sbbmobile.ch]()\n\nPlease find more details about the apps in the\n[FAQ for SBB Mobile and SBB Preview](https://www.sbb.ch/en/help-and-contact/products-services/apps/sbb-mobile-sbb-preview/sbb-mobile-app.html)",
+          "endpoint": " Mobile Apps",
+          "impact": "Tier 1",
+          "type": "other"
+        },
+        "type": "other",
+        "value": " Mobile Apps"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "[Swisspass](https://www.swisspass.ch/home?lang=en) is the key to mobility in Switzerland.\n\nWith SwissPass customers can manage their travelcard details easily and use the partner services.\n\nPlease note that the following URL scheme is excluded from the program: `https://mailing.swisspass.ch/r/wxmc/swisspass/{20-chars}/{20-chars}/{13-chars}/{26-chars}`",
+        "raw": {
+          "description": "[Swisspass](https://www.swisspass.ch/home?lang=en) is the key to mobility in Switzerland.\n\nWith SwissPass customers can manage their travelcard details easily and use the partner services.\n\nPlease note that the following URL scheme is excluded from the program: `https://mailing.swisspass.ch/r/wxmc/swisspass/{20-chars}/{20-chars}/{13-chars}/{26-chars}`",
+          "endpoint": "*.swisspass.ch",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.swisspass.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.sbb.ch",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.sbb.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Please note that the following URL scheme is excluded from the program: `https://order.info.sbb.ch/r/wxmc/sbb/{20-chars}/{20-chars}/{13-chars}/{26-chars}`",
+        "raw": {
+          "description": "Please note that the following URL scheme is excluded from the program: `https://order.info.sbb.ch/r/wxmc/sbb/{20-chars}/{20-chars}/{13-chars}/{26-chars}`",
+          "endpoint": "*.sbb.ch",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.sbb.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "**SBB Freesurf** - browse the web for free on the train.\n[SBB Freesurf IOS](https://apps.apple.com/us/app/sbb-freesurf/id1437409619) |  [SBB Freesurf Android](https://play.google.com/store/search?q=freesurf&c=apps&hl=en)\n\n**SBB GO** - as a study paricipant, you can record your customer journey with the SBB go app and evaluate SBB Touchpoints along your journey.\n[SBB GO IOS](https://apps.apple.com/ch/app/sbb-go/id1224135762) | [SBB GO Android](https://play.google.com/store/apps/details?id=ch.sbb.kd.kom.sbbgo)\n\n**SBB Inclusive** - provides visual and digital customer information in stations and on SBB long-distance services\n[SBB Inclusive IOS](https://apps.apple.com/ch/app/sbb-inclusive/id1495023290) | [SBB Inclusive Android](https://play.google.com/store/apps/details?id=ch.sbb.inclusive&hl=en)\n\n**SBB P-Rail**  - [your parking space at the station](https://www.sbb.ch/en/tickets-offers/private-transport/car-parking/park-and-rail.html)\n[P+Rail IOS](https://apps.apple.com/us/app/p-rail/id1355008152) | [P+Rail Android](https://play.google.com/store/apps/details?id=ch.sbb.prail2&hl=en_US&gl=US&pli=1=)",
+        "raw": {
+          "description": "**SBB Freesurf** - browse the web for free on the train.\n[SBB Freesurf IOS](https://apps.apple.com/us/app/sbb-freesurf/id1437409619) |  [SBB Freesurf Android](https://play.google.com/store/search?q=freesurf&c=apps&hl=en)\n\n**SBB GO** - as a study paricipant, you can record your customer journey with the SBB go app and evaluate SBB Touchpoints along your journey.\n[SBB GO IOS](https://apps.apple.com/ch/app/sbb-go/id1224135762) | [SBB GO Android](https://play.google.com/store/apps/details?id=ch.sbb.kd.kom.sbbgo)\n\n**SBB Inclusive** - provides visual and digital customer information in stations and on SBB long-distance services\n[SBB Inclusive IOS](https://apps.apple.com/ch/app/sbb-inclusive/id1495023290) | [SBB Inclusive Android](https://play.google.com/store/apps/details?id=ch.sbb.inclusive&hl=en)\n\n**SBB P-Rail**  - [your parking space at the station](https://www.sbb.ch/en/tickets-offers/private-transport/car-parking/park-and-rail.html)\n[P+Rail IOS](https://apps.apple.com/us/app/p-rail/id1355008152) | [P+Rail Android](https://play.google.com/store/apps/details?id=ch.sbb.prail2&hl=en_US&gl=US&pli=1=)",
+          "endpoint": "Mobile Apps",
+          "impact": "Tier 3",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "Mobile Apps"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.elvetino.ch",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.elvetino.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*elvetino.ch",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*elvetino.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.sbbcargo.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.sbbcargo.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*sbbcargo.com",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*sbbcargo.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.transsicura.ch",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.transsicura.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*transsicura.ch",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*transsicura.ch"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "All other Web and mobile APPs owned by SBB ",
+          "impact": null,
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All other Web and mobile APPs owned by SBB "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "All other SBB owned IT assets",
+          "impact": "No Bounty",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All other SBB owned IT assets"
+      }
+    ],
+    "out_of_scope": []
+  },
+  "url": "https://www.intigriti.com/programs/sbb/sbbglobal/detail"
+}

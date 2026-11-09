@@ -24,7 +24,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/intigriti_data.json",
-    "record_sha256": "66030cb483541093a3aa83cc5b7487cfe551e46d9ada2c2cef3a502e3ab7e5d1",
+    "record_sha256": "ed243e67cc725754720f317217609ddcbf04a72d588f3fb70dfce8b837965ac2",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "0083a5bf-e54f-4f79-a972-12a795272c8b",
@@ -37,9 +37,35 @@
       {
         "eligible_for_bounty": null,
         "eligible_for_submission": null,
-        "instructions": "Any subdomain of azcpggpc.ca (eg. alert-management-svc.prd01.retail-api.azcpggpc.ca)",
+        "instructions": "Any subdomain of canadapost.ca",
         "raw": {
-          "description": "Any subdomain of azcpggpc.ca (eg. alert-management-svc.prd01.retail-api.azcpggpc.ca)",
+          "description": "Any subdomain of canadapost.ca",
+          "endpoint": "*.canadapost.ca",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.canadapost.ca"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Any subdomain of aws.canadapost-postescanada.ca",
+        "raw": {
+          "description": "Any subdomain of aws.canadapost-postescanada.ca",
+          "endpoint": "*.aws.canadapost-postescanada.ca",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.aws.canadapost-postescanada.ca"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Any subdomain of azcpggpc.ca",
+        "raw": {
+          "description": "Any subdomain of azcpggpc.ca",
           "endpoint": "*.azcpggpc.ca",
           "impact": "No Bounty",
           "type": "wildcard"
