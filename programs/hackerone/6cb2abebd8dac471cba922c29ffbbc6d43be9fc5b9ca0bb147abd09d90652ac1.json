@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "753b20c68a87bd882bed5f41fc6cee6ce79f8257779ee3dde25db31989aab203",
+    "record_sha256": "a0094e6bff9ffe6fb97cb0d22e617fecba2b950553757b4fbaf2e07446e40325",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "autodesk",
@@ -38,12 +38,12 @@
         "raw": {
           "asset_identifier": "*.",
           "asset_type": "WILDCARD",
-          "availability_requirement": "high",
-          "confidentiality_requirement": "high",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
           "eligible_for_bounty": false,
           "eligible_for_submission": true,
           "instruction": "All Autodesk Assets",
-          "integrity_requirement": "high",
+          "integrity_requirement": "not_defined",
           "max_severity": "critical"
         },
         "type": "WILDCARD",
