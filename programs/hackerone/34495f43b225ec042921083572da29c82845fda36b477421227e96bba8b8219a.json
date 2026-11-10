@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "8f97c04765a63df387091826d38bb9271d6a3d53ec697f88879ac3094bca2931",
+    "record_sha256": "ebaca1f94a5bce2e96e654e339d363485b106c9ce09310e92e1432af4bd6a10e",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "td-bank",
@@ -246,24 +246,6 @@
         },
         "type": "WILDCARD",
         "value": "*.tdcommercialbanking.com"
-      },
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": true,
-        "instructions": "",
-        "raw": {
-          "asset_identifier": "*.tdfitloan.com",
-          "asset_type": "WILDCARD",
-          "availability_requirement": "not_defined",
-          "confidentiality_requirement": "not_defined",
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": "",
-          "integrity_requirement": "not_defined",
-          "max_severity": "critical"
-        },
-        "type": "WILDCARD",
-        "value": "*.tdfitloan.com"
       },
       {
         "eligible_for_bounty": false,

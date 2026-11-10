@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "9c877aee281f57daa011faea40783b21c03760f19e15a70a8f7d6af12eb127b5",
+    "record_sha256": "a42b359b7fb459709b183eeed2668c118f7378e697a661c0a61dc342d15121a7",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "john-deere",
@@ -18426,6 +18426,24 @@
         },
         "type": "URL",
         "value": "mail.wirtgn-group.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "mailhost.johndeere.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "mailhost.johndeere.com"
       },
       {
         "eligible_for_bounty": false,
