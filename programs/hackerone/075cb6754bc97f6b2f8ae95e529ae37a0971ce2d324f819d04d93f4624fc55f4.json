@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "835a0a09ca9043bea3576f79e7836a4e549a0a04df926eb254d3a4ade460bac9",
+    "record_sha256": "6f2d2d2111f314a50e8b07524054d777250911f076e6022d2b8a86ac71a1175f",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "shopify",
@@ -52,7 +52,7 @@
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
-        "instructions": "Environment: Non-core\n\nReports involving *.shopify.com are reviewed on a per case basis for bounty eligibility, this includes shopifycompass.com. Any services operated by a third party without a proof of concept demonstrating impact on *.myshopify.com users will likely be ineligible for a bounty. ",
+        "instructions": "Environment: Non-core\n\nReports involving *.shopify.com are reviewed on a per case basis for bounty eligibility. Any services operated by a third party without a proof of concept demonstrating impact on *.myshopify.com users will likely be ineligible for a bounty. ",
         "raw": {
           "asset_identifier": "*.shopify.com",
           "asset_type": "WILDCARD",
@@ -60,7 +60,7 @@
           "confidentiality_requirement": "low",
           "eligible_for_bounty": true,
           "eligible_for_submission": true,
-          "instruction": "Environment: Non-core\n\nReports involving *.shopify.com are reviewed on a per case basis for bounty eligibility, this includes shopifycompass.com. Any services operated by a third party without a proof of concept demonstrating impact on *.myshopify.com users will likely be ineligible for a bounty. ",
+          "instruction": "Environment: Non-core\n\nReports involving *.shopify.com are reviewed on a per case basis for bounty eligibility. Any services operated by a third party without a proof of concept demonstrating impact on *.myshopify.com users will likely be ineligible for a bounty. ",
           "integrity_requirement": "low",
           "max_severity": "medium"
         },
@@ -142,20 +142,38 @@
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
-        "instructions": null,
+        "instructions": "Environment: Non-core\n\nShopify Cloud apps. It may include developer test applications, which are not in scope and are closed as Informative. If you are unsure about a domain, email bugbounty@shopify.com before you spend time on it.",
         "raw": {
-          "asset_identifier": "Authentication & ATO",
-          "asset_type": "OTHER",
-          "availability_requirement": "none",
-          "confidentiality_requirement": "high",
+          "asset_identifier": "*.shopifysvc.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
           "eligible_for_bounty": true,
           "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": "high",
-          "max_severity": "critical"
+          "instruction": "Environment: Non-core\n\nShopify Cloud apps. It may include developer test applications, which are not in scope and are closed as Informative. If you are unsure about a domain, email bugbounty@shopify.com before you spend time on it.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.shopifysvc.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Environment: Non-core\n\nMini apps that run inside the Shop app. Includes Minis built by Shopify and their APIs. Minis built by third-party developers follow the Third-Party Apps rules.",
+        "raw": {
+          "asset_identifier": "Shop Minis",
+          "asset_type": "OTHER",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Environment: Non-core\n\nMini apps that run inside the Shop app. Includes Minis built by Shopify and their APIs. Minis built by third-party developers follow the Third-Party Apps rules.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
         },
         "type": "OTHER",
-        "value": "Authentication & ATO"
+        "value": "Shop Minis"
       },
       {
         "eligible_for_bounty": true,
@@ -232,6 +250,24 @@
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
+        "instructions": "Environment: Core\n\nShopify's AI assistant in the Shopify admin. Permission issues are rewarded under Permissions. Other issues are scored by the environment of the affected component.",
+        "raw": {
+          "asset_identifier": "Sidekick",
+          "asset_type": "OTHER",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Environment: Core\n\nShopify's AI assistant in the Shopify admin. Permission issues are rewarded under Permissions. Other issues are scored by the environment of the affected component.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "Sidekick"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
         "instructions": "Environment: Core",
         "raw": {
           "asset_identifier": "accounts.shopify.com",
@@ -286,6 +322,24 @@
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
+        "instructions": "Environment: Non-core\n\nShop's help center. Contacting support through it is still out of scope.",
+        "raw": {
+          "asset_identifier": "help.shop.app",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Environment: Non-core\n\nShop's help center. Contacting support through it is still out of scope.",
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "URL",
+        "value": "help.shop.app"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
         "instructions": "Environment: Non-core\n\nPublic repositories available under the Shopify organization in Github.",
         "raw": {
           "asset_identifier": "https://github.com/Shopify/*",
@@ -300,24 +354,6 @@
         },
         "type": "SOURCE_CODE",
         "value": "https://github.com/Shopify/*"
-      },
-      {
-        "eligible_for_bounty": true,
-        "eligible_for_submission": true,
-        "instructions": "Environment: Non-core",
-        "raw": {
-          "asset_identifier": "linkpop.com",
-          "asset_type": "URL",
-          "availability_requirement": "low",
-          "confidentiality_requirement": "low",
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "Environment: Non-core",
-          "integrity_requirement": "low",
-          "max_severity": "medium"
-        },
-        "type": "URL",
-        "value": "linkpop.com"
       },
       {
         "eligible_for_bounty": true,
@@ -340,7 +376,7 @@
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
-        "instructions": "Environment: Core",
+        "instructions": "Environment: Core\n\nReports on shop.app are assessed the same way as shop.com.",
         "raw": {
           "asset_identifier": "shop.app",
           "asset_type": "URL",
@@ -348,12 +384,30 @@
           "confidentiality_requirement": "medium",
           "eligible_for_bounty": true,
           "eligible_for_submission": true,
-          "instruction": "Environment: Core",
+          "instruction": "Environment: Core\n\nReports on shop.app are assessed the same way as shop.com.",
           "integrity_requirement": "medium",
           "max_severity": "critical"
         },
         "type": "URL",
         "value": "shop.app"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "Environment: Core\n\nThis also covers shop.app, which redirects to shop.com.",
+        "raw": {
+          "asset_identifier": "shop.com",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "medium",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "Environment: Core\n\nThis also covers shop.app, which redirects to shop.com.",
+          "integrity_requirement": "medium",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "shop.com"
       },
       {
         "eligible_for_bounty": true,
@@ -450,24 +504,6 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": false,
-        "instructions": "Environment: Non-core\n\nOperated by a third party.",
-        "raw": {
-          "asset_identifier": "academy.shopify.com",
-          "asset_type": "URL",
-          "availability_requirement": "none",
-          "confidentiality_requirement": "none",
-          "eligible_for_bounty": false,
-          "eligible_for_submission": false,
-          "instruction": "Environment: Non-core\n\nOperated by a third party.",
-          "integrity_requirement": "none",
-          "max_severity": "none"
-        },
-        "type": "URL",
-        "value": "academy.shopify.com"
-      },
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": false,
         "instructions": "Environment: Non-core\n\nShopify allows merchants to upload any file they want on our content delivery network. Being able to upload a file is not a vulnerability, this is the intended functionality.",
         "raw": {
           "asset_identifier": "cdn.shopify.com",
@@ -522,24 +558,6 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": false,
-        "instructions": "Environment: Non-core\n\nOperated by a third party.",
-        "raw": {
-          "asset_identifier": "investors.shopify.com",
-          "asset_type": "URL",
-          "availability_requirement": "none",
-          "confidentiality_requirement": "none",
-          "eligible_for_bounty": false,
-          "eligible_for_submission": false,
-          "instruction": "Environment: Non-core\n\nOperated by a third party.",
-          "integrity_requirement": "none",
-          "max_severity": "none"
-        },
-        "type": "URL",
-        "value": "investors.shopify.com"
-      },
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": false,
         "instructions": "Environment: Non-core\n\nContacting Shopify Support over chat, email or phone about your HackerOne report is not allowed.",
         "raw": {
           "asset_identifier": "livechat.shopify.com",
@@ -554,6 +572,60 @@
         },
         "type": "URL",
         "value": "livechat.shopify.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Operated by a third party.",
+        "raw": {
+          "asset_identifier": "shopify.photo",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Operated by a third party.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "shopify.photo"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Operated by a third party.",
+        "raw": {
+          "asset_identifier": "shopifyevents.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Operated by a third party.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "shopifyevents.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "Operated by a third party.",
+        "raw": {
+          "asset_identifier": "shopifypartnerships.com",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "Operated by a third party.",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "shopifypartnerships.com"
       },
       {
         "eligible_for_bounty": false,
