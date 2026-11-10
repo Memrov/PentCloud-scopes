@@ -1,0 +1,159 @@
+{
+  "id": "intigriti:64f80113-969e-4c55-9649-8a044487941c",
+  "metadata": {
+    "company_handle": "pdq",
+    "confidentiality_level": "public",
+    "handle": "pdqcomprivate",
+    "id": "64f80113-969e-4c55-9649-8a044487941c",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 3500
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 50
+    },
+    "name": "PDQ bug bounty program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/pdq/pdqcomprivate/detail"
+  },
+  "name": "PDQ bug bounty program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "a70ea9c178c1c4429a3e43ca9ccc0ce9789dc3fd2cc292bb9045d4b232a6b392",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "64f80113-969e-4c55-9649-8a044487941c",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Production environment for our authentication tool — please take care not to disrupt any services when testing",
+        "raw": {
+          "description": "Production environment for our authentication tool — please take care not to disrupt any services when testing",
+          "endpoint": "https://auth2.pdq.com/",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://auth2.pdq.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Production environment for our Package Library — please take care not to disrupt any services when testing",
+        "raw": {
+          "description": "Production environment for our Package Library — please take care not to disrupt any services when testing",
+          "endpoint": "https://library.pdq.com/",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://library.pdq.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Production environment for our billing portal — please take care not to disrupt any services when testing",
+        "raw": {
+          "description": "Production environment for our billing portal — please take care not to disrupt any services when testing",
+          "endpoint": "https://portal.pdq.com/",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://portal.pdq.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Production environment for our PDQ Connect — please take care not to disrupt any services when testing",
+        "raw": {
+          "description": "Production environment for our PDQ Connect — please take care not to disrupt any services when testing",
+          "endpoint": "https://app.pdq.com/",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://app.pdq.com/"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Production environment for SimpleMDM — please take care not to disrupt any services when testing",
+        "raw": {
+          "description": "Production environment for SimpleMDM — please take care not to disrupt any services when testing",
+          "endpoint": "https://a.simplemdm.com/",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "https://a.simplemdm.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://*.pdq.com/",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://*.pdq.com/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://*.pdq.tools/",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://*.pdq.tools/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://*.simplemdm.com/ ",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://*.simplemdm.com/ "
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "https://*.smartdeploy.com/ ",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "https://*.smartdeploy.com/ "
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/pdq/pdqcomprivate/detail"
+}

@@ -1,30 +1,30 @@
 {
-  "id": "hackerone:litellm",
+  "id": "hackerone:defectdojo",
   "metadata": {
     "allows_bounty_splitting": false,
     "average_time_to_bounty_awarded": null,
-    "average_time_to_first_program_response": null,
-    "average_time_to_report_resolved": null,
-    "handle": "litellm",
+    "average_time_to_first_program_response": 103.0,
+    "average_time_to_report_resolved": 322.0,
+    "handle": "defectdojo",
     "id": 0,
-    "managed_program": true,
-    "name": "LiteLLM (VDP)",
+    "managed_program": false,
+    "name": "DefectDojo",
     "offers_bounties": false,
     "offers_swag": false,
-    "response_efficiency_percentage": 100,
+    "response_efficiency_percentage": 58,
     "submission_state": "open",
-    "url": "https://hackerone.com/litellm",
-    "website": "http://litellm.ai"
+    "url": "https://hackerone.com/defectdojo",
+    "website": "https://www.defectdojo.com"
   },
-  "name": "LiteLLM (VDP)",
+  "name": "DefectDojo",
   "platform": "hackerone",
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "1fc7ac2e5f130b41bcf1e1dcb45322e370c3abfe2a7e5620b3223cbe890fc3b7",
+    "record_sha256": "9b4a77a907f05cac365faa0898b2a750096b6b7862ca90de857bc5333f6ed36d",
     "repository": "arkadiyt/bounty-targets-data"
   },
-  "source_id": "litellm",
+  "source_id": "defectdojo",
   "source_status": {
     "field": "submission_state",
     "value": "open"
@@ -36,21 +36,21 @@
         "eligible_for_submission": true,
         "instructions": "",
         "raw": {
-          "asset_identifier": "https://github.com/BerriAI/litellm",
+          "asset_identifier": "https://github.com/DefectDojo/django-DefectDojo",
           "asset_type": "SOURCE_CODE",
-          "availability_requirement": "not_defined",
-          "confidentiality_requirement": "not_defined",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
           "eligible_for_bounty": false,
           "eligible_for_submission": true,
           "instruction": "",
-          "integrity_requirement": "not_defined",
+          "integrity_requirement": null,
           "max_severity": "critical"
         },
         "type": "SOURCE_CODE",
-        "value": "https://github.com/BerriAI/litellm"
+        "value": "https://github.com/DefectDojo/django-DefectDojo"
       }
     ],
     "out_of_scope": []
   },
-  "url": "https://hackerone.com/litellm"
+  "url": "https://hackerone.com/defectdojo"
 }

@@ -24,7 +24,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/intigriti_data.json",
-    "record_sha256": "a02f0d06cd1dceaa088908b6314842d9a79e901cd27df9d57dfad947de6d4736",
+    "record_sha256": "649dd8bb6510f5800acea0e1e420f2cd56b1605419031f8931066c371f36926d",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "196fa177-ac2d-41b0-91bb-07bc9db43b7a",
@@ -204,7 +204,21 @@
         "value": "All other SBB owned IT assets"
       }
     ],
-    "out_of_scope": []
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.event.sbb.ch",
+          "impact": "Out of scope",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.event.sbb.ch"
+      }
+    ]
   },
   "url": "https://www.intigriti.com/programs/sbb/sbbglobal/detail"
 }
