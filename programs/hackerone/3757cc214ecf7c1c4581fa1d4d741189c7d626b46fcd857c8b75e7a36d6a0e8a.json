@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "28be839f26d31da94ff4a826bca753c2f28614a1e8863c639563c42073f095ab",
+    "record_sha256": "48e096ce0ff0615148118eb10206c43bdc1fa8235a3eb0ce1df046c48583f002",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "superbet",
@@ -48,42 +48,6 @@
         },
         "type": "WILDCARD",
         "value": "*.happening.dev"
-      },
-      {
-        "eligible_for_bounty": true,
-        "eligible_for_submission": true,
-        "instructions": "we have a lot of 3rd party's such as cpanels/etc which will are OOS so if you are in doubt, contact security@superbet.com.",
-        "raw": {
-          "asset_identifier": "*.luckydays.ca",
-          "asset_type": "WILDCARD",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "we have a lot of 3rd party's such as cpanels/etc which will are OOS so if you are in doubt, contact security@superbet.com.",
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        "type": "WILDCARD",
-        "value": "*.luckydays.ca"
-      },
-      {
-        "eligible_for_bounty": true,
-        "eligible_for_submission": true,
-        "instructions": "we have a lot of 3rd party's such as cpanels/etc which will are OOS so if you are in doubt, contact security@superbet.com.",
-        "raw": {
-          "asset_identifier": "*.luckydays.com",
-          "asset_type": "WILDCARD",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "we have a lot of 3rd party's such as cpanels/etc which will are OOS so if you are in doubt, contact security@superbet.com.",
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        "type": "WILDCARD",
-        "value": "*.luckydays.com"
       },
       {
         "eligible_for_bounty": true,
@@ -156,24 +120,6 @@
         },
         "type": "WILDCARD",
         "value": "*.napoleonsports.be"
-      },
-      {
-        "eligible_for_bounty": true,
-        "eligible_for_submission": true,
-        "instructions": "we have a lot of 3rd party's such as cpanels/etc which will are OOS so if you are in doubt, contact security@superbet.com. ",
-        "raw": {
-          "asset_identifier": "*.spinaway.com",
-          "asset_type": "WILDCARD",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "we have a lot of 3rd party's such as cpanels/etc which will are OOS so if you are in doubt, contact security@superbet.com. ",
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        "type": "WILDCARD",
-        "value": "*.spinaway.com"
       },
       {
         "eligible_for_bounty": true,
@@ -554,6 +500,24 @@
         },
         "type": "WILDCARD",
         "value": "*.epic.superbet.ro"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.luckydays.ca",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "*.luckydays.ca"
       },
       {
         "eligible_for_bounty": false,
