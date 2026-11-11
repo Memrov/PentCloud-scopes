@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "2c1cc80578996cd18dff8a1576a0b3bdb13ccd705ddd70bec585bcb93e99c796",
+    "record_sha256": "f2165521caf3b4e9c45cd13e1287991400eec9a6375b52d88c1560941757857c",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "hilton",
@@ -48,6 +48,24 @@
         },
         "type": "WILDCARD",
         "value": "*.hilton.com"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.hilton.com.cn",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.hilton.com.cn"
       },
       {
         "eligible_for_bounty": true,

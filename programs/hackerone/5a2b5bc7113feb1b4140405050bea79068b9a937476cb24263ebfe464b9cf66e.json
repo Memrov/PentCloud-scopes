@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "8e9db9870919667b8f0d282dc7d6d2b6c565069fc64d47b94b4f3f0323ed6212",
+    "record_sha256": "99dacac24076bb660e794affc80841d64e022e757c35020380fe35382d4727aa",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "unico_idtech",
@@ -142,20 +142,38 @@
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
-        "instructions": "",
+        "instructions": null,
         "raw": {
-          "asset_identifier": "devcenter.unico.io",
+          "asset_identifier": "dashboard.unico.app",
           "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
           "eligible_for_bounty": true,
           "eligible_for_submission": true,
-          "instruction": "",
-          "integrity_requirement": null,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "dashboard.unico.app"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "developer.unico.io",
+          "asset_type": "URL",
+          "availability_requirement": "medium",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "medium",
           "max_severity": "medium"
         },
         "type": "URL",
-        "value": "devcenter.unico.io"
+        "value": "developer.unico.io"
       },
       {
         "eligible_for_bounty": true,
@@ -164,13 +182,13 @@
         "raw": {
           "asset_identifier": "https://sdk-h1.unico.io/createprocess",
           "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
           "eligible_for_bounty": true,
           "eligible_for_submission": true,
           "instruction": "Scope related to Unico Liveness Testing. This endpoint is used for the final liveness validation.",
-          "integrity_requirement": null,
-          "max_severity": "high"
+          "integrity_requirement": "high",
+          "max_severity": "critical"
         },
         "type": "URL",
         "value": "https://sdk-h1.unico.io/createprocess"
