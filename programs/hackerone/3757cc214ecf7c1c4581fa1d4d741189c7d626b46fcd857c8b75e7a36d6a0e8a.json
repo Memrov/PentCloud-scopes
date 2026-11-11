@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "ee14713b584c5cfa7e8baf7c29f66fdfc01098067c3241896aacbea9a7016691",
+    "record_sha256": "a53f88bfbba87a0df4a035e01622455ec59f5ecb256d4752611333eaa98450f2",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "superbet",
@@ -48,6 +48,24 @@
         },
         "type": "WILDCARD",
         "value": "*.happening.dev"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.maxbet.ro",
+          "asset_type": "WILDCARD",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "medium"
+        },
+        "type": "WILDCARD",
+        "value": "*.maxbet.ro"
       },
       {
         "eligible_for_bounty": true,
