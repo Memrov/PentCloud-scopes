@@ -13,7 +13,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/bugcrowd_data.json",
-    "record_sha256": "fdc739994ff1f39f52f8faf56f7b92a54c3e379d972dad43712c0502cf4f65cc",
+    "record_sha256": "3a8ffcb9057c56ab5d5f8d19fe56c524a10fcddc5906c120de17028913ed02e0",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "https://bugcrowd.com/engagements/optus-mbb-og",
@@ -29,7 +29,7 @@
         "instructions": null,
         "raw": {
           "ipAddress": null,
-          "name": "Optus android app ",
+          "name": "Optus Android Application",
           "target": "https://play.google.com/store/apps/details?id=au.com.optus.selfservice&hl=en_AU&gl=US",
           "type": "android",
           "uri": "https://play.google.com/store/apps/details?id=au.com.optus.selfservice&hl=en_AU&gl=US"
@@ -57,7 +57,7 @@
         "instructions": null,
         "raw": {
           "ipAddress": null,
-          "name": "Optus iOS App",
+          "name": "Optus iOS Application",
           "target": "https://apps.apple.com/au/app/my-optus/id503716230",
           "type": "ios",
           "uri": "https://apps.apple.com/au/app/my-optus/id503716230"
@@ -2383,6 +2383,20 @@
         "instructions": null,
         "raw": {
           "ipAddress": "",
+          "name": "brand.optus.com.au",
+          "target": "brand.optus.com.au",
+          "type": "website",
+          "uri": ""
+        },
+        "type": "website",
+        "value": "brand.optus.com.au"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "ipAddress": "",
           "name": "https://www.optus.com.au/portal/*",
           "target": "https://www.optus.com.au/portal/*",
           "type": "website",
@@ -2497,10 +2511,10 @@
           "ipAddress": "",
           "name": "*.nsw.optusnet.com.au",
           "target": "*.nsw.optusnet.com.au",
-          "type": "website",
+          "type": "network",
           "uri": ""
         },
-        "type": "website",
+        "type": "network",
         "value": "*.nsw.optusnet.com.au"
       },
       {

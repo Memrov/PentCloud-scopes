@@ -2,7 +2,7 @@
   "id": "hackerone:cloudflare",
   "metadata": {
     "allows_bounty_splitting": true,
-    "average_time_to_bounty_awarded": 823.0,
+    "average_time_to_bounty_awarded": 820.0,
     "average_time_to_first_program_response": 9.0,
     "average_time_to_report_resolved": null,
     "handle": "cloudflare",
@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "cd82b7f40f78e53ad40566443609a16a0909da03a53a9d3d5b4b417b4427ed81",
+    "record_sha256": "20243d991d2ab788d94b832841fdf83287a950b6cb916d1f2874f602ef9961db",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "cloudflare",
@@ -1148,6 +1148,24 @@
         },
         "type": "SOURCE_CODE",
         "value": "https://github.com/cloudflare/agentic-inbox"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://github.com/cloudflare/boringtun",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "none",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/cloudflare/boringtun"
       },
       {
         "eligible_for_bounty": false,
