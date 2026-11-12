@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "9d28d0f19a9fb7578fa82fd97074910c641a5ea2450411f1a4b43d4dfef42132",
+    "record_sha256": "cd82b7f40f78e53ad40566443609a16a0909da03a53a9d3d5b4b417b4427ed81",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "cloudflare",
@@ -936,24 +936,6 @@
         "eligible_for_submission": true,
         "instructions": "",
         "raw": {
-          "asset_identifier": "https://php-rce.cloudflare.app/",
-          "asset_type": "URL",
-          "availability_requirement": "high",
-          "confidentiality_requirement": "high",
-          "eligible_for_bounty": true,
-          "eligible_for_submission": true,
-          "instruction": "",
-          "integrity_requirement": "high",
-          "max_severity": "critical"
-        },
-        "type": "URL",
-        "value": "https://php-rce.cloudflare.app/"
-      },
-      {
-        "eligible_for_bounty": true,
-        "eligible_for_submission": true,
-        "instructions": "",
-        "raw": {
           "asset_identifier": "one.dash.cloudflare.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -1400,6 +1382,24 @@
         },
         "type": "SOURCE_CODE",
         "value": "https://github.com/cloudflare/vinext-private"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://php-rce.cloudflare.app/",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://php-rce.cloudflare.app/"
       },
       {
         "eligible_for_bounty": false,
