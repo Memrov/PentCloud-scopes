@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "b1898ce4a877c13c11fe9196a9a59f0cb977301774a84e953a2d95a3e397549e",
+    "record_sha256": "b527d3b53ac2784861a56d7db138f45822e7cee650a908247e92aa7f730a17dc",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "ferrero",
@@ -7520,7 +7520,26 @@
         "value": "www.thorntons.com"
       }
     ],
-    "out_of_scope": []
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "ferrero.integrityline.app",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "ferrero.integrityline.app"
+      }
+    ]
   },
   "url": "https://hackerone.com/ferrero"
 }
