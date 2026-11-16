@@ -11,7 +11,7 @@
     "name": "John Deere",
     "offers_bounties": false,
     "offers_swag": true,
-    "response_efficiency_percentage": 74,
+    "response_efficiency_percentage": 75,
     "submission_state": "open",
     "url": "https://hackerone.com/john-deere",
     "website": "http://deere.com"
@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "81ce31274491705a46896f01f12dbbbf4cfbd940d6b5b84cfc190cefefc5b2f7",
+    "record_sha256": "00e4f4feeff44f8bc4b7dc50c1d7a63f955ca14078d4659211badb27eefc6856",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "john-deere",
@@ -7698,6 +7698,24 @@
         },
         "type": "URL",
         "value": "contest.deere.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "context-flow-preview.lifecycle-management-devl-vpn.us.e20.c01.johndeerecloud.com",
+          "asset_type": "URL",
+          "availability_requirement": "low",
+          "confidentiality_requirement": "low",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "low",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "context-flow-preview.lifecycle-management-devl-vpn.us.e20.c01.johndeerecloud.com"
       },
       {
         "eligible_for_bounty": false,

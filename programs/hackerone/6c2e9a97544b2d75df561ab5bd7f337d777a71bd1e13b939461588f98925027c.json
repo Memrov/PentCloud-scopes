@@ -3,15 +3,15 @@
   "metadata": {
     "allows_bounty_splitting": true,
     "average_time_to_bounty_awarded": 359.0,
-    "average_time_to_first_program_response": 59.0,
-    "average_time_to_report_resolved": 1742.0,
+    "average_time_to_first_program_response": 60.0,
+    "average_time_to_report_resolved": 1750.0,
     "handle": "meesho_bbp",
     "id": 0,
     "managed_program": false,
     "name": "Meesho",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 70,
+    "response_efficiency_percentage": 73,
     "submission_state": "open",
     "url": "https://hackerone.com/meesho_bbp",
     "website": "https://meesho.com"
@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "f167c48e0fb4ef1dcc37b8e84adb6c32017ede53cde2239d077b5e85bf58122d",
+    "record_sha256": "8d5c5fb4fe31bc78f9df6e263ba24a1524fa31402382be96903a52e3ce60cf97",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "meesho_bbp",
@@ -106,6 +106,42 @@
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "com.valmo.ops",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "critical"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.valmo.ops"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "com.valmo.rider",
+          "asset_type": "OTHER",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "critical"
+        },
+        "type": "OTHER",
+        "value": "com.valmo.rider"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
         "instructions": "This is the Android App for Valmo Partners",
         "raw": {
           "asset_identifier": "com.valmo.valmo",
@@ -120,6 +156,42 @@
         },
         "type": "GOOGLE_PLAY_APP_ID",
         "value": "com.valmo.valmo"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "console.valmo.in",
+          "asset_type": "URL",
+          "availability_requirement": "none",
+          "confidentiality_requirement": "none",
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": "none",
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "console.valmo.in"
+      },
+      {
+        "eligible_for_bounty": true,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "grocery-supplier.meesho.com",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": true,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "high"
+        },
+        "type": "URL",
+        "value": "grocery-supplier.meesho.com"
       },
       {
         "eligible_for_bounty": true,
@@ -414,7 +486,7 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": false,
-        "instructions": " ",
+        "instructions": null,
         "raw": {
           "asset_identifier": "agency.meesho.com",
           "asset_type": "URL",
@@ -422,7 +494,7 @@
           "confidentiality_requirement": "none",
           "eligible_for_bounty": false,
           "eligible_for_submission": false,
-          "instruction": " ",
+          "instruction": null,
           "integrity_requirement": "none",
           "max_severity": "none"
         },
@@ -446,24 +518,6 @@
         },
         "type": "URL",
         "value": "atlas.valmo.in"
-      },
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": false,
-        "instructions": " ",
-        "raw": {
-          "asset_identifier": "console.valmo.in",
-          "asset_type": "URL",
-          "availability_requirement": "none",
-          "confidentiality_requirement": "none",
-          "eligible_for_bounty": false,
-          "eligible_for_submission": false,
-          "instruction": " ",
-          "integrity_requirement": "none",
-          "max_severity": "none"
-        },
-        "type": "URL",
-        "value": "console.valmo.in"
       },
       {
         "eligible_for_bounty": false,
@@ -500,24 +554,6 @@
         },
         "type": "URL",
         "value": "farmiso.meeshosupply.com"
-      },
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": false,
-        "instructions": " ",
-        "raw": {
-          "asset_identifier": "grocery-supplier.meesho.com",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": false,
-          "instruction": " ",
-          "integrity_requirement": null,
-          "max_severity": "none"
-        },
-        "type": "URL",
-        "value": "grocery-supplier.meesho.com"
       },
       {
         "eligible_for_bounty": false,

@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "9a403197fd2ae69e5e5d03b8e43734907507808c7112a7bc74a42c7ee6cc6354",
+    "record_sha256": "f1f9d61c80a8e2ce3ccaeedcce33418708da4d10e9014fa20b903ddd3a9689d3",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "tesco",
@@ -468,6 +468,24 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "6752770783",
+          "asset_type": "APPLE_STORE_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "APPLE_STORE_APP_ID",
+        "value": "6752770783"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
         "instructions": "Please report any low/medium/high vulnerabilities here: https://www.dunnhumby.com/security.txt",
         "raw": {
           "asset_identifier": "Dunnhumby (Non-Critical)",
@@ -518,6 +536,60 @@
         },
         "type": "GOOGLE_PLAY_APP_ID",
         "value": "com.tescobank.mobile"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "com.travelex.money.tesco",
+          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "GOOGLE_PLAY_APP_ID",
+        "value": "com.travelex.money.tesco"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://tmo.tescotravelmoney.com/",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://tmo.tescotravelmoney.com/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "https://www.tescotravelmoney.com/*",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "WILDCARD",
+        "value": "https://www.tescotravelmoney.com/*"
       }
     ]
   },
