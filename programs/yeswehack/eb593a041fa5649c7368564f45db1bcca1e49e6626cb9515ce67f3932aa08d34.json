@@ -1,0 +1,109 @@
+{
+  "id": "yeswehack:boursobank-bug-bounty-program",
+  "metadata": {
+    "disabled": false,
+    "id": "boursobank-bug-bounty-program",
+    "managed": null,
+    "max_bounty": 3000,
+    "min_bounty": 50,
+    "name": "BoursoBank Bug Bounty Program",
+    "public": true
+  },
+  "name": "BoursoBank Bug Bounty Program",
+  "platform": "yeswehack",
+  "schema_version": 1,
+  "source": {
+    "path": "data/yeswehack_data.json",
+    "record_sha256": "a0dca5955509d0c85df499a7895d3eab86520915585a84c1d9a2e12c9ff9b156",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "boursobank-bug-bounty-program",
+  "source_status": {
+    "field": "disabled",
+    "value": false
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://play.google.com/store/apps/details?id=com.boursorama.android.clients",
+          "type": "mobile-application-android"
+        },
+        "type": "mobile-application-android",
+        "value": "https://play.google.com/store/apps/details?id=com.boursorama.android.clients"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "https://apps.apple.com/fr/app/boursobank/id425368900",
+          "type": "mobile-application-ios"
+        },
+        "type": "mobile-application-ios",
+        "value": "https://apps.apple.com/fr/app/boursobank/id425368900"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "api.boursobank.com",
+          "type": "api"
+        },
+        "type": "api",
+        "value": "api.boursobank.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "clients.boursobank.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "clients.boursobank.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "tradingboard.boursobank.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "tradingboard.boursobank.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "www.boursobank.com",
+          "type": "web-application"
+        },
+        "type": "web-application",
+        "value": "www.boursobank.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "target": "All domains or subdomains not listed in the above list of 'Scopes'",
+          "type": "other"
+        },
+        "type": "other",
+        "value": "All domains or subdomains not listed in the above list of 'Scopes'"
+      }
+    ]
+  },
+  "url": "https://yeswehack.com/programs/boursobank-bug-bounty-program"
+}

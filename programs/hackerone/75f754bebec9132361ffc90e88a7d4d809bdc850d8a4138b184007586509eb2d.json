@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "ca5955914cd192dbe43845d602aaf8d4c7fe8e0d83501463721cb679e00bc71a",
+    "record_sha256": "2e018c8a6c828f6a5d660aeac210dfb660a6b3aabffff59ebc64bfb9323b0b83",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "henkel_vdp",
@@ -718,20 +718,20 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": true,
-        "instructions": "",
+        "instructions": null,
         "raw": {
-          "asset_identifier": "*.got2b.com",
+          "asset_identifier": "*.got2b.{com,jp}",
           "asset_type": "WILDCARD",
           "availability_requirement": null,
           "confidentiality_requirement": null,
           "eligible_for_bounty": false,
           "eligible_for_submission": true,
-          "instruction": "",
+          "instruction": null,
           "integrity_requirement": null,
           "max_severity": "critical"
         },
         "type": "WILDCARD",
-        "value": "*.got2b.com"
+        "value": "*.got2b.{com,jp}"
       },
       {
         "eligible_for_bounty": false,
@@ -750,6 +750,24 @@
         },
         "type": "WILDCARD",
         "value": "*.hairshop.hr"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.henkel-ac.jp",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.henkel-ac.jp"
       },
       {
         "eligible_for_bounty": false,
@@ -1866,6 +1884,24 @@
         },
         "type": "WILDCARD",
         "value": "*.loctite.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "*.loctite.jp",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.loctite.jp"
       },
       {
         "eligible_for_bounty": false,
@@ -3094,6 +3130,24 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.schwarzkopf-henkel.jp",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.schwarzkopf-henkel.jp"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
         "instructions": "schwarzkopf scope including any TLD",
         "raw": {
           "asset_identifier": "*.schwarzkopf.*",
@@ -3198,6 +3252,24 @@
         },
         "type": "WILDCARD",
         "value": "*.sexyhair.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "*.shiseido-professional.com",
+          "asset_type": "WILDCARD",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "WILDCARD",
+        "value": "*.shiseido-professional.com"
       },
       {
         "eligible_for_bounty": false,
@@ -4944,6 +5016,24 @@
         },
         "type": "URL",
         "value": "uat.www.shrndconsumer.henkel-consumer-brands.cn"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": true,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "www.freshlight.jp",
+          "asset_type": "URL",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": true,
+          "instruction": "",
+          "integrity_requirement": null,
+          "max_severity": "critical"
+        },
+        "type": "URL",
+        "value": "www.freshlight.jp"
       },
       {
         "eligible_for_bounty": false,
