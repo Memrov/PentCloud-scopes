@@ -1,0 +1,302 @@
+{
+  "id": "intigriti:0fd1d85b-2d33-4966-b5a0-caabfda5108e",
+  "metadata": {
+    "company_handle": "ninjakiwigames",
+    "confidentiality_level": "public",
+    "handle": "ninjakiwigames",
+    "id": "0fd1d85b-2d33-4966-b5a0-caabfda5108e",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 4125
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 75
+    },
+    "name": "Ninja Kiwi Games Bug Bounty program",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/ninjakiwigames/ninjakiwigames/detail"
+  },
+  "name": "Ninja Kiwi Games Bug Bounty program",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "4b34dd668d9c7a5ddca4536cd57008539c98779628aacbe235991bb1881f94ea",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "0fd1d85b-2d33-4966-b5a0-caabfda5108e",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This domain hosts the API that consumed analytics events from our game clients",
+        "raw": {
+          "description": "This domain hosts the API that consumed analytics events from our game clients",
+          "endpoint": "analytics.ninjakiwi.com",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "analytics.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This domain hosts the API for our mobile and PC games. Monitoring traffic through one of our game clients is the easiest method to investigate our main API. Most of our applications are available for free on [Steam](https://store.steampowered.com/developer/ninjakiwigames/#browse). Please carefully read the in-scope section regarding what sorts of exploits will be considering in-scope for this domain.",
+        "raw": {
+          "description": "This domain hosts the API for our mobile and PC games. Monitoring traffic through one of our game clients is the easiest method to investigate our main API. Most of our applications are available for free on [Steam](https://store.steampowered.com/developer/ninjakiwigames/#browse). Please carefully read the in-scope section regarding what sorts of exploits will be considering in-scope for this domain.",
+          "endpoint": "api.ninjakiwi.com",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "api.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is the backend services for certain BTD6 in-game features such as Contested Territories and the Map Creator.",
+        "raw": {
+          "description": "This is the backend services for certain BTD6 in-game features such as Contested Territories and the Map Creator.",
+          "endpoint": "guts.ninjakiwi.com",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "guts.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "ninjakiwi.me is a domain which hosts many of Ninja Kiwi's employtee only services. Any subdomain is eligible for the program.",
+        "raw": {
+          "description": "ninjakiwi.me is a domain which hosts many of Ninja Kiwi's employtee only services. Any subdomain is eligible for the program.",
+          "endpoint": "*.ninjakiwi.me",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.ninjakiwi.me"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This domain hosts static content for Ninja Kiwi games and website.",
+        "raw": {
+          "description": "This domain hosts static content for Ninja Kiwi games and website.",
+          "endpoint": "*.nkstatic.com",
+          "impact": "Tier 2",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.nkstatic.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Battles.tv is used to share replays from our Bloons TD Battles game.",
+        "raw": {
+          "description": "Battles.tv is used to share replays from our Bloons TD Battles game.",
+          "endpoint": "battles.tv",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "battles.tv"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This domain hosts our **public** data API which grants open access to in-game data from our biggest games. For example player profiles, leaderboards and event information is available through this domain.",
+        "raw": {
+          "description": "This domain hosts our **public** data API which grants open access to in-game data from our biggest games. For example player profiles, leaderboards and event information is available through this domain.",
+          "endpoint": "data.ninjakiwi.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "data.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This domain is used by Ninja Kiwi for our URL shortener service, ie https://ninja.kiwi/intigriti.",
+        "raw": {
+          "description": "This domain is used by Ninja Kiwi for our URL shortener service, ie https://ninja.kiwi/intigriti.",
+          "endpoint": "ninja.kiwi",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "ninja.kiwi"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "Please note that the ninjakiwi.com domain has a number of subdomains which are not in-scope. These are domains which are managed by third party providers. This includes (but it not limited to):\n- support.ninjakiwi.com\n- store.ninjakiwi.com\n- btd6store.ninjakiwi.com\n- battles2store.ninjakiwi.com\n\nIf you are unsure please feel free to reach out to us at security@ninjakiwi.com.",
+        "raw": {
+          "description": "Please note that the ninjakiwi.com domain has a number of subdomains which are not in-scope. These are domains which are managed by third party providers. This includes (but it not limited to):\n- support.ninjakiwi.com\n- store.ninjakiwi.com\n- btd6store.ninjakiwi.com\n- battles2store.ninjakiwi.com\n\nIf you are unsure please feel free to reach out to us at security@ninjakiwi.com.",
+          "endpoint": "ninjakiwi.com",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "alerts.ninjakiwi.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "alerts.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "boomer2.ninjakiwi.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "boomer2.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "ct.ninjakiwi.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "ct.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "mynk-dash.ninjakiwi.com",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "mynk-dash.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This is a legacy domain which powers our Flash games. Uses Flash AMF. This service will be shut down in early December 2026 and is no longer eligible for bounty payments.",
+        "raw": {
+          "description": "This is a legacy domain which powers our Flash games. Uses Flash AMF. This service will be shut down in early December 2026 and is no longer eligible for bounty payments.",
+          "endpoint": "mynk.ninjakiwi.com",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "mynk.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This domain will be considered out of scope unless it can be shown to allow an exploit on one of our Tier 1-3 domains.",
+        "raw": {
+          "description": "This domain will be considered out of scope unless it can be shown to allow an exploit on one of our Tier 1-3 domains.",
+          "endpoint": "*.souparea.com",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.souparea.com"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "rancher.ninjakiwi.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "rancher.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "rancher.ninjakiwi.me",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "rancher.ninjakiwi.me"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "If you've found an issue with this domain you can contact Shopify here - https://www.shopify.com/bugbounty",
+        "raw": {
+          "description": "If you've found an issue with this domain you can contact Shopify here - https://www.shopify.com/bugbounty",
+          "endpoint": "store.ninjakiwi.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "store.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "If you've found an issue with this domain you can contact Zendesk here - https://support.zendesk.com/hc/en-us/articles/4409154830874-Zendesk-Bug-Bounty-Program",
+        "raw": {
+          "description": "If you've found an issue with this domain you can contact Zendesk here - https://support.zendesk.com/hc/en-us/articles/4409154830874-Zendesk-Bug-Bounty-Program",
+          "endpoint": "support.ninjakiwi.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "support.ninjakiwi.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "icarusadmin.ninjakiwi.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "icarusadmin.ninjakiwi.com"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/ninjakiwigames/ninjakiwigames/detail"
+}

@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "366580de1c326fe43f5f959f8000878435b366ed9977e66cd484ac5bcd45b8d4",
+    "record_sha256": "f5ffce0dd08b02186fe0d13cde496944c486c190c7156fffb80f09b15de2aebd",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "marriott",
@@ -822,24 +822,6 @@
         },
         "type": "URL",
         "value": "prod-mipaasiaasservices.marriott.com"
-      },
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": true,
-        "instructions": null,
-        "raw": {
-          "asset_identifier": "reservations.all-inclusive.marriott.com",
-          "asset_type": "URL",
-          "availability_requirement": "high",
-          "confidentiality_requirement": "high",
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": "high",
-          "max_severity": "critical"
-        },
-        "type": "URL",
-        "value": "reservations.all-inclusive.marriott.com"
       },
       {
         "eligible_for_bounty": true,
@@ -1688,6 +1670,24 @@
         },
         "type": "URL",
         "value": "psp.marriott.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "reservations.all-inclusive.marriott.com",
+          "asset_type": "URL",
+          "availability_requirement": "high",
+          "confidentiality_requirement": "high",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "high",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "reservations.all-inclusive.marriott.com"
       },
       {
         "eligible_for_bounty": false,

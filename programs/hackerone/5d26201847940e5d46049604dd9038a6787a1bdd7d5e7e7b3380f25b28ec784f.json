@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "a6a306b47990b43d4b33b2c48e70cc4ac6b2a7cc0b4e7f3c6117a34bddd80bd7",
+    "record_sha256": "3259b81f46f579cd68a09bcbeffd202d796b47d2ed7e42e9fe5295488cd95eff",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "bitwarden",
@@ -138,24 +138,6 @@
         },
         "type": "GOOGLE_PLAY_APP_ID",
         "value": "com.x8bit.bitwarden"
-      },
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": true,
-        "instructions": null,
-        "raw": {
-          "asset_identifier": "docs.passwordless.dev",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        "type": "URL",
-        "value": "docs.passwordless.dev"
       },
       {
         "eligible_for_bounty": false,
@@ -376,24 +358,6 @@
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": true,
-        "instructions": null,
-        "raw": {
-          "asset_identifier": "v4.passwordless.dev",
-          "asset_type": "URL",
-          "availability_requirement": null,
-          "confidentiality_requirement": null,
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": null,
-          "max_severity": "critical"
-        },
-        "type": "URL",
-        "value": "v4.passwordless.dev"
-      },
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": true,
         "instructions": "",
         "raw": {
           "asset_identifier": "vault.bitwarden.com",
@@ -506,6 +470,222 @@
         "eligible_for_submission": false,
         "instructions": null,
         "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-authenticator-research",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-authenticator-research"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-blazor",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-blazor"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-blazor-webassembly",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-blazor-webassembly"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-caniuse",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-caniuse"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-client-js",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-client-js"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-demo-backend",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-demo-backend"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-devops",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-devops"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-docs",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-docs"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-dotnet",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-dotnet"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-java",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-java"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-nodejs",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-nodejs"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-python",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-python"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
           "asset_identifier": "https://github.com/bitwarden/passwordless-react-example",
           "asset_type": "SOURCE_CODE",
           "availability_requirement": "not_defined",
@@ -518,6 +698,24 @@
         },
         "type": "SOURCE_CODE",
         "value": "https://github.com/bitwarden/passwordless-react-example"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/bitwarden/passwordless-server",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/bitwarden/passwordless-server"
       },
       {
         "eligible_for_bounty": false,
@@ -554,6 +752,60 @@
         },
         "type": "SOURCE_CODE",
         "value": "https://github.com/bitwarden/rotation-daemon"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/passwordless",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/passwordless"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/passwordless/passwordless-dotnet-example",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/passwordless/passwordless-dotnet-example"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://github.com/passwordless/webauthn-fido2-key-remover",
+          "asset_type": "SOURCE_CODE",
+          "availability_requirement": null,
+          "confidentiality_requirement": null,
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": null,
+          "max_severity": "none"
+        },
+        "type": "SOURCE_CODE",
+        "value": "https://github.com/passwordless/webauthn-fido2-key-remover"
       }
     ]
   },

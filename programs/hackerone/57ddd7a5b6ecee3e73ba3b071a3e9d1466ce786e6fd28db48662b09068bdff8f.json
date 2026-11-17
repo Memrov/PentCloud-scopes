@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "681eb736266a548bc1c5a614519d2034b760c373b641c4f5112ea590efad2fa1",
+    "record_sha256": "afd38936b09aeb2bd418bbe5878360a9b8a12436008e2c205a8f54f4f6a47611",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "mondelez",
@@ -2286,24 +2286,6 @@
         "eligible_for_submission": true,
         "instructions": null,
         "raw": {
-          "asset_identifier": "https://www.lojamondelez.com.br/",
-          "asset_type": "URL",
-          "availability_requirement": "not_defined",
-          "confidentiality_requirement": "not_defined",
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": "not_defined",
-          "max_severity": "critical"
-        },
-        "type": "URL",
-        "value": "https://www.lojamondelez.com.br/"
-      },
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": true,
-        "instructions": null,
-        "raw": {
           "asset_identifier": "https://www.tatesbakeshop.com",
           "asset_type": "URL",
           "availability_requirement": null,
@@ -2784,24 +2766,6 @@
         },
         "type": "URL",
         "value": "liga.nl"
-      },
-      {
-        "eligible_for_bounty": false,
-        "eligible_for_submission": true,
-        "instructions": null,
-        "raw": {
-          "asset_identifier": "lojamondelez.com.br",
-          "asset_type": "URL",
-          "availability_requirement": "none",
-          "confidentiality_requirement": "none",
-          "eligible_for_bounty": false,
-          "eligible_for_submission": true,
-          "instruction": null,
-          "integrity_requirement": "none",
-          "max_severity": "critical"
-        },
-        "type": "URL",
-        "value": "lojamondelez.com.br"
       },
       {
         "eligible_for_bounty": false,
@@ -6764,6 +6728,42 @@
         },
         "type": "URL",
         "value": "https://gifts.tatesbakeshop.com"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "https://www.lojamondelez.com.br/",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "https://www.lojamondelez.com.br/"
+      },
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": null,
+        "raw": {
+          "asset_identifier": "lojamondelez.com.br",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": null,
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "lojamondelez.com.br"
       },
       {
         "eligible_for_bounty": false,

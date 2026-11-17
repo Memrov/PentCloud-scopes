@@ -1,0 +1,588 @@
+{
+  "id": "intigriti:2cf03670-6a2d-4ac7-8b1e-2e0d84338204",
+  "metadata": {
+    "company_handle": "uz leuven",
+    "confidentiality_level": "public",
+    "handle": "uzleuven",
+    "id": "2cf03670-6a2d-4ac7-8b1e-2e0d84338204",
+    "max_bounty": {
+      "currency": "EUR",
+      "value": 5000
+    },
+    "min_bounty": {
+      "currency": "EUR",
+      "value": 50
+    },
+    "name": "UZ Leuven",
+    "status": "open",
+    "tacRequired": false,
+    "twoFactorRequired": false,
+    "url": "https://www.intigriti.com/programs/uz%20leuven/uzleuven/detail"
+  },
+  "name": "UZ Leuven",
+  "platform": "intigriti",
+  "schema_version": 1,
+  "source": {
+    "path": "data/intigriti_data.json",
+    "record_sha256": "24144487a1d839cb5df0da81fbbbec5a6eadc5bed9ba7d53b1bb2b2d74acb650",
+    "repository": "arkadiyt/bounty-targets-data"
+  },
+  "source_id": "2cf03670-6a2d-4ac7-8b1e-2e0d84338204",
+  "source_status": {
+    "field": "status",
+    "value": "open"
+  },
+  "targets": {
+    "in_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "autodiscover.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "autodiscover.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "ecrf.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "ecrf.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "extranet-asa.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "extranet-asa.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "extranet.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "extranet.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "liquidfiles.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "liquidfiles.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "mx1.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "mx1.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "mx2.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "mx2.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "pcrstudioruzb.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "pcrstudioruzb.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "prddsplunkhf.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "prddsplunkhf.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "sts.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "sts.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "www.uzleuven.be",
+          "impact": "Tier 1",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "www.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "These are the ip's used by our reverse proxy.\nThe Host header will determine the bounty tier.\nIf a report is submitted where the Host header is not used we will default to Tier 2.",
+        "raw": {
+          "description": "These are the ip's used by our reverse proxy.\nThe Host header will determine the bounty tier.\nIf a report is submitted where the Host header is not used we will default to Tier 2.",
+          "endpoint": "193.58.149.121,193.58.149.98,193.58.149.82,193.58.149.101,193.58.149.107,193.58.149.108,193.58.149.111",
+          "impact": "Tier 2",
+          "type": "iprange"
+        },
+        "type": "iprange",
+        "value": "193.58.149.121,193.58.149.98,193.58.149.82,193.58.149.101,193.58.149.107,193.58.149.108,193.58.149.111"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "* access to /api/ should only work from BE or NL ip's\n* access to other paths or / should not work",
+        "raw": {
+          "description": "* access to /api/ should only work from BE or NL ip's\n* access to other paths or / should not work",
+          "endpoint": "wp5-truststroke.uzleuven.be",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "wp5-truststroke.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This webapp should return a http 403 error due to ip whitelisting.",
+        "raw": {
+          "description": "This webapp should return a http 403 error due to ip whitelisting.",
+          "endpoint": "cardsonline.azdiest.be",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "cardsonline.azdiest.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "liquidfilestest.uzleuven.be",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "liquidfilestest.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "random.uzleuven.be/random/",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "random.uzleuven.be/random/"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "teststs.uzleuven.be",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "teststs.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "w1.uzleuven.be",
+          "impact": "Tier 2",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "w1.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "This webapp should return a http 403 error due to ip whitelisting.",
+        "raw": {
+          "description": "This webapp should return a http 403 error due to ip whitelisting.",
+          "endpoint": "cardsonlinetst.azdiest.be",
+          "impact": "Tier 3",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "cardsonlinetst.azdiest.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.kwsdose.be",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.kwsdose.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.playuzleuven.be",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.playuzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": "#### *.uzleuven.be (tier 3) only applies to everything that hasn't been listed in the scope.",
+        "raw": {
+          "description": "#### *.uzleuven.be (tier 3) only applies to everything that hasn't been listed in the scope.",
+          "endpoint": "*.uzleuven.*",
+          "impact": "Tier 3",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.uzleuven.*"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.contactallerg(y|ie).uzleuven.be",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.contactallerg(y|ie).uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*.mir.uzleuven.be",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*.mir.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*dev.uzleuven.be",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*dev.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*idp*.uzleuven.be",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*idp*.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "*stag*.uzleuven.be",
+          "impact": "No Bounty",
+          "type": "wildcard"
+        },
+        "type": "wildcard",
+        "value": "*stag*.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "files.uzleuven.be",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "files.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "kumulus.uzleuven.be",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "kumulus.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "mijnacc.uzleuven.be",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "mijnacc.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "mirc.uzleuven.be",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "mirc.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "prddnighting01.uzleuven.be",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "prddnighting01.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "w1.uzleuven.be/random",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "w1.uzleuven.be/random"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "ziekenhuisschool.be",
+          "impact": "No Bounty",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "ziekenhuisschool.be"
+      }
+    ],
+    "out_of_scope": [
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "boekentoy.uzleuven.be",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "boekentoy.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "uz-laboboeken.web.app",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "uz-laboboeken.web.app"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "laboboeken.uzleuven.be",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "laboboeken.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "boekentoy.firebaseio.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "boekentoy.firebaseio.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "uz-laboboeken.firebaseio.com",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "uz-laboboeken.firebaseio.com"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "jobs.uzleuven.be",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "jobs.uzleuven.be"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "uzleuven.atlassian.net",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "uzleuven.atlassian.net"
+      },
+      {
+        "eligible_for_bounty": null,
+        "eligible_for_submission": null,
+        "instructions": null,
+        "raw": {
+          "description": null,
+          "endpoint": "vacatures.uzleuven.be",
+          "impact": "Out of scope",
+          "type": "url"
+        },
+        "type": "url",
+        "value": "vacatures.uzleuven.be"
+      }
+    ]
+  },
+  "url": "https://www.intigriti.com/programs/uz%20leuven/uzleuven/detail"
+}

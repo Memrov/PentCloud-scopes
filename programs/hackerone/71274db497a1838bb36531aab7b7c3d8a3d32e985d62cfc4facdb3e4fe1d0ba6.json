@@ -21,7 +21,7 @@
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "6297407afbda2de4ecaaa56342c9b5bfc4f1671f5713284129ca0ff79d6c316a",
+    "record_sha256": "47d275c07de48ad740bdd9dc392b7b0d9e686b3a5235dee1a92121e9472f3f28",
     "repository": "arkadiyt/bounty-targets-data"
   },
   "source_id": "latamairlines",
@@ -1311,6 +1311,24 @@
       }
     ],
     "out_of_scope": [
+      {
+        "eligible_for_bounty": false,
+        "eligible_for_submission": false,
+        "instructions": "",
+        "raw": {
+          "asset_identifier": "http://croamis.latamcargo.com",
+          "asset_type": "URL",
+          "availability_requirement": "not_defined",
+          "confidentiality_requirement": "not_defined",
+          "eligible_for_bounty": false,
+          "eligible_for_submission": false,
+          "instruction": "",
+          "integrity_requirement": "not_defined",
+          "max_severity": "none"
+        },
+        "type": "URL",
+        "value": "http://croamis.latamcargo.com"
+      },
       {
         "eligible_for_bounty": false,
         "eligible_for_submission": false,
