@@ -1,30 +1,30 @@
 {
-  "id": "hackerone:moneybird",
+  "id": "hackerone:algolia",
   "metadata": {
     "allows_bounty_splitting": true,
-    "average_time_to_bounty_awarded": 207.0,
-    "average_time_to_first_program_response": 77.0,
-    "average_time_to_report_resolved": 21233.0,
-    "handle": "moneybird",
+    "average_time_to_bounty_awarded": 1770.0,
+    "average_time_to_first_program_response": 39.0,
+    "average_time_to_report_resolved": 2126.0,
+    "handle": "algolia",
     "id": 0,
     "managed_program": false,
-    "name": "Moneybird",
+    "name": "Algolia",
     "offers_bounties": true,
     "offers_swag": false,
-    "response_efficiency_percentage": 72,
+    "response_efficiency_percentage": 94,
     "submission_state": "open",
-    "url": "https://hackerone.com/moneybird",
-    "website": "https://www.moneybird.com"
+    "url": "https://hackerone.com/algolia",
+    "website": "https://algolia.com"
   },
-  "name": "Moneybird",
+  "name": "Algolia",
   "platform": "hackerone",
   "schema_version": 1,
   "source": {
     "path": "data/hackerone_data.json",
-    "record_sha256": "dc5c2087f20b445d25afbfd24409fa7c94c5f731a499d8d72401f403c78aecfd",
+    "record_sha256": "4b6c10c4b0ed04a12aa8b6697ebf041d4e5801d346bf96b59dc2e0823a257e18",
     "repository": "arkadiyt/bounty-targets-data"
   },
-  "source_id": "moneybird",
+  "source_id": "algolia",
   "source_status": {
     "field": "submission_state",
     "value": "open"
@@ -36,8 +36,8 @@
         "eligible_for_submission": true,
         "instructions": "",
         "raw": {
-          "asset_identifier": "com.moneybird.Moneybird",
-          "asset_type": "APPLE_STORE_APP_ID",
+          "asset_identifier": "*.algolia.net",
+          "asset_type": "WILDCARD",
           "availability_requirement": "high",
           "confidentiality_requirement": "high",
           "eligible_for_bounty": true,
@@ -46,16 +46,16 @@
           "integrity_requirement": "high",
           "max_severity": "critical"
         },
-        "type": "APPLE_STORE_APP_ID",
-        "value": "com.moneybird.Moneybird"
+        "type": "WILDCARD",
+        "value": "*.algolia.net"
       },
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
         "instructions": "",
         "raw": {
-          "asset_identifier": "com.moneybird.android",
-          "asset_type": "GOOGLE_PLAY_APP_ID",
+          "asset_identifier": "*.algolianet.com",
+          "asset_type": "WILDCARD",
           "availability_requirement": "high",
           "confidentiality_requirement": "high",
           "eligible_for_bounty": true,
@@ -64,15 +64,15 @@
           "integrity_requirement": "high",
           "max_severity": "critical"
         },
-        "type": "GOOGLE_PLAY_APP_ID",
-        "value": "com.moneybird.android"
+        "type": "WILDCARD",
+        "value": "*.algolianet.com"
       },
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
         "instructions": "",
         "raw": {
-          "asset_identifier": "moneybird.com",
+          "asset_identifier": "dashboard.algolia.com",
           "asset_type": "URL",
           "availability_requirement": "high",
           "confidentiality_requirement": "high",
@@ -83,14 +83,14 @@
           "max_severity": "critical"
         },
         "type": "URL",
-        "value": "moneybird.com"
+        "value": "dashboard.algolia.com"
       },
       {
         "eligible_for_bounty": true,
         "eligible_for_submission": true,
         "instructions": "",
         "raw": {
-          "asset_identifier": "moneybirdstorage.com",
+          "asset_identifier": "www.algolia.com",
           "asset_type": "URL",
           "availability_requirement": "high",
           "confidentiality_requirement": "high",
@@ -101,10 +101,10 @@
           "max_severity": "critical"
         },
         "type": "URL",
-        "value": "moneybirdstorage.com"
+        "value": "www.algolia.com"
       }
     ],
     "out_of_scope": []
   },
-  "url": "https://hackerone.com/moneybird"
+  "url": "https://hackerone.com/algolia"
 }
